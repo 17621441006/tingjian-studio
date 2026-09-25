@@ -4,7 +4,7 @@
 
 ## 运行
 
-需要 Node.js 22.12+。项目为静态网站。GitHub 源码与大型素材分开保存：先从本仓库 Releases 下载 `tingjian-studio-v17.zip`（完整代码、图片和模型），解压后即可运行；若先克隆源码，请从压缩包补齐 `dist` 和 `verification`。构建不会下载缺失素材。
+需要 Node.js 22.12+。项目为静态网站。**当前 GitHub 已同步 v17 可编辑源码，但大型运行素材尚未成功上传到 GitHub。** `dist` 目录不在当前仓库，Releases 目前也没有 `tingjian-studio-v17.zip`。线上站点仍可使用；在完整素材包补齐前，不要仅凭当前仓库重新部署或覆盖线上站点。构建不会下载缺失素材。
 
 ```sh
 npm ci
