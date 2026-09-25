@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-25T18:48:25.474336+00:00",
+  "mainCommit": "bc4c176ed3c7716f42a5368af8e060c109fedf82",
+  "archiveCommit": "122c79cd3768adee966d5b8d9b5adf4288f49d6b",
+  "freshCloneBuildCheck": true,
+  "allOriginalAssetsVerified": true,
+  "realLfsDownloadVerified": true,
+  "archiveSha256": "7677276e022fcd873087d9a4ee8423fd79a43014b568436c5f0747b09b8ad92c",
+  "ordinaryGitBytes": 254687310,
+  "distBytes": 266821152,
+  "archiveLfsBytes": 251670516,
+  "gitPlusLfsBytes": 506357826,
+  "limitBytes": 1000000000,
+  "workflowRun": "36175486855"
+}
