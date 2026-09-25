@@ -1,0 +1,30 @@
+name: Export built dist skeleton
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-built-dist.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Upload built dist skeleton
+        uses: actions/upload-artifact@v4
+        with:
+          name: tingjian-built-dist-skeleton
+          path: dist
+          compression-level: 0
+          retention-days: 1
