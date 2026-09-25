@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#191715"><title>暮色私邸 · 写实全景 VR</title><link rel="stylesheet" href="/vr/dusk/vr.css"></head><body>
+<main class="vr-shell">
+ <header class="vr-header"><div><span class="eyebrow">庭间 / 暮色私邸</span><h1>走进木与光</h1><p>八个空间，一次慢慢的环顾。</p></div><div class="vr-badge">360° 全景 · AI 补全</div></header>
+ <nav class="vr-rooms" aria-label="选择空间" data-rooms></nav>
+ <section class="vr-stage" data-stage tabindex="0" aria-label="全景，拖动环顾，滚轮缩放，也可使用方向键">
+  <canvas data-canvas aria-label="房间全景"></canvas>
+  <img class="vr-reference" data-reference alt="对应的原始设计图" hidden>
+  <div class="vr-stage-top"><div><span data-count></span><h2 data-title></h2></div><button data-fullscreen type="button">全屏 ↗</button></div>
+  <div class="vr-loading" data-loading role="status">正在准备全景…</div>
+  <div class="vr-error" data-error hidden role="alert"><p data-error-text></p><button data-retry type="button">重新载入</button></div>
+  <div class="vr-hotspots" data-hotspots aria-label="前往其他空间"></div>
+  <div class="vr-stage-bottom"><span data-hint>拖动环顾 · 滚轮 / 双指缩放</span><div><button data-zoom-in type="button" aria-label="拉近">＋</button><button data-zoom-out type="button" aria-label="拉远">−</button><button data-reset type="button">回到正前方</button></div></div>
+ </section>
+ <div class="vr-toolbar"><div><strong data-caption></strong><p data-status role="status" aria-live="polite"></p></div><div class="vr-actions"><button data-compare type="button" aria-pressed="false">对照原设计图</button><button data-xr type="button" hidden>进入头显 VR</button><a data-pano-download download>下载全景原图</a><button data-export type="button" class="primary">下载离线 VR</button></div></div>
+ <details class="vr-notes"><summary>全景依据与使用说明</summary><p data-description></p><p>每个房间是固定站位的球面全景，可以环顾与切换空间，不支持自由走动。空间跳转只用于浏览，不代表门洞的精确位置。此版本固定对应暮色基准搭配，尚不随选材自动重绘。</p><p>下载的 HTML 含全景、对照图与查看器，可在电脑浏览器打开。头显模式需兼容 WebXR 的设备和 HTTPS 或 localhost；控制器扳机切换下一间。当前全景为单目影像。</p><p>键盘方向键环顾，＋ / − 缩放，Home 复位；切换房间会回到该房间正前方。</p></details>
+</main>
+<script type="application/json" id="vr-data">__VR_DATA__</script>
+<script src="/vr/dusk/vr.js" defer></script></body></html>

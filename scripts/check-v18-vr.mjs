@@ -1,0 +1,30 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {DUSK_VR,duskVrMatch} from '../src/vr/dusk-manifest.mjs';
+import {offlineHtml} from '../src/vr/offline.mjs';
+const manifest=JSON.parse(await fs.readFile('verification/v18/panorama-assets.json','utf8'));
+assert.equal(DUSK_VR.rooms.length,8);assert.equal(manifest.assets.length,8);
+const embedded=structuredClone(DUSK_VR);embedded.offline=true;
+let bytes=0;
+for(const room of embedded.rooms){
+ const a=manifest.assets.find(a=>a.id===room.id);assert(a);
+ const b=await fs.readFile('dist'+room.pano);assert.equal(b.subarray(1,4).toString(),'PNG');
+ assert.equal(b.readUInt32BE(16),a.width);assert.equal(b.readUInt32BE(20),a.height);assert.equal(a.width,a.height*2);
+ assert.equal(createHash('sha256').update(b).digest('hex'),a.sha256);assert(b.length<25*1024*1024);bytes+=b.length;
+ const source=await fs.readFile('dist'+room.source);assert(source.length>1000);
+ room.pano='data:image/png;base64,'+b.toString('base64');room.source='data:image/jpeg;base64,'+source.toString('base64');
+ for(const id of room.neighbors)assert(DUSK_VR.rooms.some(r=>r.id===id));
+}
+const baseline={design:'dusk',frames:DUSK_VR.rooms.map(r=>({id:r.id,name:r.name,path:r.source}))};
+assert.deepEqual(duskVrMatch(baseline),{available:true,changed:[]});
+baseline.frames[0].path='/modified.jpg';assert.deepEqual(duskVrMatch(baseline).changed,['客厅']);
+assert.equal(duskVrMatch({...baseline,design:'east'}).available,false);
+const [html,css,js]=await Promise.all(['index.html','vr.css','vr.js'].map(p=>fs.readFile('dist/vr/dusk/'+p,'utf8')));
+const offline=offlineHtml(html,css,js,embedded);
+assert(!/^<script src=/m.test(offline));assert(!offline.split('</head>')[0].includes('<link rel="stylesheet"'));
+const parsed=JSON.parse(offline.match(/<script type="application\/json" id="vr-data">([\s\S]*?)<\/script>/)[1]);
+assert(parsed.offline);assert(parsed.rooms.every(r=>r.source.startsWith('data:')&&r.pano.startsWith('data:')));
+assert(!js.includes('sourceMappingURL'));assert(!js.includes('https://cdn.'));
+const report={passed:true,rooms:8,nativeResolution:[1774,887],panoramaBytes:bytes,offlineHtmlBytes:Buffer.byteLength(offline),originalImagesUnmodified:true,browserUITested:false,headsetTested:false,limitations:['AI-generated projection and seams are approximate; unseen geometry is inferred.','Static workflow has no managed browser preview; automated asset/export/state checks only.']};
+await fs.writeFile('verification/v18/vr-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);

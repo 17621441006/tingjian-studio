@@ -37,3 +37,12 @@ const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta 
 await fs.writeFile('dist/index.html',page);
 await fs.writeFile('dist/tour/index.html',page);
 console.log('Built HD home + tour alias; furniture laboratory isolated at /lab/');
+
+const {DUSK_VR}=await import('../src/vr/dusk-manifest.mjs');
+const vrData=structuredClone(DUSK_VR);
+const vrAssets=JSON.parse(await fs.readFile('verification/v18/panorama-assets.json','utf8'));for(const room of vrData.rooms){const row=vrAssets.assets.find(a=>a.id===room.id);if(!row)throw Error('Missing panorama metadata: '+room.id);Object.assign(room,{width:row.width,height:row.height});}
+await fs.mkdir('dist/vr/dusk',{recursive:true});
+await build({entryPoints:['src/vr/viewer.mjs'],bundle:true,minify:true,format:'iife',target:'es2022',outfile:'dist/vr/dusk/vr.js',legalComments:'inline'});
+await fs.copyFile('src/vr/vr.css','dist/vr/dusk/vr.css');
+await fs.writeFile('dist/vr/dusk/index.html',(await fs.readFile('src/vr/dusk.template.html','utf8')).replace('__VR_DATA__',JSON.stringify(vrData).replaceAll('<','\\u003c')));
+console.log('Built standalone dusk VR viewer; native panorama images retained.');

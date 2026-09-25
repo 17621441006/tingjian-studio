@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rooms": 8,
+  "nativeResolution": [
+    1774,
+    887
+  ],
+  "panoramaBytes": 16442355,
+  "offlineHtmlBytes": 28638370,
+  "originalImagesUnmodified": true,
+  "browserUITested": false,
+  "headsetTested": false,
+  "limitations": [
+    "AI-generated projection and seams are approximate; unseen geometry is inferred.",
+    "Static workflow has no managed browser preview; automated asset/export/state checks only."
+  ]
+}

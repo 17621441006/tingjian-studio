@@ -8,6 +8,7 @@ import {resolveScene,sceneAvailable,sceneAsset,sceneNote,sceneItems,sceneLabel,s
 import {PIECE_GROUPS,pieceGroups,pieceItem,changePiece,defaultPieces} from './home-pieces.mjs';
 import {exportEffectBook} from './whole-export.mjs';
 import PURCHASES from './purchase-data.json';
+import {duskVrMatch} from '../vr/dusk-manifest.mjs';
 
 export function initDesignJourney(root,gallery){
  const $=s=>root.querySelector(s),$$=s=>[...root.querySelectorAll(s)];
@@ -50,6 +51,7 @@ export function initDesignJourney(root,gallery){
   $('[data-journey-confirmbar]').hidden=step!=='style';$('[data-details-summary]').hidden=false;
   if(historyOpen){$('[data-home-panel]').hidden=true;$('[data-layout-panel]').hidden=true;$('[data-journey-details]').hidden=true;$('[data-whole-panel]').hidden=true;}
   modelApi?.setVisible(!historyOpen&&step==='whole'&&wholeView==='model');
+  if(historyOpen||step!=='whole')$('[data-dusk-vr-host]')?.replaceChildren();
  }
  function renderLayoutControls(){
   const roomList=$('[data-layout-rooms]');roomList.replaceChildren();
@@ -136,6 +138,14 @@ export function initDesignJourney(root,gallery){
   $('[data-whole-progress-wrap]').hidden=!wholeBusy;$('[data-whole-result]').hidden=!result;$('[data-whole-empty]').hidden=!!result;
   $('[data-whole-stale]').hidden=!stale;$('[data-whole-export]').disabled=!result||stale||wholeBusy||exportBusy;
   if(!result)return;
+  const vr=duskVrMatch(result),vrHost=$('[data-dusk-vr-host]');
+  $('[data-whole-view="vr"]').hidden=!vr.available;
+  if(wholeView==='vr'&&!vr.available)wholeView='model';
+  const vrVisible=vr.available&&wholeView==='vr'&&step==='whole'&&!historyOpen;
+  $('[data-dusk-vr-panel]').hidden=!vrVisible;
+  $('[data-dusk-vr-selection]').textContent=vr.changed.length?'你已修改 '+vr.changed.join('、')+'。下方仍是暮色基准全景，尚未重绘这些修改；请用“三维整屋 + 写实对照”查看已确认搭配。':'全景依据暮色基准搭配制作。可见细节以原设计图为参照，未展示区域为 AI 补全。';
+  if(vrVisible&&!vrHost.children.length){const iframe=document.createElement('iframe');iframe.title='暮色私邸 · 写实全景 VR';iframe.src='/vr/dusk/#'+wholeRoom;iframe.setAttribute('allow','fullscreen; xr-spatial-tracking');iframe.setAttribute('allowfullscreen','');vrHost.append(iframe);}
+  if(!vrVisible)vrHost.replaceChildren();
   $('[data-whole-title]').textContent=HOMES[result.design].name+' · '+result.frames.length+' 个空间';$('[data-whole-count]').textContent='8 / 8 个空间已确认 · 选材与三维同步';
   const mosaic=$('[data-whole-mosaic]');mosaic.replaceChildren();const nav=$('[data-whole-rooms]');nav.replaceChildren();
   for(const f of result.frames){

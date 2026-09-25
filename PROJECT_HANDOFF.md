@@ -1,3 +1,16 @@
+# 庭间 v18 · 暮色写实全景 VR
+
+- 新入口：空间设计 → 暮色 → 确认全屋 → 暮色写实 VR；独立地址 `/vr/dusk/`。
+- 八个空间支持拖动/触控环顾、缩放、房间跳转、原图对照和下载单文件离线 HTML。兼容设备可通过 WebXR 进入单目头显模式。
+- 用户授权合理补全未展示区域。全景为生成式固定站位影像，非测量复原或自由行走模型；几何、接缝、跨房间一致性仍有偏差。阳台视向客厅的沙发颜色与客厅基准不同。后续家具修改不会自动重绘，入口会列出与基准不同的房间。
+- 新全景原生 1774×887，未放大冒充高分辨率；原有 630 张图片、13 个模型和 24 项模型依赖逐字节保留。来源、提示词、尺寸与 SHA-256 见 `verification/v18/panorama-assets.json`。
+- `check-assets.mjs` 继续核验 v17 的 660 个非 HTML/JS/CSS 原始文件，允许本轮代码重建；v17 原始完整清单保持不变。
+- 核验：`npm ci && npm run build && npm run check`，`node scripts/check-assets.mjs`、`check-v18-vr.mjs`、`check-v17-ui.mjs`、`check-v17-floors.mjs`、`check-v16-assets.mjs`、`check-v16-model.mjs`。
+- 验证覆盖素材、离线打包、应用状态与延迟加载边界；当前静态项目无受支持的浏览器预览，未做真实浏览器或头显体验验收。
+- `archive/history-v17` 和其 LFS 快照保留原状。不要对 v18 手动运行旧的 `verify-and-archive-v17.yml`，它是 v17 一次性恢复流程；新增 CI 只读验证当前版本。
+
+---
+
 # 庭间 v17 · 完整资源恢复交接
 
 本轮状态以 `verification/v17/github-delivery.json`（GitHub Actions 验证后生成）及最新提交为准；以下旧记录保留作问题背景，不再代表最新恢复结果。

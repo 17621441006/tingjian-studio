@@ -1,0 +1,92 @@
+{
+  "mode": "built-in image_gen",
+  "scheme": "dusk",
+  "notes": [
+    "References visually inspected before generation.",
+    "Generated images copied without resizing, editing, recompression, or overwriting source references.",
+    "Projection is generated; exact geometric accuracy and seamless edges are not guaranteed and require viewer QA.",
+    "Unseen areas reconstructed by the model."
+  ],
+  "assets": [
+    {
+      "path": "dist/vr/dusk/panos/living.png",
+      "reference": "dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Preserve cognac leather sofa along right walnut wall, smoke glass round coffee table and beige rug in front, television and low walnut media unit opposite sofa on left, rear dining table and taupe chairs under small milk-glass pendant with landscape art, narrow bookshelf left and walnut sideboard/entry right. Camera above clear floor adjacent to coffee table. Reconstruct rear balcony side modestly. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2048983,
+      "id": "living",
+      "sha256": "42d5504308586669c9c7f2bee0bed35bea297ba1527c39f52cc6b7fdb95c3066"
+    },
+    {
+      "path": "dist/vr/dusk/panos/dining.png",
+      "reference": "dist/tour/home-assets/dusk/dining.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Image 1 is the primary dining room layout; image 2 provides adjoining living room identity. Center view toward rectangular walnut table, taupe upholstered chairs, off-white pendant, landscape art and wood panel wall. Narrow tall bookcase left, sideboard brass mushroom lamp and door right. Opposite direction opens to the living room with cognac leather sofa and round smoke glass coffee table, no second dining suite. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1940231,
+      "id": "dining",
+      "sha256": "c3b79a8765ca7de179cfcf53b2219ed90d0625f2a390b0707b47ce7ddbc8f037"
+    },
+    {
+      "path": "dist/vr/dusk/panos/balcony.png",
+      "reference": "dist/tour/home-assets/dusk/v16/balcony.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Enclosed narrow balcony with broad dark frame city-view window, long walnut bench cream cushion and tea set in front of window, small bronze drum table left, large ceramic planter tree right, gauzy curtains and interior sliding door on opposite side. Preserve urban towers and greenery in sunlight; warm walnut accents. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2182369,
+      "id": "balcony",
+      "sha256": "3691d613c68a0c2a29a3cec65a9b4f10fe8b05d4f7f9f4791ccbc848bd7c32c2"
+    },
+    {
+      "path": "dist/vr/dusk/panos/master.png",
+      "reference": "dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Master bedroom with linen upholstered double bed, cream bedding brown woven throw, low walnut headboard and floating side tables, brass lamps, framed landscape above, corner bay window to bed's left and separate tall window at right, greige curtains, warm timber flooring beige rug, simple walnut storage at entrance. Camera in clear walkway at foot of bed. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2016944,
+      "id": "master",
+      "sha256": "d4c373dcd6d837bf42c11dc15cf2c6733e78936a85106ad73f6bd153157c7377"
+    },
+    {
+      "path": "dist/vr/dusk/panos/second.png",
+      "reference": "dist/tour/home-assets/dusk/second.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Compact second bedroom/study: centered black frame window with cream sheers and city view, walnut writing desk and upholstered chair beneath window, brass dome table lamp and dark vase, narrow linen daybed with drawer base along right wall and overhead walnut storage with lit open shelf, brown throw, timber floor, woven rug. Reconstruct plain left wall and entrance behind, do not expand room into luxurious suite. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2103820,
+      "id": "second",
+      "sha256": "b1d311ef26a84e03fdd187f0af45bec30e4a755c167f8016a37fc11d109afac0"
+    },
+    {
+      "path": "dist/vr/dusk/panos/kitchen.png",
+      "reference": "dist/tour/home-assets/dusk/kitchen.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Compact U-shaped kitchen: sink under centered black-frame city window, walnut base cabinetry, pale beige stone backsplash and counters, taupe upper cabinets, black gas cooktop on right with range hood, built-in dark oven in tall cabinetry on left, understated plants and canister at back corner. Reconstruct rear door wall logically, no kitchen island. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1920942,
+      "id": "kitchen",
+      "sha256": "e103150b997e501ade9fff46906c1e7b52738ca47a657b4039095c6e38a1630b"
+    },
+    {
+      "path": "dist/vr/dusk/panos/bath.png",
+      "reference": "dist/tour/home-assets/dusk/bath.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Compact bathroom: walnut floating vanity centered below rounded-corner backlit mirror, beige stone tile everywhere, clear glass shower at left with brass fixtures, narrow frosted vertical window right of mirror, white toilet on right, brass towel rail. Mirror reflects modest entry doorway with no camera. Reconstruct hidden entry wall, no bath tub. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2139858,
+      "id": "bath",
+      "sha256": "0e5b03edbef97f89909fac01b9d333e0d3601b2582e5b84ebcd86ba747b48ac9"
+    },
+    {
+      "path": "dist/vr/dusk/panos/utility.png",
+      "reference": "dist/tour/home-assets/dusk/v16/utility.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: true 360-degree VR room panorama texture. Transform the reference room into one physically coherent full spherical EQUIRECTANGULAR 360x180 image, exact 2:1 aspect ratio, requested 3072x1536 pixels or highest native exact 2:1 resolution. This must be latitude-longitude projection covering entire room sphere, NOT a rectilinear wide-angle photograph. Horizontal x spans complete 360 degrees; vertical y spans +90 zenith to -90 nadir, eye-level horizon exactly at mid-height. Ceiling fills pole at top and floor fills bottom pole with correct equirectangular stretching. Left and right image edges represent the same rearward bearing and join seamlessly. Camera on clear floor approximately 1.55m high, main reference-facing direction centered at x=50%. Narrow enclosed laundry balcony: continuous floor-to-ceiling dark-frame city windows on left, silver washer/dryer stacked in walnut cabinetry on end wall, tall narrow cleaning tool niche to their right, walnut work counter right with basket under and upper cupboards, pale stone floor and warm strip lighting. Reconstruct entrance behind, preserve practical narrow proportions. Use attached photograph as strict reference for visible furniture identity, arrangement, materials, decor and light; reconstruct unseen sides reasonably and modestly with consistent warm walnut and neutral stone palette, without duplicating furniture. Photoreal interior photography, fine textures and plausible natural/reflected warm light. Complete ceiling and floor; no people, no camera/tripod, no text, no UI, no hotspots, no frames, no collage, no inset panels, no fisheye circle. Single continuous full-sphere environment map.",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2089208,
+      "id": "utility",
+      "sha256": "2c084433daad2c1d6d29f7a58d44d136332489976ced7e5ad6c717e408dc8a60"
+    }
+  ]
+}
