@@ -9,6 +9,8 @@
 - 验证覆盖素材、离线打包、应用状态与延迟加载边界；当前静态项目无受支持的浏览器预览，未做真实浏览器或头显体验验收。
 - `archive/history-v17` 和其 LFS 快照保留原状。不要对 v18 手动运行旧的 `verify-and-archive-v17.yml`，它是 v17 一次性恢复流程；新增 CI 只读验证当前版本。
 
+- 发布额外运行 `node scripts/prepare-hosting.mjs`，在忽略的 `build/` 中生成低于平台 256 MiB 的部署包。完整 `dist/` 不删减；仅线上新增八张 PNG 从 GitHub 固定提交加载，保留原字节及跨域支持。原有图片与模型全部仍由站点直接提供。网络必须能访问 raw.githubusercontent.com，离线 HTML 下载完成后不再依赖网络。
+
 ---
 
 # 庭间 v17 · 完整资源恢复交接

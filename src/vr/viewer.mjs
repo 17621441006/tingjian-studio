@@ -94,6 +94,7 @@ async function downloadOffline(){
   const blob=new Blob([html],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='庭间-暮色写实全景VR.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('离线 VR 已下载，包含八个全景、原图对照与查看器。');
  }catch{status('离线包未下载成功，请重试。页面内的全景不会受影响。');}finally{exporting=false;button.disabled=false;}
 }
+$('[data-pano-download]').addEventListener('click',async e=>{if(!active||!/^https?:/.test(active.pano))return;e.preventDefault();try{const r=await fetch(active.pano);if(!r.ok)throw Error('download');const url=URL.createObjectURL(await r.blob()),a=document.createElement('a');a.href=url;a.download='暮色-'+active.id+'-360全景.png';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);}catch{status('全景原图下载未完成，请重试。');}});
 $('[data-export]').addEventListener('click',downloadOffline);
 const observer=new ResizeObserver(draw);observer.observe(stage);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;renderer?.xr.getSession()?.end().catch(()=>{});}else draw();});
