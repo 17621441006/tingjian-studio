@@ -1,0 +1,30 @@
+name: Export source snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-source.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pack source
+        run: |
+          mkdir -p _snapshot
+          tar --exclude=.git --exclude=_snapshot -czf _snapshot/tingjian-source-main.tar.gz .
+      - name: Upload snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: tingjian-source-main
+          path: _snapshot/tingjian-source-main.tar.gz
+          compression-level: 0
+          retention-days: 1
