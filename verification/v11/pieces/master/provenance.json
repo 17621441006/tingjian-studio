@@ -1,0 +1,63 @@
+{
+  "task": "v11_dusk_beds",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in edit",
+  "input": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+  "request_count": 3,
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "aspect_ratio": "3:2",
+  "postprocessing": "None. Generated PNGs copied unchanged; no resizing, upscaling, compositing or overlays.",
+  "generation_order": [
+    "linen",
+    "leather",
+    "wood"
+  ],
+  "assets": [
+    {
+      "name": "linen",
+      "reference": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-57bf476b-fcc3-49c2-9c2f-a5efe077b409.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/master/linen.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photorealistic interior photograph for a bed selector; a single image, no collage.\nInput image 1 is the EDIT TARGET: the supplied compact 13.5 square metre dusk bedroom photograph.\nMake the LINEN BED anchor image. Keep the exact same camera, perspective, 3:2 horizontal frame, wall and ceiling geometry, room proportions, window and doorway openings, city view, curtains and sheers, air conditioner, wall artworks, ceiling lamp, brass bedside lamps, walnut wall panels, wardrobes/cabinets, floating nightstands, window bench, plants, vases, books, wood floor, and bed footprint/position. The bed must fit the same compact bedroom with the same sensible walking clearances; do not expand the room.\nReplace the bed structure only with a genuinely different refined modern luxury bed: a warm mink taupe fine linen/wool upholstered slim platform frame and a softly rounded, continuous upholstered headboard, low-profile clean construction, subtle welting and realistic tight fabric weave, elegant quiet curves. A freestanding furniture headboard in front of the existing walnut wall panel; preserve the wall panel and nightstands exactly. No giant boucle, no puffy cloud shapes, no bulky Chesterfield, no traditional Chinese furniture.\nEstablish the textiles to be identical in all later variants: ivory-white cotton duvet and two ivory-white sleeping pillows, small warm neutral accent cushions in the original positions, and one NARROW cocoa cashmere throw gently laid across the foot of the bed. Make the visible bed-rug off-white with fine dense weave, retaining its exact footprint and perspective. Keep credible naturally relaxed cotton folds; show enough of the slim upholstered side rails and foot rail to recognize the distinct bed.\nEditorial architectural PHOTO realism: real furnishings integrated into the room, true fine microtextures in linen, cotton, wood grain and plaster, natural soft contact shadows and reflections, physically plausible perspective and mattress support. Retain the source lighting direction and dusk ambiance with balanced warm-neutral white balance, no orange filter and no blue cast. Do not create a CGI render or pasted object.\nRender natively as a single 1536 x 1024 image, 3:2 aspect ratio. No text, watermarks, labels, overlays or decorative additions."
+    },
+    {
+      "name": "leather",
+      "reference": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/master/linen.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-8d39738b-ca9a-4a8f-b8bc-f2ea6bf43b5d.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/master/leather.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: one editorial photorealistic bedroom image for a three-bed selector, single 3:2 landscape image.\nInput image 1 is the EDIT TARGET and locked LINEN anchor. Change ONLY the freestanding BED STRUCTURE: headboard plus upholstered platform rails. Replace the taupe upholstered bed with a genuinely different elegant leather bed design.\nLEATHER bed: thin, precisely tailored cognac / dark-toffee leather side and foot rails; taller, gracefully wrapping wing headboard with two slender side returns curving forward around the sleeping pillows; a refined light silhouette with restrained architectural seams, fine natural leather pores, soft patina and understated edge piping. The headboard is recognizably taller and shaped differently from the linen anchor, a contemporary luxury furniture piece, not merely the same headboard recolored. No button tufting, no Chesterfield, no bulky wings, no puffy padding. Keep its exact original footprint, mattress height/size and fit within the compact 13.5 square metre bedroom, clear of lamps and nightstands.\nLOCK EVERYTHING ELSE TO THE ANCHOR: identical camera position, lens, framing, viewpoint and perspective; walls, ceiling, window and door openings, city view, curtains, sheers, AC, ceiling light, artworks, walnut wall panel, wardrobes and cabinets, floating nightstands, brass bedside lamps, window bench, plants, vases, books, floor and rug. Preserve their locations, dimensions, lighting, color and visible texture.\nLOCK THE BEDDING: same ivory-white cotton duvet and pillows, same small warm neutral accent cushions, same narrow cocoa cashmere throw, same exact fold arrangement and cushion positions. Do not change or recolor bedding. Keep the fine dense bed-rug and its footprint exactly as shown in the anchor. Change ONLY bed frame and headboard, preserving physically plausible contacts and natural occlusion behind the bedding.\nKeep the anchor's warm-neutral dusk white balance and soft shadows; true photographic leather texture and soft specular response under existing light. Real furniture integrated into the same room, with natural contact shadows; no pasted cutout, no CGI, no orange or blue filter.\nNative 1536 x 1024, 3:2 aspect ratio. No text, labels, logos, watermark, collage or new decoration."
+    },
+    {
+      "name": "wood",
+      "reference": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/master/linen.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-633c71ed-12bf-44a8-a886-a76f7041f5d1.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/master/wood.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: one editorial photorealistic bedroom image for a three-bed selector, single 3:2 landscape image.\nInput image 1 is the EDIT TARGET and locked LINEN anchor. Change ONLY the freestanding BED STRUCTURE: the headboard and platform rails. Create a genuinely different WOOD bed, not a recolor of the linen bed.\nWOOD bed design: refined smoked-walnut platform bed with visibly slim solid timber side rails and foot rail, subtly recessed support/base giving elegant lightness, precise joinery, real fine open wood grain; a slim gently curved timber headboard with smoothly radiused corners and a warm dark-toffee leather central inset pad behind the pillows. Leave an unmistakably visible walnut border above and around that central leather pad. Contemporary modern luxury, architectural and beautifully crafted, no traditional Chinese carving, no rustic planks, no slats, no heavy block base. Keep exact original bed footprint, mattress position/height, room clearance and sensible compact 13.5 square metre proportions.\nKeep the wood headboard within the original linen headboard envelope, sitting in front of the existing walnut wall panel. Preserve BOTH brass bedside lamps at their exact anchor positions, fully visible and separate from the bed; preserve the wall panel, outlets, switches and both nightstands without modification.\nLOCK EVERYTHING ELSE TO THE ANCHOR: identical camera, lens, framing, perspective; walls, ceiling, window and door openings, city view, curtains, sheers, AC, ceiling light, artworks, walnut wall panel, wardrobes/cabinets, floating nightstands, bedside lamps, window bench, plants, vases, books, wood floor and rug. Do not move, remove, resize or recolor these.\nLOCK BEDDING: identical ivory-white cotton duvet and pillows, same warm neutral accent cushions, identical narrow cocoa cashmere throw, the same drape, all fold patterns and exact cushion positions. Keep the fine dense bed-rug and its footprint exactly as in the anchor. Bedding remains on the same mattress; change only headboard and platform furniture around and beneath it.\nEditorial architectural PHOTO realism with fine leather pores, real walnut grain, cotton weave, soft contact shadows and plausible reflections under the existing light. Match the anchor's warm-neutral dusk illumination and white balance, no orange or blue filter, no CG/plastic appearance, no pasted object. No new room objects.\nRender natively as one 1536 x 1024 image, 3:2 aspect ratio. No text, labels, logos, watermark or collage."
+    }
+  ],
+  "inspection": {
+    "tool_failures": [],
+    "completed": "Exactly three single-image generations, each inspected. Distinct linen, wraparound leather, and walnut platform designs; shared camera, room geometry and principal bedding arrangement.",
+    "limitations": [
+      "Leather headboard extends in front of the left bedside lamp, largely hiding it, and the right lamp appears slightly lower than the anchor. Strict lamp invariance is not fully satisfied.",
+      "The generated rug stays warm beige/taupe with a fine patterned surface rather than clearly off-white.",
+      "The cocoa throw remains visibly textured and broader than the requested narrow cashmere treatment.",
+      "Bedding placement is closely matched but not pixel-identical across generated variants."
+    ]
+  }
+}

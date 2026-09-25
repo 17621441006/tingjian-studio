@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "method": "Actual Three.js scene-graph, material-selection and asset validation; no browser/GPU performance claim",
+  "livingCombinations": 30,
+  "verifiedPhotoPaths": 96,
+  "nativeNewImages": 14,
+  "modelRoomCount": 8,
+  "maxMeshes": 105,
+  "maxTriangles": 18372,
+  "historicalSourceFilesPreserved": 39
+}

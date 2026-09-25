@@ -1,0 +1,124 @@
+{
+  "style_id": "graphite",
+  "chinese_name": "墨棕夜叙",
+  "generator": "built-in image_gen.imagegen",
+  "created": "2026-09-25",
+  "delivery_directory": "/workspace/scratch/aa0f93406d63/v16-assets/graphite",
+  "format": "JPEG, native 1536x1024, quality95 subsampling0; no resize or crop",
+  "source_reference": "/workspace/scratch/aa0f93406d63/upload/9228.png (palette only)",
+  "floorplan_reference": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+  "project_reference_directory": "/workspace/sites/tingjian-studio/dist/tour/home-assets/copper",
+  "qa": {
+    "all_inputs_visually_inspected": true,
+    "all_outputs_visually_inspected": true,
+    "visual_inspection_notes": "Image-generation concept photos preserve representative shell and geography; dimensions are design constraints, not measured as-built certification.",
+    "no_site_checkout_edits": true,
+    "thumbnails": "Not created; parent agent handles."
+  },
+  "assets": [
+    {
+      "room": "living",
+      "file": "living.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-751cfdfd-ade9-4f4c-b7e4-7789079b2221.png",
+      "prompt": "Use case: photorealistic-natural.\nCreate exactly ONE native 1536x1024 landscape architectural photograph, an authentic small Shanghai high-rise home interior, style title 墨棕夜叙 (do not write words in image).\nInput references: Image 1 is ONLY a palette sample (graphite grey, espresso wood, tobacco leather, taupe wool, subtle old bronze); DO NOT COPY its huge L sofa, dramatic black-gold wall, glowing light strips or mansion scale. Image 2 is the ORIGINAL floorplan for 75.1 square metres, preserve footprint/openings. Image 3 is the physical camera geography to preserve: viewed from the main balcony toward rear dining, TV LEFT, compact sofa RIGHT, dining behind at center, kitchen-side opening LEFT behind TV, entry rear RIGHT. Image 4 shows reverse view only to help coherence.\nSubject: living room sharing a modest 21.4 square metre living/dining room, 2.65m ceiling. Keep narrow real apartment proportions and simple existing flat ceiling. Compact 2.08m straight tobacco leather sofa on RIGHT, softly rounded arms and gently curved back, real handgrain and modest seated wrinkles, NO chaise / NO sectional / NO L. Fine neutral grey wool rug. Thin pale honed limestone oval coffee table 95cm long on slender dark base. LEFT small charcoal stone TV panel only a little wider than 50-inch TV, quiet restrained natural grey veining; below a useful espresso wood closed storage cabinet, cabinet on feet or with small plinth, no underglow. Sofa wall plain warm graphite-grey limewash with ONE small framed abstract picture. A slim old-bronze reading floor lamp beside sofa and a small shaded lamp on the rear closed espresso sideboard, both genuinely functional; NO ceiling or wall perimeter light strips.\nRear dining has a compact rounded rectangle pale stone-topped table 1.25m long and FOUR lightweight taupe upholstered wood chairs; one simple small warm pendant above. Behind dining calm taupe wall and closed espresso sideboard; keep rear entry door and kitchen-side opening from image 3.\nFloor matte warm-grey stone-look porcelain with subtle normal joints, not glossy and not dramatically veined. Useful closed espresso storage, minimal believable personal details, one book and small ordinary ceramic bowl, no excessive vases or branch staging.\nPhotography: real renovation editorial photo, eye height 1.45m, 28mm full-frame lens, straight verticals, real depth and mild lens falloff, tiny texture irregularities, no fisheye, no ultrawide room inflation. Soft late afternoon daylight behind camera with warm practical lamps, medium exposure so all surfaces legible, warm but not orange, soft real shadows, restrained contrast. Should feel photographed in a lived-in 75.1sqm apartment, not a luxury lobby, not CG. No people, no logos, no text, no watermark. Output a single image, no collage or diagram.",
+      "visual_qa": "Camera toward rear dining. TV left, compact straight tobacco sofa right; oval pale table, grey wool rug, espresso closed storage; no L sofa or perimeter LED. Small stone panel retains fine warm natural veins.",
+      "byte_size": 602960,
+      "sha256": "625cb3259a7310e003e4dbcd5763f39e05af9f19b5436d512ad465666cc52993"
+    },
+    {
+      "room": "dining",
+      "file": "dining.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-8f705d99-138b-42e0-bb2e-3b296ca1647d.png",
+      "prompt": "Use case: photorealistic-natural. ONE native1536x1024 landscape, real small-home architectural photography.\nImage1 is the approved newly furnished living room in style 墨棕夜叙. Render the SAME actual room from its opposite end: photographer standing near rear entry/dining wall, looking across the dining table toward the main balcony. MATCH exactly image1's physical furniture, lighting, material grain and practical lived-in scale. Image2 provides ONLY reverse camera geography and structure: sofa LEFT, TV RIGHT, far balcony center. Image3 is original floorplan, total75.1sqm Shanghai apartment, common living/dining21.4sqm, original openings, ceiling2.65m.\nForeground compact1.25m rounded rectangular pale honed stone table with four thin espresso wood/taupe upholstered dining chairs (match image1 shape), no giant table. Middle distance compact2.08m softly rounded straight tobacco leather sofa LEFT with grey/taupe cushions; same oval pale honed coffee table on two dark cylindrical supports, same fine taupe-grey wool rug. RIGHT same small charcoal stone TV panel (only just wider than50-inchTV, subdued natural veining, absolutely no gold stripe graphic), espresso low closed cabinet without underglow, kitchen-side opening at extreme right. Above sofa same small framed geometric abstract art and slim bronze reading floorlamp close to near sofa end. Same calm graphite-grey plaster walls, simple white/taupe ceiling beam, warm grey matte tile floor. Not a wall of marble.\nFar main balcony original5sqm, glazing full height to floor, central LARGE UNINTERRUPTED clear glass pane WITHOUT waist-high transom/bar or midline; one narrow SIDE casement. At far RIGHT a single modest cocoa/tobacco reading armchair angled toward room, small lightweight movable round side table, discreet book ledge on short sidewall. NO bench, NO daybed, no sofa on balcony. Residential Shanghai high-rise view, normal neighbor buildings and trees in slightly hazy daylight. Existing inner sliding door threshold and structural sidewalls remain.\nNatural lateafternoon light clearly illuminating room; two useful warm lamps plus modest dining pendant, no decorative strip outlines, no fantasy glow. Moderate realistic contrast, genuine cotton/sheers, handgrained leather, not oversharpened. Eyeheight1.45m,28mm perspective, straight verticals, believable small proportions. No fisheye, no luxury-lobby scale, no people,text,logos,watermarks. One photograph only.",
+      "visual_qa": "Reverse same furnished common room. Sofa left, TV right, rear balcony center; matching table/chairs/coffee table/art/lamp/materials. Four dining chairs visible. Balcony single chair visible, no bench.",
+      "byte_size": 639962,
+      "sha256": "6ac45c920e37510e73924f2621e7ad5d7db291f64e55692bbb48f7a9d6e8b67b"
+    },
+    {
+      "room": "master",
+      "file": "master.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-f54c71c9-e20f-436b-8ba7-e5814c19e02b.png",
+      "prompt": "Use case: photorealistic-natural. One native1536x1024 landscape architectural PHOTO of the master bedroom in a real75.1sqm Shanghai highrise apartment, style墨棕夜叙, no written text.\nImage1 gives ONLY this same home's approved palette/materials: espresso wood, graphite and warm taupe, natural tobacco accents, muted oldbronze, honest pale stone. Image2 gives bedroom shell/camera/openings to retain, not its decorative design: small13.5sqm room,2.65m ceiling, doorway viewpoint; existing cornerwindow bay at back LEFT, narrow existing right window beside bed, wardrobes along left entrance, bed against back/right wall. Image3 originalfloorplan controls footprint and openings; no wall removal or larger room.\nRedesign bedroom with quiet understated modern comfort:1.8m double bed, softly curved warm taupe wool upholstered headboard, soft white cotton duvet with real modest wrinkles, two normal pillows and charcoal wool throw folded casually across foot. Low simple espresso wood headwall panel only behind bed, remaining upper walls light warm grey. Two small practical bedside tables and real oldbronze reading sconces; no LED strip border, no stone featurewall, no wave motif. Espresso closed wardrobe visible on entrance-side left, useful storage without excess open shelving. Timber floor warm smoked oak, subtle taupe flatweave bedside rug. Original cornerwindow shell remains with normal dark frames, plain sill (no cushioned bench), linen sheers pulled partly aside, realistic Shanghai neighbor highrises visible.\nPhotography1.45m eyeheight,28mm rectilinear lens, real apartment proportions and easy 50-65cm circulation, daylight-forward balanced morning natural light, gently warm not orange, original white ceiling simple small ceiling fixture, lights subtle or off. Materials have tiny imperfect details, real wood pore, soft wool and wrinkled linen, restrained postproduction. No oversharp CGI, no hotel suite, no grand scale,no fisheye, no text/logos/watermarks, no people, one photograph only.",
+      "visual_qa": "Existing visual corner-window shell retained; taupe upholstered double bed, white cotton bedding, charcoal throw, espresso wardrobe/headboard. More daylight, no glowing decorative wall.",
+      "byte_size": 564704,
+      "sha256": "524ddaa898a74dce5752fb802e66dc82d8c04d618643dbf9fac0faf236348165"
+    },
+    {
+      "room": "second",
+      "file": "second.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-9f6988f0-0017-49e7-a4c5-dd7f56030249.png",
+      "prompt": "Use case: photorealistic-natural. ONE native1536x1024 landscape real architectural photograph, small working/guest room in SAME Shanghai75.1sqm home, style墨棕夜叙.\nImage1 gives approved home palette, materials and realism only. Image2 is room shell reference ONLY, retain its narrow7.2sqm footprint,2.65m ceiling, doorway foreground and original far-end window; DO NOT COPY its window desk or right bench/daybed. Image3 originalfloorplan controls footprint/openings.\nCompletely DISTINCT useful7.2sqm workspace: on the RIGHT sidewall a closed VERTICAL foldaway single guest bed unit120cm wide, recognizably a practical flush graphite grey front with clean twin recessed pull handles and espresso wood outer cabinet, folded UP and fully closed, subtle hinge/foot hardware only at appropriate base. NO visible bed, NO bench/daybed/sofa anywhere. On LEFT sidewall perpendicular to window an INDEPENDENT slim espresso writing desk110cm wide50cm deep on thin legs, standing away from window; compact real taupe task chair, closed unbranded laptop, small readinglamp, pencilcup and one notebook. Narrow closed upper cabinet or one short shallow shelf above desk; keep center clear for chair and guest bed deployment, make foldaway cabinet height plausible~2.15m. Farwindow is left freely accessible, light taupe rollerblind raised, no furniture underneath except low plain sill. Floor smoked oak consistent with home, walls light warmgrey with graphite only at foldaway unit; small restrained bronze pulls. Make it clearly more daylit than lounge and function as everyday office, not styled guest bedroom.\nEyeheight1.45m from doorway,28mm lens, narrow room honest proportions, straight verticals. Soft neutral daylight through original window, ordinary Shanghai residential view, subtle material grain and tiny use marks, real photography not CG, no saturated orange glow/no strip LEDs/no decorative stone/goldveins/no windowdesk/no giant room/no text/logos/watermarks/no people.",
+      "visual_qa": "Distinct working room: closed vertical foldaway bed on right and independent slim sidewall desk on left; clear window and center. No bench/daybed/window desk.",
+      "byte_size": 512907,
+      "sha256": "adad90c6ce1ac9b1c14853c77be0be79c4787c9e7d042e7286b43e4dde8944e3"
+    },
+    {
+      "room": "kitchen",
+      "file": "kitchen.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-700b78b1-b7da-4ba1-8b30-4a1a2b76505d.png",
+      "prompt": "Use case: photorealistic-natural. Create one native1536x1024 landscape architectural PHOTO, honest6.6sqm kitchen of a75.1sqm Shanghai apartment with2.65m ceiling, style墨棕夜叙.\nImage1 gives same-home material palette/photographic language; use espresso wood, graphite grey, light honed countertop, restrained bronze. Image2 gives existing6.6sqm kitchen shell, window, doorway and small L-shaped arrangement; preserve all these openings and narrow original dimensions but remove its decorative greenstone/wave/LED design. Image3 originalfloorplan governs footprint. Keep original window on rearwall above sink, cooking run toRIGHT, tall integrated pantry/fridge toLEFT, doorway foreground.\nA practical compact L kitchen, graphite matt lower drawers with normal functional recessed pulls, warm espresso wood tall storage atLEFT, shallow warmgrey upper closed cabinets on RIGHT, pale honed stone counter and plain warm-grey smallformat backsplash with real grout, NO stone mountain/wave/goldveining decor. Standard stainless steel undermount sink under rear window, simple brushed metal faucet, modest built-in two-burner cooktop on right and a real concealed extractionhood. Useful clear countertop between sink and cooker, cuttingboard and normal small kettle only. Closed cabinets, dishwasher integrated front, practical corner geometry, no island, no added room, no oversized ovenbank. Plain modest ceiling light, functional hood tasklight may be gently on, no decorative light strips, no staged flowers.\nWindow daylight dominates, bright enough to see all dark cabinet detail, light neutral-grey atmosphere with mild warmth; slightly hazy Shanghai ordinary residential highrises. Matte grey floor matches living. Photograph from doorway at1.45m,28mm lens, restrained architectural perspective, real fingerprints/woodgrain/materialsoftness but tidy, believable compact apartment not showroom. No exaggerated wideangle, no oversharpened CG,no luxury lobby,no text/logos/watermarks,no people,oneimage.",
+      "visual_qa": "Original compact L-shaped arrangement and rear window/doorway retained visually. Graphite base, espresso tall unit, light countertop; sink rear, cooker right, useful closed storage and clear working area.",
+      "byte_size": 519467,
+      "sha256": "14a1d2d5c43b547bb92b190bd2cf4d545e12dde317c3fb41659a2775275ec504"
+    },
+    {
+      "room": "bath",
+      "file": "bath.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-55501356-301f-4154-a2d2-4854582c441f.png",
+      "prompt": "Use case: photorealistic-natural. ONE native1536x1024 landscape real architectural bathroom photograph for style墨棕夜叙 in same75.1sqmShanghai highrisehome.\nImage1: approved samehome palette, espresso wood, graphite and warmgrey, pale honed stone, oldbronze restrained fittings, natural material realism. Image2: shell and functional position reference ONLY, preserve original small4.3sqm rectangle,2.65m ceiling, doorwaycamera, showerLEFT, vanitybackcenter, toiletRIGHT and narrow original window backRIGHT. Image3: originalfloorplan controls footprint. Do not enlarge room, don't move plumbing/openings, no removed structural wall.\nMake this bathroom small and calm, lightwarmgrey porcelain walltiles in real600mm module with fine grout, slightly deeper graphite shower floor/backwall, compact clear glass shower partitionLEFT with proper hinges and sliding/hinged access, brushed dark bronze shower fitting with handset and modest round showerhead. Compact 90cm espresso floating vanity two drawers atback, pale honed stone counter with one ceramic inset basin, simple thin bronze framed mirror WITHOUT glowing LEDborder, one functional frosted-walllight above mirror. White ordinary toilet inRIGHT foreground. Original narrow privacyglass window backRIGHT lets soft diffuse dayligth in. One handtowel on useful rail and ordinary soap bottle; no decorative vases or branches. Clear visible floor and plausible aisle. No undercabinet lighting, no LEDstrips, no goldveins, no luxuryspabath.\nReal editorial photo at1.45m,28mm lens, straight lines, softly lit daylit interior, open natural exposure revealing realistic surface texture, neutral not orange, reflections physically correct with doorwayvisible but no camera person. No fisheye or oversharp CG,no hotelbathroomscale,no text/logos/watermarks,no people.",
+      "visual_qa": "Compact shower left, espresso floating vanity center, toilet right, narrow original privacy window. Functional mirror lamp without light borders, small-room scale.",
+      "byte_size": 557116,
+      "sha256": "b7487650381426774f3c5b1efbcafc89d6e3e807f8d5b4e4b451f07dfdd5f641"
+    },
+    {
+      "room": "balcony",
+      "file": "balcony.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-b50c71c1-bcbe-4392-8e4d-9d74ba04723d.png",
+      "prompt": "Use case: photorealistic-natural. Create ONE native1536x1024 landscape real home interior photograph of the MAIN5sqm enclosed balcony of same75.1sqmShanghai highrise apartment, style墨棕夜叙.\nImage1 is APPROVED dining photograph looking toward THIS balcony. Match exactly its full-height graphite frames, large uninterrupted central glazing, right-position single cocoa/tobacco wooden-frame reading armchair and small movable table. Image2 originalfloorplan defines5sqm rectangular balcony and existing main opening. Image3 approvedliving supplies home palette only.\nCamera now a little closer, standing just inside livingroom through existing fullwidth sliding balcony doorway, eyeheight1.45m, lens28mm, whole floor and balcony short sidewalls visible;5sqm no enlarged conservatory, ceiling2.65m. FULLHEIGHT safety glazing runs ALL THE WAY DOWN TO FLOOR with only normal slim perimeter frame. Large main centralpane is uninterrupted, NO waist-height horizontal bar, NO halfwall, no opaque base, no masonry windowsill. One narrow SIDE openingvent atRIGHT with normalhandle. Preserve doorway sidewalls, structural beam and flush existing balcony threshold. Nearest living-floor and a little curtain can appear at edges.\nFurniture: same SINGLE modest cocoa/tobacco upholstered woodframe armchair atRIGHT angled inward, comfortable compact72cm wide, one taupe cushion. Beside itsLEFT the same small lightweight movable round espresso/bronze side table, plain mug and book, keep floorfree. On RIGHT shortwall a slender espresso bookledge with just three worn paperbacks, no text legible. NO bench,daybed,sofa, built-inwindowseat or giant plants. Warmgrey matte floor same as living, plainlighttaupe sidewalls, understated linen sheers drawn aside. Real normal Shanghai residential highrise/trees view with atmospheric haze, not iconic skyline postcard. Daylight-forward quiet afternoon, warmneutral shadows, clear readable surfaces, minor grain and naturally creased upholstery, no plasticCG gloss, no dramatic lighting,noLEDstrips,no goldveins,no people/no logos/no text/no watermark. One photograph.",
+      "visual_qa": "Full-height clear central glazing reaches floor without mid-height crossbar; narrow side opening vent; single cocoa/tobacco reading chair, small movable table, book storage. No bench.",
+      "byte_size": 609301,
+      "sha256": "74422d165e088807c164af22bc3afdbe1eaf0e5b9cc33a61d430432365e3f768"
+    },
+    {
+      "room": "utility",
+      "file": "utility.jpg",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-147b72b3-a344-4d26-8829-c6bbc381df86.png",
+      "prompt": "Use case: photorealistic-natural. ONE native1536x1024 landscape architectural photograph of tiny2.5sqm service/utility balcony in original75.1sqmShanghai highrise apartment,2.65m ceiling, style墨棕夜叙.\nImage1 is approved same-home living for espresso/graphite/warmgrey palette and material realism. Image2 originalfloorplan defines narrow2.5sqm utility balcony left of kitchen with original footprint, exterior glazing opening and kitchen access. Image3 is utility photo ONLY for appliance-at-far-end / counter-right camera geography; explicitly DO NOT copy its opaque halfwall/windowsill or lightstrips.\nCRITICAL WINDOW CONSTRUCTION: LEFT exterior bay is FULL HEIGHT transparent glass DOWN TO THE FLOOR, existing opening retained, NO opaque halfwall, NO masonry windowsill, NO solid panel under window, NO excavation scene. Show glass touching floor in clear foreground. The LOWER TWO THIRDS are continuous FIXED clear safetyglass. Only an UPPER SMALL rectangular opening sash (~50x55cm near ceiling) is visibly AJAR by10cm with proper dark hinged frame, visible metal hinge/stay and latch/handle, upper sash separate from fixedlower glass. The lower fullheightpane remains closed. Glass layout and hardware easy to read, not a fullheightdoor. Outer dark frame slim and ordinary. Daylight, realistic neighboring Shanghai housingvisible.\nAt farend a standard60cm wide stacked washer and dryer in an ESPRESSO cabinet enclosure, exposed appliance fronts for operation, ventilation grille above and removable serviceplinth below, sufficient normal clearance and accessible hinges, adjacent very narrow broomstorage closeddoor. RIGHT a shallow38cm foldingcounter in pale stone over graphiteclosedstorage, smallbasket under a niche only ifspacepermits. One foldedtowel and utilitysoap, no decorativevases/plants. Cabinets all modest inreal2.5sqm geometry, no oversized cabinetbank. Mattewarmgrey floor, plainwarmgreywall, graphite cabinetpanels, espresso frame, subtlebronzehandle only; NO decorativeLEDstrips and NO glow around cabinetry.\nCamera at doorway eyeheight1.45m,28mmlens, straight verticals, allimportantglass-to-floor and upperopening hardware visible, narrow usefulcirculation realistic, daylightneutral lighting and fine honesttextures, slightly livedin notshowroom. No structuralwall removal, no new enlargedopening, no fisheye,nooversharpCG,nopeople,text,logos,watermarks;ONEphoto.",
+      "visual_qa": "Full-height fixed lower glazing reaches floor; upper small sash visibly ajar with handle and visible opening frame. Stacked appliances in ventilated cabinet, service plinth, shallow counter. No opaque half-wall.",
+      "byte_size": 551181,
+      "sha256": "871ab25984a449cf935fc583ee0909ea73ef04e143d3e05b5c35c2c1af7fe0f9"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "generation_mode": "built-in image_gen__imagegen",
+  "generation_count": 2,
+  "postprocessing": "None; unchanged copies from native generated PNGs.",
+  "corrections": [
+    {
+      "id": "daycool",
+      "revision": 2,
+      "prior_saved_path": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/daycool-first.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/daycool.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-6e8839ae-7ec0-4f91-85d5-de33ea44736e.png",
+      "request": {
+        "prompt": "Use case: lighting-weather.\nInput image 1 is the EDIT TARGET. Make a targeted lighting correction to this exact interior image. Preserve the camera, lens, perspective, image framing, room dimensions, ceiling geometry, every architectural edge, all furniture placements and every object. Keep the burgundy leather sofa, seams, cushions and throw, smoke-glass table and metal legs, rug, wood walls and cabinets, television, art, vases/branches, books/bowls, dining furniture, shelving, door and glass partition exactly as placed. Do not add, remove or restyle objects. Preserve true brown wood finish and burgundy leather, not changed finishes.\nCRITICAL CORRECTION: Every existing electric light source must visibly emit CLEAN NEUTRAL WHITE light, not amber, yellow, orange or golden light. Replace the amber emissions visible in the target. This applies to ALL ceiling coves, ALL recessed downlights and their light cones on walls, the ceiling drum fixture, the dining pendant, and the small table lamp on the cabinet. Every luminous shade and diffuser should read luminous neutral WHITE; the cove's bright strip and adjacent ceiling/plaster must be neutral WHITE. Replace warm pools on the ceiling and walls with clean white source illumination. White/light plaster and gray/ivory artwork/rug should read neutral under the LEDs. Natural brown wood remains naturally brown through material reflectance. Do not use a global blue filter, do not make lamps blue, do not bleach the wood or recolor the sofa.\nPhotorealistic source-dependent relighting with recalculated local highlights, reflections, falloff and contact shadows. This is a real lighting-source change, not a white-balance-only change. Clean high quality interior photograph. No text, border or watermark.\nOutput exactly one native 1536x1024 landscape PNG, original uncropped composition.\nSCENE STATE: DAYTIME plus clean cool-white LED lighting. Keep real bright window daylight from the original left/front direction and its existing window-cast illumination. Correct the electric lighting to a clean cool-white LED concept, roughly 5000K in artistic intent only: prominently WHITE illuminated ceiling drum and pendant, WHITE ceiling cove strip and WHITE spotlights, WHITE table lamp emission. Artificial lights remain clearly ON. The ceiling is softly neutral white, without the amber cove currently seen. Maintain natural daylight exposure and the same exact room, objects and surfaces. All LED effects must be unmistakably cooler and whiter than the target, without any blue overall cast.",
+        "referenced_image_paths": [
+          "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/daycool-first.png"
+        ],
+        "transparent_background": false
+      },
+      "tool_output_hint": "Generated images are saved to /workspace/scratch/aa0f93406d63/generated_images as /workspace/scratch/aa0f93406d63/generated_images/exec-6e8839ae-7ec0-4f91-85d5-de33ea44736e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "visual_qa": {
+        "inspected_final_native_image": true,
+        "notes": "Generated result visibly replaces amber cove, drum, pendant, downlight and cabinet-lamp emissions with white. Daylight and window shadows remain. Brown wood and burgundy leather retained; camera and furniture layout visually stable.",
+        "limitations": "Concept relighting, not a measured color-temperature or photometric simulation. Small material/detail drift remains possible."
+      },
+      "prior_sha256": "66cca1f9a01b9a8cd314d3ac8d1af90793fabdd0caa830133195cf3e9dad8aea",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "final_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "7e9a7b2cb5ef8da36fe5d2cca0c6b73ac49a446b21473599a232df1c08fa38ac",
+      "bytes": 2304228,
+      "copied_unchanged": true,
+      "saved_at_utc": "2026-09-25T06:31:39.389859+00:00"
+    },
+    {
+      "id": "nightneutral",
+      "revision": 2,
+      "prior_saved_path": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/nightneutral-first.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/nightneutral.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-af60b818-e4fd-4dba-aa38-c3cb05e397c7.png",
+      "request": {
+        "prompt": "Use case: lighting-weather.\nInput image 1 is the EDIT TARGET. Make a targeted lighting correction to this exact interior image. Preserve the camera, lens, perspective, image framing, room dimensions, ceiling geometry, every architectural edge, all furniture placements and every object. Keep the burgundy leather sofa, seams, cushions and throw, smoke-glass table and metal legs, rug, wood walls and cabinets, television, art, vases/branches, books/bowls, dining furniture, shelving, door and glass partition exactly as placed. Do not add, remove or restyle objects. Preserve true brown wood finish and burgundy leather, not changed finishes.\nCRITICAL CORRECTION: Every existing electric light source must visibly emit CLEAN NEUTRAL WHITE light, not amber, yellow, orange or golden light. Replace the amber emissions visible in the target. This applies to ALL ceiling coves, ALL recessed downlights and their light cones on walls, the ceiling drum fixture, the dining pendant, and the small table lamp on the cabinet. Every luminous shade and diffuser should read luminous neutral WHITE; the cove's bright strip and adjacent ceiling/plaster must be neutral WHITE. Replace warm pools on the ceiling and walls with clean white source illumination. White/light plaster and gray/ivory artwork/rug should read neutral under the LEDs. Natural brown wood remains naturally brown through material reflectance. Do not use a global blue filter, do not make lamps blue, do not bleach the wood or recolor the sofa.\nPhotorealistic source-dependent relighting with recalculated local highlights, reflections, falloff and contact shadows. This is a real lighting-source change, not a white-balance-only change. Clean high quality interior photograph. No text, border or watermark.\nOutput exactly one native 1536x1024 landscape PNG, original uncropped composition.\nSCENE STATE: FULLY NIGHT, with ONLY clean neutral-white practical LED illumination. Daylight is entirely absent: no sunbeams, no diagonal daylight streaks on the floor/rug, no bright daytime left passage. Keep all existing electric fixtures ON with an artistically neutral-white 4000\u20134500K concept: WHITE cove, WHITE drum fixture and pendant, WHITE recessed spots, WHITE cabinet lamp. This version must be visibly distinct from golden/warm night lighting. The ceiling/plaster is illuminated neutral white and pale neutral materials stay gray/ivory, not orange. Cozy atmosphere comes from the actual brown wood and burgundy leather, not amber lamps. Preserve a believable nighttime gradient, local light pools, useful detail visibility and natural shadows; not daylight-bright and not pitch black. No icy blue filter.",
+        "referenced_image_paths": [
+          "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/nightneutral-first.png"
+        ],
+        "transparent_background": false
+      },
+      "tool_output_hint": "Generated images are saved to /workspace/scratch/aa0f93406d63/generated_images as /workspace/scratch/aa0f93406d63/generated_images/exec-af60b818-e4fd-4dba-aa38-c3cb05e397c7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "visual_qa": {
+        "inspected_final_native_image": true,
+        "notes": "Generated result visibly replaces amber cove, drum, pendant, downlight and cabinet-lamp emissions with neutral white. Sunlight streaks absent; image distinct from golden nightwarm. Brown wood and burgundy leather retained; camera and furniture layout visually stable.",
+        "limitations": "Concept relighting, not a measured color-temperature or photometric simulation. Small material/detail drift remains possible."
+      },
+      "prior_sha256": "533b1aa755ea6dfdf36e8953338b86995a2e577b6e6f5dba013fcfcc16a27604",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "final_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "a139432cd8a4aa58785fe92ce4e3416e487ccdfd7c591364cd41f49091c33bf7",
+      "bytes": 2145857,
+      "copied_unchanged": true,
+      "saved_at_utc": "2026-09-25T06:31:39.389859+00:00"
+    }
+  ]
+}

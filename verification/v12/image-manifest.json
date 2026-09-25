@@ -1,0 +1,176 @@
+{
+  "newImages": 17,
+  "encoding": "Native 1536×1024 JPEG quality 94, chroma 4:4:4; thumbnails 480×320. No upscaling or color filters.",
+  "images": [
+    {
+      "url": "/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 623197,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/balcony/glazing/daywarm.png",
+      "sourceSHA256": "cd02a3293f3fd6fd56fe4b6924fb465443571c7215c50c8f184f8ff71f7cf495",
+      "sha256": "c41a34f06d003791ff6ac790146f3501230eb9fd106e2971160a80059b286b6a",
+      "thumbnail": "/tour/home-assets/dusk/layouts/balcony/glazing/daywarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/original/daycool.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 509860,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/daycool.png",
+      "sourceSHA256": "7e9a7b2cb5ef8da36fe5d2cca0c6b73ac49a446b21473599a232df1c08fa38ac",
+      "sha256": "376e188b39ed94e62593d775ad473bde6bde9a7527b04570b69c6503f5fa8f22",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/original/daycool-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/original/daylight.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 507813,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/daylight.png",
+      "sourceSHA256": "32e5348d34ca79c6d482daaaf52bcea89ba9db2b629a0e4a1928536a0e143baa",
+      "sha256": "7393fdc271dc39fb8ee4da2dd27dfb2d27ff5d0f7aa3a47701693ea4883d5966",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/original/daylight-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/original/nightneutral.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 426618,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/nightneutral.png",
+      "sourceSHA256": "a139432cd8a4aa58785fe92ce4e3416e487ccdfd7c591364cd41f49091c33bf7",
+      "sha256": "40a2da53a0afa080358230f3e3bac25a2fe0d9255382312c2e78f34a7aa86aba",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/original/nightneutral-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/original/nightwarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 490921,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/original/nightwarm.png",
+      "sourceSHA256": "391cf223f6bffe03a807dc6354ec1ae4d52f4cf211653272c35a1bcc46ffec81",
+      "sha256": "629329a0f6b47fe306201d042d631bd9149378600284ae634d7466791f7c95c2",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/original/nightwarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/social/daycool.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 473879,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/social/daycool.png",
+      "sourceSHA256": "b8850ab6572b584dd4e1a69f0ee5ec9ef929c06062765900fc10992168a1c8ad",
+      "sha256": "94d76db9b8a043cfb8bc4447cf2de9b6f0ee6756c91596dcc5dbeab2e6926e8a",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/social/daycool-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/social/daylight.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 546925,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/social/daylight.png",
+      "sourceSHA256": "db90606a88341c6343f0bd60ef7bcab8dc4a7bc0bc305594fcc624e4c62dcd73",
+      "sha256": "90da30c692532f2fc5a46938234630a1947e9325d96b95d794ea3111f32caac1",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/social/daylight-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/social/daywarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 515174,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/social/daywarm.png",
+      "sourceSHA256": "8d798e400792a5cb870c6b626d790ddb4707dbb29edcc095b53da8de38ec3d5f",
+      "sha256": "c3718e810dca9d491368744af6f75aac2e4176660398c8ed1d954a54e9c56a7a",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/social/daywarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/social/nightneutral.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 465146,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/social/nightneutral.png",
+      "sourceSHA256": "8e029a858a3435205e3e375f5b00eed8f80c5a7fb9d844e430cb8432553976cc",
+      "sha256": "0ef0df14bf7d6c46dce0ccd4d965e943c0eb364a2344a492a55b0950eda983e7",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/social/nightneutral-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/social/nightwarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 492610,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/social/nightwarm.png",
+      "sourceSHA256": "ae0975345b45807ae99fe40d0e9833776008c13ffec5b92b746996d2909e28c7",
+      "sha256": "a2404a9dcde402076584ad0009f25c27c7874a2ee0963728f47612fbf1685983",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/social/nightwarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daycool.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 476290,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/storage/daycool.png",
+      "sourceSHA256": "6d6dd8458c7a66f382c81c125e7af118a9b5de85bac5ae9e87c9d786793db4a4",
+      "sha256": "c666dc4c38f9d81017f74f0e83047e10b35cc9a6905f7a76441c4b988d3e610f",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/storage/daycool-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daylight.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 489482,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/storage/daylight.png",
+      "sourceSHA256": "80e6bcf37e4f66b3d5c363ecc158e8247ab54bf2e1709de1a5a51f4ecb4a6106",
+      "sha256": "b71e252004a7a995b8670d46a0c5cbeaa6dccca188f960933b14ef9c3bddd848",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/storage/daylight-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daywarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 534439,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/storage/daywarm.png",
+      "sourceSHA256": "f9dc62243efb51e7ebbc84cb6526a05f68dd65bccdc05d63d6ebe1e2e7ea5261",
+      "sha256": "b3045786a987d807c9cb91566b93f963e4e22d6f8d6dd318f8373f288855b901",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/storage/daywarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/storage/nightneutral.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 467277,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/storage/nightneutral.png",
+      "sourceSHA256": "ce0f621d46d5d8a740776860360020995cda94dc1697eb8b5c7e5cc02c30f497",
+      "sha256": "0449180cd1dbd5243c87177c9d12970bac484498eba4ff7912cb2091d41207d5",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/storage/nightneutral-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/living/storage/nightwarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 508773,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/living/storage/nightwarm.png",
+      "sourceSHA256": "70f556f67e9b6f69cbd815828f670bc6d970fe23300651b07526033ffc101007",
+      "sha256": "402d2f30f56c6a3ff020da791cfe0b012fb268b368e5e504c8b782bf39d056d9",
+      "thumbnail": "/tour/home-assets/dusk/layouts/living/storage/nightwarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/master/rotated/daywarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 519407,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/master/rotated/daywarm.png",
+      "sourceSHA256": "97eaf72d9315f3e6ff458172dd00083695f123a4e1430e6c57cbeafa366475c8",
+      "sha256": "dce0825cc9723a107db61873543a8b1a08fa5e8f8f97520c210d15e2ee53d839",
+      "thumbnail": "/tour/home-assets/dusk/layouts/master/rotated/daywarm-thumb.jpg"
+    },
+    {
+      "url": "/tour/home-assets/dusk/layouts/master/storage/daywarm.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 527519,
+      "source": "/workspace/scratch/aa0f93406d63/v12-assets/layouts/master/storage/daywarm.png",
+      "sourceSHA256": "f8b80eff5bfae731668bf3b60a75d3696baee10299d368384bcc023e4671449a",
+      "sha256": "74915bb1d2a7745532b5d4aaeaccec0511d4045fd05731c4b633aff206d0c053",
+      "thumbnail": "/tour/home-assets/dusk/layouts/master/storage/daywarm-thumb.jpg"
+    }
+  ]
+}

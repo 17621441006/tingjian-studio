@@ -1,0 +1,330 @@
+{
+  "task": "v13 compact straight sofa interior concept set",
+  "method": "Built-in image_gen.imagegen; one native sofa anchor per concept followed by independent dependent edits for table and floor variants.",
+  "created_utc": "2026-09-25",
+  "design_status": "Original inspiration concepts; not exact Camerich product replicas.",
+  "scale_note": "Approximately 205–215 cm visual sofa scale; slim target approximately 208 cm. Real-world dimensions are not measured or certified from these images.",
+  "resolution_requirement": "Native 1536×1024 or larger, landscape 3:2. No upscaling, downscaling, compositing or post-generation pixel edits.",
+  "qa_method": "Viewed all input images before generation and visually inspected all eight native imagegen outputs. Verified saved-file dimensions, encoding and SHA-256 hashes.",
+  "limitations": [
+    "Generative visual concepts cannot certify furniture dimensions, product construction or real-world fit.",
+    "Minor texture and light variation may occur between generated images; camera, architecture and visible furniture identity were visually checked.",
+    "Oak board direction differs between the two sofa concepts while both use straight planks."
+  ],
+  "assets": [
+    {
+      "name": "blend-glass-stone",
+      "sofa": "blend",
+      "kind": "anchor",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic interior design concept, landscape 3:2 at native 1536 x 1024 or larger. Image 1 is the room edit target; Image 2 is material and construction inspiration only. Replace ONLY the cognac sofa against the right wall of Image 1 with an original compact STRAIGHT two-seat sofa. Visually about 205–215 cm total width, noticeably smaller and lighter than the existing sofa while remaining centered in its same right-wall seating position. Slim warm medium-brown leather outer shell and low narrow leather arms, a visible slender brown leather base apron, two tightly woven oatmeal-gray fabric seat cushions and two comfortably soft tailored fabric back cushions, fine slender dark metal legs. Use the leather-shell / textured-fabric combination of Image 2 as inspiration, but design an original compact straight couch with absolutely NO chaise, ottoman, extended seat, L shape, or product logo. The upholstery is warm oatmeal gray under the room's warm light, not bright white or blue. Preserve the existing warm decorative cushion and brown throw, naturally repositioned on the smaller sofa without hiding all its leather shell. Keep the original smoke-glass round coffee table and everything on it, original stone floor, rug, architecture, TV cabinet, artwork, dining furniture, ceiling, camera viewpoint, framing, light direction and overall warm dusk exposure unchanged. Photorealistic material weave and supple leather, coherent perspective, realistic contact shadows beneath all sofa legs and body. No text, diagrams, watermark, new furniture, altered walls or restyled room.",
+      "sources": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/530bbcec031d00a56fb340515c813c57.png"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-32e5fa55-9ad4-4fa0-84cb-94d4c2190464.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "Original stone floor retained.",
+        "notes": "No material visual defects noted."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "de0d7bc7ee782880c48d2c9ebb6a02fd7bb50b1e0a7fea0d093db7497a3fbad6",
+      "size_bytes": 2178509,
+      "source_dimensions": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/upload/530bbcec031d00a56fb340515c813c57.png",
+          "width": 1572,
+          "height": 582
+        }
+      ]
+    },
+    {
+      "name": "slim-glass-stone",
+      "sofa": "slim",
+      "kind": "anchor",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic interior design concept, landscape 3:2 at native 1536 x 1024 or larger. Image 1 is the room edit target. Replace ONLY the cognac sofa against the right wall with an original refined compact STRAIGHT two-seat sofa, visually about 208 cm total width, noticeably smaller and visually lighter than the existing sofa while remaining centered in its same right-wall seating position. Thin dark bronze/graphite metal frame, slender dark legs, low narrow arms with a subtle fine-weave taupe upholstered pad, two premium taupe fine-woven seat cushions and two elegant softly rounded but tailored taupe fabric back cushions. A delicate visible metal base rail and open air underneath; comfortable sophisticated contemporary silhouette, original inspiration concept rather than any exact branded product replica. Absolutely NO chaise, ottoman, extended seat, L shape, chunky arms, bright white or blue upholstery. Preserve the existing warm decorative cushion and brown throw, naturally repositioned on the smaller sofa without hiding the thin frame and low arms. Keep the original smoke-glass round coffee table and everything on it, original stone floor, rug, architecture, TV cabinet, artwork, dining furniture, ceiling, camera viewpoint, framing, light direction and overall warm dusk exposure unchanged. Photorealistic fine weave, coherent perspective, realistic contact shadows beneath all sofa legs and body. No text, diagrams, watermark, new furniture, altered walls or restyled room.",
+      "sources": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-ccb27048-1735-46a2-bb8d-eb84392c8954.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "Original stone floor retained.",
+        "notes": "No material visual defects noted."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "60c61213230ef522a23dbdd6f85b8996698052b4c798d16de45dfc31e49536b7",
+      "size_bytes": 2221781,
+      "source_dimensions": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "blend-stone-stone",
+      "sofa": "blend",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target and definitive sofa identity. Image 2 is reference for the coffee table ONLY. Replace only the smoke-glass round coffee table of Image 1 with the thin gray stone rounded rectangular coffee table shown in Image 2: softly rounded corners, a thin polished warm-gray stone slab with understated natural veining, dark slender legs and frame. Match Image 2 table proportions, shape, position, perspective and height. Keep Image 1's vase with branches, bowl and books naturally resting on this replacement top at the same locations. Keep the original stone room floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-a920cdbb-135b-4fa4-a933-225af63e8845.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-stone-stone.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "Original stone floor retained.",
+        "notes": "Rounded stone table matched from the reference; gray stone reads warmer under the room lighting."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "b6ec275da2698dfeb18533f42d128374782d242d429fcdcf2d5de32cc79a808a",
+      "size_bytes": 2107328,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "blend-glass-oak",
+      "sofa": "blend",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target. Change ONLY the entire visible hard flooring to medium warm natural oak straight planks, a realistic matte-satin oak floor with subtle natural grain and restrained board-to-board variation. Continuous straight parallel floorboards running in depth toward the rear wall with accurate perspective. Replace ALL visible stone tile flooring: foreground and edges around the rug, left walkway by TV cabinet and partition, rear dining area, beneath and behind furniture wherever visible, gaps under table and sofa, and any visible connecting floor through the left opening. No remaining stone floor patches, tile joints, border strips or hard masking. Keep the rug itself exactly as is; preserve the round smoke-glass coffee table and its transparent surface, all legs, vase, bowl and books. Render wood visible naturally through transparent glass where appropriate. Integrate directional warm light, shadow softness, reflected color and every furniture contact shadow with the oak floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-5dca7809-507f-4dc5-bc1d-0af84788ca1b.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-oak.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "All visible hard floor replaced, including rear dining, left passage, rug perimeter and visible furniture gaps.",
+        "notes": "No material visual defects noted."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "2c59a2fed33288ee01adb67c5fc444e2358e66bb7f889a19e71d05a37ddf133e",
+      "size_bytes": 2164365,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "blend-glass-smoked",
+      "sofa": "blend",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target. Change ONLY the entire visible hard flooring to rich smoked walnut straight planks: medium-dark warm brown walnut, subtle elegant grain, matte-satin finish, natural restrained board variation, no orange or red cast. Continuous straight parallel floorboards running in depth toward the rear wall with accurate perspective. Replace ALL visible stone tile flooring: foreground and edges around the rug, left walkway by TV cabinet and partition, rear dining area, beneath and behind furniture wherever visible, gaps under table and sofa, and any visible connecting floor through the left opening. No remaining stone floor patches, tile joints, border strips or hard masking. Keep the rug itself exactly as is; preserve the round smoke-glass coffee table and its transparent surface, all legs, vase, bowl and books. Render wood visible naturally through transparent glass where appropriate. Integrate directional warm light, shadow softness, reflected color and every furniture contact shadow with the walnut floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-11b129e7-4575-44f6-87c4-4d98c0131e22.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-smoked.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "All visible hard floor replaced, including rear dining, left passage, rug perimeter and visible furniture gaps.",
+        "notes": "No material visual defects noted."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "73579414612c187a145994f7c8788d7c7738e7ba8e1973bdbe584f74193fde10",
+      "size_bytes": 2181290,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "slim-stone-stone",
+      "sofa": "slim",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target and definitive sofa identity. Image 2 is reference for the coffee table ONLY. Replace only the smoke-glass round coffee table of Image 1 with the thin gray stone rounded rectangular coffee table shown in Image 2: softly rounded corners, a thin polished warm-gray stone slab with understated natural veining, dark slender legs and frame. Match Image 2 table proportions, shape, position, perspective and height. Keep Image 1's vase with branches, bowl and books naturally resting on this replacement top at the same locations. Keep the original stone room floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-f79bf531-0218-4267-afcf-c4d28f368497.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-stone-stone.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "Original stone floor retained.",
+        "notes": "Rounded stone table matched from the reference; gray stone reads warmer under the room lighting."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "5fbdc3b902b82f032ade9be0a0bff2b39e3e8d94b4f107b5f82de951d5dfc9a4",
+      "size_bytes": 2113717,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "slim-glass-oak",
+      "sofa": "slim",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target. Change ONLY the entire visible hard flooring to medium warm natural oak straight planks, a realistic matte-satin oak floor with subtle natural grain and restrained board-to-board variation. Continuous straight parallel floorboards running in depth toward the rear wall with accurate perspective. Replace ALL visible stone tile flooring: foreground and edges around the rug, left walkway by TV cabinet and partition, rear dining area, beneath and behind furniture wherever visible, gaps under table and sofa, and any visible connecting floor through the left opening. No remaining stone floor patches, tile joints, border strips or hard masking. Keep the rug itself exactly as is; preserve the round smoke-glass coffee table and its transparent surface, all legs, vase, bowl and books. Render wood visible naturally through transparent glass where appropriate. Integrate directional warm light, shadow softness, reflected color and every furniture contact shadow with the oak floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-80ded73f-4952-43ea-b201-37271549dc0c.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-oak.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "All visible hard floor replaced, including rear dining, left passage, rug perimeter and visible furniture gaps.",
+        "notes": "Straight oak planks render crosswise; the user requirement allows straight planks without a mandatory direction."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "a5ca8f18b8c5522a9f244c7639c94b3d9ec949034ac20ff36d72f42b794fb38e",
+      "size_bytes": 2151096,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "name": "slim-glass-smoked",
+      "sofa": "slim",
+      "kind": "dependent_edit",
+      "prompt": "Use case: precise-object-edit. Image 1 is the complete room edit target. Change ONLY the entire visible hard flooring to rich smoked walnut straight planks: medium-dark warm brown walnut, subtle elegant grain, matte-satin finish, natural restrained board variation, no orange or red cast. Continuous straight parallel floorboards running in depth toward the rear wall with accurate perspective. Replace ALL visible stone tile flooring: foreground and edges around the rug, left walkway by TV cabinet and partition, rear dining area, beneath and behind furniture wherever visible, gaps under table and sofa, and any visible connecting floor through the left opening. No remaining stone floor patches, tile joints, border strips or hard masking. Keep the rug itself exactly as is; preserve the round smoke-glass coffee table and its transparent surface, all legs, vase, bowl and books. Render wood visible naturally through transparent glass where appropriate. Integrate directional warm light, shadow softness, reflected color and every furniture contact shadow with the walnut floor. Keep exactly the same compact straight sofa from Image 1, including shape, scale, leather or metal shell/frame, upholstery color and weave, cushions, decorative pillows, throw, slender legs and right-wall location. Preserve camera, framing, room architecture, ceiling and lighting fixtures, wall wood, TV, TV cabinet, rug, dining set, shelving, art and every decor object. Maintain warm dusk photographic exposure and realistic contact shadows. No chaise or L shape, no bright white or blue furniture, no text or watermark. Native landscape 3:2 at 1536 x 1024 or larger.",
+      "sources": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png"
+      ],
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-211d5868-2d81-44cc-878a-32d5e6a72bdd.png",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-smoked.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "straight_sofa_no_chaise": true,
+        "sofa_identity_retained": true,
+        "camera_architecture_rug_decor_retained": true,
+        "lighting_and_contact_shadows_integrated": true,
+        "floor_coverage": "All visible hard floor replaced, including rear dining, left passage, rug perimeter and visible furniture gaps.",
+        "notes": "No material visual defects noted."
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2",
+        "format": "PNG",
+        "mode": "RGB",
+        "native_generated": true
+      },
+      "sha256": "b1847a2b326d1953ab3e27c4db57a8b069e758324686e49d9682cb5f9a43bc35",
+      "size_bytes": 2220188,
+      "source_dimensions": [
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    }
+  ]
+}

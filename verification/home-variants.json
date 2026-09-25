@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "variants": 6,
+  "roomsPerVariant": 3,
+  "newViews": 18,
+  "files": [
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/living.jpg",
+      "bytes": 582341
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/living-thumb.jpg",
+      "bytes": 21113
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/master.jpg",
+      "bytes": 539256
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/master-thumb.jpg",
+      "bytes": 20233
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/bath.jpg",
+      "bytes": 527015
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/blue/bath-thumb.jpg",
+      "bytes": 18239
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/living.jpg",
+      "bytes": 560759
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/living-thumb.jpg",
+      "bytes": 20433
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/master.jpg",
+      "bytes": 529604
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/master-thumb.jpg",
+      "bytes": 20151
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/bath.jpg",
+      "bytes": 525808
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/moss/bath-thumb.jpg",
+      "bytes": 18887
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/living.jpg",
+      "bytes": 609300
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/living-thumb.jpg",
+      "bytes": 21008
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/master.jpg",
+      "bytes": 547940
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/master-thumb.jpg",
+      "bytes": 19763
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/bath.jpg",
+      "bytes": 589453
+    },
+    {
+      "path": "/tour/home-assets/dusk/variants/clay/bath-thumb.jpg",
+      "bytes": 19835
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/living.jpg",
+      "bytes": 614751
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/living-thumb.jpg",
+      "bytes": 23819
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/master.jpg",
+      "bytes": 585227
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/master-thumb.jpg",
+      "bytes": 21834
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/bath.jpg",
+      "bytes": 582601
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/linen/bath-thumb.jpg",
+      "bytes": 20420
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/living.jpg",
+      "bytes": 631327
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/living-thumb.jpg",
+      "bytes": 23561
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/master.jpg",
+      "bytes": 584535
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/master-thumb.jpg",
+      "bytes": 21510
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/bath.jpg",
+      "bytes": 488247
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/moss/bath-thumb.jpg",
+      "bytes": 18915
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/living.jpg",
+      "bytes": 628628
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/living-thumb.jpg",
+      "bytes": 24678
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/master.jpg",
+      "bytes": 566678
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/master-thumb.jpg",
+      "bytes": 21555
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/bath.jpg",
+      "bytes": 539537
+    },
+    {
+      "path": "/tour/home-assets/chinese/variants/wine/bath-thumb.jpg",
+      "bytes": 19960
+    }
+  ]
+}

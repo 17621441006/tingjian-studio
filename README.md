@@ -4,11 +4,15 @@
 
 ## 运行
 
-需要 Node.js 22.12+。项目为静态网站。**当前 GitHub 已同步 v17 可编辑源码，但大型运行素材尚未成功上传到 GitHub。** `dist` 目录不在当前仓库，Releases 目前也没有 `tingjian-studio-v17.zip`。线上站点仍可使用；在完整素材包补齐前，不要仅凭当前仓库重新部署或覆盖线上站点。构建不会下载缺失素材。
+需要 Node.js 22.12+。GitHub main 已恢复 v17 完整 `dist/`，可直接克隆、构建、检查和离线运行。692 个部署文件共 254.46 MiB，630 张图片、13 个模型及 24 项模型外部依赖均有原始 SHA-256 校验。当前图片不重压缩、不降分辨率。
+
+main 保留所有运行时必需资源（包括历史页、第二标签页和家具实验室引用的共享图片/模型），不存储重复压缩包。重复的历史运行快照只存放于 `archive/history-v17` 分支的 `archive/heavy/`，超过 100 MB 的快照使用 Git LFS。该快照不计入 main 日常克隆所需的 LFS 下载。
 
 ```sh
 npm ci
 npm run build
+npm run check
+node scripts/check-assets.mjs
 python3 -m http.server 8000 --directory dist
 ```
 
@@ -40,13 +44,14 @@ node scripts/check-v17-ui.mjs
 node scripts/check-v17-floors.mjs
 node scripts/check-v16-model.mjs
 node scripts/check-v16-assets.mjs
+node scripts/check-assets.mjs
 ```
 
 验证包含生产事件处理、选材保留、异步加载、全屋确认、真实 Three.js 几何与材质数据、原始资产保留。此轮没有浏览器像素级或设备帧率测试。
 
 ## 素材说明
 
-私有住宅设计项目；请保持私有仓库。品牌图片版权归品牌及相关权利人，素材来源和已有许可记录分别保存在各 `credits.json` 与 `manifest.json`；没有为第三方品牌图授予开源许可。
+住宅设计项目；仓库沿用本次操作前已公开的访问状态。品牌图片版权归品牌及相关权利人，素材来源和已有许可记录分别保存在各 `credits.json` 与 `manifest.json`；没有为第三方品牌图授予开源许可。
 
 ---
 

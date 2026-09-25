@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "method": "Production Three.js shader hooks expanded and linked in a native EGL OpenGL context; does not verify browser rendering.",
+  "programs": [
+    "floor",
+    "woven-rug",
+    "model-rug",
+    "original-rug",
+    "photo-floor",
+    "oat-rug",
+    "smoke-rug",
+    "oak-floor",
+    "stone-floor",
+    "contact-blur",
+    "contact-blur",
+    "contact-blur"
+  ]
+}

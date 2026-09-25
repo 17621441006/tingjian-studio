@@ -1,0 +1,114 @@
+{
+  "task": "Cognac social-layout lighting asset edits",
+  "created_utc": "2026-09-25",
+  "tool_mode": "built-in image_gen",
+  "original_source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/living/social/daywarm.jpg",
+  "original_dimensions": [
+    1536,
+    1024
+  ],
+  "final_dimensions": [
+    1536,
+    1024
+  ],
+  "aspect_ratio": "3:2",
+  "native_generation": true,
+  "postprocessing": "File copies only. No color filters, resizes, or upscaling.",
+  "final_files": [
+    "daywarm.png",
+    "daylight.png",
+    "daycool.png",
+    "nightwarm.png",
+    "nightneutral.png"
+  ],
+  "source_chain": "Original social/daywarm.jpg -> corrected cognac daywarm.png -> four independently generated lighting variants. Initial nightneutral -> one neutral-white light correction, with daycool as supporting light-color reference.",
+  "generation_count": 6,
+  "geometry_qa": {
+    "method": "Visual inspection of original, anchor and all generated outputs at full supplied resolution.",
+    "result": "No material geometry drift observed in sofa/TV/chair/dining table/camera/openings/rug/coffee-table layout.",
+    "limitations": "Generative edits are not pixel-exact; local leather grain, rug/wood detail, exterior foliage/reflections and lighting shadows vary. The sofa remains the same design and location in all five finals."
+  },
+  "generations": [
+    {
+      "file": "daywarm.png",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/living/social/daywarm.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-a7ee2061-2043-4521-a53d-5f48b61f7c40.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: final interior photograph for an interactive home tour.\nInput image: the provided local interior photo is the edit target.\nPrimary request: replace ONLY the burgundy/wine-red leather upholstery on the existing sofa at the LEFT with rich cognac tobacco BROWN leather. The leather must read as medium-dark natural brown, with well-worn fine grain, subtle patina and natural folds; neither burgundy/red nor bright orange. Preserve every seam, cushion contour, leg, arm, existing sofa silhouette and its exact position. The small burgundy throw cushion may remain as an accent, but the sofa's actual leather surfaces must all be cognac tobacco brown.\nPreserve the exact social layout: sofa LEFT; television and low wood console RIGHT; small upholstered wood chair center-right; round rear dining table and chairs. Preserve camera, 3:2 framing, perspective, all openings, window and door locations, ceiling geometry, existing warm daylight and warm lights, sun patches, rug, round glass coffee table and all objects, materials, curtains/screens, plants, wall art, joinery, switches, furniture dimensions and placements. Do not restage, crop, mirror, add, remove or redesign anything.\nPhotorealistic high-fidelity local material recolor/edit only. Output a native 1536 x 1024 pixel 3:2 PNG. No filter, no global color grading, no upscaling, no text or watermark.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa": "Cognac tobacco-brown sofa leather; burgundy throw cushion retained. Sofa left, television right, chair and round rear dining table preserved. No material geometry drift observed; minor regenerated surface textures.",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "selected": true
+    },
+    {
+      "file": "daylight.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daylight.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-31c37fdc-9031-4f12-8062-aad814b8df32.png",
+      "prompt": "Use case: lighting-weather.\nAsset type: final photorealistic interior photograph for an interactive home tour.\nInput image: corrected cognac sofa social-layout photo is the edit target. This is a LIGHTING-ONLY edit.\nABSOLUTE INVARIANTS: preserve the cognac tobacco BROWN leather sofa at LEFT with the exact same shape, seams, cushions, legs, wear and position. Its actual leather must stay rich brown, not burgundy, wine-red or orange. Preserve the burgundy throw cushion as a separate accent. Preserve television and console at RIGHT, small wood upholstered chair at center-right, round rear dining table/chairs, round glass coffee table, rug, all objects, plants, art, materials and furniture placements. Preserve original camera, crop, 3:2 perspective, openings/windows/doors, ceiling and wall geometry. Do not restage, crop, mirror, remove, add or redesign anything. Change emitted light and physically plausible illumination only. This is not a global color filter.\nOutput a native 1536 x 1024 pixel 3:2 PNG. No upscaling, no text or watermark.\nLIGHTING TARGET: bright natural daylight ONLY with ALL electrical light sources visibly OFF. Turn OFF ceiling coves, every recessed spotlight, central round ceiling fixture, rear dining pendant, and the small table lamp on the rear cabinet. Fixtures remain in the exact same locations and have unlit material/shade appearance, no halos or glows. Preserve sunlit daytime through the left opening and natural sunlight patches on floor/rug. Daylight should reveal the true cognac tobacco-brown sofa leather and natural wood tones, with realistic soft shadows and sufficient room visibility. Neutral daylight white balance, no amber electric illumination.",
+      "selected": true,
+      "qa": "All electrical sources off; clear daytime daylight and sunlight patches. Sofa left, TV right, chair, round dining table, rug and coffee table retain geometry. Daylight shadow distribution differs, as expected from relighting. Fine material texture is regenerated."
+    },
+    {
+      "file": "daycool.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daycool.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-609fc824-c491-46b3-bb02-90b8a933430d.png",
+      "prompt": "Use case: lighting-weather.\nAsset type: final photorealistic interior photograph for an interactive home tour.\nInput image: corrected cognac sofa social-layout photo is the edit target. This is a LIGHTING-ONLY edit.\nABSOLUTE INVARIANTS: preserve the cognac tobacco BROWN leather sofa at LEFT with the exact same shape, seams, cushions, legs, wear and position. Its actual leather must stay rich brown, not burgundy, wine-red or orange. Preserve the burgundy throw cushion as a separate accent. Preserve television and console at RIGHT, small wood upholstered chair at center-right, round rear dining table/chairs, round glass coffee table, rug, all objects, plants, art, materials and furniture placements. Preserve original camera, crop, 3:2 perspective, openings/windows/doors, ceiling and wall geometry. Do not restage, crop, mirror, remove, add or redesign anything. Change emitted light and physically plausible illumination only. This is not a global color filter.\nOutput a native 1536 x 1024 pixel 3:2 PNG. No upscaling, no text or watermark.\nLIGHTING TARGET: daytime with natural daylight through the left opening, plus visibly COOL WHITE electric lamps and ceiling coves switched ON, approximately 6000K. The central ceiling fixture, dining pendant, rear table lamp shade, every recessed spotlight and all ceiling coves emit unmistakably pale cool-white light, not yellow or amber. Keep sunlit exterior and daylight sun patterns on the floor/rug. Their light pools/reflections should be physically plausible and clearly cooler than the warm anchor, while the sofa stays cognac tobacco BROWN and wood remains naturally brown. Avoid blue color grading of the full image.",
+      "selected": true,
+      "qa": "Daytime sunlight with visibly cool-white central fixture, coves, pendant and spotlights. Same cognac sofa shape and location. No material geometry drift observed; fine leather/rug/wood textures vary subtly."
+    },
+    {
+      "file": "nightwarm.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/nightwarm.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-70731fa1-6581-4d79-8f2b-bacdc47e8f62.png",
+      "prompt": "Use case: lighting-weather.\nAsset type: final photorealistic interior photograph for an interactive home tour.\nInput image: corrected cognac sofa social-layout photo is the edit target. This is a LIGHTING-ONLY edit.\nABSOLUTE INVARIANTS: preserve the cognac tobacco BROWN leather sofa at LEFT with the exact same shape, seams, cushions, legs, wear and position. Its actual leather must stay rich brown, not burgundy, wine-red or orange. Preserve the burgundy throw cushion as a separate accent. Preserve television and console at RIGHT, small wood upholstered chair at center-right, round rear dining table/chairs, round glass coffee table, rug, all objects, plants, art, materials and furniture placements. Preserve original camera, crop, 3:2 perspective, openings/windows/doors, ceiling and wall geometry. Do not restage, crop, mirror, remove, add or redesign anything. Change emitted light and physically plausible illumination only. This is not a global color filter.\nOutput a native 1536 x 1024 pixel 3:2 PNG. No upscaling, no text or watermark.\nLIGHTING TARGET: exterior NIGHT, dark outside the left glazed opening with only subdued reflections. Remove ALL direct sunlight and sunbeam/sun-patch patterns from the walls, floor and rug. Use only warm practical electric lighting approximately 2700K from the existing central ceiling fixture, recessed spotlights, ceiling coves, dining pendant and rear cabinet table lamp. Existing lamps/coves are visibly warm amber-white, with realistic local warm pools and soft shadows. The room is comfortably readable and warmly lit after dark, without any daylight contribution. Keep cognac tobacco-brown leather distinguishable from the burgundy accent cushion.",
+      "selected": true,
+      "qa": "Dark exterior and no sunlight bands; visibly warm practicals/coves. Same cognac sofa and principal furniture geometry. Exterior foliage/reflections differ with the night rendering; opening frame and layout retained."
+    },
+    {
+      "file": "nightneutral.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/nightneutral.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-585d7898-4796-497c-8bef-d0c79004f03b.png",
+      "prompt": "Use case: lighting-weather.\nAsset type: final photorealistic interior photograph for an interactive home tour.\nInput image: corrected cognac sofa social-layout photo is the edit target. This is a LIGHTING-ONLY edit.\nABSOLUTE INVARIANTS: preserve the cognac tobacco BROWN leather sofa at LEFT with the exact same shape, seams, cushions, legs, wear and position. Its actual leather must stay rich brown, not burgundy, wine-red or orange. Preserve the burgundy throw cushion as a separate accent. Preserve television and console at RIGHT, small wood upholstered chair at center-right, round rear dining table/chairs, round glass coffee table, rug, all objects, plants, art, materials and furniture placements. Preserve original camera, crop, 3:2 perspective, openings/windows/doors, ceiling and wall geometry. Do not restage, crop, mirror, remove, add or redesign anything. Change emitted light and physically plausible illumination only. This is not a global color filter.\nOutput a native 1536 x 1024 pixel 3:2 PNG. No upscaling, no text or watermark.\nLIGHTING TARGET: exterior NIGHT, dark outside the left glazed opening with only subdued reflections. Remove ALL direct sunlight and sunbeam/sun-patch patterns from the walls, floor and rug. Illuminate only with NEUTRAL WHITE electrical light approximately 4300K from the existing central ceiling fixture, recessed spotlights, ceiling coves, dining pendant and rear cabinet table lamp. It is crucial that the ceiling coves, central fixture diffuser and all lamp shades visibly glow CLEAN WHITE, not cream, yellow or amber; they must look unmistakably neutral-white relative to the warm anchor. Natural brown wood and cognac tobacco-brown leather remain their actual colors under neutral light. Realistic localized pools and soft shadows; comfortably readable nighttime interior, no global blue filter.",
+      "selected": false,
+      "qa": "Initial nightneutral remained too amber/cream. A single targeted correction was made using the initial night image as edit target and daycool as light-color reference only. Final has clearly white fixture diffusers and coves, a dark exterior and no sunlight patterns. Cognac brown sofa and main room geometry retained; fine surface texture changes remain."
+    },
+    {
+      "file": "nightneutral.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/nightneutral.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "/workspace/scratch/aa0f93406d63/generated_images/exec-585d7898-4796-497c-8bef-d0c79004f03b.png",
+      "supporting_reference": "/workspace/scratch/aa0f93406d63/generated_images/exec-609fc824-c491-46b3-bb02-90b8a933430d.png",
+      "reference_role": "electrical light color only",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-4ba6938a-c775-49e0-8d35-def708b6f3ec.png",
+      "prompt": "Use case: lighting-weather.\nImage 1 is the EDIT TARGET: the nighttime living room. Image 2 is a LIGHT COLOR REFERENCE ONLY: its fixtures and coves emit clean white light.\nCorrect one problem in Image 1: ALL electrical light is still too amber/cream. Change every existing light source and its local illumination to clean NEUTRAL WHITE around 4800K, matching the clearly white central ceiling fixture, ceiling coves, pendant and spotlight emitters visible in Image 2. Make the central round fixture's diffuser WHITE, every ceiling cove WHITE, dining pendant diffuser WHITE, and rear table lamp's light WHITE. Eliminate the amber glow/pools from electric lights; wood should retain natural brown while ceiling and rug read neutral under white light. Do not transfer daylight or sunbeams from Image 2.\nPreserve Image 1's NIGHT setting: exterior stays dark, all sunlight patterns remain absent. Preserve every other detail exactly: same cognac tobacco-BROWN leather sofa LEFT, rich brown not orange/red, same burgundy accent cushion, same leather seams/wear/shape/position; same television/console RIGHT; same small chair and rear round dining table; camera/crop/perspective, openings, ceiling shape, rug, round glass coffee table, furniture and all objects/materials. Change ONLY the electrical light emission and resulting local illumination/white balance necessary for neutral white light. No restaging or geometry change, no added or removed objects, no global color filter.\nPhotorealistic native 1536 x 1024 PNG, 3:2, no resizing/upscaling, no text or watermark.",
+      "selected": true,
+      "reason": "One narrowly scoped correction: original neutral-night electric light remained amber/cream.",
+      "qa": "Initial nightneutral remained too amber/cream. A single targeted correction was made using the initial night image as edit target and daycool as light-color reference only. Final has clearly white fixture diffusers and coves, a dark exterior and no sunlight patterns. Cognac brown sofa and main room geometry retained; fine surface texture changes remain."
+    }
+  ]
+}

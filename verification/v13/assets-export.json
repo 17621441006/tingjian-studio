@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "itemCombinations": 34,
+  "verifiedPaths": 232,
+  "newNativeImages": 41,
+  "newImageBytes": 22087212,
+  "checks": [
+    "Every advertised item/lighting/window state resolves to native full image and thumbnail; palettes retain exact preview image after confirmation",
+    "Whole-home section owns exactly one retained 3D model; no automatic model loader or duplicate element IDs",
+    "Original export function embeds all eight images, applied items and separate candidates in a self-contained HTML book",
+    "New source hashes match integration manifest; complete CSS parses without warnings"
+  ]
+}

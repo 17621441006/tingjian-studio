@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "webMCPRuntimeValidated": false,
+  "limitation": "Managed preview not available for plain static sites. No browser automation was used. Asset and application-state checks performed. No browser timing measurements were made in this update.",
+  "results": [
+    "Four supplied textured GLBs valid, below hosting size limit; default furniture footprints do not overlap",
+    "Reference-unit scaling, rotation, no-mutation edits, bounds/overlap warnings, invalid inputs and save/import round-trip",
+    "Main DOM hooks, routes, view modes and feature-detected WebMCP registration present",
+    "32 panoramas, 32 HD views, neighboring-room navigation and original three schemes present",
+    "Space design is the default leftmost section; lab is last and its renderer remains isolated",
+    "All public assets below 25 MiB; total 254.5 MiB"
+  ]
+}

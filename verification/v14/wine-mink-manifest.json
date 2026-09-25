@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "tool": "built-in image_gen.imagegen",
+  "edit_type": "precise-object-edit",
+  "entries": [
+    {
+      "key": "wine-glass-oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/wine-glass.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/wine-glass-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to natural pale oak straight-plank wood flooring: pale warm beige natural oak, subtle authentic oak grain, matte low-sheen finish, clean narrow seams, staggered board ends. The oak must read distinctly lighter than the walnut wall paneling.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-aae7f557-13cc-40a5-ab8a-9e709a3d3ff7.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ],
+      "format": "PNG",
+      "output_bytes": 2158432,
+      "source_sha256": "3ae533566729ab319748a44bc18459e626a2e38608584609404c6088efdb3969",
+      "output_sha256": "4c54be8c171dc8d18f60c6f186f4319ce18618537bb5179781bcff51cad10ee8"
+    },
+    {
+      "key": "wine-glass-smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/wine-glass.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/wine-glass-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to smoked walnut straight-plank wood flooring: rich deep smoky neutral brown walnut, restrained natural walnut grain, matte low-sheen finish, clean narrow seams, staggered board ends. Keep realistic visible wood grain in the darker floor.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-0e05fb26-69ee-4e01-a0f4-db48158afcba.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source.",
+        "Straight planks run predominantly across the room rather than front-to-back, unlike the other variants."
+      ],
+      "format": "PNG",
+      "output_bytes": 2093280,
+      "source_sha256": "3ae533566729ab319748a44bc18459e626a2e38608584609404c6088efdb3969",
+      "output_sha256": "7a0251cfcceaaa80bafba641aaa57d099de419403c3b92c114e3072ef09cd60c"
+    },
+    {
+      "key": "wine-stone-oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/wine-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/wine-stone-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to natural pale oak straight-plank wood flooring: pale warm beige natural oak, subtle authentic oak grain, matte low-sheen finish, clean narrow seams, staggered board ends. The oak must read distinctly lighter than the walnut wall paneling.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-38bb5c61-a44c-42c0-aa0a-e53381754f9c.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ],
+      "format": "PNG",
+      "output_bytes": 2145236,
+      "source_sha256": "57e7008d19166e9f1455b0cecab8ad06edc9b5d4e173577d0298dc0f0868cbd4",
+      "output_sha256": "500c58814d27fedd49b3678e44701c7eb28b30e943eafd635561029c94436ca2"
+    },
+    {
+      "key": "wine-stone-smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/wine-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/wine-stone-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to smoked walnut straight-plank wood flooring: rich deep smoky neutral brown walnut, restrained natural walnut grain, matte low-sheen finish, clean narrow seams, staggered board ends. Keep realistic visible wood grain in the darker floor.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b8eb07ec-18fd-4330-8ac6-8d4d194ba402.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ],
+      "format": "PNG",
+      "output_bytes": 2130942,
+      "source_sha256": "57e7008d19166e9f1455b0cecab8ad06edc9b5d4e173577d0298dc0f0868cbd4",
+      "output_sha256": "abe02f7be90f5a5271181371158283b70282078ed81ef18d3a8fbe3ad0979e5d"
+    },
+    {
+      "key": "mink-glass-oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/mink-glass.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/mink-glass-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to natural pale oak straight-plank wood flooring: pale warm beige natural oak, subtle authentic oak grain, matte low-sheen finish, clean narrow seams, staggered board ends. The oak must read distinctly lighter than the walnut wall paneling.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-93de53b5-9265-49ec-b300-a67a999073ea.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ],
+      "format": "PNG",
+      "output_bytes": 2181812,
+      "source_sha256": "7840a3e5c29bd890057b6a73ccbf31afe483a6c4637836b303543653ed93f05b",
+      "output_sha256": "88ef0e16900d7a1bed44e716d8332b17b3f2676f78585009759be7e17aff3442"
+    },
+    {
+      "key": "mink-glass-smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/mink-glass.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/mink-glass-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to smoked walnut straight-plank wood flooring: rich deep smoky neutral brown walnut, restrained natural walnut grain, matte low-sheen finish, clean narrow seams, staggered board ends. Keep realistic visible wood grain in the darker floor.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b3d524c2-19e3-4057-a8a3-06b79dfd850b.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ],
+      "format": "PNG",
+      "output_bytes": 2190349,
+      "source_sha256": "7840a3e5c29bd890057b6a73ccbf31afe483a6c4637836b303543653ed93f05b",
+      "output_sha256": "cae3a639ffc70c76221fffc3f44dd2328d87a0b718928f7133458dd87494fa85"
+    },
+    {
+      "key": "mink-stone-oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/mink-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/mink-stone-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to natural pale oak straight-plank wood flooring: pale warm beige natural oak, subtle authentic oak grain, matte low-sheen finish, clean narrow seams, staggered board ends. The oak must read distinctly lighter than the walnut wall paneling.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-717cdefa-0db1-40dc-b927-1f822b531c2b.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "output_bytes": 2267264,
+      "source_sha256": "b72fee57876398f230fec1122b8504468f000acabbf97be76f4794b7fc263d45",
+      "output_sha256": "7c8cb3f5295eb49c34d55b43038fb1bbe77ff173163a62a950c967801741e33a",
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source."
+      ]
+    },
+    {
+      "key": "mink-stone-smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/mink-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/mink-stone-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selectable material image.\nInput image 1 is the EDIT TARGET. Create exactly ONE edited image, never a collage or a side-by-side comparison.\nPrimary request: change ONLY the exposed gray stone floor in the provided room to smoked walnut straight-plank wood flooring: rich deep smoky neutral brown walnut, restrained natural walnut grain, matte low-sheen finish, clean narrow seams, staggered board ends. Keep realistic visible wood grain in the darker floor.\nFloor placement: replace ALL visible original gray stone flooring, including the large exposed left foreground beside the rug and under the TV console, the narrow bottom foreground strip below the rug, the rear floor leading to the dining area, floor underneath and behind the dining table and dining chairs, the floor under furniture, and every visible sliver along the rug and sofa edges. The wood floor is one continuous real floor. Use straight parallel planks aligned front-to-back toward the rear dining wall with physically correct vanishing-point perspective, consistent scale, and continuity throughout all exposed areas. No herringbone, no chevron, no parquet.\nAbsolute preservation constraints: keep the original camera, crop, lens, perspective, room geometry, wall and ceiling paneling, doorway and screen, artwork, light fixtures, TV and console, dining furniture, sofa shape and exact upholstery material and color, cushions, throw, coffee-table geometry and material, all tabletop objects and plants, and all decor perfectly unchanged. Preserve the entire existing large light taupe rug exactly: identical edges, size, color, woven pattern, texture and position. Do not recolor or turn any part of the rug into wood. Keep the source warm dusk lighting, sunlight streaks, contact shadows, reflections, exposure, white balance, and photorealistic texture. Preserve shadow grounding at all furniture feet and rug edges. Do not redesign, remove, add, relocate, sharpen, or restyle anything outside the floor.\nOutput: one native high-resolution landscape image at 1536×1024 or higher, with the exact original 3:2 frame, no text, no labels, no borders, no watermark.",
+      "status": "complete",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b6a660e1-b6bf-4f54-8a53-2974145a55c5.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "output_bytes": 2137483,
+      "source_sha256": "b72fee57876398f230fec1122b8504468f000acabbf97be76f4794b7fc263d45",
+      "output_sha256": "f5e0506fb670b6106e40e8dcd8405231cec62321df03c573e34f9ad83ddae0e2",
+      "qa_notes": [
+        "Visual check: exposed stone replaced throughout foreground, rear dining area, and rug boundaries; original room and furniture geometry retained with no major visible artifact.",
+        "Fine generated textures are not pixel-identical to source.",
+        "Straight planks run predominantly across the room rather than front-to-back, unlike the other variants."
+      ]
+    }
+  ],
+  "qa_summary": "All 8 single-image outputs are valid native 1536x1024 PNGs. No major room geometry, furniture, rug color, lighting or coverage issue visible. Fine generated textures differ subtly; plank direction varies in wine-glass-smoked and mink-stone-smoked. Pixel-perfect preservation is not claimed.",
+  "site_modified": false
+}

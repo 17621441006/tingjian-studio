@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "id": "rug-kilim",
+      "file": "rug-kilim.glb",
+      "triangles": 14,
+      "dimensionsCm": [
+        145.648,
+        260.0,
+        0.6
+      ],
+      "source": "Untitled 6.obj",
+      "dimensionStatus": "Visual trial; manufacturer size not supplied",
+      "notes": "Original UV mapping preserved; 6 mm backing estimated for zero-thickness plane"
+    },
+    {
+      "id": "rug-medallion",
+      "file": "rug-medallion.glb",
+      "triangles": 2240,
+      "dimensionsCm": [
+        180.0,
+        240.0,
+        0.826
+      ],
+      "source": "10417_Rectangular_rug_v1_iterations-2.obj",
+      "dimensionStatus": "Visual trial; manufacturer size not supplied",
+      "notes": "Original mesh and diffuse map; metallic 0, high roughness assumption"
+    },
+    {
+      "id": "rug-geometric",
+      "file": "rug-geometric.glb",
+      "triangles": 14,
+      "dimensionsCm": [
+        160,
+        240,
+        0.8
+      ],
+      "source": "User shop-reference image",
+      "provenance": "AI-assisted planar reconstruction, not manufacturer 3D",
+      "notes": "Occluded pattern inferred; 8 mm thickness assumed; no verified manufacturer size"
+    }
+  ],
+  "textures": "Original UV layout and supplied texture pixels retained for model A and B",
+  "validation": "Dimensions are trial scale in centimetres, not verified product dimensions"
+}

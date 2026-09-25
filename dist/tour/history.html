@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>庭间 · 空间设计</title>
+<style>
+:root{color-scheme:light;--background:#f3f0e9;--foreground:#382f27;--muted-foreground:#756b60;--border:#d9d0c3;--primary:#45362a;--primary-foreground:#fffaf0;--font-size-base:14px}
+*{box-sizing:border-box}body{margin:0;background:var(--background);color:var(--foreground);font:15px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}main{max-width:1180px;margin:auto;padding:44px 34px 70px}h1{font:400 44px/1.25 Georgia,"Songti SC",serif;margin:10px 0 16px}h2{font:400 28px/1.35 Georgia,"Songti SC",serif;margin:0 0 18px}h3{font-size:19px;font-weight:500}p{margin:8px 0 14px}.eyebrow{font-size:11px;letter-spacing:.18em;color:#8b7059}.intro{max-width:740px;color:#706457}header{border-bottom:1px solid var(--border);padding-bottom:25px;margin-bottom:30px}.topnav{display:flex;gap:24px;flex-wrap:wrap;margin-top:22px}a{color:inherit;text-underline-offset:4px}.small,.text-small{font-size:12px}.muted,.text-muted{color:var(--muted-foreground)}button,select,input{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #a39271;outline-offset:4px}.viz-controls,.render-tabs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.btn,.render-tabs button{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:7px 14px;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--foreground)}.btn[aria-pressed=true],.render-tabs button[aria-pressed=true]{background:var(--primary);color:var(--primary-foreground);border-color:var(--primary)}.btn-ghost{border-color:transparent}.form-label{display:flex;align-items:center;gap:8px}.form-select{padding:6px 24px 6px 8px;max-width:180px;border:1px solid var(--border);background:#fffaf2;color:var(--foreground);border-radius:4px;min-height:36px}.form-check{display:flex;align-items:center;gap:7px;min-height:36px}.form-check-input{accent-color:#5b4938}.section{margin-top:55px;padding-top:25px;border-top:1px solid var(--border)}.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px}.model-wrap{max-width:1040px;margin:auto}body #daan-spaces .daan-stage{height:650px;max-height:70vw;background:#e3dcd0}body #daan-spaces[data-view=all] .daan-stage,body #daan-spaces[data-view=top] .daan-stage{background:transparent}.render-image{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#e6dfd5}.caption{display:grid;grid-template-columns:1fr 1.65fr;gap:28px;margin-top:20px}.caption h3{margin:0 0 8px;font:400 27px Georgia,"Songti SC",serif}.caption p{color:#706457}.atlas{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.atlas img{width:100%;display:block}.sample-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.sample-grid p{font-size:13px;color:#74675a}.sample-grid strong{font-weight:500}.spec-table{width:100%;border-collapse:collapse;font-size:13px}.spec-table th,.spec-table td{text-align:left;vertical-align:top;border-bottom:1px solid var(--border);padding:14px 12px 14px 0}.spec-table th{font-weight:500;color:#766858}.spec-table td:first-child{width:18%;font-weight:500}.spec-table td:last-child{width:18%}.references{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px}.references article{border-top:1px solid var(--border);padding-top:14px}.references h3{font-size:16px}.references p{font-size:13px;color:#75685c}.archive{display:grid;grid-template-columns:1fr 1fr;gap:30px}.archive img{max-width:100%;height:auto}.archive p,.archive li{font-size:13px;color:#75685c}details{margin-top:24px}summary{cursor:pointer}.originals{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.originals img{width:100%;height:200px;object-fit:cover}footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--border);font-size:11px;color:#867868;display:flex;justify-content:space-between;gap:20px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:740px){main{padding:28px 18px 44px}h1{font-size:33px}.caption,.atlas,.archive{grid-template-columns:1fr;gap:16px}.references{grid-template-columns:1fr}.section{margin-top:32px}.section-head{display:block}body #daan-spaces .daan-stage{height:470px;max-height:none}.form-select{font-size:16px}.btn,.render-tabs button{min-height:44px}.spec-table th,.spec-table td{padding-right:10px}.spec-table td:last-child{width:21%}.originals{grid-template-columns:1fr}.originals img{height:auto}footer{flex-direction:column;gap:5px}}
+@media(max-width:390px){main{padding:22px 12px}.sample-grid{grid-template-columns:1fr}body #daan-spaces .daan-stage{height:390px}.spec-table{font-size:12px}}
+</style>
+<link rel="stylesheet" href="/tour/history-trial.css?v=archive-v13"></head><body><main>
+<header class="studio-heading"><div><div class="eyebrow">DAAN RESIDENCE / DESIGN STUDIO</div><h1>住进木与光</h1></div><p class="intro">先确定风格，再把生活安排进去。<br><span class="small muted">风格 · 布局与光线 · 单品与清单 · 全屋效果</span></p></header>
+
+<section id="renders" aria-label="装修写实效果图">
+
+<div id="furniture-trial" class="atelier" data-surface="home" data-choice="original" data-length="112" data-angle="0" data-offset="0">
+  <nav class="design-journey" data-journey-nav aria-label="设计步骤">
+    <button type="button" data-journey-step="style" aria-current="step"><span>01</span><strong>确定风格</strong><small>先找到喜欢的感觉</small></button>
+    <button type="button" data-journey-step="layout"><span>02</span><strong>布局与光线</strong><small>再想清楚怎么生活</small></button>
+    <button type="button" data-journey-step="details"><span>03</span><strong>单品与清单</strong><small>把选择变成具体细节</small></button>
+    <button type="button" data-journey-step="whole"><span>04</span><strong>全屋效果</strong><small>把家放在一起看</small></button>
+  </nav>
+  <div class="journey-summary" data-journey-summary hidden><span data-journey-chosen></span><button type="button" data-journey-change>重新选风格</button></div>
+  <div class="atelier-designs" role="group" aria-label="选择设计方案">
+    <button type="button" data-home-design="dusk" aria-pressed="true"><span class="design-number">01 / 全屋设计</span><strong>暮色私邸</strong><span>烟熏胡桃木 · 棕皮 · 暖石</span><i style="--swatches:linear-gradient(90deg,#493529 0 33%,#867a6b 33% 66%,#b39365 66%)"></i></button>
+    <button type="button" data-home-design="chinese" aria-pressed="false"><span class="design-number">02 / 全屋设计</span><strong>绛木雅居</strong><span>红棕木作 · 花格 · 米石</span><i style="--swatches:linear-gradient(90deg,#813e2f 0 33%,#ddd2bc 33% 66%,#35302b 66%)"></i></button>
+    <button type="button" data-home-design="stone" aria-pressed="false"><span class="design-number">03 / 安缦灵感</span><strong>石庭隐居</strong><span>烟熏橡木 · 细织 · 灰石</span><i style="--swatches:linear-gradient(90deg,#625749 0 33%,#b6a58a 33% 66%,#ded9cd 66%)"></i></button>
+    <button type="button" data-home-design="collector" aria-pressed="false"><span class="design-number">04 / 瑰丽灵感</span><strong>藏品公馆</strong><span>酒红皮革 · 深木 · 细金属</span><i style="--swatches:linear-gradient(90deg,#623533 0 33%,#45372b 33% 66%,#d8ccba 66%)"></i></button>
+  </div>
+  <div class="atelier-editors" role="group" aria-label="以往家具试摆"><span>以往试摆</span><button type="button" data-design="walnut" aria-pressed="false">胡桃木私邸</button><button type="button" data-design="edition-light" aria-pressed="false">浅木静居</button></div>
+  <p class="atelier-design-copy" data-design-copy>深木包裹，柔光落在皮革与石面上。八个空间延续同一种安静的温度。</p>
+  <section class="layout-workspace" data-layout-panel hidden aria-label="布局与光线">
+  <div class="journey-section-heading"><div><span class="home-eyebrow">02 / 把喜欢的风格，放进自己的生活</span><h2>同一间房，试试另一种住法</h2></div><a data-layout-save download>保存这一张</a></div>
+  <div class="layout-room-tabs" data-layout-rooms role="group" aria-label="选择排布空间"></div>
+  <p class="layout-scope" data-layout-scope></p>
+  <div class="layout-workbench">
+    <div class="layout-picture-column">
+      <div class="layout-stage" data-layout-stage aria-busy="false">
+        <img data-layout-image width="1536" height="1024" decoding="async" alt="">
+        <span class="layout-image-label" data-layout-image-label></span>
+        <button type="button" class="layout-large" data-layout-large>查看大图</button>
+        <span class="home-loading" data-layout-loading hidden role="status">正在载入效果图…</span>
+      </div>
+      <p class="layout-selected-items" data-layout-selected-items></p><p class="layout-image-foot">固定视角写实概念效果 · 原尺寸 1536 × 1024</p>
+      <p class="layout-status" data-layout-status role="status" aria-live="polite"></p>
+      <div class="layout-light-section"><div class="layout-control-title"><strong>光线也会改变家的感觉</strong><span data-layout-light-hint></span></div><div class="layout-lights" data-layout-lights role="group" aria-label="选择照明情境"></div><button type="button" class="journey-text-button" data-layout-go-lights hidden>去客餐厅比较五种光线 →</button></div>
+    </div>
+    <aside class="layout-options-side" aria-label="选择排布">
+      <div class="layout-control-title"><strong>先选一种排布</strong><span>同一风格</span></div>
+      <div class="layout-option-list" data-layout-options></div>
+      <div class="layout-sofa-section" data-layout-sofa-section><span class="layout-control-label">保留你喜欢的皮色</span><div class="layout-room-tabs" data-layout-sofas></div></div>
+      <div class="window-section" data-window-section hidden><span class="layout-control-label">主卧窗景</span><div class="window-options" data-window-options></div><p>主玻璃不设中间横档，窄开启扇留在侧边。需复核原窗下构造、物业条件与玻璃防护；生活阳台保持可开启通风。</p></div>
+      <p class="layout-option-note" data-layout-availability></p>
+      <button type="button" class="journey-primary" data-layout-next>保留这组选择，选单品 →</button>
+    </aside>
+  </div>
+  <div class="layout-story"><div><span class="home-eyebrow">这次真正改变了什么</span><h3 data-layout-story-title></h3><p data-layout-story-copy></p></div><dl><div><dt>换来了</dt><dd data-layout-benefit></dd></div><div><dt>要取舍</dt><dd data-layout-tradeoff></dd></div></dl></div>
+  <details class="layout-checks" data-layout-checks-wrap><summary>落地之前，要核实的几件事</summary><ul data-layout-checks></ul><p>图片用于比较生活方式与视觉方向。窗下构造、梁柱、管线、实际通道和柜门开启均需现场复核。</p></details>
+</section>
+<section class="journey-details" data-journey-details hidden aria-label="单品与清单">
+  <div class="journey-section-heading"><div><span class="home-eyebrow">03 / 从空间想法，走向具体选择</span><h2>你的搭配，继续细化</h2></div><button type="button" class="journey-text-button" data-details-back>返回布局调整</button></div>
+  <div class="details-route" role="group" aria-label="清单与单品对照"><button type="button" data-details-view="summary" aria-pressed="true">已选排布与清单</button><button type="button" data-details-view="pieces" aria-pressed="false">换单品 · 当前固定视角</button></div>
+  <p class="details-piece-scope" data-details-piece-scope hidden>这里是原布局、日光暖灯的固定视角。每次换单品会应用到当前方案，并带入第四步全屋效果；不可用的组合会保留原选择。</p>
+  <p class="layout-status" data-details-status role="status" aria-live="polite"></p>
+  <div class="details-forward"><p>选好的场景单品会进入全屋效果；下方品牌候选单独列入选购清单。</p><button type="button" class="journey-primary" data-details-next>看我的全屋效果 →</button></div>
+  <div data-details-summary>
+    <div class="details-chosen-layout"><button type="button" data-details-large aria-label="放大已选布局"><img data-details-image width="1536" height="1024" alt=""></button><div><span class="home-eyebrow" data-details-design></span><h3 data-details-title></h3><p data-details-copy></p><dl data-details-items></dl></div></div>
+    <div class="details-room-picks" data-details-room-picks aria-label="查看已选的各空间"></div>
+    <div class="home-section-head"><div><span class="home-eyebrow">先选样，再定型号</span><h3>家具与材料候选</h3></div><button type="button" data-details-product-scope aria-pressed="false">查看全屋候选</button></div>
+    <p class="home-shopping-note" data-details-shopping-note></p>
+    <div class="details-shortlist"><span data-shortlist-count>候选清单 0 件</span><button type="button" data-shortlist-only aria-pressed="false">只看已选候选</button></div>
+    <div class="home-products" data-details-products></div>
+    <p class="details-empty" data-details-empty hidden>还没有加入候选的产品。回到全部候选，先收藏想去看样的几件。</p>
+    <p class="home-purchase-note">保留此前查证的品牌官网与材料参考。效果图不是精确商品展示；价格、库存、饰面和交付条件需向品牌确认。定制收纳与外窗不在这些成品家具中替代估价。</p>
+  </div>
+</section>
+<section class="whole-workspace" data-whole-panel hidden aria-label="全屋效果">
+  <div class="journey-section-heading"><div><span class="home-eyebrow">04 / 让所有选择，成为同一个家</span><h2>把家放在一起看</h2></div><button type="button" class="journey-text-button" data-whole-back>返回单品与清单</button></div>
+  <div class="whole-intro"><p>按已选的布局、单品与光线，整理全屋写实效果。<br><span>已改空间保留当前画面，其他空间沿用所选风格。未完成的跨视角细节还需继续深化。</span></p><button type="button" class="journey-primary" data-whole-generate>生成全屋效果册</button></div>
+  <div class="whole-progress" data-whole-progress-wrap hidden><span data-whole-progress-text role="status" aria-live="polite"></span><progress max="8" value="0" data-whole-progress aria-label="原尺寸效果图读取进度"></progress></div>
+  <p class="layout-status" data-whole-status role="status" aria-live="polite"></p>
+  <p class="whole-stale" data-whole-stale hidden>你刚才调整了搭配或购买候选。这里保留上一份完整效果，点击“更新全屋效果册”同步新选择。</p>
+  <div class="whole-empty" data-whole-empty><span>你的选择，值得一起看。</span><p>生成后可查看八个空间、放大原图，并下载含图片和清单的效果册。此处汇总已完成的场景效果，购买候选不会自动替换进图片。</p></div>
+  <div data-whole-result hidden>
+    <div class="whole-result-head"><div><h3 data-whole-title></h3><p data-whole-count></p></div><button type="button" data-whole-export>下载全屋效果册</button></div>
+    <div class="whole-view-tabs" role="group" aria-label="全屋查看方式"><button type="button" data-whole-view="overview" aria-pressed="true">全屋一览</button><button type="button" data-whole-view="room" aria-pressed="false">逐室大图</button></div>
+    <div class="whole-mosaic" data-whole-mosaic></div>
+    <div class="whole-room-view" data-whole-room-view hidden><div class="whole-room-tabs" data-whole-rooms></div><div class="whole-room-heading"><h3 data-whole-room-title></h3><a data-whole-room-save download>保存这一张</a></div><button type="button" class="whole-room-large" data-whole-room-large aria-label="查看此空间原尺寸大图"><img data-whole-room-image width="1536" height="1024" alt=""></button><p data-whole-room-info></p></div>
+    <p class="whole-image-note">客餐厅共用所选视角，避免另一角度出现旧家具。其余为独立房间概念效果，跨房间材质收口、照明与精确尺寸尚未统一校核。</p>
+    <details class="whole-record"><summary>这份方案里，具体选了什么？</summary><div class="whole-record-columns"><div><h4>已应用到场景</h4><div data-whole-applied></div></div><div><h4>购买候选 · 尚未替换进画面</h4><p>品牌、型号和尺寸用于试坐、看样与询价。</p><div data-whole-candidates></div></div></div></details>
+  </div>
+  <details class="whole-space-model" data-space-model><summary><span>走近看空间</span><small>展开三维比例模型 · 查看全屋关系</small></summary><p class="whole-model-note">保留的三维研究模型，用于看布局与体量。仍为原三套材质方案，未同步上方新单品和窗景，写实搭配以上方效果图为准。</p><section id="viewer" class="section model-wrap"><div class="section-head"><h2>空间比例研究</h2><span class="small muted">拖动旋转 · 选择近景 · 点选家具看用料</span></div><div id="daan-spaces" data-texture-quality="full" aria-label="达安锦园两房双阳台，三套材质方案的可旋转三维空间模型">
+  <img loading="lazy" decoding="async" data-atlas hidden src="/tour/legacy-assets/9063a0cb3fc30f0f.jpg" alt="木材、皮革、织物与石材的概念纹理图集">
+  <div class="daan-heading">
+    <h3>达安锦园 · 材质深化</h3>
+    <span class="text-small text-muted">75.10㎡建筑面积 · 两房 · 双阳台</span>
+  </div>
+  <div class="viz-controls" aria-label="装修方案">
+    <button type="button" class="btn" data-style="sculpt" aria-pressed="true">Ⅰ 胡桃木私邸</button>
+    <button type="button" class="btn" data-style="retro" aria-pressed="false">Ⅱ 橄榄沙龙</button>
+    <button type="button" class="btn" data-style="east" aria-pressed="false">Ⅲ 茶庭光影</button>
+    <button type="button" class="btn btn-ghost" data-style="original" aria-pressed="false">原貌参考</button>
+  </div>
+  <div class="daan-stage" role="group" aria-label="鼠标或手指拖动旋转，滚轮或双指缩放；也可使用下方按钮控制">
+    <canvas aria-label="三维房屋剖面模型，含客餐厅、两间卧室、独立厨房、卫生间和两个阳台">三维模型需要支持 WebGL 的浏览器。请打开保存版查看。</canvas>
+    <div class="daan-style-label"><span data-style-name>胡桃木私邸</span><span class="text-small text-muted">材质与家具深化 · 比例待实测</span></div>
+  </div>
+  <div class="daan-caption"><span data-materials>深胡桃木 · 巧克力棕皮 · 羊毛与亚麻 · 哑光墨石</span></div>
+  <div class="viz-controls">
+    <label class="form-label">视角
+      <select class="form-select" data-view aria-label="观察视角">
+        <option value="living_inside" selected>客厅内景</option><option value="sofa_detail">皮沙发近看</option><option value="table_detail">茶几近看</option><option value="all">全屋鸟瞰</option><option value="top">正上方户型</option><option value="living">客餐厅鸟瞰</option><option value="master">主卧鸟瞰</option><option value="master_inside">主卧内景</option><option value="second">次卧</option><option value="kitchen">厨房</option><option value="bath">卫生间</option>
+      </select>
+    </label>
+    <label class="form-label">墙体
+      <select class="form-select" data-wall aria-label="墙体显示"><option value="cut">剖切展示</option><option value="full">完整高度</option></select>
+    </label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-labels><span class="form-check-label">空间名称</span></label>
+    <label class="form-label">光线<select class="form-select" data-light aria-label="观察光线"><option value="day">自然日光</option><option value="evening">傍晚暖光</option></select></label>
+  </div>
+  <div class="viz-controls" aria-label="旋转与缩放">
+    <button type="button" class="btn btn-ghost" data-rotate-left aria-label="向左旋转">左转</button>
+    <button type="button" class="btn btn-ghost" data-rotate-right aria-label="向右旋转">右转</button>
+    <button type="button" class="btn btn-ghost" data-zoom-in aria-label="放大模型">放大</button>
+    <button type="button" class="btn btn-ghost" data-zoom-out aria-label="缩小模型">缩小</button>
+    <span class="text-small text-muted" data-model-status role="status">展开后加载三维空间</span>
+  </div>
+  <div class="text-small text-muted" data-detail aria-live="polite">概念比例模型 · 净高暂按2.65m · 入户位置待复尺</div>
+</div>
+<style>
+#daan-spaces { width:100%; color:var(--foreground); }
+#daan-spaces .daan-heading { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px 18px; margin-bottom:12px; }
+#daan-spaces .daan-heading h3 { margin:0; }
+#daan-spaces .daan-stage { position:relative; width:100%; height:550px; max-height:76vw; min-height:335px; overflow:hidden; touch-action:none; }
+#daan-spaces canvas { display:block; width:100%; height:100%; touch-action:none; cursor:grab; }
+#daan-spaces canvas:active { cursor:grabbing; }
+#daan-spaces .daan-style-label { position:absolute; top:16px; left:0; pointer-events:none; display:flex; flex-direction:column; gap:5px; }
+#daan-spaces[data-view$="_inside"] .daan-style-label {display:none;}
+#daan-spaces .daan-caption { margin:0 0 16px; }
+#daan-spaces .daan-room-label { position:absolute; transform:translate(-50%,-50%); font:inherit; color:var(--foreground); background:var(--background); border:1px solid var(--border); padding:4px 7px; border-radius:4px; }
+#daan-spaces .daan-room-label[hidden] { display:none; }
+#daan-spaces [data-detail] { margin-top:12px; }
+@media (max-width:500px) { #daan-spaces .daan-stage { height:390px; max-height:none; } #daan-spaces .daan-style-label { top:13px; } }
+</style>
+<script type="module" src="/tour/history-runtime/loader.js?v=archive-v13"></script>
+<p class="small muted">交互模型用于观察布局、体量和材质反光，画面精度与上方写实效果图不同。材料纹理由生成图集制作，并非品牌实物扫描；室内可见微起伏、木纹、皮纹与软包缝线。</p></section></details>
+</section>
+<dialog class="home-dialog" data-journey-dialog aria-label="布局效果大图"><div class="home-dialog-toolbar"><strong data-journey-dialog-title></strong><div><button type="button" data-journey-native aria-pressed="false">原图 100%</button><button type="button" data-journey-close>关闭 ×</button></div></div><div class="home-dialog-view" data-journey-dialog-view><img data-journey-dialog-image alt=""></div></dialog>
+
+  <section class="home-gallery" data-home-panel aria-label="全屋整体设计">
+  <div class="home-toolbar"><div><span data-home-subtitle>EDITION 灵感 · 温暖的私人居所</span><h2 data-home-title>暮色私邸 · 客厅</h2></div><div class="home-actions"><a href="/tour/home-assets/dusk/living.jpg" target="_blank" rel="noopener" data-home-large>查看大图</a><a href="/tour/home-assets/dusk/living.jpg" download="暮色私邸-客厅.jpg" data-home-save>保存效果图</a></div></div>
+  <div class="journey-confirmbar" data-journey-confirmbar><p>先看整体材质与氛围，布局和具体单品留到下一步。</p><button type="button" data-confirm-style>确定暮色私邸，试布局 →</button></div>
+  <p class="layout-status" data-journey-confirm-status role="status" aria-live="polite"></p>
+  <div class="home-modebar" data-home-modebar><div role="group" aria-label="选择对照方式"><button type="button" data-home-mode="pieces" aria-pressed="true">单品选配</button><button type="button" data-home-mode="palette" aria-pressed="false">整套对照</button></div><span data-home-mode-note>固定视角 · 在画面旁挑选家具</span></div>
+  <section class="home-variant-picker" data-home-variant-picker hidden aria-label="整套搭配比较"><div class="home-variant-heading"><strong>整套对照</strong><span>原搭配与此前配色</span></div><div class="home-variants" data-home-variants role="group" aria-label="选择整体搭配方案"></div><p class="home-variant-status" data-home-variant-status aria-live="polite"></p></section>
+  <div class="home-layout" data-home-layout data-pieces="true">
+    <div class="home-main">
+      <div class="home-stage" data-home-stage aria-busy="false">
+        <img src="/tour/home-assets/dusk/pieces/living/cognac-glass.jpg" width="1536" height="1024" fetchpriority="high" decoding="async" data-home-image alt="暮色私邸客厅：深木墙面、干邑皮沙发、烟玻璃茶几与细绒地毯的设计效果">
+        <span class="home-image-tag" data-home-count>01 / 08</span>
+        <span class="home-variant-label" data-home-variant-label>原搭配</span>
+        <span class="home-loading" data-home-loading hidden role="status">正在载入高清图片…</span>
+        <div class="home-piece-pins" data-home-piece-pins></div>
+      </div>
+      <div class="home-image-foot"><span data-home-area>客餐厅合计约 21.4㎡</span><span>整体概念效果图 · 非房屋实拍</span></div>
+      <p class="home-load-status" data-home-load-status role="status" aria-live="polite"></p>
+    </div>
+    <div class="home-side">
+      <aside class="home-piece-panel" data-home-piece-panel aria-label="单品选配">
+        <div class="home-piece-heading"><span class="home-eyebrow">为这一处，换个选择</span><p>点选单品，留住其余搭配</p></div>
+        <div class="home-piece-tabs" data-home-piece-tabs role="group" aria-label="家具品类"></div>
+        <div class="home-piece-catalog" data-home-piece-catalog></div>
+        <p class="home-piece-summary" data-home-piece-summary aria-live="polite"></p>
+        <p class="home-piece-note">精选组合已预先成图，点击加载。保持同一构图；生成图局部纹理可能有细微差异。</p>
+      </aside>
+      <nav class="home-room-nav" aria-label="切换房间"><div class="home-nav-title">全屋空间 <span>点击切换</span></div><div data-home-rooms></div></nav>
+    </div>
+  </div>
+  <section class="home-inspiration" data-home-inspiration hidden aria-label="酒店设计灵感"><span class="home-eyebrow">设计的来处</span><h3 data-home-inspiration-title></h3><p data-home-inspiration-copy></p><div data-home-inspiration-links></div></section>
+  <div class="home-design-notes"><div><span class="home-eyebrow">这一处的设计</span><h3 data-home-story-title>让家具安静地融入木与光</h3><p data-home-story></p></div><dl data-home-materials></dl></div>
+  <section class="home-shopping" aria-label="材料与家具购买参考"><div class="home-section-head"><div><span class="home-eyebrow">从画面到实物</span><h3>材料与家具选购</h3></div><button type="button" data-home-all-products aria-pressed="false">查看这套全屋清单</button></div><p class="home-shopping-note">以下是可查证的品牌与产品候选，便于看样、试坐和询价；效果图为原创设计，不代表这些产品的精确外观或酒店同款。</p><p class="home-shopping-note" data-home-variant-shopping hidden></p><div class="home-products" data-home-products></div><p class="home-purchase-note">产品链接指向品牌官网；需要经销商询价的条目已注明。未核实实时价格、库存及上海交付条件。先把木皮、石材、皮样与织物放在同一光线下比对，再确定采购。</p></section>
+  <details class="home-plan"><summary>户型依据与落地说明</summary><div><img src="/tour/legacy-assets/6fe2ce11b656bd7e.png" width="543" height="336" loading="lazy" alt="达安锦园75.1平方米两房双阳台原始平台户型示意"><p>各区域面积来自原平台户型标注，75.1㎡为建筑面积。效果图按现有资料推演，未做现场测量，细部尺度及不同画面的局部关系仍需复核。新中式参考房约113㎡，本方案借鉴其材质与造型，未照搬房间尺寸。<br><br>阳台开口、梁柱与厨卫边界按现场结构保留。洗烘“嵌入”指柜体一体化，设备散热、检修、排水与防水由实际机型和现场条件确定。</p></div></details>
+  <dialog class="home-dialog" data-home-dialog aria-label="设计效果大图"><div class="home-dialog-toolbar"><strong data-home-dialog-title></strong><div><button type="button" data-home-native aria-pressed="false">原图 100%</button><button type="button" data-home-close aria-label="关闭大图">关闭 ×</button></div></div><div class="home-dialog-view" data-home-dialog-view><img data-home-dialog-image alt=""></div></dialog>
+</section>
+
+  <div data-editor-panel hidden>
+  <div class="atelier-toolbar">
+    <div><span class="atelier-kicker">客厅 · 家具试摆</span><span class="atelier-selection" data-selection-label>点选物件，或从右侧拖入</span></div>
+    <div class="atelier-tools"><button type="button" data-toggle-pins aria-pressed="true">物件标记</button><button type="button" data-original-toggle aria-pressed="false">对比初始搭配</button><button type="button" data-fullscreen>放大工作区</button></div>
+  </div>
+  <div class="atelier-experience-bar"><span>固定视角 · 比较材质与搭配</span><button type="button" data-open-home-rooms>查看全屋设计 ↗</button></div>
+  <div class="atelier-layout">
+    <div class="atelier-scene-column">
+      <div class="atelier-stage" tabindex="0" aria-label="客厅试摆场景。点击或右键选择家具；拖入右侧物件自动出图。" data-stage>
+        <img class="render-image" id="render-image" loading="lazy" src="/tour/trial-assets/original-room.jpg" alt="胡桃木私邸客餐厅写实概念效果图">
+        <canvas data-walk-canvas tabindex="0" aria-label="拖动鼠标上下左右环看；点击地面圆圈保持朝向行走。方向键也可环看。" hidden></canvas>
+        <div class="atelier-walk-layer" data-walk-layer hidden></div>
+        <div class="atelier-hit-layer" data-hit-layer></div>
+        <div class="atelier-view-badge" data-view-label>原视角</div>
+        <div class="atelier-drop-hint" data-drop-hint hidden>松开鼠标，放入对应位置</div>
+        <div class="atelier-progress" data-progress hidden role="status" aria-live="polite"><span data-progress-label>准备场景…</span><progress aria-label="素材读取与出图进度" data-progress-bar max="100" value="0"></progress><small data-progress-count></small></div>
+        <div class="atelier-context" role="menu" aria-label="物件操作" data-context hidden><strong data-context-label>茶几</strong><button role="menuitem" data-context-replace>替换…</button><button role="menuitem" data-context-delete>删除物件</button><button role="menuitem" data-context-restore>恢复原物件</button></div>
+      </div>
+      <div class="atelier-viewbar" data-photo-viewbar><span>点击或拖入替换 · 右键操作物件</span><span>光线与接地阴影自动匹配</span></div>
+      <div class="atelier-walkbar" data-walkbar hidden><span>拖动环看 · 点圆圈走过去</span><div><button data-walk-destination="aisle">客厅通道</button><button data-walk-destination="dining">餐桌前</button><button data-walk-destination="window">窗边</button><button data-walk-home>回到起点</button><button data-walk-save>保存当前视角</button></div></div>
+      <p class="atelier-status" data-status role="status" aria-live="polite">拖放或点击右侧物件，自动更新效果。右键可替换、删除；手机长按也可以。</p>
+      <div class="atelier-foot"><span data-result-note>设计场景 · 尺寸待实测</span><div><a data-save-image hidden download="tingjian-room.png">保存效果</a><button data-export>导出方案</button><button data-reset>恢复初始搭配</button></div></div>
+    </div>
+    <aside class="atelier-sidebar" aria-label="家具与材料列表">
+      <div class="atelier-sidebar-title"><h3>为这一处，换个选择</h3><button type="button" data-side-toggle aria-label="收起或展开素材列表" aria-expanded="true">−</button></div>
+      <div data-sidebar-content>
+        <div class="atelier-categories" role="group" aria-label="素材品类"><button data-category="table" aria-pressed="true">桌几</button><button data-category="sofa" aria-pressed="false">坐具</button><button data-category="rug" aria-pressed="false">地毯</button><button data-category="floor" aria-pressed="false">地面</button></div>
+        <div class="atelier-catalog" data-catalog></div>
+        <div class="atelier-object-actions"><button data-remove>移除这一件</button><button data-restore>恢复原物件</button></div>
+        <details class="atelier-object-list" open><summary>场景单体 <span>4 个独立物件</span></summary><div data-object-list></div></details>
+        <details class="atelier-adjust" open><summary>尺寸与位置 <span data-size-label></span></summary><div data-adjust-fields>
+          <label><span data-length-label>长边 / cm</span><input type="number" data-size min="50" max="350" step="1"></label>
+          <label>朝向 <input type="range" data-angle min="-15" max="15" step="1"><output data-angle-label>0°</output></label>
+          <label>左右 <input type="range" data-offset min="-15" max="15" step="1"><output data-offset-label>0 cm</output></label>
+          <p data-dimensions></p>
+        </div><p class="atelier-micro" data-size-note>尺寸为模型试摆值，购买前请用厂家尺寸校准。</p></details>
+        <details class="atelier-sources"><summary>素材来源与查看范围</summary><p>EDITION 灵感方案由你的参考图与酒店公开资料提炼，家具是独立三维模型与饰面搭配，不是酒店同款或官方设计。坐具分类包括沙发与单椅；选单椅会替换当前坐具。</p><a href="/tour/edition-assets/credits.json" target="_blank" rel="noreferrer">新增模型与材质来源</a><p>模型 A、B 是你提供的地毯，保留原纹理与比例；「图片试建」为网店参考图的近似重建。</p><a href="/tour/user-assets/manifest.json" target="_blank" rel="noreferrer">查看地毯转换记录</a><p>当前支持同一客厅固定视角试摆。图片饰面、模型光照与尺寸均为设计参考，未接入房屋实景扫描；后台精细渲染尚未接入。</p><a href="https://www.editionhotels.com/shanghai/rooms-and-suites/" target="_blank" rel="noreferrer">EDITION 设计灵感参考</a><a href="/tour/catalog-assets/credits.json" target="_blank" rel="noreferrer">原有素材来源（CC0）</a><button data-sample>查看黑漆茶几预制样张</button></details>
+      </div>
+    </aside>
+  </div>
+  <div class="atelier-style-note" data-style-note hidden>这一张保留原方案效果。<button data-back-to-edit>返回空间设计</button></div>
+  </div>
+  <div class="atelier-hover" data-hover hidden aria-hidden="true"><img data-hover-image alt=""><strong data-hover-title></strong><span data-hover-meta></span></div>
+</div>
+
+<div class="caption" aria-live="polite"><div><h3 id="render-title">胡桃木私邸</h3><span class="small muted" id="render-subtitle">最接近你提供的棕皮、深木与粗织参考</span></div><div><p id="render-copy">巧克力棕皮沙发，搭配胡桃木低柜、叠层茶几和天然色织物。让深色集中在家具，墙面保留暖白，给小户型留下光线。</p><p class="small muted">以上为依据原照片生成的写实概念效果，非装修实拍、非指定品牌产品照片；家具细节与下方交互模型仍有差异，不能直接用于下单或施工。</p></div></div>
+</section>
+
+<details class="studio-archive" id="archive-study"><summary>以往方案 · 材质记录</summary><div class="render-tabs" aria-label="选择效果图"><button type="button" data-render="sculpt" aria-pressed="true">01 胡桃木私邸</button><button type="button" data-render="retro" aria-pressed="false">02 橄榄沙龙</button><button type="button" data-render="east" aria-pressed="false">03 茶庭光影</button><button type="button" data-render="master" aria-pressed="false">主卧</button><button type="button" data-render="bath" aria-pressed="false">卫生间</button></div>
+
+
+<section class="section"><div class="section-head"><h2>六种材料，一种温度</h2><span class="small muted">视觉样板 · 最终以实体小样为准</span></div><div class="atlas"><img loading="lazy" decoding="async" src="/tour/legacy-assets/9063a0cb3fc30f0f.jpg" alt="从左至右：上排胡桃木、棕色皮革、亚麻；下排粗织地毯、深色石材、浅色矿物墙面"><div class="sample-grid"><div><strong>01 / 胡桃木</strong><p>柜门用连续纹理木皮；桌椅转角与握持处优先考虑实木细节。低光泽表面保留木孔感。</p></div><div><strong>02 / 细腻皮革</strong><p>先摸皮样、试坐，再决定皮种与软硬度。保留自然褶皱，让家具能随着生活形成痕迹。</p></div><div><strong>03 / 亚麻与棉</strong><p>窗帘、靠包与床品用织纹表达层次，不靠大面积花纹。米白与燕麦色统一全屋。</p></div><div><strong>04 / 羊毛与麻</strong><p>粗织视觉可选羊毛混纺，更关注赤脚触感与清洁。地毯薄厚需配合门扇及机器人通过。</p></div><div><strong>05 / 哑光深石</strong><p>用于小面积茶几嵌板、台面和器皿。先选真实板样，再决定纹理、边型与防护方式。</p></div><div><strong>06 / 矿物白</strong><p>墙面保留轻微肌理。厨房、卫生间的湿区另选适合的瓷砖或配套饰面，不直接照搬干区墙料。</p></div></div></div></section>
+
+<section id="specs" class="section"><div class="section-head"><h2>从画面走向实物</h2><span class="small muted">设计意向清单 · 未锁定采购型号</span></div><p class="intro">“高级”具体落在表皮、结构、收口和触感。以下为早期方案记录；尺寸来自当时的比例模型，为选样范围；品牌项目是可查证的实物参考，定制项目需要工厂深化图和样板确认。</p>
+<table class="spec-table"><thead><tr><th>项目</th><th>拟用材料与细节</th><th>实现方式</th></tr></thead><tbody>
+<tr><td>客厅皮沙发</td><td>约234×88cm；可选棕色或橄榄绿真皮，独立坐垫、收口缝线、木底座与金属细腿。先试坐，确认靠背高度、座深和海绵/填充组合。</td><td>定制造型；可换品牌成品</td></tr>
+<tr><td>茶几</td><td>主方案约67×112cm；胡桃木框、石材嵌板、微倒圆边，避免体量过厚。对色时连同地板一起看。</td><td>定制家具</td></tr>
+<tr><td>电视柜 / 玄关柜</td><td>电视柜约188×32cm；木皮连续对纹、内凹拉手、背部走线与插座预留，柜门开启不占通道。</td><td>现场复尺定制</td></tr>
+<tr><td>餐桌 / 餐椅</td><td>桌约134×77cm；圆角木台面与细腿。曲木椅搭皮面或编织座面；椅背与桌底净空需一起试配。</td><td>定制桌 + 成品椅候选</td></tr>
+<tr><td>地面</td><td>客卧烟熏木色地板；先看同批色差、耐磨表层及与现有门底高差。厨卫阳台用合适的哑光砖，收口尽量简洁。</td><td>实体样板选材</td></tr>
+<tr><td>墙面 / 吊顶</td><td>暖白、低光泽、细微矿物感；原梁和设备位置待核。吊顶服务照明、空调及检修，尽量保持净高。</td><td>现场条件确认后深化</td></tr>
+<tr><td>门 / 柜体 / 格栅</td><td>统一茶棕木色；格栅只用于局部柜门或饰面，门框做薄，不增加厚重装饰柱。保留现有开口关系。</td><td>木作定制</td></tr>
+<tr><td>窗帘 / 地毯 / 靠包</td><td>亚麻感纱帘、燕麦色遮光帘，天然色羊毛混纺地毯；纱与帘分层。按清洁习惯确定面料。</td><td>面料小样 + 按尺寸加工</td></tr>
+<tr><td>主卧床 / 次卧家具</td><td>主卧约1.8m床，木框配亚麻软包；次卧约1.2m床、或沙发床/榻榻米方案。衣柜、抽屉及床尾通道一并复尺。</td><td>成品床候选 + 定制柜</td></tr>
+<tr><td>厨房</td><td>木色柜门、深色台面、简洁金属五金，保留独立厨房。水槽、灶具、烟机和冰箱按最终机型预留。</td><td>整体橱柜 + 待选电器</td></tr>
+<tr><td>卫生间</td><td>哑光石纹砖、木色台盆柜、深色台面、浅色陶瓷、拉丝金属。湿区边口、防水和玻璃五金需按完整系统落实。</td><td>定制柜 + 成品洁具</td></tr>
+<tr><td>灯具 / 五金</td><td>乳白玻璃、纸感灯罩、古铜或拉丝镍；建议先做暖光样板对色。筒灯、阅读灯、镜前灯分回路。</td><td>成品选型 + 灯光深化</td></tr>
+<tr><td>阳台 / 小件</td><td>一把轻椅、小边几、可移动植物；陶器、书和织物少量点缀。生活阳台保留洗衣与收纳。</td><td>成品与按尺寸定制</td></tr>
+</tbody></table>
+<div class="references"><article><h3>餐椅实物参考 / CH20</h3><p>Carl Hansen &amp; Søn 的 CH20 有蒸汽弯曲实木靠背与皮面座垫，可作为曲木与皮革做工的比较样本。交互模型仅近似表达这一类椅型。</p><a class="small" href="https://www.carlhansen.com/en/en/collection/chairs/dining-chairs/ch20" target="_blank" rel="noreferrer">查看官方产品与尺寸图</a></article><article><h3>沙发实物参考 / Florence Knoll</h3><p>官方三人位宽约229.9cm、深约81.9cm，可作为紧凑成品备选；其金属框与拉扣软包更偏现代主义，外形不等于当前主方案。</p><a class="small" href="https://www.knoll.com/shop/en_us/living-sofas-sectionals/florence-knoll-sofa/4034.html" target="_blank" rel="noreferrer">查看官方材料与规格</a></article><article><h3>下单前，组合看样</h3><p>至少把地板、木皮、皮革、地毯、窗帘与墙面小样放在一起，分别看自然光和晚间灯光。品牌、价格、供货期与本地安装条件尚未锁定。</p></article></div>
+</section>
+
+<section class="section archive"><div><h2>始终沿用你们的户型</h2><img loading="lazy" decoding="async" src="/tour/legacy-assets/6fe2ce11b656bd7e.png" alt="原始两房双阳台户型图"><p>75.10㎡是建筑面积。客餐厅21.4㎡、主卧13.5㎡、次卧7.2㎡等为原平台图标注，非本次实测。</p></div><div><h2>这版的确定与待定</h2><p>确定：沿用上一版的外轮廓、房间关系与主要门窗位置；新增可见的皮纹、木纹、织物肌理、软包褶皱、缝线、曲木和收口细节；保留三套方案的旋转观察。</p><p>待定：净尺寸、净高、完整入户边界、梁位、结构墙与设备条件。模型净高仍暂按2.65m，厨卫与阳台分隔保留。</p><p>本版是设计讨论材料。写实效果图与实时模型采用不同表现方式，局部家具造型、照明、细节尺度和照片透视仍有差异；最终靠实测图、品牌规格和实物样板收敛。</p><details><summary>文件与核验说明</summary><p>网页离线可打开；GLB含几何、彩色纹理与部分物理材质，部分浏览器灯光、剖切、凹凸及环境效果不随GLB导出。几何边界与导出完整性已检查。</p><p>当前环境未完成目标浏览器的交互和显示实测。若系统快速预览未运行3D，可下载后用支持WebGL的浏览器打开。</p><p>图集与效果图为AI生成设计素材，家具几何为本次手工建模；不是厂家原版CAD或已采购实物的三维扫描。</p></details></div></section>
+<details><summary>保留的原客厅、主卧与卫生间照片</summary><div class="originals"><img loading="lazy" decoding="async" src="/tour/legacy-assets/ac00a6073edc9787.png" alt="原客厅"><img loading="lazy" decoding="async" src="/tour/legacy-assets/ab5f3827b79b4d4d.png" alt="原主卧"><img loading="lazy" decoding="async" src="/tour/legacy-assets/7f100a7b8d25d795.png" alt="原卫生间"></div></details>
+</details>
+<footer><span>DAAN RESIDENCE · WHOLE-HOME STUDY 13</span><span>私人住宅概念设计 · 2026.09.25</span></footer>
+</main><script type="module" src="/tour/history-runtime/trial.js?v=archive-v13"></script>
+<script src="/tour/history-gallery.js?v=archive-v13" defer></script></body></html>

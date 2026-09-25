@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sourceSiteCommit": "9b568680e502197891cbb689099956271807aa40",
+  "files": 692,
+  "images": 630,
+  "models": 13,
+  "modelDependencies": 24,
+  "bytes": 266821152,
+  "MiB": 254.46,
+  "originalBytesPreserved": true
+}

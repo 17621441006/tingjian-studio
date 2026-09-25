@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "method": "Production DOM event handlers with renderer/network boundary doubles; no GPU or browser visual testing",
+  "checks": [
+    "All ten stone-floor sofa/table combinations and three beds use the selected full image, thumbnail, download and large view; single-object edits retain the other object, including a rapid in-flight two-category change; failures retain and retry the exact pair; hotspots open the matching category; room navigation and original comparison remember the chosen objects; no renderer loads",
+    "Dusk is default; all 32 room/scheme combinations load matching image, caption, materials and purchase references without a 3D render; failed loads retain the previous image, retry works and newer navigation wins; full-size view opens and closes",
+    "All 18 same-camera furniture/material variants update room image, material notes, download name, thumbnails and full-size image; three new choices plus original per design; unchanged rooms explicitly retain original; per-design choice persists; failed variant retries and rapid switching cannot overwrite the latest selection; no 3D render is started",
+    "Initial view is photo-only; clicking catalog item triggers actual render boundary and updates main image",
+    "Category list and large hover preview work; fixed camera retains combined furniture choices",
+    "Photo right-click selects sofa; deletion and restoration reach scene state",
+    "Compatible drag/drop applies automatically; invalid location is explained without rendering",
+    "Dimension edits validated; comparison restores the same viewpoint without changing selection",
+    "Latest-choice rendering wins; reset during rendering prevents a stale frame replacing the original",
+    "Render failure retains last image and provides retry; other original styles remain independent",
+    "Supplied rugs and floor combine independently; floor restoration retains the rug; no walk/camera-change controls or walk renderer loads in fixed-view workspace",
+    "The retained furniture workspace remembers edits after whole-home browsing, accepts an 80cm chair, compares and restores its own scene; Other rooms now opens the working room selector within the page",
+    "Confirmation preserves the exact seen image and cognac colour; all 15 cognac layout/light combinations and deliberate wine switching retain state; failures retry precisely, latest requests win; clear master/landscape glazing choices persist and unavailable bed rotations are disabled",
+    "New compact sofas, wood floors and bed/bedding choices apply into the same saved scene; unavailable combinations cannot silently substitute; side room navigation preserves independent choices; the 8-space book uses actual applied paths with shared dining view, honest image-load progress, original-size viewing, separate purchase shortlist, immutable previous result and stale/export protection",
+    "Cross-style confirmation preserves precisely the preview image and isolates each shortlist/book; late or failed item loads cannot switch workflow; all photo steps avoid initializing 3D, which is now inside the fourth-step collapsed section"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "all_25_images_inspected": true,
+  "new_whole_home_designs": {
+    "stone": 8,
+    "collector": 8
+  },
+  "object_combinations": {
+    "living": 6,
+    "master": 3
+  },
+  "native_resolution": [
+    1536,
+    1024
+  ],
+  "thumbnail_resolution": [
+    480,
+    320
+  ],
+  "browser_visual_tested": false,
+  "notes": [
+    "Camera composition and major openings retained in the fixed-view combinations.",
+    "Small generated texture differences remain, particularly on flooring and rugs.",
+    "Leather wingback bed partly occludes the left bedside lamp; it is a visually taller design.",
+    "New designs borrow hotel design ideas and preserve the compact apartment intent; no exact measured geometry or manufacturer product identity is asserted."
+  ],
+  "interaction_report": "verification/trial-ui.json"
+}

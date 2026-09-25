@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "method": "Actual GLTFLoader and image metadata; camera projection, input validation and published asset graph checks",
+  "findings": [
+    "Input bounds, scale units and disconnected render-service status validated",
+    {
+      "model": "original",
+      "triangles": 284715,
+      "bytes": 10816784,
+      "bounds": [
+        1.1200000047683716,
+        0.2620544731616974,
+        0.813569188117981
+      ]
+    },
+    {
+      "model": "preview",
+      "triangles": 28000,
+      "bytes": 830088,
+      "bounds": [
+        1.119613230228424,
+        0.2621375604176137,
+        0.8123196363449097
+      ]
+    },
+    "All allowed extreme poses remain in the fixed camera frame",
+    "One-frame original-mesh renderer disposes its WebGL context; 3D editor uses a separate light preview"
+  ]
+}

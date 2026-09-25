@@ -1,0 +1,100 @@
+[
+  {
+    "id": "blend-stone-oak",
+    "path": "/tour/home-assets/dusk/selections/living/blend-stone-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ee727c3ce954a43e1f3ab222a376a7aeb71d158df3f550ccf60e03e9effb6ce0"
+  },
+  {
+    "id": "blend-stone-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/blend-stone-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "dee3aaa2ae8ff83b380cf58792e2007e293d892fc9781b0333c4c3c355c0bbaf"
+  },
+  {
+    "id": "cognac-stone-oak",
+    "path": "/tour/home-assets/dusk/selections/living/cognac-stone-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ff523b382e8d3a5b4fd78f3e62c2639a741c82e7705646e750e34224bac2dba5"
+  },
+  {
+    "id": "cognac-stone-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/cognac-stone-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "039c92f220800a1f4c04d860bbe192e053a23554f358a555fe41b27afb28d988"
+  },
+  {
+    "id": "mink-glass-oak",
+    "path": "/tour/home-assets/dusk/selections/living/mink-glass-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "28c307670ef62da62d0bb4e4dc469a2e3eb16bdba2dfba453dcb1ad2a4169d6c"
+  },
+  {
+    "id": "mink-glass-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/mink-glass-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8281348904b86ac788f354dd4cb511bcf5fbc7695aa67f1cc8882561b91b202c"
+  },
+  {
+    "id": "mink-stone-oak",
+    "path": "/tour/home-assets/dusk/selections/living/mink-stone-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "114eb0610cab5ce624bad882d86b176eaad1bdb8bf8aec9cc7fbb957a78579e1"
+  },
+  {
+    "id": "mink-stone-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/mink-stone-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "08e2bd07d4a39cb8fb056f7aa5aa0ed8d9758fe8d33e0bdb64d2b4d8823e04f2"
+  },
+  {
+    "id": "slim-stone-oak",
+    "path": "/tour/home-assets/dusk/selections/living/slim-stone-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8448e6c6a9afe28af0d97d0bb31a4e46edfe80a46c818b2c2b57b1e5c3d4efc7"
+  },
+  {
+    "id": "slim-stone-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/slim-stone-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7c7dda260dc72b60773d0587ff50f5a36c858aaf5523bcbb780795fccaba18a8"
+  },
+  {
+    "id": "wine-glass-oak",
+    "path": "/tour/home-assets/dusk/selections/living/wine-glass-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3d01f83be6ec55a32d2c121e16752e2ba7f68a7afa9bdaff818f8a28a5c7cdb8"
+  },
+  {
+    "id": "wine-glass-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/wine-glass-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "032b1cc9281ab82d5c26486e613ff9d33caac8c178dd125b9d524fbaf6efca6c"
+  },
+  {
+    "id": "wine-stone-oak",
+    "path": "/tour/home-assets/dusk/selections/living/wine-stone-oak.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "bda16a42b512e59d39ce3f52e864a15a2b74350bac83ec54e009ede64e30337d"
+  },
+  {
+    "id": "wine-stone-smoked",
+    "path": "/tour/home-assets/dusk/selections/living/wine-stone-smoked.jpg",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "39df86f3a2ab9f9c95c14e13d1ede4d56a57c8f8dcb39315144624be472a1abc"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "method": "Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation",
+  "checks": [
+    "All three floors switch under mink + stone table; no hidden sofa/table replacement; native scene path matches state.",
+    "Eight rooms remain in one workbench, have independent confirmation, and do not automatically advance; next step unlocks only after all eight.",
+    "Whole-home defaults to live 3D + exact selected photo. Room selection pairs correctly, no geometry rebuild on room clicks; collage is secondary; renderer stops when hidden.",
+    "Editing confirmed materials invalidates affected room confirmations and old whole snapshot; shared living/dining reconfirm together; re-entry uses same renderer with updated choices.",
+    "Failed assets keep prior choice with retry; quick cross-category clicks compose intended choices and stale completions cannot overwrite the latest scene.",
+    "Seven schemes selectable; three latest homes retain eight distinct room photos and flow to whole-home. Bulk confirmation verifies all assets atomically, preserves current room, and never auto-advances. Failed load keeps confirmations unchanged.",
+    "Current detail sections open initially; manual collapse survives room changes. Material preview click/blur states work. Detailed/light model switch stays in the same whole-home workbench.",
+    "Bulk confirmation preserves previously edited bed and bedding when switching away and returning to a scheme.",
+    "Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.",
+    "Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.",
+    "Current and historical editor have separate iframe routes and bundles; legacy tools are hidden in current editor."
+  ]
+}

@@ -1,0 +1,128 @@
+name: Verify complete v17 and archive duplicates with LFS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-and-archive-v17.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tingjian-v17-archive
+  cancel-in-progress: false
+
+jobs:
+  verify-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Validate clean checkout and all original assets
+        run: |
+          npm ci
+          npm run build
+          npm run check
+          node scripts/check-v17-ui.mjs
+          node scripts/check-v17-floors.mjs
+          node scripts/check-v16-assets.mjs
+          node scripts/check-v16-model.mjs
+          node scripts/check-assets.mjs
+      - name: Archive duplicate runtime snapshot using real Git LFS
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name tingjian-archive-bot
+          git config user.email actions@users.noreply.github.com
+          git fetch origin archive/history-v17
+          archive_work="$RUNNER_TEMP/tingjian-history"
+          git worktree add --detach "$archive_work" origin/archive/history-v17
+          mkdir -p "$archive_work/archive/heavy"
+          tar --sort=name --mtime=@0 --owner=0 --group=0 --numeric-owner -czf "$archive_work/archive/heavy/history-v17.tar.gz" dist src/history verification/v17/dist-manifest.json
+          cp verification/v17/dist-manifest.json "$archive_work/archive/history-v17-index.json"
+          cat > "$archive_work/HISTORY_ARCHIVE.md" <<'EOF'
+          # 庭间 v17 历史与第二标签页快照
+
+          `archive/heavy/history-v17.tar.gz` 是独立归档的完整运行快照，包含历史/第二标签页以及它们引用的共享原始素材；main 不保存此重复压缩包。
+          为保持 main 完整离线运行，共享资源的唯一运行副本继续位于 main/dist。归档包不替代 main 的正常 build，不用于覆盖当前线上 Site。
+
+          ```sh
+          git clone --single-branch --branch archive/history-v17 https://github.com/17621441006/tingjian-studio.git tingjian-history
+          cd tingjian-history
+          git lfs install
+          git lfs pull
+          git lfs fsck
+          tar -xzf archive/heavy/history-v17.tar.gz
+          python3 -m http.server 8000 --directory dist
+          ```
+
+          所有超过 100 MB 的归档资产采用 Git LFS。`archive/history-v17-index.json` 记录原始文件大小、图片尺寸和 SHA-256；原图未重编码。
+          EOF
+          git -C "$archive_work" lfs install --local
+          git -C "$archive_work" add .gitattributes archive HISTORY_ARCHIVE.md
+          git -C "$archive_work" add -f archive/heavy/history-v17.tar.gz
+          git -C "$archive_work" lfs fsck
+          git -C "$archive_work" lfs ls-files -l
+          git -C "$archive_work" show :archive/heavy/history-v17.tar.gz | head -3
+          if ! git -C "$archive_work" diff --cached --quiet; then
+            git -C "$archive_work" commit -m "archive: preserve v17 historical runtime snapshot with Git LFS"
+            git -C "$archive_work" lfs push origin HEAD
+            git -C "$archive_work" push origin HEAD:refs/heads/archive/history-v17
+          fi
+          sha256sum "$archive_work/archive/heavy/history-v17.tar.gz" > "$RUNNER_TEMP/tingjian-archive.sha256"
+          git -C "$archive_work" rev-parse HEAD > "$RUNNER_TEMP/tingjian-archive.commit"
+      - name: Fresh public clone and real LFS download
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone "https://github.com/$GITHUB_REPOSITORY.git" "$RUNNER_TEMP/tingjian-fresh"
+          cd "$RUNNER_TEMP/tingjian-fresh"
+          npm ci
+          npm run build
+          npm run check
+          node scripts/check-v17-ui.mjs
+          node scripts/check-v17-floors.mjs
+          node scripts/check-v16-assets.mjs
+          node scripts/check-v16-model.mjs
+          node scripts/check-assets.mjs
+          GIT_LFS_SKIP_SMUDGE=1 git clone --single-branch --branch archive/history-v17 "https://github.com/$GITHUB_REPOSITORY.git" "$RUNNER_TEMP/tingjian-lfs-verify"
+          cd "$RUNNER_TEMP/tingjian-lfs-verify"
+          git lfs pull
+          git lfs fsck
+          expected=$(cut -d' ' -f1 "$RUNNER_TEMP/tingjian-archive.sha256")
+          actual=$(sha256sum archive/heavy/history-v17.tar.gz | cut -d' ' -f1)
+          test "$actual" = "$expected"
+          mkdir "$RUNNER_TEMP/tingjian-archive-extracted"
+          tar -xzf archive/heavy/history-v17.tar.gz -C "$RUNNER_TEMP/tingjian-archive-extracted"
+          python3 - <<'PY'
+          import os,json,hashlib,pathlib
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'tingjian-archive-extracted'
+          for f in json.loads((root/'verification/v17/dist-manifest.json').read_text())['files']:
+              assert hashlib.sha256((root/f['path']).read_bytes()).hexdigest()==f['sha256'],f['path']
+          print('All 692 archived runtime files match original SHA-256')
+          PY
+      - name: Record measured delivery and repository budget
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os,pathlib,json,subprocess,hashlib,datetime
+          temp=pathlib.Path(os.environ['RUNNER_TEMP']);fresh=temp/'tingjian-fresh';archive=temp/'tingjian-lfs-verify/archive/heavy/history-v17.tar.gz'
+          def size(p):return sum(f.stat().st_size for f in p.rglob('*') if f.is_file())
+          git_bytes=size(fresh/'.git');dist_bytes=size(fresh/'dist');archive_bytes=archive.stat().st_size
+          assert git_bytes+archive_bytes<1_000_000_000,(git_bytes,archive_bytes)
+          assert dist_bytes<900*1024*1024
+          result={'passed':True,'verifiedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'mainCommit':subprocess.check_output(['git','-C',str(fresh),'rev-parse','HEAD']).decode().strip(),'archiveCommit':(temp/'tingjian-archive.commit').read_text().strip(),'freshCloneBuildCheck':True,'allOriginalAssetsVerified':True,'realLfsDownloadVerified':True,'archiveSha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'ordinaryGitBytes':git_bytes,'distBytes':dist_bytes,'archiveLfsBytes':archive_bytes,'gitPlusLfsBytes':git_bytes+archive_bytes,'limitBytes':1_000_000_000,'workflowRun':os.environ['GITHUB_RUN_ID']}
+          pathlib.Path('verification/v17/github-delivery.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
+          PY
+          git add verification/v17/github-delivery.json
+          git commit -m "verify: record fresh clone, full asset checks and actual LFS recovery"
+          git push origin HEAD:main

@@ -1,0 +1,273 @@
+{
+  "assets": [
+    {
+      "id": "modern_coffee_table_01",
+      "name": "Modern Coffee Table 01",
+      "source": "Poly Haven",
+      "source_page": "https://polyhaven.com/a/modern_coffee_table_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Amin": "All"
+      },
+      "resolution": "2k",
+      "model": "modern_coffee_table_01/modern_coffee_table_01_2k.gltf",
+      "preview": "modern_coffee_table_01/stone-table.jpg",
+      "variant_preview": "modern_coffee_table_01/smoked-table.jpg",
+      "variant_material_changes": {
+        "baseColorFactor_rgb_multiply_linear": [
+          0.68,
+          0.6,
+          0.5
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.85
+      },
+      "preview_provenance": "Own 640 x 640 native EGL render of the included CC0 glTF meshes and textures; no website example render reused.",
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_coffee_table_01.png?width=256&height=256&v=29e2a5b6",
+      "actual_mesh_bounds_xyz_m": [
+        [
+          -0.2999998927116394,
+          -0.00011512637138366699,
+          -0.6006690263748169
+        ],
+        [
+          0.3000001311302185,
+          0.3898848593235016,
+          0.601161003112793
+        ]
+      ],
+      "actual_mesh_extents_xyz_m": [
+        0.6000000238418579,
+        0.38999998569488525,
+        1.2018300294876099
+      ],
+      "triangle_count": 4504,
+      "primitive_count": 1,
+      "orientation": {
+        "up": "+Y",
+        "width_long_axis": "Z",
+        "depth_axis": "X",
+        "front": "Symmetric coffee table; no unique front",
+        "catalog_lengthAxis": "z",
+        "source_rotation_modified": false
+      },
+      "model_dependency_bytes": 4701241,
+      "preview_bytes": 53640,
+      "files": [
+        {
+          "path": "modern_coffee_table_01/modern_coffee_table_01_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modern_coffee_table_01/modern_coffee_table_01_2k.gltf",
+          "bytes": 2771,
+          "source_verified_md5": "5e8490b726b706acffbed17d6174471b",
+          "sha256": "0934d355e65fc5d1b2056fa913813384246572839af464d741f443462cc8e955"
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_rough_2k.jpg",
+          "bytes": 1476681,
+          "source_verified_md5": "48093edf08c1f4ddd85f995bcddc90f7",
+          "sha256": "48575f42cab1b40558a4f5957ccaf304651460d6caad2de23d86aec3a6bcd6ff",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_coffee_table_01/modern_coffee_table_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_coffee_table_01/modern_coffee_table_01.bin",
+          "bytes": 154864,
+          "source_verified_md5": "6e8f65bff935af308eab9eff062f6daa",
+          "sha256": "b8fe0d49041b879a5d5962685a39e3daf009679f7b6a88ced1347e6dc6c0851e"
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_diff_2k.jpg",
+          "bytes": 1571631,
+          "source_verified_md5": "0e4e0c7fa75c2ba6e3f244fafd12190c",
+          "sha256": "527c9cbe6162b5ba84c5427407148d45a051f38c8475b32b5cd3fc02534a7090",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_coffee_table_01/modern_coffee_table_01_nor_gl_2k.jpg",
+          "bytes": 1495294,
+          "source_verified_md5": "475d7a37185a8f32318896a08188430e",
+          "sha256": "ce0fbc0e6e900480edafbeaab4e4593882c8f3f46dea43b897ccef07093b8caa",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "catalog_uniform_scale": 0.9319121444132185,
+      "catalog_scaled_extents_xyz_m": [
+        0.559147308866448,
+        0.363445722990045,
+        1.12
+      ],
+      "variant_preview_bytes": 52170
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "name": "Modern Arm Chair 01",
+      "source": "Poly Haven",
+      "source_page": "https://polyhaven.com/a/modern_arm_chair_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Vibrant Nordic": "All"
+      },
+      "resolution": "2k",
+      "model": "modern_arm_chair_01/modern_arm_chair_01_2k.gltf",
+      "preview": "modern_arm_chair_01/oak-chair.jpg",
+      "variant_preview": "modern_arm_chair_01/dark-chair.jpg",
+      "variant_material_changes": {
+        "material_name": "modern_arm_chair_01_legs",
+        "baseColorFactor_rgb_multiply_linear": [
+          0.5,
+          0.36,
+          0.24
+        ],
+        "roughnessFactor": 0.8,
+        "cushion": "original"
+      },
+      "preview_provenance": "Own 640 x 640 native EGL render of the included CC0 glTF meshes and textures; no website example render reused.",
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_arm_chair_01.png?width=256&height=256&v=f0268ac6",
+      "actual_mesh_bounds_xyz_m": [
+        [
+          -0.4068087339401245,
+          0.0003815953677985817,
+          -0.5754517316818237
+        ],
+        [
+          0.4135356843471527,
+          1.0232336521148682,
+          0.41110995411872864
+        ]
+      ],
+      "actual_mesh_extents_xyz_m": [
+        0.8203444182872772,
+        1.0228520567470696,
+        0.9865616858005524
+      ],
+      "triangle_count": 8916,
+      "primitive_count": 2,
+      "orientation": {
+        "up": "+Y",
+        "width_axis": "X",
+        "depth_axis": "Z",
+        "front": "+Z",
+        "front_evidence": "Upper backrest mesh occupies negative Z; front seat opening faces +Z."
+      },
+      "model_dependency_bytes": 9221649,
+      "preview_bytes": 57838,
+      "files": [
+        {
+          "path": "modern_arm_chair_01/modern_arm_chair_01_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modern_arm_chair_01/modern_arm_chair_01_2k.gltf",
+          "bytes": 5121,
+          "source_verified_md5": "1fec9694d156cbed5dc8757576cd16a5",
+          "sha256": "eb971ed98af1ce3d4cc93a058ceee5c31dbd185f99aa3d86938d366820943414"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_diff_2k.jpg",
+          "bytes": 843013,
+          "source_verified_md5": "c3def4cb2bcef8ee07c90c55c20a637e",
+          "sha256": "20a8b41bd14552643c1355587ec1198cb8c5f1f7dea50dc71dbb0f6a826adfc1",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+          "bytes": 1074878,
+          "source_verified_md5": "2549b1d93eb4ec13e8ad9edd1327d2f0",
+          "sha256": "dfd11d444ba0a6c1a16304f91c10ef2a2a525180f6a46ca57c2d55c196ff39de",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_arm_chair_01/modern_arm_chair_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_arm_chair_01/modern_arm_chair_01.bin",
+          "bytes": 240728,
+          "source_verified_md5": "5a8f2ea1c79ea484140e484b2a621670",
+          "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_diff_2k.jpg",
+          "bytes": 1660925,
+          "source_verified_md5": "cfed247a17cafd9f59a7f01ed01fdbf4",
+          "sha256": "a3a289f3265d77e120e81aebdd9107b612609b077190e842389b5cd32bbf9a3d",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_arm_2k.jpg",
+          "bytes": 2144468,
+          "source_verified_md5": "a62c231c4f42be2f85f6b42a7cc1fc8e",
+          "sha256": "38a2b11cdfb18aeed9804fee38de93d8fd856f53ad9448ee877833ba25643f15",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+          "bytes": 2076117,
+          "source_verified_md5": "52c08726e839e2c1c87863e6f5a87411",
+          "sha256": "5a57c6b8de10b79d7d2b5540bcb864f4c3c0b4f81c6ef2c5f61470e88620c4a7",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modern_arm_chair_01/modern_arm_chair_01_pillow_arm_2k.jpg",
+          "bytes": 1176399,
+          "source_verified_md5": "1984906adcaef79cefe2d20cb5be4c7e",
+          "sha256": "3c98a68f8d4d9045082d1af97994ff564dc4f8378814bea717d9862edf5dae22",
+          "dimensions_px": [
+            2048,
+            2048
+          ]
+        }
+      ],
+      "catalog_uniform_scale": 0.9752001502859586,
+      "catalog_scaled_extents_xyz_m": [
+        0.8,
+        0.9974854794600442,
+        0.9620951042590674
+      ],
+      "variant_preview_bytes": 56727
+    }
+  ],
+  "license_verified_utc": "2026-09-24",
+  "license_evidence": "Official Poly Haven asset pages mark both assets CC0. Poly Haven license allows commercial use, modification and redistribution without required attribution. Website renders are excluded; production previews here were rendered locally.",
+  "copy_guidance": "Copy the two named asset folders with glTF, BIN, textures and named JPG previews. _render_deps and render_previews.py are scratch tooling and should not be deployed.",
+  "design_inspiration": {
+    "hotel_reference": "https://www.editionhotels.com/shanghai/rooms-and-suites/",
+    "note": "EDITION inspired home concepts, not official hotel furniture or measured reconstructions."
+  },
+  "material_finishes": {
+    "oat-rug": "poly_wool_herringbone",
+    "smoke-rug": "poly_wool_herringbone",
+    "oak-floor": "wooden_floor_02",
+    "stone-floor": "marble_01"
+  },
+  "material_license": "CC0-1.0; https://polyhaven.com/license"
+}

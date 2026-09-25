@@ -1,0 +1,341 @@
+{
+  "original": "/workspace/sites/tingjian-studio/dist/tour/home-assets/copper/living.jpg",
+  "directory": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living",
+  "variants": [
+    {
+      "mask": 1,
+      "bits": [
+        1
+      ],
+      "filename": "01.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 01; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nExplicit objects to preserve:\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected generated output: requested removals correct; unselected objects retained; original framing preserved; no obvious residual art silhouettes, glow or object fragments."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-cf8653e1-5bae-46be-898d-f0cb0cb2650e.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/01.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 710782,
+      "sha256": "7de05fa913f3012ff8e9ba49c387a0bc11a9f143addda75e55e7ee37db1e7315"
+    },
+    {
+      "mask": 2,
+      "bits": [
+        2
+      ],
+      "filename": "02.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 02; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected generated output: requested removals correct; unselected objects retained; original framing preserved; no obvious residual art silhouettes, glow or object fragments."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-96020461-2a85-4b36-8a41-563560e062ba.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/02.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 724184,
+      "sha256": "840018bf854ba9f50803858cb541cd20330a8954f2ab82ecebc27e5f677a9619"
+    },
+    {
+      "mask": 3,
+      "bits": [
+        1,
+        2
+      ],
+      "filename": "03.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 03; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nExplicit objects to preserve:\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected generated output: requested removals correct; unselected objects retained; original framing preserved; no obvious residual art silhouettes, glow or object fragments."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-2b0e59de-2c3f-4c4a-98b6-b940b20c2068.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/03.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 731504,
+      "sha256": "54c9a6f53bad8ddbd28e893b5948a0f2b5f80f244404f7bada4c2b299fb697aa"
+    },
+    {
+      "mask": 4,
+      "bits": [
+        4
+      ],
+      "filename": "04.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 04; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: correct bitmask removals, camera/framing preserved, coffee table and unselected furnishings retained, continuous matching stone floor."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-059220d5-717d-4a85-842a-a9d41e1a5139.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/04.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 656881,
+      "sha256": "e1160ec51e3d4294efb93307e82c0a6d534fe30cace0336ff1e20330280ba9a7"
+    },
+    {
+      "mask": 5,
+      "bits": [
+        1,
+        4
+      ],
+      "filename": "05.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 05; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nExplicit objects to preserve:\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: correct bitmask removals, camera/framing preserved, coffee table and unselected furnishings retained, continuous matching stone floor."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-990d7218-c640-4ad3-951b-f125d2f12d84.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/05.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 673586,
+      "sha256": "eec53cf93cc7f0dee64609cbb7d1c5554e32d723cf6d17d8264953ef132edbc0"
+    },
+    {
+      "mask": 6,
+      "bits": [
+        2,
+        4
+      ],
+      "filename": "06.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 06; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected initial and corrected output. Correct sofa-plus-rug removal combination, camera/framing preserved, coffee table and unselected furnishings retained, continuous matching stone floor.",
+        "Initial tiny invented outlet-like wall marks were removed by a localized built-in imagegen correction. No remaining object fragments observed."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-9e77eabb-d9b0-459c-be45-273255f88268.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/06.jpg",
+      "correction": {
+        "reason": "Unrequested tiny outlet-like marks on newly exposed right green stone wall",
+        "input_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-baa582f6-7d04-4a24-bb14-1be77649a8cb.png",
+        "prompt": "Use case: precise-object-edit. Input image 1 is the edit target. Make one tiny localized correction only: remove the small pale outlet-like white marks from the LOWER LEFT portion of the RIGHT green stone wall, approximately pixel x=1233, y=587 in this 1536x1024 image, just above the dark baseboard. Replace only those small marks with uninterrupted matching green textured stone. Preserve the entire rest of this image as exactly as possible. KEEP both bronze cloud wall sculptures and their backlights, TV, left TV console with decor, rear sideboard with lamp and decor, built-in bookshelf, dining set, pendant, coffee table with decor, bare tile floor, warm light, shadows, geometry, colors and textures. The sofa and rug are already removed: keep them absent. Do not invent outlets, switches, cables or new objects. Camera and composition locked; no crop, zoom or shift. Output native 1536x1024 one image.",
+        "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-9e77eabb-d9b0-459c-be45-273255f88268.png",
+        "qa": "Visually inspected corrected output: pale marks are gone; continuous green stone; sofa and rug remain absent; both art pieces, cabinets and other retained objects remain."
+      },
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 583921,
+      "sha256": "8e17397eeabd0a060fbbf7c34d476b66ccfbe04988e63cfe53191b3e6f34c431"
+    },
+    {
+      "mask": 7,
+      "bits": [
+        1,
+        2,
+        4
+      ],
+      "filename": "07.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 07; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nExplicit objects to preserve:\nKEEP both the left TV console and rear dining sideboard, their precise cabinet designs and all items on their tops exactly unchanged.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals are complete, original framing and all unselected furniture retained; wall/floor reconstructions seamless; TV and permanent built-in shelving retained."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-d96bed2b-7b37-4d3e-bb7b-8a2ec9909984.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/07.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 661719,
+      "sha256": "23e6df505eb2ea31fe514a5f2ebce7853d679e61610099f504046a76d58d8eb7"
+    },
+    {
+      "mask": 8,
+      "bits": [
+        8
+      ],
+      "filename": "08.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 08; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals are complete, original framing and all unselected furniture retained; wall/floor reconstructions seamless; TV and permanent built-in shelving retained."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-cd041685-139f-4ff3-a6fb-fe6e9fc4c31a.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/08.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 713395,
+      "sha256": "9f818937683be1d856ddfd1807cab982eac5cf067660a0b4927a44784410757f"
+    },
+    {
+      "mask": 9,
+      "bits": [
+        1,
+        8
+      ],
+      "filename": "09.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 09; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals are complete, original framing and all unselected furniture retained; wall/floor reconstructions seamless; TV and permanent built-in shelving retained."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-dd40bbf6-96c2-4768-af85-28c077a4e556.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/09.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 716080,
+      "sha256": "377d56fe5f727fb913d2308d776ad97d1f6a61c8e86746a5c8b19c246bbaa158"
+    },
+    {
+      "mask": 10,
+      "bits": [
+        2,
+        8
+      ],
+      "filename": "10.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 10; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals complete; TV, built-in shelf, dining set and coffee table retained; same framing/perspective; reconstructed surfaces coherent."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-47b4c091-a865-4fa8-9140-9c971454c325.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/10.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 726590,
+      "sha256": "a48db1a137d9e155d7ae1bd0557484aacaadd5b0caac16e55369aa35b4e82ad6"
+    },
+    {
+      "mask": 11,
+      "bits": [
+        1,
+        2,
+        8
+      ],
+      "filename": "11.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 11; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP the entire original living area rug exactly unchanged in size, material, pattern and position.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals complete; TV, built-in shelf, dining set and coffee table retained; same framing/perspective; reconstructed surfaces coherent.",
+        "Minor fine-texture/illumination drift on the lower glass partition revealed beside the removed TV console; no camera or furniture geometry change observed."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-ef159253-4d51-4ef4-bdd8-a816fe772473.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/11.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 740037,
+      "sha256": "0666b4aa9c828c8cc2d0e90c93402119d9d8d091198b7cbf65d868e856464c22"
+    },
+    {
+      "mask": 12,
+      "bits": [
+        4,
+        8
+      ],
+      "filename": "12.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 12; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested removals complete; TV, built-in shelf, dining set and coffee table retained; same framing/perspective; reconstructed surfaces coherent."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-1a28a7e1-303e-4a3b-982b-96984e45d4f4.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/12.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 653941,
+      "sha256": "25dc81f30a6ff2e52cfde9c3dfd5d45d19ece822d73274bcb40cd943d96d140c"
+    },
+    {
+      "mask": 13,
+      "bits": [
+        1,
+        4,
+        8
+      ],
+      "filename": "13.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 13; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP the right olive sofa, its exact shape and position, cushions, pale pillows and draped throw exactly as in the original.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested bitmask removals are complete; original framing/perspective and unselected objects retained; reconstructed wall/floor surfaces coherent with warm lighting and contact shadows."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-41d7b6af-0b4e-482c-a6e2-c3296acaa00a.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/13.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 703307,
+      "sha256": "629d28780a08a1eb65f1353f02696f6f5bce31d28e396b0e853810b8603f8cbf"
+    },
+    {
+      "mask": 14,
+      "bits": [
+        2,
+        4,
+        8
+      ],
+      "filename": "14.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 14; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\nKEEP both bronze cloud sculptures and their existing backlighting exactly as in the original.\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested bitmask removals are complete; original framing/perspective and unselected objects retained; reconstructed wall/floor surfaces coherent with warm lighting and contact shadows."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-2e657fb1-d3e9-438b-962c-a70898b2e9d5.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/14.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 649079,
+      "sha256": "947bc4bfda8bb907f50a8cb1b1b6db6393f8cd0a8eb34f82ef4d4e63ad557b3d"
+    },
+    {
+      "mask": 15,
+      "bits": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "filename": "15.jpg",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic edited image of the attached original interior photograph. Input image 1 is the edit target and sole reference. This is removal-combination 15; do not write this label in the image.\nChange ONLY the following selected objects:\nRemove BOTH bronze cloud-shaped wall sculptures: the one on the right green stone wall above the sofa and the one on the rear beige dining wall. Remove their entire luminous halos/backlights, not just metal shapes. Reconstruct uninterrupted natural green textured stone on the right and beige plaster on the rear wall, matching adjacent material. No silhouettes, leftover contours, glows, mounting points or replacement artworks.\nRemove the entire olive-green living-room sofa on the right, together with all sofa cushions, pillows and throw blanket. Reconstruct the newly visible room wall and floor/rug naturally. Do not remove or change the dining chairs.\nRemove the complete living-room area rug and expose the same continuous existing light stone tile floor underneath, matching perspective, tile joins, texture and warm illumination. Keep convincing contact shadows beneath every remaining piece of furniture.\nRemove BOTH freestanding wood storage cabinets: the large TV console at the left foreground and the rear dining sideboard against the back wall to the right of the dining table. Remove ALL objects resting on those two cabinets, including the left vase and its tall branches, books, bowl, soundbar, rear lamp, bowls/trays and decor. Keep the black wall-mounted television suspended exactly where it is. Keep the permanent tall built-in bookshelf at the left of the dining area, including its shelves, books, plants and lighting. Restore natural continuous wall, baseboard and stone tile floor behind the two removed cabinets.\nExplicit objects to preserve:\n\nAlways KEEP the central bronze-framed glass coffee table, vase and branches, books, bowl and small candle on it; all dining table/chairs and table decor; the TV; the permanent built-in bookshelf; the entrance door, controls, ceiling beams, pendant light, cove lights, glass partition, doorway and architecture. Do not add, replace, resize, relocate or redesign any unselected object.\nEXACT CAMERA LOCK: Match the input's complete 1536 x 1024 landscape framing, perspective, viewpoint, focal length and apartment scale. No crop, no zoom, no recentering, no composition change. Preserve all existing furniture geometry/materials, original colors, wall/floor textures, exposure, warm daylight direction, permanent lighting and atmosphere. Only reconstruct surfaces revealed by the requested removals and adjust physically necessary contact shadows. Natural seamless coherent surfaces, never flat patches. No text, watermark, new objects or stylistic change. Output one image, not a collage. Newly exposed wall areas must be continuous plain original material; do not invent outlets, switches, cables or fittings.",
+      "status": "complete",
+      "qa_notes": [
+        "Visually inspected: requested bitmask removals are complete; original framing/perspective and unselected objects retained; reconstructed wall/floor surfaces coherent with warm lighting and contact shadows."
+      ],
+      "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-277c3904-4467-433a-8666-e00b25199fc4.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v16-assets/removals/copper/living/15.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 661279,
+      "sha256": "df069d7efdbf830b8863ed2253a8f3d0197ed10e17166dca48048072b36f6f95"
+    }
+  ],
+  "method": "built-in image_gen",
+  "bit_definitions": {
+    "1": "Remove both bronze cloud wall artworks and their backlights",
+    "2": "Remove living sofa, cushions, pillows and throw",
+    "4": "Remove living area rug",
+    "8": "Remove TV console and rear dining sideboard with all items on their tops"
+  },
+  "original_inspected": true,
+  "qa_summary": "All 15 combinations visually inspected. Composition, camera, architecture and required retained objects match the original. Native dimensions verified. Minor generative texture drift is possible; mask 11 has minor glass-partition fine-texture/illumination drift noted separately."
+}

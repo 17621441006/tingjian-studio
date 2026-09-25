@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "method": "Bundled application event handlers in a Node VM with DOM, image-loading and WebGL test doubles; verifies application state, not browser rendering.",
+  "checks": [
+    "The design workspace is the default, with no panorama WebGL work and origin-checked automatic height",
+    "HD mode loads only the selected full image and never initializes panorama WebGL",
+    "Persistent neighboring-room buttons move through the home in HD",
+    "All 32 style/room combinations load the intended HD image, caption and download",
+    "Native zoom, fit and extreme drags clamp correctly",
+    "Switching HD / panorama retains room and style and restores the proper controls",
+    "Rapid style changes commit only the final request",
+    "Changing browsing modes retains the editing frame and its unsaved scheme choices",
+    "Map and design notes still open and close"
+  ]
+}

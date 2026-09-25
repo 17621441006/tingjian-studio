@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "project": "v13-assets/cognac/original",
+  "created_date_utc": "2026-09-25",
+  "task": "Four lighting edits of cognac-glass.jpg, created outside the Site.",
+  "method": "Built-in image_gen image editing; no CLI fallback; each initial variant independently referenced the original target. Neutral-night received one additional built-in correction.",
+  "original_source": {
+    "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+    "dimensions": {
+      "width": 1536,
+      "height": 1024
+    },
+    "sha256": "aaa2bac75946be2246e30b1a44cdf1b01631b31e70e7374ff511690b106cc683",
+    "byte_count": 502405
+  },
+  "original_modified": false,
+  "site_modified": false,
+  "final_deliverable_count": 4,
+  "generation_call_count": 5,
+  "processing": "Generated PNGs were copied byte-for-byte to final paths. No image resizing, upscaling, filtering, recompression, or pixel editing was performed after generation.",
+  "dimensions_requirement": {
+    "minimum_width": 1536,
+    "minimum_height": 1024,
+    "aspect_ratio": "3:2",
+    "all_selected_native_outputs_satisfy": true
+  },
+  "variants": [
+    {
+      "name": "daylight",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-3d630a88-024d-4a3a-a712-acb023c87d15.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/daylight.png",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "9ce2311d3c5b41035ac5dbd3d24cbdcaebc948c398a50f87f73106d41a08c3ed",
+      "byte_count": 2419962,
+      "source_chain": [
+        {
+          "step": 1,
+          "tool": "built-in image_gen.imagegen",
+          "referenced_image_paths": [
+            "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+          ],
+          "prompt": "Use case: lighting-weather.\nAsset type: a photoreal architectural interior photo lighting variant for a website.\nInput image 1 is the sole EDIT TARGET. Edit this exact photo; this is not a reference for a redesigned room.\nPreserve the exact 3:2 composition, precise camera position, lens, perspective, full field of view and framing. Output native 1536 x 1024 pixels or larger in the same 3:2 aspect ratio.\nChange only physically coherent light and time of day. Lock all room geometry, walls, ceiling moldings/coves, doors/openings, glazing, art, cabinetry, TV, shelving, every fixture, furniture identity, material, texture, plants, tableware, books, all object positions, draped throw shape and shadows consistent with the requested lighting.\nCritical color/material invariants: the sofa is COGNAC BROWN leather, warm camel/caramel brown exactly the same intrinsic material as the target; NEVER burgundy, maroon, wine red or purple. Keep the round SMOKE GLASS coffee table with transparent smoky brown glass, curved bronze base, and its objects in their exact positions. Keep the beige textured rug and existing walnut wood.\nPreserve all fixture shapes: center ceiling drum fixture, cove strips, recessed spotlights, back dining pendant, right sideboard mushroom lamp. No new fixtures, no new window, no new objects, no decoration changes.\nStyle: a coherent real interior photograph with natural dynamic range and detailed real materials; no game graphics, no CGI look, no global overlay filter, no text, no watermark.\nLighting variant DAYLIGHT ONLY: naturally lit bright daytime room from the existing daylight entry at left. Switch EVERY electric source truly OFF. The cove is a neutral unilluminated ceiling recess with ZERO luminous strip or glow. Every recessed downlight is an unlit dark or neutral aperture with ZERO halo or light pool. Center ceiling drum, dining pendant and sideboard lamp are OFF: shades appear as unlit physical materials reflecting only daylight; no visible luminous center, no orange/amber glow, no internally lit shade. Remove all electric light pools on ceiling, wall, wood or floor. Use soft neutral daylight and believable daylight shadows; keep brown leather brown. Make the fully off state unmistakable without altering lamp geometry.",
+          "transparent_background": false,
+          "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-3d630a88-024d-4a3a-a712-acb023c87d15.png",
+          "native_dimensions": {
+            "width": 1536,
+            "height": 1024
+          }
+        }
+      ],
+      "qa": {
+        "lighting": "All visible recessed lights are dark; coves show no electric glow; ceiling fixture, dining pendant, and sideboard lamp appear unlit. Daylight enters from the left with sunlit surfaces and daylight shadows.",
+        "comparison_to_source": "The same camera view, room structure, furniture layout, cognac-brown leather sofa, smoke-glass table and beige rug are visually retained.",
+        "status": "Pass by visual inspection"
+      }
+    },
+    {
+      "name": "daycool",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e9dc4a61-2bae-4578-a727-5019e32d0e8d.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/daycool.png",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "6dcf1af1c3b5285e8ff66ea68a6d5be72a8d83a21eecfa16a7572046ff681649",
+      "byte_count": 2357171,
+      "source_chain": [
+        {
+          "step": 1,
+          "tool": "built-in image_gen.imagegen",
+          "referenced_image_paths": [
+            "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+          ],
+          "prompt": "Use case: lighting-weather.\nAsset type: a photoreal architectural interior photo lighting variant for a website.\nInput image 1 is the sole EDIT TARGET. Edit this exact photo; this is not a reference for a redesigned room.\nPreserve the exact 3:2 composition, precise camera position, lens, perspective, full field of view and framing. Output native 1536 x 1024 pixels or larger in the same 3:2 aspect ratio.\nChange only physically coherent light and time of day. Lock all room geometry, walls, ceiling moldings/coves, doors/openings, glazing, art, cabinetry, TV, shelving, every fixture, furniture identity, material, texture, plants, tableware, books, all object positions, draped throw shape and shadows consistent with the requested lighting.\nCritical color/material invariants: the sofa is COGNAC BROWN leather, warm camel/caramel brown exactly the same intrinsic material as the target; NEVER burgundy, maroon, wine red or purple. Keep the round SMOKE GLASS coffee table with transparent smoky brown glass, curved bronze base, and its objects in their exact positions. Keep the beige textured rug and existing walnut wood.\nPreserve all fixture shapes: center ceiling drum fixture, cove strips, recessed spotlights, back dining pendant, right sideboard mushroom lamp. No new fixtures, no new window, no new objects, no decoration changes.\nStyle: a coherent real interior photograph with natural dynamic range and detailed real materials; no game graphics, no CGI look, no global overlay filter, no text, no watermark.\nLighting variant DAYLIGHT PLUS COOL WHITE ELECTRIC LIGHT: daytime ambient daylight from the existing left entry plus every existing practical, cove and downlight visibly switched ON with COOL WHITE light, around 6000K. Cove strip is distinctly cool white; recessed downlight sources/halos and their wall pools are cool white; center drum shade and dining pendant shade visibly emit clean cool white; small sideboard lamp emits cool white. NO amber, yellow, orange or warm practical emission anywhere. Preserve the natural warm brown pigments of wood and COGNAC BROWN leather, even while cool-white light hits them. Daylight outdoors/entry remains daytime. This is a physically relit photograph, not a blue overlay or color grade. Ensure electric emission is clearly distinguishable from the warm source target.",
+          "transparent_background": false,
+          "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e9dc4a61-2bae-4578-a727-5019e32d0e8d.png",
+          "native_dimensions": {
+            "width": 1536,
+            "height": 1024
+          }
+        }
+      ],
+      "qa": {
+        "lighting": "Daytime entry remains bright. Cove strip, recessed sources, ceiling shade, dining pendant, and sideboard lamp show visibly cool-white rather than amber emission.",
+        "comparison_to_source": "The same camera view, room structure, furniture layout, cognac-brown leather sofa, smoke-glass table and beige rug are visually retained.",
+        "status": "Pass by visual inspection"
+      }
+    },
+    {
+      "name": "nightwarm",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-33b484bd-b3fa-46a7-bede-c13a811ba271.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/nightwarm.png",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "a1a41dd368c7e442602bf6a60da9bb9e0c25d7e7e077bc7323763d1183604c4c",
+      "byte_count": 2114224,
+      "source_chain": [
+        {
+          "step": 1,
+          "tool": "built-in image_gen.imagegen",
+          "referenced_image_paths": [
+            "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+          ],
+          "prompt": "Use case: lighting-weather.\nAsset type: a photoreal architectural interior photo lighting variant for a website.\nInput image 1 is the sole EDIT TARGET. Edit this exact photo; this is not a reference for a redesigned room.\nPreserve the exact 3:2 composition, precise camera position, lens, perspective, full field of view and framing. Output native 1536 x 1024 pixels or larger in the same 3:2 aspect ratio.\nChange only physically coherent light and time of day. Lock all room geometry, walls, ceiling moldings/coves, doors/openings, glazing, art, cabinetry, TV, shelving, every fixture, furniture identity, material, texture, plants, tableware, books, all object positions, draped throw shape and shadows consistent with the requested lighting.\nCritical color/material invariants: the sofa is COGNAC BROWN leather, warm camel/caramel brown exactly the same intrinsic material as the target; NEVER burgundy, maroon, wine red or purple. Keep the round SMOKE GLASS coffee table with transparent smoky brown glass, curved bronze base, and its objects in their exact positions. Keep the beige textured rug and existing walnut wood.\nPreserve all fixture shapes: center ceiling drum fixture, cove strips, recessed spotlights, back dining pendant, right sideboard mushroom lamp. No new fixtures, no new window, no new objects, no decoration changes.\nStyle: a coherent real interior photograph with natural dynamic range and detailed real materials; no game graphics, no CGI look, no global overlay filter, no text, no watermark.\nLighting variant NIGHT WITH WARM PRACTICAL LIGHT: it is fully night outside the existing left glazing/entry. Remove ALL sunlight, ALL daytime brightness entering from left, and especially the long diagonal sunbeam or bright sun stripe crossing the floor/rug. No daylight shadows or direct sun patterns anywhere. Illuminate the room only using all existing coves, recessed spots, center ceiling drum fixture, dining pendant and small sideboard lamp, each consistently warm white approximately 2700K. Warm coherent local light pools and plausible fixture shadows, gently dim nighttime ambiance with enough detail to inspect furnishings. Existing openings and their geometry must remain unchanged; exterior/entry is naturally dark and any glazing may show believable nighttime reflections. Keep the sofa unmistakably cognac brown leather, never burgundy.",
+          "transparent_background": false,
+          "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-33b484bd-b3fa-46a7-bede-c13a811ba271.png",
+          "native_dimensions": {
+            "width": 1536,
+            "height": 1024
+          }
+        }
+      ],
+      "qa": {
+        "lighting": "Left entry is dark; daytime floor/rug sunbeams are removed. All visible practical lighting reads warm; furnishings remain legible.",
+        "comparison_to_source": "The same camera view, room structure, furniture layout, cognac-brown leather sofa, smoke-glass table and beige rug are visually retained.",
+        "status": "Pass by visual inspection"
+      }
+    },
+    {
+      "name": "nightneutral",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e3ed4d34-59e4-4261-aa02-2d4412791237.png",
+      "final_path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/nightneutral.png",
+      "native_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "0d74b305e6fe81f37ea22b51f8189b554c9ded3c3352ef47ef80342af38fe440",
+      "byte_count": 2198228,
+      "source_chain": [
+        {
+          "step": 1,
+          "tool": "built-in image_gen.imagegen",
+          "referenced_image_paths": [
+            "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+          ],
+          "prompt": "Use case: lighting-weather.\nAsset type: a photoreal architectural interior photo lighting variant for a website.\nInput image 1 is the sole EDIT TARGET. Edit this exact photo; this is not a reference for a redesigned room.\nPreserve the exact 3:2 composition, precise camera position, lens, perspective, full field of view and framing. Output native 1536 x 1024 pixels or larger in the same 3:2 aspect ratio.\nChange only physically coherent light and time of day. Lock all room geometry, walls, ceiling moldings/coves, doors/openings, glazing, art, cabinetry, TV, shelving, every fixture, furniture identity, material, texture, plants, tableware, books, all object positions, draped throw shape and shadows consistent with the requested lighting.\nCritical color/material invariants: the sofa is COGNAC BROWN leather, warm camel/caramel brown exactly the same intrinsic material as the target; NEVER burgundy, maroon, wine red or purple. Keep the round SMOKE GLASS coffee table with transparent smoky brown glass, curved bronze base, and its objects in their exact positions. Keep the beige textured rug and existing walnut wood.\nPreserve all fixture shapes: center ceiling drum fixture, cove strips, recessed spotlights, back dining pendant, right sideboard mushroom lamp. No new fixtures, no new window, no new objects, no decoration changes.\nStyle: a coherent real interior photograph with natural dynamic range and detailed real materials; no game graphics, no CGI look, no global overlay filter, no text, no watermark.\nLighting variant NIGHT WITH NEUTRAL WHITE PRACTICAL LIGHT: it is fully night outside the existing left glazing/entry. Remove ALL sunlight, ALL daytime brightness entering from left, and especially the long diagonal sunbeam or bright sun stripe crossing the floor/rug. No daylight shadows or direct sun patterns anywhere. Illuminate using all existing coves, recessed spots, center ceiling drum fixture, dining pendant and small sideboard lamp, ALL consistently NEUTRAL WHITE approximately 4000K-4500K. Every luminous strip, spotlight, visible shade and emitted light pool must read as clean neutral white, not amber, orange or yellow, and not icy blue. Nighttime ambiance with natural contrast and enough visible detail. Do not recolor the wood or cognac brown sofa gray; preserve their brown material colors under white light. Existing openings and geometry unchanged, left entry/exterior dark with plausible reflections.",
+          "transparent_background": false,
+          "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-a87b59a3-2794-4734-b4ee-25f81eac2215.png",
+          "native_dimensions": {
+            "width": 1536,
+            "height": 1024
+          }
+        },
+        {
+          "step": 2,
+          "tool": "built-in image_gen.imagegen",
+          "reason": "Initial result still had creamy warm emission; targeted correction requested visually balanced white emissions.",
+          "referenced_image_paths": [
+            "/workspace/scratch/aa0f93406d63/generated_images/exec-a87b59a3-2794-4734-b4ee-25f81eac2215.png"
+          ],
+          "prompt": "Use case: lighting-weather.\nThis image is the EDIT TARGET, an existing night interior photograph that needs a single targeted lighting correction. Keep exact 3:2 camera composition, perspective, geometry, frame, every object position, every furnishing, material and texture unchanged. Output native 1536 x 1024 or larger same 3:2.\nCorrect ONLY the color of existing artificial emission so all emitted light is visibly NEUTRAL WHITE, clean balanced white, approximately 5000K, with no yellow or amber tint. The target image still has creamy-yellow light: remove that tint from ALL luminous sources and their spill. The full ceiling perimeter cove must glow clean white. Every recessed spotlight must have a pure white luminous aperture and neutral-white spill. The ceiling drum shade must visibly emit balanced white. The dining pendant must visibly emit balanced white. The small sideboard mushroom lamp must emit balanced white under its shade and onto the surface. Treat white fixture emission as essential; zero amber or orange/yellow luminous areas.\nThe surrounding wood and sofa retain their naturally warm pigments: keep walnut brown wood and COGNAC BROWN caramel leather sofa, never gray, maroon, wine-red, purple or burgundy. Preserve the round smoke-glass coffee table, bronze curved legs, its objects, beige rug, throw, paintings and all room contents precisely. Preserve full nighttime darkness outside the left opening and remove any daylight sunbeams/shadows; do not add lights or objects. Keep existing number and positions of actual fixtures.\nA physically coherent photorealistic relighting, not a blue overlay, not a filter, not a game rendering. Local sources and their reflected light are neutral white; actual materials retain correct intrinsic colors. No text or watermark.",
+          "transparent_background": false,
+          "output_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e3ed4d34-59e4-4261-aa02-2d4412791237.png",
+          "native_dimensions": {
+            "width": 1536,
+            "height": 1024
+          }
+        }
+      ],
+      "qa": {
+        "lighting": "Final correction visibly changes all source emissions to white, including sideboard lamp, pendant, ceiling fixture, coves and recessed lights. Left entry stays dark and sunbeams are absent.",
+        "comparison_to_source": "The same camera view, room structure, furniture layout, cognac-brown leather sofa, smoke-glass table and beige rug are visually retained. Left glazing contains newly synthesized night reflections/point highlights.",
+        "status": "Pass by visual inspection, with limitations below"
+      }
+    }
+  ],
+  "qa_method": "Inspected the original target with view_image, visually compared all generated full-frame results with the target, checked all native dimensions with Pillow, and recorded SHA-256 hashes of selected copies.",
+  "qa_limitations": [
+    "These are generative photo edits, so exact per-pixel registration and identity of fine texture, plant leaves, book text, grain, and reflections are not guaranteed.",
+    "Broad camera, architecture, object placement and material identities were checked visually, not by a geometric or photometric calibration process.",
+    "The requested color temperatures are prompt targets rather than measured colorimetric values; displayed appearance depends on the viewer's display.",
+    "Night glazing/reflections were synthesized to replace the daytime view; neutral-night includes small point reflections in the left glazed opening."
+  ]
+}

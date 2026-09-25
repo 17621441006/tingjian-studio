@@ -1,0 +1,227 @@
+{
+  "created_at_utc": "2026-09-25T11:23:33.264769+00:00",
+  "task": "Clear glazing combinations preserving bedroom bed-frame and bedding selections",
+  "generator": "builtin image_gen.imagegen",
+  "skill": "e0/.system/imagegen",
+  "scope": "Asset-only image edits. No Site files or code changed.",
+  "concept_disclaimer": "Unapproved visual concepts only; no construction, structural, guardrail or engineering approval is represented.",
+  "qa_method": "Every source inspected with view_image before editing; every generated output visually inspected; PNG dimensions and hashes verified with Pillow and hashlib.",
+  "design_reference": "Prior master-clear.png design informed the glazing description; no second image reference was supplied, to retain each source bed identity.",
+  "assets": [
+    {
+      "name": "master-linen-ivory-clear.png",
+      "source_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-ivory.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "34846b10ec1256245384aa8bbd2a54923fadb1f8aa8c5b4748f8f9ce0d2774eb",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-linen-ivory-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-54d3097e-1117-4635-90e4-b338db1c67ea.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "327bff0afc99e716136d4a9f4716b355d96807cc5e9db61b783f4399b223bb52",
+      "native_resolution": true,
+      "postprocessing": "None. Byte-for-byte copy of built-in PNG output; no filter, crop, upscaling or resizing.",
+      "prompt": "Use case: precise-object-edit.\nInput image: the supplied bedroom photograph is the SOLE edit target and identity reference.\nAsset type: photorealistic bedroom clear-glazing visual concept.\nDeliver exactly native 1536×1024 pixels, landscape 3:2. Do not crop, resize, shift the camera, alter perspective or change any furnishing.\n\nChange ONLY the existing window glazing system. In the left corner window, remove ALL horizontal eye-level rails/mullions on both faces. Keep each broad main glass field a single uninterrupted full-height CLEAR FIXED GLASS pane, preserving the actual corner vertical support, side perimeter and top architectural beams. No horizontal rail, transom or subdivision crossing the main view. Add ONE very narrow operable vent sash at the FAR LEFT SIDE, tucked immediately beside the left curtain, with a slim side frame and small handle; it must not divide the main central glass.\nExtend that clear fixed glazing down to the timber floor: replace ONLY the opaque lower window infill/apron beneath the low stone ledge with transparent glass. Retain the stone ledge with cushion, vase and books exactly at its original height and position as a slim floating interior ledge in front of the floor-reaching glazing. Through the exposed lower glass patch left of the bed, the outdoor greenery must be visible down to the floor; the bed naturally occludes the rest. The retained low furniture ledge is below the main view, not a rail in the glazing.\nAlso remove the existing middle horizontal rail in the cropped window at the far right, replacing its lower infill with matching clear fixed glazing down to the floor. Retain the window perimeter and curtain.\nMain glass stays CLOSED and must visibly read as glazing through subtle edge reflections and faint interior reflections, never an empty open drop.\n\nABSOLUTE BED AND BEDDING LOCK: preserve the exact upholstered linen bed with its softly rounded oatmeal fabric headboard and full fabric upholstered base; the exact warm ivory duvet and pillows, pale taupe woven throw and small taupe cushion. Preserve bed dimensions, bed position and rotation, frame geometry, headboard design, material textures, duvet volume and folds, pillow count, all bedding colours and throw drape exactly as in the input. Do not borrow or invent any bed or bedding design.\nPreserve ALL other contents and surfaces: wardrobe, bedside tables, wooden feature wall, decor, artwork, lamps, air conditioner, curtains, rug, wood flooring, door, all room walls outside the existing lower window infill, ceiling, original warm lighting, exposure and colour balance. No moving, recolouring or replacing anything.\nPreserve the SAME Shanghai residential skyline outside in the same position, scale and perspective. No sea, ocean, waterfront, mountains, new landmarks or changed view.\nNo text, labels, watermark, dimensions or approval symbols. Unapproved visual concept only; no engineering approval is represented.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-ivory.png"
+      ],
+      "transparent_background": false,
+      "bed_and_bedding_invariant": "the exact upholstered linen bed with its softly rounded oatmeal fabric headboard and full fabric upholstered base; the exact warm ivory duvet and pillows, pale taupe woven throw and small taupe cushion",
+      "qa": {
+        "status": "selected after visual inspection",
+        "checks": {
+          "horizontal_middle_rails_removed": "pass: no horizontal middle rail in either corner-window face or cropped right window",
+          "side_vent": "pass: narrow far-left sash and small handle are beside curtain",
+          "full_height_glazing": "pass: exterior greenery visible through formerly opaque lower infill beneath retained low ledge, and cropped right window continues to floor",
+          "glass_enclosure": "pass: closed main glass, vertical perimeter and subtle glazing reflections remain visible",
+          "bed_frame_and_bedding": "pass: inspected visually against source; chosen bed frame type, headboard form, duvet colour and throw colour remain consistent",
+          "other_room_details": "pass: camera, furniture placement, wall finishes, beams, corner support, lighting and decor remain visually consistent",
+          "exterior": "pass: same Shanghai residential skyline character and arrangement; no ocean or invented landmark",
+          "native_dimensions": "pass: 1536x1024 PNG; no resampling or postprocessing"
+        },
+        "limitations": [
+          "Window perimeter and curtain edge show a slight local generative variation; bed and bedding identity retained visually."
+        ]
+      }
+    },
+    {
+      "name": "master-linen-olive-clear.png",
+      "source_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-olive.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "452b87a51bc2c710c8d7848a6bea38eb0551e35d54b9efa4e39d6b4ab06ad048",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-linen-olive-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-25623f3a-d6d0-43f3-8dd0-16f2f2ceee08.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "90b008fb1daac21979cafe76dcc0261293aae1638ecf0d5aa8f6ffeaa89ea60b",
+      "native_resolution": true,
+      "postprocessing": "None. Byte-for-byte copy of built-in PNG output; no filter, crop, upscaling or resizing.",
+      "prompt": "Use case: precise-object-edit.\nInput image: the supplied bedroom photograph is the SOLE edit target and identity reference.\nAsset type: photorealistic bedroom clear-glazing visual concept.\nDeliver exactly native 1536×1024 pixels, landscape 3:2. Do not crop, resize, shift the camera, alter perspective or change any furnishing.\n\nChange ONLY the existing window glazing system. In the left corner window, remove ALL horizontal eye-level rails/mullions on both faces. Keep each broad main glass field a single uninterrupted full-height CLEAR FIXED GLASS pane, preserving the actual corner vertical support, side perimeter and top architectural beams. No horizontal rail, transom or subdivision crossing the main view. Add ONE very narrow operable vent sash at the FAR LEFT SIDE, tucked immediately beside the left curtain, with a slim side frame and small handle; it must not divide the main central glass.\nExtend that clear fixed glazing down to the timber floor: replace ONLY the opaque lower window infill/apron beneath the low stone ledge with transparent glass. Retain the stone ledge with cushion, vase and books exactly at its original height and position as a slim floating interior ledge in front of the floor-reaching glazing. Through the exposed lower glass patch left of the bed, the outdoor greenery must be visible down to the floor; the bed naturally occludes the rest. The retained low furniture ledge is below the main view, not a rail in the glazing.\nAlso remove the existing middle horizontal rail in the cropped window at the far right, replacing its lower infill with matching clear fixed glazing down to the floor. Retain the window perimeter and curtain.\nMain glass stays CLOSED and must visibly read as glazing through subtle edge reflections and faint interior reflections, never an empty open drop.\n\nABSOLUTE BED AND BEDDING LOCK: preserve the exact upholstered linen bed with its softly rounded oatmeal fabric headboard and full fabric upholstered base; the exact muted olive-green duvet, ivory pillows, deep brown woven throw and small taupe cushion. Preserve bed dimensions, bed position and rotation, frame geometry, headboard design, material textures, duvet volume and folds, pillow count, all bedding colours and throw drape exactly as in the input. Do not borrow or invent any bed or bedding design.\nPreserve ALL other contents and surfaces: wardrobe, bedside tables, wooden feature wall, decor, artwork, lamps, air conditioner, curtains, rug, wood flooring, door, all room walls outside the existing lower window infill, ceiling, original warm lighting, exposure and colour balance. No moving, recolouring or replacing anything.\nPreserve the SAME Shanghai residential skyline outside in the same position, scale and perspective. No sea, ocean, waterfront, mountains, new landmarks or changed view.\nNo text, labels, watermark, dimensions or approval symbols. Unapproved visual concept only; no engineering approval is represented.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-olive.png"
+      ],
+      "transparent_background": false,
+      "bed_and_bedding_invariant": "the exact upholstered linen bed with its softly rounded oatmeal fabric headboard and full fabric upholstered base; the exact muted olive-green duvet, ivory pillows, deep brown woven throw and small taupe cushion",
+      "qa": {
+        "status": "selected after visual inspection",
+        "checks": {
+          "horizontal_middle_rails_removed": "pass: no horizontal middle rail in either corner-window face or cropped right window",
+          "side_vent": "pass: narrow far-left sash and small handle are beside curtain",
+          "full_height_glazing": "pass: exterior greenery visible through formerly opaque lower infill beneath retained low ledge, and cropped right window continues to floor",
+          "glass_enclosure": "pass: closed main glass, vertical perimeter and subtle glazing reflections remain visible",
+          "bed_frame_and_bedding": "pass: inspected visually against source; chosen bed frame type, headboard form, duvet colour and throw colour remain consistent",
+          "other_room_details": "pass: camera, furniture placement, wall finishes, beams, corner support, lighting and decor remain visually consistent",
+          "exterior": "pass: same Shanghai residential skyline character and arrangement; no ocean or invented landmark",
+          "native_dimensions": "pass: 1536x1024 PNG; no resampling or postprocessing"
+        },
+        "limitations": [
+          "Minor generative changes to fabric folds, wood grain, glass reflections and skyline details remain possible; preservation is visual, not pixel-identical."
+        ]
+      }
+    },
+    {
+      "name": "master-wood-taupe-clear.png",
+      "source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "d144114c07de1084b6fce2e55a225cbf4bbf6c12f98b0b126e165d315942b517",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-taupe-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-3186481a-0035-446e-b0e8-824a442a0302.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "956e08ebb4fe8df6a5fe10d06b0229847aadbbf1024e1d1a343b31291caee064",
+      "native_resolution": true,
+      "postprocessing": "None. Byte-for-byte copy of built-in PNG output; no filter, crop, upscaling or resizing.",
+      "prompt": "Use case: precise-object-edit.\nInput image: the supplied bedroom photograph is the SOLE edit target and identity reference.\nAsset type: photorealistic bedroom clear-glazing visual concept.\nDeliver exactly native 1536×1024 pixels, landscape 3:2. Do not crop, resize, shift the camera, alter perspective or change any furnishing.\n\nChange ONLY the existing window glazing system. In the left corner window, remove ALL horizontal eye-level rails/mullions on both faces. Keep each broad main glass field a single uninterrupted full-height CLEAR FIXED GLASS pane, preserving the actual corner vertical support, side perimeter and top architectural beams. No horizontal rail, transom or subdivision crossing the main view. Add ONE very narrow operable vent sash at the FAR LEFT SIDE, tucked immediately beside the left curtain, with a slim side frame and small handle; it must not divide the main central glass.\nExtend that clear fixed glazing down to the timber floor: replace ONLY the opaque lower window infill/apron beneath the low stone ledge with transparent glass. Retain the stone ledge with cushion, vase and books exactly at its original height and position as a slim floating interior ledge in front of the floor-reaching glazing. Through the exposed lower glass patch left of the bed, the outdoor greenery must be visible down to the floor; the bed naturally occludes the rest. The retained low furniture ledge is below the main view, not a rail in the glazing.\nAlso remove the existing middle horizontal rail in the cropped window at the far right, replacing its lower infill with matching clear fixed glazing down to the floor. Retain the window perimeter and curtain.\nMain glass stays CLOSED and must visibly read as glazing through subtle edge reflections and faint interior reflections, never an empty open drop.\n\nABSOLUTE BED AND BEDDING LOCK: preserve the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact light ivory duvet and pillows, medium taupe-brown woven throw and taupe cushion. Preserve bed dimensions, bed position and rotation, frame geometry, headboard design, material textures, duvet volume and folds, pillow count, all bedding colours and throw drape exactly as in the input. Do not borrow or invent any bed or bedding design.\nPreserve ALL other contents and surfaces: wardrobe, bedside tables, wooden feature wall, decor, artwork, lamps, air conditioner, curtains, rug, wood flooring, door, all room walls outside the existing lower window infill, ceiling, original warm lighting, exposure and colour balance. No moving, recolouring or replacing anything.\nPreserve the SAME Shanghai residential skyline outside in the same position, scale and perspective. No sea, ocean, waterfront, mountains, new landmarks or changed view.\nNo text, labels, watermark, dimensions or approval symbols. Unapproved visual concept only; no engineering approval is represented.",
+      "referenced_image_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg"
+      ],
+      "transparent_background": false,
+      "bed_and_bedding_invariant": "the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact light ivory duvet and pillows, medium taupe-brown woven throw and taupe cushion",
+      "qa": {
+        "status": "selected after visual inspection",
+        "checks": {
+          "horizontal_middle_rails_removed": "pass: no horizontal middle rail in either corner-window face or cropped right window",
+          "side_vent": "pass: narrow far-left sash and small handle are beside curtain",
+          "full_height_glazing": "pass: exterior greenery visible through formerly opaque lower infill beneath retained low ledge, and cropped right window continues to floor",
+          "glass_enclosure": "pass: closed main glass, vertical perimeter and subtle glazing reflections remain visible",
+          "bed_frame_and_bedding": "pass: inspected visually against source; chosen bed frame type, headboard form, duvet colour and throw colour remain consistent",
+          "other_room_details": "pass: camera, furniture placement, wall finishes, beams, corner support, lighting and decor remain visually consistent",
+          "exterior": "pass: same Shanghai residential skyline character and arrangement; no ocean or invented landmark",
+          "native_dimensions": "pass: 1536x1024 PNG; no resampling or postprocessing"
+        },
+        "limitations": [
+          "Minor generative changes to fabric folds, wood grain, glass reflections and skyline details remain possible; preservation is visual, not pixel-identical."
+        ]
+      }
+    },
+    {
+      "name": "master-wood-ivory-clear.png",
+      "source_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-ivory.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "0a35ae9c777c9b4097f9f29cec19c61014f7ef3008aecee3a025db32fe644ed2",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-ivory-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-8efb268d-369b-4cef-b029-7f3d29d76a11.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "82dbe458a2b145ba7cc33d438a55f8dac1cf9503d7a286764f856a968a6b34b6",
+      "native_resolution": true,
+      "postprocessing": "None. Byte-for-byte copy of built-in PNG output; no filter, crop, upscaling or resizing.",
+      "prompt": "Use case: precise-object-edit.\nInput image: the supplied bedroom photograph is the SOLE edit target and identity reference.\nAsset type: photorealistic bedroom clear-glazing visual concept.\nDeliver exactly native 1536×1024 pixels, landscape 3:2. Do not crop, resize, shift the camera, alter perspective or change any furnishing.\n\nChange ONLY the existing window glazing system. In the left corner window, remove ALL horizontal eye-level rails/mullions on both faces. Keep each broad main glass field a single uninterrupted full-height CLEAR FIXED GLASS pane, preserving the actual corner vertical support, side perimeter and top architectural beams. No horizontal rail, transom or subdivision crossing the main view. Add ONE very narrow operable vent sash at the FAR LEFT SIDE, tucked immediately beside the left curtain, with a slim side frame and small handle; it must not divide the main central glass.\nExtend that clear fixed glazing down to the timber floor: replace ONLY the opaque lower window infill/apron beneath the low stone ledge with transparent glass. Retain the stone ledge with cushion, vase and books exactly at its original height and position as a slim floating interior ledge in front of the floor-reaching glazing. Through the exposed lower glass patch left of the bed, the outdoor greenery must be visible down to the floor; the bed naturally occludes the rest. The retained low furniture ledge is below the main view, not a rail in the glazing.\nAlso remove the existing middle horizontal rail in the cropped window at the far right, replacing its lower infill with matching clear fixed glazing down to the floor. Retain the window perimeter and curtain.\nMain glass stays CLOSED and must visibly read as glazing through subtle edge reflections and faint interior reflections, never an empty open drop.\n\nABSOLUTE BED AND BEDDING LOCK: preserve the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact warm ivory duvet and pillows, light pale taupe woven throw and pale taupe cushion. Preserve bed dimensions, bed position and rotation, frame geometry, headboard design, material textures, duvet volume and folds, pillow count, all bedding colours and throw drape exactly as in the input. Do not borrow or invent any bed or bedding design.\nPreserve ALL other contents and surfaces: wardrobe, bedside tables, wooden feature wall, decor, artwork, lamps, air conditioner, curtains, rug, wood flooring, door, all room walls outside the existing lower window infill, ceiling, original warm lighting, exposure and colour balance. No moving, recolouring or replacing anything.\nPreserve the SAME Shanghai residential skyline outside in the same position, scale and perspective. No sea, ocean, waterfront, mountains, new landmarks or changed view.\nNo text, labels, watermark, dimensions or approval symbols. Unapproved visual concept only; no engineering approval is represented.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-ivory.png"
+      ],
+      "transparent_background": false,
+      "bed_and_bedding_invariant": "the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact warm ivory duvet and pillows, light pale taupe woven throw and pale taupe cushion",
+      "qa": {
+        "status": "selected after visual inspection",
+        "checks": {
+          "horizontal_middle_rails_removed": "pass: no horizontal middle rail in either corner-window face or cropped right window",
+          "side_vent": "pass: narrow far-left sash and small handle are beside curtain",
+          "full_height_glazing": "pass: exterior greenery visible through formerly opaque lower infill beneath retained low ledge, and cropped right window continues to floor",
+          "glass_enclosure": "pass: closed main glass, vertical perimeter and subtle glazing reflections remain visible",
+          "bed_frame_and_bedding": "pass: inspected visually against source; chosen bed frame type, headboard form, duvet colour and throw colour remain consistent",
+          "other_room_details": "pass: camera, furniture placement, wall finishes, beams, corner support, lighting and decor remain visually consistent",
+          "exterior": "pass: same Shanghai residential skyline character and arrangement; no ocean or invented landmark",
+          "native_dimensions": "pass: 1536x1024 PNG; no resampling or postprocessing"
+        },
+        "limitations": [
+          "Minor generative changes to fabric folds, wood grain, glass reflections and skyline details remain possible; preservation is visual, not pixel-identical."
+        ]
+      }
+    },
+    {
+      "name": "master-wood-olive-clear.png",
+      "source_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-olive.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "55ac1a7b5ba593dc53fa9e5a99cb6aee126d5046d393b680ab4bb71bc4d31792",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-olive-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-85628a81-f2ad-4ebb-aa52-f0ee218a48ed.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "44c5de7463b2bff62c9178f3a06a464fc0e7129b689edd2a03829a37dd6fb919",
+      "native_resolution": true,
+      "postprocessing": "None. Byte-for-byte copy of built-in PNG output; no filter, crop, upscaling or resizing.",
+      "prompt": "Use case: precise-object-edit.\nInput image: the supplied bedroom photograph is the SOLE edit target and identity reference.\nAsset type: photorealistic bedroom clear-glazing visual concept.\nDeliver exactly native 1536×1024 pixels, landscape 3:2. Do not crop, resize, shift the camera, alter perspective or change any furnishing.\n\nChange ONLY the existing window glazing system. In the left corner window, remove ALL horizontal eye-level rails/mullions on both faces. Keep each broad main glass field a single uninterrupted full-height CLEAR FIXED GLASS pane, preserving the actual corner vertical support, side perimeter and top architectural beams. No horizontal rail, transom or subdivision crossing the main view. Add ONE very narrow operable vent sash at the FAR LEFT SIDE, tucked immediately beside the left curtain, with a slim side frame and small handle; it must not divide the main central glass.\nExtend that clear fixed glazing down to the timber floor: replace ONLY the opaque lower window infill/apron beneath the low stone ledge with transparent glass. Retain the stone ledge with cushion, vase and books exactly at its original height and position as a slim floating interior ledge in front of the floor-reaching glazing. Through the exposed lower glass patch left of the bed, the outdoor greenery must be visible down to the floor; the bed naturally occludes the rest. The retained low furniture ledge is below the main view, not a rail in the glazing.\nAlso remove the existing middle horizontal rail in the cropped window at the far right, replacing its lower infill with matching clear fixed glazing down to the floor. Retain the window perimeter and curtain.\nMain glass stays CLOSED and must visibly read as glazing through subtle edge reflections and faint interior reflections, never an empty open drop.\n\nABSOLUTE BED AND BEDDING LOCK: preserve the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact muted olive-green duvet, ivory pillows, deep brown woven throw and dark taupe cushion. Preserve bed dimensions, bed position and rotation, frame geometry, headboard design, material textures, duvet volume and folds, pillow count, all bedding colours and throw drape exactly as in the input. Do not borrow or invent any bed or bedding design.\nPreserve ALL other contents and surfaces: wardrobe, bedside tables, wooden feature wall, decor, artwork, lamps, air conditioner, curtains, rug, wood flooring, door, all room walls outside the existing lower window infill, ceiling, original warm lighting, exposure and colour balance. No moving, recolouring or replacing anything.\nPreserve the SAME Shanghai residential skyline outside in the same position, scale and perspective. No sea, ocean, waterfront, mountains, new landmarks or changed view.\nNo text, labels, watermark, dimensions or approval symbols. Unapproved visual concept only; no engineering approval is represented.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-olive.png"
+      ],
+      "transparent_background": false,
+      "bed_and_bedding_invariant": "the exact dark warm solid-wood bed platform and low curved wood footboard, slim wood legs and warm brown leather inset headboard; the exact muted olive-green duvet, ivory pillows, deep brown woven throw and dark taupe cushion",
+      "qa": {
+        "status": "selected after visual inspection",
+        "checks": {
+          "horizontal_middle_rails_removed": "pass: no horizontal middle rail in either corner-window face or cropped right window",
+          "side_vent": "pass: narrow far-left sash and small handle are beside curtain",
+          "full_height_glazing": "pass: exterior greenery visible through formerly opaque lower infill beneath retained low ledge, and cropped right window continues to floor",
+          "glass_enclosure": "pass: closed main glass, vertical perimeter and subtle glazing reflections remain visible",
+          "bed_frame_and_bedding": "pass: inspected visually against source; chosen bed frame type, headboard form, duvet colour and throw colour remain consistent",
+          "other_room_details": "pass: camera, furniture placement, wall finishes, beams, corner support, lighting and decor remain visually consistent",
+          "exterior": "pass: same Shanghai residential skyline character and arrangement; no ocean or invented landmark",
+          "native_dimensions": "pass: 1536x1024 PNG; no resampling or postprocessing"
+        },
+        "limitations": [
+          "Minor generative changes to fabric folds, wood grain, glass reflections and skyline details remain possible; preservation is visual, not pixel-identical."
+        ]
+      }
+    }
+  ]
+}

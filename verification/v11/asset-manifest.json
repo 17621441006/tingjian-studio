@@ -1,0 +1,252 @@
+[
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 502405,
+    "sha256": "aaa2bac75946be2246e30b1a44cdf1b01631b31e70e7374ff511690b106cc683",
+    "source_sha256": "a5a40c823fa0b8b83d1cc111f1c02fb18c40f218a4d7a382d5b0e187ad524ca4"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 463706,
+    "sha256": "4a63cd9add68480d0001fd0e48c6ae63c57532be3b325f469f142ce6e5daf4e8",
+    "source_sha256": "bd0f42bc6f80fb1846fa8c53a1e73ffbd86fbd84f6371aa954814cd4b744921f"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/wine-glass.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 470010,
+    "sha256": "3ae533566729ab319748a44bc18459e626a2e38608584609404c6088efdb3969",
+    "source_sha256": "3343d3a79c4fcbe1b655b427cc008427432a626561e06bc934e8050a00bec950"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/wine-stone.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 453249,
+    "sha256": "57e7008d19166e9f1455b0cecab8ad06edc9b5d4e173577d0298dc0f0868cbd4",
+    "source_sha256": "12de0b9d9c11975143b3f43a37cecffcb9932b0cfce11d0f50f0b486e0a7cf7d"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/mink-glass.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 477751,
+    "sha256": "7840a3e5c29bd890057b6a73ccbf31afe483a6c4637836b303543653ed93f05b",
+    "source_sha256": "65b4d15e6e951bdf5f842488e8c124bb6ec3825b554bbbd489040b20e9cae62c"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/living/mink-stone.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 461564,
+    "sha256": "b72fee57876398f230fec1122b8504468f000acabbf97be76f4794b7fc263d45",
+    "source_sha256": "a0327b7518ea65c3ced4a872bd625a8b1e26abd7ca174bade2cdc2d3acd93bdc"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/master/linen.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 485443,
+    "sha256": "47bfc7367830aa92ff14500f194b9b5689e33c5f33a2d383011151ab90209ce0",
+    "source_sha256": "ace7043b58455e61cc7a108bfbd442c2750c838c33b6ee8559d85f1294e5f760"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/master/leather.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 472016,
+    "sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925",
+    "source_sha256": "aa154e68ef3f61151f69f9e9868ab0b8de4ab095e04384c8773125205c369f7f"
+  },
+  {
+    "path": "/tour/home-assets/dusk/pieces/master/wood.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 480485,
+    "sha256": "d144114c07de1084b6fce2e55a225cbf4bbf6c12f98b0b126e165d315942b517",
+    "source_sha256": "89d9d1663a876d5d509a598e1a0a242a4bf867b73c35e79c08e6a27b9478956c"
+  },
+  {
+    "path": "/tour/home-assets/stone/living.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 557256,
+    "sha256": "cab4a5116e5bb20e656fec177805293e22aac7a620a2b4c1294b22806128fb58",
+    "source_sha256": "0032a49de9cdb4d5c8637ea3bed05361d1ef4e2d7fb465827a107e40ccec02a9"
+  },
+  {
+    "path": "/tour/home-assets/stone/dining.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 453423,
+    "sha256": "ddbe739985303b272f782d11db396406019a096f438469df1a85d2b5d62bee49",
+    "source_sha256": "4d37066a239e0496330bd0c53dac87a8fff6947a86798bf9e7dbe26e43486d24"
+  },
+  {
+    "path": "/tour/home-assets/stone/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 608605,
+    "sha256": "ea9b2f0ea6735057a3f64d2c8d0d7ede22b95b5c407f051d261e790dc5bcc4f4",
+    "source_sha256": "91cee829fa67e972df3107e047b1ec4fc7663ddd8cb60c8224d11e093deb240f"
+  },
+  {
+    "path": "/tour/home-assets/stone/master.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 543504,
+    "sha256": "7be0ff135d85c2cf4936b361bfe194264ca6aa511f259a9bd1edc18be182dc10",
+    "source_sha256": "32f2eaa0251e246bc03fd9b949c21708f406fa29cc58ae7f09bdd1bbdcac7a06"
+  },
+  {
+    "path": "/tour/home-assets/stone/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 511323,
+    "sha256": "41dd2de138d41f8da89672fc1ab1f3136af7533cc8ada7f378ae97625e056ed6",
+    "source_sha256": "0ab3e1c1bf91e7ca74c3160aec31020378e19e548ee5744b43a04baa5ebc655b"
+  },
+  {
+    "path": "/tour/home-assets/stone/kitchen.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 476483,
+    "sha256": "a7dc4ab6b5d973d783db2cfd3917134a4df03526fd9f69a238f6b601f24fd78b",
+    "source_sha256": "fec7f94b76e46d8e57f05d62371beb9a4f159e1b6f6c655547814aef1cf1f458"
+  },
+  {
+    "path": "/tour/home-assets/stone/bath.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 567471,
+    "sha256": "908fc4b5431bfe58b846d1ebd383425a10c493a1b58b0987fb503b6f98fc937f",
+    "source_sha256": "51e5174c44aa6aff2621a5fbcf6def9335ce65492efd44a82c20c9107026dfe6"
+  },
+  {
+    "path": "/tour/home-assets/stone/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 560620,
+    "sha256": "7059a45bf013d87b5b3ece243371f01c86c28b9dcd0222b8b30db4e98e2d0e08",
+    "source_sha256": "5daef2d5221217f88f0a493847e11116af26c9902f7b5638adaf4ea63dfcc198"
+  },
+  {
+    "path": "/tour/home-assets/collector/living.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 557994,
+    "sha256": "77922ef8f87a6cdb0846719812b5dfdaa597a0739e6b9317e8638017d18e6de3",
+    "source_sha256": "6602775b6e5bffdc3efef30a5deee19f070872990a8b4e61f0f1173bb9dae6f6"
+  },
+  {
+    "path": "/tour/home-assets/collector/dining.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 429528,
+    "sha256": "71a89c3518d8877d142d1071c5621055f684136767f23281beeea4feea9c06cc",
+    "source_sha256": "958c2ebd8aa655b58d4f9e80aaf9c6ac7a785b91f683ad294cd1386471525fd9"
+  },
+  {
+    "path": "/tour/home-assets/collector/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 598589,
+    "sha256": "504724eba63e5b3a84d74885c7d12a2980b6dfebe414fe2bd094cb8e34d285ef",
+    "source_sha256": "2c2472953dbe420ec763959e27774d38b5d312cda1f4745c993e708d489f6820"
+  },
+  {
+    "path": "/tour/home-assets/collector/master.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 556366,
+    "sha256": "c85f0a753ba29730000e2e61bd003bd17a1e1f30645f6e8048d0f5aa18a5cf37",
+    "source_sha256": "a55b40c246e7c98bc0b69cdfc2333de3b8083e68d2f9da04869901ef8d4a4fd3"
+  },
+  {
+    "path": "/tour/home-assets/collector/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 535273,
+    "sha256": "05ad48f833c3e0f71804fabd08b59546c4c5706f2b87df7208c25df0912b25e5",
+    "source_sha256": "2b0a0df1c00f94a9153591205a15231242c96ad223d4879cdae1ce194cffc397"
+  },
+  {
+    "path": "/tour/home-assets/collector/kitchen.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 494086,
+    "sha256": "f1b6943beafdeb15f8d3c4015e767f0b8c5581f6c2fa8f66039409b39a4276c0",
+    "source_sha256": "79d9ff076d88cf7160e86fabb0fff8f2aa1dc3d230af5aa00eb44974ab57e757"
+  },
+  {
+    "path": "/tour/home-assets/collector/bath.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 535971,
+    "sha256": "8f1ac6a71d52e0fd59929f8a5fe80d0599deebd8b0e6950cf4c0baf0c25de975",
+    "source_sha256": "6379cbcb63625472e3f7f68f33b8c60d24d83eaa50c855fbcbbd9a03dc92a14b"
+  },
+  {
+    "path": "/tour/home-assets/collector/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "generated": true,
+    "native_resolution": true,
+    "bytes": 548603,
+    "sha256": "aecf81d747745a1bcee92da62116f2608aa3fd3fa5ee56fc732a357e442fea84",
+    "source_sha256": "14b1a26f7d3357095bf12a62905d4c1b8712b011249749646b42054c2a39fd6b"
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "path": "/tour/home-assets/amber/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 677977,
+    "sha256": "512b25bb4cd5c3abf90d318f986d765f254d5fe2c64e56d7b1daf355ba44147f"
+  },
+  {
+    "path": "/tour/home-assets/amber/v16/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 569262,
+    "sha256": "fc5ea009c5bc477afd70064ecc5740777834846996f7e3b19003433c4e8d56a4"
+  },
+  {
+    "path": "/tour/home-assets/amber/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 617490,
+    "sha256": "8ba355f5877e5a910d767bd95a6e8fc31366765467e73988ddb36afee6e67a90"
+  },
+  {
+    "path": "/tour/home-assets/chinese/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 780369,
+    "sha256": "9eea04ac7202d7cf07d9b579b7845d6f08c2b2606f6d6f5fdf6059239064a0bc"
+  },
+  {
+    "path": "/tour/home-assets/chinese/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 553197,
+    "sha256": "ed536abe3609cd2ebac3ba43dfafccb367ac6639ad0cbe3d4bfe55ce3315a492"
+  },
+  {
+    "path": "/tour/home-assets/collector/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 774352,
+    "sha256": "327919a7e15cb40e35225d977314e86b93cd36d13c33bfe3a7990ba1cfa38f07"
+  },
+  {
+    "path": "/tour/home-assets/collector/v16/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 704049,
+    "sha256": "51b610068a12f65dd6233dee29c849f38e6549be7beeed55b1408be0fc4bf8d5"
+  },
+  {
+    "path": "/tour/home-assets/collector/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 604423,
+    "sha256": "53fa74e0e382b2dfd8bf8457add3cec31d0a705204a741af3f74c3eae848ee3d"
+  },
+  {
+    "path": "/tour/home-assets/copper/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 718332,
+    "sha256": "b99062b1847bc3178a3d927b482ff05d99acac49deb306aa4654a817ead5ab1e"
+  },
+  {
+    "path": "/tour/home-assets/copper/v16/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 518305,
+    "sha256": "4a2d41c0c300ad016433e8062c83aac36c44638baeb96c6dd0b656f7907ab257"
+  },
+  {
+    "path": "/tour/home-assets/copper/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 555108,
+    "sha256": "71a978cacde58db752fc8ace4ea0ad18157ff92c7cee5ef7e0566cfbf470d68a"
+  },
+  {
+    "path": "/tour/home-assets/dusk/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 726684,
+    "sha256": "23f25cbd092d5c55dfb00805080ff38a996286a2921aeac7c22b34f9956d07c0"
+  },
+  {
+    "path": "/tour/home-assets/dusk/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 616662,
+    "sha256": "30e791be97bac69ef2ea97485a38dff6a2965df5c6b427881a9b890b1b38d066"
+  },
+  {
+    "path": "/tour/home-assets/stone/v16/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 715279,
+    "sha256": "94b261a3fa897a84100664c64af846917a11ddd12d06ed84f28c33c15f59c3e0"
+  },
+  {
+    "path": "/tour/home-assets/stone/v16/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 578467,
+    "sha256": "eb4258d371eebe73a95115d394e1d44989e4ad229a04888404c5fb5a50f7e0f6"
+  },
+  {
+    "path": "/tour/home-assets/stone/v16/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 613715,
+    "sha256": "55e17ea3a5fd3c46bd744ebab849b83fbb95841c97b760dea579a13ea1774269"
+  },
+  {
+    "path": "/tour/home-assets/copper/v16/dining.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 800387,
+    "sha256": "12652b6fd9680f29bfaa563bc1241884ab393ce387f58a543be70e408d518e71"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/01.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 710782,
+    "sha256": "7de05fa913f3012ff8e9ba49c387a0bc11a9f143addda75e55e7ee37db1e7315"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/02.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 724184,
+    "sha256": "840018bf854ba9f50803858cb541cd20330a8954f2ab82ecebc27e5f677a9619"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/03.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 731504,
+    "sha256": "54c9a6f53bad8ddbd28e893b5948a0f2b5f80f244404f7bada4c2b299fb697aa"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/04.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 656881,
+    "sha256": "e1160ec51e3d4294efb93307e82c0a6d534fe30cace0336ff1e20330280ba9a7"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/05.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 673586,
+    "sha256": "eec53cf93cc7f0dee64609cbb7d1c5554e32d723cf6d17d8264953ef132edbc0"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/06.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 583921,
+    "sha256": "8e17397eeabd0a060fbbf7c34d476b66ccfbe04988e63cfe53191b3e6f34c431"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/07.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 661719,
+    "sha256": "23e6df505eb2ea31fe514a5f2ebce7853d679e61610099f504046a76d58d8eb7"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/08.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 713395,
+    "sha256": "9f818937683be1d856ddfd1807cab982eac5cf067660a0b4927a44784410757f"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/09.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 716080,
+    "sha256": "377d56fe5f727fb913d2308d776ad97d1f6a61c8e86746a5c8b19c246bbaa158"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/10.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 726590,
+    "sha256": "a48db1a137d9e155d7ae1bd0557484aacaadd5b0caac16e55369aa35b4e82ad6"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/11.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 740037,
+    "sha256": "0666b4aa9c828c8cc2d0e90c93402119d9d8d091198b7cbf65d868e856464c22"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/12.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 653941,
+    "sha256": "25dc81f30a6ff2e52cfde9c3dfd5d45d19ece822d73274bcb40cd943d96d140c"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/13.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 703307,
+    "sha256": "629d28780a08a1eb65f1353f02696f6f5bce31d28e396b0e853810b8603f8cbf"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/14.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 649079,
+    "sha256": "947bc4bfda8bb907f50a8cb1b1b6db6393f8cd0a8eb34f82ef4d4e63ad557b3d"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/living/15.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 661279,
+    "sha256": "df069d7efdbf830b8863ed2253a8f3d0197ed10e17166dca48048072b36f6f95"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/01.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 755937,
+    "sha256": "2488f83f225df2ca51b872d31207add2519f58ff0b323cd5498fab72c92ed9fc"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/02.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 788451,
+    "sha256": "9ffc579e2439c55d4e507f5affade14b1fa446db0bce209e39bd6fc3d1345ca4"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/03.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 780467,
+    "sha256": "7ef1583e1e1b4773fa0f02ece3a34ee75c93a2b995227163863ef2e49ea33f41"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/04.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 777346,
+    "sha256": "0fca3fd21b984f63dbdc2221466b865573d08d867fe2123ba9ffcb015830106e"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/05.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 819933,
+    "sha256": "4e3bc5bf3fd8a86710bd26ba4522abf8ab81804fcd4cafe30dcf3869c6c626b9"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/06.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 778517,
+    "sha256": "7017ae97edc2cfd38c4c98175244dac16dbec0833f935c624929c04c58f34c65"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/07.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 801637,
+    "sha256": "431f1e401e8cb2359ebfdc28e254787165c6c0d106b52de13f02fe8f197b6ef7"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/08.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 778846,
+    "sha256": "9ce8fe18e0185c875283f086139bfb9ac5da704a9d26b852f700fabdc2034f46"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/09.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 767629,
+    "sha256": "d5ee31468ab2690028d5e23b0018470b7bf121cc5045a2ad7444859070093d61"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/10.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 758985,
+    "sha256": "47a8a73855656e7cd500ef7b7ae976389859430c99ec8ab7ecb71efd8973eb05"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/11.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 848403,
+    "sha256": "d87386cb93235a4d17aaaabf591950e6c406f976736dd3c6939c67d750458493"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/12.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 747826,
+    "sha256": "1f3e16eb82c9bf3578532d4a055fcc76b1e4a41b03c58662a373013acd4028b9"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/13.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 794967,
+    "sha256": "3d421a1268cf8103af03a36b7349b7ddef0518bbbd5444b2ae0fd47a943d3ddb"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/14.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 804577,
+    "sha256": "288139ee3109b7047301ca2047f432776d41779bf8280c8f51cebf9d18177980"
+  },
+  {
+    "path": "/tour/home-assets/copper/objects/dining/15.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 806333,
+    "sha256": "e74260f5fa4e9cc5bfcd1dc0b07341c7c238ea81cb1f6fc3932e201f721a2f97"
+  },
+  {
+    "path": "/tour/home-assets/graphite/balcony.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 609301,
+    "sha256": "74422d165e088807c164af22bc3afdbe1eaf0e5b9cc33a61d430432365e3f768"
+  },
+  {
+    "path": "/tour/home-assets/graphite/bath.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 557116,
+    "sha256": "b7487650381426774f3c5b1efbcafc89d6e3e807f8d5b4e4b451f07dfdd5f641"
+  },
+  {
+    "path": "/tour/home-assets/graphite/dining.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 639962,
+    "sha256": "6ac45c920e37510e73924f2621e7ad5d7db291f64e55692bbb48f7a9d6e8b67b"
+  },
+  {
+    "path": "/tour/home-assets/graphite/kitchen.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 519467,
+    "sha256": "14a1d2d5c43b547bb92b190bd2cf4d545e12dde317c3fb41659a2775275ec504"
+  },
+  {
+    "path": "/tour/home-assets/graphite/living.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 602960,
+    "sha256": "625cb3259a7310e003e4dbcd5763f39e05af9f19b5436d512ad465666cc52993"
+  },
+  {
+    "path": "/tour/home-assets/graphite/master.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 564704,
+    "sha256": "524ddaa898a74dce5752fb802e66dc82d8c04d618643dbf9fac0faf236348165"
+  },
+  {
+    "path": "/tour/home-assets/graphite/second.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 512907,
+    "sha256": "adad90c6ce1ac9b1c14853c77be0be79c4787c9e7d042e7286b43e4dde8944e3"
+  },
+  {
+    "path": "/tour/home-assets/graphite/utility.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 551181,
+    "sha256": "871ab25984a449cf935fc583ee0909ea73ef04e143d3e05b5c35c2c1af7fe0f9"
+  },
+  {
+    "path": "/tour/home-assets/amber/v16/dining.jpg",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 567058,
+    "sha256": "d630e9f5c5ac2c291c9d17140a8d30f5a11dce1f582268fd02bd5219ffd9f55f"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "checks": [
+    "Walking interpolates position only; yaw, pitch, FOV and eye height are unchanged, and look controls still work after arrival",
+    "Every floor destination is reachable via the clear aisle; a direct path through the coffee table is rejected",
+    "All 64 whole-home node transitions preserve world heading, including 90° and 180° panorama calibration offsets",
+    "Rear floor geometry reaches dining-chair floor pixels rather than ending at the old foreground mask",
+    "No perpetual animation loop; static shadows, interaction resolution cap, hidden-tab suspension and renderer disposal present"
+  ]
+}

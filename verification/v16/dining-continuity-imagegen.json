@@ -1,0 +1,80 @@
+{
+  "version": "v16",
+  "scope": "Dining-view continuity follow-up; no site changes",
+  "mode": "built-in image_gen edit",
+  "generatedAssetCount": 1,
+  "unchangedOriginalCount": 4,
+  "assets": [
+    {
+      "design": "amber",
+      "room": "dining",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/amber/dining.jpg",
+      "balconyReference": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/amber/balcony.jpg",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/amber/dining.jpg",
+      "prompt": "Use case: precise-object-edit, multi-view interior continuity.\nOutput native 1536x1024 pixels, landscape 3:2, photorealistic.\nInput image 1 is the EDIT TARGET: the dining-to-living-room reverse view. Input image 2 is a SUPPORTING REFERENCE showing the approved exact balcony furniture and glazing. Preserve image 1's camera, framing, perspective, architecture, lighting, colors and every item in the foreground dining room and middle living room EXACTLY. Make a tightly localized edit only inside the distant balcony beyond the white curtain/doorway line at the far end.\nIn that small background balcony area remove the long built-in bench, its end cabinetry and associated extra right-side planter. Re-create the approved balcony from image 2 as correctly diminished in scale and perspective from the original far-away camera: one pale-cream curved light-woven natural-rattan floor-standing armchair on the RIGHT, with the same cream seat cushion and one cream back cushion; one small translucent amber rounded stool immediately beside it on its LEFT; and one planter/tree on the LEFT. Keep the rear balcony threshold and the narrow 5sqm balcony footprint. The chair and stool are small, distant background furniture, not foreground furniture; do not bring them into the living room. The living room's original plant at the left, where visible, must not be disturbed.\nMatch the exterior glazing to reference image 2: broad clear main fixed glass extending to FLOOR LEVEL, no middle horizontal bar or rail, narrow operable side ventilation sash only at the far RIGHT. Keep the existing city/tree scenery from the edit target consistent; remove only the unwanted middle rail and low opaque bench/sill view. No bench remains in the distant balcony. No demolition shown.\nABSOLUTE LOCKED FOREGROUND AND MIDDLE GROUND: oval light-oak dining table, all cream dining chairs in same positions, amber pendant, amber dining vase with branches, bowl, wall artworks, tan curved living sofa and every cushion and throw, glass coffee table and books/vase, rug, TV and floating console, console objects and lighting, right foreground full-height cabinets, pale timber flooring, all wall colors and trim, ceilings, white curtains, sunlight, lens and crop. Do not recolor, remodel, restyle, rearrange or replace anything except the distant balcony furnishings/glazing described above. No extra rooms, people, text, logo, watermark or fisheye.",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-7f015a44-a114-4a08-94ea-a8a940f085ca.png",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: distant balcony bench replaced by matching pale woven armchair on right and amber stool on its left, planter on left; full-height broad main pane with no midrail and narrow right ventilation sash. Original dining/living camera, furniture, color family, architecture, trim, light, TV wall and foreground contents preserved. No new camera view.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 567058,
+      "sha256": "d630e9f5c5ac2c291c9d17140a8d30f5a11dce1f582268fd02bd5219ffd9f55f"
+    }
+  ],
+  "notApplicable": [
+    {
+      "design": "dusk",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/dining.jpg",
+      "status": "Original retained without modification",
+      "reason": "This source is a frontal view facing the dining wall, with no balcony visible. Balcony continuity is not applicable; changing the image to show a balcony would require an unauthorized camera/composition change.",
+      "visuallyInspected": true,
+      "verifiedOriginalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "fa1af334f6c07aca401692f947e9cbfa0420fb4ceb33285fcc13b3d51c237387"
+    },
+    {
+      "design": "chinese",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/dining.jpg",
+      "status": "Original retained without modification",
+      "reason": "This source is a frontal view facing the dining wall, with no balcony visible. Balcony continuity is not applicable; changing the image to show a balcony would require an unauthorized camera/composition change.",
+      "visuallyInspected": true,
+      "verifiedOriginalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "6a03124cbc0e982846b9a06a2e5e8f02476966198eac46c32b1b1b11722c8837"
+    },
+    {
+      "design": "stone",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/dining.jpg",
+      "status": "Original retained without modification",
+      "reason": "This source is a frontal view facing the dining wall, with no balcony visible. Balcony continuity is not applicable; changing the image to show a balcony would require an unauthorized camera/composition change.",
+      "visuallyInspected": true,
+      "verifiedOriginalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "ddbe739985303b272f782d11db396406019a096f438469df1a85d2b5d62bee49"
+    },
+    {
+      "design": "collector",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/collector/dining.jpg",
+      "status": "Original retained without modification",
+      "reason": "This source is a frontal view facing the dining wall, with no balcony visible. Balcony continuity is not applicable; changing the image to show a balcony would require an unauthorized camera/composition change.",
+      "visuallyInspected": true,
+      "verifiedOriginalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "71a89c3518d8877d142d1071c5621055f684136767f23281beeea4feea9c06cc"
+    }
+  ],
+  "note": "Parent confirmed the four frontal dining originals should remain unchanged after inspection. Only Amber required the reverse-view edit. Copper dining was handled separately."
+}

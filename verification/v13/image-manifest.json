@@ -1,0 +1,459 @@
+{
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "images": [
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/daycool.png",
+      "url": "/tour/home-assets/dusk/cognac/original/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/original/daycool-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 540828,
+      "sha256": "0f9ba2f38fbd17411f9af5ac49884e987b2f5d5de943ee6ee0cb9249bb111d2f"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/daylight.png",
+      "url": "/tour/home-assets/dusk/cognac/original/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/original/daylight-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 585980,
+      "sha256": "9ee5863af24baf704def1ffd3dcc3db712fc753711b269f8cf0fa93aad33f244"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/nightneutral.png",
+      "url": "/tour/home-assets/dusk/cognac/original/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/original/nightneutral-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 496759,
+      "sha256": "3908d457d099a8f6bfa90a11d6752fe3841d572cba5db107b1279ede291646ec"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/original/nightwarm.png",
+      "url": "/tour/home-assets/dusk/cognac/original/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/original/nightwarm-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 533931,
+      "sha256": "f0b026361c0a2ecd8cc9e384d8e142c1a22fea97899aa770179ba5f2470c7977"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daycool.png",
+      "url": "/tour/home-assets/dusk/cognac/social/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/social/daycool-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 556377,
+      "sha256": "ca6af3b8059023afcf305c8eeecac032997538d220c2f25ab8fdf379f2f145a4"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daylight.png",
+      "url": "/tour/home-assets/dusk/cognac/social/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/social/daylight-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 576089,
+      "sha256": "c39943fbe1b0fbf2d86af54cbab438e5d56ec9055e7808cb9e115e2ad9895755"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/daywarm.png",
+      "url": "/tour/home-assets/dusk/cognac/social/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/social/daywarm-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 554511,
+      "sha256": "b628ac5865c5a9dfea62e7f4e6ff4fced4370e30684710d3d9839a617cedb7d9"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/nightneutral.png",
+      "url": "/tour/home-assets/dusk/cognac/social/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/social/nightneutral-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 503074,
+      "sha256": "a9eb7fb7f558cbae33447e44103e0239007e91b9e07e9d74f8a634bf8a38d818"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/social/nightwarm.png",
+      "url": "/tour/home-assets/dusk/cognac/social/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/social/nightwarm-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 544433,
+      "sha256": "c1269dc3e198d25dc017870bdbf0854eb73d70d014c9249f311bd79f79ac2b97"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daycool.png",
+      "url": "/tour/home-assets/dusk/cognac/storage/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/storage/daycool-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 554014,
+      "sha256": "dea4c6c15553dff0fe7ca6e88fa1dfee73bd40fa00a432ebc4636c8c932bde42"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daylight.png",
+      "url": "/tour/home-assets/dusk/cognac/storage/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/storage/daylight-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 577817,
+      "sha256": "73b4aacac80c67bfc7d6b627fcab0738003a213fa672b0649f6dabcb0496f8d6"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "url": "/tour/home-assets/dusk/cognac/storage/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/storage/daywarm-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 565189,
+      "sha256": "1382af7073e754e33f9ab891f3445508484a645d6e806389d449eb69dd4eea0c"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/nightneutral.png",
+      "url": "/tour/home-assets/dusk/cognac/storage/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/storage/nightneutral-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 493256,
+      "sha256": "b96d0317ef4022abd764a1cfe6c8293b443faeefc2165c1ee35001404729d649"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/nightwarm.png",
+      "url": "/tour/home-assets/dusk/cognac/storage/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/cognac/storage/nightwarm-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 549681,
+      "sha256": "73672ec3a5f5a6e1e80d9a2f6c5bac4b3e5964eb3540e5f1dc385475b338cfa6"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-oak.png",
+      "url": "/tour/home-assets/dusk/selections/living/blend-glass-oak.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/blend-glass-oak-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 527696,
+      "sha256": "85f6afdccd2035eaaaadb327b20f5ad9ff36a00d39a189d9a151ae614e4fab5c"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-smoked.png",
+      "url": "/tour/home-assets/dusk/selections/living/blend-glass-smoked.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/blend-glass-smoked-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 537964,
+      "sha256": "88f7e79f250e5074fbebc5ccc81ba9fcec0950d9a07379c88742415a4acf8741"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-glass-stone.png",
+      "url": "/tour/home-assets/dusk/selections/living/blend-glass-stone.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/blend-glass-stone-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 518268,
+      "sha256": "1c7afbc18c8556b19ee1de46d5ef28ce5d2ecec7df5a2f46a2a5e1a1e4b1d592"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/blend-stone-stone.png",
+      "url": "/tour/home-assets/dusk/selections/living/blend-stone-stone.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/blend-stone-stone-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 502879,
+      "sha256": "ee3c56d8964c1e5df43aae495ee4528b7bac05067abffbe6649911b0aac5ffd6"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-oak.png",
+      "url": "/tour/home-assets/dusk/selections/living/slim-glass-oak.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/slim-glass-oak-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 528528,
+      "sha256": "187add88a8bae1b2219ce65542282dab8e4c40e0d2653677090cc71b2bfc4add"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-smoked.png",
+      "url": "/tour/home-assets/dusk/selections/living/slim-glass-smoked.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/slim-glass-smoked-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 545683,
+      "sha256": "55c7e1a5a756d90acb650e1fb022a14adcc6b779c9e222e066aa4f228ef6006b"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-glass-stone.png",
+      "url": "/tour/home-assets/dusk/selections/living/slim-glass-stone.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/slim-glass-stone-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 544975,
+      "sha256": "2bcf3776bd90065923d3de71899c564cfe31d4c3fa1a44f7a6525fbbc68dd5b4"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/compact/slim-stone-stone.png",
+      "url": "/tour/home-assets/dusk/selections/living/slim-stone-stone.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/slim-stone-stone-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 507898,
+      "sha256": "fba202f2b40b403d9ee5c796203233e4eadfb0bd451453057ea402a04f6bf3d0"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-oak.png",
+      "url": "/tour/home-assets/dusk/selections/living/cognac-glass-oak.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/cognac-glass-oak-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 541084,
+      "sha256": "716312617eec276817de1f0a15a60e851e4cef6c84f08c1f827869b15e77e219"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-smoked.png",
+      "url": "/tour/home-assets/dusk/selections/living/cognac-glass-smoked.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/living/cognac-glass-smoked-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 550770,
+      "sha256": "de7c781b9fb57e3a834eed6955f8f5784088786ea1056bc6ad8febb10ee35905"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+      "url": "/tour/home-assets/dusk/selections/master/leather-ivory.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/leather-ivory-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 518348,
+      "sha256": "93e69ba3b2e3cc5903a716e45efbd66b3ad0cd989a962f4517acefc8707b2140"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+      "url": "/tour/home-assets/dusk/selections/master/leather-olive.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/leather-olive-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 514015,
+      "sha256": "fc9f216318f0905fd6a8a2419fe9c0d1bebc6af94f15db85e21637cec6ac47de"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-ivory.png",
+      "url": "/tour/home-assets/dusk/selections/master/linen-ivory.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/linen-ivory-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 504635,
+      "sha256": "8ccf52224f32a754925dd07a95225aeb61ba9c972229534d6f6fc1518b4d79f6"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-olive.png",
+      "url": "/tour/home-assets/dusk/selections/master/linen-olive.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/linen-olive-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 505624,
+      "sha256": "0bedb1382d673fcbcd8b8350f8642793e9e65073d74ea78a631b0c0d4e437ce1"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-ivory.png",
+      "url": "/tour/home-assets/dusk/selections/master/wood-ivory.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/wood-ivory-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 517108,
+      "sha256": "2d72f2e6c008a02680b0af40c3cfed309334029c871dde1e6cd7b72e328c5213"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-olive.png",
+      "url": "/tour/home-assets/dusk/selections/master/wood-olive.jpg",
+      "thumb": "/tour/home-assets/dusk/selections/master/wood-olive-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 525754,
+      "sha256": "f69476e3317182a4231bacd5a47f1d2b94bc498b8a52a1df992e5dc0d0524e11"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/balcony-clear.png",
+      "url": "/tour/home-assets/dusk/windows/balcony-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/balcony-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 669639,
+      "sha256": "a8fa94b2944b83dcc7581d25c61b34f400324123807a4962c1b5a4cb3c23a04c"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 544302,
+      "sha256": "f1dfec85b5073f700f6118a4573d1342df984d497e64d748c9118bf0b3f14972"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-storage-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-storage-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-storage-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 561092,
+      "sha256": "f4997a23d8a4d71eb1421e9aa3fd3603e99961b2f5454a0f2a822f5a451929fe"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-ivory-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-leather-ivory-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-leather-ivory-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 527928,
+      "sha256": "326e27d06bcd38566bd7a120cf44c0b635f1d2fddfbe6685a4aca96f232bc5d0"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-olive-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-leather-olive-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-leather-olive-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 534580,
+      "sha256": "de100ecda10d6ca0147044f482f3d73d839b3f38a56d4ae83fda20b98295c053"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-taupe-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-leather-taupe-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-leather-taupe-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 521089,
+      "sha256": "9eedea5207aba2e8a878eb25ada4137d1898a035e5b09f8f073b681f89e46a68"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-linen-ivory-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-linen-ivory-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-linen-ivory-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 521788,
+      "sha256": "198f8512af929ccb42996600853be6bc205b7386e6f425034fbccfd78fac6f8b"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-linen-olive-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-linen-olive-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-linen-olive-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 532824,
+      "sha256": "8137aa42c6a43a7c7bbde3814273f33a3d624497cde6786e1fa230c1c1340717"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-ivory-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-wood-ivory-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-wood-ivory-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 540195,
+      "sha256": "4d5203d5105eb2e7e41b04ca036faed72f6857ca57baa2f17f735401f8077b92"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-olive-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-wood-olive-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-wood-olive-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 548667,
+      "sha256": "5ad51e68775c29dedb0aa076650f6e05818635a905ee3c75bae97bd1cee4d9c7"
+    },
+    {
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-wood-taupe-clear.png",
+      "url": "/tour/home-assets/dusk/windows/master-wood-taupe-clear.jpg",
+      "thumb": "/tour/home-assets/dusk/windows/master-wood-taupe-clear-thumb.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 561940,
+      "sha256": "3845623dcc4348c365f9b98eaee34567c66d6c0a98476086c94a0b7994bfcce5"
+    }
+  ]
+}

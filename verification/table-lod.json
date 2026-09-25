@@ -1,0 +1,35 @@
+{
+  "meshes": [
+    {
+      "name": "geometry_0",
+      "originalTriangles": 284715,
+      "previewTriangles": 28000,
+      "originalBounds": [
+        [
+          -0.5600000023841858,
+          0.0,
+          -0.4067845940589905
+        ],
+        [
+          0.5600000023841858,
+          0.2620544731616974,
+          0.4067845940589905
+        ]
+      ],
+      "previewBounds": [
+        [
+          -0.5599820911884308,
+          4.300637042958024e-05,
+          -0.4056685119867325
+        ],
+        [
+          0.5596311932231637,
+          0.26218055377543836,
+          0.40665114253345014
+        ]
+      ]
+    }
+  ],
+  "bytes": 830088,
+  "colorTransfer": "source texture sampled to linear vertex colors for interactive preview; photo renderer uses original full textured GLB"
+}

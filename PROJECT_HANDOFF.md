@@ -1,3 +1,21 @@
+# 庭间 v17 · 完整资源恢复交接
+
+本轮状态以 `verification/v17/github-delivery.json`（GitHub Actions 验证后生成）及最新提交为准；以下旧记录保留作问题背景，不再代表最新恢复结果。
+
+- 权威源：原 Site Git 提交 `9b568680e502197891cbb689099956271807aa40`。
+- v17 完整包 SHA-256：`8202e28e2a7ab944ca9926e25763a91951b25ac5e692b110480056aaadd85865`。
+- 已逐字节核对 692 个 dist 文件，总计 266,821,152 bytes；104 个源码文件与原 Site 一致。部署包另含 dist/.openai/hosting.json 元数据；完整目录与本地 v17 部署包的 692 个文件逐字节一致。线上成功部署对应同一源码提交：产品称 v17，Sites 保存版本编号 16。
+- 630 张图片已完整解码；13 个 GLB/glTF、24 项外部模型依赖已校验，未调整图片像素或编码。
+- 补回全部 verification 资料。v16 历史保留检查改用从原 Site Git 历史验证导出的 47 项 SHA-256 基线，fresh clone 不再依赖不存在的旧 Git 对象。
+- main 包含完整可运行 dist；归档分支保管重复快照，100 MB 以上使用 Git LFS。共享运行资产不能从 main 删除，否则会破坏历史页/第二标签页，故归档迁移的是重复快照而不是唯一运行副本。
+- 本轮只操作 GitHub 备份与验证，没有覆盖线上 Site，没有更改访问权限。
+- 验证：`npm ci && npm run build && npm run check`，再运行 `check-assets.mjs`、v17 UI/floors、v16 assets/model。
+- `check-assets.mjs` 对完整 dist 的每个文件校验原始 SHA-256，代码更新后需明确更新基线；不要跳过核验或将登录页当作素材。
+
+---
+
+## 之前的交接记录（历史）
+
 # 庭间 v17 · 项目续接记录
 
 更新时间：2026-09-26（上海时间）

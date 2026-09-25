@@ -1,0 +1,219 @@
+{
+  "project": "tingjian-studio",
+  "task": "v13 cognac storage room asset set",
+  "created_at": "2026-09-25T10:46:09.030Z",
+  "method": "Built-in image_gen image editing only",
+  "source": {
+    "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/living/storage/daywarm.jpg",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "b3045786a987d807c9cb91566b93f963e4e22d6f8d6dd318f8373f288855b901"
+  },
+  "intended_output_dimensions": [
+    1536,
+    1024
+  ],
+  "generation_count": 6,
+  "corrections_used": 1,
+  "postprocessing": "Byte-for-byte copies of selected native generated PNGs; no resizing, upscaling, tinting, filtering, cropping, or stand-alone 3D rendering.",
+  "source_site_files_edited": false,
+  "assets": [
+    {
+      "variant": "daywarm",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 2201536,
+      "sha256": "1c24648b3f9bfe1ee736858eb60d2429eedb51dd31d8944e625a64ae2cfe42bf",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/living/storage/daywarm.jpg",
+      "prompt": "Use case: precise-object-edit.\nInput image: the provided interior photograph is the sole edit target.\nOutput: one native 1536 × 1024 landscape photograph, same exact 3:2 crop, no resizing or upscaling.\nChange ONLY the burgundy leather upholstery of the long drawer daybed on the RIGHT: recolor its seat cushion and all large leather back cushions to premium cognac / tobacco BROWN leather, a restrained neutral medium brown with a subtle tan undertone, not orange, red, burgundy, or black. Preserve the same supple leather texture, creases, cushion seams, cushion thickness, silhouettes, and every cushion's exact placement. Keep the beige decorative pillows exactly unchanged.\nKeep the entire daybed wooden drawer base EXACTLY unchanged: same length, depth, front panels, drawer divisions, right end panel, feet/plinth, and the partially open right lower drawer containing a folded blanket. Do not turn this into a sofa with legs or a different furniture design.\nPreserve all other pixels and visible scene identity as closely as possible: the fixed camera viewpoint, lens, crop, perspective, ceiling geometry, brown wood paneling and material colors, left TV and console, glass door, floor and rug, movable lounge chair, the two small nesting coffee tables and their items, rear dining banquette, dining table and chair, cabinetry, wall art, plant vases, doors, handles, fixtures, and every object's position.\nPreserve the existing daylight and warm illuminated lamps, coves and spotlights, existing exposure, sunlight direction and shadows. This is the daywarm anchor; do not alter lighting. Photorealistic interior photo edit. No new objects, no text, no watermark, no independent redesign or 3D rendering.",
+      "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-c92ebc1c-ef38-4167-8137-60e8c2eefc95.png",
+      "qa": {
+        "inspected_visually": true,
+        "native_dimensions_verified": [
+          1536,
+          1024
+        ],
+        "no_resizing_or_upscaling": true,
+        "room_camera_and_principal_architecture_preserved": true,
+        "right_drawer_daybed_identity_preserved": true,
+        "complete_wooden_drawer_base_and_open_drawer_preserved": true,
+        "furniture_positions_preserved": true,
+        "nesting_tables_lounge_chair_and_rear_banquette_preserved": true,
+        "brown_cognac_daybed_leather_preserved": true,
+        "review_note": "Visual preservation check; small generative surface/texture variation is possible. No geometric transforms or post-generation image edits were applied.",
+        "checks": [
+          "Burgundy daybed leather changed to cognac/tobacco brown.",
+          "Beige throw pillows and wooden drawer base preserved.",
+          "Source warm lighting and daylight direction retained."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "variant": "daylight",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daylight.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 2348407,
+      "sha256": "8b01dfcf47c9f573c8edaa290d5b887f9f21cb9a1d09fb3398c7e15b1a094a48",
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "prompt": "Use case: lighting-weather.\nInput image: the provided daywarm cognac interior photograph is the sole edit target and exact visual anchor. Output a native 1536 × 1024 landscape photograph with exactly the same 3:2 crop; do not resize or upscale.\nChange only illumination, emitting light color, and physically necessary light/shadow reflections. Preserve the exact camera position, field of view, perspective, ceiling geometry, brown wood wall panels, colors and textures of all materials, left TV and console, glass door, floor and rug, every piece of art, cabinetry, fixture, door and switch, plant vases, and all objects and their exact placement. The RIGHT daybed must remain the exact same tobacco cognac BROWN leather drawer daybed, with identical cushion outlines, seams, leather creases, beige throw pillows, complete wooden drawer base, panel divisions, right end and partially open lower drawer with the folded blanket. Preserve its brown leather identity; no orange, red or burgundy upholstery. Keep the movable lounge chair, both small nesting coffee tables, rear dining banquette, dining table and chair identical in shape and position. No object movement, addition or removal. Photorealistic room lighting edit, not a global tint/filter and not a new 3D rendering. No text, no watermark.\nLighting target: DAYLIGHT ONLY. The room is illuminated exclusively by realistic neutral natural daylight entering from the left glass doorway/window, same daytime composition and sun direction. Turn OFF EVERY artificial light: central ceiling drum lamp, dining pendant, table lamp, every recessed spotlight, all ceiling coves and any light reflected in glass. Lamp shades should visibly be unlit material with no inner luminous glow; cove recesses show only ordinary ambient daylight with NO bright luminous strip; spotlight lenses are dark/unlit with no pools of light beneath. Maintain sufficient natural room exposure and true warm brown wood and cognac leather material colors. Do not make a night scene. Daylight and physically plausible daylight shadows are permitted, but absolutely no artificial light emissions.",
+      "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-e11ee6c5-3ab1-42b7-a8e5-ed093478670b.png",
+      "qa": {
+        "inspected_visually": true,
+        "native_dimensions_verified": [
+          1536,
+          1024
+        ],
+        "no_resizing_or_upscaling": true,
+        "room_camera_and_principal_architecture_preserved": true,
+        "right_drawer_daybed_identity_preserved": true,
+        "complete_wooden_drawer_base_and_open_drawer_preserved": true,
+        "furniture_positions_preserved": true,
+        "nesting_tables_lounge_chair_and_rear_banquette_preserved": true,
+        "brown_cognac_daybed_leather_preserved": true,
+        "review_note": "Visual preservation check; small generative surface/texture variation is possible. No geometric transforms or post-generation image edits were applied.",
+        "checks": [
+          "All visible artificial lamp sources, recessed spotlights and coves are unlit.",
+          "Natural daylight enters from left.",
+          "Daybed remains cognac brown; room layout stable."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "variant": "daycool",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daycool.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 2266385,
+      "sha256": "ca1434a1977acf2c15543ca2de22db8110197182446da6b3026cbd71f8444709",
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "prompt": "Use case: lighting-weather.\nInput image: the provided daywarm cognac interior photograph is the sole edit target and exact visual anchor. Output a native 1536 × 1024 landscape photograph with exactly the same 3:2 crop; do not resize or upscale.\nChange only illumination, emitting light color, and physically necessary light/shadow reflections. Preserve the exact camera position, field of view, perspective, ceiling geometry, brown wood wall panels, colors and textures of all materials, left TV and console, glass door, floor and rug, every piece of art, cabinetry, fixture, door and switch, plant vases, and all objects and their exact placement. The RIGHT daybed must remain the exact same tobacco cognac BROWN leather drawer daybed, with identical cushion outlines, seams, leather creases, beige throw pillows, complete wooden drawer base, panel divisions, right end and partially open lower drawer with the folded blanket. Preserve its brown leather identity; no orange, red or burgundy upholstery. Keep the movable lounge chair, both small nesting coffee tables, rear dining banquette, dining table and chair identical in shape and position. No object movement, addition or removal. Photorealistic room lighting edit, not a global tint/filter and not a new 3D rendering. No text, no watermark.\nLighting target: DAYLIGHT WITH COOL-WHITE LIGHTS ON. Keep daytime natural daylight from the left glass doorway/window, and turn on all the existing ceiling drum lamp, dining pendant, table lamp, recessed spotlights and ceiling cove lighting with visibly COOL WHITE light, about 5500–6000 K. The emitting lamp shades, spotlight sources and cove strips must look white with a subtle cool cast, NEVER cream-yellow, amber or orange. Reflected artificial light and ceiling/wall light pools are cool white too. Balance the photo so dark brown wood remains warm brown in its material and tobacco cognac upholstery remains brown, without recoloring objects or washing the whole frame blue. Preserve daytime light and sunlight direction. Clearly distinguish cool-white light emissions from the naturally brown wood and leather.",
+      "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-2cb276a3-cfa6-4e68-be30-8e63840586da.png",
+      "qa": {
+        "inspected_visually": true,
+        "native_dimensions_verified": [
+          1536,
+          1024
+        ],
+        "no_resizing_or_upscaling": true,
+        "room_camera_and_principal_architecture_preserved": true,
+        "right_drawer_daybed_identity_preserved": true,
+        "complete_wooden_drawer_base_and_open_drawer_preserved": true,
+        "furniture_positions_preserved": true,
+        "nesting_tables_lounge_chair_and_rear_banquette_preserved": true,
+        "brown_cognac_daybed_leather_preserved": true,
+        "review_note": "Visual preservation check; small generative surface/texture variation is possible. No geometric transforms or post-generation image edits were applied.",
+        "checks": [
+          "Cove strips, ceiling shade, dining shade and spotlights emit visible cool white light.",
+          "Daylight remains present.",
+          "Brown materials remain brown; no global blue tint."
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "variant": "nightwarm",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/nightwarm.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 2118005,
+      "sha256": "e3d5e020de6fb03f9097bb7568386dc833776a57d0f8ccb20866dd3053958bb9",
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "prompt": "Use case: lighting-weather.\nInput image: the provided daywarm cognac interior photograph is the sole edit target and exact visual anchor. Output a native 1536 × 1024 landscape photograph with exactly the same 3:2 crop; do not resize or upscale.\nChange only illumination, emitting light color, and physically necessary light/shadow reflections. Preserve the exact camera position, field of view, perspective, ceiling geometry, brown wood wall panels, colors and textures of all materials, left TV and console, glass door, floor and rug, every piece of art, cabinetry, fixture, door and switch, plant vases, and all objects and their exact placement. The RIGHT daybed must remain the exact same tobacco cognac BROWN leather drawer daybed, with identical cushion outlines, seams, leather creases, beige throw pillows, complete wooden drawer base, panel divisions, right end and partially open lower drawer with the folded blanket. Preserve its brown leather identity; no orange, red or burgundy upholstery. Keep the movable lounge chair, both small nesting coffee tables, rear dining banquette, dining table and chair identical in shape and position. No object movement, addition or removal. Photorealistic room lighting edit, not a global tint/filter and not a new 3D rendering. No text, no watermark.\nLighting target: NIGHT WITH WARM LAMPS. It is nighttime outside the left glass doorway/window: remove all incoming sunlight and all sunlit floor, rug, chair or wall streaks. The exterior/adjacent view through the glass is dark nighttime, not bright daylight. Illuminate this identical room only with the existing ceiling drum lamp, dining pendant, table lamp, all recessed spotlights and ceiling coves emitting warm 2700–3000 K light. Use plausible local lamp pools, warm glowing shades and warm cove light; maintain readable premium interior photo exposure with detailed dark brown wood and cognac brown leather. No diagonal sunlight bands, no daylight bounce, no moonlight beam, no global orange tint.",
+      "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-425d6cf1-79c0-44de-a4b8-e759575b99f4.png",
+      "qa": {
+        "inspected_visually": true,
+        "native_dimensions_verified": [
+          1536,
+          1024
+        ],
+        "no_resizing_or_upscaling": true,
+        "room_camera_and_principal_architecture_preserved": true,
+        "right_drawer_daybed_identity_preserved": true,
+        "complete_wooden_drawer_base_and_open_drawer_preserved": true,
+        "furniture_positions_preserved": true,
+        "nesting_tables_lounge_chair_and_rear_banquette_preserved": true,
+        "brown_cognac_daybed_leather_preserved": true,
+        "review_note": "Visual preservation check; small generative surface/texture variation is possible. No geometric transforms or post-generation image edits were applied.",
+        "checks": [
+          "Warm lamps and coves illuminate room.",
+          "No daylight/sunlight streaks on floor or rug.",
+          "Left opening reads nighttime; principal room geometry stable."
+        ],
+        "result": "pass",
+        "notes": [
+          "Night exterior details within the left opening are generative; opening remains in the same location."
+        ]
+      }
+    },
+    {
+      "variant": "nightneutral",
+      "path": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/nightneutral.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 2121198,
+      "sha256": "892379c7a2b0206e90e6769484d4f7c4af5a58e8c05e789a2761925638b87ba3",
+      "source": "/workspace/scratch/aa0f93406d63/v13-assets/cognac/storage/daywarm.png",
+      "prompt": "Use case: lighting-weather.\nInput image: the provided daywarm cognac interior photograph is the sole edit target and exact visual anchor. Output a native 1536 × 1024 landscape photograph with exactly the same 3:2 crop; do not resize or upscale.\nChange only illumination, emitting light color, and physically necessary light/shadow reflections. Preserve the exact camera position, field of view, perspective, ceiling geometry, brown wood wall panels, colors and textures of all materials, left TV and console, glass door, floor and rug, every piece of art, cabinetry, fixture, door and switch, plant vases, and all objects and their exact placement. The RIGHT daybed must remain the exact same tobacco cognac BROWN leather drawer daybed, with identical cushion outlines, seams, leather creases, beige throw pillows, complete wooden drawer base, panel divisions, right end and partially open lower drawer with the folded blanket. Preserve its brown leather identity; no orange, red or burgundy upholstery. Keep the movable lounge chair, both small nesting coffee tables, rear dining banquette, dining table and chair identical in shape and position. No object movement, addition or removal. Photorealistic room lighting edit, not a global tint/filter and not a new 3D rendering. No text, no watermark.\nLighting target: NIGHT WITH NEUTRAL WHITE LAMPS. It is nighttime outside the left glass doorway/window: remove all incoming sunlight and all sunlit floor, rug, chair or wall streaks. The view through the glass is dark nighttime. Illuminate the identical room using only its existing ceiling drum lamp, dining pendant, table lamp, all recessed spotlights and ceiling coves, each emitting neutral WHITE light around 4200–4500 K. Every luminous shade, cove band and spotlight should read clean white, not cream, yellow, amber, orange or blue. The ceiling and local light pools are neutral white; preserve the genuine rich BROWN wood paneling, BROWN daybed leather and BROWN lounge chair material colors. Do not desaturate or gray the wood. Readable, natural interior photo exposure. No daylight bands, no sunlight streaks, no amber emissions, no global color filter.",
+      "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-478710b0-99de-4610-9dc7-d665dd179e23.png",
+      "correction": {
+        "source": "/workspace/scratch/aa0f93406d63/generated_images/exec-36198f49-b620-4631-b430-4e9226367b6a.png",
+        "prompt": "Use case: lighting-weather. This provided NIGHT photograph is the edit target. Make ONE narrow correction: turn the existing artificial lighting from its residual yellow/cream cast to unmistakably neutral WHITE light.\nOutput native 1536 × 1024 pixels, same exact crop. Preserve the entire photographed scene exactly. Do not move or alter furniture, architecture or materials.\nChange ONLY the emitted light and physically necessary reflected light from all existing lamps: central drum shade, rear dining pendant shade, table lamp, recessed ceiling spotlights, ceiling cove bands and their ceiling/wall light pools. Their emitted whites must be clean neutral achromatic white, approximately 4500–4800 K: NOT cream, yellow, amber or orange, and not blue. The drum and dining shades must visibly glow white; all coves must be plainly white instead of beige. Remove the warm yellow cast from the ceiling illumination and spotlight pools.\nKeep all rich brown wall wood, brown daybed leather, brown lounge chair leather and brown furniture the same material colors. Brown objects remain brown under white light. Preserve the exact same drawer daybed construction and partially open lower right drawer, all leather cushion shapes and beige pillows, nesting tables, movable chair, rear banquette, camera, rug, objects and locations. Keep the left glass doorway view at night and preserve its current shape. Keep the night state with NO sunbeams or daylight shadow streaks. This is a local physical relighting correction, not a global desaturation, global blue filter or new rendering. No additional objects or light fixtures, no text or watermark.",
+        "selected": true,
+        "reason": "Original nightneutral emission colors were still warm/cream.",
+        "generated_file": "/workspace/scratch/aa0f93406d63/generated_images/exec-478710b0-99de-4610-9dc7-d665dd179e23.png"
+      },
+      "qa": {
+        "inspected_visually": true,
+        "native_dimensions_verified": [
+          1536,
+          1024
+        ],
+        "no_resizing_or_upscaling": true,
+        "room_camera_and_principal_architecture_preserved": true,
+        "right_drawer_daybed_identity_preserved": true,
+        "complete_wooden_drawer_base_and_open_drawer_preserved": true,
+        "furniture_positions_preserved": true,
+        "nesting_tables_lounge_chair_and_rear_banquette_preserved": true,
+        "brown_cognac_daybed_leather_preserved": true,
+        "review_note": "Visual preservation check; small generative surface/texture variation is possible. No geometric transforms or post-generation image edits were applied.",
+        "checks": [
+          "Selected corrected output has white emitting shades, coves and spotlights.",
+          "Brown wood and cognac leather retain their material color.",
+          "No sunlight streaks; left opening reads nighttime."
+        ],
+        "result": "pass after one narrow correction",
+        "notes": [
+          "Initial candidate had residual warm/cream emissions and was not selected.",
+          "Night exterior details within the left opening are generative; opening remains in the same location."
+        ]
+      }
+    }
+  ]
+}
+

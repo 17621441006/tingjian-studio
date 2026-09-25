@@ -1,0 +1,153 @@
+{
+  "task": "v16 utility window edits",
+  "created": "2026-09-25",
+  "count": 6,
+  "edit": "Existing window bays receive floor-reaching clear fixed lower glazing and operable upper sections; opaque under-window parapets removed within existing bays.",
+  "qa_note": "Visual comparison found no material camera/layout drift. Generative edits are not pixel-identical copies. Window/base regions and their immediate daylight/reflection transitions necessarily change.",
+  "items": [
+    {
+      "design": "dusk",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-4ff06776-684b-4611-bd80-6d34b2be2db4.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/dusk/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target has dark walnut cabinetry, stacked silver machines centered at rear, a right wooden counter with vase and folded towels, a round woven basket and strong warm late-afternoon sun. Keep these EXACTLY unchanged. Replace only the stone-clad raised base below the left glass with continued clear FIXED glazing down to a slim floor threshold, at the SAME glazing plane. Keep the exact original width and floor area. The dark bronze window frames should visually match the originals, with narrow upper operable vent sections.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    },
+    {
+      "design": "chinese",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-29130f63-bb50-4e3a-914e-9969bdec95ae.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/chinese/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target is the very narrow Chinese-style utility balcony seen through a wood-trim doorway, stacked silver machines straight ahead, cream and walnut cabinet doors, overhead drying rods, a floor drain, and kitchen counter glimpsed on far right. Keep all of these EXACTLY unchanged, especially the unique narrow framing/camera. The opaque white lower window panes at left must become clear FIXED glass all the way down to a slim floor-level threshold; remove only the small raised stone sill underneath. Keep exact left window-bay width and every side reveal. Introduce narrow upper opening vent sections with handles, one slightly ajar.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    },
+    {
+      "design": "stone",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-f8f19aa1-c642-48cf-8c94-5c4d057e1f1e.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/stone/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target has muted pale wood cabinetry and pale stone counter on the right, stacked silver machines with bronze/black louver above and below, textured fabric hamper and a dark vase. Keep all of these EXACTLY unchanged. Replace only the low stone-clad opaque base below the left glass with clear FIXED glazing down to a tiny floor threshold at the SAME glass plane. Match dark bronze frames with upper narrow operable vent sections.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    },
+    {
+      "design": "collector",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/collector/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-2175626a-7c05-4965-9e7d-e1953314b20a.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/collector/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target has dark wood cabinetry, stacked silver machines, a richly veined marble counter and matching marble backsplash at right, neatly stacked towels, rectangular fabric hamper. Preserve everything exactly. Replace only the low stone-clad opaque base beneath left-side glass with extended clear FIXED glazing down to a tiny floor threshold in the SAME glass plane. Upper narrow vent sections have small handles and one is slightly ajar.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    },
+    {
+      "design": "copper",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/copper/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-3b057b37-7129-4d66-a3de-dd5ca6d3f1bd.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/copper/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target has one relatively narrow left-side window surrounded by cream plaster wall, deep green stone cabinet fronts, bronze accents, stacked silver machines and a right stone counter. Keep the original window WIDTH, all thick cream-plaster side piers/reveals, ceiling, and every object EXACTLY unchanged. Extend ONLY that existing narrow window bay vertically down to the finished floor by replacing the opaque wall BELOW its sill with a single clear FIXED lower pane and tiny threshold. Keep the glass in its original plane. Do not widen the window or remove either structural sidewall. Put a narrower operable upper vent within the same bay, with a visible handle and slightly ajar sash. This must still look like the exact same very small room.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    },
+    {
+      "design": "amber",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/amber/utility.jpg",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-8ee325b6-9a82-4f66-81c3-c5a592480b65.png",
+      "output": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/amber/utility.jpg",
+      "mode": "built-in image_gen individual edit",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior architecture photograph for a website, one final image, 1536 x 1024 pixels native landscape.\nInput image 1 is the EDIT TARGET. Make a strictly localized window-system edit, preserving the exact source image everywhere else.\nPrimary request: turn the existing left-side utility-balcony windows into FULL-HEIGHT clear glazing reaching the finished floor, with only a tiny realistic metal perimeter threshold at the bottom. The lower large panes are FIXED glazing; the narrower upper vent sections can open. Add small realistic visible window handles at the upper operable vent sections and show exactly one upper vent slightly ajar. Preserve every structural beam, ceiling bulkhead, load-bearing sidewall, column and pier; only replace the nonstructural opaque under-window panels or raised sill within the existing window bay with glass. Make the glazing termination structurally plausible at the same floor/slab line. Glass is transparent enough to show the matching continuation of the original exterior buildings and trees.\nAbsolute invariants: pixel-identical camera location, camera angle, lens, perspective, crop, room width, depth and compact 2.5-square-metre proportions. Do not enlarge or lengthen this tiny utility room. Preserve every washer/dryer exactly, their placement, scale and shape, every cabinet and cabinet door, shelf, sink if visible, countertop, basket, mop/vacuum, plant, vase, towel and other existing object. Preserve the source material palette, textures, sunlight, exposure, shadow direction and interior lighting. Preserve window-bay width, existing vertical structural elements and ceiling height. Match original photographic realism.\nAvoid: any new decoration or appliance, removing or moving furniture, new sinks, walls made into a new opening outside the existing window bay, fake cantilevers, changing architecture, wide-angle expansion, extra room, text, logo, watermark. Do not turn lower glass into opening doors.\nDesign-specific exact preservation: The target is a very narrow honey-oak utility balcony, seen from its entrance, with white washer/dryer at rear, illuminated vacuum niche, beige stone floor/walls, amber ceiling light and right stone counter with tiny amber vase and woven hamper. Preserve all of these EXACTLY unchanged. Replace the entire opaque nonstructural parapet directly BELOW the existing long left window bay with clear FIXED lower glazing reaching a tiny floor-level threshold, same glass plane and same width. The chunky vertical/side structural elements and all ceiling soffits must remain unchanged. Reconfigure only the window sashes so narrow upper vent sections can open, have visible handles and one is slightly ajar. Lower large panes remain fixed glass.",
+      "qa": {
+        "input_viewed": true,
+        "output_viewed": true,
+        "full_height_fixed_lower_glazing": true,
+        "upper_operable_sash_handle_visible": true,
+        "one_upper_sash_ajar": true,
+        "structural_sides_retained": true,
+        "camera_and_room_layout_preserved": true,
+        "appliances_and_furnishings_preserved": true,
+        "no_new_decoration": true,
+        "no_material_issue_observed": true
+      }
+    }
+  ]
+}

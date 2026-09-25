@@ -1,0 +1,147 @@
+{
+  "scheme": "云岚铜影",
+  "key": "copper",
+  "mode": "built-in image_gen",
+  "requested_native_size": "1536x1024 or larger landscape 3:2",
+  "common_prompt": "Use case: style-transfer. Asset type: photoreal architectural interior photograph for a coherent room-by-room home design gallery. Redesign the compact Shanghai apartment in reference image 1 into the same residential scheme named 云岚铜影, using the other reference images ONLY for material, sculptural and lighting inspiration. Preserve the first image's basic apartment envelope, room width, circulation, camera viewpoint and believable residential proportions unless specifically noted. Palette throughout this same home: deep olive-green slate with a subtle cleft microtexture; aged burnished copper/bronze details with restrained warm reflections; small areas of real smoked walnut; mineral warm-ivory plaster for balance; mushroom taupe textiles. Copper is brushed/burnished, never bright shiny gold. This is an attainable sophisticated 75.1 square meter TWO BEDROOM Shanghai apartment, modest 2.7 meter ceilings. Entire ceiling simple and mostly flat warm ivory; at most ONE very shallow gently curved walnut strip feature, only 5 cm deep, never a vaulted ceiling or huge wave installation. Contemporary furniture, sculptural and quiet. Abstract cloudlike relief is used SPARINGLY as one broad simple organic low-relief contour, no literal clouds or illustrations. Daylight is the main light with subtle 2700K task/accent lights. Natural Shanghai apartment buildings and trees outside, no waterfront/hotel/resort view. Very sharp fine material texture, realistic glass and metal reflections, true contact shadows, restrained realistic photographic exposure, rich green clearly visible rather than color cast or all-brown. Professional full-frame 24mm rectilinear architectural photography, eye-level, straight verticals. Output one full-bleed native LANDSCAPE 1536x1024 image or larger landscape with 3:2 aspect. NO collage, split panels, borders, text, symbols, branding, people, UI, logos, watermarks. Do not replicate phone screenshot borders or text. Avoid generic beige/brown-only room, oversized hotel scale, excessive walnut, ornamental chinoiserie, dragons, strongly patterned art, shaggy/jute rugs, oversaturated orange lighting, impossible structures.",
+  "room_prompts": {
+    "living": "Room: long narrow combined living+dining room of 21.4 sqm. Camera at balcony looking toward dining and front entry at far end; the large balcony window is BEHIND the camera, so no invented window in dining rear wall. Keep layout and camera of image 1: TV and slender media ledge LEFT, sofa against RIGHT sidewall, dining at far end, entry far right. Replace beige sofa with compact 2.1m contemporary deep olive velvet sofa, low clean arms, 3 varied warm-ivory/taupe cushions with fine piping. Wall behind sofa rich dark green slate with ONE restrained shallow large abstract cloud contour in aged copper relief, above sofa only. Flat thin smoked-glass coffee table with slender dark-bronze frame, not wooden block. Finely woven flat taupe wool rug, smooth close weave not shag or jute. TV wall mineral ivory with small walnut media ledge. Dining furniture visible rear: small rounded-rectangle pale ivory stone top with thin burnished bronze base, four slim dark-green upholstered chairs with walnut backs. Rear wall mineral warm ivory, small burnished copper sculptural wall piece. ONE shallow curved 5cm walnut ceiling ribbon above sofa, otherwise flat ivory ceiling. No decorative ceiling tray or huge chandelier. The room must still feel just 21.4sqm.",
+    "master": "Room: 13.5 sqm primary bedroom. Match camera and preserve prominent large L-shaped CORNER WINDOW on left/back plus narrow window right of bed, bed location with headboard on right wall. A real 1.8m bed fits compactly with small bedside ledges and passage; not a luxury suite. 1.8m bed in deep olive upholstered headboard, ivory cotton-linen bedding with tailored taupe coverlet and one muted bronze cushion. Behind headboard restrained green slate panel with finely chiselled abstract horizontal relief, very shallow, framed by only two narrow walnut edges and discreet warm grazing light. Plain ivory ceiling, no huge canopy or waves, modest flush light or bronze small reading sconces. Smoked walnut floor in natural texture, finely woven taupe rug. Built-in wardrobe at left in warm ivory with thin bronze pulls. City apartment views; delicate sheer curtains mostly open. No huge decorative picture, excessive timber cladding, screen walls or hotel-scale furniture.",
+    "second": "Room: compact 7.2 sqm second bedroom / study. Keep reference camera from doorway, main rectangular city-view window on far wall, 1.0m daybed along RIGHT wall, compact 1.1m desk below the window and space-saving storage overhead. Same-home dark olive-green storage cabinetry with thin burnished copper handles and a small walnut desk top. Daybed in deep olive textured upholstery with ivory/taupe cushions and plain ivory coverlet, compact storage drawers below, not a double bed. Warm ivory walls except one restrained slate-green plane behind daybed; no ornate relief here. Fine taupe flat-woven rug; pale mineral tile or smoked walnut floor, simple flat ivory 2.7m ceiling. Real modest proportions, plausible usable circulation. Daylight and bronze desk lamp.",
+    "kitchen": "Room: compact 6.6sqm kitchen. Camera at door toward the main window. Preserve central window and right-side cooking area. A compact L-shaped counter running beneath the window and along RIGHT side, sink below window and black two-burner hob right; left side is a flush tall appliance pantry front, not another projecting countertop. Lower cabinets deep matte olive green with thin copper/bronze edge pulls; upper cabinets mineral ivory, integrated appliances. Dark green slate backsplash and pale fine-grained gray-ivory stone countertop, one small walnut open shelf or cutting board only. Copper-toned mixer faucet. Strong window daylight, under-cabinet warm task lighting. Sharp small material details and realistic reflection. Flat ivory ceiling. No oversized island, no dining table, no scalloped ornament, no busy countertop, no excessive timber.",
+    "bath": "Room: compact 4.3sqm bathroom. Keep first-image configuration: glass enclosed walk-in shower LEFT, floating vanity centered under mirror, narrow vertical privacy opening window upper right, compact white toilet foreground right. NO bathtub. Dark olive-green slate shower walls and pale warm-gray mineral porcelain other walls/floor, a restrained 0.8m walnut floating vanity with pale stone top and undermount white basin. Burnished copper/bronze shower and faucet; frameless glass with fine bronze fitting; simple softly rounded rectangular backlit mirror. White towels, small amber bottle. Compact believable residential spacing, no hotel spa. Ceiling flat ivory and moisture-safe recessed light. Real daylight through frosted window plus subtle warm accent illumination. No decorative carved relief inside wet area.",
+    "balcony": "Room: 5sqm enclosed main balcony at the living room end. Reference camera looks straight from living room into balcony. Preserve narrow depth approximately 1.3m. Replace divided front window with ONE enormous uninterrupted clear fixed main picture pane across most of the front, plus a SINGLE slim vertical operable vent pane at far right; slim dark-bronze outer frame, NO central mullions, NO horizontal bars crossing the clear picture view. No visible external guardrail grid; this is an enclosed apartment balcony with substantial glazed parapet safety base. The main front window shows realistic Shanghai apartment buildings and trees. Slim 1.7m bench with narrow dark-bronze legs, muted olive seat and one ivory cushion against low sill; small dark-bronze side table at left, one modest plant on right. Slate-green small sidewall plane with warm bronze wall light, otherwise mineral ivory and pale neutral stone floor. Daylight dominant. Do not add furniture clutter or oversized potted tree. Plain flat ceiling, no wood lattice.",
+    "utility": "Room: 2.5sqm narrow laundry / utility alcove. Camera from entrance toward washer-dryer stack on end wall. Real compact corridor, not a large room. Preserve reference main layout, but replace broad wall of glazing with a compact narrow opening window on LEFT wall and pale mineral wall around it. One stacked silver-gray washer and dryer built neatly into ventilated dark olive-green cabinetry with bronze ventilation grille above and below, slim tall broom storage beside it. Short pale gray stone folding counter on RIGHT with closed cabinet below, one shallow open shelf, folded ivory towel. Thin warm-bronze cabinet handles, small walnut shelf only. Dark green slate backsplash strip, no decorative cloud relief. Plain ivory flat 2.7m ceiling; practical daylight through narrow window and warm under-shelf work light. Real ventilation and clear access to both appliances, no giant window wall. No brand names or appliance text.",
+    "dining": "Use case: precise-object-edit / architectural viewpoint synthesis. Create a second real architectural photograph of the EXACT SAME apartment seen in input image 1 (living room). Input image 2 is the exact balcony at its opposite end. Keep all design, colors, furniture models, architectural proportions and lighting consistent with these two references. CHANGE CAMERA VIEWPOINT: move camera to the dining/entry end and turn 180 degrees to look along the narrow living room TOWARD the main balcony window. This is NOT the same view as input image 1. The room is only 21.4sqm combined living and dining, a modest 2.7m ceiling, inside a Shanghai 75.1sqm two-bedroom home. Foreground: compact four-seat rounded rectangular ivory stone dining table on a bronze cylindrical pedestal, matching slim olive upholstered walnut-frame chairs, small dark pottery vase and bowl. In the far living zone, the exact 2.1m deep olive velvet sofa now appears against the LEFT wall because the camera faces the opposite direction; behind it the green slate wall and restrained copper abstract relief; television and low walnut media ledge are now RIGHT. Same fine taupe wool rug and slender bronze-frame smoked-glass coffee table. Balcony at far end, through the open internal glazing: one huge uninterrupted clear main picture pane plus narrow side opening pane, slim olive bench, ivory cushion, small dark bronze side table. Window supplies natural daylight from behind the living zone; realistic Shanghai apartment blocks and trees outside. Same simple flat ivory ceiling with only one very shallow walnut ribbon above sofa, no hotel ceiling. Dark olive green slate, burnished copper, walnut accents, mineral ivory, taupe wool, coherent with references. Preserve crisp realistic material microtextures, believable shadows, restrained warm accents, realistic reflections. Full-bleed native 1536x1024 or larger 3:2 landscape, professional straight-vertical rectilinear architectural photograph. NO collage, multiple panels, text, UI, people, watermark, logo. NO dining rear solid wall at the end of the image; distant view must be BALCONY WINDOW. Do not redesign furniture. No jute/shaggy rug, no oversized lobby, no dragon/chinoiserie, no unrelated ornate decor."
+  },
+  "reference_roles": {
+    "base": "architecture and camera guide; material design transformed",
+    "style": "material and abstract sculpture inspiration only"
+  },
+  "dining_prompt_standalone": true,
+  "generation_tool": "image_gen.imagegen built-in; one initial call per room plus one targeted kitchen revision",
+  "postprocessing": "Native PNG source converted to JPEG quality 96, 4:4:4. No resizing, upscaling or aesthetic pixel manipulation.",
+  "qa_notes": [
+    "All eight are native 1536x1024 landscape photographs; every returned image visually inspected.",
+    "Living and dining correctly reverse sofa/TV sides; dining was generated from the completed living and balcony assets to maintain furniture continuity.",
+    "Room measurements and 2.7m ceiling are prompt constraints, not surveyed dimensions.",
+    "Copper organic relief contours vary slightly between generated camera views; palette and furniture are consistent.",
+    "Kitchen left countertop return removed in a targeted revision; final image has a clear L counter and full-height left appliance tower."
+  ],
+  "assets": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/living.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-b8b73821-b6eb-4a16-99f6-977bd4f73c24.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 790699,
+      "sha256": "bdde841b381b19a9162a2526cb931474e953d85ed67100b91463bcbeb682a21a",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/living.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7015.jpeg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7012.png"
+      ]
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/dining.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-546adf5a-3015-408f-a80e-cee98deb9523.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 788964,
+      "sha256": "ba242cbc94d1fde5293f6318d451d1fb0bb3326874343303f4bb2e1f6ec2b3b5",
+      "reference_paths": [
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-b8b73821-b6eb-4a16-99f6-977bd4f73c24.png",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-a7174c67-023b-4686-b04e-7457bd55e37a.png"
+      ]
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/balcony.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-a7174c67-023b-4686-b04e-7457bd55e37a.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 773650,
+      "sha256": "631316b900486e0e0a37e5a9793507b5cb77100b80d4388202a78195488702b6",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/balcony.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7015.jpeg"
+      ]
+    },
+    {
+      "room": "master",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/master.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-4c6ed078-7b3c-4bc4-98bf-143c51862ec1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 736882,
+      "sha256": "1b1ad7737369abcab209d52a8d435639bb1c2275ef10559a59fabb79cfad30e9",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/master.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7006.png",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7014.png"
+      ]
+    },
+    {
+      "room": "second",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/second.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-d4e6bbe8-ae2f-4dd4-bc0c-636eeac83618.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 712545,
+      "sha256": "c26fd3a580d8b6b188684e020996f0fbedad1dc3345448553e544425d90308b6",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/second.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7012.png"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/kitchen.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-f092181e-82e6-42c7-9231-0882c83cc5b8.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 612529,
+      "sha256": "1d595b977f140a736e64b07765346914f5691b69edbc86d5f99261bdda6cf2e1",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/kitchen.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7012.png"
+      ]
+    },
+    {
+      "room": "bath",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/bath.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-a4215f9b-f8fb-4ff7-83b3-742bc5a9bf5c.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 763980,
+      "sha256": "457f6683e27fa9f4a16f80829eb222e1d2065021aab366391552229dde6d40b8",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/bath.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7014.png"
+      ]
+    },
+    {
+      "room": "utility",
+      "path": "/workspace/scratch/aa0f93406d63/v15-assets/copper/utility.jpg",
+      "source_png": "/workspace/scratch/aa0f93406d63/generated_images/exec-b070e010-0c72-4fa0-8a87-c4883b56c2c9.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 662167,
+      "sha256": "fda103c7c662644a9fa17dc6dbfa56c7385617f534cf43ecdd7662c621bb9354",
+      "reference_paths": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/utility.jpg",
+        "/workspace/scratch/aa0f93406d63/upload/IMG_7012.png"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "room": "kitchen",
+      "input_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-047c33d1-b879-4619-b697-a429b0847de1.png",
+      "final_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-f092181e-82e6-42c7-9231-0882c83cc5b8.png",
+      "prompt": "Use case: precise-object-edit. This is the final kitchen render for a compact 6.6sqm Shanghai apartment. Make one precise architectural correction: the countertop must be an unambiguous L, on the back/window wall and right cooking wall ONLY. Remove the short projecting worktop/white stone countertop along the LEFT wall; replace that entire left appliance zone by a flush full-height matte dark olive cabinet/appliance tower, with built-in black oven at eye level. The left vertical cabinet front reaches the floor without any horizontal stone counter or work surface. This exposes a little more clear floor, keeping compact and practical circulation. Keep every other thing unchanged: the exact camera, window position and Shanghai view, two back/right counter runs, sink, copper faucet, hob, ivory upper cabinets, deep olive lower cabinetry, slate backsplash, copper trim, green/copper/ivory palette, lighting, all natural material microtexture and room proportions. No island, no people, no text/logo/UI. Single full-bleed native 1536x1024 landscape image."
+    }
+  ]
+}

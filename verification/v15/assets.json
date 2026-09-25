@@ -1,0 +1,114 @@
+[
+  {
+    "scheme": "copper",
+    "room": "living",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/living.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "dining",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/dining.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "balcony",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/balcony.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "master",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/master.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "second",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/second.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "kitchen",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/kitchen.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "bath",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/bath.jpg"
+  },
+  {
+    "scheme": "copper",
+    "room": "utility",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/copper/utility.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "living",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/living.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "dining",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/dining.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "balcony",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/balcony.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "master",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/master.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "second",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/second.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "kitchen",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/kitchen.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "bath",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/bath.jpg"
+  },
+  {
+    "scheme": "amber",
+    "room": "utility",
+    "width": 1536,
+    "height": 1024,
+    "path": "dist/tour/home-assets/amber/utility.jpg"
+  }
+]

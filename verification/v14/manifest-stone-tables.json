@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "task": "v14 missing floor selections with stone coffee table",
+  "generated_at": "2026-09-25",
+  "output_directory": "/workspace/scratch/aa0f93406d63/v14-assets/floors",
+  "requested_count": 6,
+  "actual_count": 6,
+  "execution": "Built-in imagegen; three bounded parallel batches of two requests, one image per request.",
+  "qa_notes": [
+    "All outputs visually reviewed. No major room geometry, camera, furniture, rug-color or decor changes detected.",
+    "Oak uses straight planks running into the room; smoked walnut uses straight planks across the room. Both meet the straight-plank requirement.",
+    "Built-in generative editing may vary fine texture detail; outputs are visually consistent edits, not pixel-identical outside floor areas."
+  ],
+  "assets": [
+    {
+      "id": "cognac-stone-oak",
+      "sofa": "cognac",
+      "floor": "oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/cognac-stone-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a cognac brown leather sofa, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into natural pale oak straight planks, light warm beige oak with subtle natural grain, understated matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, cognac brown leather sofa, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-c1e83cde-eef8-4a4f-8174-c53570c967ed.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2222548,
+      "sha256": "21f4a4ae9d84d0b2e74b130d43381836bbdb79a036e52bebff679ea12f37f1eb"
+    },
+    {
+      "id": "cognac-stone-smoked",
+      "sofa": "cognac",
+      "floor": "smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/cognac-stone-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a cognac brown leather sofa, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into smoked walnut straight planks, rich medium-dark muted brown walnut with subtle natural grain and a refined matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, cognac brown leather sofa, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-13b6d173-4569-4ecb-a478-561083389307.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2081120,
+      "sha256": "caf1617089380eec87ae4cbbf846f0ad5a46e18a36acf71662241610bb25d2d7"
+    },
+    {
+      "id": "blend-stone-oak",
+      "sofa": "blend",
+      "floor": "oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/selections/living/blend-stone-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/blend-stone-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a sofa with cognac leather arms and base and pale woven fabric seat/back cushions, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into natural pale oak straight planks, light warm beige oak with subtle natural grain, understated matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, sofa with cognac leather arms and base and pale woven fabric seat/back cushions, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5cf9d3a8-cd47-49be-a77e-68af33fd4102.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2135803,
+      "sha256": "6ea874e52af1e0a1ebf49cd8c5a82b96645516faf18a579195c2e1fe9e765846"
+    },
+    {
+      "id": "blend-stone-smoked",
+      "sofa": "blend",
+      "floor": "smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/selections/living/blend-stone-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/blend-stone-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a sofa with cognac leather arms and base and pale woven fabric seat/back cushions, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into smoked walnut straight planks, rich medium-dark muted brown walnut with subtle natural grain and a refined matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, sofa with cognac leather arms and base and pale woven fabric seat/back cushions, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-6ded8663-965d-42d0-a09b-c905f06314dd.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2121374,
+      "sha256": "ce8eac5842de3a905acf3eb6e2ffc2f57cf58a1e48d3b56f00629fc585a2b135"
+    },
+    {
+      "id": "slim-stone-oak",
+      "sofa": "slim",
+      "floor": "oak",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/selections/living/slim-stone-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/slim-stone-oak.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a slim pale fabric sofa with narrow arms and slim dark legs, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into natural pale oak straight planks, light warm beige oak with subtle natural grain, understated matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, slim pale fabric sofa with narrow arms and slim dark legs, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-35bf3e55-5089-4364-b836-2bbb31d80f9e.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2202394,
+      "sha256": "4c32718a76e9c3396bd73ac81fa78c6f92a84351e4f4c6c62d34c2612cf9456e"
+    },
+    {
+      "id": "slim-stone-smoked",
+      "sofa": "slim",
+      "floor": "smoked",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/selections/living/slim-stone-stone.jpg",
+      "output": "/workspace/scratch/aa0f93406d63/v14-assets/floors/slim-stone-smoked.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior website selection image.\nInput image 1 is the edit target, a 1536x1024 living/dining room photograph with a slim pale fabric sofa with narrow arms and slim dark legs, stone-top coffee table, and pale patterned area rug.\nPrimary request: change ONLY ALL of the exposed gray stone floor into smoked walnut straight planks, rich medium-dark muted brown walnut with subtle natural grain and a refined matte finish, clean narrow seams, no herringbone and no parquet. This is a localized floor material replacement, not a room redesign.\nThe new real wood boards must be long straight planks, physically plausible scale and correct perspective toward the back dining wall, consistently covering the entire exposed floor plane: foreground, the left aisle beside the rug and TV cabinet, the strip at the bottom edge of the rug, the floor around/behind the dining chairs and dining table, the left doorway floor, and every small exposed gap under or between furniture. No visible gray stone floor should remain.\nAbsolute invariants: preserve the camera position, lens, exact framing/crop, perspective, walls, ceiling, room geometry, wood wall panels, doors, all furniture placement and dimensions, slim pale fabric sofa with narrow arms and slim dark legs, sofa upholstery and cushions, the gray-brown stone coffee tabletop and its veining, all table objects, the area rug's exact beige color, texture, pattern, outline and position, lighting fixtures, artwork, plants, decor, and every non-floor surface. The coffee tabletop must remain stone. The rug must remain fabric with no recoloring or floor texture leaking onto it.\nPreserve original warm dusk lighting, illumination levels, light beams, reflections, contact shadows, occlusions, and the boundary between the rug/furniture and the new wood floor. Match source photorealism exactly; do not stylize, brighten, move, add, remove, or recolor anything else.\nOutput one SINGLE landscape image at native 1536x1024 or higher available resolution, maintaining the exact source 3:2 composition. No collage, no panels, no borders, no text, no watermark.",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-a13cda70-a6d0-49aa-b941-8887000aa117.png",
+      "tool": "built-in image_gen.imagegen",
+      "transparent_background": false,
+      "qa": {
+        "visual_review": "Reviewed generated image at full frame. Requested flooring present across exposed main floor and dining area; sofa type, stone coffee table, rug, room composition, lighting and decor visually retained.",
+        "issues": []
+      },
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 2210924,
+      "sha256": "65e4852c8811dd802d6c711dc0b2a845f7c0b13e7ff6ef64c1882319a6d2526c"
+    }
+  ]
+}

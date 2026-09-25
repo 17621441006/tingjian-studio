@@ -1,0 +1,205 @@
+{
+  "concept": "石庭隐居",
+  "description": "Original principles-inspired residence for a 75.1 sqm Shanghai apartment, not an actual hotel depiction or replica.",
+  "generation_mode": "built-in image_gen",
+  "generation_call_count": 8,
+  "created_date": "2026-09-25",
+  "inspiration_sources": [
+    {
+      "url": "https://www.aman.com/sites/default/files/2023-11/Aman-Kyoto-Copy-Deck.pdf",
+      "role": "Official design principles supplied and verified by parent: minimal geometry, ryokan references, framing nature; not an image input."
+    },
+    {
+      "url": "https://www.aman.com/resorts/aman-kyoto/gallery/explore-aman-kyoto",
+      "role": "Official gallery inspiration URL supplied by parent; not an image input."
+    }
+  ],
+  "validation": {
+    "native_aspect_ratio": "3:2",
+    "artificial_upscale": false,
+    "inspection": "Each input inspected before generation, each final output visually reviewed against target geometry.",
+    "notes": "All room geometry and principal functional placements visibly preserved. Small generated-detail changes and finish deviations are documented per image."
+  },
+  "images": [
+    {
+      "concept": "石庭隐居",
+      "room": "living",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit.\nAsset type: full-frame photorealistic interior design visualization for one 75.1 square metre Shanghai two-bedroom apartment. Concept: 石庭隐居, an ORIGINAL residence guided by quiet geometric discipline, refined ryokan-inspired craft and framed nature; not a depiction, replica, product claim or branded image of any hotel.\nINPUT ROLE: Image 1 is the EDIT TARGET and absolute GEOMETRY/CAMERA reference. Preserve its exact living/dining room footprint, camera position, perspective, lens field of view, ceiling height and rectangular tray/beam geometry, all wall extents, all openings, left glass partition and structural pier, rear right doorway, TV on left, sofa on right, dining at rear. Keep the combined living/dining area plausible at 21.4 sqm; do not expand. Transform finishes, furnishing design and light quality only.\nDESIGN: Make a new coherent restrained luxury interior. Warm ivory mineral-plaster walls contrasted with long horizontal smoked-oak wall panels and a few precise charcoal timber screen lines. Grey-greige honed limestone floor with subtle real stone grain, matte not glossy marble. Keep original ceiling form but replace fixtures with a quiet low-profile warm diffused washi-like flush lantern and one small dining pendant. 3000 K illumination, balanced with directional late-afternoon light from the same left direction; believable contact shadows, calm brighter natural exposure, detailed surfaces.\nRight sofa: slim low premium design, warm taupe nubuck or fine smooth linen upholstery, thin dark timber base, restrained cushions, lightly warm tan leather accent. Absolutely no blue, no chunky bulbous sofa. Centre coffee table: slender low dark smoked-oak rounded rectangular table, rich fine grain and expertly softened edges. Large ivory finely hand-knotted wool/silk rug, smooth short pile with delicate variation, NO coarse jute, sisal, shag or heavy chunky texture. Left TV console: slim long low dark-oak piece with small balanced stone/ceramic objects. Dining furniture in rear: compact slim smoked-oak rectangular table with gently rounded edges, four fine tan-leather chairs, slim sideboard at rear right. Retain the narrow bookshelf beside the left pier, change to fine smoked-oak craft. The rear dining wall should have one quiet vertically oriented ink/stone-tone art panel on warm mineral plaster above a dark horizontal timber band; only this one art panel in living/dining. The wall behind sofa should be softly textured mineral plaster with restrained dark horizontal joinery, no extra artwork. One carefully arranged branch in an artisan vase, sparse books and a shallow stone bowl. Rich tactile handcraft, furnished and comfortable, no generic all-beige wash.\nINVARIANTS: identical camera and layout, keep existing structural beam and window/partition wall, keep the enclosed urban Shanghai apartment setting. Do not open a kitchen wall, add openings, invent a courtyard, forest, mountains, villa, extra space or extra furniture zones.\nOUTPUT: one clean complete image only, native landscape 3:2 framing, original photographic texture and fine detail, realistic reflections and shadows. No collage, before-after, graphic layout, text, labels, logo, watermark, human figures or artificial upscaling.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+          "role": "edit target; absolute geometry and camera"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5b7f8927-beb9-4541-8abc-f7651c7e7e08.png",
+      "visual_review": "Camera, structural pier, left glass partition, rear dining location, doorway, ceiling tray and beams preserved. Sofa remains right, TV left. Fine soft ivory rug reads somewhat more visibly textured than requested; low rounded timber table retains a relatively solid block form.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "0032a49de9cdb4d5c8637ea3bed05361d1ef4e2d7fb465827a107e40ccec02a9"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "dining",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: Dining area, part of combined 21.4 sqm living/dining. Lock Image 1 camera and framing: structural pier and opening on far left, narrow bookshelf just right of pier, dining table centred, sideboard to right, entry door at far right, intercom/switches and existing tray ceiling and beams remain exactly placed. Match the dining zone visible at rear of Image 2 with the SAME design: fine smoked-oak lower wall panel with a dark horizontal cap at approximately table height, warm mineral-plaster wall above; one quiet vertical ink/stone artwork left of centre, slim smoked-oak table with soft rounded corners and four fine tan leather upholstered timber chairs, slim dark-oak right sideboard, narrow crafted bookshelf. One softly glowing small oval washi-like pendant above table, low bronze table lamp on sideboard, grey-greige honed limestone floor continuous from living. A restrained branch in a dark handmade vase on table and shallow ceramic bowl. Keep living-reference material colors and craft; no additional artwork, no large new decorative element. Preserve all furniture placement from Image 1 and make a convincing closer view of the exact Image 2 dining area.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/dining.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/dining.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-a9fa6edc-e09d-482f-b4aa-5fbff4da317a.png",
+      "visual_review": "Camera and ceiling/beam geometry preserved; table, shelf, sideboard, door and controls retain locations. Material design matches living anchor; tiny artwork/branch variation only.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "4d37066a239e0496330bd0c53dac87a8fff6947a86798bf9e7dbe26e43486d24"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "balcony",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 5 sqm ENCLOSED balcony. Preserve Image 1 fully: view from living through sliding glass door with dark frame/track, exact outer glazing including mullions and safety rail, original ceiling/beam, city buildings and urban trees beyond, compact depth, bench below window and side table at left, potted tree at right, curtains either side. Keep every window wall and glass surface intact; this remains indoors. Restyle bench as refined slender low smoked-oak structure with fine warm taupe linen cushion and ivory back cushion. One small round charcoal timber/stone side table, restrained stoneware tea setting. Grey-greige honed limestone floor matching Image 2, warm mineral plaster, restrained smoked-oak vertical panel on right, narrow understated diffused warm sconce and fine ivory linen sheers. Small sculptural leafy tree in a crafted grey stone pot. Keep Shanghai city view; NO forest, garden, courtyard, new outdoor terrace, oversized spa, or opening/removing enclosure.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/balcony.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/balcony.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-8b3e904b-2417-45b7-ba22-5462f1d2a66c.png",
+      "visual_review": "Enclosed glazing, mullions, rails, track, compact depth and urban skyline retained. Tea objects rearranged, bench finish and cushion palette refined.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "91cee829fa67e972df3107e047b1ec4fc7663ddd8cb60c8224d11e093deb240f"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "master",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 13.5 sqm master bedroom. Keep Image 1 footprint, bed footprint/orientation, camera from doorway, left foreground wardrobe/door edge, high left air conditioner, left dresser, exact corner bay window across rear-left, separate tall window on right, all frames and sills, wall lengths and ceiling height. Keep recognizable Shanghai urban buildings outside. Replace with a thin low finely crafted smoked-oak platform bed in same position, restrained dark timber horizontal headboard with fine warm taupe upholstered inset, immaculate but naturally relaxed ivory linen bedding and a fine charcoal/taupe woven throw with no chunky fringe. Refined narrow timber bedside units in original locations; soft diffused washi-like bedside and ceiling light, no glare. Warm mineral-plaster walls, one quiet restrained stone-tone ink art panel over bed, fine warm ashwood flooring and ivory fine hand-knotted low-pile rug, not jute. Fine taupe blackout curtains plus ivory sheers retain the same window framing. Small artisan ceramics/branch, calm tactile luxury and realistic compact circulation clearances; never enlarge room or remove wardrobe/air conditioner/windows.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/master.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-90d11ecc-001c-43b8-a3e1-550e69f0f7b6.png",
+      "visual_review": "Bed footprint/orientation, corner bay window, right window, wardrobe and air conditioner retained. Art panel and bedside light designs changed; no apparent footprint enlargement.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "32f2eaa0251e246bc03fd9b949c21708f406fa29cc58ae7f09bdd1bbdcac7a06"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "second",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 7.2 sqm second bedroom/study. Strictly preserve Image 1 very compact dimensions, doorway camera with foreground door edges, one rear window with the same mullions/sill and Shanghai high-rise view, desk under the window, single daybed along right wall, narrow centre aisle, upper storage and display shelf above right daybed. No desk relocation, no bed widening or added doors. Restyle with thin finely crafted smoked-oak/ashwood desk and a small warm taupe linen desk chair, understated dark slim task light, refined timber daybed with flush storage drawers and ivory fine linen mattress/cover plus one warm tan leather cushion. Warm mineral plaster walls, upper cabinets in fine ashwood with precise charcoal horizontal trim, subtle warm under-shelf light, fine ivory sheers, warm ash floor, small ivory fine short-pile hand-knotted wool rug (not coarse jute). Restrained books and one small dark ceramic branch vase. Keep sufficient actual narrow aisle; fit belongings to room rather than expanding architecture.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/second.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/second.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-1945ecf1-9d0f-4a14-90a4-0cf28a9475a5.png",
+      "visual_review": "Compact central aisle, window, desk, right daybed and upper storage positions preserved. Desk lamp and cushions changed. Ivory wool rug has visible texture.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "0ab3e1c1bf91e7ca74c3160aec31020378e19e548ee5744b43a04baa5ebc655b"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "kitchen",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 6.6 sqm SEPARATE compact U-shaped kitchen. Lock Image 1 doorway camera and all geometry: unchanged enclosing sidewalls/door jambs, three legs of U-shaped cabinets, sink directly beneath rear two-panel window, tall oven unit at left, gas cooktop at right with hood directly above, exact upper-cabinet volumes, countertop heights and narrow central floor area. Retain original Shanghai city view through rear window and original structural lintel. No open-plan conversion, island or expansion. Cabinet fronts in exquisitely fine medium warm-grey ashwood with understated smoked-oak dark plinth/handle lines, no orange walnut. Countertop and backsplash in warm grey honed stone with very restrained natural variation, floor in coordinating greige limestone. Keep warm off-white upper cabinets where target has them with fine ash accent; quiet warm under-cabinet lighting and balanced daylight. Brushed dark-bronze/satin nickel tap, clean functional sink, unobtrusive small crock and one cutting board. Refinement and believable daily use, no living-room objects, no rug, no decorative art over worktops. All functional appliance and plumbing locations exactly retained.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/kitchen.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/kitchen.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-64acd935-569f-4774-85c4-e4907625d2da.png",
+      "visual_review": "Separate U-shaped enclosure, window, sink, oven, cooktop and hood positions retained. Cabinet finish changed to grey warm ashwood. Stone has somewhat stronger visible pattern and sheen than the requested quiet honed limestone.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "fec7f94b76e46d8e57f05d62371beb9a4f159e1b6f6c655547814aef1cf1f458"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "bath",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 4.3 sqm bathroom. Strict fixture-location and proportional lock to Image 1: glass shower enclosure along left with showerhead/handset on left wall; same glass doors/hinges/handle and floor drain; centred vanity and sink on rear wall; same rounded rectangular mirror above sink; same tall narrow obscured window immediately to mirror's right with same frame/sill; toilet in right foreground at identical angle/size, switches/towel rail/toilet paper holder stay in place. Preserve same cramped realistic distance and exact camera, no widening and no moving toilet/vanity/shower. Restyle walls and floor in finely honed grey-greige natural limestone, subtly distinct from the warm mineral plaster elsewhere; rich authentic fine stone texture with low-gloss finish, not generic beige shiny marble. Wall-hung vanity with refined smoked-oak fronts and horizontal dark grain, warm grey stone countertop, quiet low-profile basin. Restrained dark bronze hardware; soft warm mirror edge light and subtle under-vanity light balanced with window daylight. Small folded ivory fine towels, dark soap dispenser, single small branch. Bathroom must remain functional realistic and the exact same architecture; no bathtub, hotel spa, forest, extra window or faux large stone walls.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/bath.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-db5ff121-76bb-4b86-b7e8-cc64df55d3fd.png",
+      "visual_review": "Shower, glass enclosure, drain, mirror, vanity, window and toilet positions and proportions retained; natural stone texture and dark timber vanity updated. No apparent fixture move or added volume.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "51e5174c44aa6aff2621a5fbcf6def9335ce65492efd44a82c20c9107026dfe6"
+    },
+    {
+      "concept": "石庭隐居",
+      "room": "utility",
+      "mode": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Asset type: full-frame photorealistic interior visualization.\nINPUT ROLES: Image 1 is the EDIT TARGET and absolute authority for geometry, footprint, camera position, perspective, lens framing, ceiling, all doors/windows/walls, proportions and functional placement. Image 2 is the completed living room and is a STYLE-ONLY reference: borrow materials, quiet craftsmanship, warm light, charcoal-smoked timber contrast, refined taupe/ivory/tan palette. NEVER copy Image 2's room, viewpoint or furniture layout.\nProject: 石庭隐居, an original calm luxurious full-home concept for a compact 75.1 sqm Shanghai two-bedroom apartment. Inspiration is quiet geometric discipline, ryokan-informed craft and framing nature, not any hotel replica. Preserve compact scale and urban Shanghai views. No Japanese forest, courtyard, mountains, outdoor villa, expanded floor area, newly added openings or demolished structural walls/beam. Warm mineral plaster, dark smoked-oak or fine ashwood, grey-greige honed natural stone, fine ivory linen/wool, warm tan leather accents where appropriate, minimal deep charcoal joinery lines. Rich detailed tactile handcraft, comfortable and furnished; no generic all-beige scene. Was hi-like diffused warm light at 3000K, physically believable daylight from the SAME direction as target, nuanced stone/wood/fabric microtexture, coherent shadows and reflections. No blue sofa or coarse jute, sisal or chunky shag rug.\nOUTPUT: ONE clean entire photograph, native landscape 3:2, exact target framing and room scale, editorial interior photography with real texture. No text, logos, branding, watermark, collage, UI, border, people or artificial upscaling. Change finishes and furniture design only; keep all target architecture and openings.\n\nROOM: 2.5 sqm ENCLOSED utility/laundry balcony. Preserve exact Image 1 narrow corridor camera, full left exterior window wall with identical frames, glazing, safety-rail level and Shanghai high-rises, rear stacked dryer above washer, adjacent narrow tall cleaning-tool bay, right counter with upper cabinet, walls/ceiling/beam and all access clearances. Keep rear machines full-size at original position, front doors exposed and reachable, no blocking their swing. Redesign joinery in refined warm-grey ashwood with smoked-oak horizontal accents and practical visible slim ventilation slots above the machine opening and at plinth; generous machine clearances, service access and accessible cleaning-tool bay. Original right counter stays slim with a warm grey honed stone surface; upper cupboard fine ash. Fine greige limestone floor; warm mineral-plaster wherever wall is visible, understated warm task lighting. A neat soft laundry hamper under counter and folded ivory towels, one modest plant, no coarse jute rug. Keep clean service function without making laundry a living room, expanding balcony, removing glass or hiding machines behind inaccessible panels.",
+      "input_images": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/utility.jpg",
+          "role": "edit target; absolute geometry, camera and functional placement"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/living.png",
+          "role": "style only; do not copy room geometry"
+        }
+      ],
+      "output_path": "/workspace/scratch/aa0f93406d63/v11-assets/stone/utility.png",
+      "generated_source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-62f3692b-c617-4db1-af19-ce28d6380161.png",
+      "visual_review": "Narrow enclosed balcony, window wall, rear stack and tool bay, right counter/cupboards retained. Vent slots added above and below stack; full front service access remains. Ashwood and stone updated.",
+      "width": 1536,
+      "height": 1024,
+      "image_mode": "RGB",
+      "sha256": "5daef2d5221217f88f0a493847e11116af26c9902f7b5638adaf4ea63dfcc198"
+    }
+  ]
+}

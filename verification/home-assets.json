@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "fullResolutionImages": 16,
+  "nativeDimensions": [
+    1536,
+    1024
+  ],
+  "thumbnailDimensions": [
+    360,
+    240
+  ],
+  "oldModelAndRecordsCollapsed": true,
+  "brokenStaticLinks": [],
+  "browserVisualTest": false
+}

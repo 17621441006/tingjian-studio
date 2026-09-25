@@ -1,0 +1,6 @@
+{
+  "room": "kitchen",
+  "input_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-047c33d1-b879-4619-b697-a429b0847de1.png",
+  "final_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-f092181e-82e6-42c7-9231-0882c83cc5b8.png",
+  "prompt": "Use case: precise-object-edit. This is the final kitchen render for a compact 6.6sqm Shanghai apartment. Make one precise architectural correction: the countertop must be an unambiguous L, on the back/window wall and right cooking wall ONLY. Remove the short projecting worktop/white stone countertop along the LEFT wall; replace that entire left appliance zone by a flush full-height matte dark olive cabinet/appliance tower, with built-in black oven at eye level. The left vertical cabinet front reaches the floor without any horizontal stone counter or work surface. This exposes a little more clear floor, keeping compact and practical circulation. Keep every other thing unchanged: the exact camera, window position and Shanghai view, two back/right counter runs, sink, copper faucet, hob, ivory upper cabinets, deep olive lower cabinetry, slate backsplash, copper trim, green/copper/ivory palette, lighting, all natural material microtexture and room proportions. No island, no people, no text/logo/UI. Single full-bleed native 1536x1024 landscape image."
+}

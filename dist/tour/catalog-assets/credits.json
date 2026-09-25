@@ -1,0 +1,679 @@
+{
+  "source": "Poly Haven",
+  "license_url": "https://polyhaven.com/license",
+  "assets": [
+    {
+      "id": "sofa_03",
+      "name": "Sofa 03",
+      "kind": "models",
+      "source_page": "https://polyhaven.com/a/sofa_03",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Fran Calvente": "All"
+      },
+      "dimensions_api_mm": [
+        2731.17733001709,
+        925.0842034816742,
+        1118.2640366605483
+      ],
+      "polycount_api": 8004,
+      "resolution": "2k",
+      "files": [
+        {
+          "path": "models/sofa_03/sofa_03_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/sofa_03/sofa_03_2k.gltf",
+          "bytes": 4496,
+          "md5": "3ce32db5455f07e9cd0cbf42c253f2dc",
+          "source_verified_md5": "67cc1d6881cebae11fca743195dfdf93",
+          "source_bytes": 4465,
+          "sha256": "1ab9e8ebb3cb67878f89fa0744b8b2737c63b09aa284c7efb7eac548a63043df"
+        },
+        {
+          "path": "models/sofa_03/textures/sofa_03_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_rough_2k.jpg",
+          "bytes": 613551,
+          "md5": "258efb972b9f20676a4cad3405f44ae6",
+          "source_verified_md5": "258efb972b9f20676a4cad3405f44ae6",
+          "sha256": "b358e40506dc1cfd55911eba718195c4a8ea10c12b8ddc9d5aecb12bd7e71524"
+        },
+        {
+          "path": "models/sofa_03/textures/sofa_03_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_nor_gl_2k.jpg",
+          "bytes": 319647,
+          "md5": "36144a51ab530b063d2f5f5e3c8dd0c2",
+          "source_verified_md5": "36144a51ab530b063d2f5f5e3c8dd0c2",
+          "sha256": "24ea0b754eef8ea7af5e8bb1939df1c395b0d60b387f39b2bd6194bed3f89062"
+        },
+        {
+          "path": "models/sofa_03/sofa_03.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/sofa_03/sofa_03.bin",
+          "bytes": 228984,
+          "md5": "aeebfb9aed3b40300b0fb73f0e27830e",
+          "source_verified_md5": "aeebfb9aed3b40300b0fb73f0e27830e",
+          "sha256": "e524350933d3d2a84c28f13bc042888a4768adeef88d630111015caede1c2e98"
+        },
+        {
+          "path": "models/sofa_03/textures/sofa_03_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_03/sofa_03_diff_2k.jpg",
+          "bytes": 563414,
+          "md5": "38aeca485a17eb8345a2e6a623d0294c",
+          "source_verified_md5": "38aeca485a17eb8345a2e6a623d0294c",
+          "sha256": "1e334e40065b5591b35351124ad5ba74a32337581aa4c0af49fe935ef4648fef"
+        },
+        {
+          "path": "models/sofa_03/textures/sofa_03_fringe_rgba_2k.png",
+          "bytes": 4030605,
+          "derived_from": [
+            "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sofa_03/sofa_03_opacity_2k.png",
+            "models/sofa_03/textures/sofa_03_diff_2k.jpg"
+          ],
+          "md5": "b590debb56dd5120c040f118de584cf6",
+          "sha256": "342f0e3671dc572dd8fa6a9797461aa59272ca0bfd5f96c535fba88201734e4c"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/sofa_03.png?width=256&height=256&v=8e75f00a",
+      "entrypoint": "models/sofa_03/sofa_03_2k.gltf",
+      "processing": [
+        "Rebuilt fringe RGBA image from original 2K diffuse plus official 2K opacity PNG; fixed fringe material to alpha MASK (cutoff 0.5) for stable browser rendering. Original glTF is archived in _metadata."
+      ],
+      "preview": "previews/sofa_03.jpg",
+      "preview_provenance": "Own EGL/Pyrender render of the downloaded CC0 glTF; reusable.",
+      "gltf_bounds_m": [
+        [
+          -1.365588665008545,
+          0.0006283945986069739,
+          -0.46388354897499084
+        ],
+        [
+          1.365588665008545,
+          1.1188924312591553,
+          0.46120065450668335
+        ]
+      ],
+      "gltf_dimensions_xyz_m": [
+        2.73117733001709,
+        1.1182640366605483,
+        0.9250842034816742
+      ],
+      "dimensions_width_depth_height_m": [
+        2.73117733001709,
+        0.9250842034816742,
+        1.1182640366605483
+      ],
+      "suggested_floor_center_offset_m": [
+        -0.0,
+        -0.0006283945986069739,
+        0.0013414472341537476
+      ],
+      "orientation": {
+        "units": "meters",
+        "up": "+Y",
+        "front": "+Z",
+        "width_axis": "X",
+        "depth_axis": "Z"
+      },
+      "mesh": {
+        "mesh_count": 1,
+        "primitive_count": 2,
+        "materials": [
+          "sofa_03",
+          "sofa_03_fringe"
+        ],
+        "triangles": 8004,
+        "vertices_with_uv_seams": 5655,
+        "normals": true,
+        "uv0": true,
+        "tangents_in_file": false,
+        "uv0_ranges_per_primitive": [
+          {
+            "min": [
+              0.0035428106784820557,
+              0.00360715389251709
+            ],
+            "max": [
+              0.9986093640327454,
+              0.9959436655044556
+            ]
+          },
+          {
+            "min": [
+              0.7139095664024353,
+              0.4636932611465454
+            ],
+            "max": [
+              0.7758457660675049,
+              0.6659820675849915
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sofa_02",
+      "name": "Sofa 02",
+      "kind": "models",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Kirill Sannikov": "All"
+      },
+      "dimensions_api_mm": [
+        1807.1673512458801,
+        817.7513778209686,
+        709.4888985157013
+      ],
+      "polycount_api": 2728,
+      "resolution": "2k",
+      "files": [
+        {
+          "path": "models/sofa_02/sofa_02_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/sofa_02/sofa_02_2k.gltf",
+          "bytes": 4183,
+          "md5": "d58bdde4cb00612fc070bc3e7caba265",
+          "source_verified_md5": "d58bdde4cb00612fc070bc3e7caba265",
+          "sha256": "bd117710418921ece26af1ecb0b64d66b56ab7f96ff500f96044c11029c962ac"
+        },
+        {
+          "path": "models/sofa_02/textures/sofa_02_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_arm_2k.jpg",
+          "bytes": 401876,
+          "md5": "4cdaf48033316b61832d220f1dcc48ef",
+          "source_verified_md5": "4cdaf48033316b61832d220f1dcc48ef",
+          "sha256": "1e6bb97f6c0d2a1b81b9aa3c67c26b65bc02aeed88b19373726f117c16f89980"
+        },
+        {
+          "path": "models/sofa_02/textures/sofa_02_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_nor_gl_2k.jpg",
+          "bytes": 463146,
+          "md5": "d22e982ab8dac6a54ab06839efb0bafa",
+          "source_verified_md5": "d22e982ab8dac6a54ab06839efb0bafa",
+          "sha256": "7e53cd96fdb33b960a0447c619e028aa833fc9c6bee2838346ab5c752ac95c68"
+        },
+        {
+          "path": "models/sofa_02/textures/sofa_02_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_diff_2k.jpg",
+          "bytes": 323319,
+          "md5": "37808357cc7d00fd62bda197cf89e6ae",
+          "source_verified_md5": "37808357cc7d00fd62bda197cf89e6ae",
+          "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135"
+        },
+        {
+          "path": "models/sofa_02/sofa_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sofa_02/sofa_02.bin",
+          "bytes": 74864,
+          "md5": "024d6f57a7c2ee7915430cd6e1c2651e",
+          "source_verified_md5": "024d6f57a7c2ee7915430cd6e1c2651e",
+          "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/sofa_02.png?width=256&height=256&v=5c7e6c29",
+      "entrypoint": "models/sofa_02/sofa_02_2k.gltf",
+      "preview": "previews/sofa_02.jpg",
+      "preview_provenance": "Own EGL/Pyrender render of the downloaded CC0 glTF; reusable.",
+      "gltf_bounds_m": [
+        [
+          -0.903316353505943,
+          0.00020572543144226074,
+          -0.4776984825730324
+        ],
+        [
+          0.9038509977399372,
+          0.7096946537494659,
+          0.34005289524793625
+        ]
+      ],
+      "gltf_dimensions_xyz_m": [
+        1.8071673512458801,
+        0.7094889283180237,
+        0.8177513778209686
+      ],
+      "dimensions_width_depth_height_m": [
+        1.8071673512458801,
+        0.8177513778209686,
+        0.7094889283180237
+      ],
+      "suggested_floor_center_offset_m": [
+        -0.00026732211699709296,
+        -0.00020572543144226074,
+        0.06882279366254807
+      ],
+      "orientation": {
+        "units": "meters",
+        "up": "+Y",
+        "front": "+Z",
+        "width_axis": "X",
+        "depth_axis": "Z"
+      },
+      "mesh": {
+        "mesh_count": 2,
+        "primitive_count": 2,
+        "materials": [
+          "sofa_02"
+        ],
+        "triangles": 2728,
+        "vertices_with_uv_seams": 1828,
+        "normals": true,
+        "uv0": true,
+        "tangents_in_file": false,
+        "uv0_ranges_per_primitive": [
+          {
+            "min": [
+              0.0010648217285051942,
+              0.0069620609283447266
+            ],
+            "max": [
+              0.9964340925216675,
+              0.9989351630210876
+            ]
+          },
+          {
+            "min": [
+              0.27956336736679077,
+              0.25465911626815796
+            ],
+            "max": [
+              0.6389132738113403,
+              0.995690107345581
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "coffee_table_round_01",
+      "name": "Coffee Table Round 01",
+      "kind": "models",
+      "source_page": "https://polyhaven.com/a/coffee_table_round_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "dimensions_api_mm": [
+        1301.3009428977966,
+        1301.3015985488892,
+        491.0094439983368
+      ],
+      "polycount_api": 4044,
+      "resolution": "2k",
+      "files": [
+        {
+          "path": "models/coffee_table_round_01/coffee_table_round_01_2k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/coffee_table_round_01/coffee_table_round_01_2k.gltf",
+          "bytes": 2776,
+          "md5": "c43a27b6ef35688f047de334ea8f4736",
+          "source_verified_md5": "c43a27b6ef35688f047de334ea8f4736",
+          "sha256": "6b9dbd17317c9289ab8e008b05abd146dbe0831c975871732def694de4ad407d"
+        },
+        {
+          "path": "models/coffee_table_round_01/textures/coffee_table_round_01_arm_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_arm_2k.jpg",
+          "bytes": 2631627,
+          "md5": "4a5c3d6f8f923345d108b00a5fa7580d",
+          "source_verified_md5": "4a5c3d6f8f923345d108b00a5fa7580d",
+          "sha256": "fa00d2026a24f65cd825f565e010d498206d68ede792fcc5f058f20a3d94aa88"
+        },
+        {
+          "path": "models/coffee_table_round_01/textures/coffee_table_round_01_nor_gl_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_nor_gl_2k.jpg",
+          "bytes": 1177563,
+          "md5": "84c6dcbe5e442b1f629541e94a15a241",
+          "source_verified_md5": "84c6dcbe5e442b1f629541e94a15a241",
+          "sha256": "b8e4f0780ee2008e33a3049656fcf3168d1036ad8d5cf368e925374123a5c553"
+        },
+        {
+          "path": "models/coffee_table_round_01/coffee_table_round_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/coffee_table_round_01/coffee_table_round_01.bin",
+          "bytes": 131112,
+          "md5": "a664b067fa0ae9b6e0a8fa5878986816",
+          "source_verified_md5": "a664b067fa0ae9b6e0a8fa5878986816",
+          "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+        },
+        {
+          "path": "models/coffee_table_round_01/textures/coffee_table_round_01_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/coffee_table_round_01/coffee_table_round_01_diff_2k.jpg",
+          "bytes": 1721075,
+          "md5": "d4333b0c534f7bce97dead1bd9667efd",
+          "source_verified_md5": "d4333b0c534f7bce97dead1bd9667efd",
+          "sha256": "d63b809f381622925f852f6d1b0f712428cbe75837298073ad0424069d60870d"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/coffee_table_round_01.png?width=256&height=256&v=637507a6",
+      "entrypoint": "models/coffee_table_round_01/coffee_table_round_01_2k.gltf",
+      "preview": "previews/coffee_table_round_01.jpg",
+      "preview_provenance": "Own EGL/Pyrender render of the downloaded CC0 glTF; reusable.",
+      "gltf_bounds_m": [
+        [
+          -0.6506505608558655,
+          -0.0013774335384368896,
+          -0.6506507992744446
+        ],
+        [
+          0.6506503820419312,
+          0.4896320104598999,
+          0.6506507992744446
+        ]
+      ],
+      "gltf_dimensions_xyz_m": [
+        1.3013009428977966,
+        0.4910094439983368,
+        1.3013015985488892
+      ],
+      "dimensions_width_depth_height_m": [
+        1.3013009428977966,
+        1.3013015985488892,
+        0.4910094439983368
+      ],
+      "suggested_floor_center_offset_m": [
+        8.940696716308594e-08,
+        0.0013774335384368896,
+        -0.0
+      ],
+      "orientation": {
+        "units": "meters",
+        "up": "+Y",
+        "front": "+Z",
+        "width_axis": "X",
+        "depth_axis": "Z"
+      },
+      "mesh": {
+        "mesh_count": 1,
+        "primitive_count": 1,
+        "materials": [
+          "coffee_table_round_01"
+        ],
+        "triangles": 4044,
+        "vertices_with_uv_seams": 3339,
+        "normals": true,
+        "uv0": true,
+        "tangents_in_file": false,
+        "uv0_ranges_per_primitive": [
+          {
+            "min": [
+              0.0026720708701759577,
+              0.004662930965423584
+            ],
+            "max": [
+              0.9973027110099792,
+              0.9973291754722595
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "curly_teddy_natural",
+      "name": "Curly Teddy Natural",
+      "kind": "materials",
+      "source_page": "https://polyhaven.com/a/curly_teddy_natural",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "dimensions_api_mm": [
+        335.804452696631,
+        330.90004324913025
+      ],
+      "polycount_api": null,
+      "resolution": "1k",
+      "files": [
+        {
+          "path": "materials/curly_teddy_natural/curly_teddy_natural_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/curly_teddy_natural/curly_teddy_natural_diff_1k.jpg",
+          "bytes": 673494,
+          "md5": "82060ba3b45dfdbfab202b616a251b94",
+          "source_verified_md5": "82060ba3b45dfdbfab202b616a251b94",
+          "sha256": "3e524df3f6b35bfd87b71ed6a1e2d0c96797e55ec4c1a5b2f7c4332b635a1d79"
+        },
+        {
+          "path": "materials/curly_teddy_natural/curly_teddy_natural_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/curly_teddy_natural/curly_teddy_natural_nor_gl_1k.jpg",
+          "bytes": 576152,
+          "md5": "6496bc0ee48ee2ec2cac68ef82c9fe67",
+          "source_verified_md5": "6496bc0ee48ee2ec2cac68ef82c9fe67",
+          "sha256": "a6cea84bddf31c9d4643a25a09c3ec8fa8884e3c3e2d8ac291623e3f702159b8"
+        },
+        {
+          "path": "materials/curly_teddy_natural/curly_teddy_natural_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/curly_teddy_natural/curly_teddy_natural_arm_1k.jpg",
+          "bytes": 1027248,
+          "md5": "89c4cbe6765fbc5ad164988616eab233",
+          "source_verified_md5": "89c4cbe6765fbc5ad164988616eab233",
+          "sha256": "22dbdda2552ad143d93e34d83b38034fe5d48f7a20df1b2ac35802d61feedbb3"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/curly_teddy_natural.png?width=256&height=256&v=27046ae9",
+      "image_dimensions_px": [
+        1024,
+        1009
+      ],
+      "preview": "previews/curly_teddy_natural.jpg",
+      "preview_provenance": "Own swatch resized from the CC0 diffuse map; reusable.",
+      "texture_tile_size_m": [
+        0.335804452696631,
+        0.33090004324913025
+      ],
+      "maps": {
+        "baseColor": "materials/curly_teddy_natural/curly_teddy_natural_diff_1k.jpg",
+        "normalOpenGL": "materials/curly_teddy_natural/curly_teddy_natural_nor_gl_1k.jpg",
+        "arm": "materials/curly_teddy_natural/curly_teddy_natural_arm_1k.jpg"
+      },
+      "map_channels": {
+        "baseColor": "RGB sRGB",
+        "normalOpenGL": "RGB linear; +Y green",
+        "arm": "R=ambient occlusion, G=roughness, B=metalness; linear"
+      }
+    },
+    {
+      "id": "poly_wool_herringbone",
+      "name": "Poly Wool Herringbone",
+      "kind": "materials",
+      "source_page": "https://polyhaven.com/a/poly_wool_herringbone",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "dimensions_api_mm": [
+        270.0788548673393,
+        275.70000290870667
+      ],
+      "polycount_api": null,
+      "resolution": "1k",
+      "files": [
+        {
+          "path": "materials/poly_wool_herringbone/poly_wool_herringbone_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/poly_wool_herringbone/poly_wool_herringbone_diff_1k.jpg",
+          "bytes": 942966,
+          "md5": "5c0981092ba0129d5951720ea23d50c2",
+          "source_verified_md5": "5c0981092ba0129d5951720ea23d50c2",
+          "sha256": "fd889a46f617efd331e522e36b8ad2548e16e1cb018c001872f17537d7666af5"
+        },
+        {
+          "path": "materials/poly_wool_herringbone/poly_wool_herringbone_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/poly_wool_herringbone/poly_wool_herringbone_nor_gl_1k.jpg",
+          "bytes": 1045151,
+          "md5": "a6371d03b033a1c20e1c2758136ac757",
+          "source_verified_md5": "a6371d03b033a1c20e1c2758136ac757",
+          "sha256": "314ac7c1b7c101a48106e05199bfdb24e33671e58a6ccb334249b441d8e8ac98"
+        },
+        {
+          "path": "materials/poly_wool_herringbone/poly_wool_herringbone_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/poly_wool_herringbone/poly_wool_herringbone_arm_1k.jpg",
+          "bytes": 1223522,
+          "md5": "30cb990f0569e90c5e7e7ef81f0e3b6f",
+          "source_verified_md5": "30cb990f0569e90c5e7e7ef81f0e3b6f",
+          "sha256": "f565985fe68d42b6638080c52628f13312b178001d758ef89fe76adb773fb227"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/poly_wool_herringbone.png?width=256&height=256&v=21be4e99",
+      "image_dimensions_px": [
+        1024,
+        1045
+      ],
+      "preview": "previews/poly_wool_herringbone.jpg",
+      "preview_provenance": "Own swatch resized from the CC0 diffuse map; reusable.",
+      "texture_tile_size_m": [
+        0.2700788548673393,
+        0.27570000290870667
+      ],
+      "maps": {
+        "baseColor": "materials/poly_wool_herringbone/poly_wool_herringbone_diff_1k.jpg",
+        "normalOpenGL": "materials/poly_wool_herringbone/poly_wool_herringbone_nor_gl_1k.jpg",
+        "arm": "materials/poly_wool_herringbone/poly_wool_herringbone_arm_1k.jpg"
+      },
+      "map_channels": {
+        "baseColor": "RGB sRGB",
+        "normalOpenGL": "RGB linear; +Y green",
+        "arm": "R=ambient occlusion, G=roughness, B=metalness; linear"
+      }
+    },
+    {
+      "id": "wooden_floor_02",
+      "name": "Wooden Floor 02",
+      "kind": "materials",
+      "source_page": "https://polyhaven.com/a/wooden_floor_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Charlotte Baglioni": "Scanning",
+        "Rico Cilliers": "Processing"
+      },
+      "dimensions_api_mm": [
+        1942.000150680542,
+        1942.000150680542
+      ],
+      "polycount_api": null,
+      "resolution": "1k",
+      "files": [
+        {
+          "path": "materials/wooden_floor_02/wooden_floor_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_floor_02/wooden_floor_02_diff_1k.jpg",
+          "bytes": 729028,
+          "md5": "7395f558aa2e2e898bb26fdc8bd5468b",
+          "source_verified_md5": "7395f558aa2e2e898bb26fdc8bd5468b",
+          "sha256": "82e56941b7554ad8069d3e5fffa149165b01f52bafa2f631f1618a6cf166fd88"
+        },
+        {
+          "path": "materials/wooden_floor_02/wooden_floor_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_floor_02/wooden_floor_02_nor_gl_1k.jpg",
+          "bytes": 434460,
+          "md5": "ce5dd5957548694d8aecc92ee16f34bf",
+          "source_verified_md5": "ce5dd5957548694d8aecc92ee16f34bf",
+          "sha256": "4ed9a5ddf84c7362642f1d866d838c746621448c421a9a85f58b4debc14e8ba1"
+        },
+        {
+          "path": "materials/wooden_floor_02/wooden_floor_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wooden_floor_02/wooden_floor_02_arm_1k.jpg",
+          "bytes": 575240,
+          "md5": "10e0183ee8a1c155307661da9b80e419",
+          "source_verified_md5": "10e0183ee8a1c155307661da9b80e419",
+          "sha256": "b4c5a76661c6d453a4f6daab153f8315f5fef2e6c51da5e4cc8b8649e1e46bb0"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/wooden_floor_02.png?width=256&height=256&v=fd40223d",
+      "image_dimensions_px": [
+        1024,
+        1024
+      ],
+      "preview": "previews/wooden_floor_02.jpg",
+      "preview_provenance": "Own swatch resized from the CC0 diffuse map; reusable.",
+      "texture_tile_size_m": [
+        1.942000150680542,
+        1.942000150680542
+      ],
+      "maps": {
+        "baseColor": "materials/wooden_floor_02/wooden_floor_02_diff_1k.jpg",
+        "normalOpenGL": "materials/wooden_floor_02/wooden_floor_02_nor_gl_1k.jpg",
+        "arm": "materials/wooden_floor_02/wooden_floor_02_arm_1k.jpg"
+      },
+      "map_channels": {
+        "baseColor": "RGB sRGB",
+        "normalOpenGL": "RGB linear; +Y green",
+        "arm": "R=ambient occlusion, G=roughness, B=metalness; linear"
+      }
+    },
+    {
+      "id": "marble_01",
+      "name": "Marble 01",
+      "kind": "materials",
+      "source_page": "https://polyhaven.com/a/marble_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions_api_mm": [
+        1500,
+        1500
+      ],
+      "polycount_api": null,
+      "resolution": "1k",
+      "files": [
+        {
+          "path": "materials/marble_01/marble_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_diff_1k.jpg",
+          "bytes": 305029,
+          "md5": "04325ced5018eb8a2e598a4ef69cb176",
+          "source_verified_md5": "04325ced5018eb8a2e598a4ef69cb176",
+          "sha256": "b10dabea976d68baa976a0d4e8dac58789df8d26a1b50697f320106f1b00a229"
+        },
+        {
+          "path": "materials/marble_01/marble_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_nor_gl_1k.jpg",
+          "bytes": 110230,
+          "md5": "fa073d722cde733c1bd6cc6e8897c8e3",
+          "source_verified_md5": "fa073d722cde733c1bd6cc6e8897c8e3",
+          "sha256": "77c2a9b549a6a408659f8197be91945aeb0abc33e697f1dd2ce24ee8dc7c2bc0"
+        },
+        {
+          "path": "materials/marble_01/marble_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_arm_1k.jpg",
+          "bytes": 54740,
+          "md5": "51017a4e4f320c3b58763c66727d89c1",
+          "source_verified_md5": "51017a4e4f320c3b58763c66727d89c1",
+          "sha256": "84b1516c27b4393230e77e0aa525186b4a8a415169661a4385f02dcb10c14104"
+        }
+      ],
+      "thumbnail_reference_only_url": "https://cdn.polyhaven.com/asset_img/thumbs/marble_01.png?width=256&height=256&v=57534022",
+      "image_dimensions_px": [
+        1024,
+        1024
+      ],
+      "preview": "previews/marble_01.jpg",
+      "preview_provenance": "Own swatch resized from the CC0 diffuse map; reusable.",
+      "texture_tile_size_m": [
+        1.5,
+        1.5
+      ],
+      "maps": {
+        "baseColor": "materials/marble_01/marble_01_diff_1k.jpg",
+        "normalOpenGL": "materials/marble_01/marble_01_nor_gl_1k.jpg",
+        "arm": "materials/marble_01/marble_01_arm_1k.jpg"
+      },
+      "map_channels": {
+        "baseColor": "RGB sRGB",
+        "normalOpenGL": "RGB linear; +Y green",
+        "arm": "R=ambient occlusion, G=roughness, B=metalness; linear"
+      }
+    }
+  ],
+  "production_asset_bytes": 20824776,
+  "reference_preview_reuse_note": "Website previews were used only for source review and are not included in production folders. All previews/ images were rendered or resized locally from CC0 assets.",
+  "production_paths": [
+    "models/",
+    "materials/",
+    "previews/"
+  ],
+  "production_file_count": 35,
+  "license_evidence": {
+    "url": "https://polyhaven.com/license",
+    "verified_utc": "2026-09-24",
+    "scope": "Poly Haven states all HDRIs, textures and 3D models are CC0; commercial use, modification, and redistribution are allowed, without required attribution. Website example renders are excluded; this pack uses own previews."
+  }
+}

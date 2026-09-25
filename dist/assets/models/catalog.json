@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sofa",
+    "name": "木框双人沙发",
+    "file": "sofa.glb",
+    "width": 2.1,
+    "height": 0.944,
+    "depth": 1.0995,
+    "source": "model-3",
+    "vertices": 238446,
+    "triangles": 285400,
+    "bytes": 11513796,
+    "dimensionsVerified": false,
+    "scaleBasis": "Unverified reference width; original model units not documented",
+    "materials": "Original supplied color textures; roughness is a preview estimate"
+  },
+  {
+    "id": "lounge",
+    "name": "弧形单椅",
+    "file": "lounge.glb",
+    "width": 0.78,
+    "height": 0.708,
+    "depth": 0.873,
+    "source": "model-2",
+    "vertices": 175425,
+    "triangles": 298540,
+    "bytes": 9698576,
+    "dimensionsVerified": false,
+    "scaleBasis": "Unverified reference width; original model units not documented",
+    "materials": "Original supplied color textures; roughness is a preview estimate"
+  },
+  {
+    "id": "table",
+    "name": "黑漆矮茶几",
+    "file": "table.glb",
+    "width": 1.12,
+    "height": 0.2621,
+    "depth": 0.8136,
+    "source": "model-1",
+    "vertices": 214052,
+    "triangles": 284715,
+    "bytes": 10816784,
+    "dimensionsVerified": false,
+    "scaleBasis": "Unverified reference width; original model units not documented",
+    "materials": "Original supplied color textures; roughness is a preview estimate"
+  },
+  {
+    "id": "chair",
+    "name": "原木靠背椅",
+    "file": "chair.glb",
+    "width": 0.46,
+    "height": 0.8617,
+    "depth": 0.3826,
+    "source": "chair",
+    "vertices": 954,
+    "triangles": 1212,
+    "bytes": 491552,
+    "dimensionsVerified": false,
+    "scaleBasis": "Unverified reference width; original model units not documented",
+    "materials": "Original supplied color textures; roughness is a preview estimate"
+  }
+]

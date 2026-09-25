@@ -1,0 +1,224 @@
+{
+  "concept": "藏品公馆",
+  "apartment": {
+    "location": "Shanghai",
+    "area_sqm": 75.1,
+    "bedrooms": 2,
+    "room_areas_sqm": {
+      "living_and_dining": 21.4,
+      "master": 13.5,
+      "second": 7.2,
+      "kitchen": 6.6,
+      "bath": 4.3,
+      "balcony": 5,
+      "utility": 2.5
+    }
+  },
+  "generated_date": "2026-09-25",
+  "mode": "Built-in image_gen.imagegen; one call per requested asset, eight total planned. No CLI/API fallback.",
+  "sources": [
+    {
+      "url": "https://www.rosewoodhotels.com/en/global/media-hub/press-releases/rosewood-hong-kong-opens-its-doors-as-a-timeless-monument-to/",
+      "retrieved": "2026-09-25",
+      "principle": "Residentially scaled comfort, tactile material layering, curated contemporary art, privacy and intimacy; adapted to a compact Shanghai flat rather than reproducing hotel spaces."
+    },
+    {
+      "url": "https://www.tonychi.com/work/rosewood-1",
+      "retrieved": "2026-09-25",
+      "principle": "Mansion/manor framing interpreted as a private collected residence."
+    }
+  ],
+  "intended_invariants": "Exact original camera, 3:2 frame, structure, doors, windows, ceiling planes, columns and city views. Secondary living image supplies style only.",
+  "postprocessing": "Only byte-for-byte file copying. No crop, color edit, resize or artificial upscaling.",
+  "assets": [
+    {
+      "room": "living",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+      "secondary_style_reference": null,
+      "prompt": "Use case: precise-object-edit.\nAsset type: photoreal architectural interior image, the living-room view of a coherent eight-room 75.1-square-metre Shanghai two-bedroom apartment concept named 藏品公馆 (do not render this name or any text).\nInput image 1 is the EDIT TARGET and the absolute authority for room geometry, camera and composition. Redesign only surface finishes, furniture, decorative objects and luminaires. Keep the image's exact 3:2 landscape framing, fixed viewpoint, lens perspective, scale and room proportions. Preserve every wall and ceiling plane, the complete original tray ceiling and beams, every column, door, doorway, glazed opening, frame, threshold, and all visible adjoining-room relationships at exactly the same position and dimensions. Keep the left television in place. This combined living-and-dining space is only 21.4 sqm: no enlargement, no new openings, no hotel lobby.\nPrimary request: create an elegant contemporary collected private residence, informed by Tony Chi's warm residential-estate, artful comfort and privacy principles associated with Rosewood Hong Kong, while creating a new compact domestic design, never copying a hotel interior.\nCreate a materially rich but luminous composition: pale creamy hand-finished plaster on the sofa wall and rear dining wall, tactile dark walnut and warm tobacco veneer for the television console, narrow bookcase, rear sideboard and existing door/column cladding. Fine understated satin bronze trim and handles. Same floor geometry in softly honed pale warm-grey stone with subtle dark veining, not shiny gold-beige marble.\nReplace the bulky brown sofa at exactly its current position and overall footprint with a beautifully tailored slim-profile oxblood/burgundy nappa-leather sofa, low clean arms, subtle supple leather grain, precise seams, comfortable cushions, slender dark bronze feet. Add only two restrained ivory/chocolate pillows. Replace the coarse tan rug with a luxurious very densely woven fine wool-silk rug in layered warm ivory, mushroom and charcoal ink-tonal abstract weave: subtle fine pattern, medallionless, close-cut fine pile, soft silk sheen. It must NOT look like jute, sisal, rope, chunky boucle or coarse loops; no shag.\nReplace the heavy coffee-table block with a visually thin warm-grey natural-stone top with elegant dark irregular veining, softened rectangular corners, supported by four fine dark-bronze metal legs with open air beneath. Same coffee-table position and footprint; on it one small sculptural bronze abstract object and a restrained closed art book, no branch vase.\nExactly ONE contemporary abstract artwork in the whole view: one refined large canvas above the sofa, in tones of warm chalk, muted oxblood and charcoal with quiet painterly gestural shapes in a thin bronze frame. Remove the old landscape artwork on the rear dining wall and leave beautiful pale plaster there. No literal landscapes, no ornate antique frames. Rear dining table and four chairs stay in their existing positions and compact dimensions: refined dark walnut table, walnut frames with tobacco fine-leather upholstered chair seats/backs. Modest dark-bronze and opal pendant at existing junction. Rear sideboard gets a discreet warm parchment-shaded bronze table lamp and a single small ceramic bowl. Keep bookshelves sparse and carefully selected.\nLuminous natural daylight matching the original direction of window light and shadow, lifted soft natural bounce, true pale cream walls, rich warm-red leather, deep warm wood and small bronze glints. Warm lamps only as soft accents, not amber dusk color grading. High-end editorial architectural photography, physically plausible reflections, exceptional leather, veneer, stone and textile microtexture. Spatially modest, calm, private and liveable.\nAvoid: changed geometry or perspective, new or moved doors/windows/columns, larger rooms, hotel-lobby grandeur, chandelier spectacle, tacky gold, antiques clutter, saturated blue, dark gloomy grading, rustic coarse rug, giant accessories, people, text, signs, logos, watermarks, UI. Output one clean image, native 3:2 landscape resolution, ideally 1536x1024, no border.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-6f14e4f2-1fe5-4dd4-8486-efc99182516e.png",
+      "qa": {
+        "assessment": "Accepted visual asset. Same viewpoint and architectural openings; requested oxblood sofa, dense fine patterned rug, thin veined stone table, bronze object and one abstract artwork are present.",
+        "deviations": [
+          "Common-area flooring remains warm taupe-grey rather than a distinctly cooler pale grey."
+        ]
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2529617,
+      "sha256": "6602775b6e5bffdc3efef30a5deee19f070872990a8b4e61f0f1173bb9dae6f6",
+      "edit_target_sha256": "18d25b3206aa9e1a726fa68a250ee12e0b70c9fcf7aeb44b6c9fbc1d38d16de7"
+    },
+    {
+      "room": "dining",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/dining.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: the compact dining area within the same 21.4-sqm combined living/dining room seen in image 2. Match the rear dining area of image 2 as faithfully as possible from this closer source viewpoint. Keep the wall intercom, controls and switches in their original positions. Preserve the visible doorway at far left, the thick left column, ceiling cove and beams, and entrance door at far right. The main rear wall becomes pale creamy refined plaster, bounded by warm dark walnut on the existing left column and entry-door joinery. Remove the old large landscape artwork entirely so the plaster wall stays calm; this shared space already has its ONE contemporary artwork on the living sofa wall, outside this dining crop. The narrow bookcase stays at far left in dark walnut with a few restrained books and ceramic pieces, no excess trailing plants.\nA refined rectangular dark-walnut four-person dining table stays at the original exact position and dimensions, slim elegant edges and legs. Four fine walnut-frame chairs with slim tailored tobacco nappa-leather seats and backs, not bulky. Same pendant position, a small softly luminous opal-glass pendant with dark-bronze stem, matching image 2. Place only a shallow dark ceramic bowl on the table, remove tall branch vase. Existing low sideboard on the right in dark walnut, tiny bronze handles, a small bronze table lamp with a fine warm parchment cylindrical shade and one restrained small ceramic bowl, matching image 2. Pale warm-grey honed stone floor with subtle dark natural veining, same tile perspective and geometry. Finely crafted comfortable everyday dining, rich material contrast and soft bright daylight.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/dining.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-a533b6eb-adb7-495c-98f5-bc84fc40715e.png",
+      "qa": {
+        "assessment": "Accepted visual asset. Matches living room's dining background; source ceiling, entry door, left opening and fixed controls retained.",
+        "deviations": []
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2076931,
+      "sha256": "958c2ebd8aa655b58d4f9e80aaf9c6ac7a785b91f683ad294cd1386471525fd9",
+      "edit_target_sha256": "fa1af334f6c07aca401692f947e9cbfa0420fb4ceb33285fcc13b3d51c237387"
+    },
+    {
+      "room": "balcony",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/balcony.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: the original 5-sqm enclosed balcony, not a terrace. Preserve exactly the complete sliding-glass foreground opening and track, every dark window mullion, all guardrail horizontal and vertical bars, original rear windows, side columns, ceiling edge and Shanghai city view. Keep the broad low bench in its current location beneath the windows and at its compact dimensions, now slim dark walnut with fine understated bronze joints, comfortable tailored tobacco/oxblood fine-leather seat cushion, a small ivory cotton pillow and a muted chocolate pillow, elegant and comfortable for tea. Preserve the open floor circulation at foreground.\nReplace the existing left small side table with a slender bronze tea table with a thin warm-grey veined stone circular top, at exactly the same position and no larger footprint. A small bronze-colored teapot and two simple cups placed on a modest tray, no text. Keep the plant at the far right but in an elegant low-key dark stone pot, same general extent so the city view remains visible. Pale cream sheer curtains at the exact original sides, pale cream plaster with dark walnut on the existing right column, understated bronze wall sconce at the original junction. Pale warm-grey fine-veined stone flooring. Rich but airy private tea nook, sunlight luminous and natural without orange haze. No rug required.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/balcony.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-e3550a5f-4e10-442e-9659-6d447be90f0e.png",
+      "qa": {
+        "assessment": "Accepted visual asset. Original enclosed glazing, railings, skyline and access retained; leather bench and stone-topped tea table are present.",
+        "deviations": []
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2386270,
+      "sha256": "2c2472953dbe420ec763959e27774d38b5d312cda1f4745c993e708d489f6820",
+      "edit_target_sha256": "682bbd30ccffefbbb74601fc07ae40595821f33848aed6e87fa05d639c502a56"
+    },
+    {
+      "room": "master",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: original 13.5-sqm primary bedroom. Preserve exactly the original left door and wardrobe plane, air-conditioning unit location, rear corner bay-window geometry and seat, right window, all mullions, city views, ceiling height and camera. The bed stays in its original position and size, every side remains physically accessible; no expanded hotel suite. Refinish built-in joinery, left wardrobe and small dresser in exquisite dark walnut/tobacco veneer with slim bronze hardware. Creamy plaster walls, dark walnut floor, original floor geometry. Refine the existing full-width headboard with a beautiful softly upholstered dark chocolate/oxblood fine nappa-leather central bed headboard, subtle vertical seams, thin walnut edge. Matching compact walnut bedside units in the original positions with small discreet bronze lamps and warm parchment shades.\nLuxurious but relaxed ivory cotton percale duvet and crisp ivory pillows with natural slight fabric creases; two restrained small aubergine/chocolate accent pillows and a smooth fine chocolate wool throw, never chunky coarse weave. A very dense fine wool-silk short-pile rug with muted ivory/mushroom/charcoal ink-tonal medallionless weave, quietly luminous, replaces the source's coarse textured rug at the same footprint. Exactly one restrained small contemporary abstract artwork above headboard in creamy neutrals and muted burgundy, no landscapes and no second artwork on the left. Soft cream sheers, warm taupe drapes at original curtain rails. Luminous morning/daylight from the original windows, intimate comfort and privacy, distinct cream/wood/leather contrast.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/master.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-6abddf55-e5f1-4fe2-9156-e75e755b6b71.png",
+      "qa": {
+        "assessment": "Accepted with noted styling deviations. Original compact bedroom viewpoint, window arrangement and bed location retained; leather headboard and ivory bedding are present.",
+        "deviations": [
+          "The abstract artwork strongly repeats the living-room painting motif instead of becoming a distinct original piece.",
+          "The throw remains visibly textured and fringed rather than the requested smoother fine wool."
+        ]
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2483567,
+      "sha256": "a55b40c246e7c98bc0b69cdfc2333de3b8083e68d2f9da04869901ef8d4a4fd3",
+      "edit_target_sha256": "d5a85bfedbe297c0572ee35985303a12868053ba49db50fcdc7f596333d6c2a1"
+    },
+    {
+      "room": "second",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/second.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: the original tiny 7.2-sqm study/guest daybed room. Preserve the exact narrow doorway frame, back window, window mullions and city view, room width, visible ceiling, and original furniture positions: writing desk beneath the window, compact single daybed along right wall, right overhead cabinets and open shelf. No widening or enlargement, preserve the real narrow walkway.\nRefined dark walnut desk with warm tobacco veneer and tiny bronze handles, slender comfortable wood-frame desk chair with a fine oxblood leather seat/back. A small warm bronze table lamp with a quiet cream fabric shade on desk, a closed notebook and single pen, very little clutter. Walnut daybed with clean subtle cabinetry and ivory cotton upholstery; two small aubergine/chocolate velvet or fine wool pillows, smooth fine chocolate throw. Creamy smooth plaster wall and premium fine warm-neutral textile insert behind daybed, original wall plane unchanged. Walnut overhead joinery with fine bronze detail, sparse neutral books and one small sculptural bronze object, no trailing plants. Fine densely woven short-pile wool-silk runner in muted ivory/grey/brown ink-tonal weave, never coarse rope loops. Original wood floor in dark walnut. Cream sheers at original rails and luminous natural window light. A polished personal study with spare guest-bed function, intimate and practical.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/second.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-f83d99af-15aa-43f0-97f1-22e31c4ae492.png",
+      "qa": {
+        "assessment": "Accepted with a material caveat. Original narrow geometry, window, desk/daybed layout and walkway retained; refined wood and oxblood chair are present.",
+        "deviations": [
+          "The runner still reads as raised coarse/textured pile rather than the requested very dense fine short-pile wool-silk weave.",
+          "The generated throw and one pillow also retain some coarse texture.",
+          "Small bronze sculpture repeats the living-room object motif."
+        ]
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2383036,
+      "sha256": "2b0a0df1c00f94a9153591205a15231242c96ad223d4879cdae1ce194cffc397",
+      "edit_target_sha256": "f7259497b89cfb62e4b7828c590858dc88e38410d83e66820150030fa3ac1987"
+    },
+    {
+      "room": "kitchen",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/kitchen.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: the original compact 6.6-sqm U-shaped kitchen. LOCK the exact U layout, all cabinetry extents, internal aisle width, sink and tap below back window, oven tower on left, black cooktop on right, extractor location, door jambs, ceiling, original black window and Shanghai city view. No island, no new shelving, no enlarged room. Refinish all lower cabinets and the tall left cabinetry in finely grained dark walnut/tobacco veneer, flat fronts and subtle fine warm-bronze edge handles. Right and left upper cabinets become equally refined warm walnut, keeping their exact sizes and positions. Countertops, complete splashbacks and window reveals are elegant pale warm-grey honed marble with fine charcoal-grey natural veining: light and luxurious, not golden beige, not overly busy. Fine bronze faucet in the original faucet position, practical stainless sink unchanged.\nWarm discreet under-cabinet light, true luminous natural daylight through existing window. Keep counters extremely practical and mostly clear: one small ivory ceramic storage jar and a single timber cutting board away from the hob. No decorative branch vase, no art, no textiles near hob. The pale grey fine-veined stone floor echoes the living room. Fine domestic joinery precision, realistic durable materials and comfortable original working clearances.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/kitchen.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-758395c7-3393-403a-8eb9-e0e754a073ba.png",
+      "qa": {
+        "assessment": "Accepted visual asset. Compact U layout, sink, hob, oven, window and aisle retained; walnut uppers and pale veined stone present.",
+        "deviations": []
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2194693,
+      "sha256": "79d9ff076d88cf7160e86fabb0fff8f2aa1dc3d230af5aa00eb44974ab57e757",
+      "edit_target_sha256": "086531ff3de4a79a65b4729bca6cc82eb6cd7091b8649b24545efc9f011a6671"
+    },
+    {
+      "room": "bath",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: original compact 4.3-sqm bathroom. LOCK all fixture locations and dimensions exactly: enclosed shower and glass enclosure at left, original shower head and handset positions, centre floating vanity and basin, mirror above basin, narrow original frosted window at back right, toilet in foreground right, all switch positions, towel rail, drain, door reflected in mirror, original ceiling and wall geometry. No extra sink, no bath, no moving fixtures, no expanded room.\nChange wall surfaces and floor to luminous pale warm-grey honed marble with refined thin grey/dark-grey veining, authentic stone depth, restrained matched slabs and realistic thin joints. Keep existing shower clear glass and slim frame, refinish exposed shower/tap/rail hardware in restrained warm brushed brass/bronze, not glossy gold. Dark walnut floating vanity with refined tobacco grain and slim bronze handles, pale grey veined stone top and white inset basin unchanged in location. Keep rounded rectangular mirror size and position, now a very thin bronze edge with gentle warm backglow, not a huge lit halo. White toilet same exact model scale and location. Fine ivory cotton towels, one dark soap dispenser and one small tray on vanity. Clear counter, no large branch vase. Luminous diffuse daylight from the original frosted window, warm subtle accent lighting, realistic mirror reflection consistent with the original room. Compact private-residence refinement.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/bath.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-befec908-c3f0-45b6-b718-edc07e43020d.png",
+      "qa": {
+        "assessment": "Accepted visual asset. All key fixture positions, shower, mirror and frosted window retained; pale veined stone, dark vanity and warm brushed metal present.",
+        "deviations": [
+          "Small source greenery remains on the counter and windowsill despite the preference for a clearer counter."
+        ]
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2496648,
+      "sha256": "6379cbcb63625472e3f7f68f33b8c60d24d83eaa50c855fbcbbd9a03dc92a14b",
+      "edit_target_sha256": "51b4c65273cb25b3469dfc19808a13667c4ca9271367fe32b6bc2d0656b25063"
+    },
+    {
+      "room": "utility",
+      "status": "generated",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/utility.jpg",
+      "secondary_style_reference": "/workspace/scratch/aa0f93406d63/v11-assets/collector/living.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: one photoreal architectural interior asset for 藏品公馆, a coherent eight-room 75.1-sqm Shanghai two-bedroom flat. Do not render the name or any text.\nINPUT ROLES ARE STRICT: Image 1 is this room's EDIT TARGET and absolute authority for all camera, geometry, spatial layout, scale, openings and city views. Image 2 is the already redesigned LIVING ROOM and is a SECONDARY MATERIAL/STYLE REFERENCE ONLY. Borrow its cream plaster, dark walnut, tobacco veneer, oxblood accents, fine bronze, elegant pale grey stone, textile refinement, luminous daylight and quiet contemporary collected atmosphere. Never copy image 2's room layout, furniture composition, objects, artwork or ceiling into this room.\nLOCK IMAGE 1: keep its exact 3:2 landscape frame, camera location, perspective, focal length, crop and modest dimensions. Keep EVERY existing wall plane, ceiling plane, beam, column, doorway, door, window, glazed frame, sill, threshold and city view at exactly its existing location, size and proportion. No room enlargement, no new opening, no structural alteration. Preserve light direction and physically plausible natural window shadows. Only redesign finishes, furniture, lighting fixtures and decor. Real compact domestic scale, no hotel-lobby or suite grandeur.\nCONCEPT: original compact private-residence design inspired by the Tony Chi/Rosewood Hong Kong principles of warm residential intimacy, collected contemporary art, tactile refinement and comfortable privacy; not a copy of any hotel. Fine-grained dark walnut/tobacco timber, pale cream plaster, discreet brushed bronze, warm-grey stone with elegant darker veining, restrained oxblood/aubergine details. Elegant contrasting materials; visually luminous natural daylight, warm small lamps as subtle accents, no orange cast. Exceptional photoreal material microdetail, true fine leather, authentic veneer grain, soft natural bounce and precise shadows, editorial interior photography.\nAVOID: changed geometry, shifted camera, enlarged rooms, missing/moved windows or doors, substituted city skyline, lobby opulence, tacky shiny gold, overcrowded antiques, saturated blue, coarse jute/sisal/rope rugs, chunky loop or shag rugs, strong amber grading, repeated decorative branches, people, text, signage, logos, watermarks, UI, borders. Where a rug is requested it MUST be a fine dense short-pile wool-silk ink-tonal weave, subtle medallionless pattern, never rustic coarse woven material. Output one native 3:2 landscape image, ideally 1536x1024, no artificial upscaling.\n\nROOM: original 2.5-sqm enclosed utility balcony, practical working space. Preserve exactly the long dark-framed left glazing, every original mullion/rail/window and all Shanghai city views, ceiling soffit, rear cabinet wall, narrow aisle, foreground doorway edge, and existing right countertop and upper cabinet extents. Keep the stacked washer and dryer fully visible in their exact original back-wall position and size, with unobstructed front access and controls. No added furniture in aisle, no enclosed doors blocking machines, no relocation of appliances.\nRefine surrounding joinery in beautiful dark walnut with warm tobacco grain, thin dark-bronze pulls, original cleaning-tool slot retained and reachable. Right folding surface becomes a thin pale warm-grey marble top with subtle charcoal veining on its original footprint. Warm cream underside and faint concealed task lighting, walnut upper cupboards remain exact size. One neatly folded ivory cotton towel stack, no decorative branches. Replace bulky rustic hamper with a simple restrained warm-grey fabric laundry bin tucked fully underneath the counter. Original practical broom/vacuum storage remains. Fine pale grey stone floor, original geometry, no rug. Luminous natural daylight through existing glass with natural cast shadows, materially connected to the living reference while remaining a clean and usable compact laundry. Appliance markings should be generic and visually unobtrusive, no readable brand logos.",
+      "output": "/workspace/scratch/aa0f93406d63/v11-assets/collector/utility.png",
+      "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-4e62eea5-0076-4261-a910-dae9d04d22b2.png",
+      "qa": {
+        "assessment": "Accepted visual asset. Stacked appliances, tool storage, glazing and access remain; stone folding counter and tucked fabric hamper are present.",
+        "deviations": []
+      },
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "mode": "RGB"
+      },
+      "bytes": 2194625,
+      "sha256": "14b1a26f7d3357095bf12a62905d4c1b8712b011249749646b42054c2a39fd6b",
+      "edit_target_sha256": "935d7030285dc1ad201f341725808e87f0084e4db20c67d9c4b46708e3c9a8fa"
+    }
+  ],
+  "completed_calls": 8,
+  "qa_method": "All eight original inputs and all eight generated outputs visually inspected. Native image dimensions and SHA-256 hashes checked; no geometric pixel registration was performed."
+}

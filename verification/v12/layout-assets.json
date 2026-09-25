@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "browserUITested": false,
+  "uniqueDuskViews": 20,
+  "allStyleStates": 29,
+  "newNativeImages": 17,
+  "newFullImageBytes": 8575330,
+  "checks": [
+    "Every advertised state resolves to an available image and thumbnail; unsupported combinations normalize explicitly",
+    "All full-size sources are native 1536×1024; new thumbnails 480×320 and preserved original thumbnails 360×240 or 480×320",
+    "All 17 integrated image hashes match the inspected manifest",
+    "Three-step markup and visibility rules present; CSS parses without warnings"
+  ],
+  "states": [
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "original",
+      "light": "daylight",
+      "url": "/tour/home-assets/dusk/layouts/living/original/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/original/daylight-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/pieces/living/wine-glass.jpg",
+      "thumb": "/tour/home-assets/dusk/pieces/living/wine-glass-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "original",
+      "light": "daycool",
+      "url": "/tour/home-assets/dusk/layouts/living/original/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/original/daycool-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "original",
+      "light": "nightwarm",
+      "url": "/tour/home-assets/dusk/layouts/living/original/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/original/nightwarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "original",
+      "light": "nightneutral",
+      "url": "/tour/home-assets/dusk/layouts/living/original/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/original/nightneutral-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "social",
+      "light": "daylight",
+      "url": "/tour/home-assets/dusk/layouts/living/social/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/social/daylight-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "social",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/layouts/living/social/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/social/daywarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "social",
+      "light": "daycool",
+      "url": "/tour/home-assets/dusk/layouts/living/social/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/social/daycool-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "social",
+      "light": "nightwarm",
+      "url": "/tour/home-assets/dusk/layouts/living/social/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/social/nightwarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "social",
+      "light": "nightneutral",
+      "url": "/tour/home-assets/dusk/layouts/living/social/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/social/nightneutral-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "storage",
+      "light": "daylight",
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daylight.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/storage/daylight-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "storage",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/storage/daywarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "storage",
+      "light": "daycool",
+      "url": "/tour/home-assets/dusk/layouts/living/storage/daycool.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/storage/daycool-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "storage",
+      "light": "nightwarm",
+      "url": "/tour/home-assets/dusk/layouts/living/storage/nightwarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/storage/nightwarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "living",
+      "layout": "storage",
+      "light": "nightneutral",
+      "url": "/tour/home-assets/dusk/layouts/living/storage/nightneutral.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/living/storage/nightneutral-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "master",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/master.jpg",
+      "thumb": "/tour/home-assets/dusk/master-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "master",
+      "layout": "rotated",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/layouts/master/rotated/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/master/rotated/daywarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "master",
+      "layout": "storage",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/layouts/master/storage/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/master/storage/daywarm-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "balcony",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/balcony.jpg",
+      "thumb": "/tour/home-assets/dusk/balcony-thumb.jpg"
+    },
+    {
+      "design": "dusk",
+      "room": "balcony",
+      "layout": "glazing",
+      "light": "daywarm",
+      "url": "/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+      "thumb": "/tour/home-assets/dusk/layouts/balcony/glazing/daywarm-thumb.jpg"
+    },
+    {
+      "design": "chinese",
+      "room": "living",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/chinese/living.jpg",
+      "thumb": "/tour/home-assets/chinese/living-thumb.jpg"
+    },
+    {
+      "design": "chinese",
+      "room": "master",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/chinese/master.jpg",
+      "thumb": "/tour/home-assets/chinese/master-thumb.jpg"
+    },
+    {
+      "design": "chinese",
+      "room": "balcony",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/chinese/balcony.jpg",
+      "thumb": "/tour/home-assets/chinese/balcony-thumb.jpg"
+    },
+    {
+      "design": "stone",
+      "room": "living",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/stone/living.jpg",
+      "thumb": "/tour/home-assets/stone/living-thumb.jpg"
+    },
+    {
+      "design": "stone",
+      "room": "master",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/stone/master.jpg",
+      "thumb": "/tour/home-assets/stone/master-thumb.jpg"
+    },
+    {
+      "design": "stone",
+      "room": "balcony",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/stone/balcony.jpg",
+      "thumb": "/tour/home-assets/stone/balcony-thumb.jpg"
+    },
+    {
+      "design": "collector",
+      "room": "living",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/collector/living.jpg",
+      "thumb": "/tour/home-assets/collector/living-thumb.jpg"
+    },
+    {
+      "design": "collector",
+      "room": "master",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/collector/master.jpg",
+      "thumb": "/tour/home-assets/collector/master-thumb.jpg"
+    },
+    {
+      "design": "collector",
+      "room": "balcony",
+      "layout": "original",
+      "light": "daywarm",
+      "url": "/tour/home-assets/collector/balcony.jpg",
+      "thumb": "/tour/home-assets/collector/balcony-thumb.jpg"
+    }
+  ]
+}

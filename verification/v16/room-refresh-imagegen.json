@@ -1,0 +1,226 @@
+{
+  "version": "v16",
+  "scope": "10 edited room photographs; no site edits performed",
+  "builtInMode": true,
+  "assetCount": 10,
+  "outputRoot": "/workspace/scratch/aa0f93406d63/v16-assets/rooms",
+  "preservedSecondRooms": [
+    "dusk",
+    "chinese"
+  ],
+  "existingDuskGlazingReuse": {
+    "reused": false,
+    "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+    "reason": "Existing variant replaces bench/planter with chair/shelf and keeps a middle horizontal rail; not suitable for preservation requirement."
+  },
+  "assets": [
+    {
+      "design": "dusk",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic residential interior photograph, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the EDIT TARGET. Change ONLY the balcony exterior window glazing. Lock the camera, crop, perspective, architecture, floor, ceiling, wood wall, sconces, curtains, warm daylight, shadows, and every piece of furniture and styling EXACTLY as in the source. In particular retain the identical long wooden bench, cream seat, two cushions at the right, tea tray and teapot on bench, cylindrical bronze side table at left, and tall plant in textured pot at right in precisely the same positions.\nReplace the exterior glazing behind the bench with a large uninterrupted full-height clear fixed main pane extending from the existing top frame down to the floor-level bottom frame; remove the visible horizontal mid-height safety rail/window crossbars and the low opaque sill/infill below the existing glazing only. The main pane must have no middle horizontal bar and no internal vertical divider. Keep a narrow framed operable ventilation sash only at the far side of the glazing, with a tiny handle. Preserve the foreground sliding doorway frame and track. The lower continuation of the city/tree view must be consistent with the existing outdoor scene. This is a finished concept photograph, no demolition or construction.\nStrict invariants: absolutely no furniture removal or replacement, no layout adjustment, no redesigned styling, no camera movement. Natural detailed wood/linen/stone textures. No people, text, logos, watermark, fisheye or extra rooms.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/dusk/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-804b64c8-c53d-47f0-b327-4fba2dd5e1ec.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: original bench, two cushions, tea tray, bronze side table, planter, curtains, camera and material palette preserved; exterior glass now reaches floor with no center rail/bar and a narrow side ventilation sash. Only glazing changed.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 726684,
+      "sha256": "23f25cbd092d5c55dfb00805080ff38a996286a2921aeac7c22b34f9956d07c0"
+    },
+    {
+      "design": "chinese",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic residential interior photograph, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the EDIT TARGET. Change ONLY the balcony exterior window glazing. Preserve EXACTLY the existing narrow balcony room architecture and dimensions, camera, composition, perspective, wood ceiling/plank floor/wood walls, right-side interior sliding wood-and-glass doorway with its existing crosspieces, curtain, view into living room, warm sunlight and all furniture. Retain the identical small end-wall bench with beige seat and single cushion, small square wooden tea table with tea set, potted tree, and visible living room sofa and artwork, all in their precise existing positions.\nOnly on the exterior glazing at the left and far end, replace segmented windows with clean full-height clear fixed main glass panes to the floor threshold, removing every mid-height horizontal crossbar. Each principal exterior glazing plane must read as a broad uninterrupted pane, and keep a narrow side operable ventilation sash with a subtle handle at an outer edge; the center of the main view is uninterrupted. The glass can use minimal vertical edge framing necessary for the existing corner; no horizontal rails, no opaque half-wall, no railing through the view. Keep the existing interior door grid on the right unchanged because that is not the exterior glazing.\nFinished concept photograph, no demolition shown. Keep city buildings and trees consistent. Do not change any furniture/layout/materials/light/camera, no new objects, no text, logo or watermark, no fisheye.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/chinese/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-1991fc35-23d2-4545-ac7a-91769bbb128a.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: original end bench/cushion, tea table/set, planter, wood floor/ceiling/walls, living-room glimpse and interior glazed door retained; exterior glass has no horizontal middle crossbar, with side ventilation. Interior door crosspieces intentionally retained.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 780369,
+      "sha256": "9eea04ac7202d7cf07d9b579b7845d6f08c2b2606f6d6f5fdf6059239064a0bc"
+    },
+    {
+      "design": "stone",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: editorial architectural interior photo, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Redesign the furniture of this actual compact 5-square-metre enclosed main balcony within exactly the existing room envelope and camera view. Preserve ceiling, doorway/sliding threshold and frames, curtains, right wood-panel wall and sconce, stone tile floor, warm natural afternoon light, outdoor city/tree view, believable small-room scale and precise straight perspective.\nQuiet Zen scheme: remove the entire long bench and original side table. Place ONE low woven-natural-fibre recliner with a subtle dark timber frame on the left half of the balcony, angled diagonally toward the view (not a bench, no large platform). Give it one simple pale linen pad. A small monolithic pale stone side table sits beside the recliner at hand height with a single earthy ceramic cup. Retain one restrained potted tree on the right. Leave an obvious open floor path on the right and do not line furniture across the full width.\nUpgrade only the exterior glazing to one broad uninterrupted clear FIXED MAIN PANE from the top frame all the way down to floor level, no middle horizontal bar, no safety rail, no opaque sill or half-wall. Keep ONE narrow side ventilation sash at the far-right edge with a subtle handle. No divisions across the main picture pane. Preserve the room boundaries and foreground opening. Show completed design, no demolition.\nReal natural stone, linen and woven fibre textures, quiet warm greige/taupe/pale-stone palette, photo quality. No long bench, daybed, platform, sofa, wide lounge bed, text, people, logos, watermark or fisheye.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/stone/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-5f907c18-dbdd-43c2-aa70-23ee103ee4db.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted after one targeted chair-rotation refinement: one low woven recliner faces diagonally toward view, small stone side table, open floor, no bench/platform; broad full-height pane and narrow right vent.",
+      "refinement": {
+        "design": "stone",
+        "room": "balcony",
+        "source": "/workspace/scratch/aa0f93406d63/generated_images/exec-4756fa61-58ae-4e00-8d40-1505f199c083.png",
+        "prompt": "Use case: precise-object-edit. Native 1536x1024, landscape 3:2. Edit the supplied photo with only ONE targeted furniture adjustment: rotate the existing low woven recliner on the LEFT so a person sitting in it would look diagonally OUT THROUGH THE MAIN WINDOW at the city and trees, rather than into the room. The camera should now see the recliner's rear three-quarter side, showing its beautiful woven back and side profile, with the seat opening and front legs aimed toward the right half of the window. Keep the same chair model, pale linen pad, size and left-side location. Its chair back is nearer the foreground/camera than its seat front. Keep the small stone table beside the chair within easy reach, moving it only minimally to suit that chair rotation.\nStrictly preserve everything else exactly: camera, room shape, clear open floor, full-height uninterrupted main glass down to floor threshold, no mid rail, narrow far-right ventilation sash, foreground sliding frame and track, curtains, plant and pot, right wood wall and sconce, stone floor, natural afternoon light, shadows, city/tree view, photographic quality and all existing materials. No bench, long platform, extra furniture, people, text, logo or watermark. This is only a chair rotation within the same room.",
+        "firstPassSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-4756fa61-58ae-4e00-8d40-1505f199c083.png",
+        "reason": "Rotate the recliner toward the city view."
+      },
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 715279,
+      "sha256": "94b261a3fa897a84100664c64af846917a11ddd12d06ed84f28c33c15f59c3e0"
+    },
+    {
+      "design": "stone",
+      "room": "second",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/stone/second.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic compact residential second bedroom, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Keep this actual 7.2-square-metre room's existing doorway, camera, window opening and frame, curtains, walls, ceiling, floor, exterior city view and warm daylight unchanged. Do not enlarge the room or create new openings. Replace the furniture arrangement with a quiet Japanese Zen guest room in natural warm oak, pale beige linen, stone-grey plaster and restrained dark timber details.\nRemove the window desk, desk chair, high drawer daybed and original right-wall shelving. Install a proper low Japanese 1.2-metre-wide guest bed, with its long axis PERPENDICULAR to the window, its simple head at the far window wall and feet toward the doorway, shifted toward the RIGHT side. It must read as a low single guest bed with a slim timber base, neatly made cream duvet and one sleeping pillow at its head, never a sofa/daybed with cushions along a back. Keep a clear aisle down the left. Add a compact fold-down worktop attached to the LEFT SIDE WALL, oriented facing the side wall, shown open as a shallow functional writing shelf with an unobtrusive foldable stool; not a desk under the window. Add flat-front closed timber storage on the right side nearer the doorway, sized to fit, with no decorative open shelf clutter. The bed occupies only its realistic footprint and is not set on a room-wide platform.\nNatural intimate room scale and circulation, real linen folds and wood grain, restrained styling. No window desk, traditional built-in high daybed, sofa, oversized platform, fisheye, people, text, logo or watermark.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/stone/second.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-336b4ff4-7d5d-469c-9d5a-eff8adf0308b.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: low 1.2m guest bed perpendicular to window on right, left-wall fold-down writing worktop and folding stool, closed timber storage, no window desk or daybed.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 578467,
+      "sha256": "eb4258d371eebe73a95115d394e1d44989e4ad229a04888404c5fb5a50f7e0f6"
+    },
+    {
+      "design": "collector",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/collector/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: editorial residential interior photo, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Preserve the actual compact 5-square-metre balcony room envelope, ceiling, doorway and sliding threshold, curtains, right end wall and sconce, stone floor, camera, straight perspective and warm natural afternoon light. Do not enlarge the room.\nReplace the long bench and original furniture arrangement with a collector's intimate reading/listening corner: ONE sculptural burgundy leather swivel armchair on a compact swivel base, located on the LEFT half and angled toward the view; a slim walnut record cabinet against the RIGHT END WALL (the wall with the sconce), with a turntable on top and a few vinyl sleeves below; a small movable stone-topped bronze side table next to the chair. No furniture lined across the entire window, no bench, no platform. Retain a compact restrained plant only if it fits without hiding the cabinet. Beautiful natural burgundy leather patina, dark walnut and warm bronze, curated yet uncluttered, clear visible open stone floor between pieces.\nReplace exterior glazing with one broad uninterrupted clear FIXED MAIN PANE extending from the existing upper frame to FLOOR LEVEL; no opaque lower wall or sill, no horizontal rail, no middle bar, no central mullion. Keep a single narrow operable ventilation sash only at the far-right side with a small handle. Preserve the existing outdoor skyline and trees and foreground doorway.\nFinished concept photograph, no demolition. Photo-quality materials, no fisheye, no people, text, logos or watermark.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/collector/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-d1584087-e842-47a6-b8aa-f6336ace7092.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: burgundy leather swivel chair, right end-wall slim record cabinet/turntable, movable stone/bronze side table, no bench; broad full-height main pane and narrow right vent.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 774352,
+      "sha256": "327919a7e15cb40e35225d977314e86b93cd36d13c33bfe3a7990ba1cfa38f07"
+    },
+    {
+      "design": "collector",
+      "room": "second",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/collector/second.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic residential library/listening room, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Preserve this actual 7.2-square-metre room's doorway, camera, window size and position, window frame, curtains, walls, ceiling, timber floor and city/tree view. Keep the warm daylight and realistic compact footprint; no enlarged room or new openings.\nCompletely change the current window-desk-plus-built-in-daybed layout into a compact collector library and listening room. Remove the daybed and window desk. Put a compact two-seat COGNAC LEATHER PULLOUT LOVESEAT with visible arms and small slim legs centered under the window at the far end, its width only about 1.25m, shown CLOSED as a comfortable real loveseat, never a long built-in daybed. Install tall dark walnut bookshelves along the RIGHT wall, shallow enough for circulation, mixing real books with closed walnut cabinet doors and some empty breathing space; include a turntable with two small dark speakers in a purposeful middle shelf. Place a slim FREESTANDING small writing desk near the left side in the foreground, oriented against/facing the LEFT side wall rather than under the window, with thin timber legs and one restrained burgundy leather chair. Keep a clear central floor path from doorway to loveseat. Use only realistic furniture sizes that fit the 7.2sqm room.\nRefined walnut, cognac leather, muted burgundy, warm woven wool and patinated bronze; tactile and natural. No bed on right wall, no bench, no window desk, no built-in daybed, no fisheye, no people, text, logos or watermark.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/collector/second.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-27b1abdf-fe4a-4a56-8fcb-657a5f685e86.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: compact cognac loveseat under window, separate freestanding side-wall desk, tall walnut bookshelves with closed lower storage and listening equipment, clear central circulation, no traditional daybed.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 704049,
+      "sha256": "51b610068a12f65dd6233dee29c849f38e6549be7beeed55b1408be0fc4bf8d5"
+    },
+    {
+      "design": "copper",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/copper/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic residential interior photograph, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Preserve the actual compact 5-square-metre balcony's exact width/depth/height, camera, framing, foreground sliding doorway and track, linen curtains, stone floor, right end wall in dark green stone with fine copper vein and wall sconce, outdoor city/trees and warm natural light.\nReplace the long bench with TWO small sculptural OLIVE GREEN upholstered tea armchairs, each with curved backs and delicate warm BRONZE LEGS, arranged facing one another at a slight inward angle. One compact chair on the left and one on the right, with one SMALL ROUND BRONZE TEA TABLE BETWEEN them. This specific two-olive-armchairs + round-bronze-table composition must be clear and match a design viewed from the dining room. Keep furniture petite to fit 5sqm with a visible open floor path. A modest tea set can sit on the table. Retain the tall plant against the right end wall if it does not obstruct circulation. No bench, no long sofa, no platform.\nExtend exterior glazing to one wide uninterrupted full-height FIXED MAIN PANE from existing top frame to FLOOR LEVEL. Remove the current low opaque sill/wall below the window. Keep the narrow ventilation sash at the far-right side with a small handle. No middle horizontal crossbar, no rail, no central main-pane mullion. Keep foreground sliding door frame unchanged. Finished design, no construction or demolition.\nNatural woven olive upholstery, subtle aged bronze, deep green stone and warm grey floor; photograph quality, correct scale and straight geometry. No people, logos, text, watermark or fisheye.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/copper/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-9e4f31c5-8896-417d-a48a-e57d2e09e668.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: two small olive sculptural armchairs with bronze legs and round bronze tea table between, green/copper end wall, no bench; uninterrupted full-height main pane and narrow right vent. Composition supplied to parent for reverse dining view.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 718332,
+      "sha256": "b99062b1847bc3178a3d927b482ff05d99acac49deb306aa4654a817ead5ab1e"
+    },
+    {
+      "design": "copper",
+      "room": "second",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/copper/second.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic compact residential work-and-guest room, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Retain the existing actual 7.2-square-metre room architecture, doorway, window size and position, window frame, curtains, ceiling, timber floor, outside city/tree view, camera composition and warm sunlight. Do not widen the room, move walls or add openings.\nCompletely replace the current desk/daybed arrangement with a compact practical OFFICE whose guest bed is hidden and CLOSED. Build a slim dark warm-wood L-SHAPED WORKSTATION along the window wall and turning onto the LEFT wall, with realistic worktop depth and fine bronze details, a modest monitor and organized writing materials. Use ONE high-quality ergonomic upholstered task chair in muted olive or charcoal, with a plausible compact wheeled base. Remove the daybed entirely. On the RIGHT wall install a flush full-height closed OLIVE cabinet concealing a foldaway guest bed, shown fully CLOSED with seamless flat panels, subtle bronze pulls and a believable shallow cabinet depth. The center and right foreground must have generous uninterrupted OPEN FLOOR SPACE and a clear path, no visible mattress or sleeping cushions. Include useful closed upper storage as part of the cabinet, restrained and coherent with this scheme.\nWarm dark walnut, muted olive, small bronze hardware and pale plaster, natural realistic textures. Keep exact small-room scale. No visible bed, no sofa/daybed, no second chair, no clutter, no fisheye, people, text, logo or watermark.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/copper/second.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-d746531b-4bec-4f42-bd96-8a3de92d7d89.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: L-shaped workstation at window/left wall, one upholstered task chair, right flush olive closed foldaway-bed cabinet, generous open central floor, no visible bed.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 518305,
+      "sha256": "4a2d41c0c300ad016433e8062c83aac36c44638baeb96c6dd0b656f7907ab257"
+    },
+    {
+      "design": "amber",
+      "room": "balcony",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/amber/balcony.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic residential interior photograph, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Preserve this actual compact 5-square-metre balcony's room envelope, camera, doorway/opening, ceiling, pale plaster walls, pale stone floor, warm sunlight, outdoor city/tree view and gentle light oak/cream/amber styling family. Do not enlarge the room or move openings.\nRemove the entire long built-in window bench and its end cabinets. Replace it with ONE lightweight curved lounge chair with pale-cream woven natural-fibre construction and a simple cream linen cushion, placed on the RIGHT half at a slight relaxed angle toward the view. This chair must have ordinary floor-standing legs/base. Put ONE small movable amber-colored stool beside it, compact and translucent amber resin or amber glass with a stable rounded form. Retain ONE planter with a modest leafy tree at the left. Keep an inviting open pale stone floor path and airy space around the three objects. No bench or furniture running the width of the room; no hammock, hanging chair, suspended structure, ropes or ceiling attachment.\nReplace the exterior window assembly with a broad uninterrupted FIXED MAIN PANE from the existing upper frame to FLOOR LEVEL, removing the opaque lower sill area. A single narrow side ventilation sash with a subtle handle remains at the far-right edge. Main view has no horizontal crossbar or rail and no central mullion. Retain the foreground doorway architecture. Show completed design, no demolition.\nNatural tactile light woven fibre, cream linen, pale stone, amber accent, photo quality and correct compact scale. No people, text, logos, watermark or fisheye.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/amber/balcony.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-aae49b1c-cb04-44e0-844e-0aac7ba3f034.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: one cream light-woven curved floor-standing chair, amber movable stool and one planter, open floor, no suspended structure or bench; full-height main pane and narrow right vent.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 677977,
+      "sha256": "512b25bb4cd5c3abf90d318f986d765f254d5fe2c64e56d7b1daf355ba44147f"
+    },
+    {
+      "design": "amber",
+      "room": "second",
+      "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/amber/second.jpg",
+      "prompt": "Use case: precise-object-edit. Asset: photorealistic compact guest bedroom and dressing room, native 1536x1024 pixels, landscape 3:2.\nInput image 1 is the edit target. Keep this actual 7.2-square-metre room's existing doorway, window size/position/frame, Roman shade, walls, ceiling, timber floor, city/tree outlook, camera position and bright warm natural light. Preserve its intimate realistic dimensions; no widening or extra openings.\nCompletely change the current window-desk-plus-right-daybed layout. Remove the existing daybed, window desk and right high shelf. Place a proper 1.2-metre-wide LIGHT OAK GUEST BED ALONG THE LEFT WALL, its head toward the far window and its foot toward the doorway, with a distinct softly ROUNDED FOOT END. Dress as a real single bed in cream linen with pastel clay/peach and muted blush accents, one sleeping pillow at head, not sofa back cushions. Place a slim dressing/vanity desk on the RIGHT SIDE WALL facing that wall, with rounded light-oak edges, a restrained tabletop mirror and a small cream upholstered stool tucked beneath. Integrate a shallow closed cream-and-light-oak wardrobe nearer the right corner with one full-length mirrored door. Keep the window wall free from a desk and leave a clear central walkway between bed and vanity.\nAiry light oak, cream, pastel clay, tiny amber-glass accent and soft rounded forms; distinct guest/dressing layout and tactile photograph quality. No right-wall daybed, no window desk, no sofa, no oversized furniture, no fisheye, no people, text, logo or watermark.",
+      "destination": "/workspace/scratch/aa0f93406d63/v16-assets/rooms/amber/second.jpg",
+      "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-c3f053cb-d8ed-41c5-bafd-6b816fb2ae25.png",
+      "mode": "built-in image_gen edit",
+      "requestedNativeSize": [
+        1536,
+        1024
+      ],
+      "qa": "Accepted: light-oak guest bed along left wall with rounded foot, right vanity/dressing desk, mirror wardrobe and clay accents, clear center aisle, no window desk.",
+      "verifiedNativeSize": [
+        1536,
+        1024
+      ],
+      "bytes": 569262,
+      "sha256": "fc5ea009c5bc477afd70064ecc5740777834846996f7e3b19003433c4e8d56a4"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "created_at_utc": "2026-09-25T10:45:10.305467+00:00",
+  "task": "Unapproved clear-glazing visual concepts",
+  "generator": "builtin image_gen.imagegen",
+  "skill": "e0/.system/imagegen",
+  "qa_method": "Visual inspection of original sources and generated outputs; file dimensions verified with Pillow.",
+  "concept_disclaimer": "Unapproved visual concepts only. No construction, structural, guardrail or engineering approval is represented.",
+  "scope": "Asset-only image edits. No Site files or code modified.",
+  "assets": [
+    {
+      "name": "balcony-clear.png",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/balcony-clear.png",
+      "original_source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "c41a34f06d003791ff6ac790146f3501230eb9fd106e2971160a80059b286b6a",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-4749722d-366f-4320-945f-1269644f6165.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "native_resolution": true,
+      "postprocessing": "None; byte-for-byte copy of selected built-in output. No resizing, cropping or pixel edits.",
+      "sha256": "6961f11b09bd579f1da3d2ae7c6722977be2d6c08ce692fa6755ec18d2f41042",
+      "generation_history": [
+        {
+          "source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+          "prompt": "Use case: precise-object-edit.\nInput image: the provided balcony photograph is the sole edit target.\nAsset type: unapproved residential window visual concept, photorealistic architectural photograph.\nEdit the glazing only. Deliver exactly native 1536×1024 pixels, landscape 3:2, with precisely the original camera position, crop, perspective, lighting and room geometry.\nReplace the existing outer balcony window assembly with ONE broad, uninterrupted, full-height clear FIXED GLASS main panel from the ceiling perimeter frame down to the floor frame. Remove the horizontal metal rail crossing the city view, its thin central vertical guard post, and the thin vertical mullion in the main glass field. There must be NO horizontal bar, transom, guardrail or mullion cutting the eye-level view anywhere across the main opening. Preserve the real architectural perimeter, existing overhead beam and side columns and foreground sliding-door jamb/threshold.\nThe only operable opening is a narrow full-height vent sash at the RIGHTMOST SIDE of the OUTER glazing immediately next to the right column. Show a subtle slim perimeter, a believable small handle and a slight ajar edge so the side vent reads operable; do not divide the main viewing panel. Main glass remains closed. Keep subtle glass edge reflections and slight interior reflections so it clearly reads as enclosed transparent fixed glazing, never a glass-free open drop.\nPreserve exactly the fold-away tea ledge and its bracket, kettle, cup, chair and chair position, wall sconce, timber wall, curtains, stone floor and warm light. The real-looking Shanghai residential skyline and green park outside must remain unchanged in location, scale, buildings and character. No sea, ocean, waterfront, mountain, new landmark or outdoor scene replacement.\nNo text, logos, measurements, labels, watermark or approval markings. This is a visual concept only; do not represent engineering approval.",
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-4749722d-366f-4320-945f-1269644f6165.png"
+        }
+      ],
+      "qa": {
+        "status": "selected",
+        "observations": [
+          "Main field is one uninterrupted full-height fixed-glass concept with no central horizontal rail or vertical mullion.",
+          "Narrow rightmost operable sash is visibly ajar; its edge frame and handle are confined to the side.",
+          "Overhead perimeter, columns, foreground sliding-door jamb/threshold, tea ledge, kettle, cup, chair, curtains, light and stone floor remain visually consistent.",
+          "Glass edge reflections and enclosed perimeter remain visible.",
+          "Residential Shanghai-style buildings and park retained; no ocean introduced."
+        ],
+        "limitations": [
+          "Generative edit retains the skyline character and layout but is not a pixel-exact restoration of every building detail."
+        ]
+      }
+    },
+    {
+      "name": "master-clear.png",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+      "original_source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "d5a85bfedbe297c0572ee35985303a12868053ba49db50fcdc7f596333d6c2a1",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5844adf8-32ea-4d36-9739-dcc9b91dad6f.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "native_resolution": true,
+      "postprocessing": "None; byte-for-byte copy of selected built-in output. No resizing, cropping or pixel edits.",
+      "sha256": "edaed8547e1de79ad9d5ef443efc95cc59136bfa63b4acd8d22d9c6fa6ad5b18",
+      "generation_history": [
+        {
+          "source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+          "prompt": "Use case: precise-object-edit.\nInput image: the provided master-bedroom photograph is the sole edit target.\nAsset type: unapproved residential window visual concept, photorealistic architectural photograph.\nEdit the glazing and its opaque lower infill only. Deliver exactly native 1536×1024 pixels, landscape 3:2, retaining exactly the original camera position, crop, perspective, room size, bed, headboard, bedding, rug, wardrobe, lamps, artwork, air conditioner, curtains, decor and warm daylight.\nReimagine the left corner window as broad clear FIXED GLASS panes extending all the way from the existing upper perimeter beam down to the floor behind the low window ledge. Replace the opaque wall/apron below the window with clear fixed glass. Keep the existing low sill/seat ledge with its cushion, vase and books in their positions as an interior ledge in front of the glass. Remove all existing horizontal mid-window rails/mullions so there is no horizontal bar or transom crossing the broad central view. Preserve the genuine corner vertical support and upper beams and outer architectural perimeter. Keep the corner support slim and exactly in its original location.\nInclude one narrow operable side vent only at the far outer side of the corner window, tucked beside the left curtain, with a slim frame and subtle handle; its vertical edge stays out of the broad central view.\nAlso remove the mid-height horizontal rail visible on the cropped right window and turn its lower opaque infill into matching clear fixed glass to the floor, preserving the original perimeter and curtain. Both glazing areas remain visibly enclosed glass: subtle edge reflections and slight interior reflections, no empty open drop.\nPreserve the same believable Shanghai residential buildings outside, same proportions and perspective; no sea, ocean, waterfront, mountain or new landmark. Preserve all furnishings and their positions. Do not enlarge or move the bed or window apertures. No new furniture.\nNo text, logos, dimensions, labels, watermark or approval markings. This is a visual concept only, without engineering approval.",
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-ec305113-d405-4b21-ab97-909639c24c2e.png"
+        },
+        {
+          "source_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-ec305113-d405-4b21-ab97-909639c24c2e.png",
+          "prompt": "Use case: precise-object-edit.\nInput image: the provided clear-glazing master-bedroom concept is the edit target.\nMake ONE highly localized correction only: in the LEFT CORNER WINDOW AREA, replace the opaque beige wall/apron that is BELOW the low stone window ledge with clear fixed glass extending right down to the timber FLOOR. The existing horizontal stone ledge with cushion, vase and books must remain exactly at its current height and location but now appear as a slim floating interior ledge in front of continuous full-height glazing. At the exposed lower-left window patch between the ledge and floor (left of the bed), the viewer must see the same exterior greenery and residential buildings through closed transparent glass, not beige wall. The bed may naturally occlude most of the floor-reaching glass; do not move the bed to reveal it.\nKeep the broad upper window glass completely free of horizontal bars and keep the actual vertical corner support, upper architectural beams and side perimeter. Keep the narrow side vent at far left beside the curtain and show its small subtle handle. Main glass is fixed and closed, with very subtle edge reflections. Do not add any horizontal mid-view rail.\nEverything else is locked: exact bed, bedding, headboard, wardrobe, rug, wood floor, lamps, artwork, air conditioner, curtain positions, all furniture and decor, room geometry, camera, crop, warm light, exterior Shanghai skyline and windows. No new furniture, no new scene, no ocean.\nDeliver native 1536×1024 pixels, landscape 3:2. No text, labels, watermark or approval marks. Unapproved visual concept only.",
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5844adf8-32ea-4d36-9739-dcc9b91dad6f.png"
+        }
+      ],
+      "qa": {
+        "status": "selected after one targeted lower-infill correction",
+        "observations": [
+          "Both visible window main views have no horizontal middle mullion.",
+          "Corner structural post and upper perimeter beams remain.",
+          "Lower-left infill below retained low stone ledge now visibly shows clear glass and greenery to the floor; bed occludes the rest.",
+          "Low interior sill/seat ledge, cushion, vase and books remain below the clear principal view.",
+          "Narrow far-left side sash is tucked beside curtain.",
+          "Bed, wardrobe, rug, lighting and decor remain visually consistent."
+        ],
+        "limitations": [
+          "Side vent hardware is subtle at this viewing scale.",
+          "Furniture and texture preservation is visual rather than pixel-identical; slight generative variation in bed shape and textile detail."
+        ]
+      }
+    },
+    {
+      "name": "master-storage-clear.png",
+      "selected_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-storage-clear.png",
+      "original_source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/master/storage/daywarm.jpg",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "74915bb1d2a7745532b5d4aaeaccec0511d4045fd05731c4b633aff206d0c053",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-825fd7dd-0d98-43af-8938-c8304c4bff39.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "aspect_ratio": "3:2",
+      "format": "PNG",
+      "mode": "RGB",
+      "native_resolution": true,
+      "postprocessing": "None; byte-for-byte copy of selected built-in output. No resizing, cropping or pixel edits.",
+      "sha256": "164d37ffeb5fab38522d6ab55cd3e21d5cb685b59ac8eb2e5dd46df89b323b1a",
+      "generation_history": [
+        {
+          "source_path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/layouts/master/storage/daywarm.jpg",
+          "prompt": "Use case: precise-object-edit.\nInput image: the provided master-bedroom storage-layout photograph is the sole edit target.\nAsset type: unapproved residential window visual concept, photorealistic architectural photograph.\nEdit the window glass assemblies only. Deliver exactly native 1536×1024 pixels, landscape 3:2, retaining precisely the original camera, crop, perspective, lighting, room geometry and ALL furniture.\nAcross the corner window above the built-in storage seat, create large uninterrupted clear FIXED GLASS main fields. Remove the entire horizontal middle rail/mullion from both faces of this corner glazing. The main views above the bench must have NO horizontal line, bar, transom or guardrail crossing them. Keep the existing actual corner vertical support, outer perimeter frames and overhead beams. The fixed glass continues full height behind the bench wherever visible or meaningful, with no invented mid-glass subdivision.\nAdd just one narrow operable vent sash at the far left side beside the left curtain, with a slim vertical frame and small believable handle, leaving the broad central glass fields uninterrupted.\nAlso remove the horizontal middle rail from the cropped right-side bedroom window and use continuous fixed clear glass to the floor behind the furnishing, preserving its perimeter.\nCritical invariants: preserve the bed and exact bed position and size, headboard, bedding, rug, wardrobe, all cabinets, the complete L-shaped window storage bench and cushions, the OPEN pullout storage drawer with bedding, the pullout desk/work surface, chair, notebook, pencil cup, decor, artwork, lamps, curtains and air conditioner. Do not remove or rearrange any storage furniture. Do not change the drawer opening.\nPreserve the original Shanghai residential skyline and warm daylight, same buildings, scale and perspective. No sea, ocean, waterfront, new landmark or outdoor scene replacement.\nThe glazing remains visibly closed GLASS with subtle edge reflection and faint room reflections, never an open unguarded drop. No text, logos, watermark, dimensions or approval symbols; visual concept only, no engineering approval.",
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-825fd7dd-0d98-43af-8938-c8304c4bff39.png"
+        }
+      ],
+      "qa": {
+        "status": "selected",
+        "observations": [
+          "Corner-window main glass fields are uninterrupted above the storage bench with no middle horizontal rail.",
+          "Narrow leftmost operable sash and handle visible beside curtain.",
+          "Existing corner support and perimeter beams remain.",
+          "Bed, L-shaped storage bench, cushions, open pullout bedding drawer, pullout desk, chair and decor retained.",
+          "Cropped right-side window middle rail removed.",
+          "Full-height glazing behind the bench is conceptually occluded by retained storage."
+        ],
+        "limitations": [
+          "The retained opaque storage bench hides the lower glazing, so full-height glass behind it cannot be visually verified.",
+          "Furniture and skyline retention is visual rather than pixel-identical."
+        ]
+      }
+    }
+  ]
+}

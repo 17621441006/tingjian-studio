@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "task": "Leather-bed clear glazing with three matching bedding options",
+  "creation_date": "2026-09-25",
+  "generation_tool": "image_gen.imagegen",
+  "mode": "built-in edit",
+  "output_policy": "Native generated PNGs copied byte-for-byte; no filter, resizing, upscaling, compositing or pixel postprocessing.",
+  "assets": [
+    {
+      "filename": "master-leather-taupe-clear.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-taupe-clear.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+      "glazing_reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-56b17fae-cb1e-4d20-9d71-efc873b8d1a5.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-56b17fae-cb1e-4d20-9d71-efc873b8d1a5.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-taupe-clear.png"
+      ],
+      "attempts": [
+        {
+          "number": 1,
+          "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+          "reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+          "prompt": "Use case: precise-object-edit. Asset type: photoreal interior window option. Image 1 is the ONLY edit target and sole source for the bedroom, leather bed and textiles. Image 2 is a glazing-architecture reference ONLY; do not copy its bed, bedding, furniture, lighting or viewpoint. Edit ONLY the windows in Image 1 to match the clear-glazing idea: uninterrupted full-height fixed main glass panels with NO eye-level horizontal divider or crossbar, plus a very narrow operable side ventilation panel. Retain the structural vertical corner post, outer window frames and actual corner geometry. Continue glazing down to floor level in the bay as shown in Image 2 while retaining the existing bay ledge with its objects. Apply the same clear full-height, horizontal-divider-free design to the visible right-edge window. Keep glass physically realistic, with subtle reflections and the existing Shanghai residential city view, matching original exterior building scale, placement and haze. Keep the same warm late-day lighting and interior exposure. Preserve Image 1's original bedding exactly: creamy ivory duvet and ivory pillows with the broad taupe-brown woven fringed throw and dark accent pillow, keeping their positions, folds, edges, fullness and colors unchanged. Keep the cognac leather wingback headboard and leather bed frame EXACTLY as in Image 1, including curves, wings, seams, side rails and foot rail; do not use the low wooden bed in Image 2. Keep the exact room, layout, furniture, lamps, nightstands, curtains, rug, floor, wardrobes, door, vases, plants, wall art, ceiling light and wall finishes from Image 1. Preserve camera position, focal length, crop, 3:2 composition and scale. Only the window construction may change. No other architectural changes. No new d\u00e9cor or furniture, no text or watermark. Return one native 1536x1024 PNG photograph, without filter, resizing, upscaling or postprocessing.",
+          "parameters": {
+            "referenced_image_paths": [
+              "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+              "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png"
+            ],
+            "transparent_background": false
+          },
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+          "qa": "Correct bedding and bed frame retained; eye-level divider removed, but low panel below bay ledge stayed opaque. Corrected in attempt 2.",
+          "generated_info": {
+            "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "bytes": 2140758,
+            "sha256": "145fbf34247231d51d6bb67b6caff6277e1a6e112523cedd166fdb2b5dd19da6"
+          }
+        },
+        {
+          "number": 2,
+          "edit_target": "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+          "reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+          "prompt": "Use case: precise-object-edit. Image 1 is the edit target; Image 2 is reference ONLY for the glazing beneath the corner bay-window ledge. Make ONE local correction to Image 1: replace the solid opaque low wall directly beneath the left corner bay-window stone ledge with clear transparent fixed glass continuing all the way down to the floor, exactly as the glazing detail in Image 2. The outside trees and city should be visible below that ledge. Preserve the existing stone window ledge at exactly its current height and retain ALL ledge objects; do not remove, shorten or shift the ledge. Retain corner structural post and narrow outer frame and side vent. Upper main window panes must remain uninterrupted glass without an eye-level horizontal divider. Do not change the right window or any other part of Image 1. In particular, preserve Image 1's leather wingback headboard, cognac leather frame, exact duvet, blanket width/color/folds/fringe, exact pillows, bed size, room, perspective, camera crop, furniture, lamps, curtains, floor, rug, wall art and warm lighting completely unchanged. Do not copy bed or bedding from Image 2. Only the material of that single low opaque panel beneath the bay ledge changes to clear glass. One native 1536x1024 3:2 PNG. No filtering, resizing, upscaling, compositing, text or watermark.",
+          "parameters": {
+            "referenced_image_paths": [
+              "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+              "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png"
+            ],
+            "transparent_background": false
+          },
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-56b17fae-cb1e-4d20-9d71-efc873b8d1a5.png",
+          "qa": "Accepted after targeted correction: low bay panel now transparent glass. Bay ledge and matching leather bed/bedding retained.",
+          "generated_info": {
+            "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-56b17fae-cb1e-4d20-9d71-efc873b8d1a5.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "bytes": 2096148,
+            "sha256": "5eec5f6952514a87315054b3e156229f2e163f8fe2ce7223f85f2241d1ad7a4b"
+          }
+        }
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "framing": "Native 3:2 framing visually preserved.",
+        "glazing": "Large clear main panes with no eye-level horizontal divider; slim side sash and structural vertical corner/frame retained. Glazing extends below bay ledge and down the right-edge window.",
+        "bedding": "Correct respective taupe/ivory/olive textiles retained; no bedding substitution.",
+        "bed": "Cognac leather wingback headboard and cognac leather frame visually retained.",
+        "scene": "Furniture, camera, warm lighting and recognizable Shanghai residential view remain visually consistent."
+      },
+      "caveats": [
+        "Small AI-generated variations in texture, skyline foliage and details remain; this is not a pixel-identical deterministic masked edit."
+      ],
+      "source_files": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "JPEG",
+          "bytes": 472016,
+          "sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-31294733-83c5-4ded-b307-a62d61cd1792.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2140758,
+          "sha256": "145fbf34247231d51d6bb67b6caff6277e1a6e112523cedd166fdb2b5dd19da6"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-56b17fae-cb1e-4d20-9d71-efc873b8d1a5.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2096148,
+          "sha256": "5eec5f6952514a87315054b3e156229f2e163f8fe2ce7223f85f2241d1ad7a4b"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-taupe-clear.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2096148,
+          "sha256": "5eec5f6952514a87315054b3e156229f2e163f8fe2ce7223f85f2241d1ad7a4b"
+        }
+      ],
+      "glazing_reference_info": {
+        "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "bytes": 2185294,
+        "sha256": "edaed8547e1de79ad9d5ef443efc95cc59136bfa63b4acd8d22d9c6fa6ad5b18"
+      },
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "5eec5f6952514a87315054b3e156229f2e163f8fe2ce7223f85f2241d1ad7a4b",
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "master-leather-ivory-clear.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-ivory-clear.png",
+      "edit_target": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+      "glazing_reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-f6d18cc6-bd3e-4ee5-8ffa-ad3a4cc2b99e.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-5c4770ea-7cb9-45c3-8156-2df7ec697f4d.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-f6d18cc6-bd3e-4ee5-8ffa-ad3a4cc2b99e.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-ivory-clear.png"
+      ],
+      "attempts": [
+        {
+          "number": 1,
+          "edit_target": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+          "reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+          "prompt": "Use case: precise-object-edit. Asset type: photoreal interior window option. Image 1 is the ONLY edit target and sole source for the bedroom, leather bed and textiles. Image 2 is a glazing-architecture reference ONLY; do not copy its bed, bedding, furniture, lighting or viewpoint. Edit ONLY the windows in Image 1 to match the clear-glazing idea: uninterrupted full-height fixed main glass panels with NO eye-level horizontal divider or crossbar, plus a very narrow operable side ventilation panel. Retain the structural vertical corner post, outer window frames and actual corner geometry. Continue glazing down to floor level in the bay as shown in Image 2 while retaining the existing bay ledge with its objects. Apply the same clear full-height, horizontal-divider-free design to the visible right-edge window. Keep glass physically realistic, with subtle reflections and the existing Shanghai residential city view, matching original exterior building scale, placement and haze. Keep the same warm late-day lighting and interior exposure. Preserve Image 1's ivory bedding exactly: soft washed ivory linen duvet and ivory pillows, light taupe accent pillow and the narrow folded taupe fringed throw, keeping their positions, folds, edges, fullness and colors unchanged. Do not replace the narrow throw with a broad blanket. Keep the cognac leather wingback headboard and leather bed frame EXACTLY as in Image 1, including curves, wings, seams, side rails and foot rail; do not use the low wooden bed in Image 2. Keep the exact room, layout, furniture, lamps, nightstands, curtains, rug, floor, wardrobes, door, vases, plants, wall art, ceiling light and wall finishes from Image 1. Preserve camera position, focal length, crop, 3:2 composition and scale. Only the window construction may change. No other architectural changes. No new d\u00e9cor or furniture, no text or watermark. Return one native 1536x1024 PNG photograph, without filter, resizing, upscaling or postprocessing.",
+          "parameters": {
+            "referenced_image_paths": [
+              "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+              "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png"
+            ],
+            "transparent_background": false
+          },
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+          "qa": "Correct bedding and bed frame retained; eye-level divider removed, but low panel below bay ledge stayed opaque. Corrected in attempt 2.",
+          "generated_info": {
+            "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "bytes": 2112979,
+            "sha256": "dd491939cc47bfd7223cb3f4cd2fb9082e310a8c03108bbf4590400490199708"
+          }
+        },
+        {
+          "number": 2,
+          "edit_target": "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+          "reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+          "prompt": "Use case: precise-object-edit. Image 1 is the edit target; Image 2 is reference ONLY for the glazing beneath the corner bay-window ledge. Make ONE local correction to Image 1: replace the solid opaque low wall directly beneath the left corner bay-window stone ledge with clear transparent fixed glass continuing all the way down to the floor, exactly as the glazing detail in Image 2. The outside trees and city should be visible below that ledge. Preserve the existing stone window ledge at exactly its current height and retain ALL ledge objects; do not remove, shorten or shift the ledge. Retain corner structural post and narrow outer frame and side vent. Upper main window panes must remain uninterrupted glass without an eye-level horizontal divider. Do not change the right window or any other part of Image 1. In particular, preserve Image 1's leather wingback headboard, cognac leather frame, exact duvet, blanket width/color/folds/fringe, exact pillows, bed size, room, perspective, camera crop, furniture, lamps, curtains, floor, rug, wall art and warm lighting completely unchanged. Do not copy bed or bedding from Image 2. Only the material of that single low opaque panel beneath the bay ledge changes to clear glass. One native 1536x1024 3:2 PNG. No filtering, resizing, upscaling, compositing, text or watermark.",
+          "parameters": {
+            "referenced_image_paths": [
+              "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+              "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png"
+            ],
+            "transparent_background": false
+          },
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-f6d18cc6-bd3e-4ee5-8ffa-ad3a4cc2b99e.png",
+          "qa": "Accepted after targeted correction: low bay panel now transparent glass. Bay ledge and matching leather bed/bedding retained.",
+          "generated_info": {
+            "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-f6d18cc6-bd3e-4ee5-8ffa-ad3a4cc2b99e.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "bytes": 2121653,
+            "sha256": "b80e678a1525ff82703c39c5b35594ce1e6e8c1a1430356edce7771393b1bd14"
+          }
+        }
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "framing": "Native 3:2 framing visually preserved.",
+        "glazing": "Large clear main panes with no eye-level horizontal divider; slim side sash and structural vertical corner/frame retained. Glazing extends below bay ledge and down the right-edge window.",
+        "bedding": "Correct respective taupe/ivory/olive textiles retained; no bedding substitution.",
+        "bed": "Cognac leather wingback headboard and cognac leather frame visually retained.",
+        "scene": "Furniture, camera, warm lighting and recognizable Shanghai residential view remain visually consistent."
+      },
+      "caveats": [
+        "Small AI-generated variations in texture, skyline foliage and details remain; this is not a pixel-identical deterministic masked edit."
+      ],
+      "upstream_provenance": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/provenance.json",
+      "source_files": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "JPEG",
+          "bytes": 472016,
+          "sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5c4770ea-7cb9-45c3-8156-2df7ec697f4d.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2168764,
+          "sha256": "545663492033d5a821f8355777ad5aa14c3c738b03537adad94bd709176c7e8b"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2168764,
+          "sha256": "545663492033d5a821f8355777ad5aa14c3c738b03537adad94bd709176c7e8b"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-2eca0c86-99b8-4d48-aa3f-ba81f4772263.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2112979,
+          "sha256": "dd491939cc47bfd7223cb3f4cd2fb9082e310a8c03108bbf4590400490199708"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-f6d18cc6-bd3e-4ee5-8ffa-ad3a4cc2b99e.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2121653,
+          "sha256": "b80e678a1525ff82703c39c5b35594ce1e6e8c1a1430356edce7771393b1bd14"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-ivory-clear.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2121653,
+          "sha256": "b80e678a1525ff82703c39c5b35594ce1e6e8c1a1430356edce7771393b1bd14"
+        }
+      ],
+      "glazing_reference_info": {
+        "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "bytes": 2185294,
+        "sha256": "edaed8547e1de79ad9d5ef443efc95cc59136bfa63b4acd8d22d9c6fa6ad5b18"
+      },
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "b80e678a1525ff82703c39c5b35594ce1e6e8c1a1430356edce7771393b1bd14",
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "master-leather-olive-clear.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-olive-clear.png",
+      "edit_target": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+      "glazing_reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b2d0a03b-b0d8-409b-964e-38506487829c.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-10643081-9d89-4654-ad9e-1eed19251cc1.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-b2d0a03b-b0d8-409b-964e-38506487829c.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-olive-clear.png"
+      ],
+      "attempts": [
+        {
+          "number": 1,
+          "edit_target": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+          "reference": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+          "prompt": "Use case: precise-object-edit. Asset type: photoreal interior window option. Image 1 is the ONLY edit target and sole source for the bedroom, leather bed and textiles. Image 2 is a glazing-architecture reference ONLY; do not copy its bed, bedding, furniture, lighting or viewpoint. Edit ONLY the windows in Image 1 to match the clear-glazing idea: uninterrupted full-height fixed main glass panels with NO eye-level horizontal divider or crossbar, plus a very narrow operable side ventilation panel. Retain the structural vertical corner post, outer window frames and actual corner geometry. Continue glazing down to floor level in the bay as shown in Image 2 while retaining the existing bay ledge with its objects. Apply the same clear full-height, horizontal-divider-free design to the visible right-edge window. Keep glass physically realistic, with subtle reflections and the existing Shanghai residential city view, matching original exterior building scale, placement and haze. Keep the same warm late-day lighting and interior exposure. Preserve Image 1's olive bedding exactly: muted grey-olive duvet, ivory pillows, olive accent pillow and dark cocoa fringed accent blanket, keeping their positions, folds, edges, fullness and colors unchanged. Do not recolor the duvet to ivory and do not brighten or saturate the olive. Keep the cognac leather wingback headboard and leather bed frame EXACTLY as in Image 1, including curves, wings, seams, side rails and foot rail; do not use the low wooden bed in Image 2. Keep the exact room, layout, furniture, lamps, nightstands, curtains, rug, floor, wardrobes, door, vases, plants, wall art, ceiling light and wall finishes from Image 1. Preserve camera position, focal length, crop, 3:2 composition and scale. Only the window construction may change. No other architectural changes. No new d\u00e9cor or furniture, no text or watermark. Return one native 1536x1024 PNG photograph, without filter, resizing, upscaling or postprocessing.",
+          "parameters": {
+            "referenced_image_paths": [
+              "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+              "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png"
+            ],
+            "transparent_background": false
+          },
+          "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b2d0a03b-b0d8-409b-964e-38506487829c.png",
+          "qa": "Accepted: full-height clear main panes, no eye-level divider, narrow side ventilation sash; olive bedding and leather frame retained.",
+          "generated_info": {
+            "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b2d0a03b-b0d8-409b-964e-38506487829c.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "bytes": 2132164,
+            "sha256": "0ecf5f18d1325152d49645e6a0dc57868e726bda45d1646258cb1de728dd7676"
+          }
+        }
+      ],
+      "qa": {
+        "visually_inspected": true,
+        "framing": "Native 3:2 framing visually preserved.",
+        "glazing": "Large clear main panes with no eye-level horizontal divider; slim side sash and structural vertical corner/frame retained. Glazing extends below bay ledge and down the right-edge window.",
+        "bedding": "Correct respective taupe/ivory/olive textiles retained; no bedding substitution.",
+        "bed": "Cognac leather wingback headboard and cognac leather frame visually retained.",
+        "scene": "Furniture, camera, warm lighting and recognizable Shanghai residential view remain visually consistent."
+      },
+      "caveats": [
+        "Small AI-generated variations in texture, skyline foliage and details remain; this is not a pixel-identical deterministic masked edit."
+      ],
+      "upstream_provenance": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/provenance.json",
+      "source_files": [
+        {
+          "path": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "JPEG",
+          "bytes": 472016,
+          "sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-10643081-9d89-4654-ad9e-1eed19251cc1.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2165732,
+          "sha256": "0655676b3f0573fecaadf32b8305daf8f91250ec3060442533143ca49f31ae43"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2165732,
+          "sha256": "0655676b3f0573fecaadf32b8305daf8f91250ec3060442533143ca49f31ae43"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b2d0a03b-b0d8-409b-964e-38506487829c.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2132164,
+          "sha256": "0ecf5f18d1325152d49645e6a0dc57868e726bda45d1646258cb1de728dd7676"
+        },
+        {
+          "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-leather-olive-clear.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "bytes": 2132164,
+          "sha256": "0ecf5f18d1325152d49645e6a0dc57868e726bda45d1646258cb1de728dd7676"
+        }
+      ],
+      "glazing_reference_info": {
+        "path": "/workspace/scratch/aa0f93406d63/v13-assets/windows/master-clear.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "bytes": 2185294,
+        "sha256": "edaed8547e1de79ad9d5ef443efc95cc59136bfa63b4acd8d22d9c6fa6ad5b18"
+      },
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "0ecf5f18d1325152d49645e6a0dc57868e726bda45d1646258cb1de728dd7676",
+      "byte_identical_to_generated": true
+    }
+  ]
+}

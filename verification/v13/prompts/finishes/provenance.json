@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "task": "v13 flooring and bedding variants",
+  "creation_date": "2026-09-25",
+  "generation_tool": "image_gen.imagegen",
+  "mode": "built-in edit",
+  "output_policy": "Native generated PNGs copied byte-for-byte; no crop, filter, resize, upscaling, compositing, or other pixel post-processing.",
+  "common_visual_review": "All eight generated results inspected at full composition. Camera framing, room layout and large architecture remain visually consistent with the source. AI regeneration introduces small texture/detail variations outside the intended material/textile area; these are not pixel-identical masked edits.",
+  "assets": [
+    {
+      "filename": "cognac-glass-oak.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-oak.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-20e4da67-55f2-4996-a46b-6a030fa34981.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-20e4da67-55f2-4996-a46b-6a030fa34981.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-oak.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior material option photograph. Image 1 is the edit target. Replace ONLY the exposed stone/tile floor with medium warm natural oak wood flooring, straight parallel planks with fine realistic grain and restrained matte finish. Apply the identical oak continuously to ALL exposed floor regions: large lower-left foreground, foreground strip along bottom and sides of rug, between TV console and rug, under/around console legs, open circulation zone, rear dining area under the dining table/chairs, edges along walls and visible doorway threshold. Preserve realistic board scale and converging room perspective. Do not use herringbone or parquet. Keep the cognac leather sofa, every sofa cushion and throw, round smoked-glass coffee table and its fine metal frame, objects on it, large taupe rug and its exact edge shape, TV console, TV, dining furniture, shelves, wall artwork, vases, plants, doors, walls, ceiling, lighting fixtures, window/partition, architecture, camera position, 3:2 framing, crop, scale, perspective, exposure and warm late-day illumination unchanged. Retain all existing cast/contact shadows accurately on the new wood floor. Only the floor material changes; no recoloring of walls or furniture, no Photoshop-like cutout boundary, no seams around objects, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Floor replacement covers exposed foreground, rug edges and rear dining area continuously. Cognac sofa, table, rug, furniture and architecture visually maintained; realistic shadows, no visible cutout boundary.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "aaa2bac75946be2246e30b1a44cdf1b01631b31e70e7374ff511690b106cc683",
+      "generated_sha256": "ef9b2cc0265f7f0cafc97ae55b60d946b4d870374d4e76588c882fbc58fb5051",
+      "output_sha256": "ef9b2cc0265f7f0cafc97ae55b60d946b4d870374d4e76588c882fbc58fb5051",
+      "bytes": 2180021,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "cognac-glass-smoked.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-smoked.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e838c7d8-a429-4e57-add5-6820bb9724f7.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-e838c7d8-a429-4e57-add5-6820bb9724f7.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/cognac-glass-smoked.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior material option photograph. Image 1 is the edit target. Replace ONLY the exposed stone/tile floor with rich smoked walnut wood flooring, deep natural brown but visibly grained, straight parallel planks with fine realistic grain and restrained matte finish. Apply the identical smoked walnut continuously to ALL exposed floor regions: large lower-left foreground, foreground strip along bottom and sides of rug, between TV console and rug, under/around console legs, open circulation zone, rear dining area under the dining table/chairs, edges along walls and visible doorway threshold. Preserve realistic board scale and converging room perspective. Do not use herringbone or parquet. Keep the cognac leather sofa, every sofa cushion and throw, round smoked-glass coffee table and its fine metal frame, objects on it, large taupe rug and its exact edge shape, TV console, TV, dining furniture, shelves, wall artwork, vases, plants, doors, walls, ceiling, lighting fixtures, window/partition, architecture, camera position, 3:2 framing, crop, scale, perspective, exposure and warm late-day illumination unchanged. Retain all existing cast/contact shadows accurately on the new wood floor. Only the floor material changes; no recoloring of walls or furniture, no Photoshop-like cutout boundary, no seams around objects, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Floor replacement covers exposed foreground, rug edges and rear dining area continuously. Cognac sofa, table, rug, furniture and architecture visually maintained; realistic shadows, no visible cutout boundary.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "aaa2bac75946be2246e30b1a44cdf1b01631b31e70e7374ff511690b106cc683",
+      "generated_sha256": "ef8a0b617dfe8030eafe09f02049593b5f766c8ae30835f0af3f185de8c5f9d7",
+      "output_sha256": "ef8a0b617dfe8030eafe09f02049593b5f766c8ae30835f0af3f185de8c5f9d7",
+      "bytes": 2174126,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "linen-ivory.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-ivory.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-714b5225-16eb-4246-a413-10338dbb7d7a.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-714b5225-16eb-4246-a413-10338dbb7d7a.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-ivory.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to premium soft washed ivory linen bedding: a plush ivory linen duvet with delicate tactile weave and relaxed natural folds, refined ivory pillows at the head, and one taupe narrow neatly folded linen throw across the lower third of the mattress. The throw should be visibly narrower than the original broad brown throw, understated and tailored with natural folds. Retain realistic daylight and shadow within fabric folds, an inviting premium interior-photography feel. Keep the original soft upholstered linen bed frame and rounded upholstered headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "47bfc7367830aa92ff14500f194b9b5689e33c5f33a2d383011151ab90209ce0",
+      "generated_sha256": "34846b10ec1256245384aa8bbd2a54923fadb1f8aa8c5b4748f8f9ce0d2774eb",
+      "output_sha256": "34846b10ec1256245384aa8bbd2a54923fadb1f8aa8c5b4748f8f9ce0d2774eb",
+      "bytes": 2157611,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "linen-olive.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-olive.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-e055e700-b7af-43e8-a792-75d2561fd679.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-e055e700-b7af-43e8-a792-75d2561fd679.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/linen-olive.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to a subtle muted olive sateen/linen duvet, with a desaturated grey-olive tone and tactile low-luster premium fabric; ivory pillows at the head; and a dark cocoa accent blanket folded across the lower third of the mattress. Use natural relaxed folds and realistic fabric weight, premium interior-photography feel. Olive must be subdued and earthy, NOT bright green, emerald, mint or saturated green. Retain realistic daylight and shadow within fabric folds. Keep the original soft upholstered linen bed frame and rounded upholstered headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/linen.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "47bfc7367830aa92ff14500f194b9b5689e33c5f33a2d383011151ab90209ce0",
+      "generated_sha256": "452b87a51bc2c710c8d7848a6bea38eb0551e35d54b9efa4e39d6b4ab06ad048",
+      "output_sha256": "452b87a51bc2c710c8d7848a6bea38eb0551e35d54b9efa4e39d6b4ab06ad048",
+      "bytes": 2188310,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "leather-ivory.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5c4770ea-7cb9-45c3-8156-2df7ec697f4d.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-5c4770ea-7cb9-45c3-8156-2df7ec697f4d.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-ivory.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to premium soft washed ivory linen bedding: a plush ivory linen duvet with delicate tactile weave and relaxed natural folds, refined ivory pillows at the head, and one taupe narrow neatly folded linen throw across the lower third of the mattress. The throw should be visibly narrower than the original broad brown throw, understated and tailored with natural folds. Retain realistic daylight and shadow within fabric folds, an inviting premium interior-photography feel. Keep the original cognac leather upholstered bed frame and tall wingback leather headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925",
+      "generated_sha256": "545663492033d5a821f8355777ad5aa14c3c738b03537adad94bd709176c7e8b",
+      "output_sha256": "545663492033d5a821f8355777ad5aa14c3c738b03537adad94bd709176c7e8b",
+      "bytes": 2168764,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "leather-olive.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-10643081-9d89-4654-ad9e-1eed19251cc1.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-10643081-9d89-4654-ad9e-1eed19251cc1.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/leather-olive.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to a subtle muted olive sateen/linen duvet, with a desaturated grey-olive tone and tactile low-luster premium fabric; ivory pillows at the head; and a dark cocoa accent blanket folded across the lower third of the mattress. Use natural relaxed folds and realistic fabric weight, premium interior-photography feel. Olive must be subdued and earthy, NOT bright green, emerald, mint or saturated green. Retain realistic daylight and shadow within fabric folds. Keep the original cognac leather upholstered bed frame and tall wingback leather headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/leather.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925",
+      "generated_sha256": "0655676b3f0573fecaadf32b8305daf8f91250ec3060442533143ca49f31ae43",
+      "output_sha256": "0655676b3f0573fecaadf32b8305daf8f91250ec3060442533143ca49f31ae43",
+      "bytes": 2165732,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "wood-ivory.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-ivory.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-5c545e84-8738-46d2-b9bc-6d407e51630a.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-5c545e84-8738-46d2-b9bc-6d407e51630a.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-ivory.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to premium soft washed ivory linen bedding: a plush ivory linen duvet with delicate tactile weave and relaxed natural folds, refined ivory pillows at the head, and one taupe narrow neatly folded linen throw across the lower third of the mattress. The throw should be visibly narrower than the original broad brown throw, understated and tailored with natural folds. Retain realistic daylight and shadow within fabric folds, an inviting premium interior-photography feel. Keep the original low dark solid-wood platform bed frame, feet, and its inset rounded leather headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "d144114c07de1084b6fce2e55a225cbf4bbf6c12f98b0b126e165d315942b517",
+      "generated_sha256": "0a35ae9c777c9b4097f9f29cec19c61014f7ef3008aecee3a025db32fe644ed2",
+      "output_sha256": "0a35ae9c777c9b4097f9f29cec19c61014f7ef3008aecee3a025db32fe644ed2",
+      "bytes": 2161875,
+      "byte_identical_to_generated": true
+    },
+    {
+      "filename": "wood-olive.png",
+      "output_path": "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-olive.png",
+      "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+      "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-3caafa6d-a3cd-4ae7-9760-5aca793c80bf.png",
+      "source_chain": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+        "/workspace/scratch/aa0f93406d63/generated_images/exec-3caafa6d-a3cd-4ae7-9760-5aca793c80bf.png",
+        "/workspace/scratch/aa0f93406d63/v13-assets/finishes/wood-olive.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: interior bedding option photograph. Image 1 is the edit target. Change ONLY the removable bed textiles to a subtle muted olive sateen/linen duvet, with a desaturated grey-olive tone and tactile low-luster premium fabric; ivory pillows at the head; and a dark cocoa accent blanket folded across the lower third of the mattress. Use natural relaxed folds and realistic fabric weight, premium interior-photography feel. Olive must be subdued and earthy, NOT bright green, emerald, mint or saturated green. Retain realistic daylight and shadow within fabric folds. Keep the original low dark solid-wood platform bed frame, feet, and its inset rounded leather headboard exactly unchanged in design, materials, silhouette and dimensions. Keep the front and side rails visible as in the reference. Preserve ALL non-bed-textile details unchanged: wall and wall art, continuous wood wall panel behind bed, nightstands, lamps, rug, wood floor, window ledge and cushions, vases and branches, curtains, window frames, outdoor skyline, wardrobe, left door, air conditioner, ceiling light, room architecture, layout and camera. Same exact viewpoint, crop, 3:2 framing, scale and natural warm late-afternoon lighting. Only removable duvet, pillows and throw/blanket may change. No new furniture, no headboard/frame redesign, no text or watermarks. Deliver one native 1536x1024 landscape photograph without resizing, upscaling or filtering.",
+      "parameters": {
+        "referenced_image_paths": [
+          "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/pieces/master/wood.jpg"
+        ],
+        "transparent_background": false
+      },
+      "native_requested_dimensions": [
+        1536,
+        1024
+      ],
+      "attempts": 1,
+      "visual_review": "Ivory/olive duvet, pillows and coordinating folded throw rendered with natural folds. Original bed frame and headboard type retained; room geometry and layout visually maintained.",
+      "caveats": [
+        "Small generative texture/detail drift exists in non-target areas; no deterministic mask was applied."
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "native_generated_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "mode": "RGB",
+      "final_dimensions": [
+        1536,
+        1024
+      ],
+      "source_sha256": "d144114c07de1084b6fce2e55a225cbf4bbf6c12f98b0b126e165d315942b517",
+      "generated_sha256": "55ac1a7b5ba593dc53fa9e5a99cb6aee126d5046d393b680ab4bb71bc4d31792",
+      "output_sha256": "55ac1a7b5ba593dc53fa9e5a99cb6aee126d5046d393b680ab4bb71bc4d31792",
+      "bytes": 2168761,
+      "byte_identical_to_generated": true
+    }
+  ]
+}

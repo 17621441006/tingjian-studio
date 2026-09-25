@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "method": "Actual Three.js geometry and material-state checks; UI tested separately; no browser/GPU frame-rate measurement",
+  "newSchemeRooms": 16,
+  "stats": [
+    {
+      "design": "dusk",
+      "meshes": 181,
+      "triangles": 129484
+    },
+    {
+      "design": "chinese",
+      "meshes": 180,
+      "triangles": 129668
+    },
+    {
+      "design": "stone",
+      "meshes": 180,
+      "triangles": 129668
+    },
+    {
+      "design": "collector",
+      "meshes": 180,
+      "triangles": 129668
+    },
+    {
+      "design": "copper",
+      "meshes": 178,
+      "triangles": 127732
+    },
+    {
+      "design": "amber",
+      "meshes": 174,
+      "triangles": 123988
+    }
+  ]
+}

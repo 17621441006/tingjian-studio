@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "image_generation_calls": 6,
+  "source_anchor": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+  "also_inspected": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/variants/clay/living.jpg",
+  "output_dimensions": [
+    1536,
+    1024
+  ],
+  "native_output": true,
+  "upscaled": false,
+  "postprocessing": "None. Generated PNGs copied byte-for-byte to requested destination.",
+  "generation_dag": [
+    [
+      "dusk/living.jpg",
+      "cognac-glass"
+    ],
+    [
+      "cognac-glass",
+      "cognac-stone"
+    ],
+    [
+      "cognac-glass",
+      "wine-glass"
+    ],
+    [
+      "cognac-glass",
+      "mink-glass"
+    ],
+    [
+      "wine-glass + cognac-stone table reference",
+      "wine-stone"
+    ],
+    [
+      "mink-glass + cognac-stone table reference",
+      "mink-stone"
+    ]
+  ],
+  "assets": [
+    {
+      "combination": "cognac-glass",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-glass.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-0415b083-94b6-4ce6-bf51-ac938ad34546.png",
+      "references": [
+        "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg"
+      ],
+      "inspected_with_view_image": true
+    },
+    {
+      "combination": "cognac-stone",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-stone.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-93439376-cc50-4418-a2e5-34209ca988ad.png",
+      "references": [
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-glass.png"
+      ],
+      "inspected_with_view_image": true
+    },
+    {
+      "combination": "wine-glass",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/wine-glass.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-1e92bea2-0d2e-4463-b17c-6de0c746478a.png",
+      "references": [
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-glass.png"
+      ],
+      "inspected_with_view_image": true
+    },
+    {
+      "combination": "wine-stone",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/wine-stone.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-54012b96-aacc-4c10-9cee-2575e9f66987.png",
+      "references": [
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/wine-glass.png",
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-stone.png"
+      ],
+      "inspected_with_view_image": true
+    },
+    {
+      "combination": "mink-glass",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/mink-glass.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-94102590-8480-4139-a12d-15e964e89d11.png",
+      "references": [
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-glass.png"
+      ],
+      "inspected_with_view_image": true
+    },
+    {
+      "combination": "mink-stone",
+      "path": "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/mink-stone.png",
+      "source_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-226527f3-f368-4f77-b01e-40d721f7f4a5.png",
+      "references": [
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/mink-glass.png",
+        "/workspace/scratch/aa0f93406d63/v11-assets/pieces/living/cognac-stone.png"
+      ],
+      "inspected_with_view_image": true
+    }
+  ],
+  "visual_qa": {
+    "confirmed": [
+      "Six coherent 3:2 full-room photographs; same framing and recognizable architecture.",
+      "Slim new raised-foot sofa silhouette in cognac leather, muted oxblood leather and warm mink woven fabric.",
+      "Glass variants retain the same airy smoked-glass/bronze table design; stone variants retain matching dark rounded rectangular thin stone table on slender dark supports.",
+      "Rug and warm grey stone floor visually consistent across all combinations; tabletop decor arrangement retained.",
+      "No composited furniture cutouts, no upscaling, no Site edits."
+    ],
+    "adherence_notes": [
+      "Built-in edits preserve scene geometry well but are not pixel-identical: fine wall, floor, rug, textile and stone microtexture can vary slightly between combinations.",
+      "The stone tabletop reads as a compact rounded rectangle, close to square in perspective.",
+      "The shared generated master has slightly more pronounced floor surface microtexture than the original Dusk source."
+    ]
+  }
+}
