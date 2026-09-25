@@ -1,14 +1,16 @@
-# 历史资料归档分支
+# 庭间 v17 历史与第二标签页快照
 
-分支：`archive/history-v17`
+`archive/heavy/history-v17.tar.gz` 是独立归档的完整运行快照，包含历史/第二标签页以及它们引用的共享原始素材；main 不保存此重复压缩包。
+为保持 main 完整离线运行，共享资源的唯一运行副本继续位于 main/dist。归档包不替代 main 的正常 build，不用于覆盖当前线上 Site。
 
-用途：保存“历史记录 / 第二个标签页”相关的旧方案、重复大图、阶段性实验资源和暂时不用的功能，避免主分支持续膨胀。
+```sh
+git clone --single-branch --branch archive/history-v17 https://github.com/17621441006/tingjian-studio.git tingjian-history
+cd tingjian-history
+git lfs install
+git lfs pull
+git lfs fsck
+tar -xzf archive/heavy/history-v17.tar.gz
+python3 -m http.server 8000 --directory dist
+```
 
-主分支原则：
-- 仅保留当前 v17 正常运行所需的 `dist/` 资源。
-- 单文件尽量低于 100 MiB。
-- 主仓库目标控制在 1 GiB 内，安全阈值按 900 MiB 处理。
-- 超大归档统一放 `archive/heavy/` 并使用 Git LFS。
-- 不降低当前主效果图分辨率，不以删关键素材的方式“凑体积”。
-
-此分支建立于 2026-09-26，用于后续迁移历史素材。
+所有超过 100 MB 的归档资产采用 Git LFS。`archive/history-v17-index.json` 记录原始文件大小、图片尺寸和 SHA-256；原图未重编码。

@@ -1,0 +1,4737 @@
+{
+  "sourceSiteCommit": "9b568680e502197891cbb689099956271807aa40",
+  "sourceArchiveSha256": "8202e28e2a7ab944ca9926e25763a91951b25ac5e692b110480056aaadd85865",
+  "sourceArchiveMatchesSiteDist": true,
+  "files": [
+    {
+      "path": "dist/.openai/hosting.json",
+      "bytes": 106,
+      "sha256": "6eb16a0b9a982102652d9191977dd95a0c0aecda3d366cb1f363d253b97a9ba8"
+    },
+    {
+      "path": "dist/app.css",
+      "bytes": 17234,
+      "sha256": "707b3675445fa45629bde06bfada528f9a6e9396ea277bb62dc1ea79fc3edb8b"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 651847,
+      "sha256": "5e7f19ec4f5073b9a55e38453f8164f720d3cd6b84eac0c498aaccbd511672e6"
+    },
+    {
+      "path": "dist/app.js.LEGAL.txt",
+      "bytes": 188,
+      "sha256": "373b12aaa205aa5bc749aef71f9d69280e4b405d39570ffcd66a385349d76587"
+    },
+    {
+      "path": "dist/assets/models/catalog.json",
+      "bytes": 1772,
+      "sha256": "493150b3bd16788d1f5bd0e7cd662c398d87965c985ba8228cce8125edf02f83"
+    },
+    {
+      "path": "dist/assets/models/chair.glb",
+      "bytes": 491552,
+      "sha256": "fef352136f0d58e643eb1d7f0a160134b27378aa07e2236893664d7409c88b68"
+    },
+    {
+      "path": "dist/assets/models/chair.jpg",
+      "bytes": 16362,
+      "sha256": "812e75df09be736ffd10b7ce51d0c2dd62b74bc53f11548dcec9a40c8052ad01",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "dist/assets/models/lounge.glb",
+      "bytes": 9698576,
+      "sha256": "f9d9ba95b18fd0566a1dbeb50726d894d731a692585f82a118b708d258f333e6"
+    },
+    {
+      "path": "dist/assets/models/lounge.jpg",
+      "bytes": 16414,
+      "sha256": "c4731e9f68ccdeaae1557d6f358abb958e15cfc172c8283341dfbbc7d68c8286",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "dist/assets/models/sofa.glb",
+      "bytes": 11513796,
+      "sha256": "fded5f31e59230f09608c55f082415dffdcff201d72b5ee64bf31b0c46d5dc27"
+    },
+    {
+      "path": "dist/assets/models/sofa.jpg",
+      "bytes": 11414,
+      "sha256": "cadf76e758fbe945f40cb216879de5b9f6ea629a4be07fcbc1d63a089ea77eff",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "dist/assets/models/table.glb",
+      "bytes": 10816784,
+      "sha256": "b53a2c275e2c42323dbf56d2049b4c299511e3e51fec81ff0e277a0944780aa4"
+    },
+    {
+      "path": "dist/assets/models/table.jpg",
+      "bytes": 13825,
+      "sha256": "b9e1a1c8a2f747601f4aa4ae8ab627c1c72cf64b07732fb2ddb46eb9b6e34117",
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "dist/assets/textures/darkstone.jpg",
+      "bytes": 117436,
+      "sha256": "4fa5ae86db89855d375b4aee967c5d85d0ef1adb37fa853fb55f10b8eb6bd91d",
+      "width": 506,
+      "height": 506
+    },
+    {
+      "path": "dist/assets/textures/linen.jpg",
+      "bytes": 141634,
+      "sha256": "33bb0f17e160c950a5654aec06e932220863e00aa41d84148ccbec7fb4c55e7e",
+      "width": 506,
+      "height": 506
+    },
+    {
+      "path": "dist/assets/textures/rug.jpg",
+      "bytes": 160492,
+      "sha256": "fe17c0b803feb3e62b7c611278ceb9b5a2c89bfb6695a2556240f136b7fe056e",
+      "width": 506,
+      "height": 506
+    },
+    {
+      "path": "dist/assets/textures/stone.jpg",
+      "bytes": 63500,
+      "sha256": "a80fadfd7ccea5366935f514db94475ce953efc414790c1dbfbbbc7fec08d663",
+      "width": 506,
+      "height": 506
+    },
+    {
+      "path": "dist/assets/textures/wood.jpg",
+      "bytes": 83986,
+      "sha256": "55b7a2acd9041c96055e30e9e5509aeb88b0caf9270c5889be87f5f8c52f79b3",
+      "width": 506,
+      "height": 506
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 30457,
+      "sha256": "0c1d0840258f45592d01efe22f42b25803a29dbbb1fa510c2714534f7a32b136"
+    },
+    {
+      "path": "dist/lab/index.html",
+      "bytes": 7376,
+      "sha256": "211806d046edfcd6de545ee8ac1e04f42c2de24b35cbb87c7f2b0775713a1544"
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-hd.jpg",
+      "bytes": 638326,
+      "sha256": "88fd35a4ac4e8e0ef58f8671c049893afee04858653dbdfacb544bb373d437d0",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-pano.jpg",
+      "bytes": 563162,
+      "sha256": "b08a86586e98a8035b97bfff18d6cdee586bddba46b4007c97ef5c7ecb23ebf2",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-poster.jpg",
+      "bytes": 54745,
+      "sha256": "087f805d3250efc7449a72a77efa2ed28186b0b6747d6d8eb7a734df704bab94",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-thumb.jpg",
+      "bytes": 20596,
+      "sha256": "3b9d8f722e6e83550e39bfba297b80679abb7e59967405ae19621a12370e1ae8",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/bath-hd.jpg",
+      "bytes": 607199,
+      "sha256": "1706fdbe0e56973a94d45ee71b0dca8f4275f06942f40337ecef454cc9679a53",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/bath-pano.jpg",
+      "bytes": 474285,
+      "sha256": "4acf0468864de38c1ca8b73005014b8617bc99e7eee6eafd1b6450ab5299541b",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/bath-poster.jpg",
+      "bytes": 50240,
+      "sha256": "8f6a59150fc31ac0a54f4b97efb62a43e7ae58e735aad01fd0fb2eafad5491ee",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/bath-thumb.jpg",
+      "bytes": 16608,
+      "sha256": "3d1a07f221cc4aca666d9019d099f7f50a445d87c73a34215ddf6dfcf5c05b0e",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/dining-hd.jpg",
+      "bytes": 753313,
+      "sha256": "461c16a4bafd5b77f20b2c7ef49c0223074da5b6f7386d71e06e13d432e3979d",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/dining-pano.jpg",
+      "bytes": 454577,
+      "sha256": "aa93d6b075ee0ceca582b7ca6ae500416476a779b13a38b524142faab16f1b4d",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/dining-poster.jpg",
+      "bytes": 61069,
+      "sha256": "4206aa6c3507f4679c65534249297d8c9767d45d485588a47b22e6ffcfc77bbc",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/dining-thumb.jpg",
+      "bytes": 22028,
+      "sha256": "01bc54a7f1918d9115d26b2d5d136b106f39cd3c161d2189723cb2c3039c77e2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-hd.jpg",
+      "bytes": 691730,
+      "sha256": "38e1877cd965a0abef98e5fb71e42538424d4c48180c665a674d7ea02951f7b4",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-pano.jpg",
+      "bytes": 480436,
+      "sha256": "84120e3a5cb67a8541f2c8e15000959c2c3d074f0a00ddd215ff7718d4466981",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-poster.jpg",
+      "bytes": 54704,
+      "sha256": "5053ae30aec3d2ba4311a130680d9d4619f6ef06be867c02dfc5bb28800e6142",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-thumb.jpg",
+      "bytes": 19636,
+      "sha256": "b3d09a5949235770f4b48f66e18d420bea056e9b89bd8942c381693beb8b85ee",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/living-hd.jpg",
+      "bytes": 729447,
+      "sha256": "675548591549abffdec7c468b5f6106397ce3a6a5cafcab9cd9852894c2066c5",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/living-pano.jpg",
+      "bytes": 448591,
+      "sha256": "41e0557735d0577450a334d7b93e62657f3114d82b5dd923de91d81dbb0a9fcf",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/living-poster.jpg",
+      "bytes": 65093,
+      "sha256": "5c233bbc61f983997ef0bf42e0351d6af4b4bd481bec8561236ea66e030c95d5",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/living-thumb.jpg",
+      "bytes": 24163,
+      "sha256": "6c0775130e3f0777aad51dce09774b48c88a26ea150212fb7a2b02bbcecfb45b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/master-hd.jpg",
+      "bytes": 609373,
+      "sha256": "5b3bb571cd8a9296e8fd6e8dd3e1b45bc5b85a69796f7bd9238328b0dbc96d7c",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/master-pano.jpg",
+      "bytes": 458432,
+      "sha256": "7556d57ceb62a68518228c7af7ce76b8b326614ed3030850722b90931c6b93bb",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/master-poster.jpg",
+      "bytes": 48354,
+      "sha256": "e9c0c9eb35d932e4329b6326e29d02918e704f227cdead57b39026d71874b0a7",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/master-thumb.jpg",
+      "bytes": 16824,
+      "sha256": "2c1269f4a07d65ea6182bd6c6e4274b438e2c73e93d385eb93bce2f2c9fbbc00",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/second-hd.jpg",
+      "bytes": 698035,
+      "sha256": "f6f25510a88bd701d879db955e997cbf22e7c239c43a377a3e4b3e2297ac3427",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/second-pano.jpg",
+      "bytes": 458197,
+      "sha256": "48bcec2f66f3d4d95410e90d6c68bd399ec1489f1666a8a28dece6abdd6ed6f8",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/second-poster.jpg",
+      "bytes": 62864,
+      "sha256": "804ae925fa76efdd022a15e26eea707d04a088621e41c16720e9cc0733c6bb38",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/second-thumb.jpg",
+      "bytes": 22404,
+      "sha256": "2705510f9bd914319ebc4f7f224b8a2e84841b3d95d0598c1d51ef0b650e076e",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/east/utility-hd.jpg",
+      "bytes": 529193,
+      "sha256": "594a2e1c4ec3f8b4299bd9736ab80d13fc80f824b4c486f44eb5dc38dc014c49",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/east/utility-pano.jpg",
+      "bytes": 525077,
+      "sha256": "b4356075170735fb1a701e85a72ac1d7707b36270785557aafd54f2d5968fc66",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/east/utility-poster.jpg",
+      "bytes": 49037,
+      "sha256": "806f118c575c425e7bc073e199e0055e5bf0d1ef923a72dd1d70a2251f6a05cb",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/east/utility-thumb.jpg",
+      "bytes": 18908,
+      "sha256": "321ef7a68964bb2724c222eb89c9ff276975f63f739a2612a29bb64fa529fad2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-hd.jpg",
+      "bytes": 638595,
+      "sha256": "17be01215f7ec5e26e60911999e0cb9e65ed0a14ce2ade9474f30ecad4e2879a",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-pano.jpg",
+      "bytes": 571624,
+      "sha256": "78e9dff2d272eda035c9b4cf3d665f4a299581f65af3f1374fa80729a76a48d3",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-poster.jpg",
+      "bytes": 52638,
+      "sha256": "57b82548389db288fdd48e36c8cce6ee860f1277a0b77aac6342e517e60a0c25",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-thumb.jpg",
+      "bytes": 20457,
+      "sha256": "0d24e6072bb00a829379c4a520a79ae7052063fb13358a4a016ef133cb471a6e",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/bath-hd.jpg",
+      "bytes": 670301,
+      "sha256": "c0099d596ece81b9b5da3a1940536d3de3bf83d3872c7d76dcfa33e8c175706a",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/bath-pano.jpg",
+      "bytes": 485444,
+      "sha256": "6b21b3c1d5c54101752b458d5f40e2aa827857656a24bd122c4a5ef21a64cd31",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/bath-poster.jpg",
+      "bytes": 54397,
+      "sha256": "f6c6f0f7502da949036311495c34e63aeccf4ad550bad8c14f5d74bd21785756",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/bath-thumb.jpg",
+      "bytes": 19112,
+      "sha256": "22b29b1b87545586dea15f87c26067c11a1d4a9db975007c9f53a6c56602f915",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/dining-hd.jpg",
+      "bytes": 801549,
+      "sha256": "21eb11d1f1c6eac26f1d5fb6278c1031e10481622e21291507f55e740f2f62cf",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/dining-pano.jpg",
+      "bytes": 475527,
+      "sha256": "40aafdcdcb3a45c865c4112ca38230ea7fa330cdce4ee7032ea0efb7e2a6ae57",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/dining-poster.jpg",
+      "bytes": 64297,
+      "sha256": "a3d7b3e387f87bcd07d0af447421a6b2d8950dfbc2eb3b376eaafde5584f5c81",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/dining-thumb.jpg",
+      "bytes": 23789,
+      "sha256": "a24877e530cb9005bcacb3520fbf099143161480272c90c2e8494dfd50865426",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-hd.jpg",
+      "bytes": 626307,
+      "sha256": "af159872d5393ffaa3fb980917f22ada317d680038b81d921da8e9faf4741d28",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-pano.jpg",
+      "bytes": 505732,
+      "sha256": "c72bac211514989b2cbd087861249b2d8c7dda51515cd79f95aa71ce3181558d",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-poster.jpg",
+      "bytes": 55593,
+      "sha256": "44e682ec386e2a6248bb385857ff8a1d4fc8a931597b743f00ea26016f5da674",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-thumb.jpg",
+      "bytes": 20008,
+      "sha256": "ae7c2435e529b714045e2fb4617510ce082c596260955cfa55e8ff10c4e13d41",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/living-hd.jpg",
+      "bytes": 852495,
+      "sha256": "5c13e52eef5ac90dfb5248e47383941f8d95af003956c0524892498bb5f03aa8",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/living-pano.jpg",
+      "bytes": 486118,
+      "sha256": "3d2097a281815c4f46c3f1b9e9a5916b4219eed2e4b6a5dae52292860f564714",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/living-poster.jpg",
+      "bytes": 65893,
+      "sha256": "a1418a091a71b7a0ce68f20bb9e7fc8c2ce797bdde42c7a2b1c70247902ac144",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/living-thumb.jpg",
+      "bytes": 24284,
+      "sha256": "9f0e6a262c7f826f96ae4eccd7b9ae275c718a6f723c7ce5636c58893788fb55",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/master-hd.jpg",
+      "bytes": 722246,
+      "sha256": "11c2c9037a22bd994e283d8d514629d3656e70662622e5f2e918b086d1e92fba",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/master-pano.jpg",
+      "bytes": 478493,
+      "sha256": "21f1dd1036f9c4d09fe11fcbcece3628579bc8a5b545b3c9e2730f404d98f332",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/master-poster.jpg",
+      "bytes": 51647,
+      "sha256": "df3b96aa3585a66aac9eb8d011f1103076c8766bf7664da6eea7e40ed02cc1e9",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/master-thumb.jpg",
+      "bytes": 18376,
+      "sha256": "5b3c314299bb298d83a8c59d7c6770c9d18a07b0321fa543a67a97a0d2e341a4",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/second-hd.jpg",
+      "bytes": 670204,
+      "sha256": "b2d9786708c0f30afde3644e76cf404e752dd6a7cb76abb834a2cc751ac34fa5",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/second-pano.jpg",
+      "bytes": 468847,
+      "sha256": "9a20222b64974b16ef6a50e8149426fa32ce8a799cf92fa9619fa1d76468cb12",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/second-poster.jpg",
+      "bytes": 61014,
+      "sha256": "2822ff8730ad4b1da65616c7f0fe39efe551a1e06da667f21b6961f3587334e0",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/second-thumb.jpg",
+      "bytes": 22115,
+      "sha256": "c44bef14e67d933c5d996cb303606beb7f2d755bbb554d698092287a32714433",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/future/utility-hd.jpg",
+      "bytes": 553338,
+      "sha256": "db0eab77de96a9de449446fe7b4f2de39642a13b367b92192eb79b397dc07f1a",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/future/utility-pano.jpg",
+      "bytes": 564853,
+      "sha256": "df5d873f0060d9ec1384dcef971dd6dc8e02547c3a41997b3d3f9a81548c9d03",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/future/utility-poster.jpg",
+      "bytes": 51138,
+      "sha256": "f1738269ec83b314b3da847e3b75da708afad162861d515726dc099527ea3736",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/future/utility-thumb.jpg",
+      "bytes": 19295,
+      "sha256": "1d9e4711948e287785c3e80aa676ac4dffb281a32bc5d140c44520165e505c83",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-hd.jpg",
+      "bytes": 593534,
+      "sha256": "3facd45f23c9ddebd83469fc4a6ac9679ae65feb329209dc9e09352f35ca9861",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-pano.jpg",
+      "bytes": 579739,
+      "sha256": "a4ad1828285702f134c701f7b5eacfdb6616c421bebfdf93db713ac05a8db86d",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-poster.jpg",
+      "bytes": 54998,
+      "sha256": "5eeaab99f782f65e6e67462f389b72a3584542f5659551a743977502353ab215",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-thumb.jpg",
+      "bytes": 21665,
+      "sha256": "6667828e609ee29380f14a9f6dc9b80bd2ead9eb624a2ecb28bc22c61c87e929",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-hd.jpg",
+      "bytes": 557771,
+      "sha256": "eda47ee7b5f91db6e9c22f7a188f7ea6c45e1668a8743d6f2541994d7500a8a1",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-pano.jpg",
+      "bytes": 501115,
+      "sha256": "ed1c05ddedc4f1f47a4e180b188f73b35ee9e80f986e6990cb4a089175cf7fd3",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-poster.jpg",
+      "bytes": 48309,
+      "sha256": "51530d19f974d3268955311efef2f719739d334341f36e48c4c87081d434ffe9",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-thumb.jpg",
+      "bytes": 17247,
+      "sha256": "e159c17da17361fa128bbb040af1b02cd848b00013b300ddf948f9f6fc84e06f",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-hd.jpg",
+      "bytes": 702523,
+      "sha256": "6d084e79a42601b7354a696471ac7f265036a8c8661827eae4fd2aebbb02411f",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-pano.jpg",
+      "bytes": 501499,
+      "sha256": "ae47ea3a1de13b2be5d0f2484cb103bfb3ac79502686cafed63e0fafb6bd028c",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-poster.jpg",
+      "bytes": 61953,
+      "sha256": "3e51bd4d9e40f2e998f806869fc3e6584582f235a7df1753a979416152259cec",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-thumb.jpg",
+      "bytes": 22726,
+      "sha256": "991cbfa0e95efd35ecbf47a1a1c70eb40b607f3f79140953cd8caba5da006b89",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-hd.jpg",
+      "bytes": 693088,
+      "sha256": "d82215996868581ce58ff7670bc8de7ebc47fa663308bbf75d97ee4e1d2ad2cf",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-pano.jpg",
+      "bytes": 552877,
+      "sha256": "296189d75bc311eeeef09b235d037fb446983c173a577f2f8c23ff1774ea9f11",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-poster.jpg",
+      "bytes": 54847,
+      "sha256": "6ba3ae1f3a0b7c1458b570d0f86889d05586806a296a732f9ddf097b0f155d76",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-thumb.jpg",
+      "bytes": 19371,
+      "sha256": "fd9e1ab220ff1f2c822329ed889870042e80563edd4eaf906906aabcf349b414",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-hd.jpg",
+      "bytes": 715465,
+      "sha256": "4a4d44b97f8deb31ec0d027cdfd6fc091c8929f273a444eccbb094d6459c3c66",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-pano.jpg",
+      "bytes": 493331,
+      "sha256": "53b75c1503d8073a6ea1a3d15c8ed6b800315b6bf8293e76ccee156ac9ac2ee0",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-poster.jpg",
+      "bytes": 63479,
+      "sha256": "7fa419a1897356dfd0dbf688e29f3c2fb46d980a284ffd2209992a03f4491565",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-thumb.jpg",
+      "bytes": 23725,
+      "sha256": "0a1be1af16b9431d6445d4046c66f022048604cde04b54495f36e544605d3b59",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-hd.jpg",
+      "bytes": 672013,
+      "sha256": "5635bb5c5f905380cd472d67f0ee2346141aa7633e0594c8a598bf271a4a9ddb",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-pano.jpg",
+      "bytes": 481446,
+      "sha256": "0db8a0491cfa46a6b2f46e872bc8f920c0cfa9e9f3d23ff4805bf19d68cc8c78",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-poster.jpg",
+      "bytes": 49033,
+      "sha256": "a3e23a4c72811390ea9a9a6babc7efba9df56d547fd8bc7c33098cabbb95fe79",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-thumb.jpg",
+      "bytes": 17883,
+      "sha256": "baaca4e17b5f1704aa3ff5664aeceb28839237a6fb45a2386cd8ea363416b7c5",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-hd.jpg",
+      "bytes": 716681,
+      "sha256": "0d2755a5e2efd31bf850d6ade4f31dae61775e0b134074b5a82e71e59dfd51a7",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-pano.jpg",
+      "bytes": 499751,
+      "sha256": "f29b3383b67b689c4476788742f7c64a55a69eed9b1b04fded52993ee639071c",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-poster.jpg",
+      "bytes": 65518,
+      "sha256": "01845c752bcc162999fe2002f43d1bd1958328408d20e179466598cfca79ef0a",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-thumb.jpg",
+      "bytes": 23394,
+      "sha256": "9846e68a2c1f8642e77d8d23ae8e4616c1c2c4d69cec53779330a295c4726a8b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-hd.jpg",
+      "bytes": 576505,
+      "sha256": "325e66e5c509dc7d92b26b5ae23df245880d3963bad32d91b88944d46014e3c6",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-pano.jpg",
+      "bytes": 565825,
+      "sha256": "7facad11233d9e32d5572d10415cb5b050c7f7bcee4f058b9a3c805e4984b109",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-poster.jpg",
+      "bytes": 47974,
+      "sha256": "260f8c705808b6773cfa5d21d5bf8fafd824782bdab784a7e23235850e9b46f8",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-thumb.jpg",
+      "bytes": 18247,
+      "sha256": "5bc44be5b348b9cd9f6a6ae76f927f46037d80429b55169b8a39e099ae4e8017",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-hd.jpg",
+      "bytes": 627227,
+      "sha256": "91b7957fdacc2b7419607033658184a256b4384b7255835c19aef1e9432b8830",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-pano.jpg",
+      "bytes": 546917,
+      "sha256": "4676e39709b085648f83750b2d5751729b2f4d6c3d23f6c7c3f716b6a44f98f0",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-poster.jpg",
+      "bytes": 51583,
+      "sha256": "20c1617ffd481f37a06eb88546968ac068ae3012acf383d5acdeacc14fc16220",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-thumb.jpg",
+      "bytes": 19657,
+      "sha256": "49a5800d49c2eda7b8978bab26d5a744aa27de759636c14f6d2829c3fe376174",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-hd.jpg",
+      "bytes": 732763,
+      "sha256": "75a3565419fa41a9660256dc63db8b4239b9c1857a7c6059ca06a3cd7e65bbec",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-pano.jpg",
+      "bytes": 514739,
+      "sha256": "49682bf6efb2f406900933d86a90cfdb9cbb2b756c053ba16d5cabb05db3086c",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-poster.jpg",
+      "bytes": 51402,
+      "sha256": "5538d51da3e2553245dc92f1524f8446dda269a649984efbeb4ec3131de4b8c1",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-thumb.jpg",
+      "bytes": 17897,
+      "sha256": "a9add21972fca85e19cb1cff5479465c0f59dca1d1aa411a9b35eb5723628036",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-hd.jpg",
+      "bytes": 757484,
+      "sha256": "e0e21a5968378da9f0e6346a7e4c3af334eace4be15029a1849d0ef6b1bc646a",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-pano.jpg",
+      "bytes": 410493,
+      "sha256": "336a50b1b0321570425b002e941e6e4709571b2015975e2fc20f5b13458b7d4c",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-poster.jpg",
+      "bytes": 55483,
+      "sha256": "bedb375f60cc99abe58dfe6bcf7e8022529abd30f86539e4accf2226d098d2b3",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-thumb.jpg",
+      "bytes": 21076,
+      "sha256": "950e2e87bd3897d3423758f89bff16a6e5450bd7e04f13c8913501086e76d17c",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-hd.jpg",
+      "bytes": 698792,
+      "sha256": "e3ed12074d09fa1ff3eb2ae9d83353ab64925befb21e03a64e2adf9eeab12179",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-pano.jpg",
+      "bytes": 496074,
+      "sha256": "adc7131f27094192c7ee67616ceba7c412560ae6afd61bc4e6efb59e51f5373c",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-poster.jpg",
+      "bytes": 55981,
+      "sha256": "0551cc88751d37474d0572fb6b7bbe15fd3e667e5c3756395fbaccefec64cf02",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-thumb.jpg",
+      "bytes": 19150,
+      "sha256": "72c94527c1fa728cd1c31beb2555fa003803eeeecfe8d7eec531920c4ce40d44",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-hd.jpg",
+      "bytes": 766724,
+      "sha256": "dd9f9b02579414a925706eb169da20d637b05de4642430d2c40e9c48b7da6dde",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-pano.jpg",
+      "bytes": 432100,
+      "sha256": "f29fd1fb9915354569474abcddb88d146c6c734217dace11813d91beb24eb8b6",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-poster.jpg",
+      "bytes": 59385,
+      "sha256": "b568ccb03f2205a52757b94dbc89ec6dac1c89e1b2759f7de078a012cd0bfb11",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-thumb.jpg",
+      "bytes": 22362,
+      "sha256": "31aac678a332526c5406f659d7f57d6c49ae24635dd4e74491d8eb13bf79a8e0",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-hd.jpg",
+      "bytes": 669046,
+      "sha256": "7e997196ffe3eb02f680f3e20c3f6a1078c19906afcd4b1b0ae0fc40626e7b3f",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-pano.jpg",
+      "bytes": 455960,
+      "sha256": "2187568ea25fd68b4e0016a9e318e6744207e60b376514a5f20d6797ae86bcc7",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-poster.jpg",
+      "bytes": 45336,
+      "sha256": "ce6da0d13ab75ddf62ff521331aed1a63ba35e2ae21f4d23189d4dec9a8ab101",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-thumb.jpg",
+      "bytes": 16678,
+      "sha256": "e0a9b0082ede1a616c0599435a94df26cc42abb02193fb6d919f38ec06e99b4b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-hd.jpg",
+      "bytes": 730627,
+      "sha256": "e08a4272058a78fb9dba7fd8cdf1ffa234aab7f6533cb19bc63aa90166f04d02",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-pano.jpg",
+      "bytes": 440743,
+      "sha256": "f98b9396c4111370f99f1c5f401636d294991ef22b8e6a021150ab5b81b682f0",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-poster.jpg",
+      "bytes": 61686,
+      "sha256": "1167a6eda1bb07ef463ed2b5c969bfb7f8bd4a950560bfbd290bceb105cc073a",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-thumb.jpg",
+      "bytes": 22800,
+      "sha256": "caf85573f10d68d334a2d8b5f0a7ce779ccdd49dc847d18f23192fe9c905e792",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-hd.jpg",
+      "bytes": 530568,
+      "sha256": "4878dc3f653041f95deb86ec00152a5f30f06d702cd7090cc9d1dc485e246a72",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-pano.jpg",
+      "bytes": 522998,
+      "sha256": "58a510a6a43ce1dd7574de047ff996005e8e0565f1dacad5428e0f36660a8771",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-poster.jpg",
+      "bytes": 49037,
+      "sha256": "7ecfad5a65249228198c8f034b41a5e6609e2071b6393020514779cc0ee499e7",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-thumb.jpg",
+      "bytes": 18194,
+      "sha256": "cf2b8374d40bdc633ffedc9af0f05612122cbfbc40791c219fa2c043fbfb5c68",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "path": "dist/tour/catalog-assets/credits.json",
+      "bytes": 26162,
+      "sha256": "42875cf40330a86ea6c1aeb1191d094fef73ce9f6b630caf47a9f04e65476691"
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/curly_teddy_natural/curly_teddy_natural_arm_1k.jpg",
+      "bytes": 1027248,
+      "sha256": "22dbdda2552ad143d93e34d83b38034fe5d48f7a20df1b2ac35802d61feedbb3",
+      "width": 1024,
+      "height": 1009
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/curly_teddy_natural/curly_teddy_natural_diff_1k.jpg",
+      "bytes": 673494,
+      "sha256": "3e524df3f6b35bfd87b71ed6a1e2d0c96797e55ec4c1a5b2f7c4332b635a1d79",
+      "width": 1024,
+      "height": 1009
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/curly_teddy_natural/curly_teddy_natural_nor_gl_1k.jpg",
+      "bytes": 576152,
+      "sha256": "a6cea84bddf31c9d4643a25a09c3ec8fa8884e3c3e2d8ac291623e3f702159b8",
+      "width": 1024,
+      "height": 1009
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/marble_01/marble_01_arm_1k.jpg",
+      "bytes": 54740,
+      "sha256": "84b1516c27b4393230e77e0aa525186b4a8a415169661a4385f02dcb10c14104",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/marble_01/marble_01_diff_1k.jpg",
+      "bytes": 305029,
+      "sha256": "b10dabea976d68baa976a0d4e8dac58789df8d26a1b50697f320106f1b00a229",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/marble_01/marble_01_nor_gl_1k.jpg",
+      "bytes": 110230,
+      "sha256": "77c2a9b549a6a408659f8197be91945aeb0abc33e697f1dd2ce24ee8dc7c2bc0",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/poly_wool_herringbone/poly_wool_herringbone_arm_1k.jpg",
+      "bytes": 1223522,
+      "sha256": "f565985fe68d42b6638080c52628f13312b178001d758ef89fe76adb773fb227",
+      "width": 1024,
+      "height": 1045
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/poly_wool_herringbone/poly_wool_herringbone_diff_1k.jpg",
+      "bytes": 942966,
+      "sha256": "fd889a46f617efd331e522e36b8ad2548e16e1cb018c001872f17537d7666af5",
+      "width": 1024,
+      "height": 1045
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/poly_wool_herringbone/poly_wool_herringbone_nor_gl_1k.jpg",
+      "bytes": 1045151,
+      "sha256": "314ac7c1b7c101a48106e05199bfdb24e33671e58a6ccb334249b441d8e8ac98",
+      "width": 1024,
+      "height": 1045
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/wooden_floor_02/wooden_floor_02_arm_1k.jpg",
+      "bytes": 575240,
+      "sha256": "b4c5a76661c6d453a4f6daab153f8315f5fef2e6c51da5e4cc8b8649e1e46bb0",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/wooden_floor_02/wooden_floor_02_diff_1k.jpg",
+      "bytes": 729028,
+      "sha256": "82e56941b7554ad8069d3e5fffa149165b01f52bafa2f631f1618a6cf166fd88",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/materials/wooden_floor_02/wooden_floor_02_nor_gl_1k.jpg",
+      "bytes": 434460,
+      "sha256": "4ed9a5ddf84c7362642f1d866d838c746621448c421a9a85f58b4debc14e8ba1",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/coffee_table_round_01/coffee_table_round_01.bin",
+      "bytes": 131112,
+      "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/coffee_table_round_01/coffee_table_round_01_2k.gltf",
+      "bytes": 2776,
+      "sha256": "6b9dbd17317c9289ab8e008b05abd146dbe0831c975871732def694de4ad407d"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/coffee_table_round_01/textures/coffee_table_round_01_arm_2k.jpg",
+      "bytes": 2631627,
+      "sha256": "fa00d2026a24f65cd825f565e010d498206d68ede792fcc5f058f20a3d94aa88",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/coffee_table_round_01/textures/coffee_table_round_01_diff_2k.jpg",
+      "bytes": 1721075,
+      "sha256": "d63b809f381622925f852f6d1b0f712428cbe75837298073ad0424069d60870d",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/coffee_table_round_01/textures/coffee_table_round_01_nor_gl_2k.jpg",
+      "bytes": 1177563,
+      "sha256": "b8e4f0780ee2008e33a3049656fcf3168d1036ad8d5cf368e925374123a5c553",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_02/sofa_02.bin",
+      "bytes": 74864,
+      "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_02/sofa_02_2k.gltf",
+      "bytes": 4183,
+      "sha256": "bd117710418921ece26af1ecb0b64d66b56ab7f96ff500f96044c11029c962ac"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_02/textures/sofa_02_arm_2k.jpg",
+      "bytes": 401876,
+      "sha256": "1e6bb97f6c0d2a1b81b9aa3c67c26b65bc02aeed88b19373726f117c16f89980",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_02/textures/sofa_02_diff_2k.jpg",
+      "bytes": 323319,
+      "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_02/textures/sofa_02_nor_gl_2k.jpg",
+      "bytes": 463146,
+      "sha256": "7e53cd96fdb33b960a0447c619e028aa833fc9c6bee2838346ab5c752ac95c68",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/sofa_03.bin",
+      "bytes": 228984,
+      "sha256": "e524350933d3d2a84c28f13bc042888a4768adeef88d630111015caede1c2e98"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/sofa_03_2k.gltf",
+      "bytes": 4496,
+      "sha256": "1ab9e8ebb3cb67878f89fa0744b8b2737c63b09aa284c7efb7eac548a63043df"
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/textures/sofa_03_diff_2k.jpg",
+      "bytes": 563414,
+      "sha256": "1e334e40065b5591b35351124ad5ba74a32337581aa4c0af49fe935ef4648fef",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/textures/sofa_03_fringe_rgba_2k.png",
+      "bytes": 4030605,
+      "sha256": "342f0e3671dc572dd8fa6a9797461aa59272ca0bfd5f96c535fba88201734e4c",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/textures/sofa_03_nor_gl_2k.jpg",
+      "bytes": 319647,
+      "sha256": "24ea0b754eef8ea7af5e8bb1939df1c395b0d60b387f39b2bd6194bed3f89062",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/models/sofa_03/textures/sofa_03_rough_2k.jpg",
+      "bytes": 613551,
+      "sha256": "b358e40506dc1cfd55911eba718195c4a8ea10c12b8ddc9d5aecb12bd7e71524",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/coffee_table_round_01.jpg",
+      "bytes": 40967,
+      "sha256": "52a1c69acafe4d88c607e7bc40f78ff6055a0d1c2ad096fff6931451a2b51f54",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/curly_teddy_natural.jpg",
+      "bytes": 77194,
+      "sha256": "49e5a9326f9e7fd1b8a05c08990a2de5b828aa8059a7cc373f2598a34fb492e8",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/marble_01.jpg",
+      "bytes": 43146,
+      "sha256": "623dda17964a8ad0880b026e1aca2d484df511d8a6f8251d45bf11716a57bd5b",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/poly_wool_herringbone.jpg",
+      "bytes": 82820,
+      "sha256": "7ec3b863985eae4867e11963a0b72569cca527f6065695b68880fbbc27dc1264",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/sofa_02.jpg",
+      "bytes": 42254,
+      "sha256": "edf00d431122a10bcb8a810bf53aea871713db0c03d96551eca01838cc7506af",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/sofa_03.jpg",
+      "bytes": 78227,
+      "sha256": "b2535ed038d879cf78867ff75b6d7e734fe97bd5bd289f5f010cca1e8ce09bf3",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "path": "dist/tour/catalog-assets/previews/wooden_floor_02.jpg",
+      "bytes": 70670,
+      "sha256": "590d05b96658fc11eb321eee5b344ec310bdaa476ed12cf4d1f737e4f7dad1e0",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "dist/tour/edition-assets/credits.json",
+      "bytes": 11205,
+      "sha256": "7ed2c32ac7bb1d6e8501ad5aec8b1b2044f8e8ed3c3c2491899ff1f81d25fb5c"
+    },
+    {
+      "path": "dist/tour/edition-assets/edition-dark.jpg",
+      "bytes": 537972,
+      "sha256": "f070829671399a3b8688de139f61cafecfac66d9a04b9d0d7bff4d92e2acbdd6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/edition-assets/edition-light.jpg",
+      "bytes": 517313,
+      "sha256": "1a30e9257aa64d138454bb19839c46a20df32693920d6483777bbf7e15e8f0ae",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/modern_arm_chair_01.bin",
+      "bytes": 240728,
+      "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/modern_arm_chair_01_2k.gltf",
+      "bytes": 5121,
+      "sha256": "eb971ed98af1ce3d4cc93a058ceee5c31dbd185f99aa3d86938d366820943414"
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_2k.jpg",
+      "bytes": 2144468,
+      "sha256": "38a2b11cdfb18aeed9804fee38de93d8fd856f53ad9448ee877833ba25643f15",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_2k.jpg",
+      "bytes": 1660925,
+      "sha256": "a3a289f3265d77e120e81aebdd9107b612609b077190e842389b5cd32bbf9a3d",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_2k.jpg",
+      "bytes": 2076117,
+      "sha256": "5a57c6b8de10b79d7d2b5540bcb864f4c3c0b4f81c6ef2c5f61470e88620c4a7",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_2k.jpg",
+      "bytes": 1176399,
+      "sha256": "3c98a68f8d4d9045082d1af97994ff564dc4f8378814bea717d9862edf5dae22",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_2k.jpg",
+      "bytes": 843013,
+      "sha256": "20a8b41bd14552643c1355587ec1198cb8c5f1f7dea50dc71dbb0f6a826adfc1",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_2k.jpg",
+      "bytes": 1074878,
+      "sha256": "dfd11d444ba0a6c1a16304f91c10ef2a2a525180f6a46ca57c2d55c196ff39de",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_coffee_table_01/modern_coffee_table_01.bin",
+      "bytes": 154864,
+      "sha256": "b8fe0d49041b879a5d5962685a39e3daf009679f7b6a88ced1347e6dc6c0851e"
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_coffee_table_01/modern_coffee_table_01_2k.gltf",
+      "bytes": 2771,
+      "sha256": "0934d355e65fc5d1b2056fa913813384246572839af464d741f443462cc8e955"
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_coffee_table_01/textures/modern_coffee_table_01_diff_2k.jpg",
+      "bytes": 1571631,
+      "sha256": "527c9cbe6162b5ba84c5427407148d45a051f38c8475b32b5cd3fc02534a7090",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_coffee_table_01/textures/modern_coffee_table_01_nor_gl_2k.jpg",
+      "bytes": 1495294,
+      "sha256": "ce0fbc0e6e900480edafbeaab4e4593882c8f3f46dea43b897ccef07093b8caa",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/models/modern_coffee_table_01/textures/modern_coffee_table_01_rough_2k.jpg",
+      "bytes": 1476681,
+      "sha256": "48575f42cab1b40558a4f5957ccaf304651460d6caad2de23d86aec3a6bcd6ff",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/dark-chair.jpg",
+      "bytes": 56727,
+      "sha256": "9a85851660390aff1f2a020c752fb3e17451e35a89209b908a37b4a7ff262c5c",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/oak-chair.jpg",
+      "bytes": 57838,
+      "sha256": "df25faa8e00bccb8034cb1a17fd64edae5cc2c61ffcc50e6a43bd99161f3b354",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/oak-floor.jpg",
+      "bytes": 61866,
+      "sha256": "1769fc20dc2bbb8bf56aaf8d77458e7046172cff757529e31752976120f6b34a",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/oat-rug.jpg",
+      "bytes": 50799,
+      "sha256": "51d4dc76bc9136c85f7887d1df5957031d3e17554e5914ce3f35be93198b39be",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/smoke-rug.jpg",
+      "bytes": 47559,
+      "sha256": "b1d880a49c7b2a71f1c618f537a15a6d417d51394ea667cb9a1c62e0e718ec5c",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/smoked-table.jpg",
+      "bytes": 52170,
+      "sha256": "d1b5d40a9d39fd0a0ec5f551027c4a39b4e2d1722b534ea6caa36f267ae79184",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/stone-floor.jpg",
+      "bytes": 41720,
+      "sha256": "56815d75d53b25e147b87048e962a8e67349c4fd19fddca2a9584dc07cfa712c",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/edition-assets/previews/stone-table.jpg",
+      "bytes": 53640,
+      "sha256": "ee42734ee796662ce74443485838cbad478f77ad43ad7198e57c64d73a5c2e76",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/floor-catalog/atlas-boost-clay-thumb.webp",
+      "bytes": 2096,
+      "sha256": "2e38aba99fa3cce9d615354e58f99781eaac2e0e980761154b4a2add16c3e043",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/atlas-boost-clay.webp",
+      "bytes": 5252,
+      "sha256": "dad32bdb630c4bba6b6c732aebac06ca3a839e36dfa685bf9be3761de9dd8e4b",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "path": "dist/tour/floor-catalog/boen-pale-herringbone-thumb.webp",
+      "bytes": 2126,
+      "sha256": "dc6915b6975dbe58975caa3a8926e35dc1f6216d35a43d6b125f2a86dfe9231e",
+      "width": 170,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/boen-pale-herringbone.webp",
+      "bytes": 8792,
+      "sha256": "d4d861a3413bd84b6bedd83640087ca2c23f5cbbf745e490734e6cfdde73abfb",
+      "width": 544,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/floor-catalog/credits.json",
+      "bytes": 15429,
+      "sha256": "da7d1da7e66981e93ad89778ec4eaf566dfd6d12a530c6b9a1808c35ce5043f7"
+    },
+    {
+      "path": "dist/tour/floor-catalog/florim-pearl-travertine-thumb.webp",
+      "bytes": 4458,
+      "sha256": "c2424978db434d0cfca80292c3539156bd527e06a56f27064c49957d6dc7b405",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/florim-pearl-travertine.webp",
+      "bytes": 38860,
+      "sha256": "5fd4dfedd414c223af4097a45f089e9d760debfe02abb64846bc3f2b2eac3acd",
+      "width": 768,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/floor-catalog/haro-smoked-carre-thumb.webp",
+      "bytes": 9628,
+      "sha256": "711945b84e6d104980c63809d7bca5b2697b3b4eff5b00a388fbf9b12938b6d0",
+      "width": 240,
+      "height": 171
+    },
+    {
+      "path": "dist/tour/floor-catalog/haro-smoked-carre.webp",
+      "bytes": 48054,
+      "sha256": "d11c1f77c40f65df9cce70768d6265ed1ead5dbf73a910c398b1ea08a30329bb",
+      "width": 768,
+      "height": 549
+    },
+    {
+      "path": "dist/tour/floor-catalog/kahrs-limestone-thumb.webp",
+      "bytes": 3734,
+      "sha256": "5d70a13178f15e97d8692dea77c80ea4aef26b79048b0280c6c3ad7f0b81615b",
+      "width": 170,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/kahrs-limestone.webp",
+      "bytes": 21482,
+      "sha256": "a7f304ed370f7e227ec896614d304d4f66686018ea694e1e32e7e176966ff75f",
+      "width": 543,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/floor-catalog/laminam-statuario-thumb.webp",
+      "bytes": 1560,
+      "sha256": "0aadd74fa57fa86b3c0b2e1a5ba9d065b40bc6ea33856c0c3276ec5913dcb5ec",
+      "width": 85,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/laminam-statuario.webp",
+      "bytes": 6562,
+      "sha256": "ebc3d01419dc029492b962436c759f2360c5aa53831c4980e9d2a6bf4bc23c5d",
+      "width": 271,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/floor-catalog/listone-walnut-thumb.webp",
+      "bytes": 3552,
+      "sha256": "7869f6e6ce8e01fb614131e826fb39ca58015d304d84d97cfe97f802cb1e32fb",
+      "width": 240,
+      "height": 150
+    },
+    {
+      "path": "dist/tour/floor-catalog/listone-walnut.webp",
+      "bytes": 16910,
+      "sha256": "b3fbb8a3b81350b853e8cca59bbdafdc251e7a9cd5d38e7bcbe4c7d882e069a4",
+      "width": 768,
+      "height": 480
+    },
+    {
+      "path": "dist/tour/floor-catalog/marazzi-limestone-sand-thumb.webp",
+      "bytes": 7026,
+      "sha256": "bdbc63b7b805341a3de00fc5a14ac14b23c7008fcb375930b31eda6d13b5d388",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/marazzi-limestone-sand.webp",
+      "bytes": 81234,
+      "sha256": "b2f80a9312f4017981a39588bc36d4f9c545d37b8f9bf419969fd716f439df1c",
+      "width": 768,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/floor-catalog/porcelanosa-durango-acero-thumb.webp",
+      "bytes": 2128,
+      "sha256": "fc00784027fa718c641a3538f18c80929d969aea3236bf48d09d406a1b1ff3f9",
+      "width": 240,
+      "height": 180
+    },
+    {
+      "path": "dist/tour/floor-catalog/porcelanosa-durango-acero.webp",
+      "bytes": 26448,
+      "sha256": "ff4ead8b4a53694318efb21247f776439d8bc055f9d6036a6301955efec22039",
+      "width": 768,
+      "height": 576
+    },
+    {
+      "path": "dist/tour/floor-catalog/quickstep-cala-oak-thumb.webp",
+      "bytes": 8248,
+      "sha256": "8cb65764e547cc3769aca1bf9df10ec4fe42391aab683a317bbca69795fb09d8",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/floor-catalog/quickstep-cala-oak.webp",
+      "bytes": 42182,
+      "sha256": "a928dc2a4d09c8bb3721dedf0cb336cc6f7cccfe1e04733699c015a5908bfe8d",
+      "width": 768,
+      "height": 768
+    },
+    {
+      "path": "dist/tour/furniture-trial.css",
+      "bytes": 74371,
+      "sha256": "779b73d4ce628e730622adb7cf58edd39119aa4f2dadb0d22ba07aa124917a06"
+    },
+    {
+      "path": "dist/tour/history-gallery.js",
+      "bytes": 2521,
+      "sha256": "02a33728b6ccfdcaccd9586cf62c8783f638413ac0c071d346039c82dca4ea96"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-HFKDW6KY.js",
+      "bytes": 612875,
+      "sha256": "7ff31109bfa2b50e5dac765bb55f92d6502254cdcd2cedaa5f313618a262dacb"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-JKLCKWYE.js",
+      "bytes": 13737,
+      "sha256": "c19c9cfec97539f283d87e9213ad62dad63a28831ce56287fcc738bfd35c7f59"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-PHE7VEUZ.js",
+      "bytes": 19954,
+      "sha256": "c33fd6b854650989b861a24c3ee03070f7f24a0e2dc6783f378c32d9ad236540"
+    },
+    {
+      "path": "dist/tour/history-runtime/loader.js",
+      "bytes": 838,
+      "sha256": "3fd4e298597eea83ba96080163cff35e4ed56fa6349196f103103b3f066456b2"
+    },
+    {
+      "path": "dist/tour/history-runtime/model-E4HKLBIC.js",
+      "bytes": 83347,
+      "sha256": "28b96185938464eb3f28767ad1857f6e24c11f5dc9d685df9ee26440240cc98a"
+    },
+    {
+      "path": "dist/tour/history-runtime/room-renderer-ICUMA3AC.js",
+      "bytes": 244,
+      "sha256": "da2f3b429f646e476fd48d770f1804b5c6dce8349b0006213568779a67648e91"
+    },
+    {
+      "path": "dist/tour/history-runtime/room-walk-LDKRE3Z4.js",
+      "bytes": 7508,
+      "sha256": "c7d89e1db7e5916c9496006d48498dc1a183794405a282bc9987146d8accac92"
+    },
+    {
+      "path": "dist/tour/history-runtime/trial.js",
+      "bytes": 162900,
+      "sha256": "0a976e79e230428d9d5acdaa34c7f5fe4b38243b2290628e1c33ad5db840eefa"
+    },
+    {
+      "path": "dist/tour/history-trial.css",
+      "bytes": 52645,
+      "sha256": "62f4f71182b396268139320243a318b2e0f6b15f01a6d3a17f873da8ec9728d6"
+    },
+    {
+      "path": "dist/tour/history.html",
+      "bytes": 44696,
+      "sha256": "a061d7ae21eebfb255abb20680e21aebf87e231a98cc07c0ffbb6a43a43d8939"
+    },
+    {
+      "path": "dist/tour/home-assets/amber/balcony-thumb.jpg",
+      "bytes": 36129,
+      "sha256": "25eff038218be4cc926695cafc37c2685109f99244792fe794570c6b76e637b1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/balcony.jpg",
+      "bytes": 621371,
+      "sha256": "6f7ba652b85bfaa0ce521f50e23339289d8691c3d7186f6b29d5c17579c0bd71",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/bath-thumb.jpg",
+      "bytes": 31802,
+      "sha256": "b9b8a7f774fab116dea0e33ecac202260f914153d482a967750188f019202547",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/bath.jpg",
+      "bytes": 560764,
+      "sha256": "de7b9996fa9f92b67fd05b7e1e8b5970e32a48c23288948150442912b7fc131b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/dining-thumb.jpg",
+      "bytes": 34383,
+      "sha256": "069285a68322642e5b1143def8e0a59523234550ecdc39ba1b46263700a0a1e1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/dining.jpg",
+      "bytes": 605478,
+      "sha256": "59db97421abb5b5aa9925597d634e9f2dc1e1b7e2b7a01ce8b2b7d15091061c0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/generation-prompts.json",
+      "bytes": 34794,
+      "sha256": "799f9f1439bb1a3090fe4aa6a83b9f49e12339a645808094b73aa49fe0c1a956"
+    },
+    {
+      "path": "dist/tour/home-assets/amber/kitchen-thumb.jpg",
+      "bytes": 30965,
+      "sha256": "22b5d5c3e65a8751dfc33da7ffb46d45ddd404e7d0983c57efca16a7747c4802",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/kitchen.jpg",
+      "bytes": 503721,
+      "sha256": "7dd74799f86dac9ed793357493f7b4f660f52d19d7debd43172b72c235537172",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/living-thumb.jpg",
+      "bytes": 33936,
+      "sha256": "f318ef010b2b086d0e2cc2ccb983a00211e047a160ed4969a9bcd949f10a06ff",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/living.jpg",
+      "bytes": 590614,
+      "sha256": "40053e3cc47e19359e7e3244c358fcb7ea8d9fc903e7c6e68082e249e7bdc7b4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/master-thumb.jpg",
+      "bytes": 35948,
+      "sha256": "c2dd3b232785b2f9abf70b7e788b5f78def1ba212e431dc9b04583b79dc8f8a7",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/master.jpg",
+      "bytes": 651982,
+      "sha256": "e478ed74769478a8f594f6cf8e9091fe6803d7fb8c74383f7f200dcf5090fbd9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/second-thumb.jpg",
+      "bytes": 31450,
+      "sha256": "fa746aa14726d013f4cc21775d27bc209e0ba4b7f3c95c8b96c115055dfc4ef6",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/second.jpg",
+      "bytes": 543764,
+      "sha256": "f46c24684c4b95781d5af670eaa0f5f0ba3469ebfc6b8e75925d83a5e62e1257",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/utility-thumb.jpg",
+      "bytes": 35801,
+      "sha256": "213ea9cdd8be4016763a80d240222cd5276e312f6704180511bdefc7cff07713",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/utility.jpg",
+      "bytes": 553046,
+      "sha256": "e55159dbf118cc0ceec25d2f8462b6c7f6259d7899cd55cac1ba371e801151a9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/balcony-thumb.jpg",
+      "bytes": 40416,
+      "sha256": "f43d9257165021fe1f14a71d68a2165362f2ef64bdfc28ee7e541e9c2ad483f7",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/balcony.jpg",
+      "bytes": 677977,
+      "sha256": "512b25bb4cd5c3abf90d318f986d765f254d5fe2c64e56d7b1daf355ba44147f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/dining-thumb.jpg",
+      "bytes": 33962,
+      "sha256": "b5b10b223a31fcf30b3328398d66048cbce6344c7e88f9eeda15b7c41c2c965f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/dining.jpg",
+      "bytes": 567058,
+      "sha256": "d630e9f5c5ac2c291c9d17140a8d30f5a11dce1f582268fd02bd5219ffd9f55f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/second-thumb.jpg",
+      "bytes": 31841,
+      "sha256": "d977e88ee70b7694a31f0fea16fe9abfd56e7cfc99410e7d0dad95f8bb3f47b3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/second.jpg",
+      "bytes": 569262,
+      "sha256": "fc5ea009c5bc477afd70064ecc5740777834846996f7e3b19003433c4e8d56a4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/utility-thumb.jpg",
+      "bytes": 43027,
+      "sha256": "ca99990952204f327ca37226906cfafc7ad63ffda8db92a5a998ca1a38b64053",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/amber/v16/utility.jpg",
+      "bytes": 617490,
+      "sha256": "8ba355f5877e5a910d767bd95a6e8fc31366765467e73988ddb36afee6e67a90",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/balcony-thumb.jpg",
+      "bytes": 28013,
+      "sha256": "2252442be6f354b13c8bc7328a1ab166d847c55cf6c5074365088ce77cb1390f",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/balcony.jpg",
+      "bytes": 792477,
+      "sha256": "72334cc2492de021d9318150792cd4d51b5bb3aca66883b9f75a70dbc288731f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/bath-thumb.jpg",
+      "bytes": 20552,
+      "sha256": "8e242401124c3932a8377dd07ea2f437d172ec11e27d99245c88867975171095",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/bath.jpg",
+      "bytes": 585820,
+      "sha256": "58f649832521d0ec2ea90d81557f94e8ce4d9d81ff6aaacc01d2e5c8931c432f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/dining-thumb.jpg",
+      "bytes": 22276,
+      "sha256": "eb96eb3663cd4e60c27f8f80dd67f11e6fa23882d36f6671b41c201a64af9f9a",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/dining.jpg",
+      "bytes": 552683,
+      "sha256": "6a03124cbc0e982846b9a06a2e5e8f02476966198eac46c32b1b1b11722c8837",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/kitchen-thumb.jpg",
+      "bytes": 19109,
+      "sha256": "5899c2a0263549e70ef58bc0d9ea9856aaeac73a9c5dfe945bbd67eccebebb69",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/kitchen.jpg",
+      "bytes": 510107,
+      "sha256": "7d02defb4f96f11352184f0aef23cee82acc97c2498a62914a68827b5836ce74",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/living-thumb.jpg",
+      "bytes": 24106,
+      "sha256": "4d9811787edbc5ecc06dc3be1cbd1676e424641bb9ae0d6fbc08a9c9cf2f34ce",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/living.jpg",
+      "bytes": 653255,
+      "sha256": "247f0c798df405c0def60a8fd07abfffc7052541690b594728cbd104d9afb8fe",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/master-thumb.jpg",
+      "bytes": 21344,
+      "sha256": "98749729a5dac217f74e8773f17cce33d04428bee6b5ccec31be39e21e500368",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/master.jpg",
+      "bytes": 609745,
+      "sha256": "0128758cba079de1b70a0dc3fc4cd1f225614078e12b2568c7bf6e363e9e061e",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/second-thumb.jpg",
+      "bytes": 19286,
+      "sha256": "9c9342978b5466dc80e73aa4272df3e95702b4bf1cb2e2f204d7c7f07c8ad71d",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/second.jpg",
+      "bytes": 545575,
+      "sha256": "8e83c3452fc5dea5ef450d2392dcf4b9bd94d63277c10b8461693265370dbadc",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/utility-thumb.jpg",
+      "bytes": 21579,
+      "sha256": "4f9e1d2c8e65c958ca3f032e94df58c1192889d9d254879a864f5409f942f764",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/utility.jpg",
+      "bytes": 516888,
+      "sha256": "1ba841d2ab5188269280556836343c91d97be4ef2da6dfd50747d8e9fa1766b4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/v16/balcony-thumb.jpg",
+      "bytes": 47068,
+      "sha256": "f2ca6b637a2efe113975e5e55cfd010ce3691ef397b27c06c3078c8a367fa42e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/v16/balcony.jpg",
+      "bytes": 780369,
+      "sha256": "9eea04ac7202d7cf07d9b579b7845d6f08c2b2606f6d6f5fdf6059239064a0bc",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/v16/utility-thumb.jpg",
+      "bytes": 40461,
+      "sha256": "eca49e115badbc3298aa48e14f0bb5d04010957885f3730a6cd5bf29edd981b3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/v16/utility.jpg",
+      "bytes": 553197,
+      "sha256": "ed536abe3609cd2ebac3ba43dfafccb367ac6639ad0cbe3d4bfe55ce3315a492",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/bath-thumb.jpg",
+      "bytes": 20420,
+      "sha256": "6f578c91961aab0ea4a4525fa1d419a2dcf8dcef1468498e57e83a0db4ba5a65",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/bath.jpg",
+      "bytes": 582601,
+      "sha256": "4afe9b96dbe68a5207df91757c255f83da582c7841e6f9b2713b22ef7d1455f3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/living-thumb.jpg",
+      "bytes": 23819,
+      "sha256": "26972269c08add7f8c007ecb4ce2686a4c1afe0dd74f0418d8662cf7a15fe933",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/living.jpg",
+      "bytes": 614751,
+      "sha256": "3b5fbc7c122545a0af808d9df88142e21d4146303ce22ba7ec7c6b0a7fb275b1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/master-thumb.jpg",
+      "bytes": 21834,
+      "sha256": "9321eaee6f4e832242c1eea1b6b693546cabce9d57be39809666ec3f8bec65d4",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/linen/master.jpg",
+      "bytes": 585227,
+      "sha256": "566a31d9e2ec2717f1683650d68b655ff7db7a736215768136998c4e0f653436",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/bath-thumb.jpg",
+      "bytes": 18915,
+      "sha256": "daf69947bc9094f29cc52ec6d3771bf3978ddd7e19182eb1d803763b2155c250",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/bath.jpg",
+      "bytes": 488247,
+      "sha256": "6f92043af274ff892604083ffbd7e2eb1b70e8dabf70f65482c82b8ea7d50f52",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/living-thumb.jpg",
+      "bytes": 23561,
+      "sha256": "2c717f9cef5704b7b7730341d85de7d2d03ce05cfdd9747dc33ff25b0fb11596",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/living.jpg",
+      "bytes": 631327,
+      "sha256": "50be2f12e61ce9f5e2ac7afc87b72f553c9442addd5be322bcebedc575cb753e",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/master-thumb.jpg",
+      "bytes": 21510,
+      "sha256": "e54bbd2b8c4585b211f40b2f5afa6c975f71ac7cf75b6b16e62a9ec221e87762",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/moss/master.jpg",
+      "bytes": 584535,
+      "sha256": "a887704009dff4f3275d372679496e251d8a5f3df2d3b1b89adf5fe7402f5cd3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/bath-thumb.jpg",
+      "bytes": 19960,
+      "sha256": "05ae8a7b560b6e3c5a675183f64315686b8376eadd1e1ade0c69ee9a2b9fe55b",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/bath.jpg",
+      "bytes": 539537,
+      "sha256": "b67a5b85e41850408ff76bfe45e208085e402ddbdb891eed277bd2706c5a8392",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/living-thumb.jpg",
+      "bytes": 24678,
+      "sha256": "f59c97e89024857f60bf650afa2607e1cde44693a8c9aee8f0269a478f2945fc",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/living.jpg",
+      "bytes": 628628,
+      "sha256": "7ba6c45bda08dc88963c6e9f33cf67055f143a2a0041f2238cfdbec3d1a01326",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/master-thumb.jpg",
+      "bytes": 21555,
+      "sha256": "3c6bd63417684ca51284777dc8acb76be3447a49084feb32946a4d96116c6e02",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/chinese/variants/wine/master.jpg",
+      "bytes": 566678,
+      "sha256": "d19c7e4b2d0bbf4663ec9f1f42dadeec763325609201435dbbcad764317dfced",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/balcony-thumb.jpg",
+      "bytes": 43616,
+      "sha256": "c0f57c4228c077fe200d115132756b2ed3db86e3248d44e025bf4f275d9dee7e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/balcony.jpg",
+      "bytes": 598589,
+      "sha256": "504724eba63e5b3a84d74885c7d12a2980b6dfebe414fe2bd094cb8e34d285ef",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/bath-thumb.jpg",
+      "bytes": 37388,
+      "sha256": "31fd6d465d7fd393f2c4049979cb99b2c36e45291d0fe73f119a9985bfa7bdfe",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/bath.jpg",
+      "bytes": 535971,
+      "sha256": "8f1ac6a71d52e0fd59929f8a5fe80d0599deebd8b0e6950cf4c0baf0c25de975",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/dining-thumb.jpg",
+      "bytes": 31427,
+      "sha256": "4a0c626e524dcd3c0dc5ee6e34932e3710aaf7e28a20f3be34d24c4b1ab85393",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/dining.jpg",
+      "bytes": 429528,
+      "sha256": "71a89c3518d8877d142d1071c5621055f684136767f23281beeea4feea9c06cc",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/kitchen-thumb.jpg",
+      "bytes": 33962,
+      "sha256": "c8c4aa4678c2b1584fb6211e4d891a71dadbdc62a7ea654d401d179d19ff3f18",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/kitchen.jpg",
+      "bytes": 494086,
+      "sha256": "f1b6943beafdeb15f8d3c4015e767f0b8c5581f6c2fa8f66039409b39a4276c0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/living-thumb.jpg",
+      "bytes": 39248,
+      "sha256": "7f49842048e68f1d22b4854a85c4ea654d6255996f5b1ac77a04585da23f41df",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/living.jpg",
+      "bytes": 557994,
+      "sha256": "77922ef8f87a6cdb0846719812b5dfdaa597a0739e6b9317e8638017d18e6de3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/master-thumb.jpg",
+      "bytes": 39351,
+      "sha256": "99844bdf4f74b98aa923c45af474a77faf1f117702a8862c511b9257aa5c73d0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/master.jpg",
+      "bytes": 556366,
+      "sha256": "c85f0a753ba29730000e2e61bd003bd17a1e1f30645f6e8048d0f5aa18a5cf37",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/second-thumb.jpg",
+      "bytes": 38772,
+      "sha256": "5e4c775d2c769285c22f453ec60339e07da8c90539c4fd932b4168a0aa047685",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/second.jpg",
+      "bytes": 535273,
+      "sha256": "05ad48f833c3e0f71804fabd08b59546c4c5706f2b87df7208c25df0912b25e5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/utility-thumb.jpg",
+      "bytes": 44978,
+      "sha256": "4c7ce1074ca4682f6165bc9efe47b26d6e25d5a1d9370ad3eac68f86f85db3ac",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/utility.jpg",
+      "bytes": 548603,
+      "sha256": "aecf81d747745a1bcee92da62116f2608aa3fd3fa5ee56fc732a357e442fea84",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/balcony-thumb.jpg",
+      "bytes": 44460,
+      "sha256": "cc61539b8ca43ffeef961acc35a7a47b15b8e74b44dedb22a5b398386367b3b0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/balcony.jpg",
+      "bytes": 774352,
+      "sha256": "327919a7e15cb40e35225d977314e86b93cd36d13c33bfe3a7990ba1cfa38f07",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/second-thumb.jpg",
+      "bytes": 40841,
+      "sha256": "0a90625b29d90039e644c081402ed49c70e9a0ad25618197a5e89a2177a221b3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/second.jpg",
+      "bytes": 704049,
+      "sha256": "51b610068a12f65dd6233dee29c849f38e6549be7beeed55b1408be0fc4bf8d5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/utility-thumb.jpg",
+      "bytes": 43173,
+      "sha256": "dd20f19b899a3ad848011d6eba9b3e56413198c8e1480d8e5a372e8778e195ac",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/collector/v16/utility.jpg",
+      "bytes": 604423,
+      "sha256": "53fa74e0e382b2dfd8bf8457add3cec31d0a705204a741af3f74c3eae848ee3d",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/balcony-thumb.jpg",
+      "bytes": 39786,
+      "sha256": "c0b47db4f4da6d9d4e269207cf40befdd9b523f5e30543597f0499732e7b67fc",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/balcony.jpg",
+      "bytes": 773650,
+      "sha256": "631316b900486e0e0a37e5a9793507b5cb77100b80d4388202a78195488702b6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/bath-thumb.jpg",
+      "bytes": 32705,
+      "sha256": "356ab019fa2ec522b38f8e2ee4806925bea3fa311c827e34dbde3b64519ec0da",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/bath.jpg",
+      "bytes": 763980,
+      "sha256": "457f6683e27fa9f4a16f80829eb222e1d2065021aab366391552229dde6d40b8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/dining-thumb.jpg",
+      "bytes": 38454,
+      "sha256": "4b68e62efc2dbb7584060f197cfca3f02cb99c97181b325b939fd27cc6707f22",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/dining.jpg",
+      "bytes": 788964,
+      "sha256": "ba242cbc94d1fde5293f6318d451d1fb0bb3326874343303f4bb2e1f6ec2b3b5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-kitchen-revision.json",
+      "bytes": 1332,
+      "sha256": "1f95b515738134f6f14b090f59b32b26c14b8614b62cac7c13580ea3e5ff87ad"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-manifest.json",
+      "bytes": 18552,
+      "sha256": "acaba6ef14bc24ec5ec9bd4102b0a481dab16b12c134d9e603e1a301c1fa6e05"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-prompts.json",
+      "bytes": 18552,
+      "sha256": "acaba6ef14bc24ec5ec9bd4102b0a481dab16b12c134d9e603e1a301c1fa6e05"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-sources.json",
+      "bytes": 884,
+      "sha256": "0b071fe360c1c924da45c34849d972245752ec404dce1243119975d0d696045d"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/kitchen-thumb.jpg",
+      "bytes": 30306,
+      "sha256": "dad32a543f40a072f6b8b992adb918e0f0ba18286a0f9dd4c89d8bcc1ef1c034",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/kitchen.jpg",
+      "bytes": 612529,
+      "sha256": "1d595b977f140a736e64b07765346914f5691b69edbc86d5f99261bdda6cf2e1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/living-thumb.jpg",
+      "bytes": 35354,
+      "sha256": "150f67cd5e2879aa14896a9ca057defe362a0d03dad24efeda3d9af69478a9a6",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/living.jpg",
+      "bytes": 790699,
+      "sha256": "bdde841b381b19a9162a2526cb931474e953d85ed67100b91463bcbeb682a21a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/master-thumb.jpg",
+      "bytes": 33030,
+      "sha256": "d9afe1307a903849317ce398c9f77b2d57f66457abe84e865bbd3ee8264611f7",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/master.jpg",
+      "bytes": 736882,
+      "sha256": "1b1ad7737369abcab209d52a8d435639bb1c2275ef10559a59fabb79cfad30e9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/01-thumb.jpg",
+      "bytes": 35164,
+      "sha256": "705c823016bc9087d2ccbcfb1bcf4c2e7c2799738a6a93c7d4197c88a5346d07",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/01.jpg",
+      "bytes": 755937,
+      "sha256": "2488f83f225df2ca51b872d31207add2519f58ff0b323cd5498fab72c92ed9fc",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/02-thumb.jpg",
+      "bytes": 37114,
+      "sha256": "8313b3a9812fe1010c176d30aa6160d490de30afa54803b781c94a41b869a4f9",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/02.jpg",
+      "bytes": 788451,
+      "sha256": "9ffc579e2439c55d4e507f5affade14b1fa446db0bce209e39bd6fc3d1345ca4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/03-thumb.jpg",
+      "bytes": 36403,
+      "sha256": "1f35c3222bea453fbb08f21dde7cd7558cd52960d721654c0cc8c410ab1de7f0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/03.jpg",
+      "bytes": 780467,
+      "sha256": "7ef1583e1e1b4773fa0f02ece3a34ee75c93a2b995227163863ef2e49ea33f41",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/04-thumb.jpg",
+      "bytes": 37211,
+      "sha256": "528cc46fd2fd62e23e8c70d26644340e7e6373b690ac5c0eb3a7df91211183ee",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/04.jpg",
+      "bytes": 777346,
+      "sha256": "0fca3fd21b984f63dbdc2221466b865573d08d867fe2123ba9ffcb015830106e",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/05-thumb.jpg",
+      "bytes": 37482,
+      "sha256": "f0f2474a8e6a187b8971bd19dc3feb40f60d1e6d2c3ffa05cd5af7a79f5394d3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/05.jpg",
+      "bytes": 819933,
+      "sha256": "4e3bc5bf3fd8a86710bd26ba4522abf8ab81804fcd4cafe30dcf3869c6c626b9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/06-thumb.jpg",
+      "bytes": 36946,
+      "sha256": "e49fb89c91c8e2174f16abb8a4b3e3cf2685e23d8aba0b15d5d99a6f24dc321c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/06.jpg",
+      "bytes": 778517,
+      "sha256": "7017ae97edc2cfd38c4c98175244dac16dbec0833f935c624929c04c58f34c65",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/07-thumb.jpg",
+      "bytes": 36225,
+      "sha256": "303d996da213f45b2535d0c2145e4a570d5959d6f5c424098848420a178350d1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/07.jpg",
+      "bytes": 801637,
+      "sha256": "431f1e401e8cb2359ebfdc28e254787165c6c0d106b52de13f02fe8f197b6ef7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/08-thumb.jpg",
+      "bytes": 37107,
+      "sha256": "a5c4dc85a83580cfe991cdaf1ed1d960556b97f61f1d90a754b21087237b7032",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/08.jpg",
+      "bytes": 778846,
+      "sha256": "9ce8fe18e0185c875283f086139bfb9ac5da704a9d26b852f700fabdc2034f46",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/09-thumb.jpg",
+      "bytes": 35966,
+      "sha256": "d5f96c6aef5f63751da1ed1820121df06d164bf5d417f5a931e645df66ab272c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/09.jpg",
+      "bytes": 767629,
+      "sha256": "d5ee31468ab2690028d5e23b0018470b7bf121cc5045a2ad7444859070093d61",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/10-thumb.jpg",
+      "bytes": 35991,
+      "sha256": "d46333cd5273180e27505060e3f4ee3fe5fa3b2de728f6ee5a7338946fd3cccd",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/10.jpg",
+      "bytes": 758985,
+      "sha256": "47a8a73855656e7cd500ef7b7ae976389859430c99ec8ab7ecb71efd8973eb05",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/11-thumb.jpg",
+      "bytes": 36877,
+      "sha256": "a2fc1ac6c83e212f5d8d071abfee9e0fa586a3c879a6bf08a6f3ac712fc27412",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/11.jpg",
+      "bytes": 848403,
+      "sha256": "d87386cb93235a4d17aaaabf591950e6c406f976736dd3c6939c67d750458493",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/12-thumb.jpg",
+      "bytes": 36037,
+      "sha256": "4fb3a71f49e015560e274b9d1fec9d681135356cb9714fe67025d2963f31b742",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/12.jpg",
+      "bytes": 747826,
+      "sha256": "1f3e16eb82c9bf3578532d4a055fcc76b1e4a41b03c58662a373013acd4028b9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/13-thumb.jpg",
+      "bytes": 36724,
+      "sha256": "4f132581b65d06bc3b2f2d03ae610d7f71c6b42f0169a77ea1c1246773a89393",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/13.jpg",
+      "bytes": 794967,
+      "sha256": "3d421a1268cf8103af03a36b7349b7ddef0518bbbd5444b2ae0fd47a943d3ddb",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/14-thumb.jpg",
+      "bytes": 37314,
+      "sha256": "8197fe4f2da4835e89a472575d35af0f76ff7297990a29065c59f2daf433404f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/14.jpg",
+      "bytes": 804577,
+      "sha256": "288139ee3109b7047301ca2047f432776d41779bf8280c8f51cebf9d18177980",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/15-thumb.jpg",
+      "bytes": 36586,
+      "sha256": "65ef67d34a23d18152fe0c5865d71e68b96559b81c7dad8905f9720b1d48a8f1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/dining/15.jpg",
+      "bytes": 806333,
+      "sha256": "e74260f5fa4e9cc5bfcd1dc0b07341c7c238ea81cb1f6fc3932e201f721a2f97",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/01-thumb.jpg",
+      "bytes": 33574,
+      "sha256": "8b229ba1cf31deaf085842c818fbc3ebbdc2b99c886fb625e04150132397258a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/01.jpg",
+      "bytes": 710782,
+      "sha256": "7de05fa913f3012ff8e9ba49c387a0bc11a9f143addda75e55e7ee37db1e7315",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/02-thumb.jpg",
+      "bytes": 33790,
+      "sha256": "39c59daef909d8c63db833409b002eb4a27c2a648d53b45bd76b95aa0af42493",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/02.jpg",
+      "bytes": 724184,
+      "sha256": "840018bf854ba9f50803858cb541cd20330a8954f2ab82ecebc27e5f677a9619",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/03-thumb.jpg",
+      "bytes": 32875,
+      "sha256": "f6bf4a3b8c9ad7622d36f95e2f9bcdf182d67de57ae7bfa5203cddf873c82cb9",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/03.jpg",
+      "bytes": 731504,
+      "sha256": "54c9a6f53bad8ddbd28e893b5948a0f2b5f80f244404f7bada4c2b299fb697aa",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/04-thumb.jpg",
+      "bytes": 32332,
+      "sha256": "37973a3e42092e3f825fe4c253da645e75a1f453c9e6e243710ac4eb3365a2bf",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/04.jpg",
+      "bytes": 656881,
+      "sha256": "e1160ec51e3d4294efb93307e82c0a6d534fe30cace0336ff1e20330280ba9a7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/05-thumb.jpg",
+      "bytes": 31994,
+      "sha256": "75de32f079ba5937101504d0d2f29fa9e73cd11b1b0d0632619859b3803a415f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/05.jpg",
+      "bytes": 673586,
+      "sha256": "eec53cf93cc7f0dee64609cbb7d1c5554e32d723cf6d17d8264953ef132edbc0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/06-thumb.jpg",
+      "bytes": 29516,
+      "sha256": "cdc501b738655ef2ac622028a4cc61275458b613d14dff8ef7c8b3bf746a0add",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/06.jpg",
+      "bytes": 583921,
+      "sha256": "8e17397eeabd0a060fbbf7c34d476b66ccfbe04988e63cfe53191b3e6f34c431",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/07-thumb.jpg",
+      "bytes": 30614,
+      "sha256": "ee4d90930e2eccb773d10f8a2fb44d013557da1edd997a23d4a199bf2f075ec7",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/07.jpg",
+      "bytes": 661719,
+      "sha256": "23e6df505eb2ea31fe514a5f2ebce7853d679e61610099f504046a76d58d8eb7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/08-thumb.jpg",
+      "bytes": 33941,
+      "sha256": "d1a44996568a869bedc50e9a290454d0e06594fab5bfeaef548c1922ff211c8f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/08.jpg",
+      "bytes": 713395,
+      "sha256": "9f818937683be1d856ddfd1807cab982eac5cf067660a0b4927a44784410757f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/09-thumb.jpg",
+      "bytes": 32893,
+      "sha256": "5bcad8a4753cb8f50f6f824e348f500f1049da197d7d11af3f2fff2efd7f628c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/09.jpg",
+      "bytes": 716080,
+      "sha256": "377d56fe5f727fb913d2308d776ad97d1f6a61c8e86746a5c8b19c246bbaa158",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/10-thumb.jpg",
+      "bytes": 33489,
+      "sha256": "7bbb8d30a7f2c6a1702c1430c555fe976192c940210800036696436a4ff35e20",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/10.jpg",
+      "bytes": 726590,
+      "sha256": "a48db1a137d9e155d7ae1bd0557484aacaadd5b0caac16e55369aa35b4e82ad6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/11-thumb.jpg",
+      "bytes": 32583,
+      "sha256": "e1699123f7ded7abfe911ea08608093382761abbb42695868f1a183bfd8b84ab",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/11.jpg",
+      "bytes": 740037,
+      "sha256": "0666b4aa9c828c8cc2d0e90c93402119d9d8d091198b7cbf65d868e856464c22",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/12-thumb.jpg",
+      "bytes": 31644,
+      "sha256": "a6abdb6cf88e71910bc064bd63df51ad49c61d692f1a06ac9cec2a29b81638c5",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/12.jpg",
+      "bytes": 653941,
+      "sha256": "25dc81f30a6ff2e52cfde9c3dfd5d45d19ece822d73274bcb40cd943d96d140c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/13-thumb.jpg",
+      "bytes": 31649,
+      "sha256": "4ec7c49c79b6400eb9a725a57812b5103f6ddf30f3e61806788d62ef60d7d7e0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/13.jpg",
+      "bytes": 703307,
+      "sha256": "629d28780a08a1eb65f1353f02696f6f5bce31d28e396b0e853810b8603f8cbf",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/14-thumb.jpg",
+      "bytes": 31032,
+      "sha256": "c44e24e97ee1484a69bc97abdb73ff3522203ac262c8644c19c39249fc18d0c4",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/14.jpg",
+      "bytes": 649079,
+      "sha256": "947bc4bfda8bb907f50a8cb1b1b6db6393f8cd0a8eb34f82ef4d4e63ad557b3d",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/15-thumb.jpg",
+      "bytes": 30392,
+      "sha256": "f458b8fdca2a05373ef84028040aef0e66cc975a297d4bab0fb54337fa857753",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/objects/living/15.jpg",
+      "bytes": 661279,
+      "sha256": "df069d7efdbf830b8863ed2253a8f3d0197ed10e17166dca48048072b36f6f95",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/second-thumb.jpg",
+      "bytes": 36608,
+      "sha256": "8ac8a216861186443229c6930955900aad49355cc4c2b164e0db6a38ecb82aa1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/second.jpg",
+      "bytes": 712545,
+      "sha256": "c26fd3a580d8b6b188684e020996f0fbedad1dc3345448553e544425d90308b6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/utility-thumb.jpg",
+      "bytes": 32899,
+      "sha256": "81ffde73f6943d7cedfe80a982a55cf5d9d7b84a7182e1b7e90adfa45278632c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/utility.jpg",
+      "bytes": 662167,
+      "sha256": "fda103c7c662644a9fa17dc6dbfa56c7385617f534cf43ecdd7662c621bb9354",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/balcony-thumb.jpg",
+      "bytes": 43238,
+      "sha256": "4d3f0b915d7d5976fc50709298c1e0f8b5e057bed6700002b528abae286082f3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/balcony.jpg",
+      "bytes": 718332,
+      "sha256": "b99062b1847bc3178a3d927b482ff05d99acac49deb306aa4654a817ead5ab1e",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/dining-thumb.jpg",
+      "bytes": 36779,
+      "sha256": "07d75b9bd2a8f3fbe32f90d759ec315b6a2a8e1aa1c57150c23ae3dee40d6557",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/dining.jpg",
+      "bytes": 800387,
+      "sha256": "12652b6fd9680f29bfaa563bc1241884ab393ce387f58a543be70e408d518e71",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/second-thumb.jpg",
+      "bytes": 30506,
+      "sha256": "21561e983892871fa00c75c2960755d51b1a8856b591b4af6143dadd54766b9a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/second.jpg",
+      "bytes": 518305,
+      "sha256": "4a2d41c0c300ad016433e8062c83aac36c44638baeb96c6dd0b656f7907ab257",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/utility-thumb.jpg",
+      "bytes": 34990,
+      "sha256": "9ad962492fb9639e46492a2b2a67d5be89e8a3c9878dcbc6048f1d10cffb1215",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/copper/v16/utility.jpg",
+      "bytes": 555108,
+      "sha256": "71a978cacde58db752fc8ace4ea0ad18157ff92c7cee5ef7e0566cfbf470d68a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/balcony-thumb.jpg",
+      "bytes": 25131,
+      "sha256": "016f2626a76fa4806501bd8e0c22505a7af8731d104dc1ad245f817fe950cd4a",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/balcony.jpg",
+      "bytes": 713507,
+      "sha256": "682bbd30ccffefbbb74601fc07ae40595821f33848aed6e87fa05d639c502a56",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/bath-thumb.jpg",
+      "bytes": 19876,
+      "sha256": "28ad39db94570952932ad5838507e1f0067b9ff9747e60143871a2d872212f2a",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/bath.jpg",
+      "bytes": 640611,
+      "sha256": "51b4c65273cb25b3469dfc19808a13667c4ca9271367fe32b6bc2d0656b25063",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/daycool-thumb.jpg",
+      "bytes": 41682,
+      "sha256": "888629eb83c416cf14fcbe7aec495a6e933d0a07b1b781bfa366f7ab3a3a9a2a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/daycool.jpg",
+      "bytes": 540828,
+      "sha256": "0f9ba2f38fbd17411f9af5ac49884e987b2f5d5de943ee6ee0cb9249bb111d2f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/daylight-thumb.jpg",
+      "bytes": 45171,
+      "sha256": "22a14fb977ec14571b8a2f2586d1babfd21dad8d4fe43b60c6cd7e0b4626b31d",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/daylight.jpg",
+      "bytes": 585980,
+      "sha256": "9ee5863af24baf704def1ffd3dcc3db712fc753711b269f8cf0fa93aad33f244",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/nightneutral-thumb.jpg",
+      "bytes": 40072,
+      "sha256": "12fe0993511b8d0bac0e2f854e16185c95ff833b5ff9c985c7a2d5540fdc44f2",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/nightneutral.jpg",
+      "bytes": 496759,
+      "sha256": "3908d457d099a8f6bfa90a11d6752fe3841d572cba5db107b1279ede291646ec",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/nightwarm-thumb.jpg",
+      "bytes": 41821,
+      "sha256": "226c268ebce6f2ef9cabb1ab2a5358296c45b1ed45776f39d769122e4f74b97b",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/original/nightwarm.jpg",
+      "bytes": 533931,
+      "sha256": "f0b026361c0a2ecd8cc9e384d8e142c1a22fea97899aa770179ba5f2470c7977",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daycool-thumb.jpg",
+      "bytes": 44452,
+      "sha256": "032ace487e479ee1dee9e2d57f63c81a9294ac36cbf8568aac82b82e6a2d2e31",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daycool.jpg",
+      "bytes": 556377,
+      "sha256": "ca6af3b8059023afcf305c8eeecac032997538d220c2f25ab8fdf379f2f145a4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daylight-thumb.jpg",
+      "bytes": 44324,
+      "sha256": "29485516894d12c7e1e05e2dfd46acf5984cd2bd02954855c4b6420e2368254e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daylight.jpg",
+      "bytes": 576089,
+      "sha256": "c39943fbe1b0fbf2d86af54cbab438e5d56ec9055e7808cb9e115e2ad9895755",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daywarm-thumb.jpg",
+      "bytes": 44467,
+      "sha256": "b93c2473fb839e4fee8d1f6f23cdc007052659268e5cbfb983c49df4cd9f0c4c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/daywarm.jpg",
+      "bytes": 554511,
+      "sha256": "b628ac5865c5a9dfea62e7f4e6ff4fced4370e30684710d3d9839a617cedb7d9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/nightneutral-thumb.jpg",
+      "bytes": 40468,
+      "sha256": "be9631613126a71df5be7ae71147de6a2c781790c85a897c2638d54ff84defee",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/nightneutral.jpg",
+      "bytes": 503074,
+      "sha256": "a9eb7fb7f558cbae33447e44103e0239007e91b9e07e9d74f8a634bf8a38d818",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/nightwarm-thumb.jpg",
+      "bytes": 42731,
+      "sha256": "dface1e90b5f4c5fd76449377bc4f5a2e5567ae040b42c444986082661cc84b7",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/social/nightwarm.jpg",
+      "bytes": 544433,
+      "sha256": "c1269dc3e198d25dc017870bdbf0854eb73d70d014c9249f311bd79f79ac2b97",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daycool-thumb.jpg",
+      "bytes": 47317,
+      "sha256": "a49ce961e2ff1a0207e74d64c60f2532127f464788f6323e7896e58d349ac349",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daycool.jpg",
+      "bytes": 554014,
+      "sha256": "dea4c6c15553dff0fe7ca6e88fa1dfee73bd40fa00a432ebc4636c8c932bde42",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daylight-thumb.jpg",
+      "bytes": 46943,
+      "sha256": "c6a50e9cb0e55712c6186305b18fece8c228be007b65c44f86c7e5b8048a1d92",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daylight.jpg",
+      "bytes": 577817,
+      "sha256": "73b4aacac80c67bfc7d6b627fcab0738003a213fa672b0649f6dabcb0496f8d6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daywarm-thumb.jpg",
+      "bytes": 47989,
+      "sha256": "24fe76e1171ced7d2820d0a644c7b991879adb4c851eb67d6a5e1f008b084eae",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/daywarm.jpg",
+      "bytes": 565189,
+      "sha256": "1382af7073e754e33f9ab891f3445508484a645d6e806389d449eb69dd4eea0c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/nightneutral-thumb.jpg",
+      "bytes": 42254,
+      "sha256": "709e7dc9bed5f35306acd6a5c4833c5249cd2ec8dcd3389c4bac380807792a45",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/nightneutral.jpg",
+      "bytes": 493256,
+      "sha256": "b96d0317ef4022abd764a1cfe6c8293b443faeefc2165c1ee35001404729d649",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/nightwarm-thumb.jpg",
+      "bytes": 45835,
+      "sha256": "e68cc8a6c054c3386d6dc49606d1b5307b4bde067897c6196e316e9e4f806f16",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/cognac/storage/nightwarm.jpg",
+      "bytes": 549681,
+      "sha256": "73672ec3a5f5a6e1e80d9a2f6c5bac4b3e5964eb3540e5f1dc385475b338cfa6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/dining-thumb.jpg",
+      "bytes": 19372,
+      "sha256": "7669655094f4bfab398a1a135164890b84b95a69259ea83321da659b7f637e46",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/dining.jpg",
+      "bytes": 533693,
+      "sha256": "fa1af334f6c07aca401692f947e9cbfa0420fb4ceb33285fcc13b3d51c237387",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/kitchen-thumb.jpg",
+      "bytes": 18758,
+      "sha256": "66ee4d4bcd4f65739749856f72bdc29ea7cff72991c6821beff7ab68a424dfc0",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/kitchen.jpg",
+      "bytes": 547686,
+      "sha256": "086531ff3de4a79a65b4729bca6cc82eb6cd7091b8649b24545efc9f011a6671",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/balcony/glazing/daywarm-thumb.jpg",
+      "bytes": 56772,
+      "sha256": "025c25610ebc3902d7049164ea67e88cbfbdc599d39a50cc1e1b3035b53b5a1e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/balcony/glazing/daywarm.jpg",
+      "bytes": 623197,
+      "sha256": "c41a34f06d003791ff6ac790146f3501230eb9fd106e2971160a80059b286b6a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/daycool-thumb.jpg",
+      "bytes": 46337,
+      "sha256": "1dac7aa5def1cc788afee37d5ef5da9c136920a1700fecfa6909a64e299adc15",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/daycool.jpg",
+      "bytes": 509860,
+      "sha256": "376e188b39ed94e62593d775ad473bde6bde9a7527b04570b69c6503f5fa8f22",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/daylight-thumb.jpg",
+      "bytes": 45467,
+      "sha256": "5bd8b51d9f9b0b78efc7f34a4f1b94448748977565193a60deafc9a766bd041d",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/daylight.jpg",
+      "bytes": 507813,
+      "sha256": "7393fdc271dc39fb8ee4da2dd27dfb2d27ff5d0f7aa3a47701693ea4883d5966",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/nightneutral-thumb.jpg",
+      "bytes": 39230,
+      "sha256": "6fbe3de64139d76519ab74d9c42173f02be3fd9ca669542c49ab032eedfc1ccb",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/nightneutral.jpg",
+      "bytes": 426618,
+      "sha256": "40a2da53a0afa080358230f3e3bac25a2fe0d9255382312c2e78f34a7aa86aba",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/nightwarm-thumb.jpg",
+      "bytes": 43440,
+      "sha256": "1a3aca07736f708563a14653ebaa4d3895221f879812ff22678b7f99313a9018",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/original/nightwarm.jpg",
+      "bytes": 490921,
+      "sha256": "629329a0f6b47fe306201d042d631bd9149378600284ae634d7466791f7c95c2",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daycool-thumb.jpg",
+      "bytes": 41689,
+      "sha256": "d181e69ee8517feaf39ef6703c22a293ed844f58d75dc4d4a747957f07e46900",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daycool.jpg",
+      "bytes": 473879,
+      "sha256": "94d76db9b8a043cfb8bc4447cf2de9b6f0ee6756c91596dcc5dbeab2e6926e8a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daylight-thumb.jpg",
+      "bytes": 45537,
+      "sha256": "b24549243a2f8a6ff3fb653acdc1636d90e47a76477161e41507f61825a5d16a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daylight.jpg",
+      "bytes": 546925,
+      "sha256": "90da30c692532f2fc5a46938234630a1947e9325d96b95d794ea3111f32caac1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daywarm-thumb.jpg",
+      "bytes": 43604,
+      "sha256": "60b5082145be36e02625f451bc65b38b2572f076ee9e08f9f82ef7330d6a4c8d",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/daywarm.jpg",
+      "bytes": 515174,
+      "sha256": "c3718e810dca9d491368744af6f75aac2e4176660398c8ed1d954a54e9c56a7a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/nightneutral-thumb.jpg",
+      "bytes": 38548,
+      "sha256": "7ff0a0f9fac43f0b0b569c6bc05d204e58434472375aa33a5abf6dc272e91d82",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/nightneutral.jpg",
+      "bytes": 465146,
+      "sha256": "0ef0df14bf7d6c46dce0ccd4d965e943c0eb364a2344a492a55b0950eda983e7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/nightwarm-thumb.jpg",
+      "bytes": 42532,
+      "sha256": "51d7f355eafa12ce8a0005f031096198f9eeb9458aae40a1acc4d034f18fbba5",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/social/nightwarm.jpg",
+      "bytes": 492610,
+      "sha256": "a2404a9dcde402076584ad0009f25c27c7874a2ee0963728f47612fbf1685983",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daycool-thumb.jpg",
+      "bytes": 43888,
+      "sha256": "af96fe2c490af5617dfc299057d68047bc05e9efe3f8d6f2c8bfb398759ddad3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daycool.jpg",
+      "bytes": 476290,
+      "sha256": "c666dc4c38f9d81017f74f0e83047e10b35cc9a6905f7a76441c4b988d3e610f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daylight-thumb.jpg",
+      "bytes": 41701,
+      "sha256": "e357f2817bbae6f1792dc17e30c40a8214639da16c2022a85a3b390949639474",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daylight.jpg",
+      "bytes": 489482,
+      "sha256": "b71e252004a7a995b8670d46a0c5cbeaa6dccca188f960933b14ef9c3bddd848",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daywarm-thumb.jpg",
+      "bytes": 47515,
+      "sha256": "6ffc794d366f403dc6595bed0a219c3f6fefbbdf47c7e60a1417b46fe8580a14",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/daywarm.jpg",
+      "bytes": 534439,
+      "sha256": "b3045786a987d807c9cb91566b93f963e4e22d6f8d6dd318f8373f288855b901",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/nightneutral-thumb.jpg",
+      "bytes": 42077,
+      "sha256": "19e8053c05cdfdbdd96e57ae5a9f68914da75632e454caabb8fd1909900d40ba",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/nightneutral.jpg",
+      "bytes": 467277,
+      "sha256": "0449180cd1dbd5243c87177c9d12970bac484498eba4ff7912cb2091d41207d5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/nightwarm-thumb.jpg",
+      "bytes": 45202,
+      "sha256": "1943cbe35325d2c17d59b19edcfaa8cd11370b3aa66c51e3f05d3ed819ded386",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/living/storage/nightwarm.jpg",
+      "bytes": 508773,
+      "sha256": "402d2f30f56c6a3ff020da791cfe0b012fb268b368e5e504c8b782bf39d056d9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/master/rotated/daywarm-thumb.jpg",
+      "bytes": 41286,
+      "sha256": "13945c8e77c4732f6ef222806b71988d5bafe767508956571279bb7999541ffe",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/master/rotated/daywarm.jpg",
+      "bytes": 519407,
+      "sha256": "dce0825cc9723a107db61873543a8b1a08fa5e8f8f97520c210d15e2ee53d839",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/master/storage/daywarm-thumb.jpg",
+      "bytes": 44283,
+      "sha256": "95dc414f7f4460d459aeb38cc8fb85a2880dcc1c918a7108f065228307734385",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/layouts/master/storage/daywarm.jpg",
+      "bytes": 527519,
+      "sha256": "74915bb1d2a7745532b5d4aaeaccec0511d4045fd05731c4b633aff206d0c053",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/living-thumb.jpg",
+      "bytes": 20502,
+      "sha256": "6f72d16a0f886969ca6b85b77a25b5c79589307c56b53ca82755a08addc1e712",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/living.jpg",
+      "bytes": 594699,
+      "sha256": "18d25b3206aa9e1a726fa68a250ee12e0b70c9fcf7aeb44b6c9fbc1d38d16de7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/master-thumb.jpg",
+      "bytes": 20055,
+      "sha256": "b7bf5e85e81a1660a362c1945772aebe108977d9ccff5e56c4a28c6037455a2d",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/master.jpg",
+      "bytes": 596580,
+      "sha256": "d5a85bfedbe297c0572ee35985303a12868053ba49db50fcdc7f596333d6c2a1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/cognac-glass-thumb.jpg",
+      "bytes": 35712,
+      "sha256": "29f0b1109845c7422388c8a6099c4f307fbf991d4c632ccc52834e2a97ac685c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+      "bytes": 502405,
+      "sha256": "aaa2bac75946be2246e30b1a44cdf1b01631b31e70e7374ff511690b106cc683",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/cognac-stone-thumb.jpg",
+      "bytes": 34828,
+      "sha256": "190af269b38197d11d2c1bd632e0279cd2cbc72e30f83acb787fb49062b0265f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/cognac-stone.jpg",
+      "bytes": 463706,
+      "sha256": "4a63cd9add68480d0001fd0e48c6ae63c57532be3b325f469f142ce6e5daf4e8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/mink-glass-thumb.jpg",
+      "bytes": 34404,
+      "sha256": "13134eea61ded9f6efa2fb63d221940ce1ba9d2db30ea95fcd56f350872c9539",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/mink-glass.jpg",
+      "bytes": 477751,
+      "sha256": "7840a3e5c29bd890057b6a73ccbf31afe483a6c4637836b303543653ed93f05b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/mink-stone-thumb.jpg",
+      "bytes": 34862,
+      "sha256": "1d5671e667b60fa88b3900744a5b5e32df4d91c0b919b682664f45653120dd8c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/mink-stone.jpg",
+      "bytes": 461564,
+      "sha256": "b72fee57876398f230fec1122b8504468f000acabbf97be76f4794b7fc263d45",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/wine-glass-thumb.jpg",
+      "bytes": 35175,
+      "sha256": "43909aa52c4f4af1fa871a69e1f6972a363100748f4aeb63f09e6f246350ddcf",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/wine-glass.jpg",
+      "bytes": 470010,
+      "sha256": "3ae533566729ab319748a44bc18459e626a2e38608584609404c6088efdb3969",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/wine-stone-thumb.jpg",
+      "bytes": 35348,
+      "sha256": "06d1cf924aed0c4af8418a36fb9234f7941308b6676bb5a0f8818e3cb3985717",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/living/wine-stone.jpg",
+      "bytes": 453249,
+      "sha256": "57e7008d19166e9f1455b0cecab8ad06edc9b5d4e173577d0298dc0f0868cbd4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/leather-thumb.jpg",
+      "bytes": 34769,
+      "sha256": "f85754a36805ce8457f908f80246de49dcb0765be205d532379be768f641187e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/leather.jpg",
+      "bytes": 472016,
+      "sha256": "00d4a452badb47e54d48555dd55a892736ecfcc86eb68717cfa2a8b12125f925",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/linen-thumb.jpg",
+      "bytes": 34644,
+      "sha256": "047373eada428cbd1c1e7812c35b1040223fa27b3018cd52ee274afb08457355",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/linen.jpg",
+      "bytes": 485443,
+      "sha256": "47bfc7367830aa92ff14500f194b9b5689e33c5f33a2d383011151ab90209ce0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/wood-thumb.jpg",
+      "bytes": 35521,
+      "sha256": "ea4c7ec5e64160742e7806af0f3926b9ad91dfaee23541937edf19542f6ee7e1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/pieces/master/wood.jpg",
+      "bytes": 480485,
+      "sha256": "d144114c07de1084b6fce2e55a225cbf4bbf6c12f98b0b126e165d315942b517",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/second-thumb.jpg",
+      "bytes": 21406,
+      "sha256": "d4726dac1268dcf36bf86d556c1642f01defae73365beb7bb0aa6ed8be4c2350",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/second.jpg",
+      "bytes": 603901,
+      "sha256": "f7259497b89cfb62e4b7828c590858dc88e38410d83e66820150030fa3ac1987",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-oak-thumb.jpg",
+      "bytes": 41962,
+      "sha256": "018f59688c7bb9ff249d711d36ed96f6e781836c793b7a6db7cea0ef5a32c95b",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-oak.jpg",
+      "bytes": 527696,
+      "sha256": "85f6afdccd2035eaaaadb327b20f5ad9ff36a00d39a189d9a151ae614e4fab5c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-smoked-thumb.jpg",
+      "bytes": 42616,
+      "sha256": "5469564f87794f37d433f709f0ee8a5ac9028eabed8f3e33209d9e27d0509d01",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-smoked.jpg",
+      "bytes": 537964,
+      "sha256": "88f7e79f250e5074fbebc5ccc81ba9fcec0950d9a07379c88742415a4acf8741",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-stone-thumb.jpg",
+      "bytes": 40255,
+      "sha256": "2b7bbc362b931255e675fc19e9ac93edd4039aef6b04678135741e7963cae3e8",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-glass-stone.jpg",
+      "bytes": 518268,
+      "sha256": "1c7afbc18c8556b19ee1de46d5ef28ce5d2ecec7df5a2f46a2a5e1a1e4b1d592",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-oak-thumb.jpg",
+      "bytes": 45812,
+      "sha256": "fb7b2c67b48fbeb1ec091a37a8d4bd30b9b75572d89687a9c4e30bff53063c9b",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-oak.jpg",
+      "bytes": 517249,
+      "sha256": "ee727c3ce954a43e1f3ab222a376a7aeb71d158df3f550ccf60e03e9effb6ce0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-smoked-thumb.jpg",
+      "bytes": 46678,
+      "sha256": "52cc912be1b5b5bc048a27c4a2bd1d04bb5a4bd87d46059f97b134bf47cdc662",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-smoked.jpg",
+      "bytes": 521456,
+      "sha256": "dee3aaa2ae8ff83b380cf58792e2007e293d892fc9781b0333c4c3c355c0bbaf",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-stone-thumb.jpg",
+      "bytes": 41144,
+      "sha256": "7efab3fea2a204ae64265ff9aa60e886547c4cdb611c154d6db40ad9051cad6f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/blend-stone-stone.jpg",
+      "bytes": 502879,
+      "sha256": "ee3c56d8964c1e5df43aae495ee4528b7bac05067abffbe6649911b0aac5ffd6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-glass-oak-thumb.jpg",
+      "bytes": 43646,
+      "sha256": "aa278c950ffcba027db5de23e451de3aad9ab4d2cb7abad0fe6d8582e279ece5",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-glass-oak.jpg",
+      "bytes": 541084,
+      "sha256": "716312617eec276817de1f0a15a60e851e4cef6c84f08c1f827869b15e77e219",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-glass-smoked-thumb.jpg",
+      "bytes": 43512,
+      "sha256": "1da56d229dc40cd720d9894ee52abba6abb8054fb4777cf6202a76aed19cc4f0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-glass-smoked.jpg",
+      "bytes": 550770,
+      "sha256": "de7c781b9fb57e3a834eed6955f8f5784088786ea1056bc6ad8febb10ee35905",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-stone-oak-thumb.jpg",
+      "bytes": 47829,
+      "sha256": "2a460456a719d01847019b2441002c2de151b42abc402fd3169f1c89ba696257",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-stone-oak.jpg",
+      "bytes": 558451,
+      "sha256": "ff523b382e8d3a5b4fd78f3e62c2639a741c82e7705646e750e34224bac2dba5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-stone-smoked-thumb.jpg",
+      "bytes": 46568,
+      "sha256": "91ea715402b10f228d445afb4a3d071bba5b3d09cddcb72c2f15721267f8750e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/cognac-stone-smoked.jpg",
+      "bytes": 519433,
+      "sha256": "039c92f220800a1f4c04d860bbe192e053a23554f358a555fe41b27afb28d988",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-glass-oak-thumb.jpg",
+      "bytes": 45916,
+      "sha256": "d314ee72687aee542ff7dd5e935f102ffadd3ae4ce7d147e1da9daa9bbdb16df",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-glass-oak.jpg",
+      "bytes": 529747,
+      "sha256": "28c307670ef62da62d0bb4e4dc469a2e3eb16bdba2dfba453dcb1ad2a4169d6c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-glass-smoked-thumb.jpg",
+      "bytes": 46489,
+      "sha256": "ee40c5048200d08fe0d2b59e921bf3830b3c7df588a6b73a76b4d6555ca11c37",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-glass-smoked.jpg",
+      "bytes": 542223,
+      "sha256": "8281348904b86ac788f354dd4cb511bcf5fbc7695aa67f1cc8882561b91b202c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-stone-oak-thumb.jpg",
+      "bytes": 47297,
+      "sha256": "f8e1d82cbc56280c1ed301616cc8407f9c882edf5b1447f255c82bebac93007a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-stone-oak.jpg",
+      "bytes": 558815,
+      "sha256": "114eb0610cab5ce624bad882d86b176eaad1bdb8bf8aec9cc7fbb957a78579e1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-stone-smoked-thumb.jpg",
+      "bytes": 47569,
+      "sha256": "06e8c20b755a3c67422fdc84dbee95bbd41718fa8c0f2e8d53041e7ffbb039ab",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/mink-stone-smoked.jpg",
+      "bytes": 541976,
+      "sha256": "08e2bd07d4a39cb8fb056f7aa5aa0ed8d9758fe8d33e0bdb64d2b4d8823e04f2",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-oak-thumb.jpg",
+      "bytes": 42652,
+      "sha256": "ec1b985d613edfe936a8b1ed5d66501473c47843d4f90fd121bd082d44b689e5",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-oak.jpg",
+      "bytes": 528528,
+      "sha256": "187add88a8bae1b2219ce65542282dab8e4c40e0d2653677090cc71b2bfc4add",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-smoked-thumb.jpg",
+      "bytes": 42723,
+      "sha256": "53b0d4c6ae7239d3dc67710c5829638a57ac706418226b44dca734fafadd434e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-smoked.jpg",
+      "bytes": 545683,
+      "sha256": "55c7e1a5a756d90acb650e1fb022a14adcc6b779c9e222e066aa4f228ef6006b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-stone-thumb.jpg",
+      "bytes": 42450,
+      "sha256": "0ca8036935ac78b6183aefab2238541992ae19b311429be6a6772e2c0a2acdf1",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-glass-stone.jpg",
+      "bytes": 544975,
+      "sha256": "2bcf3776bd90065923d3de71899c564cfe31d4c3fa1a44f7a6525fbbc68dd5b4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-oak-thumb.jpg",
+      "bytes": 46865,
+      "sha256": "e1539445961a83a5f5eaed71d50c49388d7142f2c5d2b451f4b8328240c3d234",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-oak.jpg",
+      "bytes": 534093,
+      "sha256": "8448e6c6a9afe28af0d97d0bb31a4e46edfe80a46c818b2c2b57b1e5c3d4efc7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-smoked-thumb.jpg",
+      "bytes": 48349,
+      "sha256": "61cf38c331a93c9ac224d527b61f18aeb601a101c3bde34472653be0c1242064",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-smoked.jpg",
+      "bytes": 564323,
+      "sha256": "7c7dda260dc72b60773d0587ff50f5a36c858aaf5523bcbb780795fccaba18a8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-stone-thumb.jpg",
+      "bytes": 41783,
+      "sha256": "4a451f3bf0b60854f165a7b057610001bacff0c31826898ab45f5703327504c9",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/slim-stone-stone.jpg",
+      "bytes": 507898,
+      "sha256": "fba202f2b40b403d9ee5c796203233e4eadfb0bd451453057ea402a04f6bf3d0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-glass-oak-thumb.jpg",
+      "bytes": 46799,
+      "sha256": "0efc4892904110a4da858618d24bfda1116b55918fac3f10487ce3868c0afa8b",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-glass-oak.jpg",
+      "bytes": 528802,
+      "sha256": "3d01f83be6ec55a32d2c121e16752e2ba7f68a7afa9bdaff818f8a28a5c7cdb8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-glass-smoked-thumb.jpg",
+      "bytes": 47122,
+      "sha256": "fa163281b406486994d5a7703f518f1c5b1674ccabd4db40150fceae63215b56",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-glass-smoked.jpg",
+      "bytes": 525604,
+      "sha256": "032b1cc9281ab82d5c26486e613ff9d33caac8c178dd125b9d524fbaf6efca6c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-stone-oak-thumb.jpg",
+      "bytes": 47271,
+      "sha256": "2bb93f4b6cf55d2f734153b76eb57b33b8c7b0e6f6ecd150f84c57e438df1631",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-stone-oak.jpg",
+      "bytes": 526899,
+      "sha256": "bda16a42b512e59d39ce3f52e864a15a2b74350bac83ec54e009ede64e30337d",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-stone-smoked-thumb.jpg",
+      "bytes": 46942,
+      "sha256": "c8fa5c023ddcac5d94d6e2f7cef93be43cf53e3b362ba012d42cee6ecdc72854",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/living/wine-stone-smoked.jpg",
+      "bytes": 527595,
+      "sha256": "39df86f3a2ab9f9c95c14e13d1ede4d56a57c8f8dcb39315144624be472a1abc",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/leather-ivory-thumb.jpg",
+      "bytes": 41922,
+      "sha256": "ffd9a704620ca706501e45c42e8fb8cd1812aaeadb988a817ae0563f4736eeff",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/leather-ivory.jpg",
+      "bytes": 518348,
+      "sha256": "93e69ba3b2e3cc5903a716e45efbd66b3ad0cd989a962f4517acefc8707b2140",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/leather-olive-thumb.jpg",
+      "bytes": 41196,
+      "sha256": "a3d94831d59fc36515bb0e7547318a6495f74a718f8be3666201e4783244b376",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/leather-olive.jpg",
+      "bytes": 514015,
+      "sha256": "fc9f216318f0905fd6a8a2419fe9c0d1bebc6af94f15db85e21637cec6ac47de",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/linen-ivory-thumb.jpg",
+      "bytes": 39764,
+      "sha256": "51a98e8e94787457069c95e4ab1cb81ab068a985ee9169fd2f6d01926ec5d081",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/linen-ivory.jpg",
+      "bytes": 504635,
+      "sha256": "8ccf52224f32a754925dd07a95225aeb61ba9c972229534d6f6fc1518b4d79f6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/linen-olive-thumb.jpg",
+      "bytes": 39303,
+      "sha256": "4eda389bae41b1596127ea3c449f51eda416d84875b153f0411fa2e1c0148bd0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/linen-olive.jpg",
+      "bytes": 505624,
+      "sha256": "0bedb1382d673fcbcd8b8350f8642793e9e65073d74ea78a631b0c0d4e437ce1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/wood-ivory-thumb.jpg",
+      "bytes": 42488,
+      "sha256": "313ff7e9fb48221f3395e366e234421eac9a3f5bce475a5f3cbadf706333da53",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/wood-ivory.jpg",
+      "bytes": 517108,
+      "sha256": "2d72f2e6c008a02680b0af40c3cfed309334029c871dde1e6cd7b72e328c5213",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/wood-olive-thumb.jpg",
+      "bytes": 41796,
+      "sha256": "5c0daa045360820e6a95142b10c09a419c0e74a1ef1a164f1690e7b6dbd735b3",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/selections/master/wood-olive.jpg",
+      "bytes": 525754,
+      "sha256": "f69476e3317182a4231bacd5a47f1d2b94bc498b8a52a1df992e5dc0d0524e11",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/utility-thumb.jpg",
+      "bytes": 26095,
+      "sha256": "46ac6c0185318483b4d020706f9dc505e0a2f1afe674c9cc23c647202a7042c6",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/utility.jpg",
+      "bytes": 630956,
+      "sha256": "935d7030285dc1ad201f341725808e87f0084e4db20c67d9c4b46708e3c9a8fa",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/v16/balcony-thumb.jpg",
+      "bytes": 42072,
+      "sha256": "889c25b1d98846ffdbe21582cc7204534bcfff8ccb9b6a2f64d15df084138a8a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/v16/balcony.jpg",
+      "bytes": 726684,
+      "sha256": "23f25cbd092d5c55dfb00805080ff38a996286a2921aeac7c22b34f9956d07c0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/v16/utility-thumb.jpg",
+      "bytes": 44238,
+      "sha256": "ad47d81a642dde644a49d9c2bd1269d8a6269be8a383da022988ffbd782b2f3c",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/v16/utility.jpg",
+      "bytes": 616662,
+      "sha256": "30e791be97bac69ef2ea97485a38dff6a2965df5c6b427881a9b890b1b38d066",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/bath-thumb.jpg",
+      "bytes": 18239,
+      "sha256": "d508a6a2f3809153735f805421ef8c64dbebee7e806c3e80baa7cac3d5803d84",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/bath.jpg",
+      "bytes": 527015,
+      "sha256": "0e40301ae6de1bd77caba646d3b3bae33994cbc018d9cdf1618873b90f3add92",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/living-thumb.jpg",
+      "bytes": 21113,
+      "sha256": "9ba642e309f84b3996bbf8d26fa1c15c710b0c9f0b040d8205317445c82272a5",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/living.jpg",
+      "bytes": 582341,
+      "sha256": "5701a9dc378dfff2259138f512971506f1d9207f937e6ef93807f7f0723f66b4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/master-thumb.jpg",
+      "bytes": 20233,
+      "sha256": "53eb70c204eed68928ae93377fabb068f65c68ea63d5041ab1e1e4eae2463ee8",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/blue/master.jpg",
+      "bytes": 539256,
+      "sha256": "432412080ce6abc169ae8a9d49b29b27111e1455c6d92970e3e34111a6cca83d",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/bath-thumb.jpg",
+      "bytes": 19835,
+      "sha256": "ed1b8998b89dd4443fdd5d9fa79a9feae5dd2ade30eb6e98312d16f030d2fe50",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/bath.jpg",
+      "bytes": 589453,
+      "sha256": "b55f465c3f515dd89bb7c6da14626247bf5c6930fa7e4ff5ab6f4905e099f49b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/living-thumb.jpg",
+      "bytes": 21008,
+      "sha256": "7cd50b7c0b21c86842f623726a388a17b1330fa60dac1ac09c4e4ebcb6e3ca4b",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/living.jpg",
+      "bytes": 609300,
+      "sha256": "8a135ba11c37dc807aeb479d66a433ca53a2aae5523eeddc529ddf9129d5942a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/master-thumb.jpg",
+      "bytes": 19763,
+      "sha256": "5aafcccb7170c2f8353aad633166761b3a3feccf11c1c4df9196f22bf8416f6c",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/clay/master.jpg",
+      "bytes": 547940,
+      "sha256": "75554be4b8a77c3aed07f23e9d0462f9a9a171bc2e8a1835534d1c1a5e6abbf4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/bath-thumb.jpg",
+      "bytes": 18887,
+      "sha256": "56a307e47e36c44351b0917dfaac3b2afa150212bb4163b5d930be1fda2d7c67",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/bath.jpg",
+      "bytes": 525808,
+      "sha256": "282181c8edb82d37657dd654969fcd0a504c72a5509af991dd91356790306b53",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/living-thumb.jpg",
+      "bytes": 20433,
+      "sha256": "6da2f952a49957e671d0209ac5180c501ba536d307ac09f03ef4147ef5d023b2",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/living.jpg",
+      "bytes": 560759,
+      "sha256": "a6b9219593495cd8088cbdef04a19ba4baa843a3a27e59d4c6293ed916f09ab4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/master-thumb.jpg",
+      "bytes": 20151,
+      "sha256": "7aa46d16d552dd15a2c904bb6c2b0c1558557ac99d276102ed87314d785c5782",
+      "width": 360,
+      "height": 240
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/variants/moss/master.jpg",
+      "bytes": 529604,
+      "sha256": "68018190767e98dec1fc700b957a725b18584edd1f02e036231511aa1d88bd85",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/balcony-clear-thumb.jpg",
+      "bytes": 57535,
+      "sha256": "16d3733073f148ab0dddea70695dce36306de79514abf395c928acbcc6118934",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/balcony-clear.jpg",
+      "bytes": 669639,
+      "sha256": "a8fa94b2944b83dcc7581d25c61b34f400324123807a4962c1b5a4cb3c23a04c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-clear-thumb.jpg",
+      "bytes": 43339,
+      "sha256": "6b78731cad5bdc82994ee73fa031abc56a6880d2f534c53d933b6be108702f67",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-clear.jpg",
+      "bytes": 544302,
+      "sha256": "f1dfec85b5073f700f6118a4573d1342df984d497e64d748c9118bf0b3f14972",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-ivory-clear-thumb.jpg",
+      "bytes": 43613,
+      "sha256": "54c7743c55e0ff788f069f774275d0dcc7f9ccd20e785c66a290fbd59c7b4a32",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-ivory-clear.jpg",
+      "bytes": 527928,
+      "sha256": "326e27d06bcd38566bd7a120cf44c0b635f1d2fddfbe6685a4aca96f232bc5d0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-olive-clear-thumb.jpg",
+      "bytes": 44221,
+      "sha256": "f6274dfc2ea49356ec95f90fd26cdc4f0cbbb9c1c42d6b0af51f15f6a76a90fb",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-olive-clear.jpg",
+      "bytes": 534580,
+      "sha256": "de100ecda10d6ca0147044f482f3d73d839b3f38a56d4ae83fda20b98295c053",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-taupe-clear-thumb.jpg",
+      "bytes": 43310,
+      "sha256": "514c47d52a30533862a3e4a94829569d548d08a36c820615bea773684ae13542",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-leather-taupe-clear.jpg",
+      "bytes": 521089,
+      "sha256": "9eedea5207aba2e8a878eb25ada4137d1898a035e5b09f8f073b681f89e46a68",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-linen-ivory-clear-thumb.jpg",
+      "bytes": 42139,
+      "sha256": "b11d93f4189e0500c131daa35b98382391383efefeb951016a08fea81e459bce",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-linen-ivory-clear.jpg",
+      "bytes": 521788,
+      "sha256": "198f8512af929ccb42996600853be6bc205b7386e6f425034fbccfd78fac6f8b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-linen-olive-clear-thumb.jpg",
+      "bytes": 42463,
+      "sha256": "35c83314ecce1208820be713e5aca5e033fc08e105fff30158e1d2a44725c269",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-linen-olive-clear.jpg",
+      "bytes": 532824,
+      "sha256": "8137aa42c6a43a7c7bbde3814273f33a3d624497cde6786e1fa230c1c1340717",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-storage-clear-thumb.jpg",
+      "bytes": 43839,
+      "sha256": "4738f0ce282612fa7b681fcc05c28aed3cca3032e108456fbdec8b2f0990baa9",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-storage-clear.jpg",
+      "bytes": 561092,
+      "sha256": "f4997a23d8a4d71eb1421e9aa3fd3603e99961b2f5454a0f2a822f5a451929fe",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-ivory-clear-thumb.jpg",
+      "bytes": 44878,
+      "sha256": "22bcda8fe30aee873a5e3a2993570825390d2e92b9502a8d3d4e33cd79ae574a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-ivory-clear.jpg",
+      "bytes": 540195,
+      "sha256": "4d5203d5105eb2e7e41b04ca036faed72f6857ca57baa2f17f735401f8077b92",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-olive-clear-thumb.jpg",
+      "bytes": 43551,
+      "sha256": "f4a840e97c4574c9ceba81dea757aca0c7d7584a2e298e31c08107b5b8d4bf01",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-olive-clear.jpg",
+      "bytes": 548667,
+      "sha256": "5ad51e68775c29dedb0aa076650f6e05818635a905ee3c75bae97bd1cee4d9c7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-taupe-clear-thumb.jpg",
+      "bytes": 44436,
+      "sha256": "d30b4294f5250e2531efb29e8d64383b42933ac00a81acbc5fb877f2fa22c685",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/dusk/windows/master-wood-taupe-clear.jpg",
+      "bytes": 561940,
+      "sha256": "3845623dcc4348c365f9b98eaee34567c66d6c0a98476086c94a0b7994bfcce5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/balcony-thumb.jpg",
+      "bytes": 33814,
+      "sha256": "2a750ec3cd95191b5aef0fa3b0e3238de64acebb29bf7d86931891fecd73c776",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/balcony.jpg",
+      "bytes": 609301,
+      "sha256": "74422d165e088807c164af22bc3afdbe1eaf0e5b9cc33a61d430432365e3f768",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/bath-thumb.jpg",
+      "bytes": 28846,
+      "sha256": "68b358e1521071c0684b27bd628b5b4da7cf809afa7ba14107ab6539c20f1f41",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/bath.jpg",
+      "bytes": 557116,
+      "sha256": "b7487650381426774f3c5b1efbcafc89d6e3e807f8d5b4e4b451f07dfdd5f641",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/dining-thumb.jpg",
+      "bytes": 34957,
+      "sha256": "e5ef414698a1ef42e02916c1e493ab618cb591054003d140f34e3b153df14c4f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/dining.jpg",
+      "bytes": 639962,
+      "sha256": "6ac45c920e37510e73924f2621e7ad5d7db291f64e55692bbb48f7a9d6e8b67b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/kitchen-thumb.jpg",
+      "bytes": 29227,
+      "sha256": "3bd670f5339494aae23356078663c3b200946c04601f946782f3ead9650a53c4",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/kitchen.jpg",
+      "bytes": 519467,
+      "sha256": "14a1d2d5c43b547bb92b190bd2cf4d545e12dde317c3fb41659a2775275ec504",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/living-thumb.jpg",
+      "bytes": 31313,
+      "sha256": "51ef93fd16df582ed793d834d13321784ed2c42861da15eec4958e14488266ac",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/living.jpg",
+      "bytes": 602960,
+      "sha256": "625cb3259a7310e003e4dbcd5763f39e05af9f19b5436d512ad465666cc52993",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/master-thumb.jpg",
+      "bytes": 31566,
+      "sha256": "037052e610f8411ff00d032a3444aa2412ec57b03c3005bbab275ec65f18b21e",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/master.jpg",
+      "bytes": 564704,
+      "sha256": "524ddaa898a74dce5752fb802e66dc82d8c04d618643dbf9fac0faf236348165",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/second-thumb.jpg",
+      "bytes": 28039,
+      "sha256": "0b47ae9fcf1fcb925d6532d9418c4cefbbf68bc8bcef0c40701cd3a2d1207f45",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/second.jpg",
+      "bytes": 512907,
+      "sha256": "adad90c6ce1ac9b1c14853c77be0be79c4787c9e7d042e7286b43e4dde8944e3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/utility-thumb.jpg",
+      "bytes": 33526,
+      "sha256": "958d343a1f9f3c36d7738161a44d0cd55d9828e8ddb5498bb54030147a7fd427",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/graphite/utility.jpg",
+      "bytes": 551181,
+      "sha256": "871ab25984a449cf935fc583ee0909ea73ef04e143d3e05b5c35c2c1af7fe0f9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/balcony-thumb.jpg",
+      "bytes": 44028,
+      "sha256": "b407a8cd0d77f88e4b5615b77269d89a7b467df41725eb5ab88ecbc02916cf8b",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/balcony.jpg",
+      "bytes": 608605,
+      "sha256": "ea9b2f0ea6735057a3f64d2c8d0d7ede22b95b5c407f051d261e790dc5bcc4f4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/bath-thumb.jpg",
+      "bytes": 35408,
+      "sha256": "3cbade88367d4450312dc0285c8d7b0f60b82cd7cbe4145c9fd329caa9f357d0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/bath.jpg",
+      "bytes": 567471,
+      "sha256": "908fc4b5431bfe58b846d1ebd383425a10c493a1b58b0987fb503b6f98fc937f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/dining-thumb.jpg",
+      "bytes": 33712,
+      "sha256": "fc09f4d4a882750b63f3401aa3863d1ba5cf101f3bf48ed217f646f8e0e132b0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/dining.jpg",
+      "bytes": 453423,
+      "sha256": "ddbe739985303b272f782d11db396406019a096f438469df1a85d2b5d62bee49",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/kitchen-thumb.jpg",
+      "bytes": 33941,
+      "sha256": "2991e59e3a6899be012ad75ca2b1b5076b9341d0af06cd7ecbaec18920fba927",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/kitchen.jpg",
+      "bytes": 476483,
+      "sha256": "a7dc4ab6b5d973d783db2cfd3917134a4df03526fd9f69a238f6b601f24fd78b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/living-thumb.jpg",
+      "bytes": 37433,
+      "sha256": "734bceadeda7a8fbe90f549ec3103c20c2bd7d1cd07b6bbffee0c5fe5f36e74f",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/living.jpg",
+      "bytes": 557256,
+      "sha256": "cab4a5116e5bb20e656fec177805293e22aac7a620a2b4c1294b22806128fb58",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/master-thumb.jpg",
+      "bytes": 36695,
+      "sha256": "ee30e3ff53adffd78dfdd6ca60f48e19cc0f6eb33e5db448e7d73fbc0eb30554",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/master.jpg",
+      "bytes": 543504,
+      "sha256": "7be0ff135d85c2cf4936b361bfe194264ca6aa511f259a9bd1edc18be182dc10",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/second-thumb.jpg",
+      "bytes": 37917,
+      "sha256": "e69383e4df3ab536894e35cba08637c5acb9e961d805a23683c157ee5338b9d4",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/second.jpg",
+      "bytes": 511323,
+      "sha256": "41dd2de138d41f8da89672fc1ab1f3136af7533cc8ada7f378ae97625e056ed6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/utility-thumb.jpg",
+      "bytes": 44815,
+      "sha256": "fea54e7fa8ca6937dfe39557c2e40cb059455401afb7084941f7347a6686c785",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/utility.jpg",
+      "bytes": 560620,
+      "sha256": "7059a45bf013d87b5b3ece243371f01c86c28b9dcd0222b8b30db4e98e2d0e08",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/balcony-thumb.jpg",
+      "bytes": 43699,
+      "sha256": "eb53012d9ccc79798a92cc670423c845c6b31a18088d58ea5d09d6a928dd8e2a",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/balcony.jpg",
+      "bytes": 715279,
+      "sha256": "94b261a3fa897a84100664c64af846917a11ddd12d06ed84f28c33c15f59c3e0",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/second-thumb.jpg",
+      "bytes": 33950,
+      "sha256": "49df0c2d1f680a3b1253371560fea79eae032ee0a9466144a6688410ae846b54",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/second.jpg",
+      "bytes": 578467,
+      "sha256": "eb4258d371eebe73a95115d394e1d44989e4ad229a04888404c5fb5a50f7e0f6",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/utility-thumb.jpg",
+      "bytes": 43101,
+      "sha256": "9fa75fc6868be801c86558d7383935debd71d0c0c10961d1d0d02e1cc218b4f0",
+      "width": 480,
+      "height": 320
+    },
+    {
+      "path": "dist/tour/home-assets/stone/v16/utility.jpg",
+      "bytes": 613715,
+      "sha256": "55e17ea3a5fd3c46bd744ebab849b83fbb95841c97b760dea579a13ea1774269",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/index.html",
+      "bytes": 30457,
+      "sha256": "0c1d0840258f45592d01efe22f42b25803a29dbbb1fa510c2714534f7a32b136"
+    },
+    {
+      "path": "dist/tour/legacy-assets/12660b7a5a3f37cb.jpg",
+      "bytes": 360438,
+      "sha256": "12660b7a5a3f37cbd3a42818f58b044ef9423cc1e3c2e6406f036f2f272491c5",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-assets/485483608ed87fc4.jpg",
+      "bytes": 339341,
+      "sha256": "485483608ed87fc4845a09e16876e08e4db27f8a325580c53b7429190624d1d7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-assets/61fb8f9ee9bbd4dd.jpg",
+      "bytes": 346753,
+      "sha256": "61fb8f9ee9bbd4dd0287511d3343059e3a3cd138d8a7e248d64fbf0fd7254766",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-assets/6354da861e87f19a.jpg",
+      "bytes": 295758,
+      "sha256": "6354da861e87f19a52be1804a066171dd55d27734bc54d12dd629c1c8f356841",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+      "bytes": 150622,
+      "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+      "width": 543,
+      "height": 336
+    },
+    {
+      "path": "dist/tour/legacy-assets/7f100a7b8d25d795.png",
+      "bytes": 504557,
+      "sha256": "7f100a7b8d25d7950dcfe09e6d5fdc0b0fa2651a1f0729ccf5dedddea1a7ac44",
+      "width": 606,
+      "height": 597
+    },
+    {
+      "path": "dist/tour/legacy-assets/9063a0cb3fc30f0f.jpg",
+      "bytes": 498048,
+      "sha256": "9063a0cb3fc30f0f36293b809f01c2c3dc086d7e95a0c2d864fa60e4ab0ebca1",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-assets/ab5f3827b79b4d4d.png",
+      "bytes": 463641,
+      "sha256": "ab5f3827b79b4d4d38d3752c9e31af6431b09ff4b952ccc69d502e61c7cb71f4",
+      "width": 618,
+      "height": 672
+    },
+    {
+      "path": "dist/tour/legacy-assets/ac00a6073edc9787.png",
+      "bytes": 484644,
+      "sha256": "ac00a6073edc97871fbe77392e3aa49845f65bcfe62d8762ee864d21b060e7e0",
+      "width": 618,
+      "height": 510
+    },
+    {
+      "path": "dist/tour/legacy-assets/edce1500e2b56f51.jpg",
+      "bytes": 343246,
+      "sha256": "edce1500e2b56f514e62ffc9f5de2e8eaed76dd2df946b4c067840f2c66fc7a4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/legacy-gallery.js",
+      "bytes": 2521,
+      "sha256": "02a33728b6ccfdcaccd9586cf62c8783f638413ac0c071d346039c82dca4ea96"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-6Z3YU3H5.js",
+      "bytes": 13737,
+      "sha256": "c19c9cfec97539f283d87e9213ad62dad63a28831ce56287fcc738bfd35c7f59"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-BF724SIE.js",
+      "bytes": 43524,
+      "sha256": "0f03ce61efcb6db57a351e7ac5b39bd0d6964673cfbf952842b233fcb072fd71"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-CGKUBZ73.js",
+      "bytes": 19993,
+      "sha256": "5b14f19be1fad6277299f4f0e3fb734d453e04ec5b099a4bda4d7cac6566fd98"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-DRINV6WP.js",
+      "bytes": 575210,
+      "sha256": "5cc0f1264692c36dbe7d47fbe8996d6ee1927554fc2e605f70f61eea74b078a3"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-FIJCFUOW.js",
+      "bytes": 44230,
+      "sha256": "f6f2d2ea93be254b9e9cd0594c6c09ce64766dda9e4abb25ed44353dca4fad6e"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/chunk-XUTTJZ6W.js",
+      "bytes": 130490,
+      "sha256": "93215fe9932087f35114c8a4ea7f8e758e7c2ee76300780d411df2ece2855b3a"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/loader.js",
+      "bytes": 838,
+      "sha256": "7c73ff7794390475867f6a96550a58dce1f1e312e4822ca05c8c45d07b728d49"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/model-PD3HG7XY.js",
+      "bytes": 39140,
+      "sha256": "8e2cc3d707ea2bea1bd35ec5d697a10bd7e2790393872785eadb1cd3aa75d283"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/room-renderer-VBHOFF32.js",
+      "bytes": 272,
+      "sha256": "e234bb909f00de008f1b634946b161b4b592724b1cc5619c20a66ed0aa97def6"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/room-walk-ZHOOFH6M.js",
+      "bytes": 7537,
+      "sha256": "c2184ec6c9e4807fd4ea71144b1d11e7435c6efc15c4bd3842d4290649bbaefa"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/trial.js",
+      "bytes": 95636,
+      "sha256": "df7c63c65e787656d194169d0cfee387df84da55ff00bd849e3e6550bec3806a"
+    },
+    {
+      "path": "dist/tour/legacy-runtime/whole-model-OVHP7TUU.js",
+      "bytes": 40245,
+      "sha256": "cb9d6b8755b86ece0fcf8c439db00730604a887323232ffff87dbf564757c015"
+    },
+    {
+      "path": "dist/tour/legacy.html",
+      "bytes": 49563,
+      "sha256": "478830c4e356fd421bea4dcb9d4f3f5b63b78955b4c4727a094b1b1142ec0a02"
+    },
+    {
+      "path": "dist/tour/tour.js",
+      "bytes": 43435,
+      "sha256": "5bf467dad4922c426ba156baf24e4417e2cf105fddaff9d6fef8edba0bbd1dc7"
+    },
+    {
+      "path": "dist/tour/trial-assets/original-room.jpg",
+      "bytes": 343246,
+      "sha256": "edce1500e2b56f514e62ffc9f5de2e8eaed76dd2df946b4c067840f2c66fc7a4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/trial-assets/room-clean-v4.png",
+      "bytes": 2060596,
+      "sha256": "0f173f4dfbad4a283494b5f68e68efa63d62cf080f83949cdf6ec6644872e5e4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/trial-assets/room-surround-v5.png",
+      "bytes": 1822225,
+      "sha256": "1bb46e40fa2c5d6ed0bcfe008ceace837523fddebc9d484715e6b61250d53531",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "path": "dist/tour/trial-assets/table-preview.glb",
+      "bytes": 830088,
+      "sha256": "622c28c2a3d902bc0a94e0b2b486220a858a7675458b68bb329f006d6d24a0d3"
+    },
+    {
+      "path": "dist/tour/trial-assets/table-reference.jpg",
+      "bytes": 41989,
+      "sha256": "14d6670cb549c36e1f8377c2ae12b6a01272dcc9c396a68e38129692ac6cf9f9",
+      "width": 1536,
+      "height": 512
+    },
+    {
+      "path": "dist/tour/trial-assets/table-removed.png",
+      "bytes": 2544615,
+      "sha256": "6d21ac1204dc195f6d1d7a2b69d9700e70d85bba820166910fe91308d53473fb",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/trial-assets/table-replaced.png",
+      "bytes": 2458686,
+      "sha256": "af7870e3478fe95e4de8da12c9acb2091874fe118425a755b7804add7363057b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/user-assets/manifest.json",
+      "bytes": 1368,
+      "sha256": "47b227131220b99b5117dab9456b16e4c4bba302b16b59f12ce0c6de8153d619"
+    },
+    {
+      "path": "dist/tour/user-assets/rug-geometric-texture.png",
+      "bytes": 4330197,
+      "sha256": "7e37d01f49405e910ba8be49654de9cae883120da25ef1acfc18ec5b30e9a6c3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "dist/tour/user-assets/rug-geometric.glb",
+      "bytes": 3612032,
+      "sha256": "8441063dce35a7b0adf75906ff77ca9c1746ed7267ea17422453618dd5bdfbfc"
+    },
+    {
+      "path": "dist/tour/user-assets/rug-kilim.glb",
+      "bytes": 3453896,
+      "sha256": "c3653ceb93872b72ce2319da2b5d58e9dacb67e2ece11faa357946e1189b8fa3"
+    },
+    {
+      "path": "dist/tour/user-assets/rug-kilim.jpg",
+      "bytes": 198057,
+      "sha256": "67e533809b047bc34895921201ebc1897ef76cf9c4afac738e47d145ca575aed",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "path": "dist/tour/user-assets/rug-medallion.glb",
+      "bytes": 1479884,
+      "sha256": "b6737dd71508466487ce98b7f47f55d1041da6a745f5f62ccb4faa82d5dad503"
+    },
+    {
+      "path": "dist/tour/user-assets/rug-medallion.jpg",
+      "bytes": 195366,
+      "sha256": "91e4b3f6b351dca80e4f6e4b48cdbf2a6cc9650d30d1c513f1cb7d2cf72e59d8",
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "fileCount": 692,
+  "totalBytes": 266821152,
+  "decodedImages": 630,
+  "localDeploymentBundleSha256": "7aabdf9c6412c9fdc2fbb90e205e6bbfc7753cc55b30894853c7e4a0f9058738",
+  "savedDeploymentArchiveSha256": "332fd5ef06c985949f5c706f714a278382918084f6734e3410629f29df38e52d",
+  "provenanceNote": "Local deployment bundle file contents match the Site source commit plus packaging metadata. Remote stored archive uses different tar packaging; its raw tar bytes were not downloaded.",
+  "deploymentId": "appgdep_6ab6a3399e508191a10273da5aaa5497",
+  "siteVersionNumber": 16,
+  "productVersion": "v17",
+  "deploymentStatus": "succeeded"
+}
