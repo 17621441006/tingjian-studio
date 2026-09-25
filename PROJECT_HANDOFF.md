@@ -78,3 +78,12 @@
 - 不要把仅有源码的仓库描述成“完整离线包已上传”。
 - 不要重新压缩/降清主效果图来“凑上传体积”；v17 的主效果图应保留原分辨率。
 
+
+## 8. 2026-09-26 02:10 后续处理
+
+- GitHub 仓库当前已确认是 **public**。
+- 已创建历史归档分支：`archive/history-v17`，并加入 `HISTORY_ARCHIVE.md` 说明。
+- main 已配置 `.gitattributes`：`archive/heavy/**` 预留 Git LFS；当前运行站点资源仍计划使用普通 Git，保证 clone 后可直接还原。
+- 已建立 GitHub Actions 的 live-dist 恢复流程，并在仓库公开后重新触发；截至本记录更新时，main 仍未出现 `dist/` 提交，因此不能把这一步写成“已完成”。
+- 当前 GitHub App 连接能够读写仓库源码、分支与普通 Git 对象，但不提供本地/Library 二进制文件直传接口，也不能把 ChatGPT Site projection 直接 materialize 成文件。这是当前完整 `dist/` 备份的实际阻塞点。
+- 后续完成标准：main 中必须真实出现 `dist/`；执行 `npm run check` 与 v17/v16 资产检查通过；单文件 <100 MiB；主分支总资源 <900 MiB；历史大素材仅进入 archive 分支 / LFS，不得用旧素材覆盖当前线上站点。
