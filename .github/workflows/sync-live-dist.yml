@@ -1,0 +1,83 @@
+name: Restore runnable dist
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-live-dist.yml'
+      - 'scripts/sync-live-dist.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tingjian-dist-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-dist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Recover binary assets from the live Tingjian site
+        env:
+          TINGJIAN_LIVE_URL: https://tingjian-space-lab.jackchen911006.chatgpt.site
+        run: node scripts/sync-live-dist.mjs
+
+      - name: Rebuild current v17 HTML, CSS and JS
+        run: npm run build
+
+      - name: Verify current project
+        run: |
+          npm run check
+          node scripts/check-v17-ui.mjs
+          node scripts/check-v17-floors.mjs
+          node scripts/check-v16-assets.mjs
+          node scripts/check-v16-model.mjs
+
+      - name: Enforce repository-size guardrails
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          root=Path('dist')
+          files=[p for p in root.rglob('*') if p.is_file()]
+          total=sum(p.stat().st_size for p in files)
+          huge=[(p,p.stat().st_size) for p in files if p.stat().st_size>=100*1024*1024]
+          print(f'dist files: {len(files)}')
+          print(f'dist size: {total/1024/1024:.2f} MiB')
+          if huge:
+              for p,n in huge:
+                  print(f'ERROR >100 MiB: {p} {n/1024/1024:.2f} MiB')
+              raise SystemExit('A file exceeds GitHub normal Git limits; move it to the archive/LFS workflow.')
+          if total>=900*1024*1024:
+              raise SystemExit('dist exceeds the 900 MiB project safety budget.')
+          PY
+
+      - name: Commit recovered dist
+        shell: bash
+        run: |
+          git config user.name "tingjian-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add dist verification/live-dist-sync.json
+          if git diff --cached --quiet; then
+            echo "dist is already synchronized."
+            exit 0
+          fi
+          git commit -m "assets: restore complete runnable dist"
+          git push origin HEAD:main
