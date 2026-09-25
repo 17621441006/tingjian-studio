@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "requests": 2,
+  "retries": 0,
+  "assets": [
+    {
+      "path": "/workspace/scratch/aa0f93406d63/v5-generated/room-surround-panorama-v5.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "kind": "design-reconstruction 2:1 panorama",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: 360-degree environment texture for an architectural furniture configurator. Generate exactly one image, a flat 2:1 equirectangular 360° longitude by 180° latitude panorama at the highest available native resolution, ideally 3840 by 1920 pixels. This is a design reconstruction from photographs, not a measured scan.\nInput images: Image 1 room-clean-v4.png is the primary reference for the emptied living/dining interior and its materials. Image 2 original-room.jpg supplies additional architectural and lighting reference only; do not reproduce its movable living-room furnishings.\nPrimary request: reconstruct a seamless full spherical panorama of this exact apartment room from the original photograph's camera position. The centered forward direction (longitude zero, horizontal center of the image) faces the dining end shown in the references. Maintain the same cream walls, inset cove tray ceiling, recessed downlights, ceiling fixture, walnut flooring, walnut furniture palette, TV and low console along the left wall, left glass partition, dining table with cognac chairs and pendant at the front end, front cabinet and entry door, and textured artwork on the right wall. Preserve the reference's warm daylight and realistic residential scale: room about 5.24 meters wide and 6.2 meters deep, viewpoint height 1.33 meters. \nSurroundings: behind the viewer, opposite the dining end, place believable floor-to-ceiling balcony glazing with dark window frames and a distant Shanghai skyline. Rear windows occupy the wrap-around left/right seam; the seam must join continuously. Extend side walls and walnut floor naturally from the photographed architecture. Keep the ceiling and floor complete to their poles. The entire movable living area is clear in every direction: absolutely no sofa, no coffee table, no rug, no armchair or other movable living furniture anywhere. The dining table, dining chairs, television console, and existing front/side cabinets can remain as in the reference.\nProjection and composition: genuine equirectangular latitude-longitude spherical mapping, 360° horizontally and 180° vertically, NOT a rectilinear wide angle image, NOT a cylindrical panorama, NOT a collage. Horizon at image mid-height, same forward camera direction in the image center, correct strong latitude stretching near the zenith/nadir, seamlessly matching left and right edges. Photoreal clean architectural photography with detailed wood grain and natural lighting, no text, no logos, no watermark, no graphic UI or borders."
+    },
+    {
+      "path": "/workspace/scratch/aa0f93406d63/v5-generated/rug-geometric-texture-v5.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "kind": "image-based approximate rug texture",
+      "prompt": "Use case: precise-object-edit.\nAsset type: flat material/albedo texture for an explicitly approximate image-based thin rug 3D object.\nInput image: uploaded shop image is the reference for the rug's actual colors, large geometry and woven texture only.\nPrimary request: extract and reconstruct the entire rectangular rug shown in the reference as one clean perfectly flat orthographic directly overhead image. Generate exactly one image at the largest native resolution available with a 3:2 landscape aspect ratio. The rug alone fills the image edge to edge with straight rectangular edges and no surrounding margin. Preserve the cognac/rust and warm off-white palette, and preserve the visible large abstract geometric block layout as faithfully as possible: broad cream fields, a large rust polygon at the upper left, a rust triangle toward the middle/right, and a broad rust diagonal stripe across the lower section. Continue the partly occluded portions plausibly in the same simple large-block layout. Do not add extra colors, borders, small patterns or decorative motifs.\nStyle and materials: photoreal woven rug surface with fine, evenly distributed natural fiber pile detail. Uniform soft neutral illumination so the colors and pattern are an usable flat material map, no directional light, no perspective, no raised corners, no folds, no shadows. Everything must lie perfectly flat with a straight-on orthographic top-down view.\nConstraints: only the full rectangular rug texture; remove the shop layout, all text, sofa, chair, fireplace, shelves, room, floor, and every other object. No logos, no watermark, no graphic framing, no labels. No furniture or shadows may obscure the pattern. Fill the entire canvas with rug rather than adding a background."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+<div id="daan-vr-v2" class="dv-hd">
+  <style>
+    #daan-vr-v2{--dv-bg:light-dark(#f5f2eb,#242722);--dv-ink:light-dark(#292f28,#f0eee6);--dv-muted:light-dark(#616a5e,#bbc2b5);--dv-line:light-dark(#d9ded2,#495144);--dv-selected:light-dark(#354434,#d4dfc9);--dv-selected-ink:light-dark(#fffef8,#20291d);--dv-map:light-dark(#ecece3,#333a2f);color-scheme:light dark;font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--dv-ink);background:var(--dv-bg);font-size:14px;line-height:1.5;max-width:1440px;margin:0 auto;overflow:hidden;border-radius:16px}
+    #daan-vr-v2 *{box-sizing:border-box}
+    #daan-vr-v2 [hidden]{display:none!important}
+    #daan-vr-v2 button{font:inherit;color:inherit;border:1px solid var(--dv-line);background:var(--dv-bg);border-radius:8px;padding:7px 12px;min-height:36px}
+    #daan-vr-v2 button:focus-visible{outline:3px solid #71965d;outline-offset:3px}
+    #daan-vr-v2 button[aria-pressed="true"]{background:var(--dv-selected);color:var(--dv-selected-ink);border-color:var(--dv-selected)}
+    #daan-vr-v2 .dv-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:16px 20px 13px}
+    #daan-vr-v2 .dv-title{display:flex;gap:12px;align-items:center}
+    #daan-vr-v2 .dv-title strong{font-family:Georgia,"Songti SC",serif;font-size:25px;letter-spacing:4px;font-weight:500;white-space:nowrap}
+    #daan-vr-v2 .dv-property{color:var(--dv-muted);font-size:12px;letter-spacing:.5px}
+    #daan-vr-v2 .dv-property span{display:block}
+    #daan-vr-v2 .dv-modes{display:flex;gap:6px;flex-wrap:wrap}
+    #daan-vr-v2 .dv-stage{height:clamp(390px,58vw,620px);position:relative;background:#544c3e;isolation:isolate;overflow:hidden}
+    #daan-vr-v2 canvas,#daan-vr-v2 .dv-poster{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .15s ease,transform .18s ease}
+    #daan-vr-v2 canvas{touch-action:none;cursor:grab;visibility:hidden}
+    #daan-vr-v2 canvas.dv-dragging{cursor:grabbing}
+    #daan-vr-v2 .dv-moving canvas{opacity:.4}
+    #daan-vr-v2 .dv-top-overlay{position:absolute;z-index:4;left:16px;top:16px;right:16px;display:flex;align-items:start;justify-content:space-between;gap:8px;pointer-events:none}
+    #daan-vr-v2 .dv-scene-badge{display:flex;align-items:center;gap:10px;border-radius:10px;padding:9px 13px;background:var(--dv-bg);color:var(--dv-ink)}
+    #daan-vr-v2 .dv-number{color:var(--dv-muted);font-size:12px;font-variant-numeric:tabular-nums}
+    #daan-vr-v2 .dv-scene-badge strong{font-weight:500}
+    #daan-vr-v2 .dv-top-actions{display:flex;gap:6px;pointer-events:auto}
+    #daan-vr-v2 .dv-top-actions button{box-shadow:0 2px 9px #0002}
+    #daan-vr-v2 .dv-hotspots{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+    #daan-vr-v2 .dv-hotspot{position:absolute;pointer-events:auto;transform:translate(-50%,-50%);width:104px;min-height:57px;padding:0;border:0;background:none;color:white;display:flex;align-items:center;flex-direction:column;justify-content:center;gap:3px;text-shadow:0 1px 3px #000}
+    #daan-vr-v2 .dv-floor-ring{display:block;width:36px;height:18px;border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 4px #fff4,0 2px 8px #0006;background:#eee2}
+    #daan-vr-v2 .dv-hotspot:hover .dv-floor-ring,#daan-vr-v2 .dv-hotspot:focus-visible .dv-floor-ring{background:#fff9}
+    #daan-vr-v2 .dv-hotspot-label{font-size:12px;color:#fff;background:#253020cf;padding:2px 7px;border-radius:4px;max-width:104px;text-wrap:nowrap}
+    #daan-vr-v2 .dv-detail-dot{position:absolute;pointer-events:auto;transform:translate(-50%,-50%);height:36px;width:36px;padding:0;border-radius:50%;background:var(--dv-bg);color:var(--dv-ink);border:1px solid var(--dv-line);font-size:21px}
+    #daan-vr-v2 .dv-view-tools{position:absolute;z-index:3;bottom:16px;right:16px;display:flex;gap:5px;flex-wrap:wrap;max-width:260px}
+    #daan-vr-v2 .dv-view-tools button{min-height:34px;min-width:34px;padding:4px 9px;background:var(--dv-bg)}
+    #daan-vr-v2 .dv-hint{position:absolute;bottom:19px;left:16px;max-width:calc(100% - 296px);color:#fff;background:#253020cf;border-radius:5px;padding:4px 8px;font-size:12px;pointer-events:none}
+    #daan-vr-v2 .dv-map{position:absolute;z-index:6;top:65px;right:16px;width:min(370px,calc(100% - 32px));padding:12px 12px 9px;background:var(--dv-bg);border:1px solid var(--dv-line);border-radius:12px;box-shadow:0 10px 35px #0003}
+    #daan-vr-v2 .dv-map-header{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--dv-muted);font-size:12px}
+    #daan-vr-v2 .dv-map-header button{padding:2px 8px;min-height:30px}
+    #daan-vr-v2 .dv-map-content{position:relative;width:100%;aspect-ratio:11.24/7.7}
+    #daan-vr-v2 .dv-map-content svg,#daan-vr-v2 .dv-map-dots{position:absolute;inset:0;width:100%;height:100%}
+    #daan-vr-v2 .dv-map-room{fill:var(--dv-map);stroke:var(--dv-muted);stroke-width:.06;stroke-linejoin:round}
+    #daan-vr-v2 .dv-current-room{fill:light-dark(#d4decd,#4f6246)}
+    #daan-vr-v2 .dv-cone{fill:light-dark(#587c4644,#b3d39b55);stroke:none;pointer-events:none}
+    #daan-vr-v2 .dv-map-dot{position:absolute;transform:translate(-50%,-50%);border-radius:50%;padding:0;min-height:32px;width:32px;height:32px;font-size:11px}
+    #daan-vr-v2 .dv-bottom{padding:12px 16px 15px}
+    #daan-vr-v2 .dv-material-row{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+    #daan-vr-v2 .dv-material{font-weight:500}
+    #daan-vr-v2 .dv-caption{font-size:12px;color:var(--dv-muted)}
+    #daan-vr-v2 .dv-rooms{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px}
+    #daan-vr-v2 .dv-room{padding:0;min-width:0;border-radius:8px;overflow:hidden;text-align:left;display:flex;flex-direction:column;gap:0;background:transparent}
+    #daan-vr-v2 .dv-room img{width:100%;height:auto;aspect-ratio:5/3;object-fit:cover;display:block}
+    #daan-vr-v2 .dv-room span{font-size:12px;padding:7px 6px;overflow-wrap:anywhere;min-height:33px}
+    #daan-vr-v2 .dv-room[aria-pressed="true"]{box-shadow:0 0 0 1px var(--dv-selected)}
+    #daan-vr-v2 .dv-info{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:12px 0 0;color:var(--dv-muted);font-size:12px}
+    #daan-vr-v2 .dv-info span:last-child{color:var(--dv-muted)}
+    #daan-vr-v2 .dv-detail-panel{margin:0 16px 16px;padding:16px;border-top:1px solid var(--dv-line)}
+    #daan-vr-v2 .dv-detail-header{display:flex;gap:10px;justify-content:space-between;align-items:start}
+    #daan-vr-v2 .dv-features{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+    #daan-vr-v2 .dv-features button{font-size:12px}
+    #daan-vr-v2 .dv-detail-panel strong{font-weight:500;font-size:16px}
+    #daan-vr-v2 .dv-detail-panel p{color:var(--dv-muted);margin:8px 0 0;max-width:850px}
+    #daan-vr-v2 .dv-close{min-height:32px;white-space:nowrap;font-size:12px}
+    #daan-vr-v2 .dv-legacy-frame{width:100%;height:1350px;border:0;display:block;background:var(--dv-bg)}
+    #daan-vr-v2 .dv-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+    #daan-vr-v2.dv-expanded .dv-stage{height:720px}
+    #daan-vr-v2:fullscreen{border-radius:0;max-width:none;width:100%;height:100%;display:flex;flex-direction:column;overflow:auto}
+    #daan-vr-v2:fullscreen [data-vr-pane]{flex:1;display:flex;flex-direction:column;min-height:0}
+    #daan-vr-v2:fullscreen .dv-stage{flex:1;height:auto;min-height:300px}
+    @media(max-width:700px){#daan-vr-v2 .dv-rooms{grid-template-columns:repeat(4,minmax(0,1fr))}#daan-vr-v2 .dv-header{padding:12px 14px}#daan-vr-v2 .dv-stage{height:470px}#daan-vr-v2 .dv-hint{bottom:62px;max-width:calc(100% - 32px)}#daan-vr-v2 .dv-view-tools{left:16px;right:auto}#daan-vr-v2 .dv-bottom{padding:12px}#daan-vr-v2 .dv-room img{aspect-ratio:7/3}#daan-vr-v2 .dv-material-row{margin-bottom:10px}#daan-vr-v2 .dv-top-overlay{left:12px;right:12px;top:12px}#daan-vr-v2 .dv-scene-badge{padding:8px 9px}#daan-vr-v2 .dv-top-actions button{font-size:12px;padding:6px 9px}#daan-vr-v2 .dv-map{right:12px;top:60px;width:calc(100% - 24px)}}
+    @media(max-width:390px){#daan-vr-v2 .dv-title strong{font-size:22px}#daan-vr-v2 .dv-property{font-size:11px}#daan-vr-v2 .dv-stage{height:425px}#daan-vr-v2 .dv-top-actions{gap:4px}#daan-vr-v2 .dv-top-actions button{padding:5px 6px}#daan-vr-v2 .dv-room span{font-size:11px;padding:6px 4px}#daan-vr-v2 .dv-number{display:none}#daan-vr-v2 .dv-scene-badge{max-width:128px}}
+    @media(pointer:coarse){#daan-vr-v2 button{min-height:44px}#daan-vr-v2 .dv-view-tools button{min-width:40px;min-height:40px}#daan-vr-v2 .dv-detail-dot{width:44px;height:44px}#daan-vr-v2 .dv-map-dot{min-height:38px;width:38px;height:38px}}
+    @media(prefers-reduced-motion:reduce){#daan-vr-v2 canvas,#daan-vr-v2 .dv-poster{transition:none}}
+    #daan-vr-v2 .dv-style-bar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 16px 8px}
+    #daan-vr-v2 .dv-style{display:flex;flex-direction:column;align-items:flex-start;padding:9px 12px;gap:2px;text-align:left;min-width:0}
+    #daan-vr-v2 .dv-style span{font-weight:500}
+    #daan-vr-v2 .dv-style small{font-size:11px;color:var(--dv-muted);white-space:nowrap}
+    #daan-vr-v2 .dv-style[aria-pressed="true"] small{color:inherit;opacity:.8}
+    #daan-vr-v2 .dv-lens-bar{padding:0 16px 10px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--dv-muted);font-size:12px}
+    #daan-vr-v2 .dv-lens-bar div{display:flex;gap:5px}
+    #daan-vr-v2 .dv-lens-bar button{padding:4px 12px;min-height:30px}
+    @media(max-width:580px){#daan-vr-v2 .dv-style-bar{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 12px 8px;gap:6px}#daan-vr-v2 .dv-lens-bar{padding:0 12px 10px}#daan-vr-v2 .dv-style{padding:7px 10px}#daan-vr-v2 .dv-lens-bar>span{font-size:11px}}
+  </style>
+  <style>
+    #daan-vr-v2 .dv-hd-wrap{position:absolute;inset:0;background:var(--dv-bg);overflow:hidden;touch-action:none;cursor:grab}
+    #daan-vr-v2 .dv-hd-wrap:active{cursor:grabbing}
+    #daan-vr-v2 .dv-hd-image{position:absolute;left:50%;top:50%;width:100%;height:100%;object-fit:contain;max-width:none;max-height:none;transform:translate(-50%,-50%);transform-origin:center;user-select:none;pointer-events:none}
+    #daan-vr-v2 .dv-hd-tools{max-width:none;align-items:center}
+    #daan-vr-v2 .dv-hd-tools span{padding:6px 9px;background:var(--dv-bg);border-radius:8px;font-size:12px;font-variant-numeric:tabular-nums}
+    #daan-vr-v2 .dv-hd-tools a{font:inherit;color:var(--dv-ink);border:1px solid var(--dv-line);background:var(--dv-bg);border-radius:8px;padding:5px 9px;text-decoration:none}
+    #daan-vr-v2 button:disabled{opacity:.4;cursor:default}
+    #daan-vr-v2.dv-hd .dv-stage{height:clamp(450px,55vw,790px)}
+    #daan-vr-v2.dv-hd .dv-hint{bottom:66px;max-width:calc(100% - 32px)}
+    #daan-vr-v2 .dv-quality{font-size:11px;color:var(--dv-muted);line-height:1.6;margin:10px 0 0}
+    @media(max-width:700px){#daan-vr-v2.dv-hd .dv-stage{height:440px}#daan-vr-v2 .dv-hd-tools{left:10px;right:10px;bottom:12px;gap:4px}#daan-vr-v2 .dv-hd-tools button,#daan-vr-v2 .dv-hd-tools a{font-size:12px;padding:5px 7px}#daan-vr-v2.dv-hd .dv-hint{font-size:11px}}
+  </style>
+
+<style>
+#daan-vr-v2{max-width:2200px;border-radius:18px;color-scheme:light;--dv-bg:#f9f8f4;--dv-ink:#29332c;--dv-muted:#69736a;--dv-line:#dddeda;--dv-selected:#374c3f;--dv-selected-ink:#fff;--dv-map:#e8ebe4;box-shadow:0 10px 45px #28362b08;font-size:14px}
+#daan-vr-v2 .dv-header{padding:22px 24px 20px;gap:20px}
+#daan-vr-v2 .dv-property{font-size:13px}
+#daan-vr-v2 .dv-modes a{display:inline-flex;align-items:center;gap:7px;color:var(--dv-muted);text-decoration:none;font-size:14px;padding:7px 12px;min-height:36px;border:1px solid transparent;border-radius:8px}
+#daan-vr-v2 .dv-modes a small{font-size:11px;border:1px solid var(--dv-line);padding:0 4px;border-radius:4px}
+#daan-vr-v2 .dv-modes a:hover{background:#edf0e9;color:var(--dv-ink)}
+#daan-vr-v2 .dv-modes a:focus-visible{outline:3px solid #71965d;outline-offset:3px}
+#daan-vr-v2 .dv-mode-notice{margin:0 24px 14px;padding:10px 14px;background:#f0eadb;border-radius:8px;color:#685a3d;font-size:13px;line-height:1.6}
+#daan-vr-v2 .dv-style-bar{padding:0 24px 12px;gap:10px}
+#daan-vr-v2 .dv-style{padding:10px 14px}
+#daan-vr-v2 .dv-style small{font-size:12px}
+#daan-vr-v2 .dv-lens-bar{padding:0 24px 14px;font-size:13px}
+#daan-vr-v2 .dv-stage,#daan-vr-v2.dv-hd .dv-stage{height:clamp(310px,49vh,510px);margin:0 24px;border-radius:12px}
+#daan-vr-v2 .dv-route{display:flex;align-items:center;gap:18px;margin:18px 24px;padding-bottom:18px;border-bottom:1px solid var(--dv-line)}
+#daan-vr-v2 .dv-route>span{font-size:13px;color:var(--dv-muted);white-space:nowrap}
+#daan-vr-v2 .dv-route>div{display:flex;gap:8px;flex-wrap:wrap}
+#daan-vr-v2 .dv-route button{padding:7px 13px;font-size:14px;background:#edf0e9;border-color:transparent}
+#daan-vr-v2 .dv-bottom{padding:0 24px 22px}
+#daan-vr-v2 .dv-room img{height:66px;object-fit:cover;aspect-ratio:auto}
+#daan-vr-v2 .dv-room span{font-size:12px;padding:8px}
+#daan-vr-v2 .dv-info{margin-top:16px;font-size:13px}
+#daan-vr-v2 .dv-quality{font-size:12px;max-width:940px;line-height:1.7}
+#daan-vr-v2.dv-expanded .dv-stage{height:70vh}
+#daan-vr-v2:fullscreen .dv-stage{height:auto}
+@media(max-width:700px){#daan-vr-v2{border-radius:0}#daan-vr-v2 .dv-header{padding:20px 16px}#daan-vr-v2 .dv-style-bar{padding:0 16px 12px}#daan-vr-v2 .dv-lens-bar{padding:0 16px 12px}#daan-vr-v2 .dv-stage,#daan-vr-v2.dv-hd .dv-stage{margin:0 12px;height:390px}#daan-vr-v2 .dv-route{margin:14px 16px;display:block}#daan-vr-v2 .dv-route>span{display:block;margin-bottom:8px}#daan-vr-v2 .dv-bottom{padding:0 16px 22px}#daan-vr-v2 .dv-top-actions{flex-wrap:wrap;justify-content:flex-end;max-width:220px}#daan-vr-v2 .dv-room img{height:58px}}
+</style>
+  <div class="dv-header">
+    <div class="dv-title"><strong>庭间</strong><div class="dv-property"><span>达安锦园 · 75.10㎡</span><span data-style-name>空间设计 · 家具与材质</span></div></div>
+    <div class="dv-modes" data-modes aria-label="浏览模式">
+      <button class="cursor-interaction" type="button" data-mode="legacy" aria-pressed="true">空间设计</button>
+      <button class="cursor-interaction" type="button" data-mode="history" aria-pressed="false">历史方案</button>
+    </div>
+  </div>
+  <section class="dv-history" data-history-pane hidden>
+    <div class="dv-history-heading"><h2>历史方案</h2><p>早期试摆、三维研究和漫游集中保留在这里。当前方案的选材与进度独立保存。</p></div>
+    <div class="dv-history-tabs"><button type="button" data-mode="history" aria-pressed="false">早期设计与三维研究</button><button type="button" data-mode="hd" aria-pressed="false">早期高清看屋</button><button type="button" data-mode="vr" aria-pressed="false">早期 360° 环视</button><a href="/lab/" target="_blank" rel="noopener">家具实验室 ↗</a></div>
+    <div data-history-archive><iframe class="dv-legacy-frame" data-history-frame title="历史方案 · 早期设计与实验" sandbox="allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox" allow="fullscreen"></iframe></div>
+  </section>
+  <div data-vr-pane hidden>
+    <div class="dv-style-bar" aria-label="切换全屋风格，保留当前房间与视角">
+      <button class="dv-style cursor-interaction" type="button" data-style="east" aria-pressed="true"><span>庭间新中式</span><small>胡桃木 · 皮革 · 藤编</small></button>
+      <button class="dv-style cursor-interaction" type="button" data-style="wabi" aria-pressed="false"><span>暖侘寂</span><small>浅橡木 · 亚麻 · 洞石</small></button>
+      <button class="dv-style cursor-interaction" type="button" data-style="haipai" aria-pressed="false"><span>海派中古</span><small>酒红 · 胡桃木 · 铬</small></button>
+      <button class="dv-style cursor-interaction" type="button" data-style="future" aria-pressed="false"><span>银绿未来</span><small>苔绿 · 浅木 · 拉丝铝</small></button>
+    </div>
+    <div class="dv-lens-bar"><span data-resolution>1586 × 992 · 高清定点图</span><div data-lenses aria-label="镜头视角" hidden><button class="cursor-interaction" type="button" data-lens="68" aria-pressed="true">自然</button><button class="cursor-interaction" type="button" data-lens="80" aria-pressed="false">开阔</button></div></div>
+    <p class="dv-mode-notice" data-mode-notice role="status" hidden></p>
+    <div class="dv-stage" data-stage aria-busy="true">
+      <img class="dv-poster" data-poster alt="新中式客厅设计预览" hidden>
+      <canvas role="img" aria-label="站在房间中的全景视角，拖动可以环视，用房间按钮可以移动" hidden>可以用下方房间按钮切换空间。</canvas>
+      <div class="dv-hd-wrap" data-hd-wrap><img class="dv-hd-image" data-hd-image src="/tour/assets/east/living-hd.jpg" width="1586" height="992" loading="lazy" fetchpriority="low" decoding="async" draggable="false" alt="庭间新中式 · 客厅高清定点设计图，非房屋实拍"></div>
+      <div class="dv-hotspots" data-hotspots hidden></div>
+      <div class="dv-top-overlay">
+        <div class="dv-scene-badge"><span class="dv-number" data-scene-number>01</span><strong data-scene>客厅</strong></div>
+        <div class="dv-top-actions">
+          <button type="button" data-enter-vr>环视方向 ↗</button>
+          <button class="cursor-interaction" type="button" data-show-map aria-expanded="false" aria-controls="daan-vr-v2-map">户型</button>
+          <button class="cursor-interaction" type="button" data-show-features aria-pressed="false" aria-controls="daan-vr-v2-details">设计巧思</button>
+          <button class="cursor-interaction" type="button" data-fullscreen>放大</button>
+        </div>
+      </div>
+      <div class="dv-map" data-map id="daan-vr-v2-map" hidden>
+        <div class="dv-map-header"><span>户型示意 · 选择位置</span><button class="cursor-interaction" type="button" data-close-map aria-label="收起户型图">收起</button></div>
+        <div class="dv-map-content">
+          <svg data-map-image viewBox="-.3 -.3 11.24 7.7" role="img" aria-label="根据原户型绘制的房间关系示意，非测绘图"><path class="dv-cone" data-view-cone d=""></path></svg>
+          <div class="dv-map-dots" data-map-dots></div>
+        </div>
+      </div>
+      <div class="dv-view-tools" data-vr-tools aria-label="视角控制" hidden>
+        <button class="cursor-interaction" type="button" data-turn="-15,0" aria-label="向左看">←</button>
+        <button class="cursor-interaction" type="button" data-turn="15,0" aria-label="向右看">→</button>
+        <button class="cursor-interaction" type="button" data-turn="0,10" aria-label="抬头看">↑</button>
+        <button class="cursor-interaction" type="button" data-turn="0,-10" aria-label="低头看">↓</button>
+        <button class="cursor-interaction" type="button" data-zoom="-8" aria-label="放大视角">＋</button>
+        <button class="cursor-interaction" type="button" data-zoom="8" aria-label="缩小视角">－</button>
+      </div>
+      <div class="dv-view-tools dv-hd-tools" data-hd-tools aria-label="高清图片控制">
+        <button type="button" data-hd-fit aria-pressed="true">适合窗口</button>
+        <button type="button" data-hd-native aria-pressed="false">原图 100%</button>
+        <button type="button" data-hd-out aria-label="缩小高清图片">－</button>
+        <button type="button" data-hd-in aria-label="放大高清图片">＋</button>
+        <span data-hd-percent>100%</span>
+        <a data-hd-download download="room-hd.jpg">保存图片</a>
+      </div>
+      <span class="dv-hint" data-hint>高清定点图 · 放大后可拖动 · 下方切换房间</span>
+    </div>
+    <nav class="dv-route" aria-label="前往相邻空间"><span>从这里出发</span><div data-destinations></div></nav>
+    <div class="dv-bottom">
+      <div class="dv-material-row"><span class="dv-material" data-material>胡桃木 · 棕色皮革 · 亚麻与藤编</span><span class="dv-caption" data-caption>高清定点设计图 · 非房屋实拍</span></div>
+      <div class="dv-rooms" data-rooms aria-label="选择房间"></div>
+      <div class="dv-info"><span data-summary>低矮家具与留白墙面，让视线一直延伸到阳台。</span><span>8 个漫游位置</span></div>
+      <p class="dv-quality" data-quality>点击“从这里出发”或户型图，沿路径查看全屋。当前为生成的定点设计图，局部可能与全景不同；家具尺寸以实测为准。</p>
+    </div>
+    <div class="dv-detail-panel" data-detail-panel id="daan-vr-v2-details" hidden>
+      <div class="dv-detail-header"><div class="dv-features" data-features aria-label="查看设计细节"></div><button class="dv-close cursor-interaction" type="button" data-close-feature>收起说明</button></div>
+      <strong data-feature-title></strong><p data-feature-body></p>
+    </div>
+  </div>
+  <style>.dv-history{padding:12px 24px 28px}.dv-history-heading h2{font:400 28px/1.5 Georgia,'Songti SC',serif;margin:4px 0 8px}.dv-history-heading p{font-size:14px;color:#837260;line-height:1.8;margin:0 0 20px}.dv-history-tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:23px}.dv-history-tabs a{color:inherit;text-decoration:none;padding:8px 12px;font-size:14px}.dv-history-tabs button{font-size:14px}#daan-vr-v2 .dv-modes button{min-width:110px}</style>
+  <div data-legacy-pane><iframe class="dv-legacy-frame" data-legacy-frame title="空间设计 · 全屋方案与家具材料" sandbox="allow-scripts allow-same-origin allow-downloads allow-popups allow-popups-to-escape-sandbox" allow="fullscreen"></iframe></div>
+  <span class="dv-sr" data-status role="status" aria-live="polite">正在载入高清场景</span>
+  <script type="application/json" data-assets>__ASSETS__</script>
+  <script type="application/octet-stream" data-legacy-source>__LEGACY__</script>
+  <script>__BUNDLE__</script>
+</div>

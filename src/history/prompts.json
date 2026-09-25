@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image_gen",
+  "edits": [
+    {
+      "id": "table-removed",
+      "output_filename": "table-removed.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior furniture-removal trial.\nInput image 1 is the EDIT TARGET, the existing room. Make a strictly local edit to this same image.\nPrimary request: Remove ONLY the foreground central walnut coffee table, its entire base, and ALL of the objects on that coffee table: the small vase with branches, the stacked books, and the dark bowl. Remove their cast shadows. Naturally reconstruct the complete continuous coarse beige woven rug beneath the removed table with the same scale, fiber texture, lighting gradients, and perspective as the surrounding rug.\nInvariants: Keep the exact rug outline and visible existing rug; keep the brown leather sofa on the right, every cushion, throw and crease; keep the TV and low walnut cabinet on the left including all their accessories; keep the rear dining table, all chairs, rear vase and branches; keep the tall bookshelf, doors, glass partition, wall art, wall controls, floorboards, ceiling, lights, all room geometry, camera position, lens, crop, framing, perspective, illumination, shadows and warm color balance unchanged. Do not remove the rear dining table or any other furniture. Do not remove other vases or plants.\nStyle: seamless natural photographic reconstruction consistent with the supplied concept interior. No redesign, no rearrangement, no new objects, no added décor. Output one image with the same 3:2 landscape framing as the 1536×1024 original, high resolution. No text, no labels, no collage, no border, no watermark.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/furniture-photo-trial/original-room.jpg"
+      ]
+    },
+    {
+      "id": "table-replaced",
+      "output_filename": "table-replaced.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior furniture replacement trial.\nInput image 1 is the EDIT TARGET: the existing concept room. Input image 2 is a supporting furniture reference showing THREE VIEWS OF ONE SINGLE TABLE, not three separate tables. Edit image 1; do not reproduce the reference background or layout.\nPrimary request: Replace ONLY the foreground central walnut coffee table with ONE low rectangular tea table faithfully matching the furniture in image 2. The replacement has glossy near-black/brown lacquer, a broad rectangular top with gently concave edges and distinctly upturned curved corners, fine amber-gold trim following the rim and leg edges, four squat curved integrated legs, and the silhouette shown by the reference. Match the table's approximate real-world proportions of 112 cm long by 81.4 cm deep by 26.2 cm high. This is a conceptual visual placement, not a measured scan.\nPlacement and integration: Center the single replacement at the original coffee-table location on the beige rug. Orient its long axis toward the back of the room, as the original table, with its nearest short edge toward the viewer. Keep it a visibly low tea table and match the room's camera perspective and believable scale relative to the sofa. Match the daylight from the left, warm room reflections on the dark lacquer, soft contact shadows under its feet, and rug occlusion.\nRemove all of the original coffee-table accessories: small vase and branches, stacked books and dark bowl. Leave the replacement tabletop completely clear so its exact silhouette is visible. Remove the original table and its shadows completely.\nInvariants: Preserve everything else in image 1 unchanged: exact rug outline and existing texture, brown leather sofa at right with every cushion and throw, TV and walnut cabinet at left and all accessories, rear dining furniture including its vase and branches, bookshelf, glass partition, doors, floorboards, wall art, wall controls, ceiling and lights. Preserve the exact camera, crop, framing, room geometry, illumination and warm color balance. Do not redesign or rearrange the room. Do not modify other tables or vases. Do not insert multiple tables.\nOutput one seamless photorealistic image with the same 3:2 landscape framing as the 1536×1024 original, high resolution. No text, no labels, no collage, no border, no watermark.",
+      "referenced_image_paths": [
+        "/workspace/scratch/aa0f93406d63/furniture-photo-trial/original-room.jpg",
+        "/workspace/scratch/aa0f93406d63/furniture-source/model-1/inspect.jpg"
+      ]
+    }
+  ]
+}

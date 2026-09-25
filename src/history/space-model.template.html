@@ -1,0 +1,55 @@
+<section id="viewer" class="section model-wrap"><div class="section-head"><h2>空间比例研究</h2><span class="small muted">拖动旋转 · 选择近景 · 点选家具看用料</span></div><div id="daan-spaces" data-texture-quality="full" aria-label="达安锦园两房双阳台，三套材质方案的可旋转三维空间模型">
+  <img loading="lazy" decoding="async" data-atlas hidden src="/tour/legacy-assets/9063a0cb3fc30f0f.jpg" alt="木材、皮革、织物与石材的概念纹理图集">
+  <div class="daan-heading">
+    <h3>达安锦园 · 材质深化</h3>
+    <span class="text-small text-muted">75.10㎡建筑面积 · 两房 · 双阳台</span>
+  </div>
+  <div class="viz-controls" aria-label="装修方案">
+    <button type="button" class="btn" data-style="sculpt" aria-pressed="true">Ⅰ 胡桃木私邸</button>
+    <button type="button" class="btn" data-style="retro" aria-pressed="false">Ⅱ 橄榄沙龙</button>
+    <button type="button" class="btn" data-style="east" aria-pressed="false">Ⅲ 茶庭光影</button>
+    <button type="button" class="btn btn-ghost" data-style="original" aria-pressed="false">原貌参考</button>
+  </div>
+  <div class="daan-stage" role="group" aria-label="鼠标或手指拖动旋转，滚轮或双指缩放；也可使用下方按钮控制">
+    <canvas aria-label="三维房屋剖面模型，含客餐厅、两间卧室、独立厨房、卫生间和两个阳台">三维模型需要支持 WebGL 的浏览器。请打开保存版查看。</canvas>
+    <div class="daan-style-label"><span data-style-name>胡桃木私邸</span><span class="text-small text-muted">材质与家具深化 · 比例待实测</span></div>
+  </div>
+  <div class="daan-caption"><span data-materials>深胡桃木 · 巧克力棕皮 · 羊毛与亚麻 · 哑光墨石</span></div>
+  <div class="viz-controls">
+    <label class="form-label">视角
+      <select class="form-select" data-view aria-label="观察视角">
+        <option value="living_inside" selected>客厅内景</option><option value="sofa_detail">皮沙发近看</option><option value="table_detail">茶几近看</option><option value="all">全屋鸟瞰</option><option value="top">正上方户型</option><option value="living">客餐厅鸟瞰</option><option value="master">主卧鸟瞰</option><option value="master_inside">主卧内景</option><option value="second">次卧</option><option value="kitchen">厨房</option><option value="bath">卫生间</option>
+      </select>
+    </label>
+    <label class="form-label">墙体
+      <select class="form-select" data-wall aria-label="墙体显示"><option value="cut">剖切展示</option><option value="full">完整高度</option></select>
+    </label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-labels><span class="form-check-label">空间名称</span></label>
+    <label class="form-label">光线<select class="form-select" data-light aria-label="观察光线"><option value="day">自然日光</option><option value="evening">傍晚暖光</option></select></label>
+  </div>
+  <div class="viz-controls" aria-label="旋转与缩放">
+    <button type="button" class="btn btn-ghost" data-rotate-left aria-label="向左旋转">左转</button>
+    <button type="button" class="btn btn-ghost" data-rotate-right aria-label="向右旋转">右转</button>
+    <button type="button" class="btn btn-ghost" data-zoom-in aria-label="放大模型">放大</button>
+    <button type="button" class="btn btn-ghost" data-zoom-out aria-label="缩小模型">缩小</button>
+    <span class="text-small text-muted" data-model-status role="status">展开后加载三维空间</span>
+  </div>
+  <div class="text-small text-muted" data-detail aria-live="polite">概念比例模型 · 净高暂按2.65m · 入户位置待复尺</div>
+</div>
+<style>
+#daan-spaces { width:100%; color:var(--foreground); }
+#daan-spaces .daan-heading { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px 18px; margin-bottom:12px; }
+#daan-spaces .daan-heading h3 { margin:0; }
+#daan-spaces .daan-stage { position:relative; width:100%; height:550px; max-height:76vw; min-height:335px; overflow:hidden; touch-action:none; }
+#daan-spaces canvas { display:block; width:100%; height:100%; touch-action:none; cursor:grab; }
+#daan-spaces canvas:active { cursor:grabbing; }
+#daan-spaces .daan-style-label { position:absolute; top:16px; left:0; pointer-events:none; display:flex; flex-direction:column; gap:5px; }
+#daan-spaces[data-view$="_inside"] .daan-style-label {display:none;}
+#daan-spaces .daan-caption { margin:0 0 16px; }
+#daan-spaces .daan-room-label { position:absolute; transform:translate(-50%,-50%); font:inherit; color:var(--foreground); background:var(--background); border:1px solid var(--border); padding:4px 7px; border-radius:4px; }
+#daan-spaces .daan-room-label[hidden] { display:none; }
+#daan-spaces [data-detail] { margin-top:12px; }
+@media (max-width:500px) { #daan-spaces .daan-stage { height:390px; max-height:none; } #daan-spaces .daan-style-label { top:13px; } }
+</style>
+<script type="module" src="/tour/legacy-runtime/loader.js?v=__LEGACY_VERSION__"></script>
+<p class="small muted">交互模型用于观察布局、体量和材质反光，画面精度与上方写实效果图不同。材料纹理由生成图集制作，并非品牌实物扫描；室内可见微起伏、木纹、皮纹与软包缝线。</p></section>

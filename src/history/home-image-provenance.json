@@ -1,0 +1,564 @@
+{
+  "dusk": {
+    "project": "暮色私邸 / Dusk Residence",
+    "mode": "built-in image_gen",
+    "concept_photos_not_measured_scans": true,
+    "native_size_request": "approximately 2048 x 1360 or highest reasonable native landscape resolution",
+    "assets": [
+      {
+        "room": "living",
+        "prompt": "Use case: precise-object-edit.\nAsset type: single photoreal architectural interior photograph for the 暮色私邸 whole-home gallery, landscape 3:2, approximately 2048 by 1360 pixels or highest reasonable native landscape resolution.\nInput image 1 is the exact edit target, an intimate Shanghai apartment living/dining room. Preserve the exact existing architecture and camera viewpoint: walls, ceiling shape, cornices and warm hidden light, central round alabaster ceiling lamp, recessed downlights, every door opening, rear dark walnut wall panels, right artwork, left TV and low media cabinet, rear dining table/chairs/pendant/artwork/sideboard, left glazed partition, floor material and perspective. Preserve the room size and this recognizable image.\nChange ONLY the empty living room foreground by adding three beautifully integrated furnishings. Along the right walnut wall, place one exquisitely proportioned low contemporary sofa, approximately 225 cm long, facing left toward the existing television. Modern clean softly rounded silhouette, low back and generous but tailored seat cushions, supple cocoa/brown leather with subtle grain and natural gentle creases, restrained low dark feet, no ornate woodwork. Maintain a clear passage behind the sofa toward dining and the right doorway. In front of it add one low rounded-rectangular coffee table in smoked walnut with a warm grey stone inset top, about 110 x 65 cm, softened corners, refined quiet proportions. Beneath sofa front legs and coffee table place a muted taupe dense woven wool rug with subtly irregular soft edges, realistic thick woven fibers, textile pile and small corner lift/contact shadows, physically resting on the floor, not a flat pasted rectangle.\nAll three furnishings must be built into the photographic scene with matching perspective, scale, coherent natural contact shadows, light falloff and reflections; no separate 3D overlay look. Existing warm late-afternoon daylight and intimate 2700K EDITION-inspired residential atmosphere remain. Material palette smoked walnut, warm muted grey stone, cocoa leather and taupe wool. The existing apartment living plus dining zone is only 21.4 sqm, do not enlarge it. Keep the background dining suite exactly recognizably identical. No ornate carved sofa, no old angular block stone coffee table, no glossy leather, no oversized rug covering the entire room. No text, logo, watermark, UI, captions, collage, visible measuring lines or people. Deliver exactly one finished image.",
+        "references": [
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/edition-assets/edition-dark.jpg",
+            "role": "exact edit target; architecture and camera preserved"
+          }
+        ],
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-6b85366f-2178-4cb0-a530-d290a5b74c01.png",
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png",
+        "width": 1536,
+        "height": 1024,
+        "observations": "Original architecture/camera/TV/walnut walls/rear dining group retained; right cocoa leather sofa, rounded walnut-and-stone table and woven taupe rug are photographed into the scene with coherent light and shadows.",
+        "format": "PNG",
+        "bytes": 2375017,
+        "sha256": "d5bfb7115f9de407b530d340fad6e6b370a04e3d41f0fe113db8fd8b6f4a39b0"
+      },
+      {
+        "room": "dining",
+        "prompt": "Use case: photorealistic-natural. Asset type: dining room gallery photograph.\nInput image 1 is the completed living room and the authoritative source for the ACTUAL same dining suite and rear wall, not just a loose mood reference. Create a closer, beautifully composed view of its dining area by moving the camera forward in the same space. Preserve the exact recognizable dark walnut rear panel wall, simple rectangular walnut dining table, four compact taupe upholstered walnut dining chairs, small glowing oval opal pendant on slim dark stem, tall black-framed monochrome tree-and-lake artwork to the LEFT of the pendant, narrow open walnut bookshelf to the left, low walnut sideboard and tiny bronze dome lamp to the right, and right entry door. Keep their same relative locations and same designs. Show the table fully, two near chair backs and the two far chairs, with the same dark ceramic vase and a restrained branch. Grey stone floor; only a tiny peripheral suggestion of the living area if needed. This is the dining corner within the total 21.4 sqm living+dining space, not a separate grand dining hall. Do not introduce any new window, round table, giant gallery wall, new room, sculptural chandelier or extra furniture.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/dining.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-2d6e7a58-871f-4689-a56b-c4728b68926e.png",
+        "observations": "Closer view matches living-room dining table/chairs, tree-and-lake art, oval pendant, bookshelf, sideboard and small bronze lamp; scale remains intimate.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2066560,
+        "sha256": "bce61fe29b17d777e814c1523d070f674303b3bbaef100ae45207cd6cb65cb19"
+      },
+      {
+        "room": "balcony",
+        "prompt": "Use case: photorealistic-natural. Asset type: scenic balcony gallery photograph.\nInput image 1 contains the source apartment living room looking toward its enclosed scenic balcony; use only its balcony glazing, exterior enclosure/railings, city view and scale as spatial reference. Input image 2 is the completed living room, use its exact material and lighting language throughout.\nCreate a new close architectural view from the living threshold into the narrow ENCLOSED scenic balcony, just 5 sqm, with the existing slim dark bronze window frames and safe outer enclosure/railing maintained. A refined small smoked-walnut tea bench with thin taupe linen cushion along the rear glazing, one short plain bronze/taupe tea side table, a restrained potted leafy tree in warm grey stoneware at one end, light sheer curtains quietly framing the opening. Grey stone floor continuing from the interior, warm walnut side return and tiny 2700K wall/task light. Comfortable quiet tea corner, soft Shanghai residential towers and treetops beyond the glass, daylight generous but softly filtered. Show the bench at realistic 130cm scale with clear floor/circulation; no sofa or coffee table from the living room in foreground, no outdoor terrace, no removal of enclosure, no wide luxury loggia, no exaggerated panorama.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/assets/east/dining-hd.jpg",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/balcony.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-abb6e93a-4a52-436a-b767-b8ee4c7606dd.png",
+        "observations": "Glazed enclosure and exterior railing are maintained; small walnut tea bench, bronze side table and potted tree with generous natural light.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2570752,
+        "sha256": "3c043ddc06bdf9664d43395d5408ebc8ce1cba2337ac9ba51b929ce105299320"
+      },
+      {
+        "room": "kitchen",
+        "prompt": "Use case: photorealistic-natural. Asset type: kitchen gallery photograph.\nInput image 1 shows the source sink window and walnut cabinets; use for existing window proportions and compact-apartment scale, not as a strict crop. Input image 2 is the completed living room, the authoritative finish and mood reference.\nCreate an architectural view from the doorway into a SMALL SEPARATE 6.6 sqm kitchen. Clear doorway/jamb or wall return must be visible at one foreground side to establish that this remains an enclosed room. Compact L-shaped worktops, sink directly below the source-style dark framed window, integrated cooktop and concealed hood on the short return, sensible upper storage and fully integrated compact appliances. Smoked dark walnut lower cabinets with refined inset bronze finger pulls, muted warm-grey stone counters and backsplash, quiet greige upper cabinets, soft 2700K under-cabinet strips. Daylight shows the outdoor Shanghai residential blocks through the existing window. Display only a ceramic jar, board and small branch, keep practical working surface clear. Use a modest-wide room view that shows the compact workflow and some floor, not an extreme close-up. No island, no bar, no demolition, no open-plan transformation, no gigantic gourmet kitchen, no extra invented rooms.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/assets/east/kitchen-hd.jpg",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/kitchen.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-222bcc6c-d2d5-4a97-9666-9b9e068a15f4.png",
+        "observations": "Small enclosed kitchen is clearly read through doorway returns; no island; compact U-shaped cabinet arrangement, window sink and right cooktop.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2151918,
+        "sha256": "f6028ba4b49e43dcf14f9c64e6c715f021cdfc9dd7a8bdc9f237161f45e88d56"
+      },
+      {
+        "room": "utility",
+        "prompt": "Use case: photorealistic-natural. Asset type: utility balcony gallery photograph.\nInput image 1 is the source walnut washer/dryer joinery detail and exterior window relationship. Input image 2 is the completed living room and supplies the cohesive material and lighting character.\nCreate a wider architectural view of the compact 2.5 sqm enclosed utility balcony off the kitchen. Retain the exterior glazing and dark bronze frame on the left, with softly visible nearby Shanghai residential towers. On the right/end wall, two realistically proportioned silver/graphite front-loading machines are vertically stacked in a built-in smoked-walnut floor-to-ceiling cabinet, dryer above washer, with a narrow closed cleaning cupboard alongside and a discreet ventilated panel. The cabinets stand proud INSIDE the room and encase the machines; do not hollow or recess into any structural wall. Show enough floor, cabinet side thickness and ceiling to communicate the very narrow usable balcony, with warm grey stone tile and restrained 2700K under-shelf light. A neat small worktop/folding ledge and one linen basket if space permits, clear circulation. No luxury laundry room, no exterior wall removal, no exposed pipes or messy wires, no machine logos, no fake gibberish labels.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/assets/east/utility-hd.jpg",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/utility.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-87578758-a314-4117-9c0d-726f444f946d.png",
+        "observations": "Narrow enclosed balcony with stacked laundry appliances housed in projecting walnut cabinetry; exterior window maintained; cleaning storage is visibly an internal joinery unit.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2294806,
+        "sha256": "b0628bf0e5ea1f87d8ead0454c4a778b47202485d0e7d9b1290d759d9e70eb11"
+      },
+      {
+        "room": "master",
+        "prompt": "Use case: photorealistic-natural. Asset type: primary bedroom renovation concept photograph.\nInput image 1 is the ACTUAL original compact primary bedroom and is authoritative for architecture: preserve its approximately 13.5 sqm size, the projecting L-shaped CORNER WINDOW to the back-left of the bed and the separate tall window on the right wall, and their relationship to the bed. Ignore/remove all listing watermark, black letterboxing and interface graphics. Input image 2 is the completed living room and sets the coherent walnut, stone, cocoa leather and warm light character.\nRenovate this exact modest bedroom into an intimate quiet private residence, not a giant hotel suite. Camera from near the doorway looking diagonally at a 150–160cm double bed in the same position with its head against the far wall. Low smoked-walnut bed frame, softly upholstered warm brown leather headboard, natural ivory/taupe linen bedding, one subtle cocoa throw. Restrained walnut lower headboard panel, warm greige plaster above, compact wall-mounted walnut bedside ledges with bronze reading lamps; one delicate 2700K concealed light line. Walnut floor, small soft taupe wool rug under the bed. Keep the L-shaped corner bay window visible back-left with its existing sill, simple stone sill seat and linen curtains, separate right window retained. A modest wardrobe wall may be partially seen near the camera but do not invent a large dressing suite. Natural city daylight fills the room and renders material texture, restrained warm lighting adds intimacy. No bathtub, no lounge sofa, no symmetrical giant windows replacing the original relationship, no ornate carving, no excessive pillows.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/ab5f3827b79b4d4d.png",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/master.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-3e7384af-d176-4875-a082-3ef0facfb646.png",
+        "observations": "Compact main bedroom preserves distinctive L-shaped corner bay window at left and separate tall right window from original photo, with cocoa headboard and walnut details.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2449260,
+        "sha256": "863ad69ca8f61b94867287325e6a4b180f39642a9a06483e496fb2a2629730d9"
+      },
+      {
+        "room": "second",
+        "prompt": "Use case: photorealistic-natural. Asset type: compact second-room study and daybed photograph.\nInput image 1 is the source window/desk relationship; use for apartment window proportions and city outlook. Input image 2 is the completed living room and sets the same smoke-walnut, warm stone, taupe textile and bronze mood.\nShow a SMALL 7.2 sqm second bedroom as a compact study plus slim daybed, seen from its doorway with realistic tight clearances. A neat 100–120cm smoked-walnut desk faces the dark-framed exterior window, compact bronze task lamp, a closed notebook, one small branch in a ceramic vase. One simple upholstered cocoa/taupe desk chair that tucks under the desk. Along the adjacent side wall is a narrow 80–90cm wide linen-upholstered daybed with walnut base and two restrained cushions, long enough for one guest. Shallow overhead walnut storage/shelves with a few books, warm greige plaster and restrained warm 2700K integrated light. Soft natural daylight through sheer linen, walnut floor with a small taupe wool runner. Show desk, daybed and a slim circulation aisle within the same compact frame. Make it believable as 7.2 sqm, not a large luxury bedroom or grand office. No double bed, no giant desks, no multiple chairs, no enlarged wall of windows, no clutter.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/assets/east/second-hd.jpg",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/second.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-92a9f314-4715-423e-ab4c-5841bec8a0f5.png",
+        "observations": "Small study/daybed room shows one slim single daybed, compact window-facing desk, shelving and narrow circulation.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2410562,
+        "sha256": "ca95e16293f3fd6d95cabd914aa0e3503f4ec4bf16a6855f88945d6f6e67082d"
+      },
+      {
+        "room": "bath",
+        "prompt": "Use case: photorealistic-natural. Asset type: bathroom renovation concept photograph.\nInput image 1 is the ACTUAL original 4.3 sqm bathroom and is authoritative for size and layout: compact glass shower on the LEFT, vanity against rear wall, narrow vertical black-framed frosted window above/right of vanity, toilet in the right foreground. Preserve this recognizable tight room arrangement and all existing window/door relationships. Ignore/remove listing watermarks, black letterbox and interface graphics. Input image 2 is the completed living room and supplies the dark walnut, warm-grey stone and bronze material palette.\nRenovate the same small bathroom with warm muted-grey stone walls and floor, a shallow floating smoked-walnut vanity of realistic roughly 100–110cm width, single undermount basin in a warm-grey stone top, aged-bronze faucet, softly rounded rectangular mirror with gentle 2700K halo, discreet under-vanity light, slim bronze shower framing and fittings. Existing shower stays on left with a practical glass door; existing narrow frosted window remains on rear-right; compact plain white toilet remains on the right. Keep a small amount of floor visible, a folded taupe towel and an unlabelled dark soap pump only. Natural frosted-window daylight makes the small room clear and inviting. No bathtub, no dual vanity, no grand spa suite, no enlarged floor plan, no invented giant window, no recessed structural wall cavity.\nSingle photoreal architectural interior photograph for the 暮色私邸 whole-home gallery of a 75.1 sqm Shanghai Da'an Jinyuan two-bedroom apartment. Intimate EDITION-inspired residential atmosphere, cohesive with the supplied completed living room: smoked dark walnut, warm muted grey stone, brown leather and taupe linen, aged bronze details, generous natural daylight balanced with soft 2700K concealed and task lighting. Rich warm material depth, realistic photographed texture, natural highlights and contact shadows; clearly readable shadows, never cave-dark or orange. Straight architectural verticals, believable compact-apartment proportions, 28–35mm interior photography without fisheye. All furniture is naturally integrated in the photograph. Landscape 3:2, request approximately 2048 x 1360 pixels or highest reasonable native landscape resolution. No people, text, brand marks, watermark, UI, measurements, collage, or diagram. Output exactly one finished image. These are coherent renovation concept photographs, not measured scans.",
+        "references": [
+          "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/7f100a7b8d25d795.png",
+          "/workspace/scratch/aa0f93406d63/v9-assets/dusk/living.png"
+        ],
+        "final_path": "/workspace/scratch/aa0f93406d63/v9-assets/dusk/bath.png",
+        "source_output": "/workspace/scratch/aa0f93406d63/generated_images/exec-0933900b-dcf5-4aa2-a057-7daac015a680.png",
+        "observations": "Small bathroom preserves shower left, floating walnut vanity rear, narrow frosted rear-right window and right-foreground toilet; no bathtub.",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 2633434,
+        "sha256": "dcb6fccd3090b91e9d865f52f036c98815ef5e2e95c7dc63bd9acc3c3f221fe9"
+      }
+    ],
+    "generation_date_utc": "2026-09-24",
+    "final_image_count": 8,
+    "quality_review": "All eight outputs visually inspected. No image regeneration was required.",
+    "plan_reference": {
+      "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+      "role": "read-only floorplan scale reference; inspected before generation, not used as raster generation input"
+    },
+    "size_limitation": "Built-in image generation returned 1536 x 1024 native output for every image, despite the higher-resolution request. Images are not upscaled."
+  },
+  "chinese": {
+    "version": "v9",
+    "scheme": "contemporary-chinese-red-brown",
+    "generated_utc": "2026-09-24T15:54:27.285552+00:00",
+    "generator": "built-in image_gen.imagegen",
+    "generation_calls": 8,
+    "requested_asset_count": 8,
+    "asset_count": 8,
+    "requested_dimensions_approx": [
+      2048,
+      1360
+    ],
+    "native_dimensions": [
+      1536,
+      1024
+    ],
+    "resampled": false,
+    "notes": "Concept photographs adapted to the 75.1sqm apartment; not measurement-verified construction documentation. No Site tools or Site checkout modifications performed by this asset task. All eight outputs generated separately with local inspected references.",
+    "assets": [
+      {
+        "asset": "living",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-04a6d8fa-8ea7-4df3-844b-d29fbda9dc08.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2538900,
+        "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: finished landscape architectural concept photograph for a contemporary Chinese 75.1 square metre apartment, native high resolution approximately 2048x1360, 3:2 landscape.\nImage roles: Image 1 is the exact camera, architectural envelope and spatial composition reference; keep its room walls, door positions and long sight line into the small rear dining area. Image 2 is the 75.1sqm floor plan for scale only. Images 3 and 4 show the intended Chinese materials, finishes and joinery style only, not their bigger 113sqm dimensions or their phone interface. Image 5 shows the focused carved geometric timber dining screen.\nPrimary request: translate this faithful, bright contemporary Chinese reference style into the SMALL existing apartment. Living plus dining is only 21.4sqm total. Camera in the living area looking toward dining, with TV low cabinet at left foreground, the same framed opening at left midground as image 1, compact dining at the rear, and living sofa along the right wall. Keep the architecture and camera of image 1 but completely replace its gloomy full-wall dark walnut treatment with bright warm-white walls and white ceiling. Fine reddish-brown teak/rosewood-looking joinery for portal frames, skirting and discreet furniture frames. Do not wrap walls in timber.\nLiving furniture: a restrained modern Chinese dark reddish-brown timber-frame 3-seat sofa along the right wall with comfortable warm taupe linen cushions; slim rectangular red-brown timber tea table in front, small ivory/taupe fine-weave rug beneath. Airy realistic circulation, cozy and actually furnished, no bulky loungers. On left: black TV above a long low red-brown dark-wood cabinet, with tall delicate open display shelves flanking the TV zone, simple ceramics and books. Right wall over the sofa: one long horizontal monochrome ink landscape in a fine red-brown frame. At rear dining use a compact rectangular wood table with 4 slim timber chairs and taupe upholstered seats. One focused geometric carved lattice panel in rich red-brown wood beside dining; adjacent white plaster remains visible, not an all-over screen.\nFinishes: white flat ceiling with a restrained shallow perimeter detail and a very fine black inset line, small flush downlights; elegant compact round opal glass ceiling light with dark metal trim. Large ivory stone tiles, subtly veined, glossy-but-controlled with realistic soft reflections, one slim warm wood-tone border at edge. Grey linen curtains visible at near balcony side, daylight entering from behind camera. References' rich red-brown wood color is essential, neither grey walnut nor blond oak.\nStyle/medium: impeccable believable architectural interior photograph, natural material grain, controlled highlights, real fabric weave, crisp furniture edges, straight verticals, 26–30mm architectural lens at eye height, no exaggerated wide-angle, no giant room, daylight plus subtle warm interior lights, balanced bright white exposure. All design materials and furniture are physically integrated, not overlays.\nConstraints: output one single clean landscape room photo, no people, no UI, no phone screenshot edges, no watermark, no logos, no text, no labels, no split screen, no collage, no circular navigation marks. Preserve small apartment scale, no dark walnut-clad walls, no generic Japandi, no tatami, no cathedral or luxury villa proportions, no washing machines.",
+        "references": [
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/edition-assets/edition-dark.jpg",
+            "sha256": "f070829671399a3b8688de139f61cafecfac66d9a04b9d0d7bff4d92e2acbdd6",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/19f0da4689703e0ad205e867a194c4d7.jpg",
+            "sha256": "5b750f18b1306a56acb51d27335c5b611194daf81398eccdf7c6ae4ea82094c8",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/b2e497a082a25b21f097639abcd6a957.jpg",
+            "sha256": "ccce835e7735173aec889304d3078357d0aca7ac0c1b4452a5e2068bc1690aa6",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/16252534888d96b97a78d144c8976afa.jpg",
+            "sha256": "18de88f58f944b777c55248b75b33d2d808f86d2d1244015c9fcaad4fedc91b6",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "dining",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/dining.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-be0de5d1-332d-43e7-8bfe-3d3b2738c955.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2108389,
+        "sha256": "02d0bca0dec56a00b2a3dcbf2d14023fdc6403eee1b5def5bb2e41f6bd4438d9",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is the approved new living/dining concept and is authoritative for colors, all furnishings, the compact rear dining wall, entry door and portal arrangement. Images 2–3 are style references ONLY for carved lattice craftsmanship and red-brown joinery; discard screenshot UI and their bigger dimensions. Image 4 is the existing small apartment floor plan for scale.\nPrimary request: photograph the DINING END of the very same room as image 1 from a closer, modest angle. Living plus dining together is 21.4sqm, so this dining zone occupies only about 5sqm. Preserve the arrangement visible at the back of image 1: a narrow carved red-brown geometric lattice panel vertically mounted to left of the compact table, open white wall above table, entry door on right, a shallow red-brown sideboard to the table's right, red-brown framed glass kitchen opening at far left edge. White shallow tray ceiling with one fine dark perimeter line.\nShow the full small 120x75cm rectangular red-brown wood table with four slim matching contemporary Chinese timber chairs, taupe linen seat pads, chairs tucked in enough for circulation. Two chairs may be seen from back and two subtly behind the table. A single small opal glass pendant with dark bronze cap and slender cable above table. One short twig arrangement in a small dark ceramic vase and a simple ceramic tea bowl, no oversized styling objects. Ivory glossy-but-controlled stone floor with slim wood-tone perimeter border. The red-brown pierced lattice is detailed interlocking angular geometric carving, one focused panel, not a whole palace wall. Match the exact new living furniture wood color. Show enough doorway and floor to communicate a compact connected apartment, not an isolated showroom.",
+        "references": [
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/16252534888d96b97a78d144c8976afa.jpg",
+            "sha256": "18de88f58f944b777c55248b75b33d2d808f86d2d1244015c9fcaad4fedc91b6",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/63aa7d602361395cc2d1d5885007bcf0.jpg",
+            "sha256": "8dc90a6fb057bde38596cd687e06b7245914f0246a5b8bb78d3d05cd00968874",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "balcony",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/balcony.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-6e704c29-55b5-4382-98d3-2944127c8399.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2701051,
+        "sha256": "1b6632de5bbbae66cb5f738e6e99615cf65a4b55301fc4a29ed3fed64e2cbabf",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is STYLE reference for warm red-brown timber balcony lining and timber-framed glazing; discard screenshot UI and ultra-wide distortion. Image 2 establishes our new living design, wood color, white interior and taupe sofa. Image 3 establishes the actual 5.0sqm balcony A extending from the living room.\nPrimary request: a clean professional landscape photograph of the compact 5.0sqm enclosed leisure BALCONY A in the same apartment. Long and narrow with about 3.2m length and 1.5m depth, preserve structural wall returns and a clearly framed architectural opening to living. Camera at one short end looking gently along the balcony. Large safety-glazed exterior windows on the left and short far end, slim dark metal functional window frames softened by reddish-brown timber interior trim. A compact residential high-rise neighborhood beyond. Long right wall has the original glazed red-brown timber door/opening into the living, and visible white living walls and taupe timber sofa through it. Grey linen curtains belong inside living beside that opening.\nThe balcony's ceiling and short solid wall are carefully lined in reddish-brown timber planks similar to the user's reference, and narrow warm red-brown deck boards run along floor. Finely detailed wood, soft satin sheen, elegant but ordinary apartment build. A slender built-in or freestanding 100cm timber bench at the end with one taupe linen cushion, one small rectangular tea stool, and one modest potted green plant beside the window. Leave walking path clear. Natural afternoon daylight; bright and calm, no orange overexposure. No washing machine, no dryer, no utility cabinet, no huge outdoor terrace, no folding away structural opening, no replacing balcony with an enlarged living room.",
+        "references": [
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/b34e0569cb40f2e6da4da56988168cbf.jpg",
+            "sha256": "ec23a9953313fc874c1e58e98365fb6aea151a7204d41274ce5e598756d3d2b3",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "kitchen",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/kitchen.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-eb3d448f-1dff-444f-87fb-7a0f165ccf01.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2118626,
+        "sha256": "35c7fda302e4b7fe66a165fdd6bf7cf9518194153725062b5c5a943d2d455f22",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 shows intended ivory kitchen style and U-shaped practical fittings, but not UI, wide angle or larger dimensions. Image 2 gives our matching apartment red-brown doorway and general palette. Image 3 gives the existing independent 6.6sqm kitchen and separate utility balcony to its side.\nPrimary request: a full compact INDEPENDENT KITCHEN photograph viewed from its doorway, not open plan. About 2.3 by 2.85m, a small practical U-shaped cabinet layout with a narrow but credible working aisle. Lower and upper cabinets in warm ivory enamel with clean rectangular fronts and discreet recessed handles; worktop in lightly flecked off-white stone; warm ivory ceramic wall tile with very subtle veining. Sink and chrome tap under the side window on the right, a black gas hob and compact black hood on the left, short preparation counter at back and integrated dark oven beneath. Standard narrow refrigerator tucked at near doorway edge if visible, not a second appliance wall. Keep clutter minimal but credible: timber chopping board, white electric kettle and one ceramic utensil pot.\nRed-brown timber portal/door trim visible along near edge connects kitchen to this contemporary Chinese apartment; cabinetry stays mainly ivory as the actual reference. Small ivory floor tiles with a slim dark warm-brown perimeter border. Simple white flat wipe-clean ceiling with a flush square light, no elaborate ceiling. Daylight from functional black-framed window, balanced practical lights, realistic installed appliances without branding. Show closed room proportions and walls, not an enormous kitchen. No island, no peninsula into living, no washing machine, no dryer, no dining table, no all-walnut cabinetry.",
+        "references": [
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/6c6f9c0241d2b00956ed1f2772457af6.jpg",
+            "sha256": "8b3d6dfe0a4f656f9866a5257f46f1472d4aef0a7fb702d6871dcc2642b2bb2d",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "utility",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/utility.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-45dd5593-87de-4172-8f1e-0a97ff370666.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2039819,
+        "sha256": "705fab700faffb86eeee3ffd5098b0b1312b8f1c744451272685b01843d35458",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is only the practical washer/dryer fitted cabinet reference, not an extreme close-up to copy and not its walnut color. Image 2 supplies new apartment red-brown joinery and ivory palette. Image 3 shows the separate small 2.5sqm utility balcony B immediately beside kitchen.\nPrimary request: a clean compact UTILITY / LAUNDRY BALCONY photograph, viewed from the kitchen doorway. Only 2.5sqm, about 1.2 by 2.1m, practical narrow enclosed service space, no grand room. Compose wide landscape to show the whole fitted unit and part of adjacent window, ceiling and floor; do not crop away the appliances' tops or base.\nOne pair of stacked front-loading washer and dryer, brushed pale grey/silver with black round doors, installed into a fitted full-height cabinet on the right/far end. The cabinet's fine face frames and side panels are the SAME rich red-brown teak/rosewood-looking timber as the living; upper and narrow side storage doors in warm ivory. On one side a 20cm wide closed broom cupboard, and one small cubby with neatly folded grey towels. The machine stack is secure and realistic. Window occupies the left wall, dark slender frame, frosted lower panel and soft daylight; view of nearby apartment blocks in clear upper panes. Floor in non-slip warm ivory tile, white ceiling with a small flush light and a slender practical ceiling drying rail, clean drain detail. No loose visible plumbing, no implausible floating machines, no brand text. These are the ONLY washing machines in the apartment concept. A functional small service balcony with restrained coordinated details, not a decorative living lounge.",
+        "references": [
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/assets/east/utility-hd.jpg",
+            "sha256": "594a2e1c4ec3f8b4299bd9736ab80d13fc80f824b4c486f44eb5dc38dc014c49",
+            "dimensions": [
+              1586,
+              992
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "master",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/master.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-ca0cee4c-d324-4576-80a1-c9ae5fd2cb8c.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2469348,
+        "sha256": "1ebf5f5429ce2482fe4378a7121d8afd44255575ed684fb5737e18a0416acbb1",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is the ACTUAL bedroom architecture and should control camera, window arrangement, wall geometry and bed position. Ignore its old furniture and screenshot watermark. Image 2 is STYLE ONLY: tufted beige headboard, reddish timber framing, warm wood flooring and grey curtains, not that reference home's larger scale or balcony doors. Image 3 is our new coherent living palette. Image 4 is the actual plan, master A 13.5sqm.\nPrimary request: MASTER BEDROOM, only 13.5sqm. Keep the physical layout of image 1: camera from doorway at foot of bed, bed headboard against the right rear wall, a recessed corner/bay window at back left, and a tall window on far right wall; retain these original windows, do not invent balcony doors. The room remains bright white and clearly small with real bedside walking clearance. A 1.5m double bed with a restrained red-brown timber frame and rectangular warm beige linen button-tufted headboard inspired by image 2. Fresh ivory linen bedding with a warm taupe throw and two simple pillows, not a bare mattress.\nHeadboard wall has a large very subtle warm ivory textile-textured inset with a thin red-brown frame, no elaborate pattern and no heavy full-wall wood cladding. Two compact dark red-brown bedside tables, one understated warm lamp or slender rectangular pendant beside bed. Grey linen curtains and sheer white curtains frame the existing windows. Warm reddish honey-brown straight timber floor planks and fine red-brown skirting. White ceiling, one fine black perimeter line and one modest opal fixture. A tiny pale stone bay sill and one cushion at rear left. If left wall shows, a compact low dark red-brown cabinet, no giant TV focal wall. Calm everyday Chinese home, not a hotel suite, no balcony extension, no extravagant chandelier, no oversized headboard wall, no washing machine.",
+        "references": [
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/ab5f3827b79b4d4d.png",
+            "sha256": "ab5f3827b79b4d4d38d3752c9e31af6431b09ff4b952ccc69d502e61c7cb71f4",
+            "dimensions": [
+              618,
+              672
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/3695dddd270e4f0f568d57cb321b6416.jpg",
+            "sha256": "edcb506d2ae85f91bc7a0fc3f283af8e80295c2f4c935a6c58f8a35568fab359",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "second",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/second.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-4cd4d332-4f28-4ad8-9793-aae9241ce5c5.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2255186,
+        "sha256": "52b2ccb35cd54daf439c1bd7116bf38bdc020e6daf6f9fc3a71eb7aaabdf1548",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is intended reference style for simple warm timber bed, red-brown fitted wardrobe, white walls and timber floor; ignore UI and reference size. Image 2 is our new living palette, definitive reddish timber tone. Image 3 gives the tiny actual 7.2sqm second bedroom B with an exterior window, not a large master suite.\nPrimary request: SECOND BEDROOM, a realistically small 7.2sqm room, about 2.6 by 2.8m, photographed from its doorway as one landscape image. Fit a simple 1.2m-wide wood bed along one side with a straight understated red-brown timber headboard with a single horizontal open slot, frame inspired by image 1. Ivory bedding, one taupe cushion and a lightly folded grey throw. One compact bedside shelf with small opal Chinese-inspired wall sconce. Opposite/along the side wall a full-height warm reddish-brown fine wood wardrobe of only two main sliding doors and small overhead cabinet band, shallow flat rectangular panel design, no overdecorated carving. Ensure realistic room proportions and usable door access; bed and wardrobe nearly fill the small room with just a sensible narrow passage.\nOne normal exterior window at far wall/right with pale grey linen curtain and white sheer, ordinary residential buildings visible softly. Warm timber plank floor like the reference. Bright white ceiling and walls with very fine restrained black perimeter line; one small flush ceiling light. Thin timber door frame visible at camera edge. A modest restful and useful small spare bedroom in the same contemporary Chinese home. No massive suite, no enormous workspace, no extra bed, no bunk bed, no tatami platform, no glossy dark wall wrap, no laundry equipment.",
+        "references": [
+          {
+            "path": "/workspace/scratch/aa0f93406d63/upload/202d4a0851c751f2739176c366969a0c.jpg",
+            "sha256": "7f414368e89283d9c7b357c67c63f3adf36281906f6663c8a46116ab13aea89f",
+            "dimensions": [
+              945,
+              2048
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      },
+      {
+        "asset": "bath",
+        "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/bath.png",
+        "original_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-35cdb67e-ec82-4488-85b6-161dcdea4e43.png",
+        "format": "PNG",
+        "native_dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2374877,
+        "sha256": "36102eb4dc3f4ecebb9214d5d86d67b40e5ac6c30d8a082a5b77b95e1e02bf57",
+        "generation_mode": "built-in image_gen",
+        "transparent_background": false,
+        "prompt": "Use case: photorealistic-natural. Asset type: one finished architectural interior concept photograph. Generate a sharp landscape image, ideally 2048 pixels wide by 1360 high (3:2 composition). This is one coherent room in a REAL SMALL 75.1sqm Chinese city apartment. The original references show a bigger 113sqm house: use their materials and furniture DNA, NOT their larger scale.\nShared style: contemporary Chinese with fine reddish-brown teak/rosewood-looking timber joinery, warm white ceilings/walls, subtle black ceiling perimeter line, restrained dark metal details, controlled ivory stone where appropriate, grey linen curtains, warm taupe and ivory textiles. Wood color follows the supplied new living image: rich red-brown, fine natural grain, restrained satin finish. Keep bright daylight balanced with warm practical lighting and real tactile materials. All finishes and furniture must be physically integrated into the photograph.\nPhoto discipline: eye-level architectural camera, straight verticals, realistic 28mm lens without stretched edges, credible modest room size, excellent material detail, controlled glossy reflections and soft shadows. The image fills the whole landscape frame.\nAvoid: no people, no UI, no interface, no text, no lettering, no logo, no watermark, no floor-plan overlays, no phone screenshot borders, no circular navigation arrows, no collages, no 3D overlays, no split screens, no extreme wide angle, no palace ornament, no generic Japandi, no dark walnut walls, no bleached oak palette, no huge luxury rooms.\nInput image roles: Image 1 is the ACTUAL compact 4.3sqm bathroom and strictly controls camera, locations, walls and fixtures. Ignore old cabinet colors, watermark and phone interface. Image 2 gives the new apartment palette and rich red-brown joinery. Image 3 is the original bathroom plan.\nPrimary request: the small 4.3sqm BATHROOM, a full architectural photograph from doorway, as in image 1 but level straight verticals and modest landscape field of view. Keep enclosed glass SHOWER on the left, compact vanity straight ahead along back wall with a tall narrow frosted window at its upper right, and white toilet in near right foreground. Preserve this bathroom geometry. No bathtub.\nUse warm ivory porcelain stone-look tile on walls and floor with small realistic grout lines and satin surface, not slippery mirrored flooring. Compact wall-hung vanity with two drawers and one door in fine red-brown water-resistant timber veneer matching the living's rosewood/teak tone; off-white stone countertop with simple inset rectangular white basin and compact chrome tap. Mirror is a simple horizontal rectangle with a thin dark red-brown frame and soft concealed warm illumination, subtle not neon. Clear shower enclosure with slim brushed metal frame, chrome overhead and handheld shower and a small recessed shelf. White flat ceiling with a modest recessed light and ventilation grille. One folded grey towel and one unlabelled ceramic soap dispenser, no giant plant. Bright soft natural light from original frosted window, realistic compact scale, clean high-detail installed finishes. No laundry machine, no dryer, no bathtub, no hotel double vanity, no giant wet room, no wood inside shower, no fixtures moved to another wall.",
+        "references": [
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/7f100a7b8d25d795.png",
+            "sha256": "7f100a7b8d25d7950dcfe09e6d5fdc0b0fa2651a1f0729ccf5dedddea1a7ac44",
+            "dimensions": [
+              606,
+              597
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/scratch/aa0f93406d63/v9-assets/chinese/living.png",
+            "sha256": "6e6870501f5b95c3f5f7caaf90d324b5ae421062dd43f036ce921dc66e648ad9",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "inspected_before_generation": true
+          },
+          {
+            "path": "/workspace/sites/tingjian-studio/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+            "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+            "dimensions": [
+              543,
+              336
+            ],
+            "inspected_before_generation": true
+          }
+        ],
+        "visual_qa": "Reviewed generated image: clean landscape concept, room identity and requested style present, no phone UI/watermark/navigation overlays; compact apartment concept scale."
+      }
+    ]
+  }
+}

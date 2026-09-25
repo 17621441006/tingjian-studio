@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';import * as THREE from 'three';
+import {HOMES,ROOMS} from '../src/legacy/home-designs.mjs';import {assembleHome,resolveScene} from '../src/legacy/scene-options.mjs';import {buildDetailedHome} from '../src/legacy/whole-model-detailed.mjs';import {disposeWholeGeometry} from '../src/legacy/whole-model-geometry.mjs';
+const stats=[],errors=[],warn=console.warn;console.warn=(...x)=>errors.push(x.join(' '));
+for(const design of Object.keys(HOMES)){
+ const frames=assembleHome(design,new Map()),model=buildDetailedHome({design,frames,signature:design});assert.equal(model.userData.rooms.size,8);assert.equal(model.userData.quality,'detailed');assert.equal(model.userData.detailFeatures.length,8);
+ let meshes=0,triangles=0;model.traverse(o=>{if(o.isMesh){meshes++;triangles+=(o.geometry.index?.count||o.geometry.attributes.position.count)/3;assert([...o.geometry.attributes.position.array].every(Number.isFinite));assert([...o.geometry.attributes.normal.array].every(Number.isFinite));}});
+ const bounds=new THREE.Box3().setFromObject(model);assert(bounds.min.x>-.2&&bounds.max.x<10.8);assert(bounds.min.z>-.2&&bounds.max.z<7.3);assert(bounds.max.y<2.7);assert(triangles<160000&&meshes<200);
+ for(const id of ['living-sofa','living-table','living-rug','master-bed','master-curtains','balcony-curtains','bath-wc','utility-laundry'])assert(model.userData.objects.has(id));
+ if(['copper','amber'].includes(design)){assert.equal(new Set(frames.map(f=>f.path)).size,8);for(const f of frames){assert((await fs.stat('dist'+f.path)).size>20000);assert((await fs.stat('dist'+f.thumb)).size>1000);}assert.equal(model.userData.objects.get('utility-window').userData.clear,false);}
+ stats.push({design,meshes,triangles});disposeWholeGeometry(model);
+}
+for(const [sofa,floor,bed,bedding] of [['wine','oak','wood','olive'],['mink','smoked','leather','ivory']]){const saved=new Map([['dusk:living',resolveScene({design:'dusk',room:'living',pieces:{sofa,floor,table:'glass'}})],['dusk:master',resolveScene({design:'dusk',room:'master',pieces:{bed,bedding,window:'clear'},window:'clear'})]]);const model=buildDetailedHome({design:'dusk',frames:assembleHome('dusk',saved)}),o=model.userData.objects;assert.equal(o.get('living-sofa').userData.choice,sofa);assert.equal(o.get('living-floor').userData.floor,floor);assert.equal(o.get('dining-floor').userData.floor,floor);assert.equal(o.get('master-bed').userData.choice,bed);assert.equal(o.get('master-bed').userData.bedding,bedding);assert(o.get('master-window').userData.clear);disposeWholeGeometry(model);}
+console.warn=warn;assert.deepEqual(errors,[]);
+const assets=JSON.parse(await fs.readFile('verification/v15/assets.json','utf8'));assert.equal(assets.length,16);assert(assets.every(x=>x.width>=1536&&x.height>=1024));
+const result={passed:true,method:'Actual Three.js geometry and material-state checks; UI tested separately; no browser/GPU frame-rate measurement',newSchemeRooms:assets.length,stats};await fs.writeFile('verification/v15/model-checks.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

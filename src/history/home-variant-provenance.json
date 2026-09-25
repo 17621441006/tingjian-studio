@@ -1,0 +1,737 @@
+{
+  "method": "Built-in image_gen, same-camera edits of existing design images",
+  "noUpscaling": true,
+  "outputs": [
+    {
+      "design": "dusk",
+      "variant": "blue",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/blue/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/living.png",
+      "sha256": "91c70e011699127b36e9e05aafcf7dfc16c565144015578407ebaca86fb21860",
+      "provenance": [
+        {
+          "filename": "prompts.json",
+          "data": {
+            "scheme": "雾蓝与燕麦",
+            "mode": "built-in image_gen",
+            "assets": [
+              {
+                "name": "living",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design comparison website photograph, scheme 雾蓝与燕麦.\nInput image 1 is the EDIT TARGET, an existing living/dining room. EDIT THIS EXACT PHOTO; maintain the identical camera, viewpoint, lens perspective, image framing and 3:2 landscape aspect ratio. Preserve all architecture and fixed geometry precisely: the dark walnut architectural wall paneling, TV on the far left and its cabinet, glass opening on the left, rear dining area with table/chairs and pendant, entry door and every opening, sideboard, art placements, ceiling recesses, beams and all ceiling lamps. Preserve room dimensions and furniture placement footprints; no redesign or enlargement.\nChange only these furnishings/materials within the original photo. Replace the sofa on the right, in its exact position and approximate footprint, with a sophisticated low smoky steel-blue velvet sofa: fully upholstered arms, tailored seat/back cushions, believable slight compression, tactile fine nap, no wooden arms. Use refined cream/oatmeal and muted smoky-blue accent cushions with natural cloth texture. Replace the coffee table in its same footprint with a pale warm limestone/travertine table, rounded low silhouette, softly eased stone edges and a slim recessed dark base; preserve tasteful existing objects on top. Replace the rug, preserving its floor perspective and location under sofa/table, with tightly hand-knotted oyster-grey to oatmeal wool/silk-look pile: subtle tonal gradient, densely fine surface, slight pile direction in the light, fine bound edges, refined low pile, natural shadows/contact under all furniture, no coarse jute, no braided loops, no knitted ropes. Change existing warm grey large-format floor to pale greige stone with real fine joints, subtle mineral variation and convincing reflections, visually distinct from walnut.\nStyle/medium: high-detail architectural photography of a fully furnished real home, a coherent single photograph, physically integrated furniture and material finishes. Photographic microtexture and realistic scale; rich walnut balanced against smoky blue and oatmeal. Neutral white balance with warm local lamps and soft natural illumination; eliminate the heavy overall orange cast while retaining localized warm light. Soft, physically grounded contact shadows, natural material reflections and fine fabric detail. Output one complete full-frame 3:2 image at high native detail, not an artificially upscaled image.\nConstraints: identical camera/framing/architecture/openings and fixed geometry to input. No extra objects or architectural additions. No composited furniture stickers, no 3D overlays, no CG toy appearance, no text, no UI, no logos, no watermark, no collage.",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/living.png",
+                "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-1e6a3e6b-cbce-46a7-ad22-a2809b57cdcb.png",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG"
+              },
+              {
+                "name": "master",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design comparison website photograph, scheme 雾蓝与燕麦.\nInput image 1 is the EDIT TARGET, an existing master bedroom. EDIT THIS EXACT PHOTO. Preserve the exact original camera, viewpoint, lens, framing and 3:2 landscape aspect ratio. Keep every wall, ceiling, corner, doorway, window, black window frame, glazing view and window-seat geometry exactly as in the source. Keep the left foreground wardrobe/door, left dresser and wall AC, the full corner window behind the bed, the separate right window, curtains, ceiling fixture, art and bedside lamps in their precise positions. Keep identical room dimensions, bed footprint/scale/position and bedside tables; no enlargement or re-layout.\nChange only materials and soft furnishings. Give the bed a refined blue-grey upholstered headboard with fine dense textile, tailored seams and slight natural softness, retaining its existing width and height and the fixed walnut architectural backing. Crisp ivory cotton/linen bedding with realistic weight and gently relaxed folds; a slate-blue woven throw draped across the existing foot-of-bed throw position; restrained warm tan accent pillow with fine tactile weave; otherwise pale ivory pillows. Refine curtains to soft oatmeal/greige while preserving their exact arrangement. Change the floor to medium neutral smoked-oak planks, natural wood grain and real seams, no orange stain. Replace the coarse rug with a dense, fine pale oyster-grey/oatmeal low-pile wool rug in the same size, placement and floor perspective, fine bound edges, subtle pile direction and believable contact shadows under the bed, not jute or chunky weave. Keep walnut cabinetry, bed frame and bedside joinery natural and grounded.\nStyle/medium: high-detail realistic architectural interior photography, a single coherent photo with material changes physically integrated. A sophisticated calm room visibly differentiated from its original brown palette. Neutral white balance, natural cooler window daylight and restrained localized warmth at bedside/ceiling lights; no heavy orange cast. Visible microtexture, believable textiles and folds, soft contact shadows, physically plausible reflections. Output one full-frame 3:2 landscape image with high native detail, no artificial upscaling.\nConstraints: preserve original camera, exact composition, architecture, all window/opening positions and all fixed geometry; change furnishings/materials only. No new objects, no floating or pasted furniture, no 3D overlays, no CG toy look, no text/UI/logos/watermark, no collage.",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/master.png",
+                "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-fc5f0a32-01e5-4649-8b40-79f37d0a1ac2.png",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG"
+              },
+              {
+                "name": "bath",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design comparison website photograph, scheme 雾蓝与燕麦.\nInput image 1 is the EDIT TARGET, an existing compact bathroom. EDIT THIS EXACT PHOTO, maintaining the identical camera, viewpoint, lens perspective, framing and 3:2 landscape aspect ratio. Preserve every room dimension and all fixed geometry exactly. The glass shower stays on the left with identical glass partitions, glass-door angle, handles, shower fixtures, floor drain and shower footprint; the floating vanity and mirror stay along the back wall at their exact widths/heights/positions; the toilet remains at the lower right, partly cropped as now; the narrow black-framed window remains immediately right of the mirror at exactly its current location and size. Preserve all openings, reflection geometry including the doorway seen in the mirror, wall/ceiling boundaries and tile-joint layout. No room enlargement or rearrangement.\nChange materials and colors only. Replace brown/greige stone wall finishes with soft off-white stone: subtle pale mineral variation, fine authentic seams, realistic restrained texture and no busy bold veining. Change the floor and shower floor to darker graphite-grey matte stone with real joints, subtle variation, natural texture, believable drainage and reflections without glossy black effect. Refinish the existing vanity cabinet fronts smoky blue-grey matte lacquer, keeping EXACTLY their current panel/drawer configuration and floating shape; use a pale stone countertop in its exact current thickness and basin position. Use subtle brushed warm metal on the existing fixtures, preserving shapes and positions; refined oatmeal towels. Cooler natural daylight from the existing window balanced with restrained warm mirror backlighting and gentle warm light below the vanity; neutral white balance and no heavy orange overall cast.\nStyle/medium: high-detail architectural interior photography of a real compact bathroom, all surfaces and fittings physically integrated in one photograph. Sophisticated calm blue-grey/off-white/graphite palette distinctly different from the original brown finish. Photographic microtexture, physically grounded soft contact shadows and correct glass/mirror reflections. Output one full-frame 3:2 landscape image at high native detail, no artificial upscaling.\nConstraints: exact same camera, framing, left shower/back vanity/right toilet/window placement, architecture, openings and fixed geometry; materials only. No extra furniture or fittings, no floating pasted surfaces, no 3D overlays, no enlarged room, no CG toy look, no text/UI/logos/watermark, no collage.",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/bath.png",
+                "generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-34a17ca0-2164-4d0f-82d2-d514ca750921.png",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG"
+              }
+            ],
+            "created_at": "2026-09-24",
+            "failures": []
+          }
+        }
+      ]
+    },
+    {
+      "design": "dusk",
+      "variant": "blue",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/blue/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/master.png",
+      "sha256": "54e4afb165f15e15c462430c2e3dd3c5e5a691d523527306dbf476a773b44baf",
+      "provenance": null
+    },
+    {
+      "design": "dusk",
+      "variant": "blue",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/blue/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-blue/bath.png",
+      "sha256": "98e33f63aedd200c1213a0316baa225b0aa34b11dd73eb6b0e1b464b7c16d9cb",
+      "provenance": null
+    },
+    {
+      "design": "dusk",
+      "variant": "moss",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/moss/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/living.png",
+      "sha256": "4e31fd46b64ea522629b050f847d9195f56d349de469eb6c2f039873fadc2c19",
+      "provenance": [
+        {
+          "filename": "prompts.json",
+          "data": {
+            "scheme": "苔绿与奶油石",
+            "mode": "built-in image_gen",
+            "use_case": "precise-object-edit",
+            "jobs": [
+              {
+                "name": "living",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep the loved dark walnut architecture and give the living room rich, premium material and color contrast.\nChange only these furnishings/materials:\n1. Replace the existing brown sofa on the right with a refined deep moss/olive-green supple leather low sofa. Keep the exact existing position, overall footprint and orientation, with the same number of seats and generous comfortable proportions. Fine leather pores, elegant stitched cushions, gentle natural creasing and compressed cushions; luxurious residential leather, not plastic.\n2. Replace the brown coffee table with a softly rounded monolithic creamy pale honed stone coffee table, same central placement and approximate footprint. Use an elegant rounded oblong silhouette with a slim refined outline, gently curved corners and pale natural stone grain; avoid a bulky square block. Preserve the existing tabletop vase, bowl and books in sensible contact on the new table.\n3. Replace the entire coarse brown rug with a premium dense short-pile hand-knotted wool rug in ivory through greige, with a subtle moss/grey tonal gradient concentrated at its perimeter. Preserve its placement and perspective beneath sofa and table. Fine wool pile, thin tailored edge, physically real soft edge shadows and furniture contact shadows. It must read as an actual fine wool carpet resting on the floor, never a pasted texture. Absolutely no jute, sisal, rope, braided lines, coarse loops or fringed rope borders.\n4. Change all visible flooring throughout the entire room to continuous neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Correctly continuous perspective, grain, joints and plank scale through the lounge, dining area and left opening, including beneath furniture. Keep the floor planar and realistic.\nInvariants: preserve all dark walnut wall paneling, doors, openings, left TV and TV cabinet, dining table and chairs, shelving, artwork, plants, ceiling shape, ceiling light, every lamp, switches, and all their exact locations. No added or removed architecture. Do not move camera or furniture layout. Retain all portions of the original framing.\nLighting and finish: premium architectural interior photography, neutral daylight with the existing warm local lighting, realistic exposure and white balance, bounce light and soft contact shadows. Keep dark walnut rich, with the green sofa and pale stone table distinctly legible. Natural high-frequency leather pores, subtle honed stone grain, fine wool pile and oak grain. No toy rendering, no CGI gloss, no text, no UI, no logos or watermarks."
+              },
+              {
+                "name": "master",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bedroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: change only upholstery, bedding and floor/rug materials for a premium moss green and cream scheme.\nReplace the existing brown padded headboard panels with soft cream fabric upholstery, preserving their exact shape, dimensions, panel divisions and location within the existing walnut headboard surround. Keep the bed itself, all timber parts, its location, height and proportions exactly.\nDress the bed in natural ivory cotton bedding with realistic relaxed wrinkles. Replace the brown throw across the foot with a rich moss-green plush wool throw, soft fine fibers and believable weight and folds following the existing drape. Use ivory sleeping pillows and one small tobacco-colored accent pillow, no extra pillows.\nChange all visible floor areas to neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Keep correct perspective and continuous plank scale and joints under the bed and cabinetry.\nReplace the coarse brown rug with a refined ivory dense short-pile wool rug, preserving its exact existing placement, extent and perspective. Fine wool pile, a thin tailored edge and physical shadows; no jute, sisal, braided ropes or coarse loops.\nInvariants: keep architecture, exact ceiling and ceiling lamp, all walls and wall art, doors and door handles, air conditioner, cabinet, bedside tables and lamps, walnut bed surround, bed position, all windows and the corner-window geometry, curtains, window seats, plants and exterior city views exactly. Do not change any layout, camera or crop.\nLighting and finish: photographic realism and premium architectural interior photography. Neutral daylight through the existing windows with the existing gentle warm local lights, balanced white balance and realistic bounce light. Cream upholstery weave, ivory cotton, moss plush wool and smoked-oak texture remain distinct. Realistic contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks."
+              },
+              {
+                "name": "bath",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bathroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep every fixture and architectural location exactly, changing only these surface materials and towel colors:\n1. Replace the current brown-grey stone wall surfaces with warm-white matte large-format stone, subtle refined natural grain and quiet veining, with existing tile panel divisions and joints retained. Apply consistently to visible walls including inside the shower and visible reflected wall surfaces.\n2. Replace the visible floor including shower floor with soft charcoal-grey matte stone, subtle mineral character and realistic restrained texture. Keep all slopes, grout lines, drain placement and exact geometry.\n3. Keep the floating wood vanity's exact dimensions, door/drawer divisions, position and wood structural shell/trim. Give its cabinet and drawer front faces a refined muted olive-green matte finish with subtle material realism. Keep visible walnut casing and edge trims, creating a premium wood-and-olive vanity.\n4. Make the counter an ivory honed stone, preserving its exact thickness, profile, dimensions, basin opening and sink location.\n5. Change the existing right-hand hanging towel and the folded towel on the counter to softly textured sage-green towels, preserving their positions and drapes.\n6. Keep all existing hardware and faucets in restrained softly brushed brass, low gloss and realistic.\nInvariants: preserve exact positions, shapes and proportions of shower glass, shower fittings, hinges, grab rail, faucet, basin, floating vanity, mirror, mirror light, black-framed window, window shelf, plant, wall switches, towel rail, toilet roll holder, toilet and floor drain. Preserve mirror reflection composition, door and reflected adjacent room, all door/window/ceiling geometry, framing and camera. No added objects or fixtures.\nLighting and finish: premium architectural photography, balanced neutral daylight from the same window with warm local mirror and under-vanity light retained. Natural matte stone grain, paint texture, wood grain, sage towel loops, realistic glass and brass reflections, nuanced bounce light and contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks."
+              }
+            ]
+          }
+        },
+        {
+          "filename": "provenance.json",
+          "data": {
+            "scheme": "苔绿与奶油石",
+            "mode": "built-in image_gen",
+            "use_case": "precise-object-edit",
+            "imagegen_calls": 3,
+            "assets": [
+              {
+                "name": "living",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep the loved dark walnut architecture and give the living room rich, premium material and color contrast.\nChange only these furnishings/materials:\n1. Replace the existing brown sofa on the right with a refined deep moss/olive-green supple leather low sofa. Keep the exact existing position, overall footprint and orientation, with the same number of seats and generous comfortable proportions. Fine leather pores, elegant stitched cushions, gentle natural creasing and compressed cushions; luxurious residential leather, not plastic.\n2. Replace the brown coffee table with a softly rounded monolithic creamy pale honed stone coffee table, same central placement and approximate footprint. Use an elegant rounded oblong silhouette with a slim refined outline, gently curved corners and pale natural stone grain; avoid a bulky square block. Preserve the existing tabletop vase, bowl and books in sensible contact on the new table.\n3. Replace the entire coarse brown rug with a premium dense short-pile hand-knotted wool rug in ivory through greige, with a subtle moss/grey tonal gradient concentrated at its perimeter. Preserve its placement and perspective beneath sofa and table. Fine wool pile, thin tailored edge, physically real soft edge shadows and furniture contact shadows. It must read as an actual fine wool carpet resting on the floor, never a pasted texture. Absolutely no jute, sisal, rope, braided lines, coarse loops or fringed rope borders.\n4. Change all visible flooring throughout the entire room to continuous neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Correctly continuous perspective, grain, joints and plank scale through the lounge, dining area and left opening, including beneath furniture. Keep the floor planar and realistic.\nInvariants: preserve all dark walnut wall paneling, doors, openings, left TV and TV cabinet, dining table and chairs, shelving, artwork, plants, ceiling shape, ceiling light, every lamp, switches, and all their exact locations. No added or removed architecture. Do not move camera or furniture layout. Retain all portions of the original framing.\nLighting and finish: premium architectural interior photography, neutral daylight with the existing warm local lighting, realistic exposure and white balance, bounce light and soft contact shadows. Keep dark walnut rich, with the green sofa and pale stone table distinctly legible. Natural high-frequency leather pores, subtle honed stone grain, fine wool pile and oak grain. No toy rendering, no CGI gloss, no text, no UI, no logos or watermarks.",
+                "tool": "image_gen.imagegen",
+                "tool_arguments": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep the loved dark walnut architecture and give the living room rich, premium material and color contrast.\nChange only these furnishings/materials:\n1. Replace the existing brown sofa on the right with a refined deep moss/olive-green supple leather low sofa. Keep the exact existing position, overall footprint and orientation, with the same number of seats and generous comfortable proportions. Fine leather pores, elegant stitched cushions, gentle natural creasing and compressed cushions; luxurious residential leather, not plastic.\n2. Replace the brown coffee table with a softly rounded monolithic creamy pale honed stone coffee table, same central placement and approximate footprint. Use an elegant rounded oblong silhouette with a slim refined outline, gently curved corners and pale natural stone grain; avoid a bulky square block. Preserve the existing tabletop vase, bowl and books in sensible contact on the new table.\n3. Replace the entire coarse brown rug with a premium dense short-pile hand-knotted wool rug in ivory through greige, with a subtle moss/grey tonal gradient concentrated at its perimeter. Preserve its placement and perspective beneath sofa and table. Fine wool pile, thin tailored edge, physically real soft edge shadows and furniture contact shadows. It must read as an actual fine wool carpet resting on the floor, never a pasted texture. Absolutely no jute, sisal, rope, braided lines, coarse loops or fringed rope borders.\n4. Change all visible flooring throughout the entire room to continuous neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Correctly continuous perspective, grain, joints and plank scale through the lounge, dining area and left opening, including beneath furniture. Keep the floor planar and realistic.\nInvariants: preserve all dark walnut wall paneling, doors, openings, left TV and TV cabinet, dining table and chairs, shelving, artwork, plants, ceiling shape, ceiling light, every lamp, switches, and all their exact locations. No added or removed architecture. Do not move camera or furniture layout. Retain all portions of the original framing.\nLighting and finish: premium architectural interior photography, neutral daylight with the existing warm local lighting, realistic exposure and white balance, bounce light and soft contact shadows. Keep dark walnut rich, with the green sofa and pale stone table distinctly legible. Natural high-frequency leather pores, subtle honed stone grain, fine wool pile and oak grain. No toy rendering, no CGI gloss, no text, no UI, no logos or watermarks.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "generated_original_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-913f4eee-42ec-4efd-94b4-371ed24f57b8.png",
+                "final_path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/living.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "mode": "RGB",
+                "format": "PNG",
+                "sha256": "4e31fd46b64ea522629b050f847d9195f56d349de469eb6c2f039873fadc2c19",
+                "artificial_upscale": false,
+                "postprocessing": "None. Original generated PNG copied byte-for-byte.",
+                "status": "success"
+              },
+              {
+                "name": "master",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bedroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: change only upholstery, bedding and floor/rug materials for a premium moss green and cream scheme.\nReplace the existing brown padded headboard panels with soft cream fabric upholstery, preserving their exact shape, dimensions, panel divisions and location within the existing walnut headboard surround. Keep the bed itself, all timber parts, its location, height and proportions exactly.\nDress the bed in natural ivory cotton bedding with realistic relaxed wrinkles. Replace the brown throw across the foot with a rich moss-green plush wool throw, soft fine fibers and believable weight and folds following the existing drape. Use ivory sleeping pillows and one small tobacco-colored accent pillow, no extra pillows.\nChange all visible floor areas to neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Keep correct perspective and continuous plank scale and joints under the bed and cabinetry.\nReplace the coarse brown rug with a refined ivory dense short-pile wool rug, preserving its exact existing placement, extent and perspective. Fine wool pile, a thin tailored edge and physical shadows; no jute, sisal, braided ropes or coarse loops.\nInvariants: keep architecture, exact ceiling and ceiling lamp, all walls and wall art, doors and door handles, air conditioner, cabinet, bedside tables and lamps, walnut bed surround, bed position, all windows and the corner-window geometry, curtains, window seats, plants and exterior city views exactly. Do not change any layout, camera or crop.\nLighting and finish: photographic realism and premium architectural interior photography. Neutral daylight through the existing windows with the existing gentle warm local lights, balanced white balance and realistic bounce light. Cream upholstery weave, ivory cotton, moss plush wool and smoked-oak texture remain distinct. Realistic contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks.",
+                "tool": "image_gen.imagegen",
+                "tool_arguments": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bedroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: change only upholstery, bedding and floor/rug materials for a premium moss green and cream scheme.\nReplace the existing brown padded headboard panels with soft cream fabric upholstery, preserving their exact shape, dimensions, panel divisions and location within the existing walnut headboard surround. Keep the bed itself, all timber parts, its location, height and proportions exactly.\nDress the bed in natural ivory cotton bedding with realistic relaxed wrinkles. Replace the brown throw across the foot with a rich moss-green plush wool throw, soft fine fibers and believable weight and folds following the existing drape. Use ivory sleeping pillows and one small tobacco-colored accent pillow, no extra pillows.\nChange all visible floor areas to neutral mid-light smoked-oak wide planks, desaturated natural oak, never orange. Keep correct perspective and continuous plank scale and joints under the bed and cabinetry.\nReplace the coarse brown rug with a refined ivory dense short-pile wool rug, preserving its exact existing placement, extent and perspective. Fine wool pile, a thin tailored edge and physical shadows; no jute, sisal, braided ropes or coarse loops.\nInvariants: keep architecture, exact ceiling and ceiling lamp, all walls and wall art, doors and door handles, air conditioner, cabinet, bedside tables and lamps, walnut bed surround, bed position, all windows and the corner-window geometry, curtains, window seats, plants and exterior city views exactly. Do not change any layout, camera or crop.\nLighting and finish: photographic realism and premium architectural interior photography. Neutral daylight through the existing windows with the existing gentle warm local lights, balanced white balance and realistic bounce light. Cream upholstery weave, ivory cotton, moss plush wool and smoked-oak texture remain distinct. Realistic contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "generated_original_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-b4860828-40a5-4127-8087-cc95f2a67a53.png",
+                "final_path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/master.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "mode": "RGB",
+                "format": "PNG",
+                "sha256": "e5e355dfb96e54b33dbabf718281d14b2cf999a8e3a85b6c9c6405efc22cb2a6",
+                "artificial_upscale": false,
+                "postprocessing": "None. Original generated PNG copied byte-for-byte.",
+                "status": "success"
+              },
+              {
+                "name": "bath",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bathroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep every fixture and architectural location exactly, changing only these surface materials and towel colors:\n1. Replace the current brown-grey stone wall surfaces with warm-white matte large-format stone, subtle refined natural grain and quiet veining, with existing tile panel divisions and joints retained. Apply consistently to visible walls including inside the shower and visible reflected wall surfaces.\n2. Replace the visible floor including shower floor with soft charcoal-grey matte stone, subtle mineral character and realistic restrained texture. Keep all slopes, grout lines, drain placement and exact geometry.\n3. Keep the floating wood vanity's exact dimensions, door/drawer divisions, position and wood structural shell/trim. Give its cabinet and drawer front faces a refined muted olive-green matte finish with subtle material realism. Keep visible walnut casing and edge trims, creating a premium wood-and-olive vanity.\n4. Make the counter an ivory honed stone, preserving its exact thickness, profile, dimensions, basin opening and sink location.\n5. Change the existing right-hand hanging towel and the folded towel on the counter to softly textured sage-green towels, preserving their positions and drapes.\n6. Keep all existing hardware and faucets in restrained softly brushed brass, low gloss and realistic.\nInvariants: preserve exact positions, shapes and proportions of shower glass, shower fittings, hinges, grab rail, faucet, basin, floating vanity, mirror, mirror light, black-framed window, window shelf, plant, wall switches, towel rail, toilet roll holder, toilet and floor drain. Preserve mirror reflection composition, door and reflected adjacent room, all door/window/ceiling geometry, framing and camera. No added objects or fixtures.\nLighting and finish: premium architectural photography, balanced neutral daylight from the same window with warm local mirror and under-vanity light retained. Natural matte stone grain, paint texture, wood grain, sage towel loops, realistic glass and brass reflections, nuanced bounce light and contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks.",
+                "tool": "image_gen.imagegen",
+                "tool_arguments": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior material study, scheme 苔绿与奶油石 (moss green and cream stone).\nInput image 1 is the EDIT TARGET. Edit this exact bathroom photograph; retain its exact 3:2 frame, camera position, lens perspective, room geometry and all architectural lines.\nPrimary request: keep every fixture and architectural location exactly, changing only these surface materials and towel colors:\n1. Replace the current brown-grey stone wall surfaces with warm-white matte large-format stone, subtle refined natural grain and quiet veining, with existing tile panel divisions and joints retained. Apply consistently to visible walls including inside the shower and visible reflected wall surfaces.\n2. Replace the visible floor including shower floor with soft charcoal-grey matte stone, subtle mineral character and realistic restrained texture. Keep all slopes, grout lines, drain placement and exact geometry.\n3. Keep the floating wood vanity's exact dimensions, door/drawer divisions, position and wood structural shell/trim. Give its cabinet and drawer front faces a refined muted olive-green matte finish with subtle material realism. Keep visible walnut casing and edge trims, creating a premium wood-and-olive vanity.\n4. Make the counter an ivory honed stone, preserving its exact thickness, profile, dimensions, basin opening and sink location.\n5. Change the existing right-hand hanging towel and the folded towel on the counter to softly textured sage-green towels, preserving their positions and drapes.\n6. Keep all existing hardware and faucets in restrained softly brushed brass, low gloss and realistic.\nInvariants: preserve exact positions, shapes and proportions of shower glass, shower fittings, hinges, grab rail, faucet, basin, floating vanity, mirror, mirror light, black-framed window, window shelf, plant, wall switches, towel rail, toilet roll holder, toilet and floor drain. Preserve mirror reflection composition, door and reflected adjacent room, all door/window/ceiling geometry, framing and camera. No added objects or fixtures.\nLighting and finish: premium architectural photography, balanced neutral daylight from the same window with warm local mirror and under-vanity light retained. Natural matte stone grain, paint texture, wood grain, sage towel loops, realistic glass and brass reflections, nuanced bounce light and contact shadows. No toy rendering, CGI gloss, text, UI, logos or watermarks.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "generated_original_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-1c30f358-b145-4511-a324-bc4b5fb7020c.png",
+                "final_path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/bath.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "mode": "RGB",
+                "format": "PNG",
+                "sha256": "4c7f8d884280407eef019deb1fad1c6c562f6d7f736b9f78609ad5c8048f178e",
+                "artificial_upscale": false,
+                "postprocessing": "None. Original generated PNG copied byte-for-byte.",
+                "status": "success"
+              }
+            ],
+            "failures": []
+          }
+        }
+      ]
+    },
+    {
+      "design": "dusk",
+      "variant": "moss",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/moss/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/master.png",
+      "sha256": "e5e355dfb96e54b33dbabf718281d14b2cf999a8e3a85b6c9c6405efc22cb2a6",
+      "provenance": null
+    },
+    {
+      "design": "dusk",
+      "variant": "moss",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/moss/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-moss/bath.png",
+      "sha256": "4c7f8d884280407eef019deb1fad1c6c562f6d7f736b9f78609ad5c8048f178e",
+      "provenance": null
+    },
+    {
+      "design": "dusk",
+      "variant": "clay",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/clay/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/living.png",
+      "sha256": "ac0fafee5e5dce49ffc3567611de8e0d31be46b86012e73e8b305f735f758dce",
+      "provenance": [
+        {
+          "filename": "prompts-provenance.json",
+          "data": {
+            "scheme": "赤陶与墨灰",
+            "mode": "built-in image_gen",
+            "requestedCount": 3,
+            "createdAt": "2026-09-24T16:27:57.547Z",
+            "requests": [
+              {
+                "name": "living",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg",
+                "target": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/living.png",
+                "parameters": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: a single photorealistic interior photograph, 3:2 landscape.\nInput image is the EDIT TARGET. Make a faithful same-camera material and furnishings edit of this exact image, not a redesign. Preserve the exact lens, camera position, perspective, framing, aspect ratio and room dimensions. Do not enlarge the room. Preserve every architectural edge, wall plane, door, window, ceiling, lighting fixture, artwork, built-in and unchanged accessory in its exact location. Scheme name: 赤陶与墨灰 (terracotta and ink grey). The existing walnut EDITION-inspired architecture remains, with purposeful material, value and color contrast integrated into the whole room. Photographic quality, subtle real fabric nap, subtle stone grain, plausible reflections and indirect/contact shadows. Balanced neutral exposure and white balance with warm practical light fixtures. No text, UI, logos, watermarks or collage.\nPrimary request: In this exact living room, keep the dark walnut wall architecture on the back and right, doors, television on left, lamps, ceiling, dining furniture, shelf, wall art, console and same camera exactly as shown. Change only the specified sofa, coffee table, rug and visible floor material, with coherent reflected light.\nSofa: replace the brown leather sofa on the right with a muted burnt-terracotta/russet modern upholstered sofa in fine dense chenille, subtly visible fine fabric nap, a thin tailored outline with neat slim arms, same right-side location and comparable footprint. No carved timber arms, no leather sheen. Maintain the sofa's proportional relationship to the room. Existing loose pillow/throw placement can remain with quiet muted tonal values and fine textiles.\nCoffee table: replace the bulky wooden coffee table with an elegant charcoal-black elliptical honed-stone top, supported on slender dark bronze legs. Same placement and approximate top area/height; clearly lighter, open visual weight below the tabletop, not a solid wood or stone block. Retain the vase, bowl and books in their current arrangement on the new table.\nRug: replace the coarse brown rug with an ash-grey/pearl, high-density hand-knotted wool rug at the same footprint. Fine short cut pile, continuous quiet surface with a soft ink-charcoal irregular tonal gradient near its edges. Flattened bound edges, realistic compression and contact shadows at furniture. No jute, woven rope, coarse ribbing, shag, oversized loops or fake stringy fibers.\nFloor: neutral warm-grey stone, significantly less brown. Every visible floor region, including foreground and beyond sofa/rug toward dining and doorway, must share the same coherent stone surface and believable continuous joint geometry.\nThe room must have clear contrast among russet sofa, black table, pale cool-grey rug and existing warm dark walnut architecture while retaining natural warm light.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/living.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "output": {
+                  "asset": "living",
+                  "path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/living.png",
+                  "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-63b87db9-581c-40eb-bf43-a0f5e0a1ef77.png",
+                  "dimensions": [
+                    1536,
+                    1024
+                  ],
+                  "format": "PNG",
+                  "sha256": "ac0fafee5e5dce49ffc3567611de8e0d31be46b86012e73e8b305f735f758dce",
+                  "visualReview": "Camera, architectural elements and furniture locations visually preserved. Sofa is muted russet upholstery; coffee table has charcoal stone top and open bronze base; floor and rug are grey. Rug remains somewhat textured, although less coarse than source."
+                }
+              },
+              {
+                "name": "master",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg",
+                "target": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/master.png",
+                "parameters": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: a single photorealistic interior photograph, 3:2 landscape.\nInput image is the EDIT TARGET. Make a faithful same-camera material and furnishings edit of this exact image, not a redesign. Preserve the exact lens, camera position, perspective, framing, aspect ratio and room dimensions. Do not enlarge the room. Preserve every architectural edge, wall plane, door, window, ceiling, lighting fixture, artwork, built-in and unchanged accessory in its exact location. Scheme name: 赤陶与墨灰 (terracotta and ink grey). The existing walnut EDITION-inspired architecture remains, with purposeful material, value and color contrast integrated into the whole room. Photographic quality, subtle real fabric nap, subtle stone grain, plausible reflections and indirect/contact shadows. Balanced neutral exposure and white balance with warm practical light fixtures. No text, UI, logos, watermarks or collage.\nPrimary request: Edit material finishes and linens in this exact bedroom. Preserve exact architecture, bay/corner windows, separate right window, curtains, exterior view, walls, ceiling, ceiling light, left air-conditioning unit, door, cabinets, headboard wall panel, lamps, bed dimensions and position, all accessories, and exact camera/framing.\nHeadboard: replace only the brown upholstered headboard cushions with a tailored light-grey fine linen upholstered headboard of the same dimensions. Keep the warm dark walnut wall architecture, bedside tables and wood bed frame.\nBedding: soft smooth ivory bedding, high quality tightly woven fabric, realistic gentle folds, no coarse chunky weave. Add/replace the existing long throw across the bed with a muted terracotta fine-texture throw, same approximate placement and drape. One graphite-grey pillow provides a restrained dark accent against ivory pillows and light-grey headboard.\nFloor: neutral smoked-oak wood with restrained brown saturation, natural fine grain, coherent plank directions and joints through every visible floor region.\nRug: a dense silver-grey hand-knotted wool rug in the original footprint, fine short cut pile, quiet smooth subtle tonal variation, flattened tailored edges and realistic contact shadows. No jute, shag, coarse loops or rope texture.\nKeep the whole bedroom naturally photographic, clear light-grey/ivory/graphite/terracotta contrasts, warm practical lamps but neutral grey fabrics and floor rather than a brown/orange overall wash.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/master.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "output": {
+                  "asset": "master",
+                  "path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/master.png",
+                  "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-69f86556-8b16-4558-b368-68aaa9f5c4d1.png",
+                  "dimensions": [
+                    1536,
+                    1024
+                  ],
+                  "format": "PNG",
+                  "sha256": "e25224bcd50f6722d14666e699c4b33d27c102485efc25de3f31a24a205481c0",
+                  "visualReview": "Camera, windows, architecture and bed position visually preserved. Light-grey headboard, ivory bedding, graphite pillow, terracotta throw, neutral smoked-oak floor and silver-grey rug achieved."
+                }
+              },
+              {
+                "name": "bath",
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg",
+                "target": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/bath.png",
+                "parameters": {
+                  "prompt": "Use case: precise-object-edit.\nAsset type: a single photorealistic interior photograph, 3:2 landscape.\nInput image is the EDIT TARGET. Make a faithful same-camera material and furnishings edit of this exact image, not a redesign. Preserve the exact lens, camera position, perspective, framing, aspect ratio and room dimensions. Do not enlarge the room. Preserve every architectural edge, wall plane, door, window, ceiling, lighting fixture, artwork, built-in and unchanged accessory in its exact location. Scheme name: 赤陶与墨灰 (terracotta and ink grey). The existing walnut EDITION-inspired architecture remains, with purposeful material, value and color contrast integrated into the whole room. Photographic quality, subtle real fabric nap, subtle stone grain, plausible reflections and indirect/contact shadows. Balanced neutral exposure and white balance with warm practical light fixtures. No text, UI, logos, watermarks or collage.\nPrimary request: Change only finish materials in this exact compact bathroom. Preserve every existing geometric line and fixture position: glass shower enclosure and frame, shower hardware on left, glass door and handle, backlit mirror including exact size and reflection geometry, rear window including frame and sill, sink and tap, vanity doors/drawers, counter outline, toilet on right, towel rail, switches, plant, bottles, accessories and drain. The room must remain precisely the original dimensions and the same 3:2 camera view.\nWall finish: cream-grey large-format stone wall tiles on all primary wall planes including the shower and right wall, with subtle restrained fine stone grain and coherent tile joints. A small accent of warm muted terracotta glazed tile is confined ONLY to the backsplash area behind the vanity, below/around the mirror's lower region and above the counter. Its color is dusty and subdued, with a realistic gentle glaze reflection; it must not spread to the shower, right wall, window or ceiling. Maintain the original wall plane and mirror geometry.\nFloor: graphite matte stone floor tiles, fine restrained grain, plausible coherent joints and drain seating, including matching treatment in the shower floor. Maintain realistic reflections and moisture-free matte surface.\nVanity: blackened walnut front with fine visible natural grain, preserving exact cabinetry door/drawer seams and dimensions. Counter: neutral grey stone, same thickness and geometry, keep ivory sink. Towel: soft ivory towel at the original rail position; folded towel by basin also ivory.\nKeep warm backlit mirror and under-vanity illumination local and natural. Neutral balance across cream-grey walls and graphite floor, no saturated orange color wash. Fine true material textures and believable shadows.",
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/dusk/bath.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "output": {
+                  "asset": "bath",
+                  "path": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/bath.png",
+                  "generatedSource": "/workspace/scratch/aa0f93406d63/generated_images/exec-5e017d8a-7dcf-46de-9d5c-eef3f536538f.png",
+                  "dimensions": [
+                    1536,
+                    1024
+                  ],
+                  "format": "PNG",
+                  "sha256": "c4807452e184c3086a7aa9607a021c47b8f6d3db1b9302a8cf19948a94041a4c",
+                  "visualReview": "Camera, fixture geometry and layout visually preserved. Cream-grey walls, charcoal floor, dark walnut vanity and ivory towels achieved. Terracotta tile is confined to the wall behind the vanity but extends above the mirror and below the cabinet, broader than the small backsplash accent requested."
+                }
+              }
+            ],
+            "completedCount": 3,
+            "imageGenerationCalls": 3,
+            "generationFailures": [],
+            "limitations": [
+              "Camera, fixture geometry and layout visually preserved. Cream-grey walls, charcoal floor, dark walnut vanity and ivory towels achieved. Terracotta tile is confined to the wall behind the vanity but extends above the mirror and below the cabinet, broader than the small backsplash accent requested."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "design": "dusk",
+      "variant": "clay",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/clay/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/master.png",
+      "sha256": "e25224bcd50f6722d14666e699c4b33d27c102485efc25de3f31a24a205481c0",
+      "provenance": null
+    },
+    {
+      "design": "dusk",
+      "variant": "clay",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/dusk/variants/clay/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/dusk-clay/bath.png",
+      "sha256": "c4807452e184c3086a7aa9607a021c47b8f6d3db1b9302a8cf19948a94041a4c",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "linen",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/linen/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/living.png",
+      "sha256": "b5e97b9503fcaecb7b9d02a840e32dcce27558c70ac7bf87e7796b24f5401d20",
+      "provenance": [
+        {
+          "filename": "prompts-provenance.json",
+          "data": {
+            "scheme": "亚麻与墨线",
+            "mode": "built-in image_gen",
+            "use_case": "precise-object-edit",
+            "assets": {
+              "living": {
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/living.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior renovation visualization, scheme “亚麻与墨线”.\nInput image: the supplied living.jpg is the EDIT TARGET, not a style reference.\nPrimary request: edit this exact photograph with sophisticated modern furnishing contrast against the existing Chinese architectural woodwork. Preserve the identical 3:2 frame, camera position, perspective, lens field of view, room dimensions, every wall, ceiling, thin dark ceiling lines, lighting fixture, red-brown structural wood frame and lattice, doorway, door, window/glass opening, TV and TV cabinet, dining table and dining chairs, console, landscape painting and all fixed geometry. Do not widen, enlarge, shift, crop, redesign or recompose the room.\nChange only the following finishes and furniture, in their existing locations and realistic proportions. Completely remove the Chinese wooden-arm sofa on the right, including every exposed wood rail, arm and base, and replace its whole form with a relaxed contemporary Italian-style pale greige LINEN upholstered sofa: slim softly rounded fully upholstered arms, low back, refined low profile, soft but tailored seat cushions, no exposed wooden rails, no carvings, no traditional Chinese furniture form. Add a restrained mix of graphite-grey and cream linen pillows. Replace the rectangular heavy wood coffee table with an airy elliptical smoked-glass coffee table on a very slim blackened metal frame, positioned in the same seating zone; preserve a restrained small styling of existing books and ceramic objects on it. Replace the tan bordered rug with a premium oyster-grey to pearl wool-silk rug, dense short pile, subtle softly graded irregular tonal variation rather than a graphic motif, naturally positioned beneath the sofa and table. It must have believable thin bound edges, correct perspective, precise furniture contact shadows, a little natural pile direction and subtle weight, no floating edges, no tan jute, no graphic border. Change the main floor finish to pale limestone-look large-format tiles with restrained warm light colour and realistic joints, keeping floor plane and geometry unchanged.\nLighting and palette: believable neutral daylight with gently warm existing lamps, clean chalk/off-white and pale greige balanced by graphite accents and the original red-brown wood. No global brown monochrome tint or excessive warm wash.\nStyle: an actual high-end architectural photograph with tactile linen weave, subtle real wrinkles, dense short-pile wool-silk texture, fine natural material irregularities, grounded shadows, believable glass transmission and reflections, original natural light direction. No plastic CGI finish, no catalog collage, no extra room, no UI, no letters, no logo, no watermark. Output one single edited image, the same exact 3:2 framing as the source.",
+                "native_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-9f8ffdf7-9c9c-4975-b720-4acf3d303866.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "source_dimensions": [
+                  1536,
+                  1024
+                ],
+                "aspect_ratio": "3:2",
+                "sha256": "b5e97b9503fcaecb7b9d02a840e32dcce27558c70ac7bf87e7796b24f5401d20",
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg"
+                ],
+                "review": "Inspected output visually; same camera composition and fixed architecture retained, with requested furnishing/finish changes."
+              },
+              "master": {
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/master.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior renovation visualization, scheme “亚麻与墨线”.\nInput image: the supplied master.jpg is the EDIT TARGET, not a style reference.\nPrimary request: edit this exact bedroom photograph with refined contemporary linen furnishing details while preserving the original architecture and room identity. Preserve the identical 3:2 frame, camera position, perspective, lens field of view, bed footprint and location, room dimensions, all walls, white ceiling with thin dark lines, ceiling light, red-brown architectural trim, door and visible door handle, windows with every mullion and exact view, curtains, window bench, lamps, bedside table positions, dresser, wall artwork and all fixed geometry. No room enlargement, wall removal, shifted openings, crop or recomposition.\nChange only these finish and bedding details. Replace the bed's button-tufted headboard with a simple contemporary pale greige LINEN upholstered headboard, smooth softly cushioned planes and quiet tailored edges, no tufting, no buttons, no ornate traditionality, occupying the same headboard area and respecting its surrounding original red-brown architectural frame. Layer the bed with chalk-white cotton and linen sheets, pillows and duvet with tactile realistic softness and natural folds. Use one narrow charcoal-grey throw across the lower bed, restrained and premium, not a broad brown blanket. Change the visible wood floor finish to a neutral medium warm wood tone, realistic natural grain and satin response, avoiding orange/red saturation, with original plank layout and room plane unchanged. Introduce a soft grey premium fine dense low-pile rug under the lower bed, visible naturally around the foot/sides without moving the bed or any furniture, with physically correct perspective, thin bound edges, grounding contact shadows, no graphic border and no coarse jute texture.\nLighting and palette: clear neutral daylight, very gently warm bedside lamps, chalk-white bedding, linen greige, subtle charcoal accent, original red-brown architecture with neutral medium warm floor. No global brown wash or sepia effect.\nStyle: an actual high-end architectural photograph with subtle fabric weave, real bedding wrinkles and weight, fine wool pile, material irregularities, believable surface reflection and real shadows. No plastic CGI finish, no catalog collage, no extra room, no UI, no letters, no logo, no watermark. Output one single edited image, the same exact 3:2 framing as the source.",
+                "native_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-6f5bf1a9-7cf2-4b2b-bdef-a1ccc81899c7.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "source_dimensions": [
+                  1536,
+                  1024
+                ],
+                "aspect_ratio": "3:2",
+                "sha256": "cf3aa8774e5b297f64ade554c6de12756763808cf94c4acc42e7d4f6c25b6cfa",
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg"
+                ],
+                "review": "Inspected output visually; same camera composition and fixed architecture retained, with requested furnishing/finish changes."
+              },
+              "bath": {
+                "source": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/bath.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior renovation visualization, scheme “亚麻与墨线”.\nInput image: the supplied bath.jpg is the EDIT TARGET, not a style reference.\nPrimary request: edit the finishes of this exact bathroom photograph into a refined ivory, warm-grey, dark walnut and ink-black palette. Preserve the identical 3:2 frame, camera position, perspective, lens field of view, room dimensions, all wall and floor planes, ceiling, doorframe, shower enclosure and every glass panel, shower door and handle locations, niches, mirror and its lit outline, window shape and every frame detail, vanity width/height/location and cabinet layout, basin position and shape, countertop footprint, toilet position and shape, drains, sockets and all fixed geometry. Do not enlarge, widen, redesign, move, crop or recompose the room.\nChange only material colours/finishes and towels: wall surfaces become light ivory stone-look tile, quiet fine natural mineral variation and realistic joints; floor becomes softly contrasting warm-grey matte stone-look tile, with original plane, tile perspective, drains and shower geometry preserved. Refinish the vanity in refined dark walnut with visible fine natural grain and a realistic low-sheen finish. Keep the countertop shape but make it off-white with a quiet honed response. Make the existing small hardware refined black: slim cabinet pulls, basin faucet, shower fixtures and relevant small metal accessories, maintaining their precise existing positions and dimensions. Keep the shower glass optically believable with realistic edges, transmission and reflections, and keep the window dark. Change the folded towels to chalk-grey, realistic soft cotton texture. Keep existing white basin and toilet and existing restrained accessories.\nLighting and palette: clear neutral daylight through the window, only a gentle touch of warmth from the existing mirror lamp and ceiling light; light ivory walls, subtly contrasting warm-grey floor, dark walnut cabinetry, off-white counter, quiet black accents. No overall brown monochrome tint or yellow wash.\nStyle: a real high-end architectural photograph, fine material imperfections, realistic towels and wood grain, proper contact shadows, restrained stone texture, physically believable reflections and glass. No plastic CGI finish, no separate catalog images, no UI, no letters, no logos, no watermark. Output one single edited image, the same exact 3:2 framing as the source.",
+                "native_generated_path": "/workspace/scratch/aa0f93406d63/generated_images/exec-2c24b702-b3ec-42b4-9cc7-a5ee1456cc23.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "source_dimensions": [
+                  1536,
+                  1024
+                ],
+                "aspect_ratio": "3:2",
+                "sha256": "e28058c2ff67c926ae23e200ba6307ebf9c7696eb3bc15a4e2737ff2405d1258",
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg"
+                ],
+                "review": "Inspected output visually; same camera composition and fixed architecture retained, with requested furnishing/finish changes."
+              }
+            },
+            "generation_tool": "image_gen.imagegen",
+            "generated_at_date": "2026-09-24",
+            "image_edit_calls": 3,
+            "postprocessing": "None. Native generated PNG files copied byte-for-byte; no upscaling, cropping, compositing or colour edits."
+          }
+        }
+      ]
+    },
+    {
+      "design": "chinese",
+      "variant": "linen",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/linen/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/master.png",
+      "sha256": "cf3aa8774e5b297f64ade554c6de12756763808cf94c4acc42e7d4f6c25b6cfa",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "linen",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/linen/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-linen/bath.png",
+      "sha256": "e28058c2ff67c926ae23e200ba6307ebf9c7696eb3bc15a4e2737ff2405d1258",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "moss",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/moss/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/living.png",
+      "sha256": "016925101067ae6137c7f3ceab935a324586dd370aa766867ad61bbe815cb8cf",
+      "provenance": [
+        {
+          "filename": "prompts-provenance.json",
+          "data": {
+            "scheme": "青苔与浅橡",
+            "generation_mode": "built-in image_gen",
+            "requested_at": "2026-09-24",
+            "assets": [
+              {
+                "room": "living",
+                "input": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/living.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior material study, scheme 青苔与浅橡.\nInput image: the supplied image is the EDIT TARGET. Edit this exact photograph; do not invent a replacement room.\nStyle/medium: high-end interior photography with fine physical material texture, believable imperfect fabric folds, realistic contact shadows and reflections. A lively but restrained modern palette with richer hue and value separation. Neutral daylight balanced with natural warm lamps.\nComposition/framing: preserve the exact original camera position, view direction, lens perspective, crop and 3:2 landscape framing.\nConstraints: keep all architecture, wall and ceiling geometry, windows, doorways, openings, fixed fixture positions, and room layout. No new objects or changed architecture. No text, UI, logos, watermark, collage, cartoon, toy-like CGI, exaggerated saturation, yellow/orange colour cast, or oversmoothed materials. Produce one image only.\nPrimary request: change finishes and the living-room sofa, coffee table, rug and floor only to the 青苔与浅橡 scheme.\nPreserve the existing red-brown wood architectural door framing, lattice panels, shelves and joinery, white ceiling with thin dark lines, all openings, the right-wall landscape painting, the television and its exact left-wall location, dining table/chairs and exact dining area location. Preserve the existing lighting fixtures, plants and small accessories in place.\nReplace the deliberate traditional Chinese wood-framed sofa on the right with an understated contemporary low sofa upholstered entirely in fine moss-green leather, softly rounded slim arms and tailored comfortable cushions. No exposed traditional Chinese wood frame or wooden arms. Keep its exact location, orientation and approximate footprint.\nReplace the rectangular wood coffee table at the same location with an asymmetrical rounded creamy travertine slab coffee table, realistic fine stone texture and a compact sculptural supporting base. Preserve the small objects on the table in plausible positions.\nReplace the rug with a dense, finely hand-knotted ivory/oatmeal short wool-pile rug, with a restrained muted slate and green tonal gradient. Fine luxurious fibres, thin edge, natural contact shadow, correct room perspective and lying flat beneath the coffee table and sofa. Never jute, rope, straw or coarse woven carpet.\nReplace every visible area of floor, including the left foreground, under furniture, dining area and through the visible opening, with continuous pale neutral greyish-oak wide planks. Accurate perspective and natural fine oak grain, low-sheen finish. No remaining glossy beige tile, no yellow/orange timber.\nKeep the composition and architecture unchanged; only the specifically requested materials and furniture shapes change.",
+                "parameters": {
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "status": "complete",
+                "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-3f9daef3-14f9-43d5-9a0f-0004a5a1cbae.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "format": "PNG",
+                "sha256": "016925101067ae6137c7f3ceab935a324586dd370aa766867ad61bbe815cb8cf",
+                "bytes": 2511258,
+                "upscaled": false,
+                "generation_calls": 1,
+                "visual_review": "Camera, composition and main architecture retained; requested surface and furnishing changes visible. No text or logos observed."
+              },
+              {
+                "room": "master",
+                "input": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/master.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior material study, scheme 青苔与浅橡.\nInput image: the supplied image is the EDIT TARGET. Edit this exact photograph; do not invent a replacement room.\nStyle/medium: high-end interior photography with fine physical material texture, believable imperfect fabric folds, realistic contact shadows and reflections. A lively but restrained modern palette with richer hue and value separation. Neutral daylight balanced with natural warm lamps.\nComposition/framing: preserve the exact original camera position, view direction, lens perspective, crop and 3:2 landscape framing.\nConstraints: keep all architecture, wall and ceiling geometry, windows, doorways, openings, fixed fixture positions, and room layout. No new objects or changed architecture. No text, UI, logos, watermark, collage, cartoon, toy-like CGI, exaggerated saturation, yellow/orange colour cast, or oversmoothed materials. Produce one image only.\nPrimary request: change the bedroom finishes and textiles only to the 青苔与浅橡 scheme.\nPreserve the exact bed position, orientation, size and bed frame; keep the exact walls, corner bay window, right window, skyline, curtains, bedside tables, lamps, left chest, artwork, plants and red-brown wood architectural trim. Preserve the entire original layout and camera.\nChange the button-tufted headboard to a plain elegantly tailored taupe upholstered headboard of the same outline and size, with no buttons or tufting. Keep its location fixed.\nDress the bed in white cotton bedding, with realistic soft folds, layered moss-green and desaturated sage bedding and one small muted rust accent pillow. The moss and sage layers should be visibly distinct and restrained, producing subtle rich material and value contrast. Maintain the same bed silhouette.\nReplace all visible red-brown floorboards with pale neutral greyish oak wide-plank flooring, low-sheen with authentic fine oak grain and correct perspective. No yellow/orange tint.\nAdd a fine light ivory/oatmeal dense short wool-pile area rug beneath the bed, realistically thin-edged and lying flat with natural occlusion, showing at the lower and side edges. Fine realistic wool rather than jute, rope or coarse fibres.\nKeep the architecture, bed and all furniture locations unchanged; only the specified headboard, bedding, rug and flooring change.",
+                "parameters": {
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "status": "complete",
+                "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-3c9ff895-7616-444b-8b07-445fb1485d0c.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "format": "PNG",
+                "sha256": "8ebeaa072b8413da2e80b0d0178e832014090bf4ad50a4a9b1de8cc82ff43402",
+                "bytes": 2459897,
+                "upscaled": false,
+                "generation_calls": 1,
+                "visual_review": "Camera, composition and main architecture retained; requested surface and furnishing changes visible. No text or logos observed."
+              },
+              {
+                "room": "bath",
+                "input": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg",
+                "output": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/bath.png",
+                "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic residential interior material study, scheme 青苔与浅橡.\nInput image: the supplied image is the EDIT TARGET. Edit this exact photograph; do not invent a replacement room.\nStyle/medium: high-end interior photography with fine physical material texture, believable imperfect fabric folds, realistic contact shadows and reflections. A lively but restrained modern palette with richer hue and value separation. Neutral daylight balanced with natural warm lamps.\nComposition/framing: preserve the exact original camera position, view direction, lens perspective, crop and 3:2 landscape framing.\nConstraints: keep all architecture, wall and ceiling geometry, windows, doorways, openings, fixed fixture positions, and room layout. No new objects or changed architecture. No text, UI, logos, watermark, collage, cartoon, toy-like CGI, exaggerated saturation, yellow/orange colour cast, or oversmoothed materials. Produce one image only.\nPrimary request: change the bathroom surface finishes only to the 青苔与浅橡 scheme.\nPreserve the exact room geometry, shower enclosure and clear-glass panels, shower fixtures, niche, vanity cabinet footprint and drawer/door divisions, basin, faucet, mirror, frosted window, towel position, toilet and every fixture's exact location. Preserve the view, crop and reflection geometry.\nChange the wall surfaces to large-format ivory tiles, with discreet realistic joints and finely textured natural mineral appearance. Change the floor to light-grey matte stone-look tile with accurate perspective and subtle texture. Preserve shower floor drain and existing level changes.\nChange the vanity door and drawer fronts to refined muted moss-green matt lacquer, keeping the existing handles, cabinetry geometry, and positions. Change the countertop to creamy natural stone with subtle believable variation and keep the same shape, size and basin.\nKeep warm red-brown trim only at existing trim locations, including the mirror frame and doorway edge; do not add extra wood panels or new wood trim.\nMake the folded towel off-white with realistic soft absorbent texture. Maintain convincing clear glass, metal reflections, mirror contents and natural shadows. The ivory walls, moss vanity, creamy counter and cool light-grey floor should read as distinct yet restrained materials.\nKeep all architecture, fixture locations, layout and camera unchanged; change only the specified surface finishes.",
+                "parameters": {
+                  "referenced_image_paths": [
+                    "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg"
+                  ],
+                  "transparent_background": false
+                },
+                "status": "complete",
+                "generated_source": "/workspace/scratch/aa0f93406d63/generated_images/exec-568712ec-31f1-4d06-86f8-585057dd37b6.png",
+                "dimensions": [
+                  1536,
+                  1024
+                ],
+                "format": "PNG",
+                "sha256": "82abd190841de7bd520d21fb16c4f0368e0b652d235b26acbccac935557b874f",
+                "bytes": 2197484,
+                "upscaled": false,
+                "generation_calls": 1,
+                "visual_review": "Camera, composition and main architecture retained; requested surface and furnishing changes visible. No text or logos observed."
+              }
+            ],
+            "failures": [],
+            "total_generation_calls": 3,
+            "no_site_changes": true
+          }
+        }
+      ]
+    },
+    {
+      "design": "chinese",
+      "variant": "moss",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/moss/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/master.png",
+      "sha256": "8ebeaa072b8413da2e80b0d0178e832014090bf4ad50a4a9b1de8cc82ff43402",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "moss",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/moss/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-moss/bath.png",
+      "sha256": "82abd190841de7bd520d21fb16c4f0368e0b652d235b26acbccac935557b874f",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "wine",
+      "room": "living",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/wine/living.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/living.png",
+      "sha256": "aa48af77ed5bdbae0f4f613479823562c2ed44b4971047ec1f298e8d456f1e11",
+      "provenance": [
+        {
+          "filename": "prompts-provenance.json",
+          "data": {
+            "scheme": "酒红与银灰",
+            "generated_date": "2026-09-24",
+            "exact_prompts_and_provenance": true,
+            "failures": [],
+            "inspection_notes": [
+              "All three generated images were visually inspected. The source architecture and camera framing are preserved.",
+              "Bedroom output uses light-to-medium neutral oak and includes a small muted-plum lumbar cushion in addition to the plum throw."
+            ],
+            "assets": [
+              {
+                "asset": "living",
+                "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg",
+                "destination": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/living.png",
+                "generated_original": "/workspace/scratch/aa0f93406d63/generated_images/exec-8adbc7ba-13c9-453b-b5b1-739bd9e4542c.png",
+                "mode": "built-in imagegen edit",
+                "tool": "image_gen__imagegen",
+                "call_count": 1,
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/living.jpg"
+                ],
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design material study, 酒红与银灰 / Wine and Silver Grey.\nInput image: the provided living.jpg is the sole edit target. Edit this exact photograph.\nPrimary request: create a sophisticated contemporary interpretation of the existing Chinese-influenced living room by changing only the specified furniture and surface materials. Preserve the exact camera, lens, perspective, original 3:2 landscape frame, room proportions, architecture, openings, and spatial arrangement. This must be a same-camera edit, not a redesigned or enlarged room.\nLocked invariants: retain the rich red-brown architectural wood framework, red-brown decorative lattice panels and their exact patterns and positions, wood-framed doorway and window, built-in wood joinery, TV and media cabinet position at left, landscape painting and its frame position at right, dining table and chairs at the back in exactly the same footprints, ceiling fixtures and lighting positions, plants and room decor positions. Keep the ceiling white with fine thin black perimeter lines. Keep all wall, floor, door, window, and ceiling boundaries registered to the source.\nFurniture changes: replace the existing traditional exposed-wood sofa at right with a refined modern midcentury oxblood/burgundy nappa leather sofa in precisely the same footprint, facing the same way. It has elegant narrow softly rounded or rolled arms, slender dark metal legs, deeply upholstered seat and back cushions, subtle natural leather pores, gentle leather creases, and a restrained luxurious silhouette. Absolutely no exposed traditional wooden sofa arms, lattice, slats, Chinese ornament, or heavy wooden sofa base. Wine is an accent only, not a saturated red room. Restrained silver-grey and taupe cushions complement the leather.\nReplace the rectangular heavy wooden coffee table with an elegant paired round/oval coffee table composition within the previous table's overall footprint: one small pale stone tabletop and one larger smoked-glass tabletop on slender warm-metal frames. Maintain believable clearances and proportions and preserve the restrained vase and book styling in a natural arrangement.\nRug: replace the coarse beige rug with a premium finely handknotted wool-and-silk rug in the same general placement and footprint. Cool silver-grey through taupe with a very subtle watercolor-like gradient, dense fine pile, soft realistic silk sheen, and a thin dark-grey bound edge. No jute, no sisal, no coarse woven straw texture, no bold or geometric pattern.\nFloor: change the glossy warm beige tile to lighter cool greige honed limestone-like large-format tile. It should deliberately contrast with the warm red-brown joinery, with refined subtle mineral variation, credible grout lines and a soft low-sheen stone surface.\nLighting and realism: preserve the direction of natural daylight and source shadows, balance it with gentle existing warm interior lighting. Physically convincing contact shadows, glass and metal reflections, natural leather and fine textile microtexture. High-end architectural photograph, crisp but natural, no plastic CGI.\nConstraints: do not move or resize the room, architecture, sofa footprint, TV, painting, dining area, windows, or doors. No new openings, no new layout, no additional furniture. No text, UI, logo, watermark, or collage. Preserve 3:2 frame and exact camera.",
+                "postprocessing": "None; copied original generated PNG without resizing, upscaling, or image manipulation.",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG",
+                "sha256": "aa48af77ed5bdbae0f4f613479823562c2ed44b4971047ec1f298e8d456f1e11",
+                "byte_count": 2460790
+              },
+              {
+                "asset": "master",
+                "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg",
+                "destination": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/master.png",
+                "generated_original": "/workspace/scratch/aa0f93406d63/generated_images/exec-c27aaee1-6bca-4a36-ada9-4121529ced60.png",
+                "mode": "built-in imagegen edit",
+                "tool": "image_gen__imagegen",
+                "call_count": 1,
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/master.jpg"
+                ],
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design material study, 酒红与银灰 / Wine and Silver Grey.\nInput image: the provided master.jpg is the sole edit target. Edit this exact photograph.\nPrimary request: subtly refine the bedroom materials and textiles into a sophisticated wine-and-silver palette while maintaining the exact source camera, lens, perspective, 3:2 landscape frame, room proportions, architecture, layout, and bed footprint.\nLocked invariants: preserve all walls and ceiling boundaries, the white ceiling with its fine thin black perimeter lines, ceiling light location, the exact corner bay window and right window openings, dark window mullions, curtains and sheer curtains in their existing positions, city view, doors, landscape painting, red-brown architectural frames and joinery, dresser at left, bedside tables and lamps, decor positions, and the exact bed and mattress size and position. Do not resize the room or alter openings.\nChange the button-tufted headboard to a sophisticated plain softly upholstered taupe headboard, with clean contemporary upholstery and no tufting, buttons, ornamental carving, or pattern, while preserving its overall footprint and position. Retain the existing red-brown architectural wood framing around the wall.\nBedding: dress the bed with crisp ivory cotton sheets and a refined ivory duvet, believable folds and woven cotton texture, soft silver-grey pillows, and a light desaturated wine/plum throw across the lower bed. The wine/plum is a quiet accent, soft and dusty rather than vivid red, with fine tactile fabric rather than a heavy coarse knit. Keep the bed restrained and premium.\nFloor: replace the dark red-brown glossy wood floor with medium neutral oak boards of believable natural grain and a soft matte finish, maintaining existing perspective and plank scale. Add a premium silver-grey wool-and-silk rug under the bed, naturally visible around its sides and foot, with dense fine pile, subtle taupe-silver tonal variation, restrained soft sheen, and a neat thin bound edge. No jute, sisal, coarse straw weave, or bold pattern.\nColor and light: ivory and taupe dominate, silver-grey textiles and neutral oak create contrast with the existing warm wood frames; the muted wine/plum throw is the only wine accent. Preserve natural daylight direction and use gentle warm bedside lighting. Natural material detail, physically credible contact shadows and reflections, photoreal high-end architectural photography, no plastic CGI.\nConstraints: change only the specified headboard upholstery, bedding, flooring and rug, keep all other architectural and compositional features fixed. Same exact camera and 3:2 frame; no room expansion, no moved windows or doors, no new furniture or openings. No UI, text, logo, watermark or collage.",
+                "postprocessing": "None; copied original generated PNG without resizing, upscaling, or image manipulation.",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG",
+                "sha256": "73609b294455f98a826e08107bd360822f900b6172ee87ec5cd9e1e40b09a661",
+                "byte_count": 2405793
+              },
+              {
+                "asset": "bath",
+                "edit_target": "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg",
+                "destination": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/bath.png",
+                "generated_original": "/workspace/scratch/aa0f93406d63/generated_images/exec-6ace1d7e-4994-4a64-94a4-95c78b6baaeb.png",
+                "mode": "built-in imagegen edit",
+                "tool": "image_gen__imagegen",
+                "call_count": 1,
+                "transparent_background": false,
+                "referenced_image_paths": [
+                  "/workspace/sites/tingjian-studio/dist/tour/home-assets/chinese/bath.jpg"
+                ],
+                "prompt": "Use case: precise-object-edit.\nAsset type: photoreal interior design material study, 酒红与银灰 / Wine and Silver Grey.\nInput image: the provided bath.jpg is the sole edit target. Edit this exact photograph.\nPrimary request: refine the bathroom into a quiet wine-and-silver material palette, changing finishes only while preserving the exact geometry, camera, lens, perspective, composition, and original 3:2 landscape frame.\nLocked invariants: retain every wall and ceiling boundary, shower enclosure and glass panel geometry, door hinges and handles, shower fittings and niche positions, the exact mirror size and position and truthful reflected view, black-framed frosted window and its two sections, basin and tap position, floating vanity dimensions and its two doors plus two drawers, the pale countertop's thickness and footprint, toilet shape and location at lower right, towel positions, plants, soap accessories, toilet paper shelf, floor drains, door frame and every opening. Do not resize, move, or redesign any fixture or room structure.\nSurface changes: walls become refined ivory stone, pale and softly textured with restrained natural mineral veining. Floor becomes cool greige stone with a honed low-sheen finish and subtle variation, retaining exact tile perspective. The vanity door and drawer fronts become deep muted aubergine/wine with an elegant finely textured matte lacquer finish, retaining the cabinet configuration and revealing believable edge detail. This is the single wine accent, quiet and desaturated, never bright or saturated red. Countertop is pale stone, clean and refined. Small metal hardware, faucet, cabinet pulls, shower hardware and accessories have a consistent brushed nickel finish with realistic soft highlights. Folded towels are grey-white premium cotton with fine pile texture.\nLighting: cool neutral natural daylight enters through the existing frosted window, balanced with a gentle warm mirror backlight. Keep the same lighting direction and plausible illumination, correct glass reflections, truthful mirror reflections, contact shadows beneath the vanity and around the basin, fine stone and textile detail.\nStyle/medium: high-end photoreal architectural photograph, natural, crisp, physically convincing, no artificial plastic CGI.\nConstraints: same exact room geometry and camera, no enlarged room, no moved fixtures, no new openings, no new decor or furniture. Only specified materials and light color balance change. Preserve 3:2 frame. No text, UI, logo, watermark or collage.",
+                "postprocessing": "None; copied original generated PNG without resizing, upscaling, or image manipulation.",
+                "dimensions": {
+                  "width": 1536,
+                  "height": 1024
+                },
+                "format": "PNG",
+                "sha256": "c6b2433d684e2ffc33deaa3695cc6e1cacccc24e67ab5239762447bdc0b49589",
+                "byte_count": 2367741
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "design": "chinese",
+      "variant": "wine",
+      "room": "master",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/wine/master.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/master.png",
+      "sha256": "73609b294455f98a826e08107bd360822f900b6172ee87ec5cd9e1e40b09a661",
+      "provenance": null
+    },
+    {
+      "design": "chinese",
+      "variant": "wine",
+      "room": "bath",
+      "size": [
+        1536,
+        1024
+      ],
+      "asset": "dist/tour/home-assets/chinese/variants/wine/bath.jpg",
+      "source": "/workspace/scratch/aa0f93406d63/v10-assets/chinese-wine/bath.png",
+      "sha256": "c6b2433d684e2ffc33deaa3695cc6e1cacccc24e67ab5239762447bdc0b49589",
+      "provenance": null
+    }
+  ]
+}

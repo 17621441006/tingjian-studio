@@ -1,0 +1,71 @@
+<div id="furniture-trial" class="atelier" data-surface="home" data-choice="original" data-length="112" data-angle="0" data-offset="0">
+  <nav class="design-journey" data-journey-nav aria-label="设计步骤">
+    <button type="button" data-journey-step="style" aria-current="step"><span>01</span><strong>确定风格</strong><small>先找到喜欢的感觉</small></button>
+    <button type="button" data-journey-step="layout"><span>02</span><strong>布局与光线</strong><small>再想清楚怎么生活</small></button>
+    <button type="button" data-journey-step="details"><span>03</span><strong>单品与清单</strong><small>把选择变成具体细节</small></button>
+    <button type="button" data-journey-step="whole"><span>04</span><strong>全屋效果</strong><small>把家放在一起看</small></button>
+  </nav>
+  <div class="journey-summary" data-journey-summary hidden><span data-journey-chosen></span><button type="button" data-journey-change>重新选风格</button></div>
+  <div class="studio-workbench">
+  <aside class="studio-style-rail" aria-label="风格方案"><div class="studio-rail-heading"><span>DESIGN COLLECTION</span><strong>找到家的气质</strong></div>
+  <div class="atelier-designs" role="group" aria-label="选择设计方案">
+    <button type="button" data-home-design="dusk" aria-pressed="true"><span class="design-number">01 / 全屋设计</span><strong>暮色私邸</strong><span>烟熏胡桃木 · 棕皮 · 暖石</span><i style="--swatches:linear-gradient(90deg,#493529 0 33%,#867a6b 33% 66%,#b39365 66%)"></i></button>
+    <button type="button" data-home-design="chinese" aria-pressed="false"><span class="design-number">02 / 全屋设计</span><strong>绛木雅居</strong><span>红棕木作 · 花格 · 米石</span><i style="--swatches:linear-gradient(90deg,#813e2f 0 33%,#ddd2bc 33% 66%,#35302b 66%)"></i></button>
+    <button type="button" data-home-design="stone" aria-pressed="false"><span class="design-number">03 / 安缦灵感</span><strong>石庭隐居</strong><span>烟熏橡木 · 细织 · 灰石</span><i style="--swatches:linear-gradient(90deg,#625749 0 33%,#b6a58a 33% 66%,#ded9cd 66%)"></i></button>
+    <button type="button" data-home-design="collector" aria-pressed="false"><span class="design-number">04 / 瑰丽灵感</span><strong>藏品公馆</strong><span>酒红皮革 · 深木 · 细金属</span><i style="--swatches:linear-gradient(90deg,#623533 0 33%,#45372b 33% 66%,#d8ccba 66%)"></i></button>
+    <button type="button" data-home-design="copper" aria-pressed="false"><span class="design-number">05 / 新方案</span><strong>云岚铜影</strong><span>墨绿灰石 · 古铜 · 柔曲线</span><i style="--swatches:linear-gradient(90deg,#404b44 0 33%,#b59b73 33% 66%,#d8d0c1 66%)"></i></button>
+    <button type="button" data-home-design="amber" aria-pressed="false"><span class="design-number">06 / 新方案</span><strong>琥珀曲光</strong><span>陶土皮革 · 浅橡 · 琥珀玻璃</span><i style="--swatches:linear-gradient(90deg,#a75e3e 0 33%,#dbc9a9 33% 66%,#b3844d 66%)"></i></button>
+    <button type="button" data-home-design="graphite" aria-pressed="false"><span class="design-number">07 / 新方案</span><strong>墨棕夜叙</strong><span>墨石 · 烟草皮 · 柔和夜光</span><i style="--swatches:linear-gradient(90deg,#353432 0 33%,#76533b 33% 66%,#c9c1b3 66%)"></i></button>
+  </div>
+  <p class="atelier-design-copy" data-design-copy>深木包裹，柔光落在皮革与石面上。八个空间延续同一种安静的温度。</p>
+  </aside>
+  <div class="studio-content">
+  <div class="atelier-editors" role="group" aria-label="以往家具试摆"><span>以往试摆</span><button type="button" data-design="walnut" aria-pressed="false">胡桃木私邸</button><button type="button" data-design="edition-light" aria-pressed="false">浅木静居</button></div>
+  __DESIGN_JOURNEY__
+  __HOME_GALLERY__
+  <div data-editor-panel hidden>
+  <div class="atelier-toolbar">
+    <div><span class="atelier-kicker">客厅 · 家具试摆</span><span class="atelier-selection" data-selection-label>点选物件，或从右侧拖入</span></div>
+    <div class="atelier-tools"><button type="button" data-toggle-pins aria-pressed="true">物件标记</button><button type="button" data-original-toggle aria-pressed="false">对比初始搭配</button><button type="button" data-fullscreen>放大工作区</button></div>
+  </div>
+  <div class="atelier-experience-bar"><span>固定视角 · 比较材质与搭配</span><button type="button" data-open-home-rooms>查看全屋设计 ↗</button></div>
+  <div class="atelier-layout">
+    <div class="atelier-scene-column">
+      <div class="atelier-stage" tabindex="0" aria-label="客厅试摆场景。点击或右键选择家具；拖入右侧物件自动出图。" data-stage>
+        <img class="render-image" id="render-image" loading="lazy" src="/tour/trial-assets/original-room.jpg" alt="胡桃木私邸客餐厅写实概念效果图">
+        <canvas data-walk-canvas tabindex="0" aria-label="拖动鼠标上下左右环看；点击地面圆圈保持朝向行走。方向键也可环看。" hidden></canvas>
+        <div class="atelier-walk-layer" data-walk-layer hidden></div>
+        <div class="atelier-hit-layer" data-hit-layer></div>
+        <div class="atelier-view-badge" data-view-label>原视角</div>
+        <div class="atelier-drop-hint" data-drop-hint hidden>松开鼠标，放入对应位置</div>
+        <div class="atelier-progress" data-progress hidden role="status" aria-live="polite"><span data-progress-label>准备场景…</span><progress aria-label="素材读取与出图进度" data-progress-bar max="100" value="0"></progress><small data-progress-count></small></div>
+        <div class="atelier-context" role="menu" aria-label="物件操作" data-context hidden><strong data-context-label>茶几</strong><button role="menuitem" data-context-replace>替换…</button><button role="menuitem" data-context-delete>删除物件</button><button role="menuitem" data-context-restore>恢复原物件</button></div>
+      </div>
+      <div class="atelier-viewbar" data-photo-viewbar><span>点击或拖入替换 · 右键操作物件</span><span>光线与接地阴影自动匹配</span></div>
+      <div class="atelier-walkbar" data-walkbar hidden><span>拖动环看 · 点圆圈走过去</span><div><button data-walk-destination="aisle">客厅通道</button><button data-walk-destination="dining">餐桌前</button><button data-walk-destination="window">窗边</button><button data-walk-home>回到起点</button><button data-walk-save>保存当前视角</button></div></div>
+      <p class="atelier-status" data-status role="status" aria-live="polite">拖放或点击右侧物件，自动更新效果。右键可替换、删除；手机长按也可以。</p>
+      <div class="atelier-foot"><span data-result-note>设计场景 · 尺寸待实测</span><div><a data-save-image hidden download="tingjian-room.png">保存效果</a><button data-export>导出方案</button><button data-reset>恢复初始搭配</button></div></div>
+    </div>
+    <aside class="atelier-sidebar" aria-label="家具与材料列表">
+      <div class="atelier-sidebar-title"><h3>为这一处，换个选择</h3><button type="button" data-side-toggle aria-label="收起或展开素材列表" aria-expanded="true">−</button></div>
+      <div data-sidebar-content>
+        <div class="atelier-categories" role="group" aria-label="素材品类"><button data-category="table" aria-pressed="true">桌几</button><button data-category="sofa" aria-pressed="false">坐具</button><button data-category="rug" aria-pressed="false">地毯</button><button data-category="floor" aria-pressed="false">地面</button></div>
+        <div class="atelier-catalog" data-catalog></div>
+        <div class="atelier-object-actions"><button data-remove>移除这一件</button><button data-restore>恢复原物件</button></div>
+        <details class="atelier-object-list" open><summary>场景单体 <span>4 个独立物件</span></summary><div data-object-list></div></details>
+        <details class="atelier-adjust" open><summary>尺寸与位置 <span data-size-label></span></summary><div data-adjust-fields>
+          <label><span data-length-label>长边 / cm</span><input type="number" data-size min="50" max="350" step="1"></label>
+          <label>朝向 <input type="range" data-angle min="-15" max="15" step="1"><output data-angle-label>0°</output></label>
+          <label>左右 <input type="range" data-offset min="-15" max="15" step="1"><output data-offset-label>0 cm</output></label>
+          <p data-dimensions></p>
+        </div><p class="atelier-micro" data-size-note>尺寸为模型试摆值，购买前请用厂家尺寸校准。</p></details>
+        <details class="atelier-sources"><summary>素材来源与查看范围</summary><p>EDITION 灵感方案由你的参考图与酒店公开资料提炼，家具是独立三维模型与饰面搭配，不是酒店同款或官方设计。坐具分类包括沙发与单椅；选单椅会替换当前坐具。</p><a href="/tour/edition-assets/credits.json" target="_blank" rel="noreferrer">新增模型与材质来源</a><p>模型 A、B 是你提供的地毯，保留原纹理与比例；「图片试建」为网店参考图的近似重建。</p><a href="/tour/user-assets/manifest.json" target="_blank" rel="noreferrer">查看地毯转换记录</a><p>当前支持同一客厅固定视角试摆。图片饰面、模型光照与尺寸均为设计参考，未接入房屋实景扫描；后台精细渲染尚未接入。</p><a href="https://www.editionhotels.com/shanghai/rooms-and-suites/" target="_blank" rel="noreferrer">EDITION 设计灵感参考</a><a href="/tour/catalog-assets/credits.json" target="_blank" rel="noreferrer">原有素材来源（CC0）</a><button data-sample>查看黑漆茶几预制样张</button></details>
+      </div>
+    </aside>
+  </div>
+  <div class="atelier-style-note" data-style-note hidden>这一张保留原方案效果。<button data-back-to-edit>返回空间设计</button></div>
+  </div>
+  <div class="atelier-hover" data-hover hidden aria-hidden="true"><img data-hover-image alt=""><strong data-hover-title></strong><span data-hover-meta></span></div>
+  </div>
+  </div>
+</div>

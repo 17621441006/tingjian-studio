@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {build} from 'esbuild';
+const source=process.argv[2];if(!source)throw Error('Pass the existing daan-vr directory');
+const {nodes}=await import(path.join(source,'source/tour-data.mjs'));
+const {styles}=await import(path.join(source,'source/styles.mjs'));
+const out='dist/tour';await fs.mkdir(out,{recursive:true});
+await build({entryPoints:[path.join(source,'source/tour.js')],bundle:true,minify:true,write:true,outfile:out+'/tour.js'});
+const assets={};for(const style of styles){assets[style.id]={};const dest=out+'/assets/'+style.id;await fs.mkdir(dest,{recursive:true});for(const room of nodes){const key=style.id==='east'?room.id:style.id+'/'+room.id;const record={};for(const [kind,src]of [['pano',source+'/assets/'+key+'-full.jpg'],['poster',source+'/assets/'+key+'-poster.jpg'],['thumb',source+'/assets/hd/'+style.id+'/'+room.id+'-thumb.jpg'],['hd',source+'/assets/hd/'+style.id+'/'+room.id+'.jpg']]){const name=room.id+'-'+kind+'.jpg';await fs.copyFile(src,dest+'/'+name);record[kind]='./assets/'+style.id+'/'+name;}assets[style.id][room.id]={...record,hdWidth:1586,hdHeight:992};}}
+let template=await fs.readFile(source+'/source/tour.template.html','utf8');template=template.replace('__ASSETS__',JSON.stringify(assets)).replace('data-legacy-source>__LEGACY__','data-legacy-source data-url="./legacy.html">').replace('<script>__BUNDLE__</script>','<script src="./tour.js" defer></script>');
+await fs.copyFile(source+'/previous/daan-three-spaces.html',out+'/legacy.html');
+const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>庭间 · 全屋漫游</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23394b3c'/%3E%3Cpath d='M17 46V18h30v28M25 46V30h14v16M17 25h30' fill='none' stroke='%23f7f3e9' stroke-width='3'/%3E%3C/svg%3E"><style>body{margin:0;padding:28px 30px 48px;background:#edf0e9;font-family:system-ui,-apple-system,'PingFang SC',sans-serif}.site-link{display:flex;justify-content:space-between;align-items:center;max-width:1240px;margin:0 auto 18px;font-size:14px;color:#56694b}.site-link a{color:inherit;text-decoration:none;padding:6px 0}.site-link small{font-size:12px;color:#819174}@media(max-width:700px){body{padding:14px 0}.site-link{padding:0 15px}.site-link small{display:none}}</style></head><body><nav class="site-link"><a href="/">← 返回家具实验室</a><small>全屋设计漫游 · 4 套风格 · 8 个位置</small></nav>${template}</body></html>`;
+await fs.writeFile(out+'/index.html',html);console.log('Web tour: 32 panoramic views + 32 HD stills + legacy preserved');

@@ -1,0 +1,11 @@
+Use case: precise-object-edit
+Asset type: Photorealistic room clean plate for compositing actual 3D furniture models.
+Input image: The supplied image is the EDIT TARGET, a 1536 × 1024 designed living room with the coffee table already removed.
+
+Make one precise removal edit to this existing image. Completely remove the entire brown leather sofa on the RIGHT, including all sofa cushions, pillows, and the cream throw. Completely remove the woven foreground rug. Remove the tall foreground plant at the very right edge in front of the sofa, including every visible leaf, branch, and pot. These objects must leave an entirely empty foreground seating area.
+
+Reconstruct only the surfaces formerly hidden by these removed foreground objects. Extend the room's original warm walnut wooden plank floor continuously across the newly empty area, precisely matching the existing plank perspective, grain, scale, board direction, seams, warm color, reflections, and natural lighting. Reveal the matching plain warm white lower wall behind the removed sofa, with a consistent existing baseboard and a natural wall-to-floor junction. Preserve plausible, subtle existing environmental shadows on the empty floor; remove shadows belonging solely to the removed objects.
+
+Strict invariants: Keep the exact original camera position, lens, perspective, framing, aspect ratio, and 1536 × 1024 dimensions. Keep ALL other room features identical in their positions, shapes, details, materials, colors, and lighting: the TV and walnut media console on the left, everything on that console, the LEFT vase/plant, glass partition and patterned panel, left alcove, bookshelf and its contents, rear dining table and all chairs, table bowl and vase/branches, rear cabinet with books and lamp, existing rear door and wall controls, both paintings, walls, ceiling structure, ceiling lights, and hanging lights. Do not alter the rear dining furniture. Do not remove the left plant. Preserve the large right-wall artwork exactly.
+
+This is a clean plate, not a redesign. Edit only the specified removable foreground objects and the surfaces they occlude. No new furniture. No rug. No foreground plant at the right edge. No new doors or windows. No change to room architecture. Do not zoom, crop, tilt, widen, reframe, or restyle the image.

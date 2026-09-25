@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "products": 10,
+  "brands": 10,
+  "actualThreeBuilders": 2,
+  "fullscreen": [
+    "allowed",
+    "rejected",
+    "unavailable"
+  ],
+  "method": "Asset existence, official catalog records, actual Three.js material and state checks; DOM fullscreen boundary tested, not GPU/browser QA"
+}

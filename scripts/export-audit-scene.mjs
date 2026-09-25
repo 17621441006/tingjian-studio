@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+let s=await fs.readFile('src/scene.mjs','utf8');
+s=s.replace("from './state.mjs'","from '../src/state.mjs'");
+s=s.replace("new THREE.WebGLRenderer({canvas,antialias:true,alpha:false,powerPreference:'high-performance'})","({setPixelRatio(){},shadowMap:{},capabilities:{getMaxAnisotropy(){return 8;}}})");
+s=s.replace(/const controls=new OrbitControls\(camera,canvas\);/,'const controls={};');
+s=s.replace(/const environment=new RoomEnvironment\(\);[\s\S]*?environment.dispose\(\);pmrem.dispose\(\);/,'');
+s=s.replace("texloader.load('/assets/textures/'+name+'.jpg',()=>request?.())","new THREE.Texture()");
+s=s.replace("t.colorSpace=THREE.SRGBColorSpace;","t.userData.path='assets/textures/'+name+'.jpg';t.colorSpace=THREE.SRGBColorSpace;");
+s=s.replace('const models=new Map(),pickables=[]','return {scene,room,camera};\n const models=new Map(),pickables=[]');
+await fs.writeFile('scripts/.audit-scene.mjs',s);
+global.window={devicePixelRatio:1};
+const {createScene}=await import(pathToFileURL(process.cwd()+'/scripts/.audit-scene.mjs'));
+const {scene}=await createScene({});scene.updateMatrixWorld(true);const meshes=[];
+scene.traverse(o=>{if(!o.isMesh)return;const g=o.geometry,m=o.material;if(Array.isArray(m))throw Error('Unsupported material');meshes.push({name:o.name,position:Array.from(g.attributes.position.array),normal:Array.from(g.attributes.normal.array),uv:g.attributes.uv?Array.from(g.attributes.uv.array):null,index:g.index?Array.from(g.index.array):null,matrix:o.matrixWorld.elements,color:m.color?.toArray()||[1,1,1],opacity:m.opacity,unlit:m.isMeshBasicMaterial||false,texture:m.map?.userData.path||null,repeat:m.map?.repeat.toArray()||[1,1],castShadow:o.castShadow,receiveShadow:o.receiveShadow});});
+await fs.mkdir('/workspace/scratch/aa0f93406d63/studio-audit',{recursive:true});
+await fs.writeFile('/workspace/scratch/aa0f93406d63/studio-audit/scene.json',JSON.stringify(meshes));await fs.unlink('scripts/.audit-scene.mjs');console.log('Offline audit geometry exported:',meshes.length);
