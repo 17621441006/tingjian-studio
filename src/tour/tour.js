@@ -12,5 +12,6 @@ frame.src='/tour/legacy.html';
 window.addEventListener('message',event=>{
  if(event.origin!==location.origin||event.source!==frame.contentWindow)return;
  if(event.data?.type==='tingjian:studio-height'){const h=Number(event.data.height);if(Number.isFinite(h))frame.style.height=Math.max(800,Math.min(9000,h))+'px';}
+ if(event.data?.type==='tingjian:music-gesture')player.retryAutoplay();
  if(event.data?.type==='tingjian:music-theme')player.setTheme(event.data.design);
 });

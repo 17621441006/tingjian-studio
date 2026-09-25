@@ -8,6 +8,6 @@
     "Reference-unit scaling, rotation, no-mutation edits, bounds/overlap warnings, invalid inputs and save/import round-trip",
     "Main DOM hooks, routes, view modes and feature-detected WebMCP registration present",
     "Current design, music player and retained furniture lab routes present; historical VR removed",
-    "All public assets below 25 MiB; total 237.2 MiB"
+    "All public assets below 25 MiB; total 247.0 MiB"
   ]
 }
