@@ -1,3 +1,4 @@
+// sync-trigger: 2026-09-26 re-run after repository public/archive setup
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
