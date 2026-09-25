@@ -16,4 +16,4 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build && npm run check && node scripts/prepare-hosting.mjs
-      - run: node scripts/check-assets.mjs && node scripts/check-v18-vr.mjs && node scripts/check-v17-ui.mjs && node scripts/check-v17-floors.mjs && node scripts/check-v16-assets.mjs && node scripts/check-v16-model.mjs
+      - run: node scripts/check-v19-music.mjs && node scripts/check-assets.mjs && node scripts/check-v18-vr.mjs && node scripts/check-v17-ui.mjs && node scripts/check-v17-floors.mjs && node scripts/check-v16-assets.mjs && node scripts/check-v16-model.mjs

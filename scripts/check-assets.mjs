@@ -7,9 +7,11 @@ import {createHash} from 'node:crypto';
 // downloaded HTTP responses. This rejects login pages and LFS pointer stubs.
 const manifest=JSON.parse(await fs.readFile('verification/v17/dist-manifest.json','utf8'));
 assert.equal(manifest.fileCount,692);
+const retired=new Set(JSON.parse(await fs.readFile('verification/v19/retired-assets.json','utf8')).files.map(f=>f.path));
 let bytes=0,images=0,models=0,dependencies=0,files=0;
 for(const entry of manifest.files){
   // HTML, JS and CSS are rebuilt in later versions; original media remain byte-identical.
+  if(retired.has(entry.path)){await assert.rejects(fs.access(entry.path));continue;}
   if(/\.(?:html|js|css)$/.test(entry.path))continue;
   files++;
   assert(entry.path.startsWith('dist/')&&!entry.path.includes('..'));
@@ -40,9 +42,9 @@ for(const entry of manifest.files){
     }
   }
 }
-assert.equal(images,630);
+assert.equal(images,manifest.files.filter(e=>e.width&&!retired.has(e.path)).length);
 assert(bytes<900*1024*1024);
 const result={passed:true,sourceSiteCommit:manifest.sourceSiteCommit,files,images,models,modelDependencies:dependencies,bytes,MiB:Number((bytes/1024/1024).toFixed(2)),originalBytesPreserved:true};
 await fs.mkdir('verification/v18',{recursive:true});
-await fs.writeFile('verification/v18/original-asset-audit.json',JSON.stringify(result,null,2)+'\n');
+await fs.writeFile('verification/v19/original-asset-audit.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify(result,null,2));

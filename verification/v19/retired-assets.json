@@ -1,0 +1,701 @@
+{
+  "reason": "User requested retiring historical category VR and heavy media; furniture lab retained",
+  "files": [
+    {
+      "path": "dist/tour/assets/haipai/dining-thumb.jpg",
+      "bytes": 22726,
+      "sha256": "991cbfa0e95efd35ecbf47a1a1c70eb40b607f3f79140953cd8caba5da006b89"
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-thumb.jpg",
+      "bytes": 17883,
+      "sha256": "baaca4e17b5f1704aa3ff5664aeceb28839237a6fb45a2386cd8ea363416b7c5"
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-poster.jpg",
+      "bytes": 54847,
+      "sha256": "6ba3ae1f3a0b7c1458b570d0f86889d05586806a296a732f9ddf097b0f155d76"
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-pano.jpg",
+      "bytes": 493331,
+      "sha256": "53b75c1503d8073a6ea1a3d15c8ed6b800315b6bf8293e76ccee156ac9ac2ee0"
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-hd.jpg",
+      "bytes": 576505,
+      "sha256": "325e66e5c509dc7d92b26b5ae23df245880d3963bad32d91b88944d46014e3c6"
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-pano.jpg",
+      "bytes": 579739,
+      "sha256": "a4ad1828285702f134c701f7b5eacfdb6616c421bebfdf93db713ac05a8db86d"
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-pano.jpg",
+      "bytes": 565825,
+      "sha256": "7facad11233d9e32d5572d10415cb5b050c7f7bcee4f058b9a3c805e4984b109"
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-pano.jpg",
+      "bytes": 481446,
+      "sha256": "0db8a0491cfa46a6b2f46e872bc8f920c0cfa9e9f3d23ff4805bf19d68cc8c78"
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-hd.jpg",
+      "bytes": 593534,
+      "sha256": "3facd45f23c9ddebd83469fc4a6ac9679ae65feb329209dc9e09352f35ca9861"
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-pano.jpg",
+      "bytes": 501499,
+      "sha256": "ae47ea3a1de13b2be5d0f2484cb103bfb3ac79502686cafed63e0fafb6bd028c"
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-thumb.jpg",
+      "bytes": 23394,
+      "sha256": "9846e68a2c1f8642e77d8d23ae8e4616c1c2c4d69cec53779330a295c4726a8b"
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-hd.jpg",
+      "bytes": 672013,
+      "sha256": "5635bb5c5f905380cd472d67f0ee2346141aa7633e0594c8a598bf271a4a9ddb"
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-thumb.jpg",
+      "bytes": 23725,
+      "sha256": "0a1be1af16b9431d6445d4046c66f022048604cde04b54495f36e544605d3b59"
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-poster.jpg",
+      "bytes": 54998,
+      "sha256": "5eeaab99f782f65e6e67462f389b72a3584542f5659551a743977502353ab215"
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-poster.jpg",
+      "bytes": 65518,
+      "sha256": "01845c752bcc162999fe2002f43d1bd1958328408d20e179466598cfca79ef0a"
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-pano.jpg",
+      "bytes": 552877,
+      "sha256": "296189d75bc311eeeef09b235d037fb446983c173a577f2f8c23ff1774ea9f11"
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-thumb.jpg",
+      "bytes": 17247,
+      "sha256": "e159c17da17361fa128bbb040af1b02cd848b00013b300ddf948f9f6fc84e06f"
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-hd.jpg",
+      "bytes": 715465,
+      "sha256": "4a4d44b97f8deb31ec0d027cdfd6fc091c8929f273a444eccbb094d6459c3c66"
+    },
+    {
+      "path": "dist/tour/assets/haipai/balcony-thumb.jpg",
+      "bytes": 21665,
+      "sha256": "6667828e609ee29380f14a9f6dc9b80bd2ead9eb624a2ecb28bc22c61c87e929"
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-thumb.jpg",
+      "bytes": 18247,
+      "sha256": "5bc44be5b348b9cd9f6a6ae76f927f46037d80429b55169b8a39e099ae4e8017"
+    },
+    {
+      "path": "dist/tour/assets/haipai/living-poster.jpg",
+      "bytes": 63479,
+      "sha256": "7fa419a1897356dfd0dbf688e29f3c2fb46d980a284ffd2209992a03f4491565"
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-thumb.jpg",
+      "bytes": 19371,
+      "sha256": "fd9e1ab220ff1f2c822329ed889870042e80563edd4eaf906906aabcf349b414"
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-pano.jpg",
+      "bytes": 501115,
+      "sha256": "ed1c05ddedc4f1f47a4e180b188f73b35ee9e80f986e6990cb4a089175cf7fd3"
+    },
+    {
+      "path": "dist/tour/assets/haipai/master-poster.jpg",
+      "bytes": 49033,
+      "sha256": "a3e23a4c72811390ea9a9a6babc7efba9df56d547fd8bc7c33098cabbb95fe79"
+    },
+    {
+      "path": "dist/tour/assets/haipai/kitchen-hd.jpg",
+      "bytes": 693088,
+      "sha256": "d82215996868581ce58ff7670bc8de7ebc47fa663308bbf75d97ee4e1d2ad2cf"
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-hd.jpg",
+      "bytes": 702523,
+      "sha256": "6d084e79a42601b7354a696471ac7f265036a8c8661827eae4fd2aebbb02411f"
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-hd.jpg",
+      "bytes": 716681,
+      "sha256": "0d2755a5e2efd31bf850d6ade4f31dae61775e0b134074b5a82e71e59dfd51a7"
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-hd.jpg",
+      "bytes": 557771,
+      "sha256": "eda47ee7b5f91db6e9c22f7a188f7ea6c45e1668a8743d6f2541994d7500a8a1"
+    },
+    {
+      "path": "dist/tour/assets/haipai/second-pano.jpg",
+      "bytes": 499751,
+      "sha256": "f29b3383b67b689c4476788742f7c64a55a69eed9b1b04fded52993ee639071c"
+    },
+    {
+      "path": "dist/tour/assets/haipai/bath-poster.jpg",
+      "bytes": 48309,
+      "sha256": "51530d19f974d3268955311efef2f719739d334341f36e48c4c87081d434ffe9"
+    },
+    {
+      "path": "dist/tour/assets/haipai/dining-poster.jpg",
+      "bytes": 61953,
+      "sha256": "3e51bd4d9e40f2e998f806869fc3e6584582f235a7df1753a979416152259cec"
+    },
+    {
+      "path": "dist/tour/assets/haipai/utility-poster.jpg",
+      "bytes": 47974,
+      "sha256": "260f8c705808b6773cfa5d21d5bf8fafd824782bdab784a7e23235850e9b46f8"
+    },
+    {
+      "path": "dist/tour/assets/future/dining-thumb.jpg",
+      "bytes": 23789,
+      "sha256": "a24877e530cb9005bcacb3520fbf099143161480272c90c2e8494dfd50865426"
+    },
+    {
+      "path": "dist/tour/assets/future/master-thumb.jpg",
+      "bytes": 18376,
+      "sha256": "5b3c314299bb298d83a8c59d7c6770c9d18a07b0321fa543a67a97a0d2e341a4"
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-poster.jpg",
+      "bytes": 55593,
+      "sha256": "44e682ec386e2a6248bb385857ff8a1d4fc8a931597b743f00ea26016f5da674"
+    },
+    {
+      "path": "dist/tour/assets/future/living-pano.jpg",
+      "bytes": 486118,
+      "sha256": "3d2097a281815c4f46c3f1b9e9a5916b4219eed2e4b6a5dae52292860f564714"
+    },
+    {
+      "path": "dist/tour/assets/future/utility-hd.jpg",
+      "bytes": 553338,
+      "sha256": "db0eab77de96a9de449446fe7b4f2de39642a13b367b92192eb79b397dc07f1a"
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-pano.jpg",
+      "bytes": 571624,
+      "sha256": "78e9dff2d272eda035c9b4cf3d665f4a299581f65af3f1374fa80729a76a48d3"
+    },
+    {
+      "path": "dist/tour/assets/future/utility-pano.jpg",
+      "bytes": 564853,
+      "sha256": "df5d873f0060d9ec1384dcef971dd6dc8e02547c3a41997b3d3f9a81548c9d03"
+    },
+    {
+      "path": "dist/tour/assets/future/master-pano.jpg",
+      "bytes": 478493,
+      "sha256": "21f1dd1036f9c4d09fe11fcbcece3628579bc8a5b545b3c9e2730f404d98f332"
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-hd.jpg",
+      "bytes": 638595,
+      "sha256": "17be01215f7ec5e26e60911999e0cb9e65ed0a14ce2ade9474f30ecad4e2879a"
+    },
+    {
+      "path": "dist/tour/assets/future/dining-pano.jpg",
+      "bytes": 475527,
+      "sha256": "40aafdcdcb3a45c865c4112ca38230ea7fa330cdce4ee7032ea0efb7e2a6ae57"
+    },
+    {
+      "path": "dist/tour/assets/future/second-thumb.jpg",
+      "bytes": 22115,
+      "sha256": "c44bef14e67d933c5d996cb303606beb7f2d755bbb554d698092287a32714433"
+    },
+    {
+      "path": "dist/tour/assets/future/master-hd.jpg",
+      "bytes": 722246,
+      "sha256": "11c2c9037a22bd994e283d8d514629d3656e70662622e5f2e918b086d1e92fba"
+    },
+    {
+      "path": "dist/tour/assets/future/living-thumb.jpg",
+      "bytes": 24284,
+      "sha256": "9f0e6a262c7f826f96ae4eccd7b9ae275c718a6f723c7ce5636c58893788fb55"
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-poster.jpg",
+      "bytes": 52638,
+      "sha256": "57b82548389db288fdd48e36c8cce6ee860f1277a0b77aac6342e517e60a0c25"
+    },
+    {
+      "path": "dist/tour/assets/future/second-poster.jpg",
+      "bytes": 61014,
+      "sha256": "2822ff8730ad4b1da65616c7f0fe39efe551a1e06da667f21b6961f3587334e0"
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-pano.jpg",
+      "bytes": 505732,
+      "sha256": "c72bac211514989b2cbd087861249b2d8c7dda51515cd79f95aa71ce3181558d"
+    },
+    {
+      "path": "dist/tour/assets/future/bath-thumb.jpg",
+      "bytes": 19112,
+      "sha256": "22b29b1b87545586dea15f87c26067c11a1d4a9db975007c9f53a6c56602f915"
+    },
+    {
+      "path": "dist/tour/assets/future/living-hd.jpg",
+      "bytes": 852495,
+      "sha256": "5c13e52eef5ac90dfb5248e47383941f8d95af003956c0524892498bb5f03aa8"
+    },
+    {
+      "path": "dist/tour/assets/future/balcony-thumb.jpg",
+      "bytes": 20457,
+      "sha256": "0d24e6072bb00a829379c4a520a79ae7052063fb13358a4a016ef133cb471a6e"
+    },
+    {
+      "path": "dist/tour/assets/future/utility-thumb.jpg",
+      "bytes": 19295,
+      "sha256": "1d9e4711948e287785c3e80aa676ac4dffb281a32bc5d140c44520165e505c83"
+    },
+    {
+      "path": "dist/tour/assets/future/living-poster.jpg",
+      "bytes": 65893,
+      "sha256": "a1418a091a71b7a0ce68f20bb9e7fc8c2ce797bdde42c7a2b1c70247902ac144"
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-thumb.jpg",
+      "bytes": 20008,
+      "sha256": "ae7c2435e529b714045e2fb4617510ce082c596260955cfa55e8ff10c4e13d41"
+    },
+    {
+      "path": "dist/tour/assets/future/bath-pano.jpg",
+      "bytes": 485444,
+      "sha256": "6b21b3c1d5c54101752b458d5f40e2aa827857656a24bd122c4a5ef21a64cd31"
+    },
+    {
+      "path": "dist/tour/assets/future/master-poster.jpg",
+      "bytes": 51647,
+      "sha256": "df3b96aa3585a66aac9eb8d011f1103076c8766bf7664da6eea7e40ed02cc1e9"
+    },
+    {
+      "path": "dist/tour/assets/future/kitchen-hd.jpg",
+      "bytes": 626307,
+      "sha256": "af159872d5393ffaa3fb980917f22ada317d680038b81d921da8e9faf4741d28"
+    },
+    {
+      "path": "dist/tour/assets/future/dining-hd.jpg",
+      "bytes": 801549,
+      "sha256": "21eb11d1f1c6eac26f1d5fb6278c1031e10481622e21291507f55e740f2f62cf"
+    },
+    {
+      "path": "dist/tour/assets/future/second-hd.jpg",
+      "bytes": 670204,
+      "sha256": "b2d9786708c0f30afde3644e76cf404e752dd6a7cb76abb834a2cc751ac34fa5"
+    },
+    {
+      "path": "dist/tour/assets/future/bath-hd.jpg",
+      "bytes": 670301,
+      "sha256": "c0099d596ece81b9b5da3a1940536d3de3bf83d3872c7d76dcfa33e8c175706a"
+    },
+    {
+      "path": "dist/tour/assets/future/second-pano.jpg",
+      "bytes": 468847,
+      "sha256": "9a20222b64974b16ef6a50e8149426fa32ce8a799cf92fa9619fa1d76468cb12"
+    },
+    {
+      "path": "dist/tour/assets/future/bath-poster.jpg",
+      "bytes": 54397,
+      "sha256": "f6c6f0f7502da949036311495c34e63aeccf4ad550bad8c14f5d74bd21785756"
+    },
+    {
+      "path": "dist/tour/assets/future/dining-poster.jpg",
+      "bytes": 64297,
+      "sha256": "a3d7b3e387f87bcd07d0af447421a6b2d8950dfbc2eb3b376eaafde5584f5c81"
+    },
+    {
+      "path": "dist/tour/assets/future/utility-poster.jpg",
+      "bytes": 51138,
+      "sha256": "f1738269ec83b314b3da847e3b75da708afad162861d515726dc099527ea3736"
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-thumb.jpg",
+      "bytes": 21076,
+      "sha256": "950e2e87bd3897d3423758f89bff16a6e5450bd7e04f13c8913501086e76d17c"
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-thumb.jpg",
+      "bytes": 16678,
+      "sha256": "e0a9b0082ede1a616c0599435a94df26cc42abb02193fb6d919f38ec06e99b4b"
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-poster.jpg",
+      "bytes": 55981,
+      "sha256": "0551cc88751d37474d0572fb6b7bbe15fd3e667e5c3756395fbaccefec64cf02"
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-pano.jpg",
+      "bytes": 432100,
+      "sha256": "f29fd1fb9915354569474abcddb88d146c6c734217dace11813d91beb24eb8b6"
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-hd.jpg",
+      "bytes": 530568,
+      "sha256": "4878dc3f653041f95deb86ec00152a5f30f06d702cd7090cc9d1dc485e246a72"
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-pano.jpg",
+      "bytes": 546917,
+      "sha256": "4676e39709b085648f83750b2d5751729b2f4d6c3d23f6c7c3f716b6a44f98f0"
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-pano.jpg",
+      "bytes": 522998,
+      "sha256": "58a510a6a43ce1dd7574de047ff996005e8e0565f1dacad5428e0f36660a8771"
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-pano.jpg",
+      "bytes": 455960,
+      "sha256": "2187568ea25fd68b4e0016a9e318e6744207e60b376514a5f20d6797ae86bcc7"
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-hd.jpg",
+      "bytes": 627227,
+      "sha256": "91b7957fdacc2b7419607033658184a256b4384b7255835c19aef1e9432b8830"
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-pano.jpg",
+      "bytes": 410493,
+      "sha256": "336a50b1b0321570425b002e941e6e4709571b2015975e2fc20f5b13458b7d4c"
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-thumb.jpg",
+      "bytes": 22800,
+      "sha256": "caf85573f10d68d334a2d8b5f0a7ce779ccdd49dc847d18f23192fe9c905e792"
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-hd.jpg",
+      "bytes": 669046,
+      "sha256": "7e997196ffe3eb02f680f3e20c3f6a1078c19906afcd4b1b0ae0fc40626e7b3f"
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-thumb.jpg",
+      "bytes": 22362,
+      "sha256": "31aac678a332526c5406f659d7f57d6c49ae24635dd4e74491d8eb13bf79a8e0"
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-poster.jpg",
+      "bytes": 51583,
+      "sha256": "20c1617ffd481f37a06eb88546968ac068ae3012acf383d5acdeacc14fc16220"
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-poster.jpg",
+      "bytes": 61686,
+      "sha256": "1167a6eda1bb07ef463ed2b5c969bfb7f8bd4a950560bfbd290bceb105cc073a"
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-pano.jpg",
+      "bytes": 496074,
+      "sha256": "adc7131f27094192c7ee67616ceba7c412560ae6afd61bc4e6efb59e51f5373c"
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-thumb.jpg",
+      "bytes": 17897,
+      "sha256": "a9add21972fca85e19cb1cff5479465c0f59dca1d1aa411a9b35eb5723628036"
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-hd.jpg",
+      "bytes": 766724,
+      "sha256": "dd9f9b02579414a925706eb169da20d637b05de4642430d2c40e9c48b7da6dde"
+    },
+    {
+      "path": "dist/tour/assets/wabi/balcony-thumb.jpg",
+      "bytes": 19657,
+      "sha256": "49a5800d49c2eda7b8978bab26d5a744aa27de759636c14f6d2829c3fe376174"
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-thumb.jpg",
+      "bytes": 18194,
+      "sha256": "cf2b8374d40bdc633ffedc9af0f05612122cbfbc40791c219fa2c043fbfb5c68"
+    },
+    {
+      "path": "dist/tour/assets/wabi/living-poster.jpg",
+      "bytes": 59385,
+      "sha256": "b568ccb03f2205a52757b94dbc89ec6dac1c89e1b2759f7de078a012cd0bfb11"
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-thumb.jpg",
+      "bytes": 19150,
+      "sha256": "72c94527c1fa728cd1c31beb2555fa003803eeeecfe8d7eec531920c4ce40d44"
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-pano.jpg",
+      "bytes": 514739,
+      "sha256": "49682bf6efb2f406900933d86a90cfdb9cbb2b756c053ba16d5cabb05db3086c"
+    },
+    {
+      "path": "dist/tour/assets/wabi/master-poster.jpg",
+      "bytes": 45336,
+      "sha256": "ce6da0d13ab75ddf62ff521331aed1a63ba35e2ae21f4d23189d4dec9a8ab101"
+    },
+    {
+      "path": "dist/tour/assets/wabi/kitchen-hd.jpg",
+      "bytes": 698792,
+      "sha256": "e3ed12074d09fa1ff3eb2ae9d83353ab64925befb21e03a64e2adf9eeab12179"
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-hd.jpg",
+      "bytes": 757484,
+      "sha256": "e0e21a5968378da9f0e6346a7e4c3af334eace4be15029a1849d0ef6b1bc646a"
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-hd.jpg",
+      "bytes": 730627,
+      "sha256": "e08a4272058a78fb9dba7fd8cdf1ffa234aab7f6533cb19bc63aa90166f04d02"
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-hd.jpg",
+      "bytes": 732763,
+      "sha256": "75a3565419fa41a9660256dc63db8b4239b9c1857a7c6059ca06a3cd7e65bbec"
+    },
+    {
+      "path": "dist/tour/assets/wabi/second-pano.jpg",
+      "bytes": 440743,
+      "sha256": "f98b9396c4111370f99f1c5f401636d294991ef22b8e6a021150ab5b81b682f0"
+    },
+    {
+      "path": "dist/tour/assets/wabi/bath-poster.jpg",
+      "bytes": 51402,
+      "sha256": "5538d51da3e2553245dc92f1524f8446dda269a649984efbeb4ec3131de4b8c1"
+    },
+    {
+      "path": "dist/tour/assets/wabi/dining-poster.jpg",
+      "bytes": 55483,
+      "sha256": "bedb375f60cc99abe58dfe6bcf7e8022529abd30f86539e4accf2226d098d2b3"
+    },
+    {
+      "path": "dist/tour/assets/wabi/utility-poster.jpg",
+      "bytes": 49037,
+      "sha256": "7ecfad5a65249228198c8f034b41a5e6609e2071b6393020514779cc0ee499e7"
+    },
+    {
+      "path": "dist/tour/assets/east/dining-thumb.jpg",
+      "bytes": 22028,
+      "sha256": "01bc54a7f1918d9115d26b2d5d136b106f39cd3c161d2189723cb2c3039c77e2"
+    },
+    {
+      "path": "dist/tour/assets/east/master-thumb.jpg",
+      "bytes": 16824,
+      "sha256": "2c1269f4a07d65ea6182bd6c6e4274b438e2c73e93d385eb93bce2f2c9fbbc00"
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-poster.jpg",
+      "bytes": 54704,
+      "sha256": "5053ae30aec3d2ba4311a130680d9d4619f6ef06be867c02dfc5bb28800e6142"
+    },
+    {
+      "path": "dist/tour/assets/east/living-pano.jpg",
+      "bytes": 448591,
+      "sha256": "41e0557735d0577450a334d7b93e62657f3114d82b5dd923de91d81dbb0a9fcf"
+    },
+    {
+      "path": "dist/tour/assets/east/utility-hd.jpg",
+      "bytes": 529193,
+      "sha256": "594a2e1c4ec3f8b4299bd9736ab80d13fc80f824b4c486f44eb5dc38dc014c49"
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-pano.jpg",
+      "bytes": 563162,
+      "sha256": "b08a86586e98a8035b97bfff18d6cdee586bddba46b4007c97ef5c7ecb23ebf2"
+    },
+    {
+      "path": "dist/tour/assets/east/utility-pano.jpg",
+      "bytes": 525077,
+      "sha256": "b4356075170735fb1a701e85a72ac1d7707b36270785557aafd54f2d5968fc66"
+    },
+    {
+      "path": "dist/tour/assets/east/master-pano.jpg",
+      "bytes": 458432,
+      "sha256": "7556d57ceb62a68518228c7af7ce76b8b326614ed3030850722b90931c6b93bb"
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-hd.jpg",
+      "bytes": 638326,
+      "sha256": "88fd35a4ac4e8e0ef58f8671c049893afee04858653dbdfacb544bb373d437d0"
+    },
+    {
+      "path": "dist/tour/assets/east/dining-pano.jpg",
+      "bytes": 454577,
+      "sha256": "aa93d6b075ee0ceca582b7ca6ae500416476a779b13a38b524142faab16f1b4d"
+    },
+    {
+      "path": "dist/tour/assets/east/second-thumb.jpg",
+      "bytes": 22404,
+      "sha256": "2705510f9bd914319ebc4f7f224b8a2e84841b3d95d0598c1d51ef0b650e076e"
+    },
+    {
+      "path": "dist/tour/assets/east/master-hd.jpg",
+      "bytes": 609373,
+      "sha256": "5b3bb571cd8a9296e8fd6e8dd3e1b45bc5b85a69796f7bd9238328b0dbc96d7c"
+    },
+    {
+      "path": "dist/tour/assets/east/living-thumb.jpg",
+      "bytes": 24163,
+      "sha256": "6c0775130e3f0777aad51dce09774b48c88a26ea150212fb7a2b02bbcecfb45b"
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-poster.jpg",
+      "bytes": 54745,
+      "sha256": "087f805d3250efc7449a72a77efa2ed28186b0b6747d6d8eb7a734df704bab94"
+    },
+    {
+      "path": "dist/tour/assets/east/second-poster.jpg",
+      "bytes": 62864,
+      "sha256": "804ae925fa76efdd022a15e26eea707d04a088621e41c16720e9cc0733c6bb38"
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-pano.jpg",
+      "bytes": 480436,
+      "sha256": "84120e3a5cb67a8541f2c8e15000959c2c3d074f0a00ddd215ff7718d4466981"
+    },
+    {
+      "path": "dist/tour/assets/east/bath-thumb.jpg",
+      "bytes": 16608,
+      "sha256": "3d1a07f221cc4aca666d9019d099f7f50a445d87c73a34215ddf6dfcf5c05b0e"
+    },
+    {
+      "path": "dist/tour/assets/east/living-hd.jpg",
+      "bytes": 729447,
+      "sha256": "675548591549abffdec7c468b5f6106397ce3a6a5cafcab9cd9852894c2066c5"
+    },
+    {
+      "path": "dist/tour/assets/east/balcony-thumb.jpg",
+      "bytes": 20596,
+      "sha256": "3b9d8f722e6e83550e39bfba297b80679abb7e59967405ae19621a12370e1ae8"
+    },
+    {
+      "path": "dist/tour/assets/east/utility-thumb.jpg",
+      "bytes": 18908,
+      "sha256": "321ef7a68964bb2724c222eb89c9ff276975f63f739a2612a29bb64fa529fad2"
+    },
+    {
+      "path": "dist/tour/assets/east/living-poster.jpg",
+      "bytes": 65093,
+      "sha256": "5c233bbc61f983997ef0bf42e0351d6af4b4bd481bec8561236ea66e030c95d5"
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-thumb.jpg",
+      "bytes": 19636,
+      "sha256": "b3d09a5949235770f4b48f66e18d420bea056e9b89bd8942c381693beb8b85ee"
+    },
+    {
+      "path": "dist/tour/assets/east/bath-pano.jpg",
+      "bytes": 474285,
+      "sha256": "4acf0468864de38c1ca8b73005014b8617bc99e7eee6eafd1b6450ab5299541b"
+    },
+    {
+      "path": "dist/tour/assets/east/master-poster.jpg",
+      "bytes": 48354,
+      "sha256": "e9c0c9eb35d932e4329b6326e29d02918e704f227cdead57b39026d71874b0a7"
+    },
+    {
+      "path": "dist/tour/assets/east/kitchen-hd.jpg",
+      "bytes": 691730,
+      "sha256": "38e1877cd965a0abef98e5fb71e42538424d4c48180c665a674d7ea02951f7b4"
+    },
+    {
+      "path": "dist/tour/assets/east/dining-hd.jpg",
+      "bytes": 753313,
+      "sha256": "461c16a4bafd5b77f20b2c7ef49c0223074da5b6f7386d71e06e13d432e3979d"
+    },
+    {
+      "path": "dist/tour/assets/east/second-hd.jpg",
+      "bytes": 698035,
+      "sha256": "f6f25510a88bd701d879db955e997cbf22e7c239c43a377a3e4b3e2297ac3427"
+    },
+    {
+      "path": "dist/tour/assets/east/bath-hd.jpg",
+      "bytes": 607199,
+      "sha256": "1706fdbe0e56973a94d45ee71b0dca8f4275f06942f40337ecef454cc9679a53"
+    },
+    {
+      "path": "dist/tour/assets/east/second-pano.jpg",
+      "bytes": 458197,
+      "sha256": "48bcec2f66f3d4d95410e90d6c68bd399ec1489f1666a8a28dece6abdd6ed6f8"
+    },
+    {
+      "path": "dist/tour/assets/east/bath-poster.jpg",
+      "bytes": 50240,
+      "sha256": "8f6a59150fc31ac0a54f4b97efb62a43e7ae58e735aad01fd0fb2eafad5491ee"
+    },
+    {
+      "path": "dist/tour/assets/east/dining-poster.jpg",
+      "bytes": 61069,
+      "sha256": "4206aa6c3507f4679c65534249297d8c9767d45d485588a47b22e6ffcfc77bbc"
+    },
+    {
+      "path": "dist/tour/assets/east/utility-poster.jpg",
+      "bytes": 49037,
+      "sha256": "806f118c575c425e7bc073e199e0055e5bf0d1ef923a72dd1d70a2251f6a05cb"
+    },
+    {
+      "path": "dist/tour/history.html",
+      "bytes": 44696,
+      "sha256": "a061d7ae21eebfb255abb20680e21aebf87e231a98cc07c0ffbb6a43a43d8939"
+    },
+    {
+      "path": "dist/tour/history-trial.css",
+      "bytes": 52645,
+      "sha256": "62f4f71182b396268139320243a318b2e0f6b15f01a6d3a17f873da8ec9728d6"
+    },
+    {
+      "path": "dist/tour/history-gallery.js",
+      "bytes": 2521,
+      "sha256": "02a33728b6ccfdcaccd9586cf62c8783f638413ac0c071d346039c82dca4ea96"
+    },
+    {
+      "path": "dist/tour/history-runtime/room-renderer-ICUMA3AC.js",
+      "bytes": 244,
+      "sha256": "da2f3b429f646e476fd48d770f1804b5c6dce8349b0006213568779a67648e91"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-PHE7VEUZ.js",
+      "bytes": 19954,
+      "sha256": "c33fd6b854650989b861a24c3ee03070f7f24a0e2dc6783f378c32d9ad236540"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-JKLCKWYE.js",
+      "bytes": 13737,
+      "sha256": "c19c9cfec97539f283d87e9213ad62dad63a28831ce56287fcc738bfd35c7f59"
+    },
+    {
+      "path": "dist/tour/history-runtime/room-walk-LDKRE3Z4.js",
+      "bytes": 7508,
+      "sha256": "c7d89e1db7e5916c9496006d48498dc1a183794405a282bc9987146d8accac92"
+    },
+    {
+      "path": "dist/tour/history-runtime/chunk-HFKDW6KY.js",
+      "bytes": 612875,
+      "sha256": "7ff31109bfa2b50e5dac765bb55f92d6502254cdcd2cedaa5f313618a262dacb"
+    },
+    {
+      "path": "dist/tour/history-runtime/trial.js",
+      "bytes": 162900,
+      "sha256": "0a976e79e230428d9d5acdaa34c7f5fe4b38243b2290628e1c33ad5db840eefa"
+    },
+    {
+      "path": "dist/tour/history-runtime/loader.js",
+      "bytes": 838,
+      "sha256": "3fd4e298597eea83ba96080163cff35e4ed56fa6349196f103103b3f066456b2"
+    },
+    {
+      "path": "dist/tour/history-runtime/model-E4HKLBIC.js",
+      "bytes": 83347,
+      "sha256": "28b96185938464eb3f28767ad1857f6e24c11f5dc9d685df9ee26440240cc98a"
+    }
+  ],
+  "bytes": 40858131
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "musicTracks": 8,
+  "musicBytes": 5935368,
+  "durations": [
+    48.666122,
+    51.487347,
+    45.035102,
+    35.030204,
+    53.028571,
+    32.731429,
+    54.700408,
+    50.050612
+  ],
+  "retiredFiles": 139,
+  "retiredBytes": 40858131,
+  "checks": [
+    "Explicit first-play gesture",
+    "Theme switch does not restart same theme",
+    "Next track and full-list wrap",
+    "Manual previous / selection",
+    "Off remains off on theme change",
+    "Volume clamp",
+    "Autoplay rejection and media error handled",
+    "Retired assets absent; lab and current VR retained"
+  ],
+  "browserAudioAudition": false
+}

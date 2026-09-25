@@ -112,7 +112,7 @@ checks.push('Copper decor/sofa/rug/cabinets can be independently removed and add
 checks.push('Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.');
 await click('[data-journey-step="style"]',5);await click('[data-home-design="graphite"]',20);assert($('[data-home-object-controls]').hidden);assert.equal($('[data-home-rooms]').children.length,8);
 assert.equal(root.querySelectorAll('[data-home-design]').length,7);
-const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-history-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));assert(await fs.stat('dist/tour/history.html'));checks.push('Current and historical editor have separate iframe routes and bundles; legacy tools are hidden in current editor.');
+const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-lab-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('Historical VR removed; furniture lab retained; current editor unchanged.');
 
 // The new catalog is orthogonal to photographs and furniture choices.
 const floorHome='[data-home-floor-catalog] ',floorDetails='[data-details-floor-catalog] ';

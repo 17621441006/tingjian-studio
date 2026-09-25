@@ -15,20 +15,14 @@ await fs.writeFile('dist/tour/legacy.html',legacyTemplate);
 await fs.writeFile('dist/tour/furniture-trial.css',(await fs.readFile('src/legacy/trial.css','utf8'))+'\n'+(await fs.readFile('src/legacy/home-gallery.css','utf8'))+'\n'+(await fs.readFile('src/legacy/design-journey.css','utf8')));
 await fs.copyFile('src/legacy/gallery.js','dist/tour/legacy-gallery.js');
 
-// Earlier features remain at a separate, lazily opened history route.
+// Historical VR assets were retired by user request in v19.
 await fs.rm('dist/tour/history-runtime',{recursive:true,force:true});
-await build({entryPoints:{loader:'src/history/loader.mjs',trial:'src/history/trial.mjs'},bundle:true,minify:true,format:'esm',splitting:true,target:'es2022',outdir:'dist/tour/history-runtime'});
-let historyTemplate=await fs.readFile('src/history/legacy.template.html','utf8');
-historyTemplate=historyTemplate.replace('__TRIAL__',await fs.readFile('src/history/trial.template.html','utf8')).replace('__HOME_GALLERY__',await fs.readFile('src/history/home-gallery.template.html','utf8')).replace('__DESIGN_JOURNEY__',await fs.readFile('src/history/design-journey.template.html','utf8')).replace('__SPACE_MODEL__',await fs.readFile('src/history/space-model.template.html','utf8')).replaceAll('__LEGACY_VERSION__','archive-v13').replaceAll('/tour/legacy-runtime/','/tour/history-runtime/').replaceAll('/tour/furniture-trial.css','/tour/history-trial.css').replaceAll('/tour/legacy-gallery.js','/tour/history-gallery.js');
-await fs.writeFile('dist/tour/history.html',historyTemplate);
-await fs.writeFile('dist/tour/history-trial.css',(await fs.readFile('src/history/trial.css','utf8'))+'\n'+(await fs.readFile('src/history/home-gallery.css','utf8'))+'\n'+(await fs.readFile('src/history/design-journey.css','utf8')));
-await fs.copyFile('src/history/gallery.js','dist/tour/history-gallery.js');
+for(const p of ['history.html','history-trial.css','history-gallery.js'])await fs.rm('dist/tour/'+p,{force:true});
 
 await build({entryPoints:['src/tour/tour.js'],bundle:true,minify:true,outfile:'dist/tour/tour.js'});
 const digest=createHash('sha256').update(await fs.readFile('dist/tour/tour.js')).digest('hex').slice(0,12);
-const assets=JSON.parse(await fs.readFile('src/tour/assets-manifest.json','utf8'));
 const template=await fs.readFile('src/tour/tour.template.html','utf8');
-const content=template.replace('__ASSETS__',JSON.stringify(assets))
+const content=template
   .replace('<script type="application/octet-stream" data-legacy-source>__LEGACY__</script>','<script type="application/octet-stream" data-legacy-source data-url="/tour/legacy.html"></script>')
   .replace('<script>__BUNDLE__</script>',`<script src="/tour/tour.js?v=${digest}" defer></script>`);
 const lab=await fs.readFile('src/index.html','utf8');
