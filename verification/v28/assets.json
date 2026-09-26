@@ -1,0 +1,82 @@
+[
+  {
+    "path": "dist/designs-v26/milan/balcony.webp",
+    "bytes": 404364,
+    "sha256": "f887e7936384ee98bf06ef0eed45aafcf551fcb7d12852915068b0e78740ee9c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/designs-v26/milan/balcony-thumb.webp",
+    "bytes": 39966,
+    "sha256": "e27036637b77f70cfdbc9767a39b1ab3e2dfe0ea98513ec2c621f6335efad735",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/designs-v26/milan/living2.webp",
+    "bytes": 318548,
+    "sha256": "23acf4dd2a679ffd7155f31a12269a3be6790d4a913d6f48daa3aa343487957a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/designs-v26/milan/living2-thumb.webp",
+    "bytes": 28112,
+    "sha256": "9001292678cd1bc608133de7f09208a38ad34042f80eb2850863fd0b9cbd5f46",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/walnut/living.webp",
+    "bytes": 300354,
+    "sha256": "efef39e968b411545ea9b32b08c39965c41ef80db469e0d984cb789512363d81",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/walnut/living-thumb.webp",
+    "bytes": 26462,
+    "sha256": "c98f46ae57e19318bbf1c446e935fd21a4e572fafed0e34939ce6895265a3250",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/herringbone/living.webp",
+    "bytes": 324252,
+    "sha256": "5aeac99d890e8871c384f963193e1ba51051f4527bbc08008d38b5e7864dd178",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/herringbone/living-thumb.webp",
+    "bytes": 28136,
+    "sha256": "e1ad14e8567192b1737e5f226c053d4728520360f5dc319473fda57aaed0b5bd",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/stone/living.webp",
+    "bytes": 309166,
+    "sha256": "df4d5c236b855d68ef2deea1ef1f3988f7e657138bd5ad08298fb633ee56b29f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/designs-v26/milan/floors/stone/living-thumb.webp",
+    "bytes": 26356,
+    "sha256": "d04f7d9cbd783b6953c391d02d7f7b5d8ebc1a73c62bfe936fe4364a41b08b68",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  }
+]

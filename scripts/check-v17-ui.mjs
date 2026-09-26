@@ -183,4 +183,20 @@ await click('[data-journey-step="style"]',8);await click('[data-home-design="gra
 const beforeFailedView=$('[data-home-image]').src;imageFail=livingReverseAsset('graphite');await click('[data-home-camera] [data-living-camera="reverse"]',10);assert.equal($('[data-home-image]').src,beforeFailedView);imageFail='';
 imageDelays[livingReverseAsset('graphite')]=25;$('[data-home-camera] [data-living-camera="reverse"]').click();await click('[data-home-room="master"]',15);await wait(30);assert.equal($('[data-home-image]').src,homeModule.homeAsset('graphite','master'));imageDelays={};
 checks.push('v26 ten schemes, all eight-room confirmations, reverse camera/fullscreen/restore, load error and stale camera response passed.');
+// v28: authored floor comparisons use the same scene state as confirmation/export.
+await click('[data-journey-step="style"]',8);await click('[data-home-design="milan"]',20);await click('[data-home-room="living"]',15);
+assert.equal($('[data-home-floor-catalog]').querySelectorAll('[data-authored-floor]').length,4);
+await click('[data-home-floor-catalog] [data-floor-product="listone-walnut"]',10);
+await click('[data-home-floor-catalog] [data-authored-floor="herringbone"]',20);
+assert.equal(context.__homeGallery.getState().variant,'herringbone');assert.equal(context.__homeGallery.getState().floorProduct,null);
+assert.equal($('[data-home-image]').src,variantModule.variantAsset('milan','living','herringbone'));
+await click('[data-home-room="balcony"]',15);assert.equal($('[data-home-floor-catalog]').querySelectorAll('[data-authored-floor]').length,0);
+await click('[data-home-room="living"]',15);assert.equal(context.__homeGallery.getState().variant,'herringbone');
+await click('[data-confirm-style]',20);await click('[data-layout-next]',15);
+await click('[data-details-floor-catalog] [data-authored-floor="stone"]',20);assert.equal(context.__journey().current.variant,'stone');
+await click('[data-confirm-all]',35);await click('[data-details-next]',35);
+const floorSnapshot=context.__journey().whole;assert.equal(floorSnapshot.frames.find(f=>f.id==='living').path,variantModule.variantAsset('milan','living','stone'));assert.equal(floorSnapshot.frames.find(f=>f.id==='dining').path,variantModule.variantAsset('milan','living','stone'));
+await click('[data-whole-back]',10);await click('[data-details-room="living"]',15);
+await click('[data-details-floor-catalog] [data-authored-floor="original"]',20);assert.equal(context.__journey().current.variant,'original');assert(context.__journey().stale);
+checks.push('v28: four authored floor comparisons, brand override cleared, room scoping, selection persistence, confirmed/export snapshot and original restoration passed.');
 await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));console.log(JSON.stringify({passed:true,checks},null,2));

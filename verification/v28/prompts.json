@@ -1,0 +1,48 @@
+{
+  "balcony": {
+    "mode": "built-in imagegen",
+    "assets": [
+      {
+        "name": "balcony.png",
+        "prompt": "Use case: precise-object-edit. Create one photorealistic 1536x1024 landscape edited interior photograph. Image 1 is the edit target CURRENT balcony; image 2 is the ORIGINAL Chinese balcony reference whose warm timber color must be restored. Change ONLY the balcony timber finish in image 1: ceiling, right balcony side wall cladding, wooden balcony door frames, end bench wood, tea table wood and balcony floor must match image 2's rich warm orange/yellow honey-amber timber, visible warm golden-orange natural wood, NOT desaturated brown, NOT dark walnut, NOT pale oak. Closely match original reference's saturated amber/orange sunlit timber floor and walls. Preserve narrow loggia geometry, full-height left glazing, city view, camera framing, sunny lighting, cushion bench at far end, small tea table and tea set, plant. Preserve the interior room visible at right EXACTLY as image 1: dark walnut paneled wall, cognac leather sofa, existing artwork, curtain, indoor flooring. Do not change architecture or add walls. No text. Output native 1536x1024.",
+        "references": [
+          "v27-assets/balcony.png",
+          "site-source/dist/tour/home-assets/chinese/v16/balcony.jpg"
+        ]
+      },
+      {
+        "name": "living2.png",
+        "prompt": "Use case: precise-object-edit. Output one native 1536x1024 photorealistic interior photograph. Image 1 is the edit target living room. Image 2 shows the required matching orange/yellow warm timber balcony. Change ONLY the balcony seen beyond the curtains in image 1: make balcony ceiling, balcony side wood surfaces, bench wood and tea table wood, and balcony floor rich warm orange/yellow honey-amber timber matching image 2. Balcony floor must be distinctly warm orange amber planks, same as reference. Do not recolor the indoor living room floor. Preserve image 1 EXACTLY everywhere else: cognac leather sofa, left dark walnut flat wall with artwork, smooth straight flush right TV wall, TV and dark walnut cabinet, central cream stone table, rug, all accessories, plants, indoor wood floor's original pale medium brown finish, ceiling lighting, curtain positions. Preserve camera, furniture geometry, city skyline, glazing, narrow balcony layout, bench cushion and plant. Preserve balcony aperture architecture. No protruding walls or pilasters, no new architecture or objects. Only balcony material color changes. Photorealistic natural sunlit material texture, no text.",
+        "references": [
+          "v27-assets/living2.png",
+          "v28-assets/balcony.png"
+        ]
+      }
+    ],
+    "validation": "Visually inspected. Warm orange/yellow amber balcony timber restored; dark walnut/cognac living scheme retained; straight walls and furniture preserved."
+  },
+  "floors": {
+    "mode": "built-in imagegen",
+    "edit_target": "/workspace/scratch/d2f63f3a5692/v27-assets/living.png",
+    "images": [
+      {
+        "id": "walnut",
+        "prompt": "Use case: precise-object-edit. Input image is the sole edit target. Create a standalone full-room photorealistic interior image at native 1536x1024, same framing. Change ONLY exposed flooring across foreground living room and rear dining room, continuing underneath furniture. Preserve EXACTLY all furniture, the large cream rug size position texture, coffee table and objects, compact cognac leather sofa at right, television at left, dining table behind, all plants and art, straight flat flush walnut wall panels with no battens or reveals, architecture, doors, ceiling, camera position, perspective, composition, lighting and shadows. Do not restyle, add, remove or move any objects. Floor material change: exquisite medium-dark neutral chocolate walnut narrow 120mm straight planks with satin-matte finish and subtle low-contrast figured grain. Richer and distinctly darker than the original pale bleached floor, yet lighter than the walnut wall. No orange or red cast. Preserve realistic existing sunlight.",
+        "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f2e811e9-d589-43bd-8141-c255bc5985a5.png",
+        "output": "/workspace/scratch/d2f63f3a5692/v28-assets/floors/walnut/living.png"
+      },
+      {
+        "id": "herringbone",
+        "prompt": "Use case: precise-object-edit. Input image is the sole edit target. Create a standalone full-room photorealistic interior image at native 1536x1024, same framing. Change ONLY exposed flooring across foreground living room and rear dining room, continuing underneath furniture. Preserve EXACTLY all furniture, the large cream rug size position texture, coffee table and objects, compact cognac leather sofa at right, television at left, dining table behind, all plants and art, straight flat flush walnut wall panels with no battens or reveals, architecture, doors, ceiling, camera position, perspective, composition, lighting and shadows. Do not restyle, add, remove or move any objects. Floor material change: refined neutral medium taupe smoked oak slender herringbone planks, elegant small scale pattern and restrained seams, satin matte surface and quiet natural grain. Distinct medium-depth taupe brown, neither yellow nor pale white. Preserve realistic existing sunlight.",
+        "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-8dfef5d9-5cd6-4a3c-868a-59d8a717b8c8.png",
+        "output": "/workspace/scratch/d2f63f3a5692/v28-assets/floors/herringbone/living.png"
+      },
+      {
+        "id": "stone",
+        "prompt": "Use case: precise-object-edit. Input image is the sole edit target. Create a standalone full-room photorealistic interior image at native 1536x1024, same framing. Change ONLY exposed flooring across foreground living room and rear dining room, continuing underneath furniture. Preserve EXACTLY all furniture, the large cream rug size position texture, coffee table and objects, compact cognac leather sofa at right, television at left, dining table behind, all plants and art, straight flat flush walnut wall panels with no battens or reveals, architecture, doors, ceiling, camera position, perspective, composition, lighting and shadows. Do not restyle, add, remove or move any objects. Floor material change: warm pale greige large-slab limestone matte floor with crisp restrained thin joints, subtly natural quiet limestone surface. Large rectangular slabs in perspective across all exposed living and dining flooring. Preserve realistic existing sunlight.",
+        "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-3dfa0624-ddf7-41d1-924a-f1621043ee00.png",
+        "output": "/workspace/scratch/d2f63f3a5692/v28-assets/floors/stone/living.png"
+      }
+    ]
+  }
+}

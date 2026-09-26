@@ -1,7 +1,13 @@
+import {designMedia} from './wood-homes.mjs';
 import {HOMES,ROOMS,homeAsset,resolveHomeState} from './home-designs.mjs';
 
 export const VARIANT_ROOMS=['living','master','bath'];
 export const VARIANTS={
+ milan:[
+  ['walnut','柔棕胡桃木直铺','中等深度的中性胡桃木，细窄直铺与低光泽，衬出棕皮和浅石。',['#765c48','#59402e','#ded6c6']],
+  ['herringbone','烟橡人字拼','灰褐烟熏橡木人字拼，以细密铺排增加层次，压低黄橙底色。',['#90806b','#59402e','#ded6c6']],
+  ['stone','暖灰石板对照','暖灰米色大板石面，以疏朗接缝和安静纹理对照木地板。',['#c6bdac','#59402e','#ded6c6']]
+ ].map(([id,name,summary,colors])=>({id,name,summary,colors,floorOnly:true,rooms:{living:{title:name+' · 暮木茶境',copy:summary+' 保留深木墙板、棕皮沙发与浅石茶几，比较地面对整体氛围的影响。',materials:[['墙面','连续齐平的深胡桃木饰板'],['家具','干邑棕皮沙发、浅石茶几与象牙白羊毛地毯'],['地面',summary]]}}})),
  dusk:[
   {id:'blue',name:'雾蓝与燕麦',summary:'雾蓝绒面 · 浅石 · 细绒',colors:['#52636c','#dbd5c9','#594334'],
    rooms:{
@@ -50,7 +56,7 @@ export function resolveVariantState(design='dusk',room='living',variant='origina
  const base=resolveHomeState(design,room);return {...base,variant:variantFor(base.design,variant)?variant:'original'};
 }
 export function variantAsset(design,room,variant='original',thumb=false){
- const item=variantFor(design,variant);return item?.rooms[room]?`/tour/home-assets/${design}/variants/${variant}/${room}${thumb?'-thumb':''}.jpg`:homeAsset(design,room,thumb);
+ const item=variantFor(design,variant);if(item?.floorOnly&&item.rooms[room])return designMedia('milan/floors/'+variant+'/'+room+(thumb?'-thumb':'')+'.webp');return item?.rooms[room]?`/tour/home-assets/${design}/variants/${variant}/${room}${thumb?'-thumb':''}.jpg`:homeAsset(design,room,thumb);
 }
 export function homePresentation(state){
  const home=HOMES[state.design],room=ROOMS.find(x=>x.id===state.room),variant=variantFor(state.design,state.variant),applied=!!variant?.rooms[state.room];

@@ -15,7 +15,7 @@ export function initHomeGallery(root){
  const panel=$('[data-home-panel]'),stage=$('[data-home-stage]'),picture=$('[data-home-image]');
  let displayed={...resolveVariantState(),mode:'pieces'},pieces=defaultPieces(),requestId=0,allProducts=false,category='sofa';
  let intended={view:{...displayed},pieces:{...pieces}},roomHandler=null;
- const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,'original'])),modes={dusk:'pieces'};
+ const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,id==='milan'?'walnut':'original'])),modes={dusk:'pieces'};
  const removedByDesign={},partitionBySpace={},floorBySpace={};
  const homeFloorHost=$('[data-home-floor-catalog]');
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;
@@ -44,7 +44,7 @@ export function initHomeGallery(root){
  }
  function renderVariants(){
   const options=variantsFor(displayed.design),list=$('[data-home-variants]');list.replaceChildren();
-  $('[data-home-variant-picker]').hidden=!options.length||isPieceView(displayed);
+  $('[data-home-variant-picker]').hidden=displayed.design==='milan'||!options.length||isPieceView(displayed);
   const previewRoom=VARIANT_ROOMS.includes(displayed.room)?displayed.room:'living';
   for(const [index,option] of [{id:'original',name:'原搭配',summary:'保留原方案，随时对照'},...options].entries()){
    const button=document.createElement('button');button.type='button';button.dataset.homeVariant=option.id;button.setAttribute('aria-pressed',String(option.id===displayed.variant));
@@ -125,22 +125,23 @@ export function initHomeGallery(root){
   $('[data-home-large]').href=path;$('[data-home-save]').href=currentFloorPhoto(path,floorScene);$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
   renderRooms();renderVariants();renderPieces();renderInspiration();renderProducts();
   renderLivingViews($('[data-home-camera]'),picture,displayed,photoReady,()=>{setFloorPhoto(picture,path,floorScene,$('[data-home-save]'));$('[data-home-large]').href=path;},[$('[data-home-save]'),$('[data-home-large]')]);
-  renderFloorCatalog(homeFloorHost,{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();},{inline:true});
+  renderFloorCatalog(homeFloorHost,{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();},{inline:true,onVariant:id=>select(displayed.design,displayed.room,id,'palette',intended.pieces,displayed.removed,displayed.partitionStyle,true)});
   document.dispatchEvent(new CustomEvent('tingjian:home-view',{detail:{...displayed,floorProduct:floorSelection(),pieces:{...pieces},path,thumb:assetFor(displayed,pieces,true)}}));
  }
- async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design+':'+roomScope(room)]||[],partitionStyle=partitionBySpace[design+':'+roomScope(room)]||'original'){
+ async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design+':'+roomScope(room)]||[],partitionStyle=partitionBySpace[design+':'+roomScope(room)]||'original',resetFloor=false){
   const next={...resolveVariantState(design,room,variant),mode:design==='dusk'&&mode==='pieces'?'pieces':'palette',removed:normalizeRemoved(removed),partitionStyle},snapshot=normalizePieces(selection),id=++requestId;
   if(isPieceView(next)&&!pieceAvailable(next.room,snapshot)){$('[data-home-load-status]').textContent=pieceAvailabilityNote(next.room,snapshot);return false;}
   intended={view:next,pieces:snapshot};showSurface();
   $('[data-home-loading]').hidden=false;stage.setAttribute('aria-busy','true');$('[data-home-load-status]').textContent='';
   document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:true}));
   try{
-   await getImage(assetFor(next,snapshot));await prepareFloorPhoto(assetFor(next,snapshot),{...next,pieces:snapshot,floorProduct:floorBySpace[design+':'+room]||null});if(id!==requestId||root.dataset.surface!=='home')return false;
+   await getImage(assetFor(next,snapshot));await prepareFloorPhoto(assetFor(next,snapshot),{...next,pieces:snapshot,floorProduct:resetFloor?null:floorBySpace[design+':'+room]||null});if(id!==requestId||root.dataset.surface!=='home')return false;
+   if(resetFloor)for(const r of ['living','dining'])floorBySpace[design+':'+r]=null;
    displayed=next;pieces=snapshot;choices[next.design]=next.variant;modes[next.design]=next.mode;removedByDesign[next.design+':'+roomScope(next.room)]=normalizeRemoved(next.removed);partitionBySpace[next.design+':'+roomScope(next.room)]=next.partitionStyle;paint();return true;
   }catch(error){
    if(id!==requestId||root.dataset.surface!=='home')return false;
    intended={view:{...displayed},pieces:{...pieces}};
-   const status=$('[data-home-load-status]');status.textContent=error.message+'。保留当前画面。';const retry=document.createElement('button');retry.type='button';retry.textContent='重新载入';retry.addEventListener('click',()=>select(next.design,next.room,next.variant,next.mode,snapshot,next.removed,next.partitionStyle));status.append(' ',retry);
+   const status=$('[data-home-load-status]');status.textContent=error.message+'。保留当前画面。';const retry=document.createElement('button');retry.type='button';retry.textContent='重新载入';retry.addEventListener('click',()=>select(next.design,next.room,next.variant,next.mode,snapshot,next.removed,next.partitionStyle,resetFloor));status.append(' ',retry);
    return false;
   }finally{if(id===requestId){$('[data-home-loading]').hidden=true;stage.setAttribute('aria-busy','false');document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:false}));}}
  }
