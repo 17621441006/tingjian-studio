@@ -1,8 +1,8 @@
 {
   "passed": true,
   "directRendererForDraggingAndIdle": true,
-  "panoramaProjectionRemoved": true,
+  "panoramaProjectionRestoredWithCleanWalls": true,
   "discCovers": 8,
   "realDeviceTested": false,
-  "limitation": "No supported static browser preview; mobile GPU fix is code-path verified, not device-tested. Straight-wall material model replaces panoramic projection."
+  "limitation": "No supported static browser preview; mobile GPU fix is code-path verified, not device-tested. Panorama furniture textures restored; straight walls use separate materials."
 }
