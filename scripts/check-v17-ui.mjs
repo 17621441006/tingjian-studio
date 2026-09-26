@@ -1,3 +1,4 @@
+import {createFloorLive} from '../src/legacy/floor-live.mjs';
 import {duskVrMatch} from '../src/vr/dusk-manifest.mjs';
 // Production event handlers against DOM/render boundaries. Not a browser/GPU test.
 import fs from 'node:fs/promises';import vm from 'node:vm';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
@@ -34,7 +35,7 @@ function make(t){const el=new Element(t.tag,t.attrs);el.textContent=t.text;for(c
 document=make(JSON.parse(execFileSync('python',['scripts/legacy-dom-tree.py','dist/tour/legacy.html'],{encoding:'utf8'})));document.getElementById=id=>document.querySelector('#'+id);document.createElement=t=>new Element(t);
 const root=document.getElementById('furniture-trial'),$=s=>root.querySelector(s),image=document.getElementById('render-image');let serial=0,renderCalls=[],fail=false,delay=1;const revoked=[];let walkCreates=0,walkDisposes=0,walkUpdates=[],walkTargets=[];
 const context={duskVrMatch,...stateModule,document,window:Object.assign(new Element('window'),{innerWidth:1400,innerHeight:900}),CustomEvent:class{constructor(type,args={}){this.type=type;Object.assign(this,args);}},matchMedia:()=>({matches:false}),performance,Blob,console,structuredClone,setTimeout,clearTimeout,URL:{createObjectURL:()=>`blob:test-${++serial}`,revokeObjectURL:u=>revoked.push(u)},__loadRenderer:async()=>({renderRoom:async(snapshot,progress)=>{renderCalls.push(structuredClone(snapshot));progress({label:'Reading',loaded:2,total:4});await new Promise(r=>setTimeout(r,delay));if(fail)throw new Error('WebGL unavailable');return {blob:new Blob(['test']),duration:delay};}})};
-let imageFail='',imageDelays={};const imageRequests=[];context.Image=class {set src(v){imageRequests.push(v);setTimeout(()=>{if(v===imageFail)this.onerror?.();else this.onload?.();},imageDelays[v]||1);}};Object.assign(context,homeModule,variantModule,pieceModule,layoutModule,sceneModule,objectModule,dialogModule,materialModule,floorModule,{CATALOG:floorModule.FLOOR_CATALOG,PURCHASES,exportEffectBook:async()=>{}});
+let imageFail='',imageDelays={};const imageRequests=[];context.Image=class {set src(v){imageRequests.push(v);setTimeout(()=>{if(v===imageFail)this.onerror?.();else this.onload?.();},imageDelays[v]||1);}};Object.assign(context,{createFloorLive},homeModule,variantModule,pieceModule,layoutModule,sceneModule,objectModule,dialogModule,materialModule,floorModule,{CATALOG:floorModule.FLOOR_CATALOG,PURCHASES,exportEffectBook:async()=>{}});
 context.__loadWalk=async()=>({createWalkViewer:async args=>{walkCreates++;await new Promise(r=>setTimeout(r,5));return {dispose(){walkDisposes++;},select(){},pick(){return 'rug';},walkTo(id){walkTargets.push(id);},reset(){},getPose(){return {yaw:.7,pitch:-.13,at:'aisle'};},update:async(snapshot,isCurrent)=>{await new Promise(r=>setTimeout(r,5));if(isCurrent())walkUpdates.push(structuredClone(snapshot));}};}});
 const modelUpdates=[],modelVisible=[],modelRooms=[],modelViews=[],modelQualities=[];let modelLoads=0;context.__loadWholeModel=async()=>{modelLoads++;return {createWholeModel:async()=>({update:s=>modelUpdates.push(structuredClone(s)),select:r=>modelRooms.push(r),view:r=>modelViews.push(r),setQuality:q=>modelQualities.push(q),setVisible:v=>modelVisible.push(v)})};};
 for(const b of document.querySelectorAll('[data-render]'))b.addEventListener('click',()=>{image.src='/original-'+b.dataset.render+'.jpg';document.dispatchEvent(new context.CustomEvent('tingjian:gallery',{detail:{key:b.dataset.render}}));});
@@ -136,12 +137,24 @@ await click('[data-details-room="second"]',15);await click(floorDetails+'[data-f
 await click('[data-confirm-all]',30);await click('[data-details-next]',40);
 let result=context.__journey().whole;assert.equal(result.frames.find(f=>f.id==='second').scene.floorProduct,'kahrs-limestone');
 assert(result.products.some(x=>x.id==='kahrs-limestone'));assert(result.products.some(x=>x.id==='florim-pearl-travertine'));
-assert(result.frames.find(f=>f.id==='second').items.some(row=>row[0]==='品牌地面候选'&&row[1].includes('Kährs')));
+assert(result.frames.find(f=>f.id==='second').items.some(row=>row[0]==='品牌地面'&&row[1].includes('Kährs')));
 await click('[data-whole-back]',8);await click('[data-details-room="living"]',15);await click(floorDetails+'[data-floor-clear]',15);
 assert.equal(context.__journey().current.floorProduct,null);assert(context.__journey().stale);assert.equal(context.__journey().confirmedRooms.length,6);
 await click('[data-details-room="second"]',15);assert.equal(context.__journey().current.floorProduct,'kahrs-limestone');
 assert.equal(root.querySelectorAll('[data-confirm-style]').length,1);assert.equal(root.querySelectorAll('[data-home-large]').length,1);
 assert($('[data-home-design="dusk"]').closest('.studio-style-rail'));assert($('[data-home-panel]').closest('.studio-content'));assert($('[data-home-object-controls]').closest('.home-side'));
 checks.push('10 official branded floors: category switching, room-specific choices, shared living/dining finish, wet-room restriction, precise shortlist links, confirmation invalidation and reversible restoration; photographs do not pretend to render the brand.');
+
+
+await click('[data-journey-step="style"]',8);await click('[data-home-design="dusk"]',20);await click('[data-home-room="living"]',15);await click('[data-home-mode="pieces"]',15);await click('[data-confirm-style]',20);await click('[data-layout-next]',15);
+
+await click('[data-edit-category="floor"]',3);assert(!$('[data-details-floor-catalog]').hidden);
+await click(floorDetails+'[data-floor-category="wood"]',3);await click(floorDetails+'[data-floor-product="quickstep-cala-oak"]',15);
+assert.equal(context.__journey().current.floorProduct,'quickstep-cala-oak');
+assert.equal($('[data-edit-piece="oak"]').getAttribute('aria-pressed'),'false');
+await click('[data-edit-piece="oak"]',15);assert.equal(context.__journey().current.floorProduct,null);
+assert.equal($('[data-edit-piece="oak"]').getAttribute('aria-pressed'),'true');
+await click('[data-edit-category="sofa"]',3);assert($('[data-details-floor-catalog]').hidden);
+checks.push('Brand floors share the lower floor category; brand and original finishes are mutually exclusive, both selection directions update state.');
 
 await fs.mkdir('verification/v17',{recursive:true});await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));console.log(JSON.stringify({passed:true,checks},null,2));

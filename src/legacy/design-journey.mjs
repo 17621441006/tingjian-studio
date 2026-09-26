@@ -1,3 +1,4 @@
+import {createFloorLive} from './floor-live.mjs';
 import {renderFloorCatalog,floorProduct,FLOOR_CATALOG} from './floor-catalog.mjs';
 import {openImageDialog} from './dialog-view.mjs';
 import {renderMaterialList} from './material-previews.mjs';
@@ -16,6 +17,7 @@ export function initDesignJourney(root,gallery){
  let wholeBusy=false,wholeJob=0,wholeRoom='living',wholeView='model',exportBusy=false;
  let editCategory='sofa',modelApi=null,modelPromise=null,modelSignature=null,historyOpen=false;
  let bulkBusy=false,bulkJob=0,modelQuality='detailed';
+ const syncFloorLive=createFloorLive(root);
  const confirmations=new Map();
  const saved=new Map(),seeds=new Map(),shortlists=new Map(),snapshots=new Map(),loaded=new Set(),pending=new Map();
  const clone=value=>JSON.parse(JSON.stringify(value));
@@ -105,16 +107,18 @@ export function initDesignJourney(root,gallery){
   $('[data-room-confirm-state]').textContent=roomConfirmed(current.room)?'本空间已确认 ✓':'本空间待确认';$('[data-confirm-room]').textContent=roomConfirmed(current.room)?'已确认 · 再次确认':'确认这一间';$('[data-next-unconfirmed]').hidden=allConfirmed();
   const nav=$('[data-details-room-picks]');nav.replaceChildren();for(const r of ROOMS){const f=frames().find(f=>f.id===r.id),b=makeButton('','detailsRoom',r.id,()=>chooseRoom(r.id)),im=document.createElement('img'),text=document.createElement('span'),small=document.createElement('small');im.src=f.thumb;im.alt='';im.loading='lazy';im.width=90;im.height=60;text.textContent=r.name;small.textContent=roomConfirmed(r.id)?'已确认 ✓':'待确认';b.setAttribute('aria-pressed',String(r.id===current.room));b.dataset.confirmed=String(roomConfirmed(r.id));b.append(im,text,small);nav.append(b);}
   const cats=$('[data-room-edit-categories]'),list=$('[data-room-edit-choices]');cats.replaceChildren();list.replaceChildren();
-  renderFloorCatalog($('[data-details-floor-catalog]'),current,id=>{const base=intended.room===current.room?intended:current;choose({...base,floorProduct:id});},{disabled:bulkBusy});
+  renderFloorCatalog($('[data-details-floor-catalog]'),current,async id=>{const base=intended.room===current.room?intended:current;if(await choose({...base,floorProduct:id}))$('[data-floor-live]')?.scrollIntoView?.({behavior:'smooth',block:'center'});},{disabled:bulkBusy});
   renderSceneObjectControls($('[data-details-object-controls]'),current,id=>{if(bulkBusy)return;const base=intended.room===current.room?intended:current;choose(id===null?{...base,removed:[]}:toggleSceneObject(base,id));},{disabled:bulkBusy});
   const groups=current.design==='dusk'&&current.mode==='pieces'&&current.layout==='original'&&current.light==='daywarm'?pieceGroups(current.room):[];
-  if(!groups.includes(editCategory))editCategory=groups[0]||'scheme';
-  for(const kind of groups){const b=makeButton(PIECE_GROUPS[kind].label,'editCategory',kind,()=>{editCategory=kind;renderDetails();});b.setAttribute('aria-pressed',String(kind===editCategory));cats.append(b);}
-  if(groups.length){
-   for(const item of PIECE_GROUPS[editCategory].items){const kind=editCategory,next=resolveScene({...current,pieces:changePiece(current.pieces,kind,item.id),...(kind==='window'?{window:item.id}:{})}),b=makeButton('','editPiece',item.id,()=>{const base=intended.room===current.room?intended:current;choose({...base,pieces:changePiece(base.pieces,kind,item.id),...(kind==='window'?{window:item.id}:{})});});b.dataset.kind=kind;b.setAttribute('aria-pressed',String(current.pieces[editCategory]===item.id));
+  if(!groups.length)groups.push('scheme');if(!groups.includes('floor'))groups.push('floor');
+  if(!groups.includes(editCategory))editCategory=groups[0]||'floor';
+  $('[data-details-floor-catalog]').hidden=editCategory!=='floor';
+  for(const kind of groups){const b=makeButton(PIECE_GROUPS[kind]?.label||'原方案','editCategory',kind,()=>{editCategory=kind;renderDetails();});b.setAttribute('aria-pressed',String(kind===editCategory));cats.append(b);}
+  if(editCategory!=='scheme'){
+   for(const item of (editCategory==='floor'&&!(current.design==='dusk'&&current.room==='living'&&current.mode==='pieces'&&current.layout==='original'&&current.light==='daywarm')?[]:PIECE_GROUPS[editCategory].items)){const kind=editCategory,next=resolveScene({...current,pieces:changePiece(current.pieces,kind,item.id),...(kind==='floor'?{floorProduct:null}:{}),...(kind==='window'?{window:item.id}:{})}),b=makeButton('','editPiece',item.id,()=>{const base=intended.room===current.room?intended:current;choose({...base,pieces:changePiece(base.pieces,kind,item.id),...(kind==='floor'?{floorProduct:null}:{}),...(kind==='window'?{window:item.id}:{})});});b.dataset.kind=kind;b.setAttribute('aria-pressed',String(current.pieces[editCategory]===item.id&&!(kind==='floor'&&current.floorProduct)));
     const thumb=document.createElement('img'),labels=document.createElement('span'),name=document.createElement('strong'),meta=document.createElement('small');thumb.src=sceneAsset(next,true);thumb.alt='';thumb.width=132;thumb.height=88;thumb.loading='lazy';name.textContent=item.name;meta.textContent=item.finish;labels.append(name,meta);b.append(thumb,labels);const preview=document.createElement('span');preview.className='room-choice-preview';preview.setAttribute('aria-hidden','true');const large=document.createElement('img');large.src=sceneAsset(next);large.alt='';large.loading='lazy';preview.append(large);b.append(preview);list.append(b);
    }
-   $('[data-room-edit-scope]').textContent=current.room==='living'?'地面三种饰面均可搭配当前沙发与茶几。点击只替换所选品类。':'床架、床品和窗景可以独立选择，其他搭配保留。';
+   $('[data-room-edit-scope]').textContent=current.room==='living'?'地面可选原方案饰面或品牌试铺；原方案与品牌选择互斥，客餐厅同步。':'床架、床品和窗景可以独立选择，其他搭配保留。';
   }else if(supportsSceneObjects(current)){
    $('[data-room-edit-scope]').textContent='加回会恢复本套原单品。移除柜体会同时移走其台面摆件，挂墙电视、固定书架和餐桌仍保留。';
   }else if(current.design==='dusk'&&current.room==='balcony'){
@@ -168,11 +172,11 @@ export function initDesignJourney(root,gallery){
   if(!confirmed||wholeBusy||!allConfirmed())return;const design=confirmed,sig=signature(),id=++wholeJob,list=clone(frames()),products=[...PURCHASES.filter(p=>currentShortlist().has(p.id)),...FLOOR_CATALOG.filter(p=>list.some(f=>f.scene.floorProduct===p.id))];wholeBusy=true;let count=0;renderWhole();$('[data-whole-progress]').value=0;$('[data-whole-progress]').max=list.length;$('[data-whole-progress-text]').textContent='正在读取原尺寸效果图 0 / '+list.length;$('[data-whole-status]').textContent='';
   try{await Promise.all(list.map(async f=>{await imageReady(f.path);if(id!==wholeJob)return;count++;$('[data-whole-progress]').value=count;$('[data-whole-progress-text]').textContent='已读取 '+count+' / '+list.length+' 个空间';}));
    if(id!==wholeJob||design!==confirmed||sig!==signature())return;
-   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面在三维中展示近似配色；右侧效果图沿用原设计，官网样板和产品链接已加入清单。';
+   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面在三维中展示样板纹理试铺；右侧效果图沿用原设计，官网样板和产品链接已加入清单。';
   }catch(error){if(id===wholeJob)$('[data-whole-status]').textContent='有图片未载入，上一份完整效果已保留。请重试。';}
   finally{if(id===wholeJob){wholeBusy=false;renderWhole();}}
  }
- function render(){syncNavigation();if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
+ function render(){syncNavigation();syncFloorLive(current,confirmed?frames():[],step==='details'&&!historyOpen);if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
  function commit(next){current=resolveScene(next);intended=clone(current);saved.set(current.design+':'+current.room,clone(current));gallery.syncFloor?.(current.design,current.room,current.floorProduct);if(['living','dining'].includes(current.room)){const pair=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+pair)||{design:current.design,room:pair};saved.set(current.design+':'+pair,resolveScene({...prior,floorProduct:current.floorProduct}));gallery.syncFloor?.(current.design,pair,current.floorProduct);}if(supportsSceneObjects(current)){const other=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+other)||{design:current.design,room:other};saved.set(current.design+':'+other,resolveScene({...prior,removed:current.removed}));gallery.syncRemovals?.(current.design,current.removed);}}
  async function choose(value,{confirm=false,nextStep=null}={}){
   if(bulkBusy)return false;

@@ -3,7 +3,7 @@ import {FLOOR_CATALOG,floorProductLabel} from './floor-catalog.mjs';
 export function renderMaterialList(list,items,{path,room='living'}={}){
  list.replaceChildren();list.classList.add?.('material-preview-list');
  for(const [name,copy] of items){
-  const product=name==='品牌地面候选'?FLOOR_CATALOG.find(x=>copy.startsWith(floorProductLabel(x))):null,previewPath=product?.image||path;
+  const product=['品牌地面','品牌地面候选'].includes(name)?FLOOR_CATALOG.find(x=>copy.startsWith(floorProductLabel(x))):null,previewPath=product?.image||path;
   const row=document.createElement('div');row.className='material-preview-row';
   const dt=document.createElement('dt'),dd=document.createElement('dd'),button=document.createElement('button');
   button.type='button';button.className='material-thumb';button.setAttribute('aria-label','放大查看'+name+'的方案细节');button.setAttribute('aria-expanded','false');

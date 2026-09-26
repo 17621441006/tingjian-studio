@@ -34,16 +34,18 @@
     <div class="room-editor">
       <div class="room-editor-main">
         <div class="room-editor-title"><div><span class="home-eyebrow" data-details-design></span><h3 data-details-title></h3></div><button type="button" data-details-large>⛶ 全屏看图</button></div>
+        <section data-floor-live hidden class="floor-live"><h3 data-floor-live-title>地面试铺</h3><div class="floor-live-stage" data-floor-live-stage><canvas data-floor-live-canvas></canvas><div data-floor-live-labels class="current-model-labels"></div></div><p data-floor-live-status role="status"></p><p>三维试铺按样板近似展示颜色与纹理；下方保留原尺寸写实设计图。</p></section>
         <div class="room-editor-picture" data-room-editor-picture aria-busy="false"><img data-details-image width="1536" height="1024" decoding="async" alt=""><span class="home-loading" data-room-edit-loading hidden>正在载入这组搭配…</span></div>
         <p class="room-edit-label" data-details-copy></p><p class="room-edit-note">写实设计效果 · 非房屋实拍 · 原尺寸图片</p>
         <details class="room-material-record" open><summary>当前材料与设计细节</summary><dl data-details-items></dl></details>
       </div>
       <aside class="room-editor-side" aria-label="当前房间的选配与确认">
-        <section data-details-floor-catalog class="floor-catalog" aria-label="品牌地面选材"></section>
         <div class="room-side-heading"><span class="home-eyebrow">只改这一间，保留其他选择</span><h3>家具与材料</h3></div>
         <section class="scene-object-panel" data-details-object-controls hidden aria-label="添加与移除单品"></section>
         <div class="room-edit-categories" data-room-edit-categories role="group" aria-label="选择单品品类"></div>
         <div class="room-edit-choices" data-room-edit-choices></div>
+        <section data-details-floor-catalog class="floor-catalog" aria-label="品牌地面选材"></section>
+
         <p class="room-edit-scope" data-room-edit-scope></p>
         <div class="room-confirm-box"><span data-room-confirm-state>本空间待确认</span><button type="button" class="journey-primary" data-confirm-room>确认这一间</button><button type="button" class="journey-text-button" data-next-unconfirmed>查看下一个待确认空间 →</button></div>
         <nav class="room-editor-nav" aria-label="切换全屋空间"><strong>全屋空间</strong><div class="details-room-picks" data-details-room-picks></div></nav>
@@ -71,7 +73,7 @@
     <section class="dusk-vr-panel" data-dusk-vr-panel hidden aria-label="暮色写实全景 VR"><div class="dusk-vr-heading"><div><h3>暮色私邸 · 写实全景漫游</h3><p data-dusk-vr-selection></p></div><a href="/vr/dusk/" target="_blank" rel="noopener">独立窗口 / 头显打开 ↗</a></div><div class="dusk-vr-host" data-dusk-vr-host></div></section>
     <div class="whole-model-pair" data-current-model-panel>
       <div class="whole-model-column"><div class="whole-model-toolbar"><strong>三维整屋</strong><div><button type="button" data-current-model-home>整屋</button><button type="button" data-current-model-top>俯视</button><button type="button" data-current-model-focus>靠近所选房间</button></div></div>
-        <div class="model-quality-tabs" role="group" aria-label="三维细节级别"><button type="button" data-model-quality="detailed" aria-pressed="true">细节模型</button><button type="button" data-model-quality="light" aria-pressed="false">轻量模型</button><button type="button" data-model-quality="photo" aria-pressed="false" hidden>暮色全景贴图</button><span>拖动旋转 · 松手后保持显示</span></div>
+        <div class="model-quality-tabs" role="group" aria-label="三维细节级别"><button type="button" data-model-quality="detailed" aria-pressed="true">细节模型</button><button type="button" data-model-quality="light" aria-pressed="false">轻量模型</button><button type="button" data-model-quality="photo" aria-pressed="false" hidden>暮色材质模型</button><span>拖动旋转 · 松手后保持显示</span></div>
         <div class="whole-model-stage" data-current-model-stage><canvas data-current-model-canvas aria-label="按当前方案选材的三维房屋，拖动旋转，滚轮缩放，点击房间查看写实图"></canvas><div class="whole-model-labels" data-current-model-labels></div><span class="whole-model-loading" data-current-model-loading>正在准备三维整屋…</span></div>
         <p class="whole-model-status" data-current-model-status role="status">拖动旋转 · 滚轮缩放 · 点房间查看写实图</p><button type="button" data-current-model-retry hidden>重新载入三维整屋</button>
       </div>

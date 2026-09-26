@@ -1,3 +1,5 @@
+import {createFloorLive} from './floor-live.mjs';
+import {resolveScene,assembleHome} from './scene-options.mjs';
 import {renderFloorCatalog,normalizeFloorProduct,floorMaterialItems} from './floor-catalog.mjs';
 import {renderMaterialList} from './material-previews.mjs';
 import {supportsSceneObjects,normalizeRemoved,toggleSceneObject,objectSceneAsset,objectSceneLabel,objectSceneMaterials,renderSceneObjectControls} from './scene-objects.mjs';
@@ -14,6 +16,7 @@ export function initHomeGallery(root){
  let intended={view:{...displayed},pieces:{...pieces}},roomHandler=null;
  const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,'original'])),modes={dusk:'pieces'};
  const removedByDesign={copper:[]},floorBySpace={};
+ const syncFloorLive=createFloorLive(root,'home-floor-live');
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;
  const loaded=new Set(),pending=new Map();
  const assetFor=(view,selection=pieces,thumb=false)=>objectSceneAsset(view,thumb)||(isPieceView(view)?pieceAsset(view.room,selection,thumb):variantAsset(view.design,view.room,view.variant,thumb));
@@ -70,13 +73,13 @@ export function initHomeGallery(root){
    const pin=document.createElement('button');pin.type='button';pin.dataset.piecePin=kind;pin.className='home-piece-pin';pin.textContent='换'+PIECE_GROUPS[kind].label;pin.setAttribute('aria-label','在旁边选择'+PIECE_GROUPS[kind].label);pin.setAttribute('aria-pressed',String(category===kind));pin.addEventListener('click',()=>{category=kind;renderPieces();$('[data-home-piece-tabs]').querySelector(`[data-piece-category="${kind}"]`)?.focus();});pins.append(pin);
   }
   for(const item of PIECE_GROUPS[category].items){
-   const b=document.createElement('button');b.type='button';b.className='home-piece-card';b.dataset.homePiece=item.id;b.dataset.pieceKind=category;b.setAttribute('aria-pressed',String(pieces[category]===item.id));b.setAttribute('aria-label',PIECE_GROUPS[category].label+'：'+item.name+'，'+item.finish);
+   const b=document.createElement('button');b.type='button';b.className='home-piece-card';b.dataset.homePiece=item.id;b.dataset.pieceKind=category;b.setAttribute('aria-pressed',String(pieces[category]===item.id&&!(category==='floor'&&floorSelection())));b.setAttribute('aria-label',PIECE_GROUPS[category].label+'：'+item.name+'，'+item.finish);
    const previewSelection=changePiece(pieces,category,item.id),available=pieceAvailable(displayed.room,previewSelection),src=pieceAsset(displayed.room,available?previewSelection:{...previewSelection,table:'glass',floor:category==='floor'?previewSelection.floor:'stone',sofa:category==='floor'?'cognac':previewSelection.sofa},true);b.disabled=!available;b.title=available?item.note:pieceAvailabilityNote(displayed.room,previewSelection);
    const crop=document.createElement('span');crop.className='home-piece-crop';crop.dataset.crop=category;
    const im=document.createElement('img');im.src=src;im.alt='';im.width=360;im.height=240;im.loading='lazy';im.decoding='async';crop.append(im);
    const labels=document.createElement('span'),name=document.createElement('strong'),finish=document.createElement('small');name.textContent=item.name;finish.textContent=available?item.finish:'当前组合尚未成图';labels.append(name,finish);
    const peek=document.createElement('span');peek.className='home-piece-peek';peek.setAttribute('aria-hidden','true');const big=document.createElement('img');big.src=src;big.alt='';big.loading='lazy';const caption=document.createElement('span');caption.textContent=item.name+' · 场景预览';peek.append(big,caption);
-   b.append(crop,labels,peek);b.addEventListener('click',()=>select(displayed.design,displayed.room,displayed.variant,'pieces',changePiece(intended.pieces,category,item.id)));catalog.append(b);
+   b.append(crop,labels,peek);b.addEventListener('click',()=>{if(category==='floor'){floorBySpace[displayed.design+':'+displayed.room]=null;for(const r of ['living','dining'])floorBySpace[displayed.design+':'+r]=null;}select(displayed.design,displayed.room,displayed.variant,'pieces',changePiece(intended.pieces,category,item.id));});catalog.append(b);
   }
   $('[data-home-piece-summary]').textContent=piecePresentation(displayed.room,pieces).label;
  }
@@ -105,6 +108,7 @@ export function initHomeGallery(root){
  function paint(){
   const p=homePresentation(displayed),{home,room,variant,applied}=p,individual=isPieceView(displayed),content=individual?piecePresentation(displayed.room,pieces):p.content;
   const label=supportsSceneObjects(displayed)?objectSceneLabel(displayed):individual?content.label:applied?variant.name:variant?'本空间沿用原搭配':'原搭配',path=assetFor(displayed);
+  const floorScene=resolveScene({...displayed,pieces,floorProduct:floorSelection()}),floorSaved=new Map(Object.entries(floorBySpace).filter(([key])=>key.startsWith(displayed.design+':')).map(([key,id])=>[key,resolveScene({...displayed,pieces,room:key.split(':')[1],floorProduct:id})]));floorSaved.set(displayed.design+':'+displayed.room,floorScene);syncFloorLive(floorScene,assembleHome(displayed.design,floorSaved),root.dataset.journeyStep==='style');
   picture.src=path;picture.alt=`${home.name} · ${room.name} · ${label}整体概念效果图`;
   stage.dataset.design=displayed.design;stage.dataset.room=displayed.room;stage.dataset.variant=displayed.variant;stage.dataset.mode=displayed.mode;
   stage.dataset.sofa=pieces.sofa;stage.dataset.table=pieces.table;stage.dataset.bed=pieces.bed;
@@ -119,7 +123,7 @@ export function initHomeGallery(root){
   for(const b of $$('[data-design]'))b.setAttribute('aria-pressed','false');
   $('[data-home-large]').href=path;$('[data-home-save]').href=path;$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
   renderRooms();renderVariants();renderPieces();renderInspiration();renderProducts();
-  renderFloorCatalog($('[data-home-floor-catalog]'),{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();});
+  renderFloorCatalog($('[data-home-floor-catalog]'),{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();$('[data-home-floor-live]')?.scrollIntoView?.({behavior:'smooth',block:'center'});});
   document.dispatchEvent(new CustomEvent('tingjian:home-view',{detail:{...displayed,floorProduct:floorSelection(),pieces:{...pieces},path,thumb:assetFor(displayed,pieces,true)}}));
  }
  async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design]||[]){

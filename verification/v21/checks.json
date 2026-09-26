@@ -1,8 +1,8 @@
 {
   "passed": true,
   "directRendererForDraggingAndIdle": true,
-  "panoramaProjectionRooms": 8,
+  "panoramaProjectionRemoved": true,
   "discCovers": 8,
   "realDeviceTested": false,
-  "limitation": "No supported static browser preview; mobile GPU fix is code-path verified, not device-tested. Projection uses estimated geometry, not measured scan depth."
+  "limitation": "No supported static browser preview; mobile GPU fix is code-path verified, not device-tested. Straight-wall material model replaces panoramic projection."
 }

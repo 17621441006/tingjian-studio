@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "brands": 10,
+  "builders": 2,
+  "straightWallGeometry": true,
+  "noPanoramaOnFurniture": true,
+  "actualTextureAndUVChecks": true,
+  "latestSelectionWins": true,
+  "originalPhotoPreserved": true,
+  "realBrowserTested": false
+}

@@ -5,12 +5,12 @@ export const floorProductLabel=item=>item.brand+' · '+item.name;
 export const normalizeFloorProduct=id=>floorProduct(id)?.id||null;
 export const floorAllowed=(room,item)=>!['bath','kitchen','utility'].includes(room)||item?.category==='tile';
 const panelStates=new WeakMap();
-export function floorMaterialItems(scene,items){const item=floorProduct(scene.floorProduct);return item?[...items,['品牌地面候选',floorProductLabel(item)+'；'+item.finish+'（三维近似配色，效果图沿用原搭配）']]:items;}
+export function floorMaterialItems(scene,items){const item=floorProduct(scene.floorProduct);return item?[...items.filter(([label])=>!['地面','地板','品牌地面'].includes(label)),['品牌地面',floorProductLabel(item)+'；'+item.finish+'（已同步三维试铺；写实图为原设计参考）']]:items;}
 export function renderFloorCatalog(host,scene,onSelect,{disabled=false}={}){
  if(!host)return;const wet=['bath','kitchen','utility'].includes(scene.room),item=floorProduct(scene.floorProduct);
  const state=panelStates.get(host)||{category:item?.category||(wet?'tile':'wood'),room:scene.room};if(state.room!==scene.room){state.category=item?.category||(wet?'tile':'wood');state.room=scene.room;}panelStates.set(host,state);
  host.replaceChildren();const el=(tag,text)=>{const e=document.createElement(tag);if(text)e.textContent=text;return e;};
- const title=el('h3','品牌地面 · 10 款精选'),hint=el('p','选材加入当前空间清单，并同步三维近似配色。原效果图保留原搭配。');hint.className='floor-catalog-note';host.append(title,hint);
+ const title=el('h3','品牌地面 · 10 款精选'),hint=el('p','点击即在房间三维试铺中更换地面，客餐厅联动；写实设计图保留作对照。');hint.className='floor-catalog-note';host.append(title,hint);
  const tabs=el('div');tabs.className='floor-catalog-tabs';tabs.setAttribute('role','group');tabs.setAttribute('aria-label','地面品类');
  for(const [id,name]of [['wood','木地板 · 5'],['tile','地砖 · 5']]){const b=el('button',name);b.type='button';b.dataset.floorCategory=id;b.setAttribute('aria-pressed',String(id===state.category));b.addEventListener('click',()=>{state.category=id;renderFloorCatalog(host,scene,onSelect,{disabled});});tabs.append(b);}host.append(tabs);
  if(wet&&state.category==='wood'){const note=el('p','厨卫与生活阳台先选地砖；木地板在客厅、卧室可选。');note.className='floor-family-note';host.append(note);}

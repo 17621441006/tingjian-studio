@@ -14,6 +14,7 @@
     "Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.",
     "Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.",
     "Historical VR removed; furniture lab retained; current editor unchanged.",
-    "10 official branded floors: category switching, room-specific choices, shared living/dining finish, wet-room restriction, precise shortlist links, confirmation invalidation and reversible restoration; photographs do not pretend to render the brand."
+    "10 official branded floors: category switching, room-specific choices, shared living/dining finish, wet-room restriction, precise shortlist links, confirmation invalidation and reversible restoration; photographs do not pretend to render the brand.",
+    "Brand floors share the lower floor category; brand and original finishes are mutually exclusive, both selection directions update state."
   ]
 }
