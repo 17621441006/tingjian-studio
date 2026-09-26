@@ -292,64 +292,64 @@
     "width": 1536,
     "height": 1024,
     "thumb": false,
-    "bytes": 380776,
-    "sha256": "d096838b1e7f40795fbeabbba6be6d8c0b979318c3516b44a53cfe6eafeed836"
+    "bytes": 327282,
+    "sha256": "0ad8d487b8a43dfd71181762abb0344d0d5a4bdba9ecea2cf5dd836fd165e732"
   },
   {
     "path": "dist/designs-v26/milan/living-thumb.webp",
     "width": 480,
     "height": 320,
     "thumb": true,
-    "bytes": 23478,
-    "sha256": "c588f9228c9fe553aba2a8e4906eb59cc1f0abcf951b1c5655ea43adf408797a"
+    "bytes": 22474,
+    "sha256": "19a16bc5b2a0461466746c60ea19d8a98638e3d07eaf1dab830c0dc54108e66f"
   },
   {
     "path": "dist/designs-v26/milan/living2.webp",
     "width": 1536,
     "height": 1024,
     "thumb": false,
-    "bytes": 380350,
-    "sha256": "268979ccb11a58e1cd4b981de63fd7182bd6d5b55ef61c746879f540190441d4"
+    "bytes": 355534,
+    "sha256": "30852428bb284f7289c5d17a3963a1764d3a92114423ef601bfeacda8838dba5"
   },
   {
     "path": "dist/designs-v26/milan/living2-thumb.webp",
     "width": 480,
     "height": 320,
     "thumb": true,
-    "bytes": 24952,
-    "sha256": "689583b9f25b74d792ac2c79f095f8652cae750bb20a74d28960032998e0043e"
+    "bytes": 23814,
+    "sha256": "9f6003117b3bcbeed19e6611ecdbe9c99c3ff7bd914663e468149f6d7685a7ff"
   },
   {
     "path": "dist/designs-v26/milan/dining.webp",
     "width": 1536,
     "height": 1024,
     "thumb": false,
-    "bytes": 269126,
-    "sha256": "b8793f2235803a0b07973f237aebcb37c5fb82442245d8d71269736ea0473e4a"
+    "bytes": 226580,
+    "sha256": "bee05b8514f3008293740f47057bc224335fc8cf31b33d3bedb8cbb5f12c874c"
   },
   {
     "path": "dist/designs-v26/milan/dining-thumb.webp",
     "width": 480,
     "height": 320,
     "thumb": true,
-    "bytes": 19198,
-    "sha256": "14def1065bc4fa4db9acbf3b4347b6540bd0c368c4dc94fcfb01a3df400f3e14"
+    "bytes": 18370,
+    "sha256": "9cf94a5c7fc5202859a9b2f1cc4001010427566561fac439aaaa37f3ef9d92da"
   },
   {
     "path": "dist/designs-v26/milan/balcony.webp",
     "width": 1536,
     "height": 1024,
     "thumb": false,
-    "bytes": 424048,
-    "sha256": "d6bffbe690c69675b57cdfe3944e439a6ec8e77e0c15fd2ed8b66e93c5cb1f13"
+    "bytes": 413568,
+    "sha256": "9d6e5c7df92009ded92c4d26d999f90711ac0729bb13243cf0d5ce3e1a1d8c9f"
   },
   {
     "path": "dist/designs-v26/milan/balcony-thumb.webp",
     "width": 480,
     "height": 320,
     "thumb": true,
-    "bytes": 30264,
-    "sha256": "b27d596ddd2b56df6685ae7ba93c6ab71ac39a1fa28365cd29b887ad17599c6c"
+    "bytes": 30668,
+    "sha256": "d31baad4599b3c031c4191a3aec4adf2592bd4572b4f9a4a4f2e18c4c494e991"
   },
   {
     "path": "dist/designs-v26/milan/master.webp",

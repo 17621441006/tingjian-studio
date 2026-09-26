@@ -1,0 +1,331 @@
+{
+  "generationMode": "built-in image_gen",
+  "floorMaskCoordinateSystem": "normalized [0,1] image-plane coordinates; conservative exposed-floor polygons, subtract holes; furniture and rug excluded",
+  "assets": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/d2f63f3a5692/v27-assets/living.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create a native 1536x1024 photorealistic interior architecture image. EDIT IMAGE 1 living room, preserve its actual compact 21.4 square meter combined living/dining geometry, perspective and camera and major furniture positions. Image 2 is dining detail reference only. Main walls are simple flat continuous planes: straight rectangular room, right sofa wall completely FLUSH dark walnut paneling from foreground to rear corner, rear dining wall flat continuous dark walnut. No projecting pier, no jutting art-wall, no extra corner, no column or partition anywhere. Keep compact cognac leather sofa RIGHT, television and low walnut console LEFT, compact walnut dining set centered in rear. Refine the existing palette: change stone tile FLOOR to unmistakable neutral medium-light smoked oak wide WOOD planks with grain and staggered seams, substantially lighter than dark walnut walls, no orange undertone. Replace rug with fine ivory/greige wool and coffee table with elegant low rounded cream honed stone table. Keep room compact and furniture reasonably small. Preserve ceiling design and flattering warm hotel soft lamps combined with daylight from camera direction. The result is the same warm walnut room with lighter sophisticated floor, not a different invented apartment. Landscape ink art may remain flush hung. Avoid giant accent chairs, no burgundy chair, no protruding wall structures, no text logos watermark collage. Output one image only at exactly 1536x1024.",
+      "notes": "沿用方案一客餐厅及连续平直胡桃木墙面，浅中性烟熏橡木宽板地、奶油石矮几与浅羊毛毯。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.20833,
+              0.62598
+            ],
+            [
+              0.41667,
+              0.62598
+            ],
+            [
+              0.41276,
+              0.6582
+            ],
+            [
+              0.36328,
+              0.6582
+            ],
+            [
+              0.21745,
+              0.96094
+            ],
+            [
+              1,
+              0.96094
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.93262
+            ],
+            [
+              0.17904,
+              0.77734
+            ],
+            [
+              0.1888,
+              0.77832
+            ],
+            [
+              0.1888,
+              0.75684
+            ],
+            [
+              0.20833,
+              0.73242
+            ]
+          ],
+          [
+            [
+              0.33529,
+              0.58105
+            ],
+            [
+              0.40365,
+              0.58105
+            ],
+            [
+              0.40365,
+              0.61426
+            ],
+            [
+              0.58594,
+              0.61426
+            ],
+            [
+              0.58594,
+              0.58301
+            ],
+            [
+              0.64193,
+              0.58301
+            ],
+            [
+              0.64193,
+              0.63281
+            ],
+            [
+              0.61914,
+              0.63281
+            ],
+            [
+              0.61914,
+              0.66211
+            ],
+            [
+              0.61263,
+              0.66211
+            ],
+            [
+              0.61068,
+              0.63477
+            ],
+            [
+              0.42578,
+              0.63477
+            ],
+            [
+              0.41927,
+              0.62305
+            ],
+            [
+              0.33529,
+              0.62305
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/d2f63f3a5692/v27-assets/dining.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Native 1536x1024 photorealistic interior photograph. Image1 EDIT TARGET is close view of dining end of compact apartment. Image2 is exact approved wide living view of same apartment: match floor, panel color and exposure precisely. Preserve image1 frontal camera, existing compact walnut table, four taupe upholstered chairs, small left bookshelf, right sideboard with mushroom lamp, globe pendant and ink artwork. All rear walnut panels are a FLAT continuous flush wall, no new depth, no projections, no piers. Change tile floor to the same neutral medium-light smoked oak wide plank WOOD floor of image2, obviously real timber with grain and staggered seams; substantially lighter than rich dark walnut walls and no orange tint. Match refined natural daylight plus soft hotel warm lights, detail-rich neutral walnut furniture. No rug in dining area. Maintain tight realistic room scale and simple geometry. Do not enlarge room or add walls. No text, logo, watermark, collage. One image exactly1536x1024.",
+      "notes": "保留原餐区构图与四椅餐桌，平整胡桃木背景配同款浅木地板。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0,
+              0.8125
+            ],
+            [
+              0.13086,
+              0.8125
+            ],
+            [
+              0.22656,
+              0.7334
+            ],
+            [
+              0.30599,
+              0.7334
+            ],
+            [
+              0.30599,
+              0.86816
+            ],
+            [
+              0.34245,
+              0.86816
+            ],
+            [
+              0.34245,
+              0.89551
+            ],
+            [
+              0.66081,
+              0.89551
+            ],
+            [
+              0.66081,
+              0.86914
+            ],
+            [
+              0.69336,
+              0.86914
+            ],
+            [
+              0.69336,
+              0.75
+            ],
+            [
+              1,
+              0.75
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0.37695,
+              0.77441
+            ],
+            [
+              0.46224,
+              0.77441
+            ],
+            [
+              0.46224,
+              0.82813
+            ],
+            [
+              0.37695,
+              0.82813
+            ]
+          ],
+          [
+            [
+              0.53971,
+              0.77441
+            ],
+            [
+              0.60221,
+              0.77441
+            ],
+            [
+              0.60221,
+              0.8291
+            ],
+            [
+              0.53971,
+              0.8291
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    },
+    {
+      "room": "living2",
+      "path": "/workspace/scratch/d2f63f3a5692/v27-assets/living2.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Output native1536x1024. Create EXACT REVERSE CAMERA view of apartment in image1, standing at dining end looking straight toward its attached long slim glazed loggia shown in image2. Image1 is authoritative room, materials, furniture, geometry reference; image2 authoritative balcony design reference. Living+dining total only21.4sqm, long slim balcony5sqm, modest apartment proportions. Camera approx1.3m high moderate wide lens with straight verticals. Because this is opposite direction: compact COGNAC LEATHER sofa now LEFT against perfectly FLAT continuous dark walnut panelled wall, television and long low dark walnut console now RIGHT against simple flat warm neutral wall. EXACT same cream rounded low honed stone coffee table and ivory/greige wool rectangular rug as image1; same neutral medium-light smoked oak wide plank wooden floor. The two room walls run straight and parallel ALL the way to a full-width balcony opening. Absolutely NO projecting walnut wall block, no art wall bump, no massive pier, no column, no offset nook at balcony. Thin minimal door jambs only, unobstructed opening, curtains gathered slimly at edges. Across end is slim enclosed balcony oriented across room width; neutral dark walnut plank ceiling/side and matching lighter oak floor. At far RIGHT end of balcony a compact built-in beige-cushioned bench, tiny square walnut tea table with tea set, leafy potted plant, matching image2. Full-height panorama glazing beyond balcony shows residential towers/greenery with slim vertical mullions and NO middle horizontal glass rail or beam; no side vent. Balcony is shallow, not a deep extra room. Sofa far end close to opening; enough simple walking space no excessive room width. Same warm ceiling cove and round alabaster light as image1 mixed with daylight. Realistic high-end interior photo, quiet walnut hotel look. Do not show dining set foreground, just view from dining. No extra chairs, no burgundy, no spindle sofas, no giant columns, no text/logo/collage. One landscape1536x1024.",
+      "notes": "餐区望向阳台的反向机位：左侧皮沙发、右侧电视；平直连续墙线，右端坐榻与茶几，无新增凸墙及主窗横梁。",
+      "inspected": true
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/d2f63f3a5692/v27-assets/balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Native 1536x1024 architecture photograph. Image 1 is the EDIT TARGET balcony. Image 2 is exact matching adjacent living room material/furniture reference. Preserve the recognizable long very slim 5sqm enclosed loggia geometry, camera along its length, glazing on LEFT, far-end built-in cushioned bench, small square tea table directly before bench, potted airy plant in corner, plank clad ceiling and right wall. Change reddish/orange wood ceiling, right wall and bench base to neutral deep walnut matching living room wall panels. Change balcony floor to exactly the lighter neutral smoked oak wide plank floor in image2, clearly lighter than walls, real wood grain and staggered seams. Preserve large uninterrupted primary left panorama glass, thin vertical mullions only and NO horizontal midrail. Through the right opening, glimpse the SAME compact cognac leather sofa and dark walnut panel wall and ivory rug seen in image2, not the Chinese spindle sofa or white wall in image1. Keep slim light neutral curtain. Bench upholstery subtle warm beige. Tiny table has simple tea set. Bright natural daylight plus discreet warm ceiling spot. Photorealistic sophisticated hotel quality, cohesive room set. NO added walls, no enlarged footprint, no other chairs, no text, logo, watermark, collage. EXACTLY1536x1024 one image.",
+      "notes": "保留方案二狭长茶廊、端部坐榻、小方茶几与绿植，改用中性胡桃木墙顶及浅橡木地板，门内连接同款皮沙发。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.3125,
+              0.71777
+            ],
+            [
+              0.3724,
+              0.71777
+            ],
+            [
+              0.4362,
+              0.70508
+            ],
+            [
+              0.4362,
+              0.76367
+            ],
+            [
+              0.52344,
+              0.76367
+            ],
+            [
+              0.52344,
+              0.72852
+            ],
+            [
+              0.55078,
+              0.77832
+            ],
+            [
+              0.56966,
+              0.83301
+            ],
+            [
+              0.61458,
+              0.83887
+            ],
+            [
+              0.71484,
+              1
+            ],
+            [
+              0.17253,
+              1
+            ]
+          ],
+          [
+            [
+              0.82487,
+              0.84473
+            ],
+            [
+              1,
+              0.9873
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.80859,
+              1
+            ],
+            [
+              0.82487,
+              0.96484
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    }
+  ]
+}

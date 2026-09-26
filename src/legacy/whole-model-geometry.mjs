@@ -12,7 +12,7 @@ export function buildWholeGeometry(snapshot,textures={},options={}){
  const surface=(color,map,roughness=.7,extra={})=>mat(color,roughness,{map:textures[map]||null,...extra});
  const m={wall:mat(spec.palette.wall,.9),wood:surface(spec.palette.wood,'wood',.48),stone:surface('#a99f90','stone',.52),metal:mat('#66513c',.3,{metalness:.82}),dark:mat('#242521',.34),linen:surface('#f0e7d8','linen',.9),rug:surface('#b9a98e','linen',.98),white:mat('#f0efea',.22),leaf:mat('#4e6144',.85),glow:mat('#edcc9c',.5,{emissive:'#edbe81',emissiveIntensity:.55}),glass:mat('#807969',.15,{transparent:true,opacity:.34,depthWrite:false,metalness:.2,side:THREE.DoubleSide})};
  m.sofa=surface(spec.sofaColor,spec.sofaTextile?'linen':null,spec.sofaTextile?.87:.39,{bumpMap:spec.sofaTextile?(textures.linen||null):null,bumpScale:.0015});
- m.floor=spec.floor==='stone'?surface('#b7ac9b','stone',.5,{normalMap:textures.stoneNormal||null}):surface(spec.floor==='oak'?'#d9c4a1':'#6d4d36','oak',.57,{normalMap:textures.oakNormal||null});
+ m.floor=spec.floor==='stone'?surface('#b7ac9b','stone',.5,{normalMap:textures.stoneNormal||null}):surface(spec.design==='milan'?'#a9957d':spec.floor==='oak'?'#d9c4a1':'#6d4d36','oak',.57,{normalMap:textures.oakNormal||null});
  m.bedframe=spec.bed==='wood'?m.wood:spec.bed==='leather'?mat('#985b38',.42):surface('#d1c3ad','linen',.9);
  m.throw=surface({taupe:'#8e7862',ivory:'#ded6c3',olive:'#777f5e'}[spec.bedding],'linen',.92);
  const add=(mesh,parent)=>{mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;};
