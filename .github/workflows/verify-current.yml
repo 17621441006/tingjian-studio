@@ -18,4 +18,4 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: npm ci
       - run: npm run build && npm run check && node scripts/prepare-hosting.mjs
-      - run: node scripts/check-v24-projection.mjs && node scripts/check-v23-photo-floor.mjs && node scripts/check-v22-floors.mjs && node scripts/check-v21-model.mjs && node scripts/check-v19-music.mjs && node scripts/check-assets.mjs && node scripts/check-v18-vr.mjs && node scripts/check-v17-ui.mjs && node scripts/check-v17-floors.mjs && node scripts/check-v16-assets.mjs && node scripts/check-v16-model.mjs
+      - run: node scripts/check-v25-objects.mjs && node scripts/check-v24-projection.mjs && node scripts/check-v23-photo-floor.mjs && node scripts/check-v22-floors.mjs && node scripts/check-v21-model.mjs && node scripts/check-v19-music.mjs && node scripts/check-assets.mjs && node scripts/check-v18-vr.mjs && node scripts/check-v17-ui.mjs && node scripts/check-v17-floors.mjs && node scripts/check-v16-assets.mjs && node scripts/check-v16-model.mjs

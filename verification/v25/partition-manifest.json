@@ -1,0 +1,450 @@
+{
+  "version": 25,
+  "tool": "built-in image_gen",
+  "upsampled": false,
+  "assets": [
+    {
+      "design": "dusk",
+      "label": "烟胡桃铜缝竖格",
+      "brief": "slender smoked-walnut vertical battens with elegant narrow bronze spacing; open vertical rhythm, no flower pattern",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.153,
+          0.038
+        ],
+        [
+          0.208,
+          0.11
+        ],
+        [
+          0.208,
+          0.623
+        ],
+        [
+          0.153,
+          0.623
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, dusk palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with slender smoked-walnut vertical battens with elegant narrow bronze spacing; open vertical rhythm, no flower pattern. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9fb9b052-fa88-4972-8796-1b6d73c34991.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/dusk/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "烟熏胡桃木竖格，细铜缝透光，保留通道。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "chinese",
+      "label": "素木疏格",
+      "brief": "a restrained open timber lattice, slim warm dark Chinese hardwood uprights with only two sparse horizontal rails; no ornate flowers or decorative fretwork",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.154,
+          0.038
+        ],
+        [
+          0.21,
+          0.11
+        ],
+        [
+          0.21,
+          0.61
+        ],
+        [
+          0.154,
+          0.61
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, chinese palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with a restrained open timber lattice, slim warm dark Chinese hardwood uprights with only two sparse horizontal rails; no ornate flowers or decorative fretwork. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d03de88d-e0ea-4529-83a7-fb00845b38b4.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/chinese/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "素木疏格与少量横档，简化花格纹样。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "stone",
+      "label": "浅橡和纸",
+      "brief": "a refined Aman-inspired natural-oak slender screen, three slim oak uprights with a quiet translucent cream linen/washi inset; delicate natural texture, no floral motif",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.153,
+          0.038
+        ],
+        [
+          0.208,
+          0.11
+        ],
+        [
+          0.208,
+          0.623
+        ],
+        [
+          0.153,
+          0.623
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, stone palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with a refined Aman-inspired natural-oak slender screen, three slim oak uprights with a quiet translucent cream linen/washi inset; delicate natural texture, no floral motif. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-c1e1b73c-3b90-4c76-a194-eab57f1d778e.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/stone/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "浅橡木细框与和纸质感透光衬片。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "collector",
+      "label": "古铜烟纹玻璃",
+      "brief": "understated smoked reeded glass with fine vertical ribs in a slim aged bronze frame, no etched flowers",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.153,
+          0.038
+        ],
+        [
+          0.208,
+          0.11
+        ],
+        [
+          0.208,
+          0.623
+        ],
+        [
+          0.153,
+          0.623
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, collector palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with understated smoked reeded glass with fine vertical ribs in a slim aged bronze frame, no etched flowers. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-a9dc4361-a5db-4664-b1c3-a32e800a7e44.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/collector/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "古铜细框配烟色竖纹玻璃。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "copper",
+      "label": "深铜竖影",
+      "brief": "sculptural dark-bronze open vertical rods, four finely spaced narrow metal rods, no glass flowers or etched pattern",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.153,
+          0.038
+        ],
+        [
+          0.208,
+          0.11
+        ],
+        [
+          0.208,
+          0.623
+        ],
+        [
+          0.153,
+          0.623
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, copper palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with sculptural dark-bronze open vertical rods, four finely spaced narrow metal rods, no glass flowers or etched pattern. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-061a2cf6-701f-4467-bb6e-3a2ad5c05516.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/copper/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "深铜开放竖杆，雕塑感线条保留通透。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "amber",
+      "label": "蜜橡琥珀浮雕",
+      "brief": "an understated shallow wall-mounted sculptural panel with rounded honey-oak fluted vertical forms and small amber-glass insets, carefully crafted and minimal",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.832,
+          0.115
+        ],
+        [
+          0.986,
+          0
+        ],
+        [
+          0.99,
+          0.452
+        ],
+        [
+          0.832,
+          0.445
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, amber palette, living view. Change ONLY the existing rectangular artwork above the sofa on the far right wall. Replace its decorative insert with an understated shallow wall-mounted sculptural panel with rounded honey-oak fluted vertical forms and small amber-glass insets, carefully crafted and minimal. Keep within the existing artwork's same footprint and wall position; create no freestanding divider or architectural obstruction. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-cc0b0338-c552-48e0-b08c-71985e0c8ee3.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/amber/living-partition.png",
+      "kind": "wall-art",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "蜜橡圆弧竖槽配琥珀玻璃，安装在原有壁画位置。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "graphite",
+      "label": "玄钢细网",
+      "brief": "minimal blackened-steel slim frame with very fine narrow metal mesh laminated in textured clear glass, no ornate patterns",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/living.jpg",
+      "view": "living",
+      "polygon": [
+        [
+          0.169,
+          0.031
+        ],
+        [
+          0.215,
+          0.102
+        ],
+        [
+          0.215,
+          0.578
+        ],
+        [
+          0.17,
+          0.579
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, graphite palette, living view. Change ONLY the narrow existing patterned glass/screen insert beside the TV at left, between image x=15%-22%, from ceiling to console height. Replace its decorative insert with minimal blackened-steel slim frame with very fine narrow metal mesh laminated in textured clear glass, no ornate patterns. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-0393633d-af45-4cf9-ba4e-3bcb265647d6.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/graphite/living-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "玄黑钢细框配细金属网与肌理清玻。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "chinese",
+      "label": "素木疏格",
+      "brief": "a restrained open timber lattice, slim warm dark Chinese hardwood uprights with only two sparse horizontal rails; no ornate flowers or decorative fretwork",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/dining.jpg",
+      "view": "dining",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          0.03,
+          0
+        ],
+        [
+          0.03,
+          0.949
+        ],
+        [
+          0,
+          0.967
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, chinese palette, dining view. Change ONLY the narrow patterned glass screen sliver at the extreme LEFT edge only. Replace its decorative insert with a restrained open timber lattice, slim warm dark Chinese hardwood uprights with only two sparse horizontal rails; no ornate flowers or decorative fretwork. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2de6c0d8-93e8-437b-a57b-142b979cbab1.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/chinese/dining-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "素木疏格与少量横档，简化花格纹样。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "copper",
+      "label": "深铜竖影",
+      "brief": "sculptural dark-bronze open vertical rods, four finely spaced narrow metal rods, no glass flowers or etched pattern",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/dining.jpg",
+      "view": "dining",
+      "polygon": [
+        [
+          0.936,
+          0
+        ],
+        [
+          0.996,
+          0
+        ],
+        [
+          0.996,
+          0.838
+        ],
+        [
+          0.936,
+          0.78
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, copper palette, dining view. Change ONLY the tall narrow patterned glass/screen insert at the far RIGHT edge beside the TV. Replace its decorative insert with sculptural dark-bronze open vertical rods, four finely spaced narrow metal rods, no glass flowers or etched pattern. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-28d42405-1f7d-460f-b4b3-e78fdf7160be.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/copper/dining-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "深铜开放竖杆，雕塑感线条保留通透。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "amber",
+      "label": "蜜橡琥珀浮雕",
+      "brief": "an understated shallow wall-mounted sculptural panel with rounded honey-oak fluted vertical forms and small amber-glass insets, carefully crafted and minimal",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/dining.jpg",
+      "view": "dining",
+      "polygon": [
+        [
+          0.352,
+          0.146
+        ],
+        [
+          0.398,
+          0.18
+        ],
+        [
+          0.398,
+          0.389
+        ],
+        [
+          0.352,
+          0.398
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, amber palette, dining view. Change ONLY the existing narrow rectangular artwork above the sofa at image x=35%-40%, y=15%-40%. Replace its decorative insert with an understated shallow wall-mounted sculptural panel with rounded honey-oak fluted vertical forms and small amber-glass insets, carefully crafted and minimal. Keep within the existing artwork's same footprint and wall position; create no freestanding divider or architectural obstruction. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-446f66b1-da99-4213-bd90-09e35719cc02.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/amber/dining-partition.png",
+      "kind": "wall-art",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "蜜橡圆弧竖槽配琥珀玻璃，安装在原有壁画位置。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    },
+    {
+      "design": "graphite",
+      "label": "玄钢细网",
+      "brief": "minimal blackened-steel slim frame with very fine narrow metal mesh laminated in textured clear glass, no ornate patterns",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/dining.jpg",
+      "view": "dining",
+      "polygon": [
+        [
+          0.888,
+          0
+        ],
+        [
+          0.941,
+          0
+        ],
+        [
+          0.941,
+          0.793
+        ],
+        [
+          0.888,
+          0.746
+        ]
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: supplied image of existing apartment, graphite palette, dining view. Change ONLY the tall narrow patterned glass/screen insert at the far RIGHT edge beside the TV. Replace its decorative insert with minimal blackened-steel slim frame with very fine narrow metal mesh laminated in textured clear glass, no ornate patterns. Maintain the same outer footprint, thickness, perspective and frame position of the original screen. Keep the passage open and same width. Preserve EVERYTHING else exactly: identical camera, composition, furniture, objects, plants in front of the screen, lighting, shadows, color balance, floor, architecture, artwork elsewhere. No redesign, no recrop, no zoom. Photorealistic precise interior edit. Output native 1536x1024 resolution or higher, same 3:2 aspect ratio. No text or watermark.",
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-22544415-dc51-4f6f-b594-244142186c6c.png",
+      "path": "/workspace/scratch/d2f63f3a5692/v25-assets/graphite/dining-partition.png",
+      "kind": "partition",
+      "native_dimensions": [
+        1536,
+        1024
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "brief_zh": "玄黑钢细框配细金属网与肌理清玻。",
+      "compositing_note": "Normalized polygon is the edited surface footprint in the original image coordinates. Composite within polygon to preserve all original surroundings; use subtle edge feather. Foreground branches inside polygon are preserved by generated edit."
+    }
+  ],
+  "skipped_dining": [
+    {
+      "design": "dusk",
+      "reason": "Partition outside dining camera."
+    },
+    {
+      "design": "stone",
+      "reason": "Partition outside dining camera."
+    },
+    {
+      "design": "collector",
+      "reason": "Partition outside dining camera."
+    }
+  ]
+}

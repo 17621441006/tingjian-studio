@@ -2,7 +2,7 @@ import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.m
 import {renderFloorCatalog,floorProduct,FLOOR_CATALOG} from './floor-catalog.mjs';
 import {openImageDialog} from './dialog-view.mjs';
 import {renderMaterialList} from './material-previews.mjs';
-import {supportsSceneObjects,toggleSceneObject,renderSceneObjectControls} from './scene-objects.mjs';
+import {supportsOriginalEdits,supportsSceneObjects,toggleSceneObject,renderSceneObjectControls} from './scene-objects.mjs';
 import {HOMES,ROOMS} from './home-designs.mjs';
 import {LAYOUT_ROOMS,LIGHT_SCENES,layoutsFor,layoutInfo} from './layout-options.mjs';
 import {resolveScene,sceneAvailable,sceneAsset,sceneNote,sceneItems,sceneLabel,sceneFromGallery,assembleHome} from './scene-options.mjs';
@@ -47,7 +47,7 @@ export function initDesignJourney(root,gallery){
   $('[data-confirm-all]').disabled=busy||bulkBusy||!confirmed; $('[data-confirm-all]').textContent=bulkBusy?'正在检查全屋图片…':allConfirmed()?'全部已确认 ✓':'一键确认全部空间';
   $('[data-confirm-room]').disabled=busy||bulkBusy||!confirmed; $('[data-room-edit-loading]').hidden=!busy; $('[data-room-editor-picture]').setAttribute('aria-busy',String(busy));
   $('[data-layout-stage]').setAttribute('aria-busy',String(busy));$('[data-layout-loading]').hidden=!busy;
-  for(const b of $$('[data-details-object-controls] button'))b.disabled=bulkBusy||b.dataset.sceneRestore!==undefined&&!current.removed.length;
+  for(const b of $$('[data-details-object-controls] button'))b.disabled=bulkBusy||!supportsOriginalEdits(current)||b.dataset.sceneRestore!==undefined&&!current.removed.length;
   for(const b of $$('[data-home-design]'))b.disabled=busy&&step==='style';
   $('[data-home-panel]').hidden=inEditor||!galleryVisible();$('[data-layout-panel]').hidden=inEditor||step!=='layout';$('[data-journey-details]').hidden=inEditor||step!=='details';$('[data-whole-panel]').hidden=inEditor||step!=='whole';
   $('[data-journey-confirmbar]').hidden=step!=='style';$('[data-details-summary]').hidden=false;
@@ -120,7 +120,7 @@ export function initDesignJourney(root,gallery){
    }
    $('[data-room-edit-scope]').textContent=current.room==='living'?'选择地面直接更新房间画面，客餐厅同步；颜色与铺装为近似预览。':'床架、床品和窗景可以独立选择，其他搭配保留。';
   }else if(supportsSceneObjects(current)){
-   $('[data-room-edit-scope]').textContent='加回会恢复本套原单品。移除柜体会同时移走其台面摆件，挂墙电视、固定书架和餐桌仍保留。';
+   $('[data-room-edit-scope]').textContent='加回恢复原单品；茶几、桌椅、展示架等按列表分别调整，固定门窗和结构保留。';
   }else if(current.design==='dusk'&&current.room==='balcony'){
    for(const item of layoutsFor(current.design,current.room)){const next={...current,layout:item.id},b=makeButton(item.name+' · '+item.short,'editLayout',item.id,()=>choose(next));b.setAttribute('aria-pressed',String(current.layout===item.id));list.append(b);}$('[data-room-edit-scope]').textContent='先比较现有窗与整面窗景。外窗设想须结合原结构、物业与专业设计核验。';
   }else{
@@ -178,7 +178,7 @@ export function initDesignJourney(root,gallery){
   finally{if(id===wholeJob){wholeBusy=false;renderWhole();}}
  }
  function render(){syncNavigation();if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
- function commit(next){current=resolveScene(next);intended=clone(current);saved.set(current.design+':'+current.room,clone(current));gallery.syncFloor?.(current.design,current.room,current.floorProduct);if(['living','dining'].includes(current.room)){const pair=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+pair)||{design:current.design,room:pair};saved.set(current.design+':'+pair,resolveScene({...prior,floorProduct:current.floorProduct}));gallery.syncFloor?.(current.design,pair,current.floorProduct);}if(supportsSceneObjects(current)){const other=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+other)||{design:current.design,room:other};saved.set(current.design+':'+other,resolveScene({...prior,removed:current.removed}));gallery.syncRemovals?.(current.design,current.removed);}}
+ function commit(next){current=resolveScene(next);intended=clone(current);saved.set(current.design+':'+current.room,clone(current));gallery.syncFloor?.(current.design,current.room,current.floorProduct);if(['living','dining'].includes(current.room)){const pair=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+pair)||{design:current.design,room:pair};saved.set(current.design+':'+pair,resolveScene({...prior,floorProduct:current.floorProduct}));gallery.syncFloor?.(current.design,pair,current.floorProduct);}if(['living','dining'].includes(current.room)&&supportsSceneObjects(current)){const other=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+other)||{design:current.design,room:other};saved.set(current.design+':'+other,resolveScene({...prior,removed:current.removed,partitionStyle:current.partitionStyle}));}gallery.syncRemovals?.(current.design,current.removed,current.room,current.partitionStyle);}
  async function choose(value,{confirm=false,nextStep=null}={}){
   if(bulkBusy)return false;
   const next=resolveScene(value);if(!sceneAvailable(next)){$('[data-layout-status]').textContent=sceneNote(next);return false;}
@@ -187,7 +187,7 @@ export function initDesignJourney(root,gallery){
   catch(error){if(id!==job)return false;intended=clone(current);const output=step==='style'?$('[data-journey-confirm-status]'):step==='details'?$('[data-details-status]'):$('[data-layout-status]');output.textContent=error.message;output.append(' ',makeButton('重新载入','layoutRetry','',()=>choose(next,{confirm,nextStep})));return false;}
   finally{if(id===job){busy=false;syncNavigation();}}
  }
- function chooseRoom(room){const design=confirmed||current.design;return choose(saved.get(design+':'+room)||{...seeds.get(design),design,room,floorProduct:null,layout:'original',light:'daywarm',window:'original'});}
+ function chooseRoom(room){const design=confirmed||current.design;return choose(saved.get(design+':'+room)||{...seeds.get(design),design,room,removed:[],partitionStyle:'original',floorProduct:null,layout:'original',light:'daywarm',window:'original'});}
  gallery.setRoomHandler?.(()=>false);
  function goStep(next){
   if(bulkBusy)return;
@@ -196,13 +196,13 @@ export function initDesignJourney(root,gallery){
   render();
  }
  for(const b of $$('[data-journey-step]'))b.addEventListener('click',()=>{goStep(b.dataset.journeyStep);if(step==='whole'&&(!snapshot()||snapshot().signature!==signature()))buildWhole();});$('[data-journey-change]').addEventListener('click',()=>goStep('style'));
- $('[data-confirm-style]').addEventListener('click',()=>{if(busy||galleryBusy)return;const view=gallery.getState();$('[data-journey-confirm-status]').textContent='';choose(sceneFromGallery(view),{confirm:true,nextStep:'layout'});});
+ $('[data-confirm-style]').addEventListener('click',()=>{if(busy||galleryBusy)return;const view=gallery.getState();for(const edit of gallery.getRoomEdits?.(view.design)||[]){const key=edit.design+':'+edit.room;saved.set(key,resolveScene({...saved.get(key),...edit}));}$('[data-journey-confirm-status]').textContent='';choose(sceneFromGallery(view),{confirm:true,nextStep:'layout'});});
  $('[data-layout-next]').addEventListener('click',()=>goStep('details'));$('[data-details-next]').addEventListener('click',()=>{goStep('whole');if(step==='whole')buildWhole();});$('[data-whole-back]').addEventListener('click',()=>goStep('details'));$('[data-details-back]').addEventListener('click',()=>goStep('layout'));$('[data-layout-go-lights]').addEventListener('click',()=>chooseRoom('living'));
  $('[data-confirm-room]').addEventListener('click',()=>{if(busy||bulkBusy||!confirmed)return;confirmations.set(confirmed+':'+current.room,roomSignature(current.room));$('[data-details-status]').textContent=roomName(current.room)+'已确认。'+(allConfirmed()?'所有空间已选好，可以查看全屋效果。':'可以继续查看其他房间。');render();});
  $('[data-confirm-all]').addEventListener('click',async()=>{
   if(busy||bulkBusy||!confirmed)return;const design=confirmed,sig=signature(),list=clone(frames()),id=++bulkJob;bulkBusy=true;let count=0;syncNavigation();
   const output=$('[data-details-status]');output.textContent='正在核对八个空间的当前方案…';
-  try{await Promise.all(list.map(async f=>{await imageReady(f.path);if(id===bulkJob&&bulkBusy)output.textContent='已核对 '+(++count)+' / '+list.length+' 个空间';}));
+  try{await Promise.all(list.map(async f=>{await imageReady(f.path);await prepareFloorPhoto(f.path,f.scene);if(id===bulkJob&&bulkBusy)output.textContent='已核对 '+(++count)+' / '+list.length+' 个空间';}));
    if(id!==bulkJob||design!==confirmed||sig!==signature()){output.textContent='方案已更新，请重新确认全屋。';return;}
    for(const f of list)confirmations.set(design+':'+f.id,JSON.stringify(f));
    output.textContent='八个空间全部确认。已保留你调整的搭配，其余沿用本套方案；可以继续修改，或查看全屋效果。';

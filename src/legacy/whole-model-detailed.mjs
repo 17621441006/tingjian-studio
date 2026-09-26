@@ -1,3 +1,4 @@
+import {applySceneDecor} from './scene-decor.mjs';
 import * as THREE from 'three';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
@@ -117,5 +118,5 @@ export function buildDetailedHome(snapshot,textures={}){
  // Merge static draw calls within independent objects, retaining room/item identities.
  for(const item of objects.values()){if(!item.isGroup)continue;item.updateMatrixWorld(true);const inverse=new THREE.Matrix4().copy(item.matrixWorld).invert(),rows=new Map(),original=[];item.traverse(mesh=>{if(!mesh.isMesh||mesh.userData.straightWall)return;const geo=mesh.geometry.clone().applyMatrix4(new THREE.Matrix4().multiplyMatrices(inverse,mesh.matrixWorld));const list=rows.get(mesh.material)||[];list.push(geo);rows.set(mesh.material,list);original.push(mesh);});for(const mesh of original){mesh.removeFromParent();mesh.geometry.dispose();}for(const [material,geos]of rows){const inputs=geos.map(g=>g.index?g.toNonIndexed():g),merged=mergeGeometries(inputs);if(merged){const mesh=add(merged,material,item);if(material.transparent)mesh.castShadow=false;}for(const g of new Set([...geos,...inputs]))g.dispose();}}
  root.userData.detailFeatures=['upholstery-seams','cushion-creases','draped-bedding','pleated-curtains','cabinet-reveals','tile-joints','bathroom-fittings','textured-surfaces'];
- return applyObjectVisibility(root,spec);
+ return applyObjectVisibility(applySceneDecor(root,spec),spec);
 }

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "rooms": 56,
+  "objects": 352,
+  "partitionViews": 11,
+  "assets": 67,
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "originalFilesModified": false,
+  "realBrowserTested": false,
+  "notes": "Image masks approximate; local canvas outputs inspected. Fixed fitted kitchen/utility cabinetry remains."
+}

@@ -1,3 +1,4 @@
+import {prepareObjectPhoto,currentObjectPhoto,sceneEditKey} from './photo-objects.mjs';
 import {floorProduct} from './floor-catalog.mjs';
 // Normalised image-plane floor boundaries; holes keep rugs and furniture intact.
 // This is a material preview over the original photograph, not a geometry viewport.
@@ -57,15 +58,16 @@ export function compositeFloorPixels(original,width,height,texture,tw,th,mask,pr
  return out;
 }
 const cache=new Map(),jobs=new Map(),images=new Map(),tokens=new WeakMap();
-function load(path){if(!images.has(path))images.set(path,new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>{images.delete(path);reject(Error('地面预览图片未能载入'));};im.src=path;}));return images.get(path);}
-const keyFor=(path,scene)=>path+'|'+scene.floorProduct+'|'+scene.design+'|'+scene.room;
-export function currentFloorPhoto(path,scene){return cache.get(keyFor(path,scene))||path;}
+function load(path){if(!images.has(path))images.set(path,new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>{images.delete(path);reject(Error('地面预览图片未能载入'));};im.crossOrigin='anonymous';im.src=path;}));return images.get(path);}
+const keyFor=(path,scene)=>sceneEditKey(path,scene)+'|'+scene.floorProduct;
+export function currentFloorPhoto(path,scene){return floorProduct(scene.floorProduct)?cache.get(keyFor(path,scene))||path:currentObjectPhoto(path,scene);}
 export async function prepareFloorPhoto(path,scene){
- const product=floorProduct(scene.floorProduct);if(!product||typeof document==='undefined'||typeof document.createElement('canvas').getContext!=='function')return path;
+ const product=floorProduct(scene.floorProduct);if(typeof document==='undefined'||typeof document.createElement('canvas').getContext!=='function')return path;
+ if(!product)return prepareObjectPhoto(path,scene);
  const key=keyFor(path,scene);if(cache.has(key))return cache.get(key);if(jobs.has(key))return jobs.get(key);
- const job=(async()=>{const [im,sample]=await Promise.all([load(path),product.imageType==='场景图'?null:load(product.image)]),w=im.naturalWidth,h=im.naturalHeight,canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(im,0,0);const pixels=ctx.getImageData(0,0,w,h);let tex=null,tw=1,th=1;
+ const job=(async()=>{const edited=await prepareObjectPhoto(path,scene);if(!product){cache.set(key,edited);return edited;}const [im,sample]=await Promise.all([load(edited),product.imageType==='场景图'?null:load(product.image)]),w=im.naturalWidth,h=im.naturalHeight,canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(im,0,0);const pixels=ctx.getImageData(0,0,w,h);let tex=null,tw=1,th=1;
  if(sample){const tile=document.createElement('canvas');tw=tile.width=sample.naturalWidth;th=tile.height=sample.naturalHeight;const t=tile.getContext('2d');t.drawImage(sample,0,0);tex=t.getImageData(0,0,tw,th).data;}
  pixels.data.set(compositeFloorPixels(pixels.data,w,h,tex,tw,th,floorMask(w,h,floorRegions(scene,path)),product));ctx.putImageData(pixels,0,0);
  const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('地面预览无法生成');const url=URL.createObjectURL(blob);cache.set(key,url);while(cache.size>32){const oldest=cache.keys().next().value;const old=cache.get(oldest);cache.delete(oldest);setTimeout(()=>URL.revokeObjectURL(old),60000);}images.delete(path);return url;})();jobs.set(key,job);try{return await job;}finally{jobs.delete(key);}
 }
-export function setFloorPhoto(img,path,scene,link){if(!img)return;const token={};tokens.set(img,token);img.src=currentFloorPhoto(path,scene);if(link)link.href=img.src;return prepareFloorPhoto(path,scene).then(url=>{if(tokens.get(img)!==token)return;img.src=url;if(link)link.href=url;img.dataset.floorProduct=scene.floorProduct||'';}).catch(()=>{if(tokens.get(img)===token)img.title='地面预览暂未载入，请重新选择重试';});}
+export function setFloorPhoto(img,path,scene,link){if(!img)return;const token={};tokens.set(img,token);img.src=currentFloorPhoto(path,scene);if(link)link.href=img.src;return prepareFloorPhoto(path,scene).then(url=>{if(tokens.get(img)!==token)return;img.src=url;if(link)link.href=url;img.dataset.floorProduct=scene.floorProduct||'';}).catch(()=>{if(tokens.get(img)===token)img.title='图片编辑预览暂未载入，请重新选择重试';});}

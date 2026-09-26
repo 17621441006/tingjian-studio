@@ -36,7 +36,7 @@ diffuseColor *= texture2D(map,panoramaUV);`);
   };
   material.customProgramCacheKey=()=> 'tingjian-pano-projection-v1';
   root.userData.ownedMaterials.add(material);
-  root.userData.rooms.get(room.id)?.traverse(mesh=>{if(!mesh.isMesh)return;if(mesh.userData.straightWall){protectedWalls++;return;}if(mesh.userData.floorProduct)return;mesh.material=material;mesh.castShadow=false;mesh.receiveShadow=false;count++;});
+  root.userData.rooms.get(room.id)?.traverse(mesh=>{if(!mesh.isMesh)return;if(mesh.userData.straightWall){protectedWalls++;return;}if(mesh.userData.floorProduct||mesh.userData.preserveMaterial)return;mesh.material=material;mesh.castShadow=false;mesh.receiveShadow=false;count++;});
  }
  root.userData.photoProjection={mappedMeshes:count,protectedWalls,depthRecovered:false};return root;
 }

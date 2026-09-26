@@ -2,7 +2,7 @@ import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.m
 import {resolveScene,assembleHome} from './scene-options.mjs';
 import {renderFloorCatalog,normalizeFloorProduct,floorMaterialItems} from './floor-catalog.mjs';
 import {renderMaterialList} from './material-previews.mjs';
-import {supportsSceneObjects,normalizeRemoved,toggleSceneObject,objectSceneAsset,objectSceneLabel,objectSceneMaterials,renderSceneObjectControls} from './scene-objects.mjs';
+import {roomScope,supportsSceneObjects,normalizeRemoved,toggleSceneObject,objectSceneAsset,objectSceneLabel,objectSceneMaterials,renderSceneObjectControls} from './scene-objects.mjs';
 import {openImageDialog} from './dialog-view.mjs';
 import {HOMES,ROOMS} from './home-designs.mjs';
 import {variantsFor,resolveVariantState,variantAsset,homePresentation,VARIANT_ROOMS} from './home-variants.mjs';
@@ -15,7 +15,7 @@ export function initHomeGallery(root){
  let displayed={...resolveVariantState(),mode:'pieces'},pieces=defaultPieces(),requestId=0,allProducts=false,category='sofa';
  let intended={view:{...displayed},pieces:{...pieces}},roomHandler=null;
  const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,'original'])),modes={dusk:'pieces'};
- const removedByDesign={copper:[]},floorBySpace={};
+ const removedByDesign={},partitionBySpace={},floorBySpace={};
  const homeFloorHost=$('[data-home-floor-catalog]');
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;
  const loaded=new Set(),pending=new Map();
@@ -118,7 +118,7 @@ export function initHomeGallery(root){
   $('[data-home-story-title]').textContent=content.title;$('[data-home-story]').textContent=content.copy;
   $('[data-design-copy]').textContent=home.description;
   renderMaterialList($('[data-home-materials]'),floorMaterialItems({...displayed,floorProduct:floorSelection()},objectSceneMaterials(displayed,content.materials)),{path,room:displayed.room});
-  renderSceneObjectControls($('[data-home-object-controls]'),displayed,id=>{const base=intended.view.design===displayed.design?intended.view:displayed,next=id===null?{...base,removed:[]}:toggleSceneObject(base,id);select(displayed.design,displayed.room,displayed.variant,displayed.mode,intended.pieces,next.removed);});
+  renderSceneObjectControls($('[data-home-object-controls]'),displayed,id=>{const base=intended.view.design===displayed.design?intended.view:displayed,next=id===null?{...base,removed:[]}:toggleSceneObject(base,id);select(displayed.design,displayed.room,displayed.variant,displayed.mode,intended.pieces,next.removed,next.partitionStyle);});
   for(const b of $$('[data-home-design]'))b.setAttribute('aria-pressed',String(b.dataset.homeDesign===displayed.design));
   for(const b of $$('[data-design]'))b.setAttribute('aria-pressed','false');
   $('[data-home-large]').href=path;$('[data-home-save]').href=currentFloorPhoto(path,floorScene);$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
@@ -126,19 +126,19 @@ export function initHomeGallery(root){
   renderFloorCatalog(homeFloorHost,{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();},{inline:true});
   document.dispatchEvent(new CustomEvent('tingjian:home-view',{detail:{...displayed,floorProduct:floorSelection(),pieces:{...pieces},path,thumb:assetFor(displayed,pieces,true)}}));
  }
- async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design]||[]){
-  const next={...resolveVariantState(design,room,variant),mode:design==='dusk'&&mode==='pieces'?'pieces':'palette',removed:normalizeRemoved(removed)},snapshot=normalizePieces(selection),id=++requestId;
+ async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design+':'+roomScope(room)]||[],partitionStyle=partitionBySpace[design+':'+roomScope(room)]||'original'){
+  const next={...resolveVariantState(design,room,variant),mode:design==='dusk'&&mode==='pieces'?'pieces':'palette',removed:normalizeRemoved(removed),partitionStyle},snapshot=normalizePieces(selection),id=++requestId;
   if(isPieceView(next)&&!pieceAvailable(next.room,snapshot)){$('[data-home-load-status]').textContent=pieceAvailabilityNote(next.room,snapshot);return false;}
   intended={view:next,pieces:snapshot};showSurface();
   $('[data-home-loading]').hidden=false;stage.setAttribute('aria-busy','true');$('[data-home-load-status]').textContent='';
   document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:true}));
   try{
-   await getImage(assetFor(next,snapshot));if(id!==requestId||root.dataset.surface!=='home')return false;
-   displayed=next;pieces=snapshot;choices[next.design]=next.variant;modes[next.design]=next.mode;removedByDesign[next.design]=normalizeRemoved(next.removed);paint();return true;
+   await getImage(assetFor(next,snapshot));await prepareFloorPhoto(assetFor(next,snapshot),{...next,pieces:snapshot,floorProduct:floorBySpace[design+':'+room]||null});if(id!==requestId||root.dataset.surface!=='home')return false;
+   displayed=next;pieces=snapshot;choices[next.design]=next.variant;modes[next.design]=next.mode;removedByDesign[next.design+':'+roomScope(next.room)]=normalizeRemoved(next.removed);partitionBySpace[next.design+':'+roomScope(next.room)]=next.partitionStyle;paint();return true;
   }catch(error){
    if(id!==requestId||root.dataset.surface!=='home')return false;
    intended={view:{...displayed},pieces:{...pieces}};
-   const status=$('[data-home-load-status]');status.textContent=error.message+'。保留当前画面。';const retry=document.createElement('button');retry.type='button';retry.textContent='重新载入';retry.addEventListener('click',()=>select(next.design,next.room,next.variant,next.mode,snapshot,next.removed));status.append(' ',retry);
+   const status=$('[data-home-load-status]');status.textContent=error.message+'。保留当前画面。';const retry=document.createElement('button');retry.type='button';retry.textContent='重新载入';retry.addEventListener('click',()=>select(next.design,next.room,next.variant,next.mode,snapshot,next.removed,next.partitionStyle));status.append(' ',retry);
    return false;
   }finally{if(id===requestId){$('[data-home-loading]').hidden=true;stage.setAttribute('aria-busy','false');document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:false}));}}
  }
@@ -158,5 +158,5 @@ export function initHomeGallery(root){
  dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
  showSurface();paint();
  picture.addEventListener('error',()=>{$('[data-home-load-status]').textContent='图片暂未载入，请点选右侧房间重试。';});
- return {syncFloor(design,room,id){floorBySpace[design+':'+room]=normalizeFloorProduct(id);if(displayed.design===design&&displayed.room===room)paint();},setRoomHandler:fn=>{roomHandler=fn;},syncRemovals(design,removed){removedByDesign[design]=normalizeRemoved(removed);if(displayed.design===design){displayed={...displayed,removed:normalizeRemoved(removed)};intended={view:{...displayed},pieces:{...pieces}};paint();}},open:()=>select(displayed.design,displayed.room,displayed.variant,displayed.mode),openView:select,getState:()=>({...displayed,floorProduct:floorSelection(),pieces:{...pieces},path:assetFor(displayed),thumb:assetFor(displayed,pieces,true)})};
+ return {getRoomEdits(design){return ROOMS.filter(r=>Object.hasOwn(removedByDesign,design+':'+roomScope(r.id))||Object.hasOwn(floorBySpace,design+':'+r.id)).map(r=>({design,room:r.id,removed:removedByDesign[design+':'+roomScope(r.id)]||[],partitionStyle:partitionBySpace[design+':'+roomScope(r.id)]||'original',floorProduct:floorBySpace[design+':'+r.id]||null}));},syncFloor(design,room,id){floorBySpace[design+':'+room]=normalizeFloorProduct(id);if(displayed.design===design&&displayed.room===room)paint();},setRoomHandler:fn=>{roomHandler=fn;},syncRemovals(design,removed,room='living',partitionStyle='original'){removedByDesign[design+':'+roomScope(room)]=normalizeRemoved(removed);partitionBySpace[design+':'+roomScope(room)]=partitionStyle;if(displayed.design===design&&roomScope(displayed.room)===roomScope(room)){displayed={...displayed,removed:normalizeRemoved(removed),partitionStyle};intended={view:{...displayed},pieces:{...pieces}};paint();}},open:()=>select(displayed.design,displayed.room,displayed.variant,displayed.mode),openView:select,getState:()=>({...displayed,floorProduct:floorSelection(),pieces:{...pieces},path:assetFor(displayed),thumb:assetFor(displayed,pieces,true)})};
 }

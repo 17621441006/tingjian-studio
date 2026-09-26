@@ -1,3 +1,4 @@
+import {applySceneDecor} from './scene-decor.mjs';
 import * as THREE from 'three';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
@@ -73,6 +74,6 @@ export function buildWholeGeometry(snapshot,textures={},options={}){
  // Merge static submeshes per independent item/material; room and item identities survive picking.
  root.updateMatrixWorld(true);for(const item of objects.values()){if(!item.isGroup)continue;const byMaterial=new Map();for(const mesh of [...item.children]){if(!mesh.isMesh)continue;mesh.updateMatrix();const geo=mesh.geometry.clone().applyMatrix4(mesh.matrix);const rows=byMaterial.get(mesh.material)||[];rows.push(geo);byMaterial.set(mesh.material,rows);item.remove(mesh);mesh.geometry.dispose();}for(const [material,geos] of byMaterial){const nonIndexed=geos.map(g=>g.index?g.toNonIndexed():g),merged=mergeGeometries(nonIndexed);if(merged){const mesh=new THREE.Mesh(merged,material);mesh.castShadow=mesh.receiveShadow=true;item.add(mesh);}for(const g of new Set([...geos,...nonIndexed]))g.dispose();}}
  root.userData.objects=objects;root.userData.rooms=rooms;
- return applyObjectVisibility(root,spec);
+ return applyObjectVisibility(applySceneDecor(root,spec),spec);
 }
 export function disposeWholeGeometry(root){const materials=new Set(root?.userData.ownedMaterials||[]);if(root?.userData.shellMaterials)Object.values(root.userData.shellMaterials).forEach(m=>materials.add(m));root?.traverse(o=>{o.geometry?.dispose();if(o.material)materials.add(o.material);});materials.forEach(m=>m.dispose());}

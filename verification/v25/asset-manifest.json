@@ -1,0 +1,471 @@
+[
+  {
+    "path": "dist/scene-edits-v25/dusk/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 168684,
+    "sha256": "a25b15297898658b5f7b0cd4ae2fd7f7c4c75a519e9db6aaabe1010ba79ab8a7"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 151602,
+    "sha256": "868a964f05fafbcb1141800819ce2d4d5e5d41148b253ebc99dba47482dd44d7"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 328326,
+    "sha256": "5f29d812601e046f2da4f05522459881d7aaff29d185adca4f15e3c2984aa0be"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 178886,
+    "sha256": "3fd51db70edcda726fecb4ee1934f3400f1762cfc3dd50de096c7c5d8aefc9d7"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 174170,
+    "sha256": "128b546cd5b6045d16243e01445bfe1f7791fea3de862494e5a84d2dcd5c3547"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 207730,
+    "sha256": "aa84dd9a6b71d9f2236d1794cf86af0f752c91dd06bae64a3f40540312968d07"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 323792,
+    "sha256": "9e16d1a13c6c1b579b72a6ba2cc38bbd9260f6df550c260051da481896bdeb89"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 223564,
+    "sha256": "647b558f2310053e15496eb6221ef78288f898258a24c86af477cca081af3aa0"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 134530,
+    "sha256": "56ba114157d6aea5afde5bd6367c64b05cfff357baba9a13fac7ed8e9fd0383c"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 113102,
+    "sha256": "afacdc07fd9082d4b622ce19df744060e144d87bc9a9d6f92c68009b31269451"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 295624,
+    "sha256": "ead087854251129a9bceceda3f0d166c4f8065a558ab348ba43daab268bb39fb"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166026,
+    "sha256": "7077a271395d293b793c931d371893e49cb4add9f93937042546dd03673e1322"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 125172,
+    "sha256": "26670129e40b84fe71cb0ae95f14073ec0ca879b3aeb7a531c1be427c1a70d4b"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 156678,
+    "sha256": "78aad35c199d49ba80867da5bab14550576eabc997e12b68f6d69d43da09fbc4"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 206352,
+    "sha256": "b238646812f5795d80a2d7320db2ef957284a172099193570ed509c21ad929e8"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 181100,
+    "sha256": "b8c0a99d7ba419513c5b31c6be3669461ceae0f1e2fbd84bf64e5f1beb77ffab"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 200828,
+    "sha256": "2bbeee046aef0a64c1913d41cdb9d5e2ec62dd6ff865afaed0cb50522e0be9ed"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 162470,
+    "sha256": "9c0d39d15a4c606757ae7780488ae0f6cdcafc12ee776dacc6f878338199c160"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 256390,
+    "sha256": "2ed4ab211dfd2c7b96548a3da6643a838b588749002a71ad57665e93ecce5337"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 187374,
+    "sha256": "af5399c8062be7e985ab21ffb9216e90a3bcc4b95bb927b08173f76315f8863c"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 150006,
+    "sha256": "401e4387d47139e4016c4eb9118a3eedd3beb2b60964cb6d286adfe384bbdeee"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 184634,
+    "sha256": "709c73be2b03e34ffd4e7fafa3649209c4ccab6a5f28a98e5c59fa9d50d16eb8"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 407502,
+    "sha256": "d29544608e812fcf139743686cb7bf7db3e7f01b1b82082ef53df692fc7a5b47"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 220864,
+    "sha256": "38c9178d4b64587857d51fb8d6de014762953fce151b8f11bd829cd4bbf124a2"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 173460,
+    "sha256": "0321b2d02478c3a1bef03e3f9604f5ac6a16233b8fbf58cd70d0bd41e64872ee"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 133018,
+    "sha256": "d1ef3afc25fc93e9eae4691731eafb95f714a969225331f22d24c05c2b20fb94"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 219256,
+    "sha256": "8d3b8d26a45f5e3b73fba54c78222f684293176cf09f37fc191c312590eef5c8"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 198928,
+    "sha256": "642c5cafc8273073a6f6119bd63ccf27bb924336f08330ff729171214be0bdd9"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 163546,
+    "sha256": "1702cf3989e5998d0f633f6ba9beab9fe8a61a538b03509bd3d50e892db28754"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 210374,
+    "sha256": "40e0057088cb9d6857430abbf463c968a8029ee7c931443ae56a3b5922f362ef"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 282962,
+    "sha256": "3ff6d72b78bf706f3396c285720702da861c833d3fa84135f7410bcdc7bd8d22"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 243842,
+    "sha256": "88c6f7dc1f51fac8a853f79ed4e90e3cd4c44bd148cbe09b9418c0451dda30a9"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 239934,
+    "sha256": "94b5a61da89b82e777c8adf2a149392df49b05c9e916adfd132b4b3568b2de33"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 211706,
+    "sha256": "201a1b3e0de6c0c0af2208e372833c33b148684fca900896a9af8019ee51311c"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 315318,
+    "sha256": "f0f0e5c49c7639bdd03b59740ad67c6ff5cb8b7572ab107b2b1a4329f0a86e82"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 234520,
+    "sha256": "79e59c47923770b758cbb6d32afc0b93501c452d3d5829857b105095b1f93a0e"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 142908,
+    "sha256": "544c43a0ccda6a1b17fb20b2f5127665f83bef224c519a568e2b2ba1c8e2f508"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 212198,
+    "sha256": "cb3acb0a67d3485565d92d3a9b4d3fce780e9cbec80290d105feee40abf9a4d6"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 436286,
+    "sha256": "17c10a18b773d52a147f5719881e10696deabd31cb1ccc834388094636064510"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 130604,
+    "sha256": "ac169fffa6b0abb574bc914b62ec964d7fede5502f55b1f0cbffd1010280a2cf"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 124536,
+    "sha256": "ff4c4096d469d6bd826fa0ad5bf0db2305066e671c59a31ecb1d71b135cfee82"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 151040,
+    "sha256": "41afdf554154fa74bbe26009c7f1d37eba3afd8a8df6fcad760916326fd0c298"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 264192,
+    "sha256": "587476bbb7e1ed9c09b86ee76f39ed9f32ef5140b33442fd34497c70afac9881"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 213096,
+    "sha256": "44b80deb58ab1d71df878ba71cd46fc7491750af94c4f03145a7458debe1f68a"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 133080,
+    "sha256": "a57f068429a166b8f36553f94413e4caef164851c5ece75a1aaf11a1dd00bf86"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 173264,
+    "sha256": "1ccd472a5ff08e0c75a88926a0aa62f399e1a553f34d8a6a62ef106a53f16721"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 213240,
+    "sha256": "31ae07e96470b047bff06768db4314b0baea3e45fd30876bbd90bfb600b80f3d"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 244582,
+    "sha256": "7057e0a4316b60db726a526ac30fdd7c5e4dad7e871ca7cfb16a33a10d5c01e4"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/living-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 230738,
+    "sha256": "3ce114a5b8c5e80b972cec9cef8b79e0edfcbb3c50206887316061d80ec6a429"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/dining-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 267680,
+    "sha256": "8672cfcabcd087bc73cb67d24b2f6d2d3b51a153bd42b33102fd3ac86bbefe1c"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/balcony-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 217766,
+    "sha256": "3a930fd4aa16a5678d77737268b84c3ccfa0af10ba7a3096be17b69306dc7da8"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/master-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 155092,
+    "sha256": "ae25eaed67a53c9d92e44e29f58b9b23a76cefc51cdf4deb77e26e5508029a73"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/second-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 143504,
+    "sha256": "1e95c0adeaef160429542f3008a88de07a1f00308197348b6aac18c4932cb4b8"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/kitchen-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 210576,
+    "sha256": "420be4cecab80b212440cfaba8ec632c489d408f15f40167adb8cd2e073e7b03"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/bath-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 275326,
+    "sha256": "b7b7409f6e6779422638c8a158a48e14d7843e7d4c881f6618e575f473bf9c23"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/utility-clean.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 157792,
+    "sha256": "f0326653cad22f6e736814fdf799f2de48950beda519e8310df1052e4f839d54"
+  },
+  {
+    "path": "dist/scene-edits-v25/dusk/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 212268,
+    "sha256": "18af470f92f999bdb7bb6246c89d74356af3f41a8d29a5fe6daf168550d78cfc"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 269258,
+    "sha256": "cf5efac752e9664975b90ff14480de521b85fd4f285535859bac3c9a169e3a51"
+  },
+  {
+    "path": "dist/scene-edits-v25/stone/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 250336,
+    "sha256": "bfb191de4533398bcd45a47ec8f38b7d33231285586319f3f1120f89e2cae805"
+  },
+  {
+    "path": "dist/scene-edits-v25/collector/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 253130,
+    "sha256": "2a90c74268dd4e4ac5fff00592088a69df6a4cfe6d03bf4c874471720391ffd6"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 327012,
+    "sha256": "c441bb54a56b56822815c4bfcdc72eb0db0af3beac247f8acfd8493ce0081358"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 244422,
+    "sha256": "0fed4d8626295d80dde601582012d2b5a6a93584244d78ac942be704ae2ded45"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/living-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 238136,
+    "sha256": "5ad1fb499163717b60f7f4f4acef1bc22b6af89e9b54517a301db43a2aaf589b"
+  },
+  {
+    "path": "dist/scene-edits-v25/chinese/dining-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 198018,
+    "sha256": "5e446f56e2cad25d132b92484161319d6baeabc594ba438729c5b3dbe9a168c7"
+  },
+  {
+    "path": "dist/scene-edits-v25/copper/dining-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 212980,
+    "sha256": "149de36c8b9d35065bdc443b62018c67d8104851c12723736461101f2a530431"
+  },
+  {
+    "path": "dist/scene-edits-v25/amber/dining-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 222456,
+    "sha256": "3eb6182dcd9a034dfd6420005159b6bdbd1e43fa1c3e5cbc03199a88cf7f5991"
+  },
+  {
+    "path": "dist/scene-edits-v25/graphite/dining-partition.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 267412,
+    "sha256": "d785782d4fb77e2059322da11992b74719fd589a68d9b9a4566cf6a0b4b5e591"
+  }
+]
