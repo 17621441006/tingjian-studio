@@ -1,3 +1,77 @@
+# Classic recording credits
+
+These files are adapted opening excerpts of published recordings. Audio changes: loudness normalization to a -23 LUFS target, gentle fade-in/out, MP3 64 kbps / 32 kHz encoding; original channel count retained. They are not newly composed or generated music.
+
+The stone track is the full available 29.736-second koto recording; all other excerpts contain 120 seconds of audio. MP3 padding adds around 0.04 seconds.
+
+## Attribution and licenses
+
+### dusk: Clair de lune
+Composition: Claude Debussy. Recording / performance: Laurens Goedhart.
+Recording and supplied adapted audio license: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Clair_de_lune_(Claude_Debussy)_Suite_bergamasque.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: c96b09d14e3bc2fd0785b736dbc7ae5054944ee960bd63806721dec78b4a7c87
+
+### chinese: 阳关三叠 · Yangguan Sandie
+Composition: Traditional Chinese; score Qinxue Rumen (1867). Recording / performance: Charlie Huang (Charles R Tsua).
+Recording and supplied adapted audio license: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Guqin-Yangguan_Sandie.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: def98bc7656a4f378d00472ca76313242d35fa0530eb35291379edcd7fc0a0ed
+
+### stone: さくらさくら · Sakura Sakura (koto excerpt)
+Composition: Traditional Japanese. Recording / performance: Unnamed koto musician; recording by Torsodog.
+Recording and supplied adapted audio license: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Koto_performance.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: 98a2557e55212bac94bb9308e4da996a467155feaa81c859f862c33b494899f1
+
+### collector: Nocturne in E-flat major, Op. 9 No. 2
+Composition: Frédéric Chopin. Recording / performance: Peter Johnston.
+Recording and supplied adapted audio license: CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major,_Op._9.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: b5d5ffe12e909826bbddc381c6e86db5115da8f15706583f92f796b60ade3e26
+
+### copper: Prelude in C major, BWV 846
+Composition: Johann Sebastian Bach. Recording / performance: Kimiko Ishizaka.
+Recording and supplied adapted audio license: CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: d529052c5eaf81624b3b564eb49a5b33414299b1f088b65d1a501cdf3ffbfe67
+
+### amber: Canon in D
+Composition: Johann Pachelbel. Recording / performance: Kevin MacLeod.
+Recording and supplied adapted audio license: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Canon_in_D_Major.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: f50f1fcdd865aaad7f466b17ca81eeffd3b00082990b83b3b01aea9c895e0803
+
+### graphite: Moonlight Sonata — Adagio sostenuto
+Composition: Ludwig van Beethoven. Recording / performance: Paul Pitman / Musopen.
+Recording and supplied adapted audio license: Public domain dedication — https://creativecommons.org/publicdomain/mark/1.0/
+Source: https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27,_op._27_no._2_-_i._adagio_sostenuto.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: 9be854326d8713affb3c215e7745a1d329399da257597fc5b3261f17d4e67d17
+
+### home: Gymnopédie No. 1
+Composition: Erik Satie. Recording / performance: Kevin MacLeod.
+Recording and supplied adapted audio license: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg
+Changes: Opening excerpt; gently loudness normalized to -23 LUFS target; fade-in/out; encoded MP3 64 kbps, 32 kHz; source channel count retained.
+SHA-256: 36fa0856beb13044cd91553cdd3c7a7db7b50405ee295d23478db9d560fc14fb
+
+## Provenance notes
+- License verified on each Wikimedia Commons file description using web search/open, 2026-09-26.
+- Clair de lune has separate composition and recording licenses: the composition is public domain, but this recording is CC BY 3.0; do not label it public domain.
+- Yangguan Sandie is traditional guqin music, not Mo Li Hua; do not claim the latter. The provided audio adaptation remains CC BY-SA 3.0.
+- Sakura Sakura identification is supported by the Commons category; the page describes an unnamed woman playing a 13-string koto. Torsodog is the credited recorder, not a verified performer name. This is a field recording and may contain ambient sound.
+- Canon and Gymnopédie are Kevin MacLeod’s published arrangements/recordings; the pages do not establish every instrument’s acoustic versus sampled production.
+- The famous status refers to the compositions; these are openly licensed performances, not claimed to be famous commercial master recordings.
+- Output is optimized for site payload; it is not lossless/high-fidelity distribution.
+
+---- Original alternatives (tracks 9–16) ----
 庭间 · 八首原创空间配乐 / Original arrangements (v20)
 Composition, arrangement and digital performance: Tingjian Studio project, 2026.
 No third-party melody or commercial recording is reproduced.

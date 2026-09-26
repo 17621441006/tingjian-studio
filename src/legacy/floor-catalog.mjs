@@ -5,10 +5,11 @@ export const floorProductLabel=item=>item.brand+' · '+item.name;
 export const normalizeFloorProduct=id=>floorProduct(id)?.id||null;
 export const floorAllowed=(room,item)=>!['bath','kitchen','utility'].includes(room)||item?.category==='tile';
 const panelStates=new WeakMap();
-export function floorMaterialItems(scene,items){const item=floorProduct(scene.floorProduct);return item?[...items.filter(([label])=>!['地面','地板','品牌地面'].includes(label)),['品牌地面',floorProductLabel(item)+'；'+item.finish+'（已同步三维试铺；写实图为原设计参考）']]:items;}
-export function renderFloorCatalog(host,scene,onSelect,{disabled=false}={}){
+export function floorMaterialItems(scene,items){const item=floorProduct(scene.floorProduct);return item?[...items.filter(([label])=>!['地面','地板','品牌地面'].includes(label)),['品牌地面',floorProductLabel(item)+'；'+item.finish+'（已更新房间地面；颜色与铺装为近似预览）']]:items;}
+export function renderFloorCatalog(host,scene,onSelect,{disabled=false,inline=false}={}){
  if(!host)return;const wet=['bath','kitchen','utility'].includes(scene.room),item=floorProduct(scene.floorProduct);
  const state=panelStates.get(host)||{category:item?.category||(wet?'tile':'wood'),room:scene.room};if(state.room!==scene.room){state.category=item?.category||(wet?'tile':'wood');state.room=scene.room;}panelStates.set(host,state);
+ if(inline)return renderInlineFloorCards(host,scene,onSelect,disabled);
  host.replaceChildren();const el=(tag,text)=>{const e=document.createElement(tag);if(text)e.textContent=text;return e;};
  const title=el('h3','品牌地面 · 10 款精选'),hint=el('p','点击即在房间三维试铺中更换地面，客餐厅联动；写实设计图保留作对照。');hint.className='floor-catalog-note';host.append(title,hint);
  const tabs=el('div');tabs.className='floor-catalog-tabs';tabs.setAttribute('role','group');tabs.setAttribute('aria-label','地面品类');
@@ -25,4 +26,12 @@ export function renderFloorCatalog(host,scene,onSelect,{disabled=false}={}){
  if(item){const selection=el('div');selection.className='floor-selection';selection.dataset.selectedFloor=item.id;selection.append(el('p','已选：'+floorProductLabel(item)),el('p',item.spec));const link=el('a','查看官网产品 ↗');link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';const clear=el('button','恢复方案地面');clear.type='button';clear.dataset.floorClear='';clear.disabled=disabled;clear.addEventListener('click',()=>onSelect(null));selection.append(link,clear);host.append(selection);
  const sample=el('div');sample.className='floor-spec-preview';const photo=el('img');photo.src=item.image;photo.alt=item.brand+' · '+item.product+' 官方'+item.imageType;photo.loading='lazy';sample.append(photo,el('small',item.description));host.append(sample);}
  const note=el('p','官网产品样板；实际颜色、纹理与适用规格以线下样品为准。');note.className='floor-catalog-note';host.append(note);
+}
+
+function renderInlineFloorCards(host,scene,onSelect,disabled){
+ host.replaceChildren();host.className='floor-catalog floor-inline';
+ for(const p of CATALOG){const b=document.createElement('button');b.type='button';b.className='floor-inline-card';b.dataset.floorProduct=p.id;b.disabled=disabled||!floorAllowed(scene.room,p);b.setAttribute('aria-pressed',String(p.id===scene.floorProduct));b.title=p.brand+' · '+p.spec;
+ const im=document.createElement('img');im.src=p.thumb;im.alt=p.brand+'官方样板';im.loading='lazy';im.width=132;im.height=88;
+ const labels=document.createElement('span'),title=document.createElement('strong'),note=document.createElement('small');title.textContent=floorProductLabel(p);note.textContent=(p.category==='wood'?'木地板':'地砖')+' · '+p.finish;labels.append(title,note);b.append(im,labels);b.addEventListener('click',()=>onSelect(p.id));host.append(b);}
+ if(scene.floorProduct){const clear=document.createElement('button');clear.type='button';clear.dataset.floorClear='';clear.textContent='恢复原方案地面';clear.disabled=disabled;clear.addEventListener('click',()=>onSelect(null));host.append(clear);}
 }

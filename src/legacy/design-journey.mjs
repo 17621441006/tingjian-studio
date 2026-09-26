@@ -1,4 +1,4 @@
-import {createFloorLive} from './floor-live.mjs';
+import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.mjs';
 import {renderFloorCatalog,floorProduct,FLOOR_CATALOG} from './floor-catalog.mjs';
 import {openImageDialog} from './dialog-view.mjs';
 import {renderMaterialList} from './material-previews.mjs';
@@ -17,7 +17,7 @@ export function initDesignJourney(root,gallery){
  let wholeBusy=false,wholeJob=0,wholeRoom='living',wholeView='model',exportBusy=false;
  let editCategory='sofa',modelApi=null,modelPromise=null,modelSignature=null,historyOpen=false;
  let bulkBusy=false,bulkJob=0,modelQuality='detailed';
- const syncFloorLive=createFloorLive(root);
+ const detailsFloorHost=$('[data-details-floor-catalog]');
  const confirmations=new Map();
  const saved=new Map(),seeds=new Map(),shortlists=new Map(),snapshots=new Map(),loaded=new Set(),pending=new Map();
  const clone=value=>JSON.parse(JSON.stringify(value));
@@ -70,10 +70,10 @@ export function initDesignJourney(root,gallery){
   $('[data-layout-scope]').textContent=current.design==='dusk'?'风格和单品已保留。布局、光线和窗景只显示已有对应效果的组合。':'已保留'+HOMES[current.design].name+'的当前搭配；本套先沿用原排布，新排布试验位于暮色私邸。';
   $('[data-layout-availability]').textContent=sceneNote(current);
   const info=layoutInfo(current),path=sceneAsset(current);
-  $('[data-layout-image]').src=path;$('[data-layout-image]').alt=HOMES[current.design].name+' · '+roomName(current.room)+' · '+sceneLabel(current)+' · '+lightName(current.light)+'概念效果图';
+  setFloorPhoto($('[data-layout-image]'),path,current,$('[data-layout-save]'));$('[data-layout-image]').alt=HOMES[current.design].name+' · '+roomName(current.room)+' · '+sceneLabel(current)+' · '+lightName(current.light)+'概念效果图';
   for(const key of ['layout','light','room','design'])$('[data-layout-stage]').dataset[key]=current[key];$('[data-layout-stage]').dataset.sofa=current.pieces.sofa;
   $('[data-layout-image-label]').textContent=info.name+' / '+lightName(current.light);$('[data-layout-selected-items]').textContent=sceneItems(current).map(x=>x[0]+' · '+x[1]).join('　/　');
-  $('[data-layout-save]').href=path;$('[data-layout-save]').download=HOMES[current.design].name+'-'+roomName(current.room)+'-'+info.name+'-'+lightName(current.light)+'.jpg';
+  $('[data-layout-save]').href=currentFloorPhoto(path,current);$('[data-layout-save]').download=HOMES[current.design].name+'-'+roomName(current.room)+'-'+info.name+'-'+lightName(current.light)+'.jpg';
   $('[data-layout-story-title]').textContent=info.title;$('[data-layout-story-copy]').textContent=info.copy;$('[data-layout-benefit]').textContent=info.benefit;$('[data-layout-tradeoff]').textContent=info.tradeoff;
   const checks=$('[data-layout-checks]');checks.replaceChildren();for(const check of info.checks){const li=document.createElement('li');li.textContent=check;checks.append(li);}
   const windows=$('[data-window-options]');windows.replaceChildren();$('[data-window-section]').hidden=current.design!=='dusk'||current.room!=='master';
@@ -100,25 +100,25 @@ export function initDesignJourney(root,gallery){
   $('[data-shortlist-only]').setAttribute('aria-pressed',String(onlySelected));$('[data-shortlist-only]').textContent=onlySelected?'回到全部候选':'只看已选候选';$('[data-details-empty]').hidden=candidates.length>0;
  }
  function renderDetails(){
-  const home=HOMES[current.design],info=layoutInfo(current),frame=frames().find(f=>f.id===current.room);$('[data-details-image]').src=frame.path;$('[data-details-image]').alt=home.name+' · '+roomName(current.room)+' · '+sceneLabel(current);
+  const home=HOMES[current.design],info=layoutInfo(current),frame=frames().find(f=>f.id===current.room);setFloorPhoto($('[data-details-image]'),frame.path,current);$('[data-details-image]').alt=home.name+' · '+roomName(current.room)+' · '+sceneLabel(current);
   $('[data-details-design]').textContent=home.name+' · '+roomName(current.room);$('[data-details-title]').textContent=roomName(current.room);$('[data-details-copy]').textContent=(frame.shared?'客餐厅共用选材 · 显示已选客厅视角':sceneLabel(current))+' / '+lightName(current.light);
   renderMaterialList($('[data-details-items]'),sceneItems(current),{path:frame.path,room:current.room});
   const count=confirmationCount();$('[data-room-progress]').textContent='已确认 '+count+' / '+ROOMS.length+' 个空间';$('[data-details-next]').textContent=allConfirmed()?'查看我的三维全屋效果 →':'全部确认后，看全屋效果 →';
   $('[data-room-confirm-state]').textContent=roomConfirmed(current.room)?'本空间已确认 ✓':'本空间待确认';$('[data-confirm-room]').textContent=roomConfirmed(current.room)?'已确认 · 再次确认':'确认这一间';$('[data-next-unconfirmed]').hidden=allConfirmed();
   const nav=$('[data-details-room-picks]');nav.replaceChildren();for(const r of ROOMS){const f=frames().find(f=>f.id===r.id),b=makeButton('','detailsRoom',r.id,()=>chooseRoom(r.id)),im=document.createElement('img'),text=document.createElement('span'),small=document.createElement('small');im.src=f.thumb;im.alt='';im.loading='lazy';im.width=90;im.height=60;text.textContent=r.name;small.textContent=roomConfirmed(r.id)?'已确认 ✓':'待确认';b.setAttribute('aria-pressed',String(r.id===current.room));b.dataset.confirmed=String(roomConfirmed(r.id));b.append(im,text,small);nav.append(b);}
   const cats=$('[data-room-edit-categories]'),list=$('[data-room-edit-choices]');cats.replaceChildren();list.replaceChildren();
-  renderFloorCatalog($('[data-details-floor-catalog]'),current,async id=>{const base=intended.room===current.room?intended:current;if(await choose({...base,floorProduct:id}))$('[data-floor-live]')?.scrollIntoView?.({behavior:'smooth',block:'center'});},{disabled:bulkBusy});
+  renderFloorCatalog(detailsFloorHost,current,async id=>{const base=intended.room===current.room?intended:current;await choose({...base,floorProduct:id});},{disabled:bulkBusy,inline:true});
   renderSceneObjectControls($('[data-details-object-controls]'),current,id=>{if(bulkBusy)return;const base=intended.room===current.room?intended:current;choose(id===null?{...base,removed:[]}:toggleSceneObject(base,id));},{disabled:bulkBusy});
   const groups=current.design==='dusk'&&current.mode==='pieces'&&current.layout==='original'&&current.light==='daywarm'?pieceGroups(current.room):[];
   if(!groups.length)groups.push('scheme');if(!groups.includes('floor'))groups.push('floor');
   if(!groups.includes(editCategory))editCategory=groups[0]||'floor';
-  $('[data-details-floor-catalog]').hidden=editCategory!=='floor';
+  detailsFloorHost.hidden=editCategory!=='floor';
   for(const kind of groups){const b=makeButton(PIECE_GROUPS[kind]?.label||'原方案','editCategory',kind,()=>{editCategory=kind;renderDetails();});b.setAttribute('aria-pressed',String(kind===editCategory));cats.append(b);}
   if(editCategory!=='scheme'){
    for(const item of (editCategory==='floor'&&!(current.design==='dusk'&&current.room==='living'&&current.mode==='pieces'&&current.layout==='original'&&current.light==='daywarm')?[]:PIECE_GROUPS[editCategory].items)){const kind=editCategory,next=resolveScene({...current,pieces:changePiece(current.pieces,kind,item.id),...(kind==='floor'?{floorProduct:null}:{}),...(kind==='window'?{window:item.id}:{})}),b=makeButton('','editPiece',item.id,()=>{const base=intended.room===current.room?intended:current;choose({...base,pieces:changePiece(base.pieces,kind,item.id),...(kind==='floor'?{floorProduct:null}:{}),...(kind==='window'?{window:item.id}:{})});});b.dataset.kind=kind;b.setAttribute('aria-pressed',String(current.pieces[editCategory]===item.id&&!(kind==='floor'&&current.floorProduct)));
     const thumb=document.createElement('img'),labels=document.createElement('span'),name=document.createElement('strong'),meta=document.createElement('small');thumb.src=sceneAsset(next,true);thumb.alt='';thumb.width=132;thumb.height=88;thumb.loading='lazy';name.textContent=item.name;meta.textContent=item.finish;labels.append(name,meta);b.append(thumb,labels);const preview=document.createElement('span');preview.className='room-choice-preview';preview.setAttribute('aria-hidden','true');const large=document.createElement('img');large.src=sceneAsset(next);large.alt='';large.loading='lazy';preview.append(large);b.append(preview);list.append(b);
    }
-   $('[data-room-edit-scope]').textContent=current.room==='living'?'地面可选原方案饰面或品牌试铺；原方案与品牌选择互斥，客餐厅同步。':'床架、床品和窗景可以独立选择，其他搭配保留。';
+   $('[data-room-edit-scope]').textContent=current.room==='living'?'选择地面直接更新房间画面，客餐厅同步；颜色与铺装为近似预览。':'床架、床品和窗景可以独立选择，其他搭配保留。';
   }else if(supportsSceneObjects(current)){
    $('[data-room-edit-scope]').textContent='加回会恢复本套原单品。移除柜体会同时移走其台面摆件，挂墙电视、固定书架和餐桌仍保留。';
   }else if(current.design==='dusk'&&current.room==='balcony'){
@@ -127,6 +127,7 @@ export function initDesignJourney(root,gallery){
    const card=document.createElement('div');card.className='room-retained-choice';const title=document.createElement('strong'),copy=document.createElement('p');title.textContent='保留这组完整搭配';copy.textContent=home.rooms[current.room].copy;card.append(title,copy);list.append(card);
    $('[data-room-edit-scope]').textContent=['living','master'].includes(current.room)&&current.design==='dusk'?'当前保留你选的排布与光线。如需逐件试配，可返回布局页选择原排布、日光暖灯。':'本空间目前提供这组完整设计，可以在这里查看材料并确认；切换房间不会离开编辑区。';
   }
+  list.append(detailsFloorHost);
   $('[data-details-shopping-note]').textContent='购买候选用于看样与询价，独立于当前场景选择，不会自动替换画面。';renderProducts();
  }
  async function syncWholeModel(){
@@ -154,13 +155,13 @@ export function initDesignJourney(root,gallery){
   $('[data-whole-title]').textContent=HOMES[result.design].name+' · '+result.frames.length+' 个空间';$('[data-whole-count]').textContent='8 / 8 个空间已确认 · 选材与三维同步';
   const mosaic=$('[data-whole-mosaic]');mosaic.replaceChildren();const nav=$('[data-whole-rooms]');nav.replaceChildren();
   for(const f of result.frames){
-   const b=makeButton('','wholeRoom',f.id,()=>{wholeRoom=f.id;wholeView='room';renderWhole();});b.className='whole-room-card';const im=document.createElement('img');im.src=f.path;im.alt=HOMES[result.design].name+' · '+f.name;im.width=1536;im.height=1024;im.loading='lazy';im.decoding='async';const labels=document.createElement('span'),name=document.createElement('strong'),small=document.createElement('small');name.textContent=f.name;small.textContent=f.id==='dining'&&f.shared?'与客厅共用已选视角':f.changed?'已应用 · '+f.label:'沿用风格原方案';labels.append(name,small);b.append(im,labels);mosaic.append(b);
+   const b=makeButton('','wholeRoom',f.id,()=>{wholeRoom=f.id;wholeView='room';renderWhole();});b.className='whole-room-card';const im=document.createElement('img');setFloorPhoto(im,f.path,f.scene);im.alt=HOMES[result.design].name+' · '+f.name;im.width=1536;im.height=1024;im.loading='lazy';im.decoding='async';const labels=document.createElement('span'),name=document.createElement('strong'),small=document.createElement('small');name.textContent=f.name;small.textContent=f.id==='dining'&&f.shared?'与客厅共用已选视角':f.changed?'已应用 · '+f.label:'沿用风格原方案';labels.append(name,small);b.append(im,labels);mosaic.append(b);
    const tab=makeButton(f.name,'wholeRoomTab',f.id,()=>{wholeRoom=f.id;wholeView='room';renderWhole();});tab.setAttribute('aria-pressed',String(f.id===wholeRoom));nav.append(tab);
   }
-  const active=result.frames.find(f=>f.id===wholeRoom)||result.frames[0];$('[data-whole-room-image]').src=active.path;$('[data-whole-room-image]').alt=active.name+' · '+active.label;$('[data-whole-room-title]').textContent=active.name+' · '+active.label;
-  $('[data-whole-room-info]').textContent=active.items.map(x=>x.join('：')).join(' / ');$('[data-whole-room-save]').href=active.path;$('[data-whole-room-save]').download=HOMES[result.design].name+'-'+active.name.replaceAll('/','-')+'.jpg';
+  const active=result.frames.find(f=>f.id===wholeRoom)||result.frames[0];setFloorPhoto($('[data-whole-room-image]'),active.path,active.scene,$('[data-whole-room-save]'));$('[data-whole-room-image]').alt=active.name+' · '+active.label;$('[data-whole-room-title]').textContent=active.name+' · '+active.label;
+  $('[data-whole-room-info]').textContent=active.items.map(x=>x.join('：')).join(' / ');$('[data-whole-room-save]').href=currentFloorPhoto(active.path,active.scene);$('[data-whole-room-save]').download=HOMES[result.design].name+'-'+active.name.replaceAll('/','-')+'.jpg';
   $('[data-current-model-panel]').hidden=wholeView!=='model';$('[data-current-model-accuracy]').hidden=wholeView!=='model';
-  $('[data-current-model-photo]').src=active.path;$('[data-current-model-photo]').alt=active.name+' · '+active.label;$('[data-current-model-room-title]').textContent=active.name;$('[data-current-model-room-items]').textContent=active.label;
+  setFloorPhoto($('[data-current-model-photo]'),active.path,active.scene);$('[data-current-model-photo]').alt=active.name+' · '+active.label;$('[data-current-model-room-title]').textContent=active.name;$('[data-current-model-room-items]').textContent=active.label;
   const modelRooms=$('[data-current-model-rooms]');modelRooms.replaceChildren();for(const f of result.frames){const b=makeButton(f.name,'modelRoom',f.id,()=>{wholeRoom=f.id;renderWhole();});b.setAttribute('aria-pressed',String(f.id===wholeRoom));modelRooms.append(b);}syncWholeModel();
   $('[data-whole-mosaic]').hidden=wholeView!=='overview';$('[data-whole-room-view]').hidden=wholeView!=='room';for(const b of $$('[data-whole-view]'))b.setAttribute('aria-pressed',String(b.dataset.wholeView===wholeView));
   const applied=$('[data-whole-applied]');applied.replaceChildren();for(const f of result.frames){const section=document.createElement('section'),title=document.createElement('h5'),dl=document.createElement('dl');title.textContent=f.name;renderMaterialList(dl,f.items,{path:f.path,room:f.id});section.append(title,dl);applied.append(section);}
@@ -170,19 +171,19 @@ export function initDesignJourney(root,gallery){
  }
  async function buildWhole(){
   if(!confirmed||wholeBusy||!allConfirmed())return;const design=confirmed,sig=signature(),id=++wholeJob,list=clone(frames()),products=[...PURCHASES.filter(p=>currentShortlist().has(p.id)),...FLOOR_CATALOG.filter(p=>list.some(f=>f.scene.floorProduct===p.id))];wholeBusy=true;let count=0;renderWhole();$('[data-whole-progress]').value=0;$('[data-whole-progress]').max=list.length;$('[data-whole-progress-text]').textContent='正在读取原尺寸效果图 0 / '+list.length;$('[data-whole-status]').textContent='';
-  try{await Promise.all(list.map(async f=>{await imageReady(f.path);if(id!==wholeJob)return;count++;$('[data-whole-progress]').value=count;$('[data-whole-progress-text]').textContent='已读取 '+count+' / '+list.length+' 个空间';}));
+  try{await Promise.all(list.map(async f=>{await imageReady(f.path);await prepareFloorPhoto(f.path,f.scene);if(id!==wholeJob)return;count++;$('[data-whole-progress]').value=count;$('[data-whole-progress-text]').textContent='已读取 '+count+' / '+list.length+' 个空间';}));
    if(id!==wholeJob||design!==confirmed||sig!==signature())return;
-   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面在三维中展示样板纹理试铺；右侧效果图沿用原设计，官网样板和产品链接已加入清单。';
+   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面已叠合到房间效果图，官网样板和产品链接已加入清单。';
   }catch(error){if(id===wholeJob)$('[data-whole-status]').textContent='有图片未载入，上一份完整效果已保留。请重试。';}
   finally{if(id===wholeJob){wholeBusy=false;renderWhole();}}
  }
- function render(){syncNavigation();syncFloorLive(current,confirmed?frames():[],step==='details'&&!historyOpen);if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
+ function render(){syncNavigation();if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
  function commit(next){current=resolveScene(next);intended=clone(current);saved.set(current.design+':'+current.room,clone(current));gallery.syncFloor?.(current.design,current.room,current.floorProduct);if(['living','dining'].includes(current.room)){const pair=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+pair)||{design:current.design,room:pair};saved.set(current.design+':'+pair,resolveScene({...prior,floorProduct:current.floorProduct}));gallery.syncFloor?.(current.design,pair,current.floorProduct);}if(supportsSceneObjects(current)){const other=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+other)||{design:current.design,room:other};saved.set(current.design+':'+other,resolveScene({...prior,removed:current.removed}));gallery.syncRemovals?.(current.design,current.removed);}}
  async function choose(value,{confirm=false,nextStep=null}={}){
   if(bulkBusy)return false;
   const next=resolveScene(value);if(!sceneAvailable(next)){$('[data-layout-status]').textContent=sceneNote(next);return false;}
   const id=++job;pieceJob++;intended=clone(next);busy=true;syncNavigation();$('[data-layout-status]').textContent='';$('[data-details-status]').textContent=step==='details'?'正在载入所选空间…':'';
-  try{await imageReady(sceneAsset(next));if(id!==job)return false;commit(next);if(confirm){confirmed=next.design;if(!seeds.has(next.design))seeds.set(next.design,clone(next));}if(nextStep)step=nextStep;detailsView='summary';$('[data-details-status]').textContent='';render();return true;}
+  try{await imageReady(sceneAsset(next));await prepareFloorPhoto(sceneAsset(next),next);if(id!==job)return false;commit(next);if(confirm){confirmed=next.design;if(!seeds.has(next.design))seeds.set(next.design,clone(next));}if(nextStep)step=nextStep;detailsView='summary';$('[data-details-status]').textContent='';render();return true;}
   catch(error){if(id!==job)return false;intended=clone(current);const output=step==='style'?$('[data-journey-confirm-status]'):step==='details'?$('[data-details-status]'):$('[data-layout-status]');output.textContent=error.message;output.append(' ',makeButton('重新载入','layoutRetry','',()=>choose(next,{confirm,nextStep})));return false;}
   finally{if(id===job){busy=false;syncNavigation();}}
  }
@@ -215,12 +216,12 @@ export function initDesignJourney(root,gallery){
  document.addEventListener('tingjian:editor-open',()=>{inEditor=true;job++;pieceJob++;wholeJob++;wholeBusy=false;busy=false;galleryBusy=false;intended=clone(current);syncNavigation();});
  document.addEventListener('tingjian:home-open',()=>{if(inEditor&&!historyOpen){inEditor=false;step='style';detailsView='summary';syncNavigation();}});
  const dialog=$('[data-journey-dialog]');
- function large(path=frames().find(f=>f.id===current.room)?.path||sceneAsset(current),title=HOMES[current.design].name+' · '+sceneLabel(current)+' · '+lightName(current.light)){$('[data-journey-dialog-image]').src=path;$('[data-journey-dialog-image]').alt=title;$('[data-journey-dialog-title]').textContent=title;$('[data-journey-dialog-view]').classList.remove('is-native');$('[data-journey-native]').setAttribute('aria-pressed','false');if(typeof dialog.showModal==='function')openImageDialog(dialog,window,{fullscreen:true});}
+ function large(path=frames().find(f=>f.id===current.room)?.path||sceneAsset(current),title=HOMES[current.design].name+' · '+sceneLabel(current)+' · '+lightName(current.light),scene=current){setFloorPhoto($('[data-journey-dialog-image]'),path,scene);$('[data-journey-dialog-image]').alt=title;$('[data-journey-dialog-title]').textContent=title;$('[data-journey-dialog-view]').classList.remove('is-native');$('[data-journey-native]').setAttribute('aria-pressed','false');if(typeof dialog.showModal==='function')openImageDialog(dialog,window,{fullscreen:true});}
  $('[data-layout-large]').addEventListener('click',()=>large());$('[data-details-large]').addEventListener('click',()=>large());$('[data-journey-close]').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});$('[data-journey-native]').addEventListener('click',()=>{const on=$('[data-journey-dialog-view]').classList.toggle('is-native');$('[data-journey-native]').setAttribute('aria-pressed',String(on));});
  $('[data-whole-generate]').addEventListener('click',buildWhole);for(const b of $$('[data-whole-view]'))b.addEventListener('click',()=>{wholeView=b.dataset.wholeView;renderWhole();});
- $('[data-whole-room-large]').addEventListener('click',()=>{const f=snapshot()?.frames.find(f=>f.id===wholeRoom);if(f)large(f.path,HOMES[confirmed].name+' · '+f.name);});
+ $('[data-whole-room-large]').addEventListener('click',()=>{const f=snapshot()?.frames.find(f=>f.id===wholeRoom);if(f)large(f.path,HOMES[confirmed].name+' · '+f.name,f.scene);});
  $('[data-whole-export]').addEventListener('click',async()=>{const result=snapshot();if(!result||result.signature!==signature()||exportBusy)return;exportBusy=true;renderWhole();$('[data-whole-status]').textContent='正在将原尺寸图片打包到效果册…';try{await exportEffectBook(clone(result),HOMES[confirmed].name);$('[data-whole-status]').textContent='效果册已下载，包含图片、实际搭配和单独列出的购买候选。';}catch(error){$('[data-whole-status]').textContent='效果册未下载成功，请重试；页面内的效果仍保留。';}finally{exportBusy=false;renderWhole();}});
- $('[data-current-model-room-large]').addEventListener('click',()=>{const f=snapshot()?.frames.find(f=>f.id===wholeRoom);if(f)large(f.path,HOMES[confirmed].name+' · '+f.name);});
+ $('[data-current-model-room-large]').addEventListener('click',()=>{const f=snapshot()?.frames.find(f=>f.id===wholeRoom);if(f)large(f.path,HOMES[confirmed].name+' · '+f.name,f.scene);});
  $('[data-current-model-home]').addEventListener('click',()=>modelApi?.view('all'));$('[data-current-model-top]').addEventListener('click',()=>modelApi?.view('top'));$('[data-current-model-focus]').addEventListener('click',()=>modelApi?.view(wholeRoom));$('[data-current-model-retry]').addEventListener('click',syncWholeModel);
  for(const b of $$('[data-model-quality]'))b.addEventListener('click',()=>{modelQuality=b.dataset.modelQuality;for(const button of $$('[data-model-quality]'))button.setAttribute('aria-pressed',String(button.dataset.modelQuality===modelQuality));modelApi?.setQuality?.(modelQuality);});
  $('[data-current-model-edit]').addEventListener('click',()=>{goStep('details');chooseRoom(wholeRoom);});

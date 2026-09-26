@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "directPhotoFloorPreview": true,
+  "brandOutputsDistinct": 10,
+  "outsideFloorMaskPixelsUnchanged": true,
+  "roomMasks": 56,
+  "inlineFloorChoices": true,
+  "noExtra3DViewport": true,
+  "defaultVolume": 0.18,
+  "classicRecordings": 8,
+  "originalAlternatives": 8,
+  "originalResolutionPreserved": true,
+  "realBrowserTested": false,
+  "limitation": "Image-plane masking and texture projection approximate placement; furniture silhouettes may vary across authored variants. Dusk living output inspected."
+}

@@ -1,4 +1,4 @@
-import {createFloorLive} from './floor-live.mjs';
+import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.mjs';
 import {resolveScene,assembleHome} from './scene-options.mjs';
 import {renderFloorCatalog,normalizeFloorProduct,floorMaterialItems} from './floor-catalog.mjs';
 import {renderMaterialList} from './material-previews.mjs';
@@ -16,7 +16,7 @@ export function initHomeGallery(root){
  let intended={view:{...displayed},pieces:{...pieces}},roomHandler=null;
  const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,'original'])),modes={dusk:'pieces'};
  const removedByDesign={copper:[]},floorBySpace={};
- const syncFloorLive=createFloorLive(root,'home-floor-live');
+ const homeFloorHost=$('[data-home-floor-catalog]');
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;
  const loaded=new Set(),pending=new Map();
  const assetFor=(view,selection=pieces,thumb=false)=>objectSceneAsset(view,thumb)||(isPieceView(view)?pieceAsset(view.room,selection,thumb):variantAsset(view.design,view.room,view.variant,thumb));
@@ -61,18 +61,18 @@ export function initHomeGallery(root){
  }
  function renderPieces(){
   const on=isPieceView(displayed),groups=pieceGroups(displayed.room);
-  $('[data-home-piece-panel]').hidden=!on;$('[data-home-layout]').dataset.pieces=String(on);
+  $('[data-home-piece-panel]').hidden=false;if(!groups.includes('floor'))groups.push('floor');$('[data-home-layout]').dataset.pieces=String(on);
   $('[data-home-modebar]').hidden=displayed.design!=='dusk'||!PIECE_ROOMS.includes(displayed.room);
   for(const b of $$('[data-home-mode]'))b.setAttribute('aria-pressed',String(b.dataset.homeMode===displayed.mode));
   $('[data-home-mode-note]').textContent=on?'固定视角 · 按已完成的组合选配，保留相机与真实材质细节':'原搭配与此前整套配色保留在这里';
   const tabs=$('[data-home-piece-tabs]'),catalog=$('[data-home-piece-catalog]'),pins=$('[data-home-piece-pins]');tabs.replaceChildren();catalog.replaceChildren();pins.replaceChildren();
-  if(!on)return;
+  if(!on)category='floor';
   if(!groups.includes(category))category=groups[0];
   for(const kind of groups){
    const b=document.createElement('button');b.type='button';b.dataset.pieceCategory=kind;b.textContent=PIECE_GROUPS[kind].label;b.setAttribute('aria-pressed',String(category===kind));b.addEventListener('click',()=>{category=kind;renderPieces();});tabs.append(b);
    const pin=document.createElement('button');pin.type='button';pin.dataset.piecePin=kind;pin.className='home-piece-pin';pin.textContent='换'+PIECE_GROUPS[kind].label;pin.setAttribute('aria-label','在旁边选择'+PIECE_GROUPS[kind].label);pin.setAttribute('aria-pressed',String(category===kind));pin.addEventListener('click',()=>{category=kind;renderPieces();$('[data-home-piece-tabs]').querySelector(`[data-piece-category="${kind}"]`)?.focus();});pins.append(pin);
   }
-  for(const item of PIECE_GROUPS[category].items){
+  for(const item of (on&&(category!=='floor'||displayed.room==='living')?PIECE_GROUPS[category].items:[])){
    const b=document.createElement('button');b.type='button';b.className='home-piece-card';b.dataset.homePiece=item.id;b.dataset.pieceKind=category;b.setAttribute('aria-pressed',String(pieces[category]===item.id&&!(category==='floor'&&floorSelection())));b.setAttribute('aria-label',PIECE_GROUPS[category].label+'：'+item.name+'，'+item.finish);
    const previewSelection=changePiece(pieces,category,item.id),available=pieceAvailable(displayed.room,previewSelection),src=pieceAsset(displayed.room,available?previewSelection:{...previewSelection,table:'glass',floor:category==='floor'?previewSelection.floor:'stone',sofa:category==='floor'?'cognac':previewSelection.sofa},true);b.disabled=!available;b.title=available?item.note:pieceAvailabilityNote(displayed.room,previewSelection);
    const crop=document.createElement('span');crop.className='home-piece-crop';crop.dataset.crop=category;
@@ -81,6 +81,7 @@ export function initHomeGallery(root){
    const peek=document.createElement('span');peek.className='home-piece-peek';peek.setAttribute('aria-hidden','true');const big=document.createElement('img');big.src=src;big.alt='';big.loading='lazy';const caption=document.createElement('span');caption.textContent=item.name+' · 场景预览';peek.append(big,caption);
    b.append(crop,labels,peek);b.addEventListener('click',()=>{if(category==='floor'){floorBySpace[displayed.design+':'+displayed.room]=null;for(const r of ['living','dining'])floorBySpace[displayed.design+':'+r]=null;}select(displayed.design,displayed.room,displayed.variant,'pieces',changePiece(intended.pieces,category,item.id));});catalog.append(b);
   }
+  catalog.append(homeFloorHost);homeFloorHost.hidden=category!=='floor';
   $('[data-home-piece-summary]').textContent=piecePresentation(displayed.room,pieces).label;
  }
  function renderInspiration(){
@@ -108,8 +109,7 @@ export function initHomeGallery(root){
  function paint(){
   const p=homePresentation(displayed),{home,room,variant,applied}=p,individual=isPieceView(displayed),content=individual?piecePresentation(displayed.room,pieces):p.content;
   const label=supportsSceneObjects(displayed)?objectSceneLabel(displayed):individual?content.label:applied?variant.name:variant?'本空间沿用原搭配':'原搭配',path=assetFor(displayed);
-  const floorScene=resolveScene({...displayed,pieces,floorProduct:floorSelection()}),floorSaved=new Map(Object.entries(floorBySpace).filter(([key])=>key.startsWith(displayed.design+':')).map(([key,id])=>[key,resolveScene({...displayed,pieces,room:key.split(':')[1],floorProduct:id})]));floorSaved.set(displayed.design+':'+displayed.room,floorScene);syncFloorLive(floorScene,assembleHome(displayed.design,floorSaved),root.dataset.journeyStep==='style');
-  picture.src=path;picture.alt=`${home.name} · ${room.name} · ${label}整体概念效果图`;
+  const floorScene={...displayed,pieces,floorProduct:floorSelection()};setFloorPhoto(picture,path,floorScene,$('[data-home-save]'));picture.alt=`${home.name} · ${room.name} · ${label}整体概念效果图`;
   stage.dataset.design=displayed.design;stage.dataset.room=displayed.room;stage.dataset.variant=displayed.variant;stage.dataset.mode=displayed.mode;
   stage.dataset.sofa=pieces.sofa;stage.dataset.table=pieces.table;stage.dataset.bed=pieces.bed;
   $('[data-home-title]').textContent=home.name+' · '+room.name;$('[data-home-subtitle]').textContent=home.subtitle;
@@ -121,9 +121,9 @@ export function initHomeGallery(root){
   renderSceneObjectControls($('[data-home-object-controls]'),displayed,id=>{const base=intended.view.design===displayed.design?intended.view:displayed,next=id===null?{...base,removed:[]}:toggleSceneObject(base,id);select(displayed.design,displayed.room,displayed.variant,displayed.mode,intended.pieces,next.removed);});
   for(const b of $$('[data-home-design]'))b.setAttribute('aria-pressed',String(b.dataset.homeDesign===displayed.design));
   for(const b of $$('[data-design]'))b.setAttribute('aria-pressed','false');
-  $('[data-home-large]').href=path;$('[data-home-save]').href=path;$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
+  $('[data-home-large]').href=path;$('[data-home-save]').href=currentFloorPhoto(path,floorScene);$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
   renderRooms();renderVariants();renderPieces();renderInspiration();renderProducts();
-  renderFloorCatalog($('[data-home-floor-catalog]'),{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();$('[data-home-floor-live]')?.scrollIntoView?.({behavior:'smooth',block:'center'});});
+  renderFloorCatalog(homeFloorHost,{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();},{inline:true});
   document.dispatchEvent(new CustomEvent('tingjian:home-view',{detail:{...displayed,floorProduct:floorSelection(),pieces:{...pieces},path,thumb:assetFor(displayed,pieces,true)}}));
  }
  async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design]||[]){
@@ -150,7 +150,7 @@ export function initHomeGallery(root){
  const dialog=$('[data-home-dialog]');
  $('[data-home-large]').addEventListener('click',event=>{
   if(typeof dialog.showModal!=='function')return;
-  event.preventDefault();$('[data-home-dialog-image]').src=assetFor(displayed);$('[data-home-dialog-image]').alt=picture.alt;$('[data-home-dialog-title]').textContent=$('[data-home-title]').textContent+' · '+$('[data-home-variant-label]').textContent;
+  event.preventDefault();setFloorPhoto($('[data-home-dialog-image]'),assetFor(displayed),{...displayed,pieces,floorProduct:floorSelection()});$('[data-home-dialog-image]').alt=picture.alt;$('[data-home-dialog-title]').textContent=$('[data-home-title]').textContent+' · '+$('[data-home-variant-label]').textContent;
   $('[data-home-dialog-view]').classList.remove('is-native');$('[data-home-native]').setAttribute('aria-pressed','false');openImageDialog(dialog,window,{fullscreen:true});
  });
  $('[data-home-close]').addEventListener('click',()=>dialog.close());

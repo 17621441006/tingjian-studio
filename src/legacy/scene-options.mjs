@@ -41,7 +41,7 @@ function originalSceneItems(value){
  return HOMES[s.design].rooms[s.room].materials;
 }
 export function sceneItems(value){const s=resolveScene(value);return floorMaterialItems(s,originalSceneItems(s));}
-export function sceneLabel(value){const s=resolveScene(value);if(supportsSceneObjects(s))return objectSceneLabel(s);if(s.mode==='palette'){const p=homePresentation(s);return p.applied?p.variant.name:'原搭配';}if(s.design==='dusk'&&s.mode==='pieces'&&s.layout==='original'&&['living','master'].includes(s.room))return piecePresentation(s.room,s.pieces).label;return ['living','master','balcony'].includes(s.room)?layoutInfo(s).name:'沿用风格原方案';}
+function baseSceneLabel(value){const s=resolveScene(value);if(supportsSceneObjects(s))return objectSceneLabel(s);if(s.mode==='palette'){const p=homePresentation(s);return p.applied?p.variant.name:'原搭配';}if(s.design==='dusk'&&s.mode==='pieces'&&s.layout==='original'&&['living','master'].includes(s.room))return piecePresentation(s.room,s.pieces).label;return ['living','master','balcony'].includes(s.room)?layoutInfo(s).name:'沿用风格原方案';}
 export function sceneFromGallery(view){return resolveScene({...view,layout:'original',light:'daywarm',window:view.pieces?.window||'original'});}
 export function assembleHome(design,saved,seed={}){
  const list=ROOMS.map(r=>{const scene=resolveScene(saved.get(design+':'+r.id)||{...seed,design,room:r.id,floorProduct:null,layout:'original',light:'daywarm',window:'original'});return {id:r.id,name:r.name,area:r.area,scene,path:sceneAsset(scene),thumb:sceneAsset(scene,true),label:sceneLabel(scene),items:sceneItems(scene),changed:saved.has(design+':'+r.id)};});
@@ -49,3 +49,5 @@ export function assembleHome(design,saved,seed={}){
  if(living.changed&&(living.scene.mode==='pieces'||living.scene.variant!=='original'||living.scene.layout!=='original'||living.scene.light!=='daywarm')){Object.assign(dining,{path:living.path,thumb:living.thumb,label:'与客厅共用已选视角',items:floorMaterialItems(dining.scene,[['客餐厅','共用当前客餐厅画面，餐区位于画面后方']]),shared:true,changed:true});}
  return list;
 }
+
+export function sceneLabel(value){const label=baseSceneLabel(value),p=floorProduct(value.floorProduct);return p?label.replace(/ × (暖灰石面|自然浅橡木|烟熏胡桃木)/,'')+' × '+p.brand+' · '+p.name:label;}
