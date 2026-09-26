@@ -138,6 +138,7 @@ export function initDesignJourney(root,gallery){
   $('[data-whole-progress-wrap]').hidden=!wholeBusy;$('[data-whole-result]').hidden=!result;$('[data-whole-empty]').hidden=!!result;
   $('[data-whole-stale]').hidden=!stale;$('[data-whole-export]').disabled=!result||stale||wholeBusy||exportBusy;
   if(!result)return;
+  const photoButton=$('[data-model-quality="photo"]');photoButton.hidden=result.design!=='dusk';if(result.design!=='dusk'&&modelQuality==='photo')modelQuality='detailed';for(const b of $$('[data-model-quality]'))b.setAttribute('aria-pressed',String(b.dataset.modelQuality===modelQuality));
   const vr=duskVrMatch(result),vrHost=$('[data-dusk-vr-host]');
   $('[data-whole-view="vr"]').hidden=!vr.available;
   if(wholeView==='vr'&&!vr.available)wholeView='model';

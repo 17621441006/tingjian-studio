@@ -53,6 +53,7 @@ for(const id of ['dining','balcony','master','second','kitchen','bath','utility'
 }
 assert.equal(context.__journey().confirmedRooms.length,8);assert(!$('[data-details-next]').disabled);assert.equal(context.__journey().step,'details');checks.push('Eight rooms remain in one workbench, have independent confirmation, and do not automatically advance; next step unlocks only after all eight.');
 await click('[data-details-next]',40);assert.equal(context.__journey().step,'whole');assert.equal(modelLoads,1);assert.equal(modelUpdates.length,1);assert(!$('[data-current-model-panel]').hidden);assert($('[data-whole-mosaic]').hidden);assert.equal(modelUpdates[0].frames.length,8);const firstWhole=structuredClone(context.__journey().whole);assert.equal(firstWhole.frames.find(f=>f.id==='living').scene.pieces.floor,'oak');assert.equal(firstWhole.frames.find(f=>f.id==='master').scene.pieces.bedding,'olive');assert.equal(firstWhole.frames.find(f=>f.id==='master').scene.window,'clear');
+assert(!$('[data-model-quality="photo"]').hidden);await click('[data-model-quality="photo"]',3);assert.equal(modelQualities.at(-1),'photo');await click('[data-model-quality="detailed"]',3);
 assert.equal($('[data-dusk-vr-host]').children.length,0);
 assert(!$('[data-whole-view="vr"]').hidden);await click('[data-whole-view="vr"]',5);
 assert(!$('[data-dusk-vr-panel]').hidden);assert.equal($('[data-dusk-vr-host]').children.length,1);

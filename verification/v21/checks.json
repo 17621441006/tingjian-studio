@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "directRendererForDraggingAndIdle": true,
+  "panoramaProjectionRooms": 8,
+  "discCovers": 8,
+  "realDeviceTested": false,
+  "limitation": "No supported static browser preview; mobile GPU fix is code-path verified, not device-tested. Projection uses estimated geometry, not measured scan depth."
+}
