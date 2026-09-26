@@ -1,0 +1,790 @@
+{
+  "scheme": "milan",
+  "name": "胡桃艺廊",
+  "generationMode": "built-in image_gen",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "floorPolygonCoordinateSystem": "normalized image plane x/y, conservative visible floor only; areas and holes arrays of polygons; no floor polygon for reverse living2",
+  "assets": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/living.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Create one native landscape 1536x1024 photoreal interior photograph for apartment design website, scheme 胡桃艺廊 contemporary Milan residential. Reference image establishes only realistic compact apartment scale and camera, not style. Combined living dining is 21.4 square meters, standard 2.6m ceiling, straight simple warm white plaster walls. Camera from balcony into living towards compact dining area and entry. On right wall a sculptural compact low oatmeal fabric sofa 2.1m wide, a single large ORIGINAL abstract artwork with offwhite, black and oxblood gestural shapes above it. Foreground centered pale grey subtly veined stone low oval coffee table with thin brushed steel legs, medium-dark neutral walnut plank floor with authentic natural grain, light grey wool rug. Left wall simple low walnut TV console and thin black TV. One small oxblood leather reading chair near balcony edge on right. Rear dining area a compact walnut table with four light chairs and simple white opal globe pendant. Rich balanced wood, white, burgundy, steel and stone contrasts, elegant natural daylight from behind camera, sophisticated real home, not beige hotel, no gold no ornate floral divider no neon. Accurate practical furniture scale, straight architectural verticals, 28mm lens without exaggerated room size. No people text collage watermark.",
+      "concept": "用燕麦色低沙发、酒红皮椅与大幅抽象画营造有艺术气息的日常客厅。",
+      "materials": "中深中性胡桃木地板、灰纹石椭圆茶几、拉丝钢细腿、暖白墙面。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0,
+              0.92
+            ],
+            [
+              0.203,
+              0.8
+            ],
+            [
+              0.207,
+              0.689
+            ],
+            [
+              0.306,
+              0.598
+            ],
+            [
+              0.387,
+              0.616
+            ],
+            [
+              0.282,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0.315,
+              0.594
+            ],
+            [
+              0.386,
+              0.594
+            ],
+            [
+              0.386,
+              0.652
+            ],
+            [
+              0.311,
+              0.67
+            ]
+          ],
+          [
+            [
+              0.564,
+              0.584
+            ],
+            [
+              0.633,
+              0.586
+            ],
+            [
+              0.633,
+              0.665
+            ],
+            [
+              0.564,
+              0.64
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "living2",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/living2.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. Reverse camera view of EXACT SAME living room as input1, from dining/entry looking toward living and panoramic balcony. 21.4sqm living-dining combined, living sofa 2.1m long. Oatmeal sculptural sofa now on LEFT beneath same original black/oxblood abstract artwork, same pale grey veined oval stone coffee table with thin steel legs and pale rug, same low walnut TV cabinet now on RIGHT. Same single oxblood leather chair near balcony at left, maintain coherent furnishings. Beyond living an open unobstructed 5sqm enclosed balcony with grey porcelain floor, one airy reading chair and plants tucked to side, large panoramic safety glass main face totally unbroken, no middle beam or central mullion, narrow operable panes confined to ends. Clear city and treetops view. Sofa and artwork visible enough for reverse continuity. Modest apartment not cavernous villa.",
+      "concept": "从餐厅回望客厅与景观阳台，保持沙发、画作、茶几和皮椅一致。",
+      "materials": "胡桃木地板延续至阳台门口；阳台采用灰色瓷砖与轻盈单椅。",
+      "inspected": true
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/dining.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. Dining detail room photograph. Preserve compact rear dining zone of input1 exactly: small rectangular walnut table, four light oatmeal upholstered timber chairs, simple white opal globe pendant, white plaster rear wall, walnut shelving left edge and low walnut sideboard by entry on right. Medium-dark neutral walnut plank floor matching input1, a restrained oxblood ceramic bowl and brushed steel small lamp. Combined living-dining only21.4sqm. Composition closer to table like input2, retain practical chairs and believable clearances. Soft daylight. No additional large artwork, keep attention on wood/white/oxblood materials.",
+      "concept": "四人小餐桌靠近入户收纳，白色球灯形成安静用餐焦点。",
+      "materials": "胡桃木餐桌与柜体、燕麦织物餐椅、酒红陶碗、暖白墙面。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0,
+              0.731
+            ],
+            [
+              0.245,
+              0.689
+            ],
+            [
+              0.33,
+              0.681
+            ],
+            [
+              0.326,
+              0.77
+            ],
+            [
+              0.562,
+              0.804
+            ],
+            [
+              0.583,
+              0.792
+            ],
+            [
+              0.674,
+              0.732
+            ],
+            [
+              0.677,
+              0.815
+            ],
+            [
+              0.699,
+              0.844
+            ],
+            [
+              0.625,
+              0.858
+            ],
+            [
+              0.328,
+              0.858
+            ],
+            [
+              0.29,
+              0.947
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0.59
+            ],
+            [
+              0.173,
+              0.62
+            ],
+            [
+              0.174,
+              0.698
+            ],
+            [
+              0,
+              0.746
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 5sqm compact enclosed balcony redesigned as open reading minigarden. Input2 provides scale only: REPLACE long bench with exactly one light airy woven chair at right side and small brushed steel side table. Small grouped plant pots at far right edge, keep main view empty. Pale light grey matte stone porcelain floor, white plaster side walls with restrained walnut ceiling trim matching input1. Main glazed face MUST BE ONE LARGE UNINTERRUPTED PANORAMIC SAFETY GLASS PANE with absolutely NO middle horizontal beam/rail/transom and NO middle vertical mullion; only slim dark perimeter, narrow operable window at far left side. Full clear city and treetop view, natural daylight, no bench across view, no heavy clutter. Modest real apartment depth.",
+      "concept": "一把轻盈编织椅与侧边绿植，释放全景窗正面视野。",
+      "materials": "无中间横梁的整幅景观玻璃、浅灰石纹瓷砖、胡桃木边框、金属边几。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.052,
+              0.951
+            ],
+            [
+              0.052,
+              0.828
+            ],
+            [
+              0.108,
+              0.763
+            ],
+            [
+              0.629,
+              0.733
+            ],
+            [
+              0.693,
+              0.744
+            ],
+            [
+              0.765,
+              0.757
+            ],
+            [
+              1,
+              0.825
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.952
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.615,
+              0.644
+            ],
+            [
+              0.703,
+              0.644
+            ],
+            [
+              0.693,
+              0.779
+            ],
+            [
+              0.63,
+              0.779
+            ]
+          ],
+          [
+            [
+              0.673,
+              0.649
+            ],
+            [
+              0.821,
+              0.67
+            ],
+            [
+              0.906,
+              0.67
+            ],
+            [
+              0.92,
+              0.796
+            ],
+            [
+              0.91,
+              0.803
+            ],
+            [
+              0.894,
+              0.759
+            ],
+            [
+              0.817,
+              0.749
+            ],
+            [
+              0.814,
+              0.852
+            ],
+            [
+              0.801,
+              0.851
+            ],
+            [
+              0.803,
+              0.752
+            ],
+            [
+              0.687,
+              0.743
+            ],
+            [
+              0.679,
+              0.806
+            ],
+            [
+              0.671,
+              0.804
+            ]
+          ],
+          [
+            [
+              0.893,
+              0.616
+            ],
+            [
+              0.974,
+              0.616
+            ],
+            [
+              0.974,
+              0.777
+            ],
+            [
+              0.943,
+              0.786
+            ],
+            [
+              0.914,
+              0.762
+            ]
+          ],
+          [
+            [
+              0.955,
+              0.695
+            ],
+            [
+              1,
+              0.695
+            ],
+            [
+              1,
+              0.811
+            ],
+            [
+              0.972,
+              0.811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "room": "master",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/master.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 13.5sqm compact master bedroom. Input2 scale and corner window arrangement guide; redesign contemporary Milan. Low walnut headboard and bed frame, 1.5m double bed with crisp white linen, one muted olive cushion and thin oxblood throw; brushed nickel adjustable reading lamps instead of gold. Warm white plaster walls, medium-dark neutral walnut planks matching input1. Small floating walnut bedsides, fitted offwhite wardrobe, linen white sheer curtains and discreet warm grey blackout panels; minimal original abstract small artwork. Bright elegant natural daylight, believable tight circulation, no hotel brown bedding.",
+      "concept": "白床品配橄榄绿与酒红织物，保留13.5㎡主卧的紧凑尺度。",
+      "materials": "胡桃木低床头与地板、镍色阅读灯、白色衣柜与纱帘。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.08,
+              0.797
+            ],
+            [
+              0.224,
+              0.634
+            ],
+            [
+              0.32,
+              0.632
+            ],
+            [
+              0.293,
+              0.67
+            ],
+            [
+              0.234,
+              0.719
+            ],
+            [
+              0.218,
+              0.769
+            ],
+            [
+              0.268,
+              0.826
+            ],
+            [
+              0.245,
+              1
+            ],
+            [
+              0.08,
+              1
+            ]
+          ],
+          [
+            [
+              0.706,
+              1
+            ],
+            [
+              0.867,
+              0.866
+            ],
+            [
+              0.927,
+              0.84
+            ],
+            [
+              1,
+              0.875
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.196,
+              0.884
+            ],
+            [
+              0.251,
+              0.801
+            ],
+            [
+              0.324,
+              0.855
+            ],
+            [
+              0.378,
+              1
+            ],
+            [
+              0.196,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "room": "second",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/second.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 7.2sqm tiny second bedroom reinvented creative studio. Input2 establishes compact scale and single rear window. A slender 45cm deep walnut wall-mounted workbench beneath window with brushed steel tubular chair, a sketchbook and ceramics. Right wall compact collapsible 80cm wide daybed with light grey linen and muted olive cushion, oxblood lacquer storage drawer accents and one shallow floating shelf for small creative supplies. Warm white plaster, medium-dark neutral walnut plank floor matching input1, brushed steel task lamp, daylight. Clearly usable home studio and guest room, tight small room, clean storage, not a second luxury bedroom.",
+      "concept": "7.2㎡创作工作室兼客卧：悬浮薄桌、金属椅、可转换日床和小量创作收纳。",
+      "materials": "胡桃木工作台与地板、灰白亚麻、酒红抽屉、橄榄绿靠垫。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.075,
+              1
+            ],
+            [
+              0.197,
+              0.746
+            ],
+            [
+              0.26,
+              0.73
+            ],
+            [
+              0.39,
+              0.73
+            ],
+            [
+              0.462,
+              0.755
+            ],
+            [
+              0.522,
+              0.754
+            ],
+            [
+              0.535,
+              0.893
+            ],
+            [
+              0.605,
+              1
+            ]
+          ],
+          [
+            [
+              0.572,
+              0.713
+            ],
+            [
+              0.59,
+              0.716
+            ],
+            [
+              0.645,
+              0.83
+            ],
+            [
+              0.666,
+              0.88
+            ],
+            [
+              0.615,
+              0.917
+            ],
+            [
+              0.573,
+              0.812
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.194,
+              0.99
+            ],
+            [
+              0.312,
+              0.89
+            ],
+            [
+              0.461,
+              0.912
+            ],
+            [
+              0.504,
+              1
+            ]
+          ],
+          [
+            [
+              0.404,
+              0.712
+            ],
+            [
+              0.413,
+              0.712
+            ],
+            [
+              0.416,
+              0.91
+            ],
+            [
+              0.425,
+              0.945
+            ],
+            [
+              0.42,
+              0.965
+            ],
+            [
+              0.399,
+              0.978
+            ],
+            [
+              0.34,
+              0.98
+            ],
+            [
+              0.34,
+              0.968
+            ],
+            [
+              0.407,
+              0.965
+            ],
+            [
+              0.413,
+              0.945
+            ],
+            [
+              0.406,
+              0.914
+            ]
+          ],
+          [
+            [
+              0.315,
+              0.719
+            ],
+            [
+              0.323,
+              0.727
+            ],
+            [
+              0.296,
+              0.914
+            ],
+            [
+              0.286,
+              0.923
+            ],
+            [
+              0.283,
+              0.906
+            ]
+          ],
+          [
+            [
+              0.541,
+              0.749
+            ],
+            [
+              0.605,
+              0.856
+            ],
+            [
+              0.615,
+              0.933
+            ],
+            [
+              0.531,
+              0.911
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "room": "kitchen",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 6.6sqm small practical U-shaped kitchen. Input2 establishes U layout and rear window. Neutral medium-dark walnut lower cabinets matching input1, warm white matte upper units, pale grey subtly veined porcelain/stone countertop and full backsplash, brushed nickel tap, under-window compact sink, right induction cooktop and concealed hood, left tall oven column. FLOOR LIGHT GREY MATTE PORCELAIN TILE, never wood in wet area. One oxblood ceramic bowl provides restrained color accent. Natural elegant daylight, clean usable counters, clear walking aisle, real compact kitchen not giant island showroom.",
+      "concept": "6.6㎡U形厨房以窗下清洗、右侧烹饪和左侧高柜形成紧凑操作布局。",
+      "materials": "胡桃木下柜、暖白上柜、浅灰石纹台面与瓷砖地面、镍色水龙头。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.249,
+              0.79
+            ],
+            [
+              0.611,
+              0.757
+            ],
+            [
+              0.772,
+              1
+            ],
+            [
+              0.187,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "bath",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/bath.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 4.3sqm compact bathroom, input2 scale and practical shower-left toilet-right arrangement. Pale light grey stone-look porcelain walls and floor, small BURGUNDY glossy narrow glazed tile panel behind the vanity only, walnut floating vanity with pale grey stone counter and inset white basin, simple round mirror, brushed nickel fixtures and shower hardware, compact white toilet clearly visible at right, compact clear-glass shower on left and narrow frosted window. No bathtub. Keep grey dominant, burgundy accent in small area. No wood floor, no dark cave, no gold. Crisp soft daylight and restrained white lighting, realistic wet-room scale.",
+      "concept": "4.3㎡内保留独立玻璃淋浴、悬浮洗面柜和坐便器，酒红釉面小砖作为局部背景。",
+      "materials": "浅灰石纹墙地砖、酒红窄砖、胡桃木柜面、拉丝镍五金。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.344,
+              0.829
+            ],
+            [
+              0.736,
+              0.829
+            ],
+            [
+              0.741,
+              0.899
+            ],
+            [
+              0.753,
+              1
+            ],
+            [
+              0.274,
+              1
+            ]
+          ],
+          [
+            [
+              0.092,
+              0.842
+            ],
+            [
+              0.301,
+              0.842
+            ],
+            [
+              0.225,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.937
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.314,
+              0.908
+            ],
+            [
+              0.351,
+              0.911
+            ],
+            [
+              0.344,
+              0.939
+            ],
+            [
+              0.305,
+              0.935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "room": "utility",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/milan/utility.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Generate ONE native landscape 1536x1024 realistic interior photograph, contemporary Milan residential 胡桃艺廊 apartment. Input1 is palette/material/furniture consistency reference, input2 (if supplied) is existing ROOM SCALE/layout reference only, completely restyle its old hotel-like decor. Elegant neutral daylight. Warm white plaster, medium-dark neutral walnut natural grain, subtle oxblood accents, pale grey stone, brushed nickel/steel. Practical small two-bedroom apartment, straight walls 2.6m ceilings, convincing built dimensions. No gold, ornate floral dividers, neon, people, lettering, watermark or collage. 2.5sqm slim laundry utility balcony, input2 layout. White stacked front-load washer and dryer recessed at far end into neutral walnut tall storage carcass matching input1, a narrow closed broom cupboard next to it. Right wall pale grey porcelain folding counter with practical integrated small sink and brushed nickel tap, offwhite overhead cupboards with one oxblood storage box in a tiny open niche, laundry basket beneath. Left tall daylight windows. Light grey matte porcelain floor, white washable walls, practical compact unobstructed circulation. Distinct refined Milan palette, no plants obscuring laundry workspace, no wood floors, no labels.",
+      "concept": "2.5㎡家政间整合洗烘叠放、清洁柜、折衣台和小水槽。",
+      "materials": "胡桃木高柜、白色吊柜、灰色瓷砖地面与石质台面、酒红收纳盒。",
+      "inspected": true,
+      "floor": {
+        "areas": [
+          [
+            [
+              0.33,
+              0.729
+            ],
+            [
+              0.6,
+              0.729
+            ],
+            [
+              0.65,
+              0.84
+            ],
+            [
+              0.688,
+              0.944
+            ],
+            [
+              0.711,
+              1
+            ],
+            [
+              0.259,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    }
+  ]
+}

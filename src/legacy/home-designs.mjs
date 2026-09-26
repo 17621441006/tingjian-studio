@@ -1,3 +1,4 @@
+import {WOOD_HOMES,designMedia} from './wood-homes.mjs';
 import {REFERENCE_HOMES} from './reference-homes.mjs';
 import {GRAPHITE_HOME,REFRESHED_ROOMS,applyRoomRefresh} from './room-refresh.mjs';
 import {HOTEL_HOMES} from './hotel-homes.mjs';
@@ -34,8 +35,8 @@ export const HOMES={
    bath:{title:'浅石、深木与柔和的日常光',copy:'米色石纹让小卫生间保持明亮，深木色台盆柜、细金属边和温暖镜光与全屋呼应。保留淋浴与外窗关系。',materials:[['墙地','浅米色耐水砖，地面按湿区选择防滑表面。'],['收纳','深木色耐水柜门，台盆与镜柜深度按小空间复尺。'],['五金','采用简洁深色或拉丝金属，避免复杂中式雕花。']],purchase:['tile','panel','light']},
    utility:{title:'将生活收纳藏在绛木柜后',copy:'木色洗烘柜和浅色操作台延续整套配色。家务区与景观阳台分工，晾晒、清洁工具与设备维护各有位置。',materials:[['柜体','红棕木纹耐潮饰面，设备柜按机型留余量及检修通道。'],['台面','可耐水的浅色台面，避免木饰面直接接触积水。'],['洗烘','采用定制柜包容设备，保留通风与排水，不改动结构墙。']],purchase:['storage','panel','tile']}
   }},
- ...HOTEL_HOMES, ...REFERENCE_HOMES,graphite:GRAPHITE_HOME
+ ...HOTEL_HOMES, ...REFERENCE_HOMES,graphite:GRAPHITE_HOME,...WOOD_HOMES
 };
 applyRoomRefresh(HOMES);
-export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
+export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');if(WOOD_HOMES[design])return designMedia(design+'/'+room+(thumb?'-thumb':'')+'.webp');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
 export function resolveHomeState(design='dusk',room='living'){return {design:HOMES[design]?design:'dusk',room:ROOMS.some(x=>x.id===room)?room:'living'};}

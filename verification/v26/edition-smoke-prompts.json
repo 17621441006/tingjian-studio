@@ -1,0 +1,572 @@
+{
+  "scheme": "edition-smoke",
+  "name": "烟木 EDITION",
+  "generationMode": "built-in image_gen",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "floorPolygonCoordinates": "normalized image-plane x,y in [0,1], conservative exposed floor areas; furniture and rugs avoided; areas union minus holes",
+  "assets": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/living.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "烟木与浅石的日常会客厅",
+      "materials": "烟熏橡木地板、羊皮纸色灰泥、干邑皮沙发、浅洞石茶几；深木门套替代花玻璃。",
+      "prompt": "Use case: photorealistic-natural. Create one native 1536x1024 landscape editorial architectural photo, new EDITION-inspired residential scheme 'smoked wood' without text. Reference image is geometry/scale only: keep compact 21.4 sqm combined living/dining apartment, same camera from balcony looking toward dining and entry. Redesign entirely: neutral matte smoked oak plank WOOD FLOOR; parchment warm-white plaster upper walls contrasting dark espresso oak lower cabinetry and portal. On right a compact 2.15m chocolate-cognac leather sofa with clean thin arms, ivory cushion; opposite left low espresso TV cabinet and plain dark television. Center low rectangular light honed travertine coffee table with thick slab legs on ivory textured rug. Rear center compact 1.25m pale travertine dining table with four dark wood/leather chairs and sculptural parchment pendant. Far left plain dark wood portal to kitchen with small lit art niche, NO floral glass divider. Rear right entrance dark door and slim console. Monochrome abstract art above sofa, shaded bronze reading lamp at sofa far end, glowing table lamp on console, restrained indirect lighting. Late-afternoon neutral daylight mixed rich lamplight, balanced exposure, not orange, not monochrome brown. Compact authentic apartment proportions, real material pores, believable joints, verticals straight, no palace, no people, no logos or text. Living2 will reverse this exact layout: sofa then appears left and TV right, balcony behind current camera.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.215,
+              0.635
+            ],
+            [
+              0.325,
+              0.635
+            ],
+            [
+              0.352,
+              0.662
+            ],
+            [
+              0.211,
+              0.967
+            ],
+            [
+              0.212,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.974
+            ],
+            [
+              0.204,
+              0.94
+            ]
+          ],
+          [
+            [
+              0.303,
+              0.607
+            ],
+            [
+              0.371,
+              0.607
+            ],
+            [
+              0.371,
+              0.658
+            ],
+            [
+              0.33,
+              0.658
+            ]
+          ],
+          [
+            [
+              0.579,
+              0.609
+            ],
+            [
+              0.65,
+              0.609
+            ],
+            [
+              0.65,
+              0.669
+            ],
+            [
+              0.579,
+              0.64
+            ]
+          ],
+          [
+            [
+              0,
+              0.988
+            ],
+            [
+              1,
+              0.988
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/dining.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "灯下的四人餐叙",
+      "materials": "浅洞石餐桌、深木皮椅与纸质吊灯；灰泥墙和深色餐边柜形成明暗层次。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Dining zone of same 21.4sqm living-dining. Closer eye-level view toward far wall as in living reference. Reproduce second reference dining furniture exactly: compact 1.25m light travertine slab leg table with four dark brown leather and espresso wood chairs, rounded layered parchment pendant, vertical cream/charcoal abstract painting behind table, low espresso sideboard right with small ivory shaded table lamp and entry dark door further right. Left dark oak portal with narrow illuminated pottery/art niche, no floral glass. Warm plaster main wall, smoked oak plank floor. Image is dedicated dining close view.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0,
+              0.946
+            ],
+            [
+              0.261,
+              0.946
+            ],
+            [
+              0.261,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0.27,
+              0.951
+            ],
+            [
+              1,
+              0.951
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.27,
+              1
+            ]
+          ],
+          [
+            [
+              0.727,
+              0.792
+            ],
+            [
+              1,
+              0.792
+            ],
+            [
+              1,
+              0.94
+            ],
+            [
+              0.727,
+              0.94
+            ]
+          ],
+          [
+            [
+              0.144,
+              0.802
+            ],
+            [
+              0.261,
+              0.802
+            ],
+            [
+              0.261,
+              0.942
+            ],
+            [
+              0.067,
+              0.942
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "临窗阅读与黑胶角",
+      "materials": "通透整幅玻璃配窄侧开窗；单张皮椅、洞石边几与侧墙唱片柜保留视野。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Enclosed balcony 5sqm, compact reading and vinyl-listening corner. Keep full-height panoramic city window from first reference, wide uninterrupted central glass with NO horizontal middle beam, only narrow operable vent panel at far left. Replace reference bench with one refined compact dark cognac leather armchair angled toward view at right, small pale travertine side table, a LOW espresso oak record cabinet and turntable on right SIDE WALL perpendicular to glass, no cabinets blocking window. Smoked oak wood floor, cream plaster, sheer curtain gathered sides, subtle aged bronze wall reading light, few records no legible text, single branch in ceramic pot. Daylight blue-gray city balances warm lamp. Depth only about 1.4m, authentic small balcony.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.21,
+              0.79
+            ],
+            [
+              0.34,
+              0.79
+            ],
+            [
+              0.365,
+              0.844
+            ],
+            [
+              0.39,
+              1
+            ],
+            [
+              0.04,
+              1
+            ]
+          ],
+          [
+            [
+              0.4,
+              0.966
+            ],
+            [
+              0.97,
+              0.966
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.4,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "master",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/master.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "安静的烟木卧室",
+      "materials": "烟木地板、皮革床头和亚麻寝具；深木半墙与浅灰泥平衡，保留转角飘窗。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Master bedroom exactly modest 13.5sqm, preserve first reference corner bay window and narrow extra window on right, believable tight bedside circulation. Reimagine restful boutique residential room: 1.5m low bed with chocolate leather upholstered headboard against espresso oak half-height panel, pale parchment plaster above, ivory crumpled linen duvet with subtle charcoal textured blanket folded across foot. Neutral smoked oak wood floor, small ivory wool rug, compact pale travertine bedside ledges, two aged bronze reading sconces and small linen shaded bedside lamp. Full-height dark espresso wardrobe only on entry left. Abstract black-and-cream art instead of landscape, warm neutral curtains, bay seat pale linen cushion. Rich lamplight mixed blue-gray daylight, no oversized hotel suite.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.125,
+              0.717
+            ],
+            [
+              0.211,
+              0.703
+            ],
+            [
+              0.189,
+              0.825
+            ],
+            [
+              0.157,
+              1
+            ],
+            [
+              0.116,
+              1
+            ]
+          ],
+          [
+            [
+              0.9,
+              0.839
+            ],
+            [
+              0.97,
+              0.82
+            ],
+            [
+              1,
+              0.888
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.89,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "second",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/second.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "小型藏书与留宿空间",
+      "materials": "长墙日榻配独立细腿书桌、窄书架和陈列壁龛；浅色软装维持小房间呼吸感。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Second bedroom 7.2sqm transformed into intimate reading library and occasional guest room. Keep small narrow width and rear window geometry first reference. Daybed 0.9m wide x2m runs lengthwise along right wall with chocolate leather upholstered back and cream linen seat, dark wood base. Slim freestanding desk 95cm with visibly slender legs near window left, dark wood and stone writing surface, one compact chair. Left wall near entrance tall slim espresso bookcase; right wall above daybed includes inset illuminated display niche for pottery and books but generous parchment plaster remains. Smoked oak wood floor with small ivory runner. Vintage-style bronze task lamp, monochrome small framed art, softly lit books no legible titles. Compact usable circulation, not a large study, no decorative patterned glass.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.235,
+              0.898
+            ],
+            [
+              0.327,
+              0.898
+            ],
+            [
+              0.3,
+              1
+            ],
+            [
+              0.18,
+              1
+            ]
+          ],
+          [
+            [
+              0.49,
+              0.891
+            ],
+            [
+              0.582,
+              0.891
+            ],
+            [
+              0.586,
+              1
+            ],
+            [
+              0.48,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "kitchen",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "深木浅石的实用厨房",
+      "materials": "浓咖木柜搭浅色石台与背板；灰石地砖、窗下水槽和双头灶，保留紧凑U形操作面。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Small practical 6.6sqm U-shaped kitchen. Preserve first reference room/window/cabinet geometry, redesign all cabinetry to dark matte espresso oak with subtle visible grain, no medium orange walnut. Countertops and backsplash pale warm ivory honed stone with quiet grain. Floor graphite gray matte STONE TILE, absolutely no wood floor in wet kitchen. Sink under rear window, two-burner hob and concealed slim vent right, built-in oven/tall refrigerator left, practical undercabinet task lighting, upper cupboards mostly espresso but small pale plaster margin. Restrained aged bronze handles and faucet, one stoneware utensil pot and board. Moody yet clean readable working kitchen, blue-gray natural daylight balanced warm task light; preserve small apartment proportions.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.255,
+              0.797
+            ],
+            [
+              0.687,
+              0.784
+            ],
+            [
+              0.9,
+              1
+            ],
+            [
+              0.156,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "bath",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/bath.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "浅石与石墨的湿区",
+      "materials": "浅暖石墙、石墨地砖、深木悬空台盆；壁挂马桶与竖纹磨砂淋浴隔断。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Very compact practical 4.3sqm bathroom preserve first reference room arrangement: shower left, vanity rear, narrow frosted window rear right, toilet foreground right. Full redesign graphite charcoal honed stone TILE FLOOR and pale warm ivory limestone walls, strong clear pale/dark contrast. Compact dark espresso wood floating vanity about90cm with pale stone integrated sink, simple tall mirror with slim bronze edge and soft indirect light. WHITE WALL-MOUNTED toilet with concealed cistern and visible space beneath, not floorstanding. Left shower enclosed with vertical ribbed FROSTED glass panel in very thin dark bronze frame, practical rainhead and handheld shower visible through subtle frosting, floor drain. No bathtub. Aged bronze faucet, towel rail, ivory towels. Balanced neutral daylight and lamps, realistic wetroom practicality, no wood flooring.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.349,
+              0.811
+            ],
+            [
+              0.765,
+              0.811
+            ],
+            [
+              0.777,
+              0.917
+            ],
+            [
+              0.83,
+              0.98
+            ],
+            [
+              0.915,
+              1
+            ],
+            [
+              0.247,
+              1
+            ]
+          ],
+          [
+            [
+              0.02,
+              0.929
+            ],
+            [
+              0.099,
+              0.838
+            ],
+            [
+              0.19,
+              0.838
+            ],
+            [
+              0.19,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "utility",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/utility.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "整洁的家务廊",
+      "materials": "叠放洗烘、深木清洁柜、浅石水槽台与灰石地砖；窗边采光照亮紧凑操作区。",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape professional editorial interior photo. Cohesive original EDITION-inspired residential smoked wood scheme: neutral matte smoked oak wood plank floors for dry spaces, parchment warm-white plaster upper walls, espresso oak cabinetry, light honed travertine, isolated aged bronze hardware, dark chocolate/cognac leather, tactile ivory linen. Balanced neutral daylight and warm lamps, rich shadow but readable detail; not orange or monotone brown. Modest real apartment, no giant palace, no people, no text logos watermarks or collage. First reference is target room geometry and scale only, second reference establishes exact palette and styling. Utility laundry balcony 2.5sqm, first reference exactly small narrow footprint and full-height side windows on left. Stack realistic silver washer and dryer in dark espresso oak rear cabinet, tall slender broom closet next to it, right wall slim counter in pale honed stone with dark oak overhead cabinets and undercounter hamper, a practical compact inset sink at right rear if space permits. Graphite gray matte STONE TILE FLOOR, absolutely no wood floor. Upper wall and splash pale warm ivory stone, refined modest practical storage, amber task lighting balanced cool blue-gray city daylight. No oversized room, realistic appliance scale and ventilation gaps, minimal props, no readable labels.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0.438,
+              0.746
+            ],
+            [
+              0.721,
+              0.746
+            ],
+            [
+              0.747,
+              0.815
+            ],
+            [
+              0.774,
+              0.914
+            ],
+            [
+              0.814,
+              1
+            ],
+            [
+              0.298,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    },
+    {
+      "room": "living2",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-smoke/living2.png",
+      "width": 1536,
+      "height": 1024,
+      "concept": "回望全景窗的会客厅",
+      "materials": "反向视角延续同一沙发、洞石茶几与深木电视柜；阳台阅读听音角成为端景。",
+      "prompt": "Use case: photorealistic-natural. Produce one native1536x1024 landscape architectural photo showing EXACT REVERSE VIEW of the SAME living room first reference, camera now at dining table looking toward balcony. Do NOT duplicate original view. Geometry apartment combined livingdining21.4sqm modest width, same ceiling perimeter inset lighting. In reverse view sofa MUST be on LEFT wall, television on RIGHT wall: exact same2.15m cognac chocolate leather sofa with broad simple arms, ivory cushion and cream throw, same vertical cream/charcoal abstract art above it, bronze floor reading light near camera at dining end. Exact same pale rectangular slab-leg travertine coffee table centered foreground on same ivory textured rug, black round vase with thin branch and stacked neutral books. Right plain TV and low espresso wood cabinet. Same neutral smoked oak WOOD FLOOR, parchment plaster walls. Rear entire width opens toward compact5sqm enclosed balcony, match second reference balcony: huge full-height panoramic city pane NO horizontal middle beam and narrow side vent at LEFT, one cognac leather reading chair on balcony RIGHT with tiny pale travertine round table and espresso record cabinet along balcony right SIDE WALL, not across glass; sheer curtains pulled aside. Original dining and entrance now BEHIND camera not visible. Rich warm lamplight balanced neutral blue-gray late daylight, no orange cast. No people, text, logo, ornate patterned glass, collage or palace. Strict same furnishings/materials/locations, opposite angle rather than mirrored copy.",
+      "floorPolygons": {
+        "areas": [
+          [
+            [
+              0,
+              0.953
+            ],
+            [
+              1,
+              0.953
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0.755,
+              0.683
+            ],
+            [
+              0.785,
+              0.705
+            ],
+            [
+              0.941,
+              0.86
+            ],
+            [
+              1,
+              0.87
+            ],
+            [
+              1,
+              0.947
+            ],
+            [
+              0.842,
+              0.947
+            ]
+          ],
+          [
+            [
+              0.395,
+              0.61
+            ],
+            [
+              0.482,
+              0.609
+            ],
+            [
+              0.452,
+              0.638
+            ],
+            [
+              0.392,
+              0.638
+            ]
+          ]
+        ],
+        "holes": []
+      }
+    }
+  ]
+}

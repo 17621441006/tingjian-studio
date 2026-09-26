@@ -1,8 +1,10 @@
+import {livingReverseAsset} from './wood-homes.mjs';
 import {prepareFloorPhoto} from './photo-floor.mjs';
 // Export a self-contained effect book. Product candidates are never labelled as applied scene objects.
 export async function exportEffectBook(snapshot,name){
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  for(const f of snapshot.frames)f.path=await prepareFloorPhoto(f.path,f.scene);
+ snapshot.frames.push({name:'客厅2 · 看向阳台',path:livingReverseAsset(snapshot.design),changed:true,label:'原方案反向视角 · 单品、地面与装饰修改暂不联动',items:[]});
  const assets=new Map();for(const f of snapshot.frames)if(!assets.has(f.path)){const response=await fetch(f.path);if(!response.ok)throw new Error('图片未载入');const blob=await response.blob();const data=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);});assets.set(f.path,data);}
  const cards=snapshot.frames.map(f=>`<article><h2>${escape(f.name)}</h2><p>${escape(f.shared?'与客厅共用已选视角':f.changed?f.label:'沿用风格原方案')}</p><img src="${assets.get(f.path)}" alt="${escape(f.name)}"><dl>${f.items.map(([k,v])=>`<div><dt>${escape(k)}</dt><dd>${escape(v)}</dd></div>`).join('')}</dl></article>`).join('');
  const products=snapshot.products.map(p=>`<li><a href="${escape(p.url)}" target="_blank" rel="noopener noreferrer">${escape(p.brand+' · '+p.product)}</a><p>${escape(typeof p.dimensions==='string'?p.dimensions:p.dimensions?.text||'型号、饰面与尺寸需确认')}</p></li>`).join('');

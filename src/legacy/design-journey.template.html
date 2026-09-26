@@ -3,7 +3,7 @@
   <div class="layout-room-tabs" data-layout-rooms role="group" aria-label="选择排布空间"></div>
   <p class="layout-scope" data-layout-scope></p>
   <div class="layout-workbench">
-    <div class="layout-picture-column">
+    <div class="layout-picture-column"><div class="living-camera" data-layout-camera hidden></div>
       <div class="layout-stage" data-layout-stage aria-busy="false">
         <img data-layout-image width="1536" height="1024" decoding="async" alt="">
         <span class="layout-image-label" data-layout-image-label></span>
@@ -34,7 +34,7 @@
     <div class="room-editor">
       <div class="room-editor-main">
         <div class="room-editor-title"><div><span class="home-eyebrow" data-details-design></span><h3 data-details-title></h3></div><button type="button" data-details-large>⛶ 全屏看图</button></div>
-        <div class="room-editor-picture" data-room-editor-picture aria-busy="false"><img data-details-image width="1536" height="1024" decoding="async" alt=""><span class="home-loading" data-room-edit-loading hidden>正在载入这组搭配…</span></div>
+        <div class="living-camera" data-details-camera hidden></div><div class="room-editor-picture" data-room-editor-picture aria-busy="false"><img data-details-image width="1536" height="1024" decoding="async" alt=""><span class="home-loading" data-room-edit-loading hidden>正在载入这组搭配…</span></div>
         <p class="room-edit-label" data-details-copy></p><p class="room-edit-note">写实设计效果 · 非房屋实拍 · 原尺寸图片</p>
         <details class="room-material-record" open><summary>当前材料与设计细节</summary><dl data-details-items></dl></details>
       </div>
@@ -76,11 +76,11 @@
         <div class="whole-model-stage" data-current-model-stage><canvas data-current-model-canvas aria-label="按当前方案选材的三维房屋，拖动旋转，滚轮缩放，点击房间查看写实图"></canvas><div class="whole-model-labels" data-current-model-labels></div><span class="whole-model-loading" data-current-model-loading>正在准备三维整屋…</span></div>
         <p class="whole-model-status" data-current-model-status role="status">拖动旋转 · 滚轮缩放 · 点房间查看写实图</p><button type="button" data-current-model-retry hidden>重新载入三维整屋</button>
       </div>
-      <aside class="whole-model-reference"><span class="home-eyebrow">对应空间 · 已选写实效果</span><h3 data-current-model-room-title></h3><button type="button" data-current-model-room-large><img data-current-model-photo width="1536" height="1024" alt=""></button><p data-current-model-room-items></p><div class="whole-model-room-nav" data-current-model-rooms></div><button type="button" data-current-model-edit>回去调整这一间 →</button></aside>
+      <aside class="whole-model-reference"><div class="living-camera" data-model-camera hidden></div><span class="home-eyebrow">对应空间 · 已选写实效果</span><h3 data-current-model-room-title></h3><button type="button" data-current-model-room-large><img data-current-model-photo width="1536" height="1024" alt=""></button><p data-current-model-room-items></p><div class="whole-model-room-nav" data-current-model-rooms></div><button type="button" data-current-model-edit>回去调整这一间 →</button></aside>
     </div>
     <p class="whole-model-accuracy" data-current-model-accuracy>细节模型增加软包缝线、床品褶皱、窗帘、柜体收口与表面纹理，轻量模型随时可切换。两者沿用现有户型关系，同步所选的客厅沙发材质、茶几、地面，主卧床架、床品、窗景及已开放的排布。造型与尺度为近似设计模型，不是房屋扫描；右侧是对应方案的写实图，旋转模型不会改变写实图的视角。</p>
     <div class="whole-mosaic" data-whole-mosaic></div>
-    <div class="whole-room-view" data-whole-room-view hidden><div class="whole-room-tabs" data-whole-rooms></div><div class="whole-room-heading"><h3 data-whole-room-title></h3><a data-whole-room-save download>保存这一张</a></div><button type="button" class="whole-room-large" data-whole-room-large aria-label="查看此空间原尺寸大图"><img data-whole-room-image width="1536" height="1024" alt=""></button><p data-whole-room-info></p></div>
+    <div class="whole-room-view" data-whole-room-view hidden><div class="whole-room-tabs" data-whole-rooms></div><div class="whole-room-heading"><h3 data-whole-room-title></h3><a data-whole-room-save download>保存这一张</a></div><div class="living-camera" data-whole-camera hidden></div><button type="button" class="whole-room-large" data-whole-room-large aria-label="查看此空间原尺寸大图"><img data-whole-room-image width="1536" height="1024" alt=""></button><p data-whole-room-info></p></div>
     <p class="whole-image-note">客餐厅共用所选视角，避免另一角度出现旧家具。其余为独立房间概念效果，跨房间材质收口、照明与精确尺寸尚未统一校核。</p>
     <details class="whole-record" open><summary>这份方案里，具体选了什么？</summary><div class="whole-record-columns"><div><h4>已应用到场景</h4><div data-whole-applied></div></div><div><h4>购买候选 · 尚未替换进画面</h4><p>品牌、型号和尺寸用于试坐、看样与询价。</p><div data-whole-candidates></div></div></div></details>
   </div>

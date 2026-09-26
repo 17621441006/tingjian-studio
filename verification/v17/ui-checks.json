@@ -16,6 +16,7 @@
     "Historical VR removed; furniture lab retained; current editor unchanged.",
     "10 official branded floors: category switching, room-specific choices, shared living/dining finish, wet-room restriction, precise shortlist links, confirmation invalidation and reversible restoration; photographs do not pretend to render the brand.",
     "Brand floors share the lower floor category; brand and original finishes are mutually exclusive, both selection directions update state.",
-    "v25 all-room controls, new table deletion, independent bedroom removal, original/new decor switching, and style-to-confirmation persistence passed."
+    "v25 all-room controls, new table deletion, independent bedroom removal, original/new decor switching, and style-to-confirmation persistence passed.",
+    "v26 ten schemes, all eight-room confirmations, reverse camera/fullscreen/restore, load error and stale camera response passed."
   ]
 }

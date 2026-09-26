@@ -24,8 +24,8 @@ export function buildWholeGeometry(snapshot,textures={},options={}){
  function polygon(points,material,parent){const shape=new THREE.Shape();points.forEach(([x,z],i)=>i?shape.lineTo(x,-z):shape.moveTo(x,-z));shape.closePath();const geo=new THREE.ShapeGeometry(shape);const mesh=new THREE.Mesh(geo,material);mesh.rotation.x=-Math.PI/2;add(mesh,parent);return mesh;}
  for(const room of MODEL_ROOMS){const g=new THREE.Group();g.name=room.id;g.userData.room=room.id;root.add(g);rooms.set(room.id,g);
   const choice=spec.floorByRoom[room.id];
-  const fm=choice?mat(choice.color,choice.category==='wood'?.6:.48):['living','dining'].includes(room.id)?m.floor:['master','second'].includes(room.id)?surface('#73523d','oak',.6):m.stone;
-  const floor=polygon(room.p,fm,g);floor.name=room.id+'-floor';floor.userData.floor=room.id==='living'||room.id==='dining'?spec.floor:['master','second'].includes(room.id)?'smoked':'stone';floor.userData.room=room.id;floor.userData.floorProduct=choice?.id||null;objects.set(floor.name,floor);
+  const fm=choice?mat(choice.color,choice.category==='wood'?.6:.48):(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?m.floor:['master','second'].includes(room.id)?surface('#73523d','oak',.6):m.stone;
+  const floor=polygon(room.p,fm,g);floor.name=room.id+'-floor';floor.userData.floor=(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?spec.floor:['master','second'].includes(room.id)?'smoked':'stone';floor.userData.room=room.id;floor.userData.floorProduct=choice?.id||null;objects.set(floor.name,floor);
  }
  function wall(room,a,b,height=1.05){const length=Math.hypot(b[0]-a[0],b[1]-a[1]),mesh=box(length,height,.12,(a[0]+b[0])/2,height/2,(a[1]+b[1])/2,m.wall,rooms.get(room));mesh.rotation.y=-Math.atan2(b[1]-a[1],b[0]-a[0]);mesh.userData.straightWall=true;return mesh;}
  // Existing footprint and door gaps are retained. All wall heights are cut for the dollhouse view.

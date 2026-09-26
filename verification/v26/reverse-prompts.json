@@ -1,0 +1,97 @@
+{
+  "method": "built-in image_gen.imagegen; one call per asset, no extra variants",
+  "camera": "Reverse of original living.jpg; entry/dining end looking toward compact living room and enclosed panoramic balcony. Eyeheight 1.5m, rectilinear24mm, combined living/dining21.4sqm and balcony5sqm.",
+  "assets": [
+    {
+      "design": "dusk",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/dusk-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create one new 1536x1024 landscape architectural photo of the EXACT SAME compact Shanghai apartment shown by the three references, photographed from the entrance/dining end looking BACK toward the living room and enclosed balcony, a true reverse-angle second living-room camera. Image 1 is furniture/material identity, image 2 is balcony identity, image 3 locates the entry/dining end behind this new camera. Preserve the distinctive walnut paneled walls, low cognac leather sofa with brown cushions/throw, gray marble topped rounded rectangular walnut coffee table, taupe woven rug, gray stone floor, walnut low TV console, monochrome mountain artwork, warm alabaster drum ceiling lamp and warm cove lights. Because camera reverses, sofa is on LEFT and TV console on RIGHT, balcony straight ahead. Living+dining is only 21.4 square meters total and balcony 5 square meters; compact real apartment dimensions, no expanded mansion. See most of living room and whole balcony together: balcony has long slim walnut bench with cream cushion, bronze small side table, tea tray, potted tree, beige curtains. Near-unbroken floor-to-ceiling main panorama glazing with narrow side ventilation sash only and no intrusive middle vertical beam; softened believable Shanghai residential skyline. Eye height 1.5m rectilinear 24mm lens, straight vertical walls, plausible furniture scale, subtle daylight plus warm lights. Do not duplicate original angle or restyle, no text, logos, people, collage. Preserve specific decor, do not invent generic glass divider. Output one image.",
+      "inspected": true
+    },
+    {
+      "design": "chinese",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/chinese-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. One new 1536x1024 architectural interior photo, EXACT SAME traditional Chinese compact Shanghai home as references, new reverse living-room camera from entrance/dining side looking opposite original living photo toward the living room and balcony. Image1 identity, image2 balcony, image3 dining behind camera. Preserve cream walls, fine reddish walnut trim, carved fretwork where plausibly visible, long horizontal ink landscape art, walnut timber armed three seat sofa with taupe fabric cushions, rectangular solid walnut two-tier tea coffee table, walnut low TV cabinet brass ring pulls, cream polished stone floor and beige sisal rug, alabaster drum lamp. Reverse camera puts sofa LEFT and TV RIGHT, a tiny dining edge may foreground; balcony ahead has warm reddish wood deck, wood ceiling and cladding, small end bench with beige cushion, small wooden tea stool and potted bamboo-like tree as reference2. Combined living/dining only21.4sqm, balcony5sqm, compact coherent proportions. Show living plus balcony together clearly. Main balcony window one near-unbroken floor-to-ceiling panorama with side ventilation sash retained, no intrusive central beam; hazy Shanghai residential skyline. Keep dark wood balcony sliding doorway design where visible, no invented generic decorative glass wall. Eyelevel1.5m rectilinear24mm, straight verticals, natural believable perspective, warm subtle interior lighting and soft day sun. No restyling, no duplicate original camera, no text logos people collage. Output one landscape image.",
+      "inspected": true
+    },
+    {
+      "design": "stone",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/stone-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Produce one1536x1024 landscape architectural photo of EXACT SAME stone-and-walnut compact Shanghai apartment in references, new reverse living room view: camera at entrance/dining looking opposite the original living photo toward living and enclosed balcony. Reference1 furniture/material identity,2 balcony identity,3 dining behind camera. Preserve beige textured mineral plaster above dark walnut half-height wainscot, straight taupe linen three seat sofa with narrow dark wooden feet and tan leather accent pillow plus brown throw, cream wool rug, dark walnut rounded square drum coffee table with fully wood top, low walnut TV console, pale gray-beige stone tiles, fabric drum ceiling light and warm cove. New camera has sofa LEFT, TV RIGHT and balcony ahead. Compact living+dining21.4sqm, balcony5sqm, no enlarged room. Balcony reference2 has one woven rope and wooden lounge chair, small cylindrical travertine table with cup, one leafy potted tree in textured beige pot, sheer curtains, stone floor. Retain these at correct scale and show both living and balcony clearly. Main balcony glazing near-unbroken floor-to-ceiling panorama with sidevent sash only, no intrusive middle beam; softly hazed Shanghai housing skyline. Natural photo,1.5m eyeheight24mm rectilinear, clean straight walls, no fisheye. Same earthy warm restraint as original, no restyling, no generic new glass feature wall, no text logos people collage. One image.",
+      "inspected": true
+    },
+    {
+      "design": "collector",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/collector-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. One new1536x1024 landscape architectural photo showing EXACT SAME collector-style compact Shanghai apartment as references, reversed camera from entrance/dining facing the living room and enclosed panoramic balcony, opposite direction of original living image. Image1 furniture identity,2 balcony identity,3 dining behind camera. Preserve distinctive slim low oxblood burgundy leather three-seat sofa, thin bronze feet, ivory/dark brown cushions, rectangular breccia marble coffee table with slim bronze legs and bronze ring sculpture, textured gray cream abstract rug, cream plaster and walnut vertical accents, original large red/black/cream abstract painting above sofa, long walnut TV console, gray stone floor, alabaster drum ceiling light and warm cove. New angle places sofa LEFT and TV RIGHT, balcony straight ahead, camera may see dining edge at bottom. Living+dining21.4sqm total, balcony5sqm; intimate compact realistic room, no mansion. Balcony has burgundy rounded leather swivel lounge chair on bronze disc base, cylindrical brass side table, walnut record cabinet and turntable with records, potted tree, beige sheer curtains, stone floor. Retain all characteristic pieces in plausible positions and proportion. Show living and balcony together. Main balcony glass a near-unbroken floor-to-ceiling panorama with a narrow side ventilation sash, no intrusive central beam, softened Shanghai residential skyline. Photo realism eyeheight1.5m24mm rectilinear clean verticals no fisheye, warm natural afternoon light. No restyling or duplicate camera, no invented generic glass decorative divider, no text logos people collage.",
+      "inspected": true
+    },
+    {
+      "design": "copper",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/copper-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create one NEW1536x1024 photo of the EXACT SAME compact Shanghai olive-and-copper home. Camera from entrance/dining end looking toward living AND balcony, reverse of reference1 and closer to living than reference3: foreground dining table absent or only tiny corner, living dominates, balcony visible behind. Reference1 exact furniture and decor,2 balcony,3 reverse spatial orientation. Preserve dark olive velvet low three-seat sofa LEFT, green figured stone wall behind with intricate irregular copper mountain silhouette relief edge-backlit in warm light, tan cream accent cushion and brown throw. Preserve smoked amber glass rectangular coffee table on slender rounded bronze tubular frame, gray beige woven rug, long walnut TV cabinet RIGHT, light beige textured plaster TV wall, gray-beige stone floor, walnut ceiling accent and restrained cove lighting. Preserve original ornate bronze-framed translucent panel near kitchen at right if visible, do not substitute plain generic glass for its intricate pattern. Combined dining/living21.4sqm and balcony5sqm, believable compact proportions. Balcony ahead: two small olive upholstered tub chairs with bronze legs around round bronze pedestal tea table, potted tree in dark textured vessel, green stone sidewall copper vein accent, sheer beige curtains. Main panorama window near-unbroken floor-to-ceiling glass, retained narrow side ventilation sash, no intrusive middle beam. Soft hazy Shanghai residential skyline. Eyeheight1.5m24mm rectilinear lens, clean verticals, physically believable, warm daylight and copper accent glow. New living2 camera not same dining overview or original angle, no restyling, no text logos people collage. One image.",
+      "inspected": true
+    },
+    {
+      "design": "amber",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/amber-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Make one new1536x1024 landscape architectural photograph of EXACT SAME amber warm oak compact Shanghai home shown by references. True reverse living-room camera from entry/dining end facing living AND enclosed balcony, opposite reference1. Move viewpoint just past dining area so dining table absent or tiny edge only, living dominates; distinct camera from reference3. Preserve softly rounded caramel leather sofa LEFT with cream and rust pillows and cream draped throw, large ivory/ochre abstract painting, oval smoked amber glass coffee table on fine bronze legs with amber vase, cream/taupe streaked rug, pale oak plank floor, floating pale oak long TV cabinet RIGHT with warm underlight, warm white plaster, pale oak cabinetry. Keep original dramatic amber translucent flowing ribbon living pendant from reference1, not replacement generic drum light. Compact living+dining21.4sqm total and balcony5sqm, believable cozy dimensions. Balcony ahead matching reference2: one curved woven rattan chair with cream cushions at right, amber hourglass translucent glass side stool/table, potted olive at left, pale cream stone floor, cream walls, beige sheers. Main balcony glass near-unbroken floor-to-ceiling panorama with narrow side ventilation sash retained, no intrusive middle vertical beam. Softened Shanghai residential skyline and trees outside. Both living and balcony clearly seen. Eyelevel1.5m rectilinear24mm, straight walls and natural proportions, warm sun with gentle interior light. No restyling or duplicated original viewpoint. No added decorative glass partition, no text logos people collage. One image.",
+      "inspected": true
+    },
+    {
+      "design": "graphite",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/reverse/graphite-living2.png",
+      "width": 1536,
+      "height": 1024,
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/dining.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. One NEW1536x1024 landscape photo of EXACT SAME graphite compact Shanghai apartment from references. New living2 reverse angle camera from entry/dining end facing living room AND panoramic balcony, opposite original reference1 and moved forward past dining so no dining table foreground. Reference1 identity,2 balcony,3 reverse spatial map. Preserve espresso brown leather sofa LEFT with straight square arms, dark charcoal/gray cushions and thick taupe knit throw; graphite warm-gray mineral walls, original framed charcoal geometric abstract art, bronze black dome floor reading lamp, pale ivory oval stone coffee table with chunky dark bronze cylindrical legs, gray textured rug, gray stone floor, long walnut TV cabinet RIGHT against charcoal stone slab with subtle fine gold/ivory veining, plain ceiling with recessed spots, restrained moody warm lighting. Correct original kitchen divider is fine wired/textured glass in dark walnut frame near right edge if visible, NOT ornate pattern. Compact living+dining21.4sqm total and balcony5sqm, no mansion scale. Balcony ahead retains wooden armed taupe fabric reading chair at right, small bronze cylindrical side table with book/cup, recessed walnut book niche in right balcony sidewall, sheer beige curtains and gray stone floor. Main glazing near-unbroken floor-to-ceiling panorama with side ventilation window retained, no intrusive middle beam. Soft hazy Shanghai residential skyline, late afternoon warm light, comfortably dim graphite interior. Eyeheight1.5m rectilinear24mm, clean straight walls and realistic furniture scale. Show living and balcony together. No restyling, no duplicate dining viewpoint, no text logos people collage, one image.",
+      "inspected": true
+    }
+  ]
+}

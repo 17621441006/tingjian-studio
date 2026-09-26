@@ -8,7 +8,7 @@ export function createMusicPlayer(audio,{onChange=()=>{},save=()=>{},volume=.18}
  function choose(i){index=(i+TRACKS.length)%TRACKS.length;revision++;audio.pause();audio.src=TRACKS[index].path+'?v='+TRACKS[index].sha256.slice(0,10);audio.currentTime=0;notify();if(enabled)play();}
  function start(){enabled=true;if(!audio.getAttribute('src'))audio.src=TRACKS[index].path+'?v='+TRACKS[index].sha256.slice(0,10);play();notify();}
  function toggle(){if(!enabled){start();return;}enabled=false;blocked=false;revision++;audio.pause();notify();}
- function setTheme(id){if(theme===id||!TRACKS.some(t=>t.id===id))return;theme=id;choose(TRACKS.findIndex(t=>t.id===id));}
+ function setTheme(id){id=({'edition-oak':'amber','edition-smoke':'dusk',milan:'collector'})[id]||id;if(theme===id||!TRACKS.some(t=>t.id===id))return;theme=id;choose(TRACKS.findIndex(t=>t.id===id));}
  audio.addEventListener('ended',()=>{if(enabled)choose(index+1);});
  audio.addEventListener('error',()=>{revision++;enabled=false;blocked=false;notify();});
  return {state,choose,toggle,start,setTheme,retryAutoplay(){if(enabled&&blocked)play();},next:()=>choose(index+1),previous:()=>choose(index-1),setVolume(v){volume=Math.min(1,Math.max(0,Number(v)||0));audio.volume=volume;notify();}};

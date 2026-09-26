@@ -37,6 +37,21 @@
       "design": "graphite",
       "meshes": 176,
       "triangles": 126164
+    },
+    {
+      "design": "edition-oak",
+      "meshes": 175,
+      "triangles": 126056
+    },
+    {
+      "design": "edition-smoke",
+      "meshes": 180,
+      "triangles": 130960
+    },
+    {
+      "design": "milan",
+      "meshes": 171,
+      "triangles": 124256
     }
   ]
 }

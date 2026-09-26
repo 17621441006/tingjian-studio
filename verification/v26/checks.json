@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "schemes": 10,
+  "newCompleteHomes": 3,
+  "newRoomPhotos": 24,
+  "reverseViews": 10,
+  "nativeResolution": [
+    1536,
+    1024
+  ],
+  "assets": 68,
+  "roomConfirmationSlots": 8,
+  "reverseView": "Authored original scheme; furniture/floor edits do not propagate",
+  "originalAssetsPreserved": true,
+  "browserVisualTested": false
+}

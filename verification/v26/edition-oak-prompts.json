@@ -1,0 +1,773 @@
+{
+  "schemeId": "edition-oak",
+  "name": "橡影 EDITION",
+  "generationMode": "built-in image_gen",
+  "sourceRoomCount": 8,
+  "viewCount": 9,
+  "conceptual3DNote": "新增3D为概念近似，保留原始8个空间结构；AI室内图非施工尺寸依据。",
+  "floorMaskCoordinateSystem": "normalized [0,1] image-plane coordinates; approximate conservative exposed-floor polygons, subtract holes",
+  "rooms": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/living.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: photorealistic-natural. Create ONE native landscape 1536x1024 high-detail architectural photograph of an ORIGINAL residential apartment living room, design scheme 橡影 EDITION (no text in image). Reference image is ONLY apartment scale and boundaries: combined living/dining21.4sqm. Preserve straight rectangular walls and realistic modest apartment ceiling. Camera at balcony looking inward, living in foreground and compact dining area at back. Completely redesign original dark interior into pale neutral European oak wide plank timber flooring, ivory limewash walls, a compact 2.15m ivory linen sofa on right wall, honed pale limestone low rectangular rounded-edge coffee table on subtle oatmeal rug, low espresso wood media console left beneath TV. Espresso wood only isolated contrasting details, never dark full-room paneling. In back a 1.3m oak dining table with four espresso-frame linen chairs, quiet narrow vertical walnut screen/book niche at left of dining, pale oak low credenza and entry door right. Warm small lamps brushed nickel details, gentle linen curtains and airy natural daylight from behind camera. Inspired by restrained EDITION hotel materials but an attainable elegant apartment, not hotel palace. Real linen weave, wood grain, realistic soft shadows, 28mm rectilinear photograph, balanced neutral white, no orange cast. No ornate glass divider, no distorted/widened walls, no text/logo/collage, no oversized furnishings.",
+      "notes": "浅橡木宽板贯通客餐厅，2.15m象牙白亚麻沙发配浅石灰石矮几，以少量深咖木色稳定层次。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.205,
+              0.55
+            ],
+            [
+              0.655,
+              0.55
+            ],
+            [
+              0.655,
+              0.615
+            ],
+            [
+              0.325,
+              0.65
+            ],
+            [
+              0.17,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.9
+            ],
+            [
+              0.205,
+              0.83
+            ]
+          ],
+          [
+            [
+              0.765,
+              0.955
+            ],
+            [
+              1,
+              0.968
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.77,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/dining.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. Image1 material/furniture reference is living; image2 only existing small dining boundary. Photograph compact dining zone, 1.3m pale oak table, exactly four espresso-frame ivory linen chairs matching first reference, small ribbed white pendant, ivory wall with vertical abstract landscape print, low pale oak credenza at right with small warm lamp, slim walnut open book niche at left; oak entry door at far right. Living/dining together only21.4sqm, do not expand. Close dining view.",
+      "notes": "紧凑橡木四人餐桌配亚麻餐椅，窄书龛与低餐边柜为小户型保留轻盈边界。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.201,
+              0.724
+            ],
+            [
+              0.87,
+              0.724
+            ],
+            [
+              1,
+              0.756
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.805
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.294,
+              0.548
+            ],
+            [
+              0.692,
+              0.547
+            ],
+            [
+              0.695,
+              0.79
+            ],
+            [
+              0.678,
+              0.802
+            ],
+            [
+              0.664,
+              0.637
+            ],
+            [
+              0.324,
+              0.637
+            ],
+            [
+              0.315,
+              0.857
+            ],
+            [
+              0.3,
+              0.851
+            ]
+          ],
+          [
+            [
+              0.333,
+              0.553
+            ],
+            [
+              0.48,
+              0.553
+            ],
+            [
+              0.478,
+              0.884
+            ],
+            [
+              0.462,
+              0.884
+            ],
+            [
+              0.45,
+              0.68
+            ],
+            [
+              0.366,
+              0.68
+            ],
+            [
+              0.359,
+              0.869
+            ],
+            [
+              0.344,
+              0.866
+            ]
+          ],
+          [
+            [
+              0.506,
+              0.552
+            ],
+            [
+              0.648,
+              0.552
+            ],
+            [
+              0.634,
+              0.883
+            ],
+            [
+              0.619,
+              0.884
+            ],
+            [
+              0.606,
+              0.683
+            ],
+            [
+              0.53,
+              0.683
+            ],
+            [
+              0.521,
+              0.869
+            ],
+            [
+              0.507,
+              0.872
+            ]
+          ],
+          [
+            [
+              0.736,
+              0.705
+            ],
+            [
+              0.738,
+              0.743
+            ],
+            [
+              0.858,
+              0.743
+            ],
+            [
+              0.864,
+              0.704
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "living2",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/living2.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. REVERSE VIEW of first reference same living room, camera near dining/entry looking outward to balcony. Compact2.15m ivory linen sofa now on LEFT wall under same large neutral abstract artwork, same limestone block coffee table center, oatmeal rug, espresso media cabinet and TV RIGHT. Beyond living is5sqm enclosed narrow balcony with full panoramic glass, one uninterrupted main pane NO central mullion, narrow side opening sash, sheer linen curtains drawn to sides. One ivory reading lounge and small light table on balcony. Preserve21.4sqm combined living/dining modest rectangle, no absurd expansion. Believable reverse shot of same furnishings.",
+      "notes": "从入户端望向客厅及全景阳台；沙发、石灰石矮几与深咖电视柜保持正反视角呼应。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.31,
+              0.594
+            ],
+            [
+              0.692,
+              0.598
+            ],
+            [
+              0.78,
+              0.795
+            ],
+            [
+              1,
+              0.795
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0.929
+            ],
+            [
+              0.315,
+              0.932
+            ]
+          ],
+          [
+            [
+              0.353,
+              0.567
+            ],
+            [
+              0.47,
+              0.567
+            ],
+            [
+              0.475,
+              0.614
+            ],
+            [
+              0.353,
+              0.614
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0,
+              0.681
+            ],
+            [
+              0.245,
+              0.644
+            ],
+            [
+              0.786,
+              0.812
+            ],
+            [
+              0.816,
+              0.937
+            ],
+            [
+              0,
+              0.936
+            ]
+          ],
+          [
+            [
+              0.713,
+              0.556
+            ],
+            [
+              1,
+              0.536
+            ],
+            [
+              1,
+              0.797
+            ],
+            [
+              0.727,
+              0.801
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "master",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/master.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. First image material palette; second reference existing master13.5sqm boundaries and corner bay window. Redesign bedroom into original restrained luxury residential scene: queen bed ivory linen upholstery and rumpled ivory bedding, low horizontal pale oak headboard with isolated espresso bedside cubes, brushed nickel reading sconces and one warm linen table lamp. Pale oak wide plank flooring, natural oatmeal thin rug, offwhite walls, compact full-height pale oak wardrobe left. Keep corner bay window left and narrow right window; believable small13.5sqm room, natural apartment city view. Airy and tranquil not expansive suite.",
+      "notes": "浅橡木床头与衣柜、亚麻软床及少量深咖床头柜，保留转角飘窗采光。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.14,
+              0.664
+            ],
+            [
+              0.3,
+              0.626
+            ],
+            [
+              0.35,
+              0.735
+            ],
+            [
+              0.241,
+              1
+            ],
+            [
+              0.089,
+              1
+            ]
+          ],
+          [
+            [
+              0.867,
+              0.797
+            ],
+            [
+              1,
+              0.831
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.901,
+              1
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.232,
+              0.777
+            ],
+            [
+              0.354,
+              0.729
+            ],
+            [
+              0.906,
+              0.899
+            ],
+            [
+              0.913,
+              1
+            ],
+            [
+              0.169,
+              1
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "second",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/second.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. First image material palette; second reference same tiny7.2sqm rectangular study/guest bedroom and rear window. NEW furniture layout: closed foldaway guest bed integrated into pale oak full height cabinetry along RIGHT wall, discreet horizontal pull and visible foldaway hinges at bottom, no permanently open bed. An airy pale oak slim120cm desk beneath rear window, espresso wood frame upholstered chair, large ivory linen pinboard on LEFT wall with a few unlettered paper swatches, slim warm task light, one narrow shelf. Generous clear center floor within compact7.2sqm boundary. Light oak wide plank flooring, linen curtains, no text. Make smart dual-purpose study, no bulky couch.",
+      "notes": "折叠客床收进橡木柜体，窗下书桌与亚麻灵感板组成灵活书房，中央留出活动空间。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.252,
+              0.676
+            ],
+            [
+              0.632,
+              0.704
+            ],
+            [
+              0.926,
+              1
+            ],
+            [
+              0.096,
+              1
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.255,
+              0.473
+            ],
+            [
+              0.58,
+              0.473
+            ],
+            [
+              0.583,
+              0.71
+            ],
+            [
+              0.569,
+              0.712
+            ],
+            [
+              0.563,
+              0.537
+            ],
+            [
+              0.272,
+              0.537
+            ],
+            [
+              0.27,
+              0.714
+            ],
+            [
+              0.255,
+              0.713
+            ]
+          ],
+          [
+            [
+              0.344,
+              0.489
+            ],
+            [
+              0.456,
+              0.489
+            ],
+            [
+              0.461,
+              0.75
+            ],
+            [
+              0.449,
+              0.755
+            ],
+            [
+              0.427,
+              0.642
+            ],
+            [
+              0.381,
+              0.642
+            ],
+            [
+              0.374,
+              0.745
+            ],
+            [
+              0.36,
+              0.745
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "kitchen",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. Reference1 material style only; reference2 existing compact6.6sqm U-shaped kitchen layout including window position and boundary. Redesign with muted warm pale stone waterproof porcelain TILE FLOOR (no wood floor), pale neutral European oak lower cabinetry, ivory upper cabinetry, honed ivory limestone-look quartz counters and backsplash, brushed nickel faucet and slim handles, undermount sink under rear window, practical induction stove right with hood. Keep small central aisle. No island. Gentle undercabinet light. Real realistic apartment kitchen, original coherent residential design.",
+      "notes": "浅橡木地柜配象牙白吊柜，浅石纹防水地砖与石英台面适应日常烹饪。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.237,
+              0.779
+            ],
+            [
+              0.62,
+              0.77
+            ],
+            [
+              0.862,
+              1
+            ],
+            [
+              0.199,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    },
+    {
+      "room": "bath",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/bath.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. Reference1 material palette only; reference2 existing SMALL4.3sqm bathroom boundaries and narrow rear window. All floor/wet walls warm very pale limestone-look waterproof stone tile, NO WOOD FLOOR. On back wall COMPACT80cm floating fluted light-oak vanity with stone top, OFFSET vertical OVAL mirror above basin, nickel wall faucet and warm side sconce, proper glass shower enclosure LEFT, white compact toilet RIGHT. Vanity must be short to maintain usable circulation, low-key original design, minimal dark accents, no vast bathroom, no bathtub. Clear physically believable plumbing, natural frosted window light.",
+      "notes": "紧凑竖纹浴室柜配错位椭圆镜，浅石灰石感防滑砖与独立淋浴保持干湿分区。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.322,
+              0.83
+            ],
+            [
+              0.678,
+              0.831
+            ],
+            [
+              0.729,
+              1
+            ],
+            [
+              0.196,
+              1
+            ]
+          ],
+          [
+            [
+              0.031,
+              0.877
+            ],
+            [
+              0.303,
+              0.87
+            ],
+            [
+              0.217,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.651,
+              0.808
+            ],
+            [
+              0.83,
+              0.797
+            ],
+            [
+              0.839,
+              0.95
+            ],
+            [
+              0.719,
+              0.955
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. Reference1 material palette; reference2 existing enclosed narrow balcony5sqm boundary. NEW minimal reading balcony, one compact ivory linen reading lounge angled right and one small pale limestone round side table, sheer linen curtains drawn to sides, small potted tree far side. Water-resistant warm pale limestone tile floor. Full panoramic glass: one uninterrupted LARGE CENTRAL FIXED PANE with absolutely NO central vertical mullion, ONLY one narrow operable side sash at LEFT edge, minimal dark metal edge frame. High rise green park and apartment skyline. Camera from living threshold, realistic narrow balcony depth1.4m, not giant sunroom. Quiet airy neutral oak trim, nickel warm sconce. No bench, no extra chairs.",
+      "notes": "无中梃大幅全景玻璃配侧开扇，一张阅读躺椅与轻盈石质边几，保留通行。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.177,
+              0.717
+            ],
+            [
+              0.905,
+              0.65
+            ],
+            [
+              0.911,
+              0.823
+            ],
+            [
+              0.183,
+              0.912
+            ]
+          ],
+          [
+            [
+              0.188,
+              0.948
+            ],
+            [
+              0.933,
+              0.847
+            ],
+            [
+              1,
+              0.885
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.19,
+              1
+            ]
+          ]
+        ],
+        "holes": [
+          [
+            [
+              0.539,
+              0.566
+            ],
+            [
+              0.592,
+              0.568
+            ],
+            [
+              0.585,
+              0.709
+            ],
+            [
+              0.531,
+              0.714
+            ]
+          ],
+          [
+            [
+              0.598,
+              0.483
+            ],
+            [
+              0.851,
+              0.472
+            ],
+            [
+              0.857,
+              0.723
+            ],
+            [
+              0.818,
+              0.758
+            ],
+            [
+              0.616,
+              0.764
+            ],
+            [
+              0.578,
+              0.718
+            ]
+          ],
+          [
+            [
+              0.825,
+              0.548
+            ],
+            [
+              0.895,
+              0.546
+            ],
+            [
+              0.883,
+              0.679
+            ],
+            [
+              0.844,
+              0.685
+            ]
+          ]
+        ]
+      },
+      "inspected": true
+    },
+    {
+      "room": "utility",
+      "path": "/workspace/scratch/d2f63f3a5692/v26-assets/edition-oak/utility.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case photorealistic-natural. One native1536x1024 landscape architectural interior PHOTO, exquisite real texture and believable apartment dimensions, straight walls rectilinear lens, airy neutral daylight plus warm small lamps. ORIGINAL residential design 橡影 EDITION, material continuity from first reference (living): neutral pale European oak wide-plank floor, ivory walls and linen, isolated espresso wood accents, pale honed limestone, brushed nickel. Never dark wall paneling or ornate glass partitions; no text/logos/collage. Reference1 material palette; reference2 existing narrow2.5sqm enclosed laundry utility balcony, keep window wall LEFT and stacked washer/dryer at far end. Redesign in pale neutral oak moisture-resistant cabinets, ivory folding quartz counter RIGHT, slim brushed nickel pulls, small broom niche at end right of appliance, warm undercabinet light, offwhite stacked appliances, small woven basket. WATERPROOF muted pale limestone porcelain tiled floor, never wood floor. Preserve realistic narrow2.5sqm proportions and windows. Useful working domestic room with excellent natural light, no palace.",
+      "notes": "浅橡木耐潮柜整合叠放洗烘、清洁工具与折衣台，地面使用防水浅石纹砖。",
+      "floorMask": {
+        "areas": [
+          [
+            [
+              0.443,
+              0.752
+            ],
+            [
+              0.732,
+              0.755
+            ],
+            [
+              0.812,
+              1
+            ],
+            [
+              0.251,
+              1
+            ]
+          ]
+        ],
+        "holes": []
+      },
+      "inspected": true
+    }
+  ]
+}

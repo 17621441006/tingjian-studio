@@ -1,3 +1,4 @@
+import {WOOD_FLOOR_REGIONS} from './wood-floor-regions.mjs';
 import {prepareObjectPhoto,currentObjectPhoto,sceneEditKey} from './photo-objects.mjs';
 import {floorProduct} from './floor-catalog.mjs';
 // Normalised image-plane floor boundaries; holes keep rugs and furniture intact.
@@ -30,7 +31,7 @@ const duskPieces={areas:[px([0,1024],[0,955],[275,792],[279,765],[319,742],[319,
 ]};
 export function floorRegions(scene,path=''){
  if(scene.design==='dusk'&&/\/(pieces|selections)\/living\//.test(path))return duskPieces;
- return sets[scene.design]?.[scene.room]||common[scene.room]||common.living;
+ return WOOD_FLOOR_REGIONS[scene.design]?.[scene.room]||sets[scene.design]?.[scene.room]||common[scene.room]||common.living;
 }
 export function floorMask(width,height,{areas,holes=[]}){
  const mask=new Uint8Array(width*height);

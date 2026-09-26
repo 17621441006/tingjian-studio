@@ -1,0 +1,546 @@
+[
+  {
+    "path": "dist/designs-v26/edition-oak/living.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 347994,
+    "sha256": "60163cfc66813f2e349f273d24e246f176bf435458baffcfc4f5f2451c3e96ac"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/living-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 21048,
+    "sha256": "768a317b7d66b28b91a7aad597c4410308ff6d5790a724cde4d006758b5bc384"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 239008,
+    "sha256": "571b68e1b3dc9430395a25e2f364f4c796e4b81149533ad95c76ce86d36ea125"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 17288,
+    "sha256": "26e9762625533f5250d2adb53703d0dd1ffc05a6d883e9a7bd316b010a58d0d0"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 323222,
+    "sha256": "cd94f00dd77cfc9a3b107345a42725895b1ffc323caea4912720d8e0e9c8b4a5"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 20100,
+    "sha256": "1cf9d09ac083553e8ea0fbbb5c9fe88fadc7a54c005e1d466c2b8b4a929695e6"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 344914,
+    "sha256": "47a09746513cde666d9f3a226d37e86e476b552fb4642e11353d10fc05572345"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 20512,
+    "sha256": "a79c6d8b33a70420743023de993a33ed9292399866b076cd2b1d9bf51ddcffaf"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 289606,
+    "sha256": "4ddc65b8c9e3cb187a2587ce17b1733ba781fbc97949f755e35c04949fa1b8c6"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 18658,
+    "sha256": "0308fe2cb17dc6592d27c0919e4735c1c2669a1707808b33f9ba90874b232911"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 279828,
+    "sha256": "cf509c990aa54d7c1be7a1d91ab0efdbda252f021065db5a2a2f0cab62f3be53"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 17394,
+    "sha256": "1807b74db773387dca5274fad4e2003e410a222fd75b532983719f85c874f9df"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 401262,
+    "sha256": "c0c8b112b0b44e86334fbd1e2534140e5697b63c6b153ec110570a4a96e34ee6"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 18234,
+    "sha256": "dc97e11d17e77c2998bbc65ee12086fca419c5bcee766b9a1852cec82783dc06"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 422462,
+    "sha256": "990038374a4726e784e5e64303533602744514e7ecaaae12789625af4133b346"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 28608,
+    "sha256": "267d266154e5f30a4a664605d8103409ce9bcbcb5bf692ac31e8391c8b1f9351"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 305014,
+    "sha256": "515d01227da03f94fe61dc42712ef12f9125631dac0ca038ea471dce9445fa41"
+  },
+  {
+    "path": "dist/designs-v26/edition-oak/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 29320,
+    "sha256": "064db9edecd8e5ea9723e59fd5e8c27d5562c6ae71e4ca806a887e2e312963c7"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/living.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 327406,
+    "sha256": "a02095de06a5fe313da1629cb34ff77b3ecc5a43db20ee8efb9a4e20799764a2"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/living-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 21406,
+    "sha256": "81e4a76ebd8778feab8de3a4c2c8c3b8a1a3c7bd95788dd7705d7eb61f200dc6"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 264688,
+    "sha256": "c0e78476ebfbba715bcc3eeb6ecbd87f9bbaed897774704148ecc56bda67af83"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 16128,
+    "sha256": "c67331fc67e6e2de00b33e1c35d38f3ef605057ea5a22c8a9cf154cb3161369d"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 444236,
+    "sha256": "024a9c76b93575ad5a14b11d29b84a63682105614b01a15a10dc9f1d14982719"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30428,
+    "sha256": "9e4fbd1ee4bfe972233f49051eac80352922263a6f42a841e158186a0f6efb26"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 356234,
+    "sha256": "547d2bb7a123d6adaa0f8d5bbbddd0dc14cfd989008a0a37ba892d5123d32360"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 22092,
+    "sha256": "88c45b0055f55727dc3cbc11f042462c2b4918f58946f7debf1730e4a753efd3"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 364594,
+    "sha256": "2892eb945c31f1156da3e9a8fe4eefaf66dd6686f7bd50d4ad8ad117b732e403"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 26208,
+    "sha256": "ea9ac43b98e18781bdb1b3a6f728c31b112d0e9aadad5179780b51cb38eceec2"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 310262,
+    "sha256": "4e7d8c1bf36848e3b215cc988162098093afccd4c4a97e949b2da574c2799d7c"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 17252,
+    "sha256": "787831598b59908fbd28c7a285ca7d52fffa67a52a40c8f19a2e061a98a68424"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 388678,
+    "sha256": "dbe2768f0d35502b08b044e7f032bbd7b15a56b05e790f5753b1b72bbf236436"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 16402,
+    "sha256": "0cfd73c5750452f0febe23ed60a45145e09f846ddfa545fa5c166e5f0c7957d2"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 360196,
+    "sha256": "8b12bc910d0f0349516f2df4d1f0a997a72668c86a1d46543cfb17fabe6e55c4"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 33096,
+    "sha256": "055c6b61b4e32e342f09473dc3f1d88f19771965e6af41668d9dd53524572907"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 388058,
+    "sha256": "3bb50161d1c3b60cf3bee3f1c2471554e4610220ac902b7b012aef74903e191f"
+  },
+  {
+    "path": "dist/designs-v26/edition-smoke/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24880,
+    "sha256": "c062d5bc7a812a3ed2391d14daf019dffdf033e15ddd03d8ebbfa5d01b20d727"
+  },
+  {
+    "path": "dist/designs-v26/milan/living.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 380776,
+    "sha256": "d096838b1e7f40795fbeabbba6be6d8c0b979318c3516b44a53cfe6eafeed836"
+  },
+  {
+    "path": "dist/designs-v26/milan/living-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 23478,
+    "sha256": "c588f9228c9fe553aba2a8e4906eb59cc1f0abcf951b1c5655ea43adf408797a"
+  },
+  {
+    "path": "dist/designs-v26/milan/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 380350,
+    "sha256": "268979ccb11a58e1cd4b981de63fd7182bd6d5b55ef61c746879f540190441d4"
+  },
+  {
+    "path": "dist/designs-v26/milan/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24952,
+    "sha256": "689583b9f25b74d792ac2c79f095f8652cae750bb20a74d28960032998e0043e"
+  },
+  {
+    "path": "dist/designs-v26/milan/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 269126,
+    "sha256": "b8793f2235803a0b07973f237aebcb37c5fb82442245d8d71269736ea0473e4a"
+  },
+  {
+    "path": "dist/designs-v26/milan/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 19198,
+    "sha256": "14def1065bc4fa4db9acbf3b4347b6540bd0c368c4dc94fcfb01a3df400f3e14"
+  },
+  {
+    "path": "dist/designs-v26/milan/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 424048,
+    "sha256": "d6bffbe690c69675b57cdfe3944e439a6ec8e77e0c15fd2ed8b66e93c5cb1f13"
+  },
+  {
+    "path": "dist/designs-v26/milan/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30264,
+    "sha256": "b27d596ddd2b56df6685ae7ba93c6ab71ac39a1fa28365cd29b887ad17599c6c"
+  },
+  {
+    "path": "dist/designs-v26/milan/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 325952,
+    "sha256": "8a89776d34b28302ae473ed00118ea12e0c1d2b6129a711e13aa3c99b4488de5"
+  },
+  {
+    "path": "dist/designs-v26/milan/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 20844,
+    "sha256": "b86df9fbe4ac4942357b559a92e9bb91617998ea2ddd4c15811e0f8b36fb9a34"
+  },
+  {
+    "path": "dist/designs-v26/milan/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 380772,
+    "sha256": "256bdbe8ff31dd71fb5e19f05082d42c4d8f3d818b0b25a8235dbcbb7d2424c3"
+  },
+  {
+    "path": "dist/designs-v26/milan/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 26262,
+    "sha256": "765c0619c180eac08f2301fa1779a1a57f13773a466b1d7b67c9c2ecbfb82ee9"
+  },
+  {
+    "path": "dist/designs-v26/milan/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 294758,
+    "sha256": "3bd8638faa1a38e5418e726e23c9474bc4a5f950211f126aca1c5531f95363b1"
+  },
+  {
+    "path": "dist/designs-v26/milan/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 19406,
+    "sha256": "ae2e192ce3ec6e98edc396ad9ab60f4e85ea699050b6f62dc7fddfd9683af724"
+  },
+  {
+    "path": "dist/designs-v26/milan/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 442750,
+    "sha256": "7d1aef4ffde6c6ba05138bdbb1eb9bb7e5f8988d5a4562076489b242d79e35f4"
+  },
+  {
+    "path": "dist/designs-v26/milan/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 21686,
+    "sha256": "462aa7cbfa3d61eaaf993f856a3412592b9d74d55cee08b266331855df8bb04c"
+  },
+  {
+    "path": "dist/designs-v26/milan/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 308896,
+    "sha256": "4f2e616c67bed8bc395f78af0e9c45c9d83e418a9099835906475bd24feb8298"
+  },
+  {
+    "path": "dist/designs-v26/milan/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24276,
+    "sha256": "e96289dc75a8867eeaaefcd87b78867d7b6c497110d55543940b9a7160463f1d"
+  },
+  {
+    "path": "dist/designs-v26/dusk/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 358260,
+    "sha256": "21a170c1e9681e3d8f430c3a369ab263bf7ae7ba7191d9270242badd64bd75bc"
+  },
+  {
+    "path": "dist/designs-v26/dusk/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 25812,
+    "sha256": "e9e0bb6104feec71ed248787053fb41a89417efccc47aa6b88abf0487db88ccd"
+  },
+  {
+    "path": "dist/designs-v26/chinese/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 370642,
+    "sha256": "48d466d134bef82a106f84c7ef4b5e6ef1c7876d6f64966cca0a069b88701904"
+  },
+  {
+    "path": "dist/designs-v26/chinese/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 29790,
+    "sha256": "16fa089f85e08d60aaa9ecdf2f7b1f6e4294a9f30129fdae8a7930708f4ccf96"
+  },
+  {
+    "path": "dist/designs-v26/stone/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 407012,
+    "sha256": "1f3a888319aea03ac47f7506260fe5770086369754faa75ce739fe9855c29111"
+  },
+  {
+    "path": "dist/designs-v26/stone/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24592,
+    "sha256": "9013ac71aa10a73cc6c45422a1118347d00e69563c6ea67bbb6e08eefedcea68"
+  },
+  {
+    "path": "dist/designs-v26/collector/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 383250,
+    "sha256": "a4dd34fa537c4753c2c23dca7e68e38abf22c015325c3e2c29fac4cc60e0c177"
+  },
+  {
+    "path": "dist/designs-v26/collector/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 27708,
+    "sha256": "c4717664868e15e04a8b9023552d5d9b3e42fd87aee7d5c0c795546e5236c0cc"
+  },
+  {
+    "path": "dist/designs-v26/copper/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 524894,
+    "sha256": "1ae978523b6bd123e8e126d5b853da1eb1ff79bfb57dbb61e17ef77dde1d66b8"
+  },
+  {
+    "path": "dist/designs-v26/copper/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 32566,
+    "sha256": "385163768f8402a2ac17f28e33c5cc273d7ca46547db193e79561525a0cbe23a"
+  },
+  {
+    "path": "dist/designs-v26/amber/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 370370,
+    "sha256": "d013c2c2f988456d6645bcd990f36f03f44f669a4d96996c4728d4cdac5e3b2f"
+  },
+  {
+    "path": "dist/designs-v26/amber/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 26742,
+    "sha256": "1000cf33143863b92dbfc5c478caa61ca89c6af617fd30fb93732ccf0e1ebcca"
+  },
+  {
+    "path": "dist/designs-v26/graphite/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 376278,
+    "sha256": "e803666e490661f4e2b14d3c1a4c90df5837570d90a9687b436499b118bd093e"
+  },
+  {
+    "path": "dist/designs-v26/graphite/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 21188,
+    "sha256": "d4f1da5289cc3bfcbf9e652878ad502d99120690a55d4950283fe05dd2fde67d"
+  }
+]
