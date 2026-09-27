@@ -19,7 +19,7 @@ export function initHomeGallery(root){
  const removedByDesign={},partitionBySpace={},floorBySpace={};
  const homeFloorHost=$('[data-home-floor-catalog]');
  const extraSchemes=$('[data-extra-schemes]'),schemesToggle=$('[data-schemes-toggle]');let schemesExpanded=false;
- function renderSchemeExpansion(){if(!extraSchemes||!schemesToggle)return;extraSchemes.hidden=!schemesExpanded;schemesToggle.setAttribute('aria-expanded',String(schemesExpanded));const selected=Object.keys(HOMES).indexOf(displayed.design)>=10?' · 当前 '+HOMES[displayed.design].name:'';schemesToggle.textContent=schemesExpanded?'收起更多方案 −':'更多方案 · 另 2 套 ＋'+selected;}
+ function renderSchemeExpansion(){if(!extraSchemes||!schemesToggle)return;extraSchemes.hidden=!schemesExpanded;schemesToggle.setAttribute('aria-expanded',String(schemesExpanded));const selected=Object.keys(HOMES).indexOf(displayed.design)>=10?' · 当前 '+HOMES[displayed.design].name:'';schemesToggle.textContent=schemesExpanded?'收起更多方案 −':'更多方案 · 另 '+Math.max(0,Object.keys(HOMES).length-10)+' 套 ＋'+selected;}
  schemesToggle?.addEventListener('click',()=>{schemesExpanded=!schemesExpanded;renderSchemeExpansion();});
 
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;

@@ -1,0 +1,31 @@
+{
+  "consulted": [
+    {
+      "url": "https://abloomdecor.com/soft-purple-and-brown-color-palette/",
+      "palette": [
+        "#bfa1b5",
+        "#635371",
+        "#68513f",
+        "#bd9d82",
+        "#d6d8d7"
+      ],
+      "use": "Reference for muted purple and brown pairing; new scheme colors below independently selected."
+    },
+    {
+      "url": "https://coolors.co/palettes/trending/purple",
+      "result": "403; no claim to have viewed palette content"
+    }
+  ],
+  "schemes": {
+    "mauve-walnut": [
+      "#8c7a8b",
+      "#49352f",
+      "#f3efe8"
+    ],
+    "plum-gallery": [
+      "#655064",
+      "#382b27",
+      "#f5f2ed"
+    ]
+  }
+}

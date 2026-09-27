@@ -153,6 +153,8 @@ body>main{max-width:1800px;margin-inline:auto;padding-inline:clamp(18px,3vw,48px
 .atelier[data-journey-step=style] .home-main>.home-room-nav{margin:20px 0 0;padding:15px 0 0;border-left:0;border-top:1px solid #cfc1ad}
 .atelier[data-journey-step=style] .home-main .home-room-nav [data-home-rooms]{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .atelier[data-journey-step=style] .home-main .home-room-nav button{padding:5px;background:#faf7f0;border-radius:5px}
+.atelier[data-journey-step=style] .home-main .home-room-nav button[aria-pressed=true]{background:#e9e0d2;color:#382f27;border-color:#79624a;box-shadow:inset 0 0 0 1px #79624a}
+.atelier[data-journey-step=style] .home-main .home-room-nav button[aria-pressed=true]>span{color:inherit}
 .atelier[data-journey-step=style] .home-main .home-room-nav button img{width:100%;height:auto;aspect-ratio:1.7;object-fit:cover}
 .atelier[data-journey-step=style] .home-main .home-room-nav button strong{font-size:14px;margin:7px 4px}
 .atelier[data-journey-step=style] .home-main>.home-design-notes{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:28px;margin:24px 0 0;padding:23px 0;border-top:1px solid #cfc1ad}

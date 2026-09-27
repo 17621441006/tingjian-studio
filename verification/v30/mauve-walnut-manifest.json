@@ -1,0 +1,324 @@
+{
+  "scheme": "mauve-walnut",
+  "title": "雾紫栖木",
+  "generationMode": "built-in image_gen",
+  "palette": [
+    "#8C7A8B",
+    "#49352F",
+    "#F3EFE8"
+  ],
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "polygonNotes": "Normalized image coordinates [x,y], origin upper left. Conservatively selected exposed floor only; polygons intentionally exclude rugs and furniture. Single-image aesthetic concepts, not measured construction drawings.",
+  "review": "All nine inspected. Second room has closed Murphy cabinet, desk and open central floor. Balcony has two window-facing stools and no bench. Bathroom has compact side vanity, WC and separate rear shower, no tub. Living reverse matches principal furniture and balcony. Minor cross-view variation: dining close-up uses white stone table while living wide view shows walnut tabletop.",
+  "rooms": {
+    "living": {
+      "title": "雾紫会客厅",
+      "copy": "细织雾紫沙发与白石茶几相映，深胡桃木收住墙面层次，让暖白与自然光留出舒展的行走空间。",
+      "materials": [
+        "雾紫亚麻织物",
+        "深胡桃木饰面",
+        "白色洞石",
+        "暖白石纹地砖"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.222,
+            0.7
+          ],
+          [
+            0.328,
+            0.7
+          ],
+          [
+            0.245,
+            0.91
+          ],
+          [
+            0.222,
+            0.91
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/living.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Keep reference camera, rectangular footprint, left TV wall and left rear opening, right sofa wall, dining zone rear. Redesign into elegant bright compact living: tailored dusty mauve woven three-seat sofa right, pale ivory small rug, low sculptural white stone oval coffee table, espresso walnut flat panel behind sofa framed by warm white plaster. Restrained walnut TV console left. Rear dining with rounded walnut table and mauve upholstered chairs. Preserve generous unobstructed visible perimeter floor. No dark all-wood room."
+    },
+    "dining": {
+      "title": "白石与紫雾",
+      "copy": "椭圆白石餐桌搭配轻巧软包餐椅，木纹餐边柜与纹理画作让日常聚餐更从容。",
+      "materials": [
+        "白石桌面",
+        "雾紫软包",
+        "胡桃木餐边柜",
+        "暖白矿物涂料"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.03,
+            0.94
+          ],
+          [
+            0.97,
+            0.94
+          ],
+          [
+            0.97,
+            0.99
+          ],
+          [
+            0.03,
+            0.99
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/dining.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Keep reference straight wall, left opening, rear entry door right and compact dining footprint. New four-seat oval white stone dining table on espresso walnut pedestal, dusty mauve linen dining chairs slender walnut frames. Warm white plaster rear wall with one large abstract textural monochrome artwork, low espresso walnut sideboard at right. Small opal pendant above dining, no busy shelving. Stone tile floor exposed clearly in foreground."
+    },
+    "balcony": {
+      "title": "临窗双人早餐吧",
+      "copy": "以窄台面和两把独立高椅替代长凳，面向天际线用早餐，绿植围合一角，中央保留通行。",
+      "materials": [
+        "胡桃木吧台",
+        "雾紫坐垫",
+        "暖白石纹地砖",
+        "陶质花器"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.24,
+            0.84
+          ],
+          [
+            0.9,
+            0.84
+          ],
+          [
+            0.9,
+            0.869
+          ],
+          [
+            0.24,
+            0.916
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Keep exactly the narrow rectangular enclosed balcony, full width black aluminum glazing and skyline, sliding door foreground, short right side wall. REMOVE bench entirely. Slim espresso walnut breakfast bar along window at waist height, two separate slender stools with dusty mauve seat cushions facing outward toward the window, backs toward camera. Several small lush potted plants grouped at right, one ceramic cup. Warm white stone floor visibly open in foreground. No built-in seating, no couch."
+    },
+    "master": {
+      "title": "雾紫安眠",
+      "copy": "低床架、柔软亚麻与悬浮白石床头柜，围绕原有转角窗展开，睡眠区静谧而温润。",
+      "materials": [
+        "雾紫亚麻床屏",
+        "象牙白棉麻床品",
+        "深胡桃木床架",
+        "白石床头柜"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.12,
+            0.79
+          ],
+          [
+            0.195,
+            0.77
+          ],
+          [
+            0.255,
+            0.985
+          ],
+          [
+            0.12,
+            0.985
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/master.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Retain original compact main bedroom footprint, L-shaped corner bay window rear left, separate right window, doorway viewpoint. Redesign bedroom with low espresso walnut platform bed along right wall, beautifully tailored dusty mauve linen upholstered headboard, ivory linen duvet and dusty mauve folded coverlet, asymmetric floating white stone bedside shelves, slender nickel reading lamps. Warm white lime plaster walls, understated walnut wardrobe left. Keep exposed walnut plank circulation floor, only small bedside rugs. Straight clean architecture."
+    },
+    "second": {
+      "title": "可变书房客卧",
+      "copy": "整面收起的壁床让客房平日成为书房；长书桌临窗布置，中央留白，阅读、工作与临时留宿各得其所。",
+      "materials": [
+        "胡桃木闭合壁床柜",
+        "雾紫织物椅",
+        "暖白墙面",
+        "浅胡桃木地板"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.22,
+            0.81
+          ],
+          [
+            0.69,
+            0.81
+          ],
+          [
+            0.86,
+            0.98
+          ],
+          [
+            0.14,
+            0.98
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/second.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Preserve the compact narrow guestroom footprint, central rear black-framed window, doorway view. Completely REMOVE ordinary bed/daybed/sofa from the right wall. It is now a flexible library guestroom: CLOSED full-height espresso walnut Murphy-bed cabinet flush against right wall, vertical panels and discreet paired handles show it folds down but remains fully CLOSED upright, a small bookshelf at side. Long slim walnut desk beneath window with one muted dusty mauve swivel chair pushed under it, warm white walls, pinboard in desaturated mauve textile on left wall. Middle floor fully open, bare pale walnut boards NO RUG. No visible mattress or bedding. Compact believable room."
+    },
+    "kitchen": {
+      "title": "雾紫一线烟火",
+      "copy": "白石操作台串起洗、切、烹饪动线，局部雾紫手工砖在胡桃木与暖白之间留下柔和的色彩。",
+      "materials": [
+        "胡桃木地柜",
+        "暖白吊柜",
+        "白石台面",
+        "雾紫手工砖"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.26,
+            0.817
+          ],
+          [
+            0.605,
+            0.793
+          ],
+          [
+            0.728,
+            0.975
+          ],
+          [
+            0.2,
+            0.975
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Preserve compact U-shaped kitchen footprint, central rear window, sink below window, cooking at right and integrated oven left. Redesign cabinetry: rich espresso walnut lower drawers, warm white upper cabinets, honed white stone counters and splashback with subtly grey violet veins. Tiny restrained dusty mauve handmade tile strip above right countertop, brushed nickel fixtures. Clear wide enough center aisle visible ivory stone floor. Soft neutral daylight and warm undercabinet light, extremely realistic walnut and stone textures."
+    },
+    "bath": {
+      "title": "白石雾紫浴间",
+      "copy": "侧向悬浮台盆与后置独立淋浴区保持紧凑分区，雾紫壁龛和暖白石面为日常洗漱带来细腻层次。",
+      "materials": [
+        "暖白石材",
+        "雾紫手工砖壁龛",
+        "胡桃木悬浮柜",
+        "透明玻璃"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.385,
+            0.831
+          ],
+          [
+            0.664,
+            0.831
+          ],
+          [
+            0.702,
+            0.985
+          ],
+          [
+            0.315,
+            0.985
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/bath.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Use original as architectural scale reference: redesign into a truly compact 4.3 square meter bathroom, straight rectangular room about 1.9m x 2.3m, not expansive. View from doorway. Floating 70cm espresso walnut vanity with warm white stone top along left side wall, rounded rectangle mirror above; plausible compact WC along right side wall. Separate frameless glass shower spans REAR 90cm depth, tall narrow frosted rear window retained, with muted dusty mauve handmade tile niche. Walls/floor honed warm white stone with fine veins, brushed nickel fittings. Clear central exposed dry floor, actual shower door, practical spatial separation. NO tub, no double vanity, no spa proportions."
+    },
+    "utility": {
+      "title": "有序家务角",
+      "copy": "叠放洗烘与闭合清洁柜集中收纳，白石折衣台和双抽拉织物篮沿侧墙布置，留出清爽通道。",
+      "materials": [
+        "胡桃木收纳柜",
+        "雾紫哑光柜门",
+        "白石折衣台",
+        "浅石纹地砖"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.455,
+            0.77
+          ],
+          [
+            0.727,
+            0.77
+          ],
+          [
+            0.828,
+            0.98
+          ],
+          [
+            0.354,
+            0.98
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/utility.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Preserve narrow enclosed utility balcony with long full-height black framed windows left, straight rear wall and right cabinetry. Redesign into practical crisp laundry zone: stacked white washer/dryer at rear left in rich espresso walnut cabinet, closed tall broom cabinet rear right, shallow wall-hung folding worktop at right in warm white stone with dusty mauve flat front wall cabinets above. Below worktop two slim pull-out laundry baskets; no clutter. Pale stone tiled floor leaves narrow central walkway fully open, neutral sunlit texture."
+    },
+    "living2": {
+      "title": "向光回望",
+      "copy": "从餐厅回望起居区，雾紫沙发、白石茶几与临窗早餐吧连成柔和的生活场景。",
+      "materials": [
+        "雾紫亚麻织物",
+        "深胡桃木",
+        "白色洞石",
+        "暖白石纹地砖"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.826,
+            0.873
+          ],
+          [
+            0.96,
+            0.902
+          ],
+          [
+            0.978,
+            0.978
+          ],
+          [
+            0.835,
+            0.978
+          ]
+        ]
+      ],
+      "path": "/workspace/scratch/d2f63f3a5692/v30-assets/mauve-walnut/living2.png",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: precise-object-edit. Create one photorealistic high-end Chinese apartment interior photograph, native 1536x1024 landscape. Input image is structural reference only: retain real straight architecture, openings and compact scale but completely redesign finishes and furniture as specified. Cohesive scheme 雾紫栖木: dusty muted mauve #8C7A8B, rich espresso walnut #49352F, warm white #F3EFE8. Neutral soft daylight, tactile linen, real fine wood pores, honed white stone, beautifully restrained editorial realism, straight verticals, no wide-angle distortion. No people, no text, no logos, no watermark, no vivid purple, no neon. Generate REVERSE VIEW of the supplied living room, photographed from the rear dining area toward balcony. This must be the same design and furniture as image 1 but camera rotated 180 degrees. Sofa now on LEFT, dusty mauve woven compact three-seat sofa against espresso walnut panel, ivory rug and oval white stone coffee table central, TV and floating walnut console on RIGHT warm white wall. Rear full-width black-framed sliding glazing leads to the slim balcony pictured in image 2, a walnut window-facing bar and two stools visible beyond. Keep compact straight rectangular footprint, no new doors or curved walls, soft neutral daylight, exposed pale stone walkways in foreground. No people, no text."
+    }
+  }
+}

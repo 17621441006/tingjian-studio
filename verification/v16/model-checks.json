@@ -62,6 +62,16 @@
       "design": "oriental-hotel",
       "meshes": 174,
       "triangles": 125032
+    },
+    {
+      "design": "mauve-walnut",
+      "meshes": 177,
+      "triangles": 121608
+    },
+    {
+      "design": "plum-gallery",
+      "meshes": 182,
+      "triangles": 129868
     }
   ]
 }

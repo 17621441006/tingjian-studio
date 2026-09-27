@@ -116,7 +116,8 @@ await click('[data-confirm-all]',30);assert.equal(context.__journey().confirmedR
 checks.push('Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.');
 checks.push('Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.');
 await click('[data-journey-step="style"]',5);await click('[data-home-design="graphite"]',20);assert(!$('[data-home-object-controls]').hidden);assert.equal($('[data-home-rooms]').children.length,8);
-assert.equal(root.querySelectorAll('[data-home-design]').length,12);
+assert.equal(root.querySelectorAll('[data-home-design]').length,14);
+assert.equal(root.querySelector('[data-home-room="living"] strong').textContent,'客厅');
 const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-lab-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('Historical VR removed; furniture lab retained; current editor unchanged.');
 
 // The new catalog is orthogonal to photographs and furniture choices.
@@ -170,7 +171,7 @@ checks.push('v25 all-room controls, new table deletion, independent bedroom remo
 
 await fs.mkdir('verification/v17',{recursive:true});// v26: ten styles, camera presentation never creates a ninth room or loses selection.
 assert($('[data-extra-schemes]').hidden);await click('[data-schemes-toggle]',3);assert(!$('[data-extra-schemes]').hidden);
-for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel']){
+for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery']){
  await click('[data-journey-step="style"]',8);await click('[data-home-design="'+design+'"]',20);await click('[data-home-room="living"]',15);
  assert.equal(context.__homeGallery.getState().design,design);assert.equal($('[data-home-rooms]').children.length,8);
  const base=$('[data-home-image]').src;await click('[data-home-camera] [data-living-camera="reverse"]',10);assert.equal($('[data-home-image]').src,livingReverseAsset(design));

@@ -11,19 +11,19 @@ import {furnishSecondary,furnishBalcony} from './room-furnishings.mjs';
 // All dimensions are design estimates in metres, using the same room polygons and choices.
 export function buildDetailedHome(snapshot,textures={}){
  const root=buildWholeGeometry(snapshot,textures,{shellOnly:true});root.name='detailed-confirmed-home';root.userData.quality='detailed';
- const {spec,rooms,objects,shellMaterials}=root.userData,amber=spec.design==='amber',copper=spec.design==='copper';
+ const {spec,rooms,objects,shellMaterials}=root.userData,amber=spec.design==='amber',copper=spec.design==='copper',purple=['mauve-walnut','plum-gallery'].includes(spec.design);
  const physical=(color,roughness=.6,extra={})=>new THREE.MeshPhysicalMaterial({color,roughness,...Object.fromEntries(Object.entries(extra).filter(([,v])=>v!==undefined))});
  const surface=(color,key,roughness=.65,extra={})=>physical(color,roughness,{map:textures[key]||null,...extra});
  const m={
-  wood:surface(amber?'#f4e5d0':'#c4b5a6',amber?'oak':'wood',.44,{bumpMap:textures[amber?'oak':'wood'],bumpScale:.0015}),
+  wood:surface(purple?spec.palette.wood:amber?'#f4e5d0':'#c4b5a6',amber?'oak':'wood',.44,{bumpMap:textures[amber?'oak':'wood'],bumpScale:.0015}),
   endwood:surface(amber?'#bda482':'#725d4a',amber?'oak':'wood',.52),
   stone:surface(spec.palette.stone,'stone',.5,{bumpMap:textures.stone,bumpScale:.001}),
   marble:surface(amber?'#bbc2c0':copper?'#5d6a60':'#ddd6c8','marble',.33,{normalMap:textures.marbleNormal,normalScale:new THREE.Vector2(.13,.13)}),
   metal:physical(copper?'#a38350':'#77664e',.27,{metalness:.86}),
   dark:physical('#262826',.38),wall:physical(spec.palette.wall,.93,{bumpMap:textures.stone,bumpScale:.001}),
   linen:surface('#f3eada','linen',.93,{normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.10,.10),sheen:.65,sheenColor:new THREE.Color('#eae5db'),sheenRoughness:.88}),
-  rug:surface(amber?'#e8e3d8':copper?'#b9b4a5':'#cbc2af','wool',.96,{normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.25,.25),sheen:.5,sheenRoughness:.95}),
-  accent:physical(amber?'#a86e4f':copper?'#696f59':'#817360',.9,{map:textures.linen,normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.1,.1),sheen:.4}),
+  rug:surface(spec.design==='plum-gallery'?'#655064':amber?'#e8e3d8':copper?'#b9b4a5':'#cbc2af','wool',.96,{normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.25,.25),sheen:.5,sheenRoughness:.95}),
+  accent:physical(purple?(spec.design==='plum-gallery'?'#655064':'#8c7a8b'):amber?'#a86e4f':copper?'#696f59':'#817360',.9,{map:textures.linen,normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.1,.1),sheen:.4}),
   white:physical('#eeeae2',.16,{clearcoat:.45,clearcoatRoughness:.17}),leaf:physical('#586b42',.64,{side:THREE.DoubleSide}),soil:physical('#40372c',1),
   glass:physical('#acb4aa',.12,{metalness:.18,transparent:true,opacity:.23,depthWrite:false,side:THREE.DoubleSide}),
   smokedGlass:physical(amber?'#a78d6c':'#76766a',.12,{metalness:.38,transparent:true,opacity:.68,depthWrite:false}),
@@ -33,7 +33,7 @@ export function buildDetailedHome(snapshot,textures={}){
  m.seam=physical(new THREE.Color(spec.sofaColor).multiplyScalar(.73),spec.sofaTextile?.9:.55);
  m.bedframe=spec.bed==='wood'?m.wood:spec.bed==='leather'?physical('#946442',.46,{bumpMap:textures.linen,bumpScale:.0002}):m.linen;
  m.throw=surface({taupe:amber?'#bc886b':'#998978',ivory:'#e9e3d6',olive:'#737b59'}[spec.bedding],'linen',.94,{normalMap:textures.woolNormal,normalScale:new THREE.Vector2(.15,.15),sheen:.55});
- m.floor=spec.floor==='stone'?surface(amber?'#e9e5dc':copper?'#969c92':spec.design==='graphite'?'#8c877e':'#c9c5b9','stone',.45,{bumpMap:textures.stone,bumpScale:.001}):surface(spec.design==='milan'?'#a9957d':spec.floor==='oak'?'#ede3d0':'#71675b','oak',.49,{normalMap:textures.oakNormal,normalScale:new THREE.Vector2(.18,.18),roughnessMap:textures.oakArm});
+ m.floor=spec.floor==='stone'?surface(purple?spec.palette.stone:amber?'#e9e5dc':copper?'#969c92':spec.design==='graphite'?'#8c877e':'#c9c5b9','stone',.45,{bumpMap:textures.stone,bumpScale:.001}):surface(spec.design==='milan'?'#a9957d':spec.floor==='oak'?'#ede3d0':'#71675b','oak',.49,{normalMap:textures.oakNormal,normalScale:new THREE.Vector2(.18,.18),roughnessMap:textures.oakArm});
  const bedfloor=surface(amber?'#ece0c9':'#948573','oak',.5,{normalMap:textures.oakNormal,normalScale:new THREE.Vector2(.16,.16)});
  const ownedMaterials=new Set(Object.values(m));root.userData.ownedMaterials=ownedMaterials;
  for(const room of MODEL_ROOMS){const floor=objects.get(room.id+'-floor'),choice=spec.floorByRoom[room.id];if(choice){ownedMaterials.add(floor.material);const mat=physical(choice.color,choice.category==='wood'?.60:.48);ownedMaterials.add(mat);floor.material=mat;continue;}floor.material=(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?m.floor:['master','second'].includes(room.id)?bedfloor:m.stone;}

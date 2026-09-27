@@ -1,0 +1,436 @@
+{
+  "scheme": "plum-gallery",
+  "name": "梅影白境",
+  "palette": [
+    "#655064",
+    "#382B27",
+    "#F5F2ED"
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "generation": "built-in image_gen",
+  "floorPolygonCoordinates": "normalized x,y from top-left; conservative clear visible floor only; exclude rugs/furniture",
+  "rooms": {
+    "living": {
+      "title": "梅影会客",
+      "copy": "粉白模块沙发与梅灰绒椅相对，白石茶几落在低饱和梅色地毯上。巧克力木饰面收住空间，日光保持轻盈。",
+      "materials": [
+        "粉白圈绒",
+        "梅灰麂皮",
+        "巧克力木饰面",
+        "白色洞石",
+        "浅色石材地面"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.015,
+            0.985
+          ],
+          [
+            0.16,
+            0.94
+          ],
+          [
+            0.26,
+            0.73
+          ],
+          [
+            0.23,
+            0.71
+          ],
+          [
+            0.2,
+            0.8
+          ]
+        ],
+        [
+          [
+            0.02,
+            0.975
+          ],
+          [
+            0.16,
+            0.965
+          ],
+          [
+            0.15,
+            0.995
+          ],
+          [
+            0.02,
+            0.995
+          ]
+        ]
+      ],
+      "file": "living.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Keep camera facing dining beyond living, TV wall at left and sofa wall at right. Chalk white low modular sofa, one sculptural plum suede lounge chair, chocolate wood wall panels balanced with chalk white plaster, large muted plum textile rug, irregular white stone coffee table. Modern abstract art no script. Daylight spacious apartment, not dark club."
+    },
+    "dining": {
+      "title": "白石梅椅",
+      "copy": "椭圆白石餐桌搭配梅灰软包座椅，细槽巧克力餐边柜与非对称乳白吊灯，构成安静的用餐角。",
+      "materials": [
+        "白石台面",
+        "梅灰绒面",
+        "巧克力槽纹木",
+        "乳白玻璃",
+        "浅色石材地面"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.03,
+            0.84
+          ],
+          [
+            0.29,
+            0.8
+          ],
+          [
+            0.29,
+            0.98
+          ],
+          [
+            0.03,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.72,
+            0.76
+          ],
+          [
+            0.98,
+            0.75
+          ],
+          [
+            0.98,
+            0.98
+          ],
+          [
+            0.72,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.33,
+            0.955
+          ],
+          [
+            0.68,
+            0.955
+          ],
+          [
+            0.68,
+            0.99
+          ],
+          [
+            0.33,
+            0.99
+          ]
+        ]
+      ],
+      "file": "dining.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Preserve dining alcove footprint, left passage opening and right entry door. New oval white stone dining table, four slim sculptural chairs in muted plum suede with dark chocolate frames. Chalk white plaster back wall with one large textured abstract artwork and narrow chocolate fluted sideboard, asymmetrical opal pendant. Bare pale stone floor, no rug."
+    },
+    "balcony": {
+      "title": "临窗梅椅",
+      "copy": "独立梅灰阅读椅面向城市绿意，纤细落地灯与通高书架沿边落位，给狭长阳台留出明亮通道。",
+      "materials": [
+        "梅灰织物",
+        "巧克力书架",
+        "浅色石材地面",
+        "白色矿物涂料",
+        "深色金属窗框"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.24,
+            0.98
+          ],
+          [
+            0.32,
+            0.77
+          ],
+          [
+            0.42,
+            0.8
+          ],
+          [
+            0.54,
+            0.8
+          ],
+          [
+            0.65,
+            0.97
+          ]
+        ]
+      ],
+      "file": "balcony.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Preserve narrow enclosed balcony footprint, fullheight glazing left and end, straight wall and living opening right. Remove old wood bench and bar/table arrangement completely. New freestanding sculptural muted plum reading armchair near far end angled toward windows, slender dark bronze floor lamp, slim full-height chocolate wood side bookcase with a plant column at rear right. Chalk white plaster ceiling, pale stone bare floor, very restrained chocolate joinery. No bench, no bar, no stool. Glimpse matching chalkwhite living sofa through right opening."
+    },
+    "master": {
+      "title": "梅绒安眠",
+      "copy": "梅灰软包床与粉白亚麻形成柔和层次，浅橡木地面承接转角窗光，悬浮床头柜让两侧更轻巧。",
+      "materials": [
+        "梅灰软包",
+        "粉白亚麻",
+        "巧克力木柜",
+        "浅橡木地板",
+        "乳白玻璃吊灯"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.12,
+            0.95
+          ],
+          [
+            0.15,
+            0.76
+          ],
+          [
+            0.26,
+            0.69
+          ],
+          [
+            0.27,
+            0.77
+          ],
+          [
+            0.4,
+            0.98
+          ],
+          [
+            0.13,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.76,
+            0.96
+          ],
+          [
+            0.9,
+            0.82
+          ],
+          [
+            0.98,
+            0.86
+          ],
+          [
+            0.98,
+            0.98
+          ],
+          [
+            0.78,
+            0.98
+          ]
+        ]
+      ],
+      "file": "master.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Preserve corner bay window at back-left and tall window on far right, existing bedroom footprint and straight headboard wall. New wide low upholstered bed with muted plum curved suede headboard and chalkwhite rumpled linen, dark chocolate floating bedside blocks, opal pendant bedside lights, chalk white textured plaster, dark chocolate wardrobe left. Very small plum cushion. No rug, show bare pale warm oak floor around bed. Editorial bright daylight."
+    },
+    "second": {
+      "title": "窗下书榻",
+      "copy": "储物日榻横向安放窗下，侧墙薄桌与通高书架垂直衔接。中央留白兼顾阅读、工作与临时留宿。",
+      "materials": [
+        "巧克力抽屉木榻",
+        "粉白织物",
+        "梅灰抱枕",
+        "白石薄桌",
+        "中性色橡木地板"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.24,
+            0.7
+          ],
+          [
+            0.65,
+            0.7
+          ],
+          [
+            0.67,
+            0.85
+          ],
+          [
+            0.66,
+            0.98
+          ],
+          [
+            0.16,
+            0.98
+          ]
+        ]
+      ],
+      "file": "second.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Completely redesign furniture layout of this compact room, maintain rectangular back window exactly. Put a transverse raised daybed ACROSS THE BACK WALL directly beneath window, its long side parallel to window, white linen mattress and muted plum bolsters, dark chocolate base with visible storage drawers facing camera. On RIGHT wall put a slim perpendicular white stone desk with one chair and narrow floor-to-ceiling chocolate book tower, desk runs toward camera not across window. Left wall chalk white wardrobe. CLEAR OPEN CENTRAL FLOOR. No old centered bed, no bed lengthways on right, no desk in front of window. Muted plum textile details, white walls. No floor rug."
+    },
+    "kitchen": {
+      "title": "白石料理",
+      "copy": "白石工作台沿U形动线展开，巧克力细槽下柜配粉白吊柜，梅灰高柜用克制色彩完成收纳界面。",
+      "materials": [
+        "白石台面及墙面",
+        "巧克力槽纹柜门",
+        "粉白哑光门板",
+        "梅灰高柜",
+        "浅色石材地面"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.26,
+            0.82
+          ],
+          [
+            0.59,
+            0.79
+          ],
+          [
+            0.73,
+            0.98
+          ],
+          [
+            0.2,
+            0.98
+          ]
+        ]
+      ],
+      "file": "kitchen.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Preserve compact U-shaped kitchen footprint, central rectangular window at rear, sink below it, appliance oven tower left and cooktop right. Redesign with chalkwhite upper cupboards and white veined stone worktop and backsplash, dark chocolate grooved lower cabinetry, muted plum matte tall cupboard end panel on left. Pale limestone bare floor. Refined minimal hardware, daylight richly realistic details. No island, no rug."
+    },
+    "bath": {
+      "title": "梅砖净域",
+      "copy": "左侧直线玻璃淋浴与右侧短悬浮台盆分区，坐便器落于窗下。梅灰窄砖与巧克力槽纹柜，为白石小卫浴添一层温度。",
+      "materials": [
+        "粉白石材",
+        "梅灰窄砖",
+        "直线透明玻璃",
+        "巧克力槽纹柜",
+        "拉丝金属"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.36,
+            0.87
+          ],
+          [
+            0.66,
+            0.83
+          ],
+          [
+            0.71,
+            0.89
+          ],
+          [
+            0.74,
+            0.97
+          ],
+          [
+            0.3,
+            0.97
+          ]
+        ]
+      ],
+      "file": "bath.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Redesign compact 4.3 square meter bathroom substantially, preserving straight rectangular shell and narrow back window position. New arrangement: a straight clear glass shower partition running lengthwise along LEFT side, compact WC fully visible against BACK wall under narrow back window, SHORT 75cm floating white stone vanity on RIGHT wall opposite shower, facing sideways toward left, chocolate fluted drawer below, generous mirror above right vanity. Do NOT put a long vanity across the back wall as old image did. Chalkwhite large format stone walls, muted aubergine narrow tile accent inside left shower only. Brushed nickel fixtures. Simple plausible drain, WC, tap, basin and accessible circulation. Bright daylight, no rug."
+    },
+    "utility": {
+      "title": "日光家务",
+      "copy": "洗烘叠放嵌入端墙木柜，侧边白石折衣台与浅梅色开放格紧凑组合，让家务阳台保持清爽明亮。",
+      "materials": [
+        "巧克力木柜",
+        "粉白哑光柜门",
+        "白石折衣台",
+        "浅梅开放格",
+        "浅色石材地面"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.46,
+            0.78
+          ],
+          [
+            0.73,
+            0.78
+          ],
+          [
+            0.74,
+            0.88
+          ],
+          [
+            0.79,
+            0.98
+          ],
+          [
+            0.35,
+            0.98
+          ]
+        ]
+      ],
+      "file": "utility.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Preserve narrow service balcony footprint, full glazing along LEFT and existing end wall. White stacked washer dryer in chocolate wood full height cabinet at far end, chalkwhite side storage, white stone folding counter along right with slim muted plum cupboard accents, woven laundry basket tucked underneath. Pale stone bare floor and tidy functional daylight. Architectural details visible, no rug."
+    },
+    "living2": {
+      "title": "向光回望",
+      "copy": "从餐区回望客厅，粉白沙发与梅灰单椅围合白石茶几，阳台阅读角沿落地窗展开，材质与光线贯穿两处空间。",
+      "materials": [
+        "粉白圈绒",
+        "梅灰麂皮及地毯",
+        "白色洞石",
+        "巧克力木饰面",
+        "浅色石材地面"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.02,
+            0.955
+          ],
+          [
+            0.59,
+            0.955
+          ],
+          [
+            0.65,
+            0.99
+          ],
+          [
+            0.02,
+            0.99
+          ]
+        ],
+        [
+          [
+            0.59,
+            0.593
+          ],
+          [
+            0.75,
+            0.595
+          ],
+          [
+            0.75,
+            0.63
+          ],
+          [
+            0.69,
+            0.65
+          ]
+        ]
+      ],
+      "file": "living2.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic residential interior visualization. Generate exactly one landscape photo at native 1536x1024. Redesign this room in cohesive 梅影白境 / plum gallery scheme. Palette: chalk white #F5F2ED dominant, dark chocolate wood #382B27, deep muted aubergine #655064 accents, never vivid purple. Premium tactile fabric, real wood grain, stone fine texture. Bright natural daytime residential architectural photography, realistic exposure, straight verticals, no stylization, no people, no text/logo/watermark. Preserve apartment footprint, straight structural walls, exact window positions from reference; redesign all furniture, decoration and lighting. Create a NEW REVERSE CAMERA VIEW of the SAME apartment living room in image1, turning camera around from dining area toward the balcony and daylight. Image2 shows balcony architecture. Same chalkwhite curved modular sofa now along LEFT wall, plum suede lounge chair near balcony, muted plum rectangular rug and same irregular oval white stone coffee table, chocolate darkwood TV console/wall on RIGHT. Broad glazed sliding opening across far wall leads to narrow enclosed balcony with blackframe fullheight glazing; glimpse sculptural plum reading chair and tall side bookcase there. Preserve modest apartment scale, straight walls and coherent layout. Do not copy original camera view. Photorealistic high-end residential daylight, no additional rooms."
+    }
+  }
+}
