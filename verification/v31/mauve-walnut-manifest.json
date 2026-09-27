@@ -1,0 +1,470 @@
+{
+  "scheme": "mauve-walnut",
+  "title": "墨紫木邸",
+  "rooms": {
+    "living": {
+      "title": "墨紫会客厅",
+      "copy": "墨紫整墙柜体包裹客餐厅，烟熏胡桃木与鞍棕皮革形成温厚层次，整石茶几压住空间重心。",
+      "materials": [
+        "墨紫哑光漆整墙柜",
+        "深烟熏胡桃木直铺地板",
+        "鞍棕皮革沙发",
+        "棕黑纹理石茶几",
+        "炭棕编织地毯",
+        "暖深灰褐矿物涂料顶面",
+        "氧化青铜细节"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.03,
+            0.96
+          ],
+          [
+            0.19,
+            0.8
+          ],
+          [
+            0.2,
+            0.74
+          ],
+          [
+            0.28,
+            0.75
+          ],
+          [
+            0.22,
+            0.94
+          ],
+          [
+            0.21,
+            0.97
+          ]
+        ],
+        [
+          [
+            0.23,
+            0.66
+          ],
+          [
+            0.27,
+            0.6
+          ],
+          [
+            0.38,
+            0.61
+          ],
+          [
+            0.37,
+            0.65
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Input image 1 is STRUCTURAL REFERENCE ONLY: preserve original straight rectangular footprint, camera, wall and doorway positions, compact living with dining visible behind, TV wall left and sofa right. Totally replace original furnishings/materials: continuous flat near-black aubergine media wall on left, TV flush mounted amid discreet flush integrated cabinetry, walnut lower storage; right wall a broad matte aubergine panel field with selected espresso walnut sections; saddle-brown low compact leather sofa, monolithic rectangular brown-black stone coffee table, dark charcoal-brown woven rug. Behind sofa area, dining has espresso walnut table and chairs backed by large aubergine built-in full-height cabinetry framing one sparse walnut display niche, one singular sculptural art object. No paintings. Flat dark warm taupe ceiling with discreet bronze downlights and one minimal bronze pendant over dining. Floor visible left and foreground is dark straight walnut planks. Wide daylight entering from behind camera. This is a radical redesign, not a recolor.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/living.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "dining": {
+      "title": "墨紫餐叙",
+      "copy": "通顶墨紫收纳围合胡桃木餐桌，窄幅木质展示龛与青铜盘形吊灯建立克制的用餐秩序。",
+      "materials": [
+        "墨紫平板通顶收纳",
+        "深烟熏胡桃木直铺地板",
+        "胡桃木餐桌",
+        "鞍棕皮革餐椅",
+        "氧化青铜盘形吊灯"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.03,
+            0.91
+          ],
+          [
+            0.27,
+            0.86
+          ],
+          [
+            0.29,
+            0.98
+          ],
+          [
+            0.03,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.74,
+            0.77
+          ],
+          [
+            0.96,
+            0.77
+          ],
+          [
+            0.98,
+            0.97
+          ],
+          [
+            0.74,
+            0.97
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 structural reference for camera framing, doorway left and entrance right, compact size. Image 2 NEW living is strict palette and furniture design reference. Close view of exact dining zone visible in new living: wide flush full-height near-black aubergine cabinetry wall, narrow walnut display niche left with singular sculptural black art object, low aubergine sideboard right and bronze domed lamp. Espresso walnut rectangular table and four slim walnut armchairs with saddle-brown leather. Bronze shallow disc pendant. No paintings. Dark straight walnut plank floors and taupe ceiling.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/dining.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "balcony": {
+      "title": "窗畔木吧",
+      "copy": "以双人胡桃木窗吧替代长凳，青铜细脚高凳与单株绿植留出通畅的观景动线。",
+      "materials": [
+        "深烟熏胡桃木直铺地板",
+        "胡桃木板吊顶",
+        "墨紫墙板",
+        "胡桃木窄窗吧",
+        "青铜高凳",
+        "鞍棕皮革坐垫"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.35,
+            0.72
+          ],
+          [
+            0.51,
+            0.71
+          ],
+          [
+            0.56,
+            0.8
+          ],
+          [
+            0.67,
+            0.98
+          ],
+          [
+            0.34,
+            0.98
+          ],
+          [
+            0.34,
+            0.9
+          ],
+          [
+            0.39,
+            0.84
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 structural reference ONLY: preserve long slim rectangular balcony, all full-height glazing on left, far end window, sliding door opening right into living. Image 2 NEW living is strict design/palette reference, with matching saddle leather sofa and aubergine planes glimpsed through right door. Completely remove bench and small tea table. Create slender dark walnut window-facing bar along LEFT glazed wall for exactly two dark bronze stools with small saddle leather pads, clear circulation right. One lush plant at far end. Dark smoked walnut straight plank underfoot and ceiling, smooth near-black aubergine right wall and walnut door framing. No bench, no additional seating.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/balcony.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "master": {
+      "title": "静谧主卧",
+      "copy": "连续墨紫软包床头衔接不对称床边柜，深棕亚麻床品与胡桃木压低色调，转角采光保留材质呼吸。",
+      "materials": [
+        "墨紫织物软包床头",
+        "深烟熏胡桃木直铺地板",
+        "炭棕亚麻床品",
+        "胡桃木床架",
+        "墨紫床边抽屉柜",
+        "暖灰褐矿物涂料",
+        "青铜阅读灯"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.15,
+            0.75
+          ],
+          [
+            0.19,
+            0.71
+          ],
+          [
+            0.2,
+            0.77
+          ],
+          [
+            0.25,
+            0.98
+          ],
+          [
+            0.12,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.94,
+            0.88
+          ],
+          [
+            0.99,
+            0.86
+          ],
+          [
+            0.99,
+            0.98
+          ],
+          [
+            0.87,
+            0.98
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 structural reference ONLY preserve compact rectangular bedroom, corner wide window on rear left and extra right window, camera and bed location. Image 2 NEW living strict coherent design palette. Fully design asymmetrical bedside joinery: low espresso walnut platform bed, charcoal brown linen bedding and cocoa cushions, continuous full-width deep dark aubergine upholstered headwall, left bedside walnut cantilever shelf with little bronze reading pendant, right aubergine drawer block continuing to floor-to-ceiling walnut wardrobe edge. Bronze reading lights discreet, no artworks. Dark taupe plaster ceiling and residual walls, dark walnut floor, charcoal rug, dark taupe curtains, bright daylight revealing rich surfaces.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/master.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "second": {
+      "title": "墨紫隐床书房",
+      "copy": "整面闭合的墨紫隐床柜与胡桃木书龛融为一体，窗下书桌和中央留白让小房间以日常阅读办公为主。",
+      "materials": [
+        "墨紫闭合隐床柜",
+        "胡桃木书龛",
+        "胡桃木窗下书桌",
+        "深煙熏胡桃木直铺地板",
+        "鞍棕皮革书椅",
+        "青铜拉手"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.24,
+            0.83
+          ],
+          [
+            0.5,
+            0.82
+          ],
+          [
+            0.62,
+            0.76
+          ],
+          [
+            0.7,
+            0.84
+          ],
+          [
+            0.81,
+            0.93
+          ],
+          [
+            0.89,
+            0.98
+          ],
+          [
+            0.23,
+            0.98
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 STRUCTURAL reference only preserve compact narrow room, single wide centered window rear, entry camera. Image 2 new living strict palette reference. Completely remove the conventional bed/daybed and all bed linens. This is a library/guest room with CLOSED vertical Murphy bed integrated as a huge flush dark aubergine full-height cabinet plane along RIGHT WALL, bed is concealed upright and completely invisible. Walnut open book niches framing cabinet and dark bronze discrete handles reveal functional furniture. Full-width slim floating walnut window desk, single saddle-brown desk chair. Open central floor space, dark straight walnut floor visible foreground, no rug. Warm dark taupe ceiling. No sofa, no standard bed, no open Murphy bed.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/second.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "kitchen": {
+      "title": "墨紫木厨",
+      "copy": "墨紫下柜与胡桃木吊柜形成完整围合，棕黑石台面和氧化青铜背板在窗光中呈现细腻反射。",
+      "materials": [
+        "墨紫平板下柜",
+        "胡桃木吊柜",
+        "棕黑纹理石台面",
+        "氧化青铜背板",
+        "棕黑纹理石地砖",
+        "青铜指拉槽"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.27,
+            0.8
+          ],
+          [
+            0.6,
+            0.78
+          ],
+          [
+            0.73,
+            0.98
+          ],
+          [
+            0.2,
+            0.98
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 STRUCTURAL reference ONLY preserve compact U-shaped kitchen, rear window and appliance positions, entrance camera. Image 2 new living strict design palette, make equally legible with natural daylight. Fully redesign kitchen with flat near-black aubergine lower cabinets and left tall appliance cabinet, expressive espresso walnut upper cupboards, thin bronze reveals and discreet finger pulls. Brown-black stone counters, oxidized bronze sheet backsplash with soft patina, dark taupe plaster ceiling and window reveal. Functional sink under rear window, dark faucet, hob right, integrated hood, black oven left, one cutting board. Brown-black large stone tile floor, medium-light daylight reflected on bronze, no white surfaces. Not simply recolored old kitchen.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/kitchen.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "bath": {
+      "title": "墨釉浴室",
+      "copy": "墨紫竖向釉面砖搭配棕黑石悬浮台盆，后置玻璃淋浴与侧置马桶释放连续的中央通行空间。",
+      "materials": [
+        "墨紫竖向釉面陶砖",
+        "棕黑纹理石一体台盆",
+        "胡桃木悬浮抽屉",
+        "暖灰褐哑光石地砖",
+        "透明淋浴玻璃",
+        "氧化青铜五金"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.4,
+            0.81
+          ],
+          [
+            0.66,
+            0.81
+          ],
+          [
+            0.67,
+            0.95
+          ],
+          [
+            0.7,
+            0.98
+          ],
+          [
+            0.31,
+            0.98
+          ]
+        ],
+        [
+          [
+            0.47,
+            0.69
+          ],
+          [
+            0.65,
+            0.69
+          ],
+          [
+            0.65,
+            0.75
+          ],
+          [
+            0.44,
+            0.75
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 reference for compact bathroom scale and a narrow frosted window; redesign bathroom spatial arrangement to have glass-enclosed shower at REAR behind clear glass, dark bronze shower hardware and functional glass door. Image 2 new living strict palette. Entry wide view: floating monolithic brown-black stone vanity LEFT with integrated dark basin, espresso walnut drawer beneath, dark bronze faucet, simple tall mirror; compact white ceramic toilet RIGHT; unobstructed central circulation to rear shower, all objects anatomically and functionally plausible, no overlap. Major walls aubergine glazed narrow vertical ceramic tiles with subtle handmade texture; dark warm taupe matte stone floor and ceiling. Narrow frosted window daylight at rear, balanced legible exposure, no bathtub, no white marble. Transform design completely, not recolor.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/bath.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "utility": {
+      "title": "墨紫洗护间",
+      "copy": "墨紫通顶家政柜整合深色洗烘设备与工具收纳，胡桃木上柜和棕黑石折衣台让洗护空间延续全屋质感。",
+      "materials": [
+        "墨紫家政通顶柜",
+        "石墨灰洗烘设备",
+        "胡桃木吊柜",
+        "棕黑纹理石台面",
+        "棕黑纹理石地砖",
+        "青铜细拉手"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.47,
+            0.77
+          ],
+          [
+            0.71,
+            0.77
+          ],
+          [
+            0.8,
+            0.97
+          ],
+          [
+            0.36,
+            0.97
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Image 1 STRUCTURAL reference only preserve narrow enclosed utility balcony, full-height windows left and appliances at back, camera. Image 2 NEW living strict palette reference. Completely redesigned utility joinery: near-black aubergine floor-to-ceiling flush cabinetry wraps stacked charcoal graphite washer/dryer at rear; narrow tall bronze-handled broom cupboard next to it. Right espresso walnut uppers and brown-black stone folding counter, aubergine lower cupboard with inset ventilation slots, small dark laundry basket below. Dark taupe plaster ceiling, brown-black stone tile floor. Efficient unobstructed walking lane, restrained lived-in detailing, rich morning daylight so dark surfaces very legible, no white appliances, no decorative art.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/utility.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "living2": {
+      "title": "向光而居",
+      "copy": "从胡桃木餐桌回望，鞍棕皮革、墨紫墙柜和棕黑整石茶几延续同一空间，窗畔双人吧台承接自然光。",
+      "materials": [
+        "墨紫平板媒体柜",
+        "深烟熏胡桃木直铺地板",
+        "鞍棕皮革沙发",
+        "棕黑纹理石茶几",
+        "炭棕编织地毯",
+        "胡桃木餐桌",
+        "胡桃木窗吧"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.66,
+            0.6
+          ],
+          [
+            0.75,
+            0.59
+          ],
+          [
+            0.76,
+            0.73
+          ],
+          [
+            0.88,
+            0.81
+          ],
+          [
+            0.95,
+            0.87
+          ],
+          [
+            0.8,
+            0.87
+          ]
+        ],
+        [
+          [
+            0.37,
+            0.58
+          ],
+          [
+            0.41,
+            0.58
+          ],
+          [
+            0.4,
+            0.6
+          ],
+          [
+            0.37,
+            0.6
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: premium residential interior photograph for virtual home tour. Fully redesigned intimate smoked-walnut residence, editorial architectural photography, 1536x1024 landscape native output. Purple belongs to ARCHITECTURE, never purple accent furniture. Palette 45% dark tobacco/espresso smoked walnut #3A2923, 30% near-black aubergine lacquer #241B24 as big integrated full-height flush cabinetry and selected wall planes, 20% medium dark warm taupe plaster #716357 ceiling and other walls, 5% oxidized bronze fine details. Deep aubergine must read as subtly purple-brown in daylight, not simply gray. Public and sleeping rooms DARK smoked walnut STRAIGHT PLANK floors. Wet rooms brown-black stone. Rich clear daylight exposes grain and lacquer texture, professional balanced exposure, dark but legible, never black void. Completely redesigned furniture, cabinetry, lighting, styling. Restrained fine home craftsmanship, believable compact dimensions. No white/cream sofa, no white/cream large wall or ceiling, no white marble, no pastel lavender, no purple LED, no wallpaper motifs, no garish gold, no generic hotel art, no people, no text, no watermark. Create the REVERSE CAMERA VIEW of EXACT SAME living room shown in input image 1, looking from dining end toward wide balcony glazing. Input image 2 shows adjoining balcony, strict joinery reference. This is an architectural continuity photograph, not new furniture. In reverse camera: SAME low saddle brown leather sofa now LEFT along aubergine/walnut wall, SAME rectangular monolithic brown-black stone coffee table at center on SAME charcoal brown woven rug, SAME continuous flat aubergine media wall and walnut low cabinetry now RIGHT with flush TV. Broad glazed opening at far end to same slim dark walnut balcony with left-window bar and two bronze stools, single lush tree at end; daylight floods in from window. Partial edge of SAME walnut dining tabletop and saddle leather chair in near foreground if useful, not a new round/stone table. Dark warm taupe ceiling minimal bronze downlights, dark straight smoked walnut plank floor. Preserve compact straight rectangular footprint and coherent furniture positions, no extra sofa/chair/art.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/mauve-walnut/living2.png",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

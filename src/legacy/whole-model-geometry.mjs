@@ -7,14 +7,14 @@ import {applyObjectVisibility} from './scene-objects.mjs';
 import {furnishSecondary,furnishBalcony} from './room-furnishings.mjs';
 
 export function buildWholeGeometry(snapshot,textures={},options={}){
- const spec=wholeModelSpec(snapshot),root=new THREE.Group(),rooms=new Map(),objects=new Map();root.name='confirmed-home';root.userData.spec=spec;
+ const spec=wholeModelSpec(snapshot),root=new THREE.Group(),rooms=new Map(),objects=new Map(),purple=['mauve-walnut','plum-gallery'].includes(spec.design);root.name='confirmed-home';root.userData.spec=spec;
  const mat=(color,roughness=.7,extra={})=>new THREE.MeshStandardMaterial({color,roughness,...extra});
  const surface=(color,map,roughness=.7,extra={})=>mat(color,roughness,{map:textures[map]||null,...extra});
- const m={wall:mat(spec.palette.wall,.9),wood:surface(spec.palette.wood,'wood',.48),stone:surface('#a99f90','stone',.52),metal:mat('#66513c',.3,{metalness:.82}),dark:mat('#242521',.34),linen:surface('#f0e7d8','linen',.9),rug:surface('#b9a98e','linen',.98),white:mat('#f0efea',.22),leaf:mat('#4e6144',.85),glow:mat('#edcc9c',.5,{emissive:'#edbe81',emissiveIntensity:.55}),glass:mat('#807969',.15,{transparent:true,opacity:.34,depthWrite:false,metalness:.2,side:THREE.DoubleSide})};
+ const m={wall:mat(spec.palette.wall,.9),wood:surface(spec.palette.wood,'wood',.48),stone:surface(purple?spec.palette.stone:'#a99f90','stone',.52),metal:mat('#66513c',.3,{metalness:.82}),dark:mat('#242521',.34),linen:surface(purple?spec.palette.textile:'#f0e7d8','linen',.9),rug:surface(purple?spec.palette.accent:'#b9a98e','linen',.98),white:mat('#f0efea',.22),leaf:mat('#4e6144',.85),glow:mat('#edcc9c',.5,{emissive:'#edbe81',emissiveIntensity:.55}),glass:mat('#807969',.15,{transparent:true,opacity:.34,depthWrite:false,metalness:.2,side:THREE.DoubleSide})};
  m.sofa=surface(spec.sofaColor,spec.sofaTextile?'linen':null,spec.sofaTextile?.87:.39,{bumpMap:spec.sofaTextile?(textures.linen||null):null,bumpScale:.0015});
- m.floor=spec.floor==='stone'?surface('#b7ac9b','stone',.5,{normalMap:textures.stoneNormal||null}):surface(spec.design==='milan'?'#a9957d':spec.floor==='oak'?'#d9c4a1':'#6d4d36','oak',.57,{normalMap:textures.oakNormal||null});
- m.bedframe=spec.bed==='wood'?m.wood:spec.bed==='leather'?mat('#985b38',.42):surface('#d1c3ad','linen',.9);
- m.throw=surface({taupe:'#8e7862',ivory:'#ded6c3',olive:'#777f5e'}[spec.bedding],'linen',.92);
+ m.floor=spec.floor==='stone'?surface(purple?spec.palette.stone:'#b7ac9b','stone',.5,{normalMap:textures.stoneNormal||null}):surface(purple?spec.palette.floor:spec.design==='milan'?'#a9957d':spec.floor==='oak'?'#d9c4a1':'#6d4d36','oak',.57,{normalMap:textures.oakNormal||null});
+ m.bedframe=spec.bed==='wood'?m.wood:spec.bed==='leather'?mat('#985b38',.42):surface(purple?spec.palette.textile:'#d1c3ad','linen',.9);
+ m.throw=surface(purple?spec.palette.textile:{taupe:'#8e7862',ivory:'#ded6c3',olive:'#777f5e'}[spec.bedding],'linen',.92);
  const add=(mesh,parent)=>{mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;};
  function uv(geo,scale=1){const p=geo.attributes.position,n=geo.attributes.normal,u=geo.attributes.uv;if(!u)return geo;for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i),ny=Math.abs(n.getY(i)),nx=Math.abs(n.getX(i));u.setXY(i,(ny>.6?x:nx>.6?z:x)*scale,(ny>.6?z:y)*scale);}return geo;}
  const box=(w,h,d,x,y,z,material,parent)=>{const a=new THREE.Mesh(uv(new THREE.BoxGeometry(w,h,d)),material);a.position.set(x,y,z);return add(a,parent);};
@@ -24,7 +24,7 @@ export function buildWholeGeometry(snapshot,textures={},options={}){
  function polygon(points,material,parent){const shape=new THREE.Shape();points.forEach(([x,z],i)=>i?shape.lineTo(x,-z):shape.moveTo(x,-z));shape.closePath();const geo=new THREE.ShapeGeometry(shape);const mesh=new THREE.Mesh(geo,material);mesh.rotation.x=-Math.PI/2;add(mesh,parent);return mesh;}
  for(const room of MODEL_ROOMS){const g=new THREE.Group();g.name=room.id;g.userData.room=room.id;root.add(g);rooms.set(room.id,g);
   const choice=spec.floorByRoom[room.id];
-  const fm=choice?mat(choice.color,choice.category==='wood'?.6:.48):(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?m.floor:['master','second'].includes(room.id)?surface('#73523d','oak',.6):m.stone;
+  const fm=choice?mat(choice.color,choice.category==='wood'?.6:.48):(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?m.floor:['master','second'].includes(room.id)?surface(purple?spec.palette.floor:'#73523d','oak',.6):m.stone;
   const floor=polygon(room.p,fm,g);floor.name=room.id+'-floor';floor.userData.floor=(spec.woodHome?['living','dining','master','second','balcony']:['living','dining']).includes(room.id)?spec.floor:['master','second'].includes(room.id)?'smoked':'stone';floor.userData.room=room.id;floor.userData.floorProduct=choice?.id||null;objects.set(floor.name,floor);
  }
  function wall(room,a,b,height=1.05){const length=Math.hypot(b[0]-a[0],b[1]-a[1]),mesh=box(length,height,.12,(a[0]+b[0])/2,height/2,(a[1]+b[1])/2,m.wall,rooms.get(room));mesh.rotation.y=-Math.atan2(b[1]-a[1],b[0]-a[0]);mesh.userData.straightWall=true;return mesh;}

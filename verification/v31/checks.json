@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "schemes": 14,
+  "redesignedSchemes": [
+    "mauve-walnut",
+    "plum-gallery"
+  ],
+  "nativeImages": 18,
+  "thumbnails": 18,
+  "nativeResolution": [
+    1536,
+    1024
+  ],
+  "mediaBytes": 4723434,
+  "hostingBytes": 266128739,
+  "checks": [
+    "build",
+    "check",
+    "check-v30-homes",
+    "check-v17-ui",
+    "check-v16-model",
+    "check-assets",
+    "36 pinned remote media SHA256"
+  ],
+  "originalCoreImages": 502,
+  "originalModels": 13,
+  "originalBytesPreserved": true,
+  "allNewImagesVisuallyReviewed": true,
+  "browserVisualTested": false
+}

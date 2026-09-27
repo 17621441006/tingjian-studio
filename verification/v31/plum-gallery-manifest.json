@@ -1,0 +1,462 @@
+{
+  "scheme": "plum-gallery",
+  "title": "紫砚隐居",
+  "rooms": {
+    "living": {
+      "title": "客厅 · 紫砚留白",
+      "copy": "墨紫矿物墙面包裹公共空间，烟灰石地面与低矮织物沙发衔接，窗光让深色纹理显影。",
+      "materials": [
+        "墨紫矿物涂层",
+        "烟灰石材地面",
+        "炭褐织物",
+        "巧克力色白蜡木",
+        "古铜"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.217,
+            0.672
+          ],
+          [
+            0.35,
+            0.664
+          ],
+          [
+            0.239,
+            0.902
+          ],
+          [
+            0.201,
+            0.948
+          ],
+          [
+            0.049,
+            0.951
+          ],
+          [
+            0.147,
+            0.832
+          ]
+        ],
+        [
+          [
+            0.006,
+            0.973
+          ],
+          [
+            0.198,
+            0.973
+          ],
+          [
+            0.198,
+            0.995
+          ],
+          [
+            0.006,
+            0.995
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM LIVING: keep original reference camera looking from balcony toward dining, sofa at right, TV at left, central dining at far wall. Remove all traditional walnut paneling, framed pictures, tray ceiling and decorative glass motifs. Flat medium warm-grey ceiling. Right large sofa wall and dining back wall are deeply saturated blackened ink-purple mineral plaster, visible near-black plum in daylight. New low charcoal-taupe woven modular sofa on right with brown cushions, black-purple woven rug, sculptural rounded graphite brown stone coffee table, dark chocolate floating TV joinery on left with ink-purple backdrop. Slim bronze floorlight, hidden integrated ink-purple cabinets, central dining dark stone table with four dark brown saddle chairs. An expensive quiet residential photograph with daylight from camera side revealing rich PURPLE BLACK architectural texture. Native exact 1536x1024.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/living.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "dining": {
+      "title": "餐厅 · 石案暖光",
+      "copy": "深色石餐桌与棕色皮椅形成沉静重心，墨紫整墙和嵌入书格让日常用餐更有层次。",
+      "materials": [
+        "墨紫矿物涂层",
+        "石质餐桌",
+        "深棕鞍皮",
+        "烟灰石地面",
+        "古铜吊灯"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0,
+            0.87
+          ],
+          [
+            0.29,
+            0.82
+          ],
+          [
+            0.29,
+            0.96
+          ],
+          [
+            0.67,
+            0.96
+          ],
+          [
+            0.69,
+            0.79
+          ],
+          [
+            1,
+            0.79
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM DINING: same compact front-on dining camera and left doorway, right entrance door. Match second reference living exactly in materials and dining furniture. Large near-black ink-purple plaster back wall, chocolate integrated low credenza at right and narrow ink-purple book niche at left, four saddle brown leather chairs around rectilinear graphite brown stone dining table, flat bronze saucer pendant. No framed art, no walnut wall panels. Grey ceiling, dark slate floor.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/dining.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "balcony": {
+      "title": "阳台 · 临窗阅读",
+      "copy": "独立皮椅、窄书墙与低石墩构成轻盈阅读角，深色石地面把阳台接入客厅。",
+      "materials": [
+        "墨紫矿物涂层",
+        "深棕鞍皮",
+        "烟灰石地面",
+        "石质边几",
+        "紫黑书墙"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.29,
+            0.8
+          ],
+          [
+            0.34,
+            0.73
+          ],
+          [
+            0.39,
+            0.77
+          ],
+          [
+            0.57,
+            0.77
+          ],
+          [
+            0.67,
+            0.91
+          ],
+          [
+            0.72,
+            1
+          ],
+          [
+            0.18,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM BALCONY: reference 1 structure only preserve long narrow enclosed glazed balcony, windows all along left and far end, living opening at right. Completely remove wood decking, wood paneling, window seat, tea table, white curtain. Flooring continues dark slate from living. Inner right wall ink-purple plaster with shallow purple-black bookwall near end, flat medium grey ceiling. One free-standing sculptural dark brown saddle leather lounge chair beside end window angled toward view, a low graphite stone plinth and single airy plant. No bench, no bar, no dining furniture. Right opening reveals charcoal taupe modular sofa and ink-purple plaster from second living reference.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/balcony.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "master": {
+      "title": "主卧 · 墨紫安眠",
+      "copy": "深棕床头与亚麻寝具贴合墨紫墙面，转角窗把柔光带入暗色卧室。",
+      "materials": [
+        "墨紫矿物涂层",
+        "深棕皮革床头",
+        "棕色亚麻",
+        "深色木地板",
+        "古铜壁灯"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.12,
+            0.81
+          ],
+          [
+            0.185,
+            0.76
+          ],
+          [
+            0.23,
+            1
+          ],
+          [
+            0.15,
+            1
+          ]
+        ],
+        [
+          [
+            0.905,
+            0.82
+          ],
+          [
+            1,
+            0.84
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.94,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM MASTER: preserve original corner windows and additional right window, double bed position. All formerly pale walls deep blackened ink-purple plaster, textured headboard wall with clear subtle purple cast in daylight, chocolate ashwood broad headboard and dark brown saddle leather insert. Brown linen bed with smoky taupe folds and dark plum throw, no white bedding. Dark ashwood floor, charcoal woven rug. Bronze compact wall reading lights, medium warm grey flat ceiling, ashwood wardrobe left. NO framed pictures.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/master.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "second": {
+      "title": "次卧 · 窗下书榻",
+      "copy": "横向抽屉榻靠窗安放，短书桌与高书塔垂直组合，兼顾阅读、工作与留宿。",
+      "materials": [
+        "墨紫墙面",
+        "巧克力色抽屉榻",
+        "炭褐织物",
+        "深棕木地板",
+        "紫黑书塔"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.204,
+            0.738
+          ],
+          [
+            0.3,
+            0.738
+          ],
+          [
+            0.325,
+            0.773
+          ],
+          [
+            0.268,
+            0.97
+          ],
+          [
+            0.2,
+            1
+          ]
+        ],
+        [
+          [
+            0.37,
+            0.727
+          ],
+          [
+            0.63,
+            0.727
+          ],
+          [
+            0.64,
+            0.754
+          ],
+          [
+            0.36,
+            0.751
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM SECOND READING GUEST ROOM: preserve original compact narrow width and far window geometry, VIEW FROM DOOR. Completely REDESIGN layout: transverse raised platform daybed across WIDTH under far window, built-in drawer base in chocolate ashwood, dark taupe mattress, deep plum and saddle-brown cushions. Short working desk PERPENDICULAR to window on right wall in foreground, small dark leather chair; floor-to-ceiling ink-purple book tower on right, no overhead cabinets looming over bed. All walls ink-purple plaster, dark wood floor, medium grey ceiling, light natural window curtains smoky grey. Flexible modular reading and guest room.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/second.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "kitchen": {
+      "title": "厨房 · 紫黑工作面",
+      "copy": "紫黑柜门与深色石台面形成完整工作界面，细窄木色与古铜五金带来温度。",
+      "materials": [
+        "紫黑柜门",
+        "深褐石台面",
+        "烟灰石地面",
+        "巧克力色木饰面",
+        "古铜龙头"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.254,
+            0.799
+          ],
+          [
+            0.601,
+            0.772
+          ],
+          [
+            0.746,
+            1
+          ],
+          [
+            0.195,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM KITCHEN: preserve compact U-shaped original kitchen, centered sink beneath rear window, cooktop right and appliance tower left. Replace all cabinetry with flat purple-black fronts, subtle clear ink-purple undertones, narrow chocolate ashwood open detail. Dark graphite brown stone countertop and backsplash rather than pale stone. Dark smoke slate floor, medium warm grey ceiling, bronze faucet. Natural daylight shows precise cabinet texture, understated warm undercabinet lighting. No white cabinet fronts or white marble.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/kitchen.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "utility": {
+      "title": "家政 · 深色秩序",
+      "copy": "洗烘设备嵌入紫黑通高柜，折衣台与收纳侧格在窗边收拢日常家务。",
+      "materials": [
+        "紫黑柜门",
+        "深色木台面",
+        "烟灰石地面",
+        "石墨色洗烘设备"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.451,
+            0.766
+          ],
+          [
+            0.738,
+            0.77
+          ],
+          [
+            0.758,
+            0.894
+          ],
+          [
+            0.785,
+            0.975
+          ],
+          [
+            0.79,
+            1
+          ],
+          [
+            0.328,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM UTILITY: preserve narrow glazed laundry balcony with long windows left and original rear appliance tower. Purple-black integrated cabinet enclosure for graphite washer and dryer stack, same black violet cabinet fronts on right with chocolate ashwood small folding counter and dark stone backsplash. Dark slate floor continues, medium grey ceiling, warm tasklight, one laundry basket, no decor clutter. Daylight reveals purple undertones in cabinetry.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/utility.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "bath": {
+      "title": "卫浴 · 紫釉石影",
+      "copy": "左侧直线玻璃淋浴与窗下坐便器各居其位，右侧短石台盆以紫黑柜门呼应手工釉面砖。",
+      "materials": [
+        "茄紫黑手工釉面砖",
+        "深褐石材",
+        "紫黑柜门",
+        "古铜五金",
+        "直线玻璃淋浴"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.347,
+            0.889
+          ],
+          [
+            0.633,
+            0.888
+          ],
+          [
+            0.689,
+            1
+          ],
+          [
+            0.31,
+            1
+          ]
+        ],
+        [
+          [
+            0.143,
+            0.881
+          ],
+          [
+            0.238,
+            0.883
+          ],
+          [
+            0.236,
+            1
+          ],
+          [
+            0.045,
+            1
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM BATHROOM: redesign the original to a realistic compact 4.3 square metre layout with a narrow straight rectangular glass shower along LEFT, no curved shower. WC centered at BACK beneath narrow frosted window, SHORT dark graphite brown stone vanity on RIGHT wall with black-violet cabinetry, dark brown detailing and bronze taps, mirror above right vanity. Large architectural wall plane aubergine-black glossy handmade small tiles with subtly varied glaze, remaining surfaces dark smoky brown stone, medium grey ceiling. Realistic spacious-enough circulation but NOT a large hotel bathroom. Daylight clearly exposes dark purple tile texture. Keep original window character but fix plumbing layout as specified.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/bath.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "living2": {
+      "title": "客厅回望 · 临光而居",
+      "copy": "从石餐桌回望，墨紫墙面与织物沙发把视线引向临窗皮椅，公共空间在同一材质语言中延续。",
+      "materials": [
+        "墨紫矿物涂层",
+        "烟灰石地面",
+        "炭褐织物",
+        "巧克力色木饰面",
+        "深棕鞍皮"
+      ],
+      "floorPolygons": [
+        [
+          [
+            0.653,
+            0.641
+          ],
+          [
+            0.733,
+            0.65
+          ],
+          [
+            0.858,
+            0.797
+          ],
+          [
+            0.86,
+            0.84
+          ],
+          [
+            0.769,
+            0.845
+          ]
+        ],
+        [
+          [
+            0.904,
+            0.845
+          ],
+          [
+            1,
+            0.842
+          ],
+          [
+            1,
+            0.964
+          ],
+          [
+            0.895,
+            0.937
+          ]
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset: architectural interior photograph for apartment tour, native 1536x1024 landscape. Redesign as 紫砚隐居: tactile contemporary mineral retreat. Structural reference only: preserve compact apartment proportions, original straight walls and window/door openings and camera, completely replace decoration. Architecture BLACKENED INK-PURPLE #211F29 plaster and integrated cabinetry, purple undertone clearly visible in reflected daylight across LARGE WALL PLANES, not accent furniture. Chocolate ashwood #30251F, medium smoky taupe #655B54, graphite brown stone. Ceiling medium warm grey, NO white walls or cream ceiling. Public floor large dark smoke pietra-gray/slate slabs #494444 with narrow joints, no white marble. Soft natural window daylight and restrained warm task lighting reveal tactile materials, realistic exposure, no neon, no flat black underexposure, no hotel art, no botanical prints, no text or watermarks. Contemporary restrained sculptural furniture and minimal one-piece ceramics. ROOM LIVING REVERSE CAMERA: derive entirely from these TWO new approved room images, NOT a new room design. Reference 1 approved living, reference 2 approved balcony. Move camera to dining area opposite balcony, face balcony/windows. Sofa was on right in reference 1 and MUST now be on LEFT of reverse frame, identical low charcoal taupe modular sofa and brown/plum cushions against ink-purple textured plaster. TV with chocolate floating console now RIGHT, same low round sculptural graphite stone coffee table centered on black-purple woven rug. Full rear opening to the narrow glazed reading balcony, visible leather reading chair and purple bookwall from reference 2. Same medium warm grey ceiling, same nearblackpurple architectural planes and narrow-joint dark slate floor. Crop a corner of the graphite stone dining tabletop in near foreground only if spatially plausible; no duplicate dining table in living area. Daylight from balcony exposing subtle purple plaster, physically plausible compact apartment. Single native 1536x1024 photorealistic photograph, not collage.",
+      "path": "/workspace/scratch/d2f63f3a5692/v31-assets/plum-gallery/living2.png",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

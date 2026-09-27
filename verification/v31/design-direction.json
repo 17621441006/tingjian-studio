@@ -1,0 +1,34 @@
+{
+  "request": "Near-black purple integrated into whole architecture; no pale white backdrop or purple furniture substitution",
+  "schemes": {
+    "mauve-walnut": {
+      "name": "墨紫木邸",
+      "palette": [
+        "#241b24",
+        "#3a2923",
+        "#716357"
+      ],
+      "architecture": "aubergine lacquer wall panels and flush cabinetry",
+      "floor": "dark smoked walnut",
+      "upholstery": "saddle brown leather"
+    },
+    "plum-gallery": {
+      "name": "紫砚隐居",
+      "palette": [
+        "#211f29",
+        "#30251f",
+        "#655b54"
+      ],
+      "architecture": "ink-purple mineral plaster and cabinetry",
+      "floor": "dark stone slabs",
+      "upholstery": "smoky taupe textile"
+    }
+  },
+  "constraints": [
+    "straight existing footprint",
+    "daylight reveals materials",
+    "no white-dominant rooms",
+    "native 1536x1024",
+    "all eight rooms plus reverse living"
+  ]
+}
