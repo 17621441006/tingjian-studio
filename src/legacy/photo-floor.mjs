@@ -1,3 +1,4 @@
+import {loadMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {WOOD_FLOOR_REGIONS} from './wood-floor-regions.mjs';
 import {prepareObjectPhoto,currentObjectPhoto,sceneEditKey} from './photo-objects.mjs';
 import {floorProduct} from './floor-catalog.mjs';
@@ -59,7 +60,7 @@ export function compositeFloorPixels(original,width,height,texture,tw,th,mask,pr
  return out;
 }
 const cache=new Map(),jobs=new Map(),images=new Map(),tokens=new WeakMap();
-function load(path){if(!images.has(path))images.set(path,new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>{images.delete(path);reject(Error('地面预览图片未能载入'));};im.crossOrigin='anonymous';im.src=path;}));return images.get(path);}
+function load(path){return loadMediaImage(path);}
 const keyFor=(path,scene)=>sceneEditKey(path,scene)+'|'+scene.floorProduct;
 export function currentFloorPhoto(path,scene){return floorProduct(scene.floorProduct)?cache.get(keyFor(path,scene))||path:currentObjectPhoto(path,scene);}
 export async function prepareFloorPhoto(path,scene){
@@ -71,4 +72,4 @@ export async function prepareFloorPhoto(path,scene){
  pixels.data.set(compositeFloorPixels(pixels.data,w,h,tex,tw,th,floorMask(w,h,floorRegions(scene,path)),product));ctx.putImageData(pixels,0,0);
  const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('地面预览无法生成');const url=URL.createObjectURL(blob);cache.set(key,url);while(cache.size>32){const oldest=cache.keys().next().value;const old=cache.get(oldest);cache.delete(oldest);setTimeout(()=>URL.revokeObjectURL(old),60000);}images.delete(path);return url;})();jobs.set(key,job);try{return await job;}finally{jobs.delete(key);}
 }
-export function setFloorPhoto(img,path,scene,link){if(!img)return;const token={};tokens.set(img,token);img.src=currentFloorPhoto(path,scene);if(link)link.href=img.src;return prepareFloorPhoto(path,scene).then(url=>{if(tokens.get(img)!==token)return;img.src=url;if(link)link.href=url;img.dataset.floorProduct=scene.floorProduct||'';}).catch(()=>{if(tokens.get(img)===token)img.title='图片编辑预览暂未载入，请重新选择重试';});}
+export function setFloorPhoto(img,path,scene,link){if(!img)return;const token={};tokens.set(img,token);img.src=resolvedMediaURL(currentFloorPhoto(path,scene));if(link)link.href=img.src;return prepareFloorPhoto(path,scene).then(url=>{if(tokens.get(img)!==token)return;img.src=resolvedMediaURL(url);if(link)link.href=img.src;img.dataset.floorProduct=scene.floorProduct||'';}).catch(()=>{if(tokens.get(img)===token)img.title='图片编辑预览暂未载入，请重新选择重试';});}

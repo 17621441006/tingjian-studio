@@ -1,7 +1,8 @@
+import {loadMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {sceneEditURL} from './scene-edit-location.mjs';
 import {SCENE_EDIT_ASSETS} from './scene-edit-assets.mjs';
 const cache=new Map(),jobs=new Map();
-const load=async path=>{const url=await sceneEditURL(path);return new Promise((resolve,reject)=>{const im=new Image();im.crossOrigin='anonymous';im.onload=()=>resolve(im);im.onerror=()=>reject(Error('单品效果未能载入，请重试'));im.src=url;});};
+const load=async path=>loadMediaImage(await sceneEditURL(path));
 export const sceneEditKey=(path,scene)=>JSON.stringify([path,scene.design,scene.room,[...(scene.removed||[])].sort(),scene.partitionStyle||'original']);
 export function editRegions(scene){if((scene.layout&&scene.layout!=='original')||(scene.variant&&scene.variant!=='original'))return null;const row=SCENE_EDIT_ASSETS[scene.design]?.[scene.room];if(!row)return null;const legacy=scene.design==='copper'&&['living','dining'].includes(scene.room);const removed=(scene.removed||[]).filter(id=>row.objects[id]&&!(legacy&&['decor','sofa','rug','cabinet'].includes(id)));return {row,removed,partition:scene.partitionStyle==='custom'&&row.partition&&!(scene.removed||[]).includes('partition')};}
 function clip(ctx,polygons,w,h){ctx.beginPath();for(const polygon of polygons){polygon.forEach(([x,y],i)=>i?ctx.lineTo(x*w,y*h):ctx.moveTo(x*w,y*h));ctx.closePath();}ctx.clip();}
@@ -27,11 +28,11 @@ export function compositeObjectCanvas(canvas,original,clean,custom,row,removed,a
  return canvas;
 }
 export async function prepareObjectPhoto(path,scene){
- const edits=editRegions(scene);if(!edits||(!edits.removed.length&&!edits.partition)||typeof document==='undefined'||typeof document.createElement('canvas').getContext!=='function')return path;
+ const edits=editRegions(scene);if(!edits||(!edits.removed.length&&!edits.partition)||typeof document==='undefined'||typeof document.createElement('canvas').getContext!=='function')return resolvedMediaURL(path);
  const key=sceneEditKey(path,scene);if(cache.has(key))return cache.get(key);if(jobs.has(key))return jobs.get(key);
  const job=(async()=>{const {row,removed,partition}=edits;const [original,clean,custom]=await Promise.all([load(path),removed.length?load(row.clean):null,partition?load(row.partition.path):null]);
  const canvas=document.createElement('canvas');canvas.width=original.naturalWidth;canvas.height=original.naturalHeight;compositeObjectCanvas(canvas,original,clean,custom,row,removed,scene.removed||[]);
  const blob=await new Promise(r=>canvas.toBlob(r,'image/png'));if(!blob)throw Error('单品效果暂时无法生成');const url=URL.createObjectURL(blob);cache.set(key,url);while(cache.size>16){const k=cache.keys().next().value,u=cache.get(k);cache.delete(k);setTimeout(()=>URL.revokeObjectURL(u),60000);}return url;})();jobs.set(key,job);try{return await job;}finally{jobs.delete(key);}
 }
 
-export function currentObjectPhoto(path,scene){return cache.get(sceneEditKey(path,scene))||path;}
+export function currentObjectPhoto(path,scene){return cache.get(sceneEditKey(path,scene))||resolvedMediaURL(path);}

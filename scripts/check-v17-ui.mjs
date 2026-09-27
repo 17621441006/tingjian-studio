@@ -1,3 +1,4 @@
+import * as mediaModule from '../src/legacy/media-loader.mjs';
 import {SCENE_EDIT_ASSETS} from '../src/legacy/scene-edit-assets.mjs';
 import * as photoFloorModule from '../src/legacy/photo-floor.mjs';
 import {createFloorLive} from '../src/legacy/floor-live.mjs';
@@ -38,7 +39,7 @@ function make(t){const el=new Element(t.tag,t.attrs);el.textContent=t.text;for(c
 document=make(JSON.parse(execFileSync('python',['scripts/legacy-dom-tree.py','dist/tour/legacy.html'],{encoding:'utf8'})));document.getElementById=id=>document.querySelector('#'+id);document.createElement=t=>new Element(t);
 const root=document.getElementById('furniture-trial'),$=s=>root.querySelector(s),image=document.getElementById('render-image');let serial=0,renderCalls=[],fail=false,delay=1;const revoked=[];let walkCreates=0,walkDisposes=0,walkUpdates=[],walkTargets=[];
 const context={livingReverseAsset,SCENE_EDIT_ASSETS,setSceneEditImage:(im,path)=>{im.src=path;},duskVrMatch,...stateModule,document,window:Object.assign(new Element('window'),{innerWidth:1400,innerHeight:900}),CustomEvent:class{constructor(type,args={}){this.type=type;Object.assign(this,args);}},matchMedia:()=>({matches:false}),performance,Blob,console,structuredClone,setTimeout,clearTimeout,URL:{createObjectURL:()=>`blob:test-${++serial}`,revokeObjectURL:u=>revoked.push(u)},__loadRenderer:async()=>({renderRoom:async(snapshot,progress)=>{renderCalls.push(structuredClone(snapshot));progress({label:'Reading',loaded:2,total:4});await new Promise(r=>setTimeout(r,delay));if(fail)throw new Error('WebGL unavailable');return {blob:new Blob(['test']),duration:delay};}})};
-let imageFail='',imageDelays={};const imageRequests=[];context.Image=class {set src(v){imageRequests.push(v);setTimeout(()=>{if(v===imageFail)this.onerror?.();else this.onload?.();},imageDelays[v]||1);}};Object.assign(context,photoFloorModule,{createFloorLive},homeModule,variantModule,pieceModule,layoutModule,sceneModule,objectModule,dialogModule,materialModule,floorModule,{CATALOG:floorModule.FLOOR_CATALOG,PURCHASES,exportEffectBook:async()=>{}});
+let imageFail='',imageDelays={},imageHungHosts=[],imageFailHosts=[];const imageRequests=[];context.Image=class {set src(v){imageRequests.push(v);if(!v||imageHungHosts.some(h=>v.includes(h)))return;setTimeout(()=>{if(v===imageFail||imageFailHosts.some(h=>v.includes(h)))this.onerror?.();else this.onload?.();},imageDelays[v]||1);}};Object.assign(context,{loadMediaImage:path=>mediaModule.loadMediaImage(path,{ImageClass:context.Image,hedgeMs:5,timeoutMs:12000}),resolvedMediaURL:mediaModule.resolvedMediaURL,setMediaImage:(img,path)=>{img.src=mediaModule.resolvedMediaURL(path);}},photoFloorModule,{createFloorLive},homeModule,variantModule,pieceModule,layoutModule,sceneModule,objectModule,dialogModule,materialModule,floorModule,{CATALOG:floorModule.FLOOR_CATALOG,PURCHASES,exportEffectBook:async()=>{}});
 context.__loadWalk=async()=>({createWalkViewer:async args=>{walkCreates++;await new Promise(r=>setTimeout(r,5));return {dispose(){walkDisposes++;},select(){},pick(){return 'rug';},walkTo(id){walkTargets.push(id);},reset(){},getPose(){return {yaw:.7,pitch:-.13,at:'aisle'};},update:async(snapshot,isCurrent)=>{await new Promise(r=>setTimeout(r,5));if(isCurrent())walkUpdates.push(structuredClone(snapshot));}};}});
 const modelUpdates=[],modelVisible=[],modelRooms=[],modelViews=[],modelQualities=[];let modelLoads=0;context.__loadWholeModel=async()=>{modelLoads++;return {createWholeModel:async()=>({update:s=>modelUpdates.push(structuredClone(s)),select:r=>modelRooms.push(r),view:r=>modelViews.push(r),setQuality:q=>modelQualities.push(q),setVisible:v=>modelVisible.push(v)})};};
 for(const b of document.querySelectorAll('[data-render]'))b.addEventListener('click',()=>{image.src='/original-'+b.dataset.render+'.jpg';document.dispatchEvent(new context.CustomEvent('tingjian:gallery',{detail:{key:b.dataset.render}}));});
@@ -212,4 +213,28 @@ context.window.dispatchEvent({type:'message',origin:'https://studio.test',source
 context.window.dispatchEvent({type:'message',origin:'https://studio.test',source:parentMock,data:{type:'tingjian:nav-select',step:'layout'}});await wait(10);assert.equal(context.__journey().step,'layout');
 context.window.dispatchEvent({type:'message',origin:'https://studio.test',source:parentMock,data:{type:'tingjian:nav-select',step:'style'}});await wait(10);assert.equal(context.__journey().step,'style');
 checks.push('v29 twelve schemes, expandable final two, current selection retained, eight-room flow; parent navigation handshake, origin validation and real step dispatch passed.');
+// Simulate the deployed external media routes, including a primary that never responds.
+await click('[data-journey-step="style"]',8);
+globalThis.__TINGJIAN_V26_ORIGIN__='https://raw.githubusercontent.com/17621441006/tingjian-studio/'+'b'.repeat(40)+'/dist';
+imageHungHosts=['cdn.jsdelivr.net'];
+await context.__homeGallery.openView('dusk','living');
+for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery']){
+ await click('[data-home-design="'+design+'"]',35);
+ assert.equal(context.__homeGallery.getState().design,design);
+ assert($('[data-home-image]').src.includes('fastly.jsdelivr.net'));
+ assert.equal($('[data-home-design="'+design+'"]').getAttribute('aria-busy'),'false');
+}
+await click('[data-home-camera] [data-living-camera="reverse"]',25);
+assert($('[data-home-image]').src.includes('fastly.jsdelivr.net'));
+const beforeFailedScheme=context.__homeGallery.getState().design;
+globalThis.__TINGJIAN_V26_ORIGIN__='https://raw.githubusercontent.com/17621441006/tingjian-studio/'+'c'.repeat(40)+'/dist';
+imageHungHosts=[];imageFailHosts=['cdn.jsdelivr.net','fastly.jsdelivr.net','raw.githubusercontent.com'];
+await click('[data-home-design="mauve-walnut"]',35);
+assert.equal(context.__homeGallery.getState().design,beforeFailedScheme);
+assert.equal($('[data-home-stage]').getAttribute('aria-busy'),'false');
+assert($('[data-home-load-status]').textContent.includes('重试'));
+imageFailHosts=[];await click('[data-home-load-status] button',35);
+assert.equal(context.__homeGallery.getState().design,'mauve-walnut');
+delete globalThis.__TINGJIAN_V26_ORIGIN__;
+checks.push('v32: seven later scheme buttons and reverse view switch through a mirror when the primary hangs; all-route failure releases loading state, keeps the previous scheme, and retry succeeds.');
 await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));console.log(JSON.stringify({passed:true,checks},null,2));

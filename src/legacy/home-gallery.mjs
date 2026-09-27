@@ -1,3 +1,4 @@
+import {loadMediaImage,setMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {renderLivingViews,livingViewPath} from './living-views.mjs';
 import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.mjs';
 import {resolveScene,assembleHome} from './scene-options.mjs';
@@ -28,7 +29,7 @@ export function initHomeGallery(root){
  function getImage(path){
   if(loaded.has(path))return Promise.resolve();
   if(pending.has(path))return pending.get(path);
-  const promise=new Promise((resolve,reject)=>{const im=new Image();im.decoding='async';im.onload=()=>{loaded.add(path);resolve();};im.onerror=()=>reject(new Error('图片暂未载入，请重试'));im.src=path;});
+  const promise=loadMediaImage(path).then(()=>{loaded.add(path);});
   pending.set(path,promise);promise.finally(()=>pending.delete(path)).catch(()=>{});return promise;
  }
  function showSurface(){
@@ -40,7 +41,7 @@ export function initHomeGallery(root){
   const list=$('[data-home-rooms]');list.replaceChildren();
   for(const [i,room]of ROOMS.entries()){
    const b=document.createElement('button');b.type='button';b.dataset.homeRoom=room.id;b.setAttribute('aria-pressed',String(displayed.room===room.id));
-   const img=document.createElement('img');img.src=assetFor({...displayed,room:room.id},pieces,true);img.alt='';img.width=90;img.height=60;img.loading='lazy';img.decoding='async';
+   const img=document.createElement('img');setMediaImage(img,assetFor({...displayed,room:room.id},pieces,true));img.alt='';img.width=90;img.height=60;img.loading='lazy';img.decoding='async';
    const text=document.createElement('span'),name=document.createElement('strong'),number=document.createElement('small');name.textContent=room.name;
    number.textContent=String(i+1).padStart(2,'0')+(supportsSceneObjects({...displayed,room:room.id})?' · 可增减单品':displayed.design==='dusk'&&PIECE_ROOMS.includes(room.id)?' · 单品选配':variantsFor(displayed.design).length&&VARIANT_ROOMS.includes(room.id)?' · 搭配对照':'');
    text.append(number,name);b.append(img,text);b.addEventListener('click',()=>{if(roomHandler?.(displayed.design,room.id))return;select(displayed.design,room.id,displayed.variant,displayed.mode);});list.append(b);
@@ -135,7 +136,7 @@ export function initHomeGallery(root){
  async function select(design,room,variant=choices[design]||'original',mode=modes[design]||'palette',selection=intended.pieces,removed=removedByDesign[design+':'+roomScope(room)]||[],partitionStyle=partitionBySpace[design+':'+roomScope(room)]||'original',resetFloor=false){
   const next={...resolveVariantState(design,room,variant),mode:design==='dusk'&&mode==='pieces'?'pieces':'palette',removed:normalizeRemoved(removed),partitionStyle},snapshot=normalizePieces(selection),id=++requestId;
   if(isPieceView(next)&&!pieceAvailable(next.room,snapshot)){$('[data-home-load-status]').textContent=pieceAvailabilityNote(next.room,snapshot);return false;}
-  intended={view:next,pieces:snapshot};showSurface();
+  intended={view:next,pieces:snapshot};showSurface();for(const b of $$('[data-home-design]'))b.setAttribute('aria-busy',String(b.dataset.homeDesign===next.design));$('[data-home-loading]').textContent='正在载入'+HOMES[next.design].name+'…';
   $('[data-home-loading]').hidden=false;stage.setAttribute('aria-busy','true');$('[data-home-load-status]').textContent='';
   document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:true}));
   try{
@@ -147,7 +148,7 @@ export function initHomeGallery(root){
    intended={view:{...displayed},pieces:{...pieces}};
    const status=$('[data-home-load-status]');status.textContent=error.message+'。保留当前画面。';const retry=document.createElement('button');retry.type='button';retry.textContent='重新载入';retry.addEventListener('click',()=>select(next.design,next.room,next.variant,next.mode,snapshot,next.removed,next.partitionStyle,resetFloor));status.append(' ',retry);
    return false;
-  }finally{if(id===requestId){$('[data-home-loading]').hidden=true;stage.setAttribute('aria-busy','false');document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:false}));}}
+  }finally{if(id===requestId){for(const b of $$('[data-home-design]'))b.setAttribute('aria-busy','false');$('[data-home-loading]').hidden=true;stage.setAttribute('aria-busy','false');document.dispatchEvent(new CustomEvent('tingjian:home-loading',{detail:false}));}}
  }
  for(const b of $$('[data-home-design]'))b.addEventListener('click',()=>select(b.dataset.homeDesign,displayed.room));
  for(const b of $$('[data-home-mode]'))b.addEventListener('click',()=>select(displayed.design,displayed.room,displayed.variant,b.dataset.homeMode));

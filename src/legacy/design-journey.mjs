@@ -1,3 +1,4 @@
+import {loadMediaImage,setMediaImage} from './media-loader.mjs';
 import {renderLivingViews,livingViewPath} from './living-views.mjs';
 import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.mjs';
 import {renderFloorCatalog,floorProduct,FLOOR_CATALOG} from './floor-catalog.mjs';
@@ -32,7 +33,7 @@ export function initDesignJourney(root,gallery){
  function imageReady(path){
   if(!path)return Promise.reject(new Error('这组搭配尚未成图，已保留刚才的选择。'));
   if(loaded.has(path))return Promise.resolve();if(pending.has(path))return pending.get(path);
-  const p=new Promise((resolve,reject)=>{const im=new Image();im.decoding='async';im.onload=()=>{loaded.add(path);resolve();};im.onerror=()=>reject(new Error('这一张暂时没载入，已保留刚才的选择。'));im.src=path;});pending.set(path,p);p.finally(()=>pending.delete(path)).catch(()=>{});return p;
+  const p=loadMediaImage(path).then(()=>{loaded.add(path);});pending.set(path,p);p.finally(()=>pending.delete(path)).catch(()=>{});return p;
  }
  function galleryVisible(){return step==='style';}
  const roomSignature=id=>JSON.stringify(frames().find(f=>f.id===id));
@@ -115,7 +116,7 @@ export function initDesignJourney(root,gallery){
   renderMaterialList($('[data-details-items]'),sceneItems(current),{path:frame.path,room:current.room});
   const count=confirmationCount();$('[data-room-progress]').textContent='已确认 '+count+' / '+ROOMS.length+' 个空间';$('[data-details-next]').textContent=allConfirmed()?'查看我的三维全屋效果 →':'全部确认后，看全屋效果 →';
   $('[data-room-confirm-state]').textContent=roomConfirmed(current.room)?'本空间已确认 ✓':'本空间待确认';$('[data-confirm-room]').textContent=roomConfirmed(current.room)?'已确认 · 再次确认':'确认这一间';$('[data-next-unconfirmed]').hidden=allConfirmed();
-  const nav=$('[data-details-room-picks]');nav.replaceChildren();for(const r of ROOMS){const f=frames().find(f=>f.id===r.id),b=makeButton('','detailsRoom',r.id,()=>chooseRoom(r.id)),im=document.createElement('img'),text=document.createElement('span'),small=document.createElement('small');im.src=f.thumb;im.alt='';im.loading='lazy';im.width=90;im.height=60;text.textContent=r.name;small.textContent=roomConfirmed(r.id)?'已确认 ✓':'待确认';b.setAttribute('aria-pressed',String(r.id===current.room));b.dataset.confirmed=String(roomConfirmed(r.id));b.append(im,text,small);nav.append(b);}
+  const nav=$('[data-details-room-picks]');nav.replaceChildren();for(const r of ROOMS){const f=frames().find(f=>f.id===r.id),b=makeButton('','detailsRoom',r.id,()=>chooseRoom(r.id)),im=document.createElement('img'),text=document.createElement('span'),small=document.createElement('small');setMediaImage(im,f.thumb);im.alt='';im.loading='lazy';im.width=90;im.height=60;text.textContent=r.name;small.textContent=roomConfirmed(r.id)?'已确认 ✓':'待确认';b.setAttribute('aria-pressed',String(r.id===current.room));b.dataset.confirmed=String(roomConfirmed(r.id));b.append(im,text,small);nav.append(b);}
   const cats=$('[data-room-edit-categories]'),list=$('[data-room-edit-choices]');cats.replaceChildren();list.replaceChildren();
   renderFloorCatalog(detailsFloorHost,current,async id=>{const base=intended.room===current.room?intended:current;await choose({...base,floorProduct:id});},{disabled:bulkBusy,inline:true,onVariant:id=>choose({...current,variant:id,mode:'palette',floorProduct:null})});
   renderSceneObjectControls($('[data-details-object-controls]'),current,id=>{if(bulkBusy)return;const base=intended.room===current.room?intended:current;choose(id===null?{...base,removed:[]}:toggleSceneObject(base,id));},{disabled:bulkBusy});

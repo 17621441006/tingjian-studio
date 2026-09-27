@@ -19,6 +19,7 @@
     "v25 all-room controls, new table deletion, independent bedroom removal, original/new decor switching, and style-to-confirmation persistence passed.",
     "v26 ten schemes, all eight-room confirmations, reverse camera/fullscreen/restore, load error and stale camera response passed.",
     "v28: four authored floor comparisons, brand override cleared, room scoping, selection persistence, confirmed/export snapshot and original restoration passed.",
-    "v29 twelve schemes, expandable final two, current selection retained, eight-room flow; parent navigation handshake, origin validation and real step dispatch passed."
+    "v29 twelve schemes, expandable final two, current selection retained, eight-room flow; parent navigation handshake, origin validation and real step dispatch passed.",
+    "v32: seven later scheme buttons and reverse view switch through a mirror when the primary hangs; all-route failure releases loading state, keeps the previous scheme, and retry succeeds."
   ]
 }
