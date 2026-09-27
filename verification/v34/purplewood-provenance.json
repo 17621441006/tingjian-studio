@@ -1,0 +1,322 @@
+{
+  "method": "built-in image_gen__imagegen",
+  "scheme": "mauve-walnut",
+  "material": "Near-black aubergine stained real wood veneer with visible vertical grain, flush panels and narrow shadow joints; bathroom glazed porcelain with aubergine wood vanity.",
+  "entries": [
+    {
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: living room. Replace purple wall panels around TV, behind dining area, and right wall accents and purple cabinet faces with aubergine wood veneer.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/living.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ab75d81f-1e05-409f-879a-790a4da4c3a0.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living.png",
+          "bytes": 2405793,
+          "sha256": "4c157b8591d037d973bd300f6698cd2319aa11697ba19c43af64d4f581d0fb0a",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living.webp",
+          "bytes": 264600,
+          "sha256": "06949812c284e9247847f222408e252e15d7bde1b2dc69f50082a1c378e6aeb7",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living-thumb.webp",
+          "bytes": 31726,
+          "sha256": "dc26dc83e838ffe004fc457961f924246b1c2e5acd82dae6114f3d563c4bcb39",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: dining room. Replace all large purple rear wall panels and purple sideboard faces with the specified aubergine wood veneer. Keep table, chairs, pendant, vase, shelving, door exactly.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/dining.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-24676759-4b73-40de-b15d-d455fa6f9f95.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/dining.png",
+          "bytes": 1968713,
+          "sha256": "517a2f521b8b1546fd58572466c1122868dfd059823406164ced71c62bfb9f8a",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/dining.webp",
+          "bytes": 147974,
+          "sha256": "a9776f7ee7b0c3763fb1b560d974ff54d757192e43bb2252545ab443d64999bf",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/dining-thumb.webp",
+          "bytes": 23118,
+          "sha256": "68fdc6632bcf2d37a775673dc9163740d78fd6713ce3cc85972ec1013ee3ac2e",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: master bedroom. Replace the large plaster wall plane directly ABOVE the padded headboard between corner window and brown timber accent by deep aubergine real wood veneer panels; also replace purple bedside drawer faces with aubergine wood veneer. Keep padded headboard padding, bedding and every furnishing intact.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/master.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-70a56186-9290-4965-be8d-f1b7235de056.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/master.png",
+          "bytes": 2473196,
+          "sha256": "532df453cc67b86715b503ed52a463e785afa137f6066d621dd6a55e317da5bd",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/master.webp",
+          "bytes": 266512,
+          "sha256": "26a95efa6c62e7ef8aea0a4d30fb2c1491bb3d223740c1f392150d3f24008c0c",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/master-thumb.webp",
+          "bytes": 30140,
+          "sha256": "349d4534dadfe4d0bc91d637888842051c861618f00f74544a83fb0fed22b661",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: study/second bedroom. Replace the entire flat purple tall cabinet fronts at right with luxurious aubergine stained real timber veneer, with clear vertical grain and existing precise joints. Preserve the brass handles and all furniture and shelving.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/second.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b4f323c2-57a0-4e91-9576-f0c4772ae0b2.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/second.png",
+          "bytes": 2087076,
+          "sha256": "563031588264455283c2416513096684163085077ae0ab91a8d8ab80f82821b8",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/second.webp",
+          "bytes": 184806,
+          "sha256": "bc911ee36935121378a1210716e41c1ebebb66d5669fff7f670b969dd72914e3",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/second-thumb.webp",
+          "bytes": 26016,
+          "sha256": "9a19a69f8802eaecffa4a3d5de1e78593788f7c69a7a7ff47a0c02ef7f645b62",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: kitchen. Replace all purple base cabinet doors/drawers and tall left cabinet facade with aubergine stained wood veneer. Preserve brass handles, stone splashback, brown stone floor/counter and existing brown upper cabinets, appliances and fixtures exactly.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/kitchen.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5dc95a60-2973-4515-acd5-f638cd1c26c3.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/kitchen.png",
+          "bytes": 2225825,
+          "sha256": "ca1659c82db055b8a937980f3e076f911613dc5355c16af6ca2b4e31209d787c",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/kitchen.webp",
+          "bytes": 210540,
+          "sha256": "05b207c2110138b4a3a42deddabfb6e472b3c212a4a82bafcb3911f028811715",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/kitchen-thumb.webp",
+          "bytes": 28044,
+          "sha256": "3a8a2862849ce62248b83e7248020d70e77ce4896d66609ce16509bba976ede1",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: precise-object-edit. Edit this exact bathroom photograph with identical camera, crop, straight wall plan, fixtures, furniture, mirror, lighting, glass shower, window and all decor. Material refinement only: the dark purple bathroom tiled walls should become luxurious near-black aubergine high-grade glazed porcelain tile, subtly undulating ceramic gloss with convincing rich glaze reflections and narrow precise grout, retain existing vertical tile layout. Never wood in the wet shower zone. Replace only the vanity drawer faces below the marble basin with near-black aubergine stained REAL WOOD VENEER, clearly visible fine vertical grain, satin sheen and narrow regular flush joints. Retain all brown stone surfaces, brown wood door, white toilet, brass fixtures. No flat wallpaper, no bright violet, no whitening. Photorealistic expensive material upgrade. Native output 1536x1024 landscape.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/bath.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-7b6ce38c-1957-4899-869b-910455882b98.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/bath.png",
+          "bytes": 2203095,
+          "sha256": "f4d0374aaf2dc048e1039f9a24863542e74f1acfd8a560a35fd6f333b2a97103",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/bath.webp",
+          "bytes": 245832,
+          "sha256": "589fde9f0f605a2e9ec4ed62c23442dbcda89023e2c2d1aaf50271d3e152ab25",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/bath-thumb.webp",
+          "bytes": 33332,
+          "sha256": "b1b8600302bce1e2ca669edf96bcfc821660ecfdc3b6fb601544da669231ed97",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: balcony. Replace flat purple wall at right of plant and purple wall glimpsed in living room with luxurious aubergine wood veneer. Keep existing brown timber ceiling, floor, door frames, bar, stools, plant, glass and view exactly unchanged.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/balcony.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-39fbcbc6-7951-4879-9a61-283f7718e7d9.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/balcony.png",
+          "bytes": 2404299,
+          "sha256": "d7720f54f029d35bed7b7e9db034d495e14e6901f24c5f1092d2be33b683dc46",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/balcony.webp",
+          "bytes": 273036,
+          "sha256": "af042449f1ea40dc549840aadf52083cc7f365a9cfb188fdec7331452848f115",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/balcony-thumb.webp",
+          "bytes": 39666,
+          "sha256": "9dc771af813d0f20886e6694dfe21f4e431645240afce3d7ffc71f55a282f70a",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: laundry/utility room. Replace flat purple tall cabinet surrounding stacked washer dryer and purple lower cabinet fronts under countertop with luxurious aubergine stained real wood veneer panels. Preserve ventilation slots, brass pulls, appliances, windows, view, stone floor/counter and brown timber upper cabinets exactly.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/utility.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-c76ceb49-e0d0-4ac7-8d36-a8001c43c396.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/utility.png",
+          "bytes": 2264905,
+          "sha256": "ab98f1d25d1463ded62067217b05b0299591371ad5371aec965dc297bfc4ec45",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/utility.webp",
+          "bytes": 249562,
+          "sha256": "0ed2d00c39e19d58dab0422b4514d9f970b2df43604a96d94e14df0478a6bf4e",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/utility-thumb.webp",
+          "bytes": 39264,
+          "sha256": "c1fad3918ecb65835a2ff35596fd42b45749c1561cdf05092a04ac457905f933",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "room": "living2",
+      "prompt": "Use case: precise-object-edit. Edit the supplied room photograph, preserving its exact camera, crop, architecture and straight wall plan, furniture arrangement and all furniture details, decor, windows, brown walnut floor, ceiling and existing warm natural lighting. Replace the flat purple painted/wallpaper/plaster/cabinet surfaces with luxurious near-black aubergine stained REAL WOOD VENEER PANELS. Clearly readable fine vertical natural grain and tactile wood pores, coherent flat flush panels with narrow regular shadow joints, subtle satin sheen. This must visibly change the material to expensive timber, not merely tint a flat surface. Keep dark restrained purple, never bright violet or lightened white. Retain all existing brown wood as brown. Photorealistic premium interior materials. No new objects, no text. Native output 1536x1024 landscape. Target: reverse living room view. Replace purple wall panels behind left sofa and around right TV with luxurious aubergine wood veneer. Preserve alternate existing brown wooden strips as brown, furniture, rugs, all foreground dining details, balcony, trees and window view exactly.",
+      "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/mauve-walnut/living2.webp",
+      "generated_original": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5cbf21a1-e3bf-4fdd-8e0d-a2d95cd08be8.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living2.png",
+          "bytes": 2203610,
+          "sha256": "6bdbe8de634c026169c7ace648a19407834fe30aebe79d4441fc444d50d96e8e",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living2.webp",
+          "bytes": 225928,
+          "sha256": "d77f2f44231e0d6ca4600d98571da8df8d8efe044ae2d2b08744d5557c34d3a7",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purplewood/living2-thumb.webp",
+          "bytes": 32658,
+          "sha256": "f890f17af4e2d383785f91b6295b4e6b925baca13e785c159e5275d7b66bed25",
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      ]
+    }
+  ]
+}

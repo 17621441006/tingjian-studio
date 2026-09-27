@@ -1,0 +1,248 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "entries": [
+    {
+      "room": "dining",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Small dining and entry room, viewed diagonally from doorway. A compact round brown-black stone dining table for four, sculptural walnut chairs with chocolate leather seats, one narrow full-height deep aubergine stained wood entry cabinet and bronze-edged art niche, modest bench near entrance. Large monochrome abstract artwork, a small alabaster pendant, slim smoked-gold details. Wood grain, small ceramic centerpiece. Dark walnut floor. Window daylight from left.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5a56304b-6816-4dd3-8c23-52773b0c0ae4.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2218319,
+          "sha256": "18683d0c8710019551a4e2875cd4a40b1da278382593ae3bac0f1f4ff87489ab"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 225488,
+          "sha256": "5ee86491016fb1e8f493afc017790ecfe6eeee4179cbf54ee903951192665d43"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29720,
+          "sha256": "196dc6301c70c0b919b2c7a8aedf567b3a66d2fd88272b9430a27ceeaec4b515"
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Compact master bedroom with deep aubergine stained wood headboard wall, visibly beautiful dark timber grain. Low chocolate brown leather bed, taupe and deep-plum linen bedding, dark walnut bedside ledges, small alabaster bedside lamp and smoked-gold reading light. Simple geometric abstract art offset on wall. Full height window with dark plum curtain, generous diffuse daylight. Dark walnut floor and quiet charcoal rug. Photograph from foot-side corner showing sensible circulation.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b2e911d1-c8df-45af-86e5-183d39a0ed0c.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2407654,
+          "sha256": "40d66d08d3e58e8b1d00fd75b86d221474bcf478007755751a67db5a8e257533"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 244672,
+          "sha256": "de7f4a3582df202be1c562f0e9699112bcecca5d6d6984386af1e48b2c62b182"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29544,
+          "sha256": "d0e57569dae752fd229d1ab3e120bd6fa7e1a84d424df18dc3f6535519fa70b7"
+        }
+      ]
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Second bedroom as a compact creative window daybed study and library, distinctly different from master. Built-in chocolate velvet daybed beneath broad rectangular window, deep plum stained wood open book shelving wrapping one side, a small dark walnut work desk with brown leather chair perpendicular to window. Carefully placed design books, monochrome art leaning on shelf, alabaster small task lamp, smoked-gold handle detail. Creative contemplative real apartment, dark walnut floor and aubergine cabinetry with enough daylight.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-95e8ee07-f6d9-4dff-b5ea-1d2b9b5182f7.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2612253,
+          "sha256": "8bf9ae2f5c69da2b909dbc3ffd7c6a595baca381525fdc283b34c28783e0963c"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 309550,
+          "sha256": "531a3b43570a39d1e06e916f15cb091a6a88f9e81988d6b20133c5bda9e911a1"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 39836,
+          "sha256": "6cbebeeb4a7890f0f1e8c9211b51710ab54423e9fd2486f23312bd9fd34d7bf3"
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Compact practical L-shaped kitchen, deep aubergine dark stained wood flat-front cabinetry, elegant brown stone countertop and backsplash with subtle natural veins, concealed appliances and slim smoked-gold tap. Small rectangle window above counter gives clear natural daylight, dark brown stone floor. Cabinet fronts show real grain. Restrained ceramic bowls, one glass vase. No island, no grand villa kitchen. Three-quarter doorway photograph showing functional compact cooking room.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-77e42f5b-acbc-4ef1-8ac1-c3ae1f5418e6.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2241108,
+          "sha256": "76a30aea5a9a6574c8578fd09a990b30762d7057674d81077740b8b7f0ebd661"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 198416,
+          "sha256": "fd8222eed9803b3cb289b88fe979c8f927f2f2758be9520b36f1967a0b8daa72"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 25090,
+          "sha256": "c2d75e629458d288cf52f8464329466cbfe398118aee8acec7596cb924123b2b"
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Compact bathroom with near-black purple glazed porcelain large-format wall tiles, precisely visible thin joints and controlled glossy reflections of window light. Tiles must unmistakably read as glazed ceramic porcelain, not wood or rough plaster. Floating dark-brown walnut vanity with dark brown stone top, inset basin, smoked-gold tap, rectangular mirror and small alabaster sconce. Glazed shower screen at side, floor dark slate textured porcelain. Small frosted window supplies diffuse daylight revealing plum tile undertone and controlled gloss. Sensible apartment bathroom proportions.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-86067e3a-1b01-42a6-9353-f320b0892056.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2233575,
+          "sha256": "1337cd612ac16927089948a9c44d59f61e402fadcfeb31435b336cd4d80efaa4"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 196134,
+          "sha256": "beb1f13e7770310eca37504c641d04732f5bbe8898ead7e929789ffb2c618f7d"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24082,
+          "sha256": "d7c700296bbb2db9b2fefad738a19830434034244ba7ec40c1785cb1113e5f31"
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Narrow enclosed balcony transformed into contemplative reading alcove, full-height clear glass windows showing soft distant Shanghai residential greenery. Dark plum stained wood sidewalls and built-in low walnut reading bench, chocolate brown cushion, small walnut side table, charcoal slate floor, single carefully framed abstract artwork on solid side wall, small alabaster lamp. Full-height glazing occupies exterior long wall, believable enclosed apartment balcony width 1.5m, warm natural daylight, intimate thoughtful gallery character. No outdoor terrace or giant panorama.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9cb06783-ba34-4926-91fc-4c874db6ef5b.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2275588,
+          "sha256": "df71c4c7628951f7d1915cc4413f116fbbd5c8c9c54a5ca593bb44b4361536f7"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 233692,
+          "sha256": "43d63750cd3f6212978b42c5e2cdbb614d4827c2775601c3756dac8730fcf1c0"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 37928,
+          "sha256": "c587190626313c06ce91a88341ff3ad3caa6691ee201550407b62f4eb9427f41"
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: photorealistic-natural. Create one standalone native 1536x1024 landscape architectural editorial photograph, no collage. This is a room in a modest Shanghai two-bedroom apartment designed as 紫夜艺廊, a coherent high-end modern art-gallery home with classic material warmth. Style reference is the provided living room: subdued almost-black plum/aubergine, chocolate brown leather, dark walnut, black stone, smoked gold metal and occasional alabaster. Match its luxurious tactile realism, restrained dark palette, warm indirect details and natural daylight. This is a different room; do NOT recreate the living room layout or sofa. Straight sensible walls, believable compact domestic proportions and practical circulation. Daylight sufficiently reveals material texture. No people, text, watermark, logos, bright purple, oversized villa scale, white/light overall room, excessive clutter. Camera verticals straight, sophisticated natural photographic contrast.\nRoom: Compact glazed laundry utility room in same modest apartment, aubergine stained timber tall cabinets and integrated stacked washer and dryer in a neatly dimensioned open cabinet bay. Brown stone worktop with small undermount utility sink, smoked-gold tap, dark slate tile floor. Full-height clear glazing and slim dark window frames bring plentiful soft daylight. One folded brown towel and subtle woven laundry basket. Practical compact layout, elegant domestic realism, laundry machines recognizable and correctly proportioned, no excessive clutter.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ad129fc7-1fb5-4035-a97e-48b3430f0d5b.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2330401,
+          "sha256": "75bc8fe332baaa3a2270cede94b823f0c97ee204e5197ce6620adc5d31b03982"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 230292,
+          "sha256": "0c738969d1d42390e4e9d8bf28db7fa8ee114787b4cbb9cd716693aa5a887419"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/nocturne/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 30234,
+          "sha256": "2a56669d656a142a395629c431110fa19c8795760ebba8fe24e6bbcf4dab0edf"
+        }
+      ]
+    }
+  ]
+}

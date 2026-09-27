@@ -1,0 +1,358 @@
+[
+  {
+    "room": "living",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/living.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-bb093b90-ed4e-4e79-9239-2812f6e84f07.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living.png",
+        "sha256": "c59041133c8f767999387d3811ceaee2707b537d2da05dcdcde4aba837b14dc9",
+        "bytes": 2444400,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living.webp",
+        "sha256": "a9d1ef63abb883c0a950a47072312f6a152b639f39abe536a7818732d4e750ca",
+        "bytes": 231728,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living-thumb.webp",
+        "sha256": "0aa41bb7c702597f3dc848f7704b106a58b2126adf3a25833e20e8fee6ef272a",
+        "bytes": 23730,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "5ec0995a27fe500e69a27848e162d12a699b13c2dd5ec455dbbc326ca225b4b8",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "dining",
+    "prompt": "Use case: precise-object-edit. Input image is EDIT TARGET for plum-gallery DINING ROOM. Edit ONLY purple wall surfaces into deep near-black AUBERGINE PURPLE premium glazed porcelain large-format tiles. The entire rear wall behind dining table MUST remain DEEP DARK PURPLE, including side piers and left column. Create refined narrow grout joints and smooth subtle glossy reflected light unmistakably CERAMIC. NOT wallpaper, NOT paint, NOT beige, NOT gold, no busy gold veins. Preserve exact original camera, dark stone floor (no rug), rectangular gray stone dining table, four leather dining chairs, bronze pendant, wall intercom and switches, shelving, dark brown wooden sideboard, wood door, tiny decorative objects, natural daylight. Do NOT add artwork, mirror, plants or furnishings. Keep every original object and room geometry unchanged. Native 1536x1024.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/dining.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-fbfcb7bd-58e3-451c-903f-cfb6821d473d.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 2,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/dining.png",
+        "sha256": "e310497a03151c8e354647bb62ab048ddf288fe5262c5f142e4c842baa796112",
+        "bytes": 1984073,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/dining.webp",
+        "sha256": "e9815c148498dd602327c0920ee04760d5755f8c98f7dcbda14553b8b0cce3cf",
+        "bytes": 135684,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/dining-thumb.webp",
+        "sha256": "757ddeefa223b12a9c236cf2430a01fb8f0bfcfb777df9a241d2dad6b0c2c802",
+        "bytes": 19308,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "ad58c7ad4815996dd329dd300570bb2b48458d195c3a2c12e3003f944328841a",
+    "qa": "PASS: native 1536x1024; deep aubergine ceramic wall with visible narrow grout; original furniture and composition preserved.",
+    "discarded_attempt": {
+      "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-64284be6-da11-42a6-b06e-3cfd26d14d0e.png",
+      "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: dining room; preserve stone rectangular table, four leather chairs, pendant lamp and wood sideboard.",
+      "reason": "Returned beige dining wall, failed requested deep purple ceramic."
+    }
+  },
+  {
+    "room": "master",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: master bedroom; keep brown wood floor, bedding, upholstered bed, bedside lamps, corner bay window and window seats exactly.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/master.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-35019bb5-57f3-4c40-a0d2-a160ce05f368.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/master.png",
+        "sha256": "4a96e1d16cb65a95dcacac0ae31c2288f042fa7a606735b7f96000fa057c392f",
+        "bytes": 2454629,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/master.webp",
+        "sha256": "278f1b129f06a06e633c79df96e9887ad69ed2785064c2e241a8b65f2c9a9e04",
+        "bytes": 243012,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/master-thumb.webp",
+        "sha256": "c6f60d2f27dbdfbe36b119f2e2efbee22e385132aa89e794926b038506614536",
+        "bytes": 25766,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "aed0442e1dd25ac94411a4a2f6fe764f632dad92c5ddb314d35b0cc04fcbf700",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "second",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: second bedroom and study; keep brown wood flooring, daybed, pillows, desk, bookshelf, chair, lamps and window exactly.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/second.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-bba92c7b-f04c-4885-a141-29a68cd980c2.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/second.png",
+        "sha256": "26cc585f1c4b815930cc4bfa4f57b2db7d6b6225889f76d2b971cfb08c529928",
+        "bytes": 2391004,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/second.webp",
+        "sha256": "2b742be940742b3bd42961e54e41e06e34c0f681c701f3f83a0fe19972cb8f0c",
+        "bytes": 243436,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/second-thumb.webp",
+        "sha256": "f326f286a438a962256e142798eb9e72f02699cd8ac17b4d941f67125e4719db",
+        "bytes": 28872,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "c91c5e8193facc169a626f4cc9d984ecbc25a08e2f6e0a88df4ff6b90cf1069e",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "kitchen",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: kitchen. Replace backsplash and wall areas around window with deep aubergine premium large-format glazed porcelain slabs. Keep cabinet layouts and dimensions; purple cabinet fronts become matching smooth sintered ceramic panels with restrained reflection, brown wood remains brown. Preserve all appliances, countertop, gas burners, sink and window.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/kitchen.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f27515cc-c87f-4b89-bf92-665b188fbf24.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/kitchen.png",
+        "sha256": "defe14758af9be7f946a96fdaab643275b00e3475c92004e2d0f169b65594749",
+        "bytes": 1999576,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/kitchen.webp",
+        "sha256": "d1b058bf2633893cd012e67425ae296c5e2269b29278c3f57e9f7383fa9e10f7",
+        "bytes": 148010,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/kitchen-thumb.webp",
+        "sha256": "7aac72f8b47bf9bd4c4230ec0913b1d85563f8b3ffd16d61c8bfe5195b5a1684",
+        "bytes": 20748,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "2e1ad532f81c6127148f3019e608d77d8393f588ab0302ab86c9216644918e76",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "bath",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: bathroom special requirement: ALL walls including shower, window surround and vanity wall become premium deep-purple glazed CERAMIC, large-format narrow-joint aubergine porcelain slabs with refined subtle reflected highlights. Change vanity cabinet finish to dark brown natural wood, keep exact vanity form. Keep shower glass, mirror, fixtures, toilet, window, countertop and dark floor geometry/material; no wallpaper anywhere.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/bath.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e4a15690-a0ad-4a2f-b960-10235d9f4060.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/bath.png",
+        "sha256": "021e8bffcb12dac778a51151547db631c55bb6ac55a00a95d33e07441a264292",
+        "bytes": 2217391,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/bath.webp",
+        "sha256": "9c43e01727a6ba8b4e99f9ea8b0f5fbb0adf25970c72057588f9d118ce70a791",
+        "bytes": 188360,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/bath-thumb.webp",
+        "sha256": "374594235c1cdac6afb445e756fb9de22c175e62c0181590b7b15a877310bf96",
+        "bytes": 21368,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "a1581b54c4417047711328ffa6bb24c189fa123edea4fc47d2a3cdb13aaa7cde",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "balcony",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: enclosed leisure balcony. Apply the purple porcelain wall replacement to balcony wall AND visible purple living room walls. Keep all glazing, view, chair, plant, stone side table, dark floor and wood doorway unchanged.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/balcony.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-73142a27-7854-48a5-ae87-ac278732793e.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/balcony.png",
+        "sha256": "46c3a0dbe15cbdf3a240b9512d65eb9b9a090b366f0a22b87b5283d339cb2918",
+        "bytes": 2573669,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/balcony.webp",
+        "sha256": "dd86973be294bb4efa59cf324029336ec262a768cc1fdd73ef9689be20c02f79",
+        "bytes": 305146,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/balcony-thumb.webp",
+        "sha256": "9a35f8e6be769e1c861bd11a8d04738615c225f8f2b3ea4a2d80bad4d7b559d0",
+        "bytes": 36520,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "721416a3a5f995767f0291a1ecb0705424c6304347a3e76ee34b3d050814a200",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "utility",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: utility laundry balcony. Replace purple surface finishes with rich deep aubergine ceramic / sintered porcelain panels and tile backsplash, subtle glaze and narrow joints. Maintain cabinetry panel seams and exact cabinet dimensions; retain real brown wood counter and existing brown wood details. Keep stacked laundry machines, cleaning tools, basket, towels, glazing, view and dark floor unchanged.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/utility.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9ffdf2e0-39b7-419d-aa3c-37fe594469f3.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/utility.png",
+        "sha256": "1a4cc17ff605871cc3ff99083d14cb6508693c53cc80f6c6702277ede673a614",
+        "bytes": 2153451,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/utility.webp",
+        "sha256": "4a135a34148d73d20f59c68cec0911ad6d779942143b3a566d6eb684f86d323b",
+        "bytes": 218140,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/utility-thumb.webp",
+        "sha256": "90411ebd2b81afa8ed564333eb40271e99afd48d6798955dee3e41b68ec966f5",
+        "bytes": 32836,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "1ff429a5f44d4ab47894c22c054c977da8ae5e6fb2599eca202901b53815265e",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  },
+  {
+    "room": "living2",
+    "prompt": "Use case: precise-object-edit. Input image is the EDIT TARGET. Make a high-end architectural interior photograph editing ONLY the existing purple wall surfaces: replace purple wallpaper/plaster with premium near-black deep aubergine PORCELAIN TILE / GLAZED CERAMIC large-format slabs. Material must be DISTINCTLY visibly ceramic, with refined narrow dark grout joints, restrained cloudy mineral variation, smooth subtly glossy grazing reflections; not wallpaper or painted plaster. Do not use busy gold veins. Preserve exact straight wall plan, camera/framing, every furniture arrangement and detail, windows, dark stone floor, daylight and brown wood surfaces. Keep the dark sophisticated deep-plum palette, never vivid purple and never overall bright white. No text. Output native 1536x1024. Room: reverse living-room view toward the balcony. Preserve sofa, television, dark wood console, coffee table, balcony chair/plant, dining-table foreground and all daylight. Replace both purple living-room walls with distinctive smooth premium deep-aubergine ceramic slabs.",
+    "source": "/workspace/scratch/d2f63f3a5692/site-source/dist/designs-v26/plum-gallery/living2.webp",
+    "generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f9704ef9-c694-4c3b-9784-bde5e20212b7.png",
+    "tool": "builtin image_gen.imagegen",
+    "edits": 1,
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living2.png",
+        "sha256": "1cb9c1ee60b120d50b323d616de0d996214b4afa628a000976a6c38ea2d2eb51",
+        "bytes": 2285751,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living2.webp",
+        "sha256": "3d4139b290c04e499fdcc7bdee88a84eb0f3f20719581fbc72060d6ca1e9254d",
+        "bytes": 208734,
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v34-assets/purpletile/living2-thumb.webp",
+        "sha256": "92e91e8bcb3511238d9c0635f970a7f869f86bee316c56dc9d2ff88268c8ddb6",
+        "bytes": 25662,
+        "dimensions": [
+          480,
+          320
+        ]
+      }
+    ],
+    "source_sha256": "03228cb647ea21309c7407edc1ab1afbbb63fcf4b54b3296edad9d8a84739483",
+    "qa": "PASS: native 1536x1024; visible deep aubergine ceramic; composition broadly preserved"
+  }
+]

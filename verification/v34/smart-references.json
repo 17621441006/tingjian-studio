@@ -1,0 +1,229 @@
+[
+  {
+    "id": "curtain",
+    "category": "curtain",
+    "brand": "Aqara",
+    "model": "Curtain Driver E1（Rod Version）",
+    "source": "https://us.aqara.com/products/curtain-driver-e1",
+    "sourcepage": "https://us.aqara.com/products/curtain-driver-e1",
+    "caption": "白色窗帘驱动器及上方滚轮挂架的官方产品近照。",
+    "before": "早晚走到窗边，手动拉开或合上窗帘。",
+    "after": "设置时间或场景后，驱动器带动窗帘开合。",
+    "position": "安装在符合型号要求的窗帘杆上，藏于帘布后侧；需核对杆径、帘型及Aqara网关。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://us.aqara.com/cdn/shop/files/Aqara-Curtain-Driver-E1-_Rod-Version.webp?v=1729060742",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "file": "curtain.webp",
+    "bytes": 6292,
+    "originalURL": "https://us.aqara.com/cdn/shop/files/Aqara-Curtain-Driver-E1-_Rod-Version.webp?v=1729060742",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://us.aqara.com/products/curtain-driver-e1"
+    ]
+  },
+  {
+    "id": "lighting",
+    "category": "lighting",
+    "brand": "Aqara",
+    "model": "LED Strip T1",
+    "source": "https://us.aqara.com/products/led-strip-t1",
+    "sourcepage": "https://us.aqara.com/products/led-strip-t1",
+    "caption": "盘绕的LED灯带，能直接看到灯珠及柔性带体。",
+    "before": "灯光亮度固定，休息和活动共用一种照明。",
+    "after": "通过App调亮度、白光色温或分段颜色，也可加入兼容自动化。",
+    "position": "贴在平整、干燥的室内表面，如柜下或灯槽；保留控制器与电源的检修空间，需Aqara Zigbee网关。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://us.aqara.com/cdn/shop/files/PDP___1.png?v=1718675608",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "file": "lighting.webp",
+    "bytes": 29610,
+    "originalURL": "https://us.aqara.com/cdn/shop/files/PDP___1.png?v=1718675608",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://us.aqara.com/products/led-strip-t1",
+      "https://www.aqara.com/wp-content/uploads/2023/08/LED-Strip-T1-User-Manual-1.pdf"
+    ]
+  },
+  {
+    "id": "presence",
+    "category": "presence",
+    "brand": "Aqara",
+    "model": "Presence Sensor FP2",
+    "source": "https://us.aqara.com/products/presence-sensor-fp2",
+    "sourcepage": "https://us.aqara.com/products/presence-sensor-fp2",
+    "caption": "白色圆形FP2传感器与可调支架的官方近照。",
+    "before": "人坐着不动时，普通动作感应可能判断为无人。",
+    "after": "毫米波检测微小动作，可按房间分区触发兼容灯光。",
+    "position": "需要分区识别时采用墙装，朝向活动区并持续供电；不要把吊顶跌倒检测模式当成相同功能。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://us.aqara.com/cdn/shop/files/Aqara_Presence_Sensor_FP2_ab47cc99-0c1f-4acf-9ac2-18eeab7e569b.webp?v=1728699325",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "file": "presence.webp",
+    "bytes": 8222,
+    "originalURL": "https://us.aqara.com/cdn/shop/files/Aqara_Presence_Sensor_FP2_ab47cc99-0c1f-4acf-9ac2-18eeab7e569b.webp?v=1728699325",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://us.aqara.com/products/presence-sensor-fp2",
+      "https://www.aqara.com/us/product/presence-sensor-fp2"
+    ]
+  },
+  {
+    "id": "panel",
+    "category": "panel",
+    "brand": "Lutron",
+    "model": "Alisse / Aged Brass",
+    "source": "https://www.lutron.com/us/en/controls/keypads-remotes/alisse?sku=hw-qs-b-s1-ab",
+    "sourcepage": "https://www.lutron.com/us/en/controls/keypads-remotes/alisse?sku=hw-qs-b-s1-ab",
+    "caption": "古铜色方形Alisse面板，四枚圆形实体按钮。",
+    "before": "多个灯和窗帘分开操作，场景需要逐项调整。",
+    "after": "在配置好的Lutron系统中，按实体场景键统一调用设置。",
+    "position": "墙面预埋盒安装，接低压QS线及对应Lutron系统；不是可直接替换所有普通开关的通用面板。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://assets.lutron.com/a/pdp/hw-qs-b-s1/hw-qs-b-s1-ph-fr-w-7b2a-4567.jpg",
+    "dimensions": [
+      1440,
+      1440
+    ],
+    "file": "panel.webp",
+    "bytes": 30214,
+    "originalURL": "https://assets.lutron.com/a/pdp/hw-qs-b-s1/hw-qs-b-s1-ph-fr-w-7b2a-4567.jpg",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://www.lutron.com/us/en/controls/keypads-remotes/alisse?sku=hw-qs-b-s1-ab"
+    ]
+  },
+  {
+    "id": "art-tv",
+    "category": "art-tv",
+    "brand": "Samsung",
+    "model": "The Frame LS03FA 50″（2025）",
+    "source": "https://www.samsung.com/us/lifestyle-tvs/the-frame/ls03f-50-inch-black-qn50ls03fafxza/",
+    "sourcepage": "https://www.samsung.com/us/lifestyle-tvs/the-frame/ls03f-50-inch-black-qn50ls03fafxza/",
+    "caption": "The Frame电视正面产品图，屏幕显示艺术图像。",
+    "before": "看完电视后，墙上留下一块黑色屏幕。",
+    "after": "切换艺术模式，显示画作或个人照片。",
+    "position": "可用该型号随附的Slim Fit壁挂架安装；预留One Connect及连接线的位置，装饰边框另选。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://images.samsung.com/is/image/samsung/p6pim/us/qn50ls03fafxza/gallery/us-the-frame-ls03f-qn50ls03fafxza-546242569?%24720_576_PNG%24=",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "file": "art-tv.webp",
+    "bytes": 78092,
+    "originalURL": "https://images.samsung.com/is/image/samsung/p6pim/us/qn50ls03fafxza/gallery/us-the-frame-ls03f-qn50ls03fafxza-546242569?%24720_576_PNG%24=",
+    "previewDimensions": [
+      960,
+      720
+    ],
+    "supportSources": [
+      "https://www.samsung.com/us/lifestyle-tvs/the-frame/ls03f-50-inch-black-qn50ls03fafxza/"
+    ]
+  },
+  {
+    "id": "climate",
+    "category": "climate",
+    "brand": "Airthings",
+    "model": "View Plus",
+    "source": "https://www.airthings.com/view-plus",
+    "sourcepage": "https://www.airthings.com/view-plus",
+    "caption": "置于木质搁架上的View Plus空气质量显示器；图中含美区HSA/FSA标签。",
+    "before": "凭闷热或气味判断室内空气。",
+    "after": "查看CO₂、PM2.5、温湿度等读数，再决定通风或净化。",
+    "position": "置于常用房间的稳固台面、接近呼吸高度；避开日晒及门窗风口，前方留约25cm挥手空间。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://www.airthings.com/media/catalog/product/v/i/view_plus_-_us_-_hsa_eligible.png",
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "file": "climate.webp",
+    "bytes": 54238,
+    "originalURL": "https://www.airthings.com/media/catalog/product/v/i/view_plus_-_us_-_hsa_eligible.png",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://www.airthings.com/view-plus",
+      "https://help.airthings.com/en/articles/10290029-view-plus-starter-guide"
+    ]
+  },
+  {
+    "id": "audio",
+    "category": "audio",
+    "brand": "Sonos × Sonance",
+    "model": "In-Wall Speakers",
+    "source": "https://www.sonos.com/en-us/shop/wall-speaker-pair",
+    "sourcepage": "https://www.sonos.com/en-us/shop/wall-speaker-pair",
+    "caption": "取下面网后的入墙音箱正面，可看到高低音单元。",
+    "before": "桌面音箱和线材占用摆放空间。",
+    "after": "扬声器嵌入墙体，完成后以可涂色面网覆盖。",
+    "position": "专业开孔嵌墙并预留音箱线和功放；此无源型号需外接功放，Trueplay调校另需Sonos Amp与兼容iOS设备。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://media.sonos.com/images/znqtjj88/production/1b1e6838b035b201ac5e0904e68155a279c92cd2-2000x2000.png?w=3840&q=100&fit=clip&auto=format",
+    "dimensions": [
+      3840,
+      3840
+    ],
+    "file": "audio.webp",
+    "bytes": 16568,
+    "originalURL": "https://media.sonos.com/images/znqtjj88/production/1b1e6838b035b201ac5e0904e68155a279c92cd2-2000x2000.png?w=3840&q=100&fit=clip&auto=format",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://www.sonos.com/en-us/shop/wall-speaker-pair"
+    ]
+  },
+  {
+    "id": "mirror",
+    "category": "mirror",
+    "brand": "Robern",
+    "model": "Vitality YM2430RCFPD3",
+    "source": "https://www.robern.com/products/mirrors/vitality-mirrors/column/ym2430rcfpd3",
+    "sourcepage": "https://www.robern.com/products/mirrors/vitality-mirrors/column/ym2430rcfpd3",
+    "caption": "竖向双灯带的矩形浴室镜官方产品图。",
+    "before": "浴后镜面起雾，梳洗时面部光线不足。",
+    "after": "壁面开关启用除雾，配合可调LED补光。",
+    "position": "挂装于浴室墙面，镜后由电工预设电源插座；照明与除雾按该型号说明分别控制。",
+    "license": "未见开放图片授权声明；品牌官方产品参考图，注明来源，不代表本案已安装或已获转载许可。",
+    "imageURL": "https://s7d4.scene7.com/is/image/KIG/Vitality_YM2430RCFPD3?hei=1000&wid=1000",
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "file": "mirror.webp",
+    "bytes": 3000,
+    "originalURL": "https://s7d4.scene7.com/is/image/KIG/Vitality_YM2430RCFPD3?hei=1000&wid=1000",
+    "previewDimensions": [
+      960,
+      960
+    ],
+    "supportSources": [
+      "https://www.robern.com/products/mirrors/vitality-mirrors/column/ym2430rcfpd3"
+    ]
+  }
+]

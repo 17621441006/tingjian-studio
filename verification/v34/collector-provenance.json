@@ -1,0 +1,252 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+  "entries": [
+    {
+      "room": "dining",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. A compact dining and entry area connected to the reference living room. A small oval smoky-brown stone dining table seats four on walnut chairs with saddle leather seats, walnut shoe/storage cabinetry with a recessed bronze-lined key shelf beside entry door, quiet framed landscape art, one sculptural bronze pendant, herringbone walnut floor continuing into a glimpse of the living room. Camera from dining corner shows complete table, entry and living connection with natural circulation. No extra giant spaces.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2ace9e10-3ccc-490d-b939-3ca183f9288a.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2402662,
+          "sha256": "bdd50964ee002b1316903f2ccf310ffcb5bbb28206a6ef0ff2d2e118b51f57c2"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 244496,
+          "sha256": "e0cd2c366170fd77618b21ec5f039d88b72afc611e32e861894bdb41d7d01c96"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 30498,
+          "sha256": "766e5d2239ecf2588b71edcb05372814fa516f99b48ddddbb3bba6b5190c1dc6"
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. Calm compact master bedroom with a 1.5-meter double bed, walnut paneled headboard wall, rich taupe linen bedding and smoky brown wool throw, narrow built-in bedside ledges, patinated bronze reading lights, walnut wardrobe, subtle classical picture-frame detailing, subdued antique landscape art. Window and layered taupe curtains admit daylight. Walnut herringbone floor, muted wool rug. Camera from doorway shows full bed, storage and window.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d1823d1b-3445-461c-b362-16c43fbbe30d.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2540264,
+          "sha256": "0be5e021be70160ff6946f0b1fc2de8db65e266cd35c9855f6b981b7aa71dd9f"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 285330,
+          "sha256": "64a133b7d6e7b8271cfe47e305a58276e555e371bd1d1672af69bc47da21e31a"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 37580,
+          "sha256": "1c3e5660ca24fc1ef456a6e0143a1b5921118e77a6160c489bac12940550dee3"
+        }
+      ]
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. Creative compact second bedroom used as guest room and study. One real single guest bed with taupe linen against walnut paneled wall, a tailored small walnut writing desk under the window with saddle leather chair, built-in walnut cabinets and a few carefully arranged art books and ceramics, bronze task lamp, charcoal framed drawing, herringbone walnut floor. Show the full small room and practical passage between bed and desk. Welcoming, thoughtful, lived-in.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-cb3882ff-2209-46e5-9d94-12711eb9789e.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2543139,
+          "sha256": "2ed2a2165afa6650b48e062e1e35619e694d7bdfc5eb1a901802e63c4537d65b"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 286360,
+          "sha256": "c6974c9da165651824082578da7efa83337b65e1045e9fe682ff403f3eb57dd1"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 34796,
+          "sha256": "a64570799b737ecd98513ef90210bb5f9709c0c108ca8d10b6807a2feba69aa8"
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. Compact enclosed L-shaped apartment kitchen, rich walnut base and upper cabinets with restrained bronze pulls, smoky brown stone worktop and backsplash, concealed full-height refrigerator and dishwasher integrated behind walnut fronts, discreet induction cooking and sink, bronze faucet. One small window provides natural daylight. Dark warm stone floor, subtle task lighting. Full-room composition from doorway, honest compact kitchen without island.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6008be01-ac80-4b46-acf0-66cc336e8465.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2157161,
+          "sha256": "e5c84d15e161347905b6d25b861d1bd9f464bdaadf76496545ba87bdbf9a3c68"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 205234,
+          "sha256": "38c9105e3111c4caed9a9e4a26f0fe04ebc7eae9436f258edbaeda1c7bb3d7f8"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28114,
+          "sha256": "11649fd6d60a4c6d14417ae0d567b331806571203405a725ca4039cec2192ed9"
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. Compact apartment bathroom with smoky brown stone walls and floor, walnut floating vanity with bronze pulls, brown stone basin countertop, simple large bronze-framed mirror, patinated bronze taps, frameless glass walk-in shower with floor drain and bronze shower fixtures at rear. A discreet wall-hung toilet fits naturally beside vanity. Warm quiet material richness with real daylight from small frosted window, gentle integrated lighting. Full room visible from doorway, sensible dry/wet zoning.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-16562c42-c344-4b3a-b567-703c41e8def1.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2602746,
+          "sha256": "32c20d8181879697cc734dba9d4637a1e0422ee8a67f70da7b310487a180023a"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 306382,
+          "sha256": "6c7eb704411037bd141ca8a4e7f2114e0fe68ac0bfb52f0cdf006d335e415148"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 38348,
+          "sha256": "38e33640a31a60e9b194a0aa4a1553159f9d89d0f06f5157c00d460f6dbe6fdd"
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. A compact enclosed apartment balcony reading and tea space, floor-to-ceiling black-bronze framed glazing overlooking soft Shanghai urban treetops, dark walnut low book/storage cabinets, one saddle leather lounge chair with bronze reading lamp and a small walnut tea table holding two ceramic cups. Walnut or dark wood-toned floor, taupe linen shade, one restrained green plant. Calm natural daylight, full narrow balcony composition and believable proportions.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-3986c75f-b480-4f68-96df-0bbac1f2c6d4.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2642374,
+          "sha256": "88b09e5a91e6ea624fece268b6fab930e456e2744af3fbb6b72a1f2b8b65ddc8"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 321506,
+          "sha256": "6c0e2ccd90df1b6d4095336652f4c31cee482cdefc0308a0142009a1afb7f0fb"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 42838,
+          "sha256": "9571bab895f377deda2d4abc9a027e23fd23a36e9146e38617dacbc97f316f67"
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone photoreal interior design editorial photograph, landscape exactly 1536x1024 native pixels. Input image is style/material reference only, NOT an edit target and NOT a room to repeat. It shows the existing living room of the SAME modest Shanghai two-bedroom apartment. Create the requested different room as a coherent whole-home designer concept gallery. Match rich walnut wall panels and joinery, subtly patinated bronze metal, smoky brown stone, saddle leather accents, taupe woven fabrics, understated classical details fused with restrained Edition-hotel modernity. Sensible compact real apartment proportions, straight walls and true verticals, physically credible furniture, careful joints and tactile natural materials. Natural window daylight with subtle warm integrated lighting and discreet intelligent light switches/control panels. Full-room composition, refined architectural photography, no humans, no text, no logos, no palace, no oversized luxury apartment, no bright all-white room, no collage. Small glazed laundry alcove in the same apartment, a practical compact utility room with integrated walnut storage cabinetry, stacked washer and dryer neatly housed in a tall walnut niche, smoky brown stone worktop with small utility sink, subtle bronze tap and pulls, concealed laundry basket, daylight from glazed window, dark warm stone floor. Doorway composition shows complete compact alcove and efficient appliance access. Sophisticated material match, no huge service room.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ddb4b271-b436-49da-a316-0a829ef6d922.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2301200,
+          "sha256": "07e2478e31137a6cf49f6a98a86cf7f96bcb4d1aa062905ff39207e8d1a19a24"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 237406,
+          "sha256": "674fccb6f0c52ba98a663b1024689612280c6dc1766042578976de15d8dc1afc"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/collector/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29844,
+          "sha256": "f7b1b81b5d187ecbf401d23248a336cbba3776514e09dad652e90ad631518a1b"
+        }
+      ]
+    }
+  ],
+  "count": 7,
+  "total_image_bytes": 19318278,
+  "inspection": {
+    "status": "passed",
+    "method": "Pillow dimension checks plus visual inspection of all seven images on contact sheet",
+    "notes": "Seven distinct coherent spaces. Rich walnut, smoky brown stone, patinated bronze, natural daylight and compact practical layouts. Living reference preserved without regeneration. No visible text or image mosaics in deliverables."
+  }
+}

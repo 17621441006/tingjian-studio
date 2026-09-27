@@ -1,0 +1,776 @@
+[
+  {
+    "path": "dist/designer-v34/collector/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 42838,
+    "sha256": "9571bab895f377deda2d4abc9a027e23fd23a36e9146e38617dacbc97f316f67",
+    "gitBlobSha": "8f2d581af93e9826b13ad62630ca0949648a8f18"
+  },
+  {
+    "path": "dist/designer-v34/collector/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 321506,
+    "sha256": "6c0e2ccd90df1b6d4095336652f4c31cee482cdefc0308a0142009a1afb7f0fb",
+    "gitBlobSha": "3217bd178a8ce55c95a17c7a79a330b3118e3969"
+  },
+  {
+    "path": "dist/designer-v34/collector/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 38348,
+    "sha256": "38e33640a31a60e9b194a0aa4a1553159f9d89d0f06f5157c00d460f6dbe6fdd",
+    "gitBlobSha": "5c79269e171c39da8cbf0a12dde5cc3a709c5fb0"
+  },
+  {
+    "path": "dist/designer-v34/collector/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 306382,
+    "sha256": "6c7eb704411037bd141ca8a4e7f2114e0fe68ac0bfb52f0cdf006d335e415148",
+    "gitBlobSha": "a79ab6f4fd79bcc250d7b70d44fba9d7d11113ff"
+  },
+  {
+    "path": "dist/designer-v34/collector/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30498,
+    "sha256": "766e5d2239ecf2588b71edcb05372814fa516f99b48ddddbb3bba6b5190c1dc6",
+    "gitBlobSha": "c6c6a41c6c4539847025e8d511afd684b2f808fb"
+  },
+  {
+    "path": "dist/designer-v34/collector/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 244496,
+    "sha256": "e0cd2c366170fd77618b21ec5f039d88b72afc611e32e861894bdb41d7d01c96",
+    "gitBlobSha": "11e5647f895c92f062c809bbe7f4971f2da131fd"
+  },
+  {
+    "path": "dist/designer-v34/collector/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 28114,
+    "sha256": "11649fd6d60a4c6d14417ae0d567b331806571203405a725ca4039cec2192ed9",
+    "gitBlobSha": "9a85d3b9608913c18f75eda439da91dbecd330e4"
+  },
+  {
+    "path": "dist/designer-v34/collector/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 205234,
+    "sha256": "38c9105e3111c4caed9a9e4a26f0fe04ebc7eae9436f258edbaeda1c7bb3d7f8",
+    "gitBlobSha": "e974fd0207cd527adeb910e1d0568f17fd5763d4"
+  },
+  {
+    "path": "dist/designer-v34/collector/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 37580,
+    "sha256": "1c3e5660ca24fc1ef456a6e0143a1b5921118e77a6160c489bac12940550dee3",
+    "gitBlobSha": "9659d3a328d0667900b29481908c5af754be0440"
+  },
+  {
+    "path": "dist/designer-v34/collector/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 285330,
+    "sha256": "64a133b7d6e7b8271cfe47e305a58276e555e371bd1d1672af69bc47da21e31a",
+    "gitBlobSha": "7fa159ca5bda0a1de6f75c88389625e2c01357c4"
+  },
+  {
+    "path": "dist/designer-v34/collector/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 34796,
+    "sha256": "a64570799b737ecd98513ef90210bb5f9709c0c108ca8d10b6807a2feba69aa8",
+    "gitBlobSha": "f2840994323e1c5f93d3c360956f1e2ee5ee88e2"
+  },
+  {
+    "path": "dist/designer-v34/collector/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 286360,
+    "sha256": "c6974c9da165651824082578da7efa83337b65e1045e9fe682ff403f3eb57dd1",
+    "gitBlobSha": "d4cfd8ad789e814f2c527af122c5132fb0c41ee1"
+  },
+  {
+    "path": "dist/designer-v34/collector/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 29844,
+    "sha256": "f7b1b81b5d187ecbf401d23248a336cbba3776514e09dad652e90ad631518a1b",
+    "gitBlobSha": "69130b124e84e808c6940da35971797a7056ec24"
+  },
+  {
+    "path": "dist/designer-v34/collector/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 237406,
+    "sha256": "674fccb6f0c52ba98a663b1024689612280c6dc1766042578976de15d8dc1afc",
+    "gitBlobSha": "2bdc4210a605af76ab03e66e267b319c5a812f13"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 37928,
+    "sha256": "c587190626313c06ce91a88341ff3ad3caa6691ee201550407b62f4eb9427f41",
+    "gitBlobSha": "a5870e369207e8a971b510b9adba8f68dbe2956e"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 233692,
+    "sha256": "43d63750cd3f6212978b42c5e2cdbb614d4827c2775601c3756dac8730fcf1c0",
+    "gitBlobSha": "9c11e795236512d1ac57c9f63d9d2be8b221a482"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24082,
+    "sha256": "d7c700296bbb2db9b2fefad738a19830434034244ba7ec40c1785cb1113e5f31",
+    "gitBlobSha": "7c4d4a9fa40d250392d0763cc16dffff3d02c896"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 196134,
+    "sha256": "beb1f13e7770310eca37504c641d04732f5bbe8898ead7e929789ffb2c618f7d",
+    "gitBlobSha": "269db1eef2ad099894ec073abf3111b755ef3ffa"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 29720,
+    "sha256": "196dc6301c70c0b919b2c7a8aedf567b3a66d2fd88272b9430a27ceeaec4b515",
+    "gitBlobSha": "ebb809680f8e3de3810fdf6c8b5d2b114aa1879c"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 225488,
+    "sha256": "5ee86491016fb1e8f493afc017790ecfe6eeee4179cbf54ee903951192665d43",
+    "gitBlobSha": "8970cb2b826e17598774405e7d8f7b06ef6ae32c"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 25090,
+    "sha256": "c2d75e629458d288cf52f8464329466cbfe398118aee8acec7596cb924123b2b",
+    "gitBlobSha": "0598424daa9619108741917853bd4dc499e8d3f0"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 198416,
+    "sha256": "fd8222eed9803b3cb289b88fe979c8f927f2f2758be9520b36f1967a0b8daa72",
+    "gitBlobSha": "d41cbd8fc62c5da0a8f3141a75112e41e789b69a"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 29544,
+    "sha256": "d0e57569dae752fd229d1ab3e120bd6fa7e1a84d424df18dc3f6535519fa70b7",
+    "gitBlobSha": "b7945926e5463aaf1cf2afb9bc1723e929f3c62c"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 244672,
+    "sha256": "de7f4a3582df202be1c562f0e9699112bcecca5d6d6984386af1e48b2c62b182",
+    "gitBlobSha": "fb61163d875e2a59dbeec3e8548e7f5c01dd440d"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 39836,
+    "sha256": "6cbebeeb4a7890f0f1e8c9211b51710ab54423e9fd2486f23312bd9fd34d7bf3",
+    "gitBlobSha": "d662a63315c48e430d547af020538dd0d5989260"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 309550,
+    "sha256": "531a3b43570a39d1e06e916f15cb091a6a88f9e81988d6b20133c5bda9e911a1",
+    "gitBlobSha": "b079a27c8bb87a787b3b8134d66a70a52f99a43e"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30234,
+    "sha256": "2a56669d656a142a395629c431110fa19c8795760ebba8fe24e6bbcf4dab0edf",
+    "gitBlobSha": "aee5f99015b746a11be057c826fa0395e8fe996c"
+  },
+  {
+    "path": "dist/designer-v34/nocturne/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 230292,
+    "sha256": "0c738969d1d42390e4e9d8bf28db7fa8ee114787b4cbb9cd716693aa5a887419",
+    "gitBlobSha": "95815d64b3db1052b88aa771fa545c2c248462d1"
+  },
+  {
+    "path": "dist/designer-v34/oriental/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 33388,
+    "sha256": "d4add40080798cf6f737138600477e7a7dc9ac62f65808394b09e39798f9d7d9",
+    "gitBlobSha": "9c89abb33c9feaaa16b904dfcb775b27973a6679"
+  },
+  {
+    "path": "dist/designer-v34/oriental/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 326124,
+    "sha256": "f5ae0905cb7593800d636fa6c7e325d5aee3405d78a228234c50871f3bbdcea2",
+    "gitBlobSha": "fb65c3b4a78b53ce2643b64101d7da15874dc4cd"
+  },
+  {
+    "path": "dist/designer-v34/oriental/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 28624,
+    "sha256": "c5b14479580e55e1b875b10c2a60c33d40ab9e20218066a58ac1c3bca7c47c3b",
+    "gitBlobSha": "217450836aaa9b951fc17752de191f1621f4b09c"
+  },
+  {
+    "path": "dist/designer-v34/oriental/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 351480,
+    "sha256": "3d632aee89ba029a2b721996239575bd28a90b0c7150b1e16ba965255441b66a",
+    "gitBlobSha": "1593a0db835a6906fb4ecac4f8d437dd9c2eecf5"
+  },
+  {
+    "path": "dist/designer-v34/oriental/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30900,
+    "sha256": "f72c06c633306d2f7d37733479b32ef0e886c5867e34bc58cd26a3fc9f21b155",
+    "gitBlobSha": "ba6117ee27a20312b259bcf28b18e889a705ee88"
+  },
+  {
+    "path": "dist/designer-v34/oriental/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 312450,
+    "sha256": "95bf3e6dfa853352188489473157427b07fea8bf12071e3297d0754d59c51bf2",
+    "gitBlobSha": "d094f9b41e5481cd86fa9f109632bcf3789be777"
+  },
+  {
+    "path": "dist/designer-v34/oriental/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 24640,
+    "sha256": "1dcf42887eb61bd19f260b28d5ed274d8cf694a929d024857a770f32c4d4cca7",
+    "gitBlobSha": "38b7b88484269afe7dbb04da151b219352c8bc4e"
+  },
+  {
+    "path": "dist/designer-v34/oriental/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 271138,
+    "sha256": "1ee99bb146f72cdfe3d02e709e4133eaa61351621a62f5905932d1649ddb6a75",
+    "gitBlobSha": "3ab2c332a687796f12e1dabc30a7494da1d5055e"
+  },
+  {
+    "path": "dist/designer-v34/oriental/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 27024,
+    "sha256": "541fb8614d1b8fb355c85731220f87d2f2ac0086b3bde05a923ae80b25f11011",
+    "gitBlobSha": "3da53738483fa6317a2a6d8d75a7823bf85ac157"
+  },
+  {
+    "path": "dist/designer-v34/oriental/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 324990,
+    "sha256": "e871da5405e7857e4538a38f8e0c7dbd4d9cfa69329bb3a01ad007d424eaf71a",
+    "gitBlobSha": "6f2ae2e32358c86682611f044a287dd471b63cfc"
+  },
+  {
+    "path": "dist/designer-v34/oriental/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 27390,
+    "sha256": "e33e467a5b1ea80a07147f0925bbbaf67e25510bce1f15dc99910502824b6513",
+    "gitBlobSha": "3ad69868ff476899ca17181c54e8b0d27c50071d"
+  },
+  {
+    "path": "dist/designer-v34/oriental/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 292944,
+    "sha256": "a91873d485c03321b988931d3c9c49d3de86c20194d03f71bf66696e7ceb0fb8",
+    "gitBlobSha": "d4335839a63c44ab034304aecd1d9ea0f6a005c6"
+  },
+  {
+    "path": "dist/designer-v34/oriental/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 27294,
+    "sha256": "40283e07066940f2dcef15f2593ee9ad63db7e6aa27bb8d5cdf7698fd3e4e283",
+    "gitBlobSha": "d0b98c99ec2088cbaa957f638a9d868ef8544d2f"
+  },
+  {
+    "path": "dist/designer-v34/oriental/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 246196,
+    "sha256": "272eb2e1cbd48a0588b50f7c542b05197607ac7a62cd5c7825a015491c78f597",
+    "gitBlobSha": "1c9c12b5b749bcaec27a5f2b13c9ae1544942a05"
+  },
+  {
+    "path": "dist/smart-v34/art-tv.webp",
+    "width": 960,
+    "height": 720,
+    "thumb": false,
+    "bytes": 78092,
+    "sha256": "b9dd2ee635951d53e2b233815554ae055b04d7ee3c031158eb4c6b7e9463d79c",
+    "gitBlobSha": "87aaa9563613db60479953caa983a265bef408a6"
+  },
+  {
+    "path": "dist/smart-v34/audio.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 16568,
+    "sha256": "f2f4f5f7c366db2804f4118f088053f002297432235cfff1a1b942b2ec5d6b9b",
+    "gitBlobSha": "74c13a7e0474ca1a7e7b6fc436741c207d840e66"
+  },
+  {
+    "path": "dist/smart-v34/climate.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 54238,
+    "sha256": "93572f6546ba18b38fbce805355d8983a9d805bc8c804c84d566f6c754aa55f4",
+    "gitBlobSha": "ff8072aa549f5911224e93b2b004df03f3db20c9"
+  },
+  {
+    "path": "dist/smart-v34/curtain.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 6292,
+    "sha256": "0cf6882a0be6ff282cefe49ff6b93ba8b753e0b5be781e11243e3ba9ace5f0a6",
+    "gitBlobSha": "575df63ded62e231ccbded85c33e72f509ab3e41"
+  },
+  {
+    "path": "dist/smart-v34/lighting.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 29610,
+    "sha256": "2d3481416cbd42702e3f266e1876911df1373e79a01ff698424ac12b9ab56d43",
+    "gitBlobSha": "24d704d4cc44db2e9f1c4355d7351dc87e47d9ca"
+  },
+  {
+    "path": "dist/smart-v34/mirror.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 3000,
+    "sha256": "30ccb4227bb3a89e3772949c114d517bed1248ce1f6cb8ce098044ff86b694cf",
+    "gitBlobSha": "e708148129e18af87e024b688f2d2e8e2067e6d6"
+  },
+  {
+    "path": "dist/smart-v34/panel.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 30214,
+    "sha256": "df2fcdd01603d931f46b9e1296c0c4c22939bc3b21b5cdd7893cdd1666794087",
+    "gitBlobSha": "8e1db0e80938e2a0a8b0234be243bb6e746ddd67"
+  },
+  {
+    "path": "dist/smart-v34/presence.webp",
+    "width": 960,
+    "height": 960,
+    "thumb": false,
+    "bytes": 8222,
+    "sha256": "d581ecb5d2723e3fd7855abb036a3218ff2e3affd955bff9f0c81f2915c5b90c",
+    "gitBlobSha": "a479a129841f62f3714bad9d17f3c9fb24445895"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 39666,
+    "sha256": "9dc771af813d0f20886e6694dfe21f4e431645240afce3d7ffc71f55a282f70a",
+    "gitBlobSha": "a80f050d813196c8e9995e59e3f2923ed34e7290"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 273036,
+    "sha256": "af042449f1ea40dc549840aadf52083cc7f365a9cfb188fdec7331452848f115",
+    "gitBlobSha": "6d65fc32cd9fcc421a2ed561e87f3e9423e1a906"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 33332,
+    "sha256": "b1b8600302bce1e2ca669edf96bcfc821660ecfdc3b6fb601544da669231ed97",
+    "gitBlobSha": "81f03391ea21e4c118bb61494fb95e64264063f0"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 245832,
+    "sha256": "589fde9f0f605a2e9ec4ed62c23442dbcda89023e2c2d1aaf50271d3e152ab25",
+    "gitBlobSha": "3c754296ca9a81068ee77387f913540c1f24cf50"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 23118,
+    "sha256": "68fdc6632bcf2d37a775673dc9163740d78fd6713ce3cc85972ec1013ee3ac2e",
+    "gitBlobSha": "478bab031910b89d8a275c8813914ffcc6436b6a"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 147974,
+    "sha256": "a9776f7ee7b0c3763fb1b560d974ff54d757192e43bb2252545ab443d64999bf",
+    "gitBlobSha": "7bdc9f0676a48263f0542e516d2d3289e4cef705"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 28044,
+    "sha256": "3a8a2862849ce62248b83e7248020d70e77ce4896d66609ce16509bba976ede1",
+    "gitBlobSha": "600d8e27a2c568fe65cb7b73d2028db7c75dee46"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 210540,
+    "sha256": "05b207c2110138b4a3a42deddabfb6e472b3c212a4a82bafcb3911f028811715",
+    "gitBlobSha": "7e7a1d59a022ad373e5a536dba9d2efeecca3141"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/living-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 31726,
+    "sha256": "dc26dc83e838ffe004fc457961f924246b1c2e5acd82dae6114f3d563c4bcb39",
+    "gitBlobSha": "92cd42c544a2114562dd21b3c30d81e50d828f0c"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/living.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 264600,
+    "sha256": "06949812c284e9247847f222408e252e15d7bde1b2dc69f50082a1c378e6aeb7",
+    "gitBlobSha": "328e8f18346e6737a40b427358b498db2ba11aab"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 32658,
+    "sha256": "f890f17af4e2d383785f91b6295b4e6b925baca13e785c159e5275d7b66bed25",
+    "gitBlobSha": "9f0fa1a25d98da8824e8d25422968a96bd7566b8"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 225928,
+    "sha256": "d77f2f44231e0d6ca4600d98571da8df8d8efe044ae2d2b08744d5557c34d3a7",
+    "gitBlobSha": "11ee533e3f1880dd02a84cecb0f0154296095cbd"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 30140,
+    "sha256": "349d4534dadfe4d0bc91d637888842051c861618f00f74544a83fb0fed22b661",
+    "gitBlobSha": "f3e346d92827d3db05cb21257f8fe480eb78cd6d"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 266512,
+    "sha256": "26a95efa6c62e7ef8aea0a4d30fb2c1491bb3d223740c1f392150d3f24008c0c",
+    "gitBlobSha": "06d74737f78f4c15161289bc39f8cd3ed10d76b9"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 26016,
+    "sha256": "9a19a69f8802eaecffa4a3d5de1e78593788f7c69a7a7ff47a0c02ef7f645b62",
+    "gitBlobSha": "a2a16859c01ce13b466429566b89aa5f0efa0928"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 184806,
+    "sha256": "bc911ee36935121378a1210716e41c1ebebb66d5669fff7f670b969dd72914e3",
+    "gitBlobSha": "12e86834000c0805dbb90875a1facb477d38059d"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 39264,
+    "sha256": "c1fad3918ecb65835a2ff35596fd42b45749c1561cdf05092a04ac457905f933",
+    "gitBlobSha": "2f207b394a32611e8ba43029dd4fcd8e917a008b"
+  },
+  {
+    "path": "dist/designs-v26/mauve-walnut/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 249562,
+    "sha256": "0ed2d00c39e19d58dab0422b4514d9f970b2df43604a96d94e14df0478a6bf4e",
+    "gitBlobSha": "aa7dd44ed340c6f8c2cc73482eea4d8a3d463387"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/balcony-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 36520,
+    "sha256": "9a35f8e6be769e1c861bd11a8d04738615c225f8f2b3ea4a2d80bad4d7b559d0",
+    "gitBlobSha": "27b70048054ad5d1b93512827076b969f9a625b6"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 305146,
+    "sha256": "dd86973be294bb4efa59cf324029336ec262a768cc1fdd73ef9689be20c02f79",
+    "gitBlobSha": "355d772c3df2d4638e9c58c9aeea7610ca7ab101"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/bath-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 21368,
+    "sha256": "374594235c1cdac6afb445e756fb9de22c175e62c0181590b7b15a877310bf96",
+    "gitBlobSha": "559af3e7cf826bfd70777c0362d7a4219a7c78ea"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/bath.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 188360,
+    "sha256": "9c43e01727a6ba8b4e99f9ea8b0f5fbb0adf25970c72057588f9d118ce70a791",
+    "gitBlobSha": "450deef21a0a983983181225d021aa976ce7cb03"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/dining-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 19308,
+    "sha256": "757ddeefa223b12a9c236cf2430a01fb8f0bfcfb777df9a241d2dad6b0c2c802",
+    "gitBlobSha": "4b2df9c3299ff46464f83c4e4e8c862593566e4e"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 135684,
+    "sha256": "e9815c148498dd602327c0920ee04760d5755f8c98f7dcbda14553b8b0cce3cf",
+    "gitBlobSha": "3b432fc96b3b29d5f25077893d2899550bb8f9d7"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/kitchen-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 20748,
+    "sha256": "7aac72f8b47bf9bd4c4230ec0913b1d85563f8b3ffd16d61c8bfe5195b5a1684",
+    "gitBlobSha": "b527cf91e824fd2d88bee1ae26b368f0cc245f2c"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 148010,
+    "sha256": "d1b058bf2633893cd012e67425ae296c5e2269b29278c3f57e9f7383fa9e10f7",
+    "gitBlobSha": "3e8211332eadcad36b4706b0afdea7f8a7935fbf"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/living-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 23730,
+    "sha256": "0aa41bb7c702597f3dc848f7704b106a58b2126adf3a25833e20e8fee6ef272a",
+    "gitBlobSha": "88502ae77cc49d5adcedd96a23cdc8c42af86af4"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/living.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 231728,
+    "sha256": "a9d1ef63abb883c0a950a47072312f6a152b639f39abe536a7818732d4e750ca",
+    "gitBlobSha": "9d56d9526b929afb552e506a3dd80edfca935a64"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/living2-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 25662,
+    "sha256": "92e91e8bcb3511238d9c0635f970a7f869f86bee316c56dc9d2ff88268c8ddb6",
+    "gitBlobSha": "53b69c2bfc89633df8a97e2cc2909631c622f9b6"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 208734,
+    "sha256": "3d4139b290c04e499fdcc7bdee88a84eb0f3f20719581fbc72060d6ca1e9254d",
+    "gitBlobSha": "fb5ebd8c213a93ee6366890da6bbc2804d258875"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/master-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 25766,
+    "sha256": "c6f60d2f27dbdfbe36b119f2e2efbee22e385132aa89e794926b038506614536",
+    "gitBlobSha": "086cf763a86254e3fa4551a96d6f824f3e95d6ea"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/master.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 243012,
+    "sha256": "278f1b129f06a06e633c79df96e9887ad69ed2785064c2e241a8b65f2c9a9e04",
+    "gitBlobSha": "4eb2c9b6e0d595045a3ccfae61cca18c5d5a1429"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/second-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 28872,
+    "sha256": "f326f286a438a962256e142798eb9e72f02699cd8ac17b4d941f67125e4719db",
+    "gitBlobSha": "ae1a4ef7908c097e289dcd1b2e2fccd41e7041c2"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/second.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 243436,
+    "sha256": "2b742be940742b3bd42961e54e41e06e34c0f681c701f3f83a0fe19972cb8f0c",
+    "gitBlobSha": "957f1c71b90e2f15635079af100b27bb38a2070d"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/utility-thumb.webp",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "bytes": 32836,
+    "sha256": "90411ebd2b81afa8ed564333eb40271e99afd48d6798955dee3e41b68ec966f5",
+    "gitBlobSha": "057a1272a9d67cc7235379ce611e986a3ef3448d"
+  },
+  {
+    "path": "dist/designs-v26/plum-gallery/utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "bytes": 218140,
+    "sha256": "4a135a34148d73d20f59c68cec0911ad6d779942143b3a566d6eb684f86d323b",
+    "gitBlobSha": "2538d933c6ed944dea10841a3c40067635474e67"
+  }
+]

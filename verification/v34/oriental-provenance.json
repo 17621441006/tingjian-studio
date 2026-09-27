@@ -1,0 +1,252 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "style_reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+  "reference_role": "style and material palette only",
+  "assets": [
+    {
+      "room": "dining",
+      "prompt": "Use case: photorealistic-natural. Create exactly ONE landscape 1536x1024 architectural interior photograph, standalone designer gallery asset. Same modest compact Shanghai two-bedroom apartment concept as reference: dark red-brown walnut/elm wall panels, warm grey-brown stone, celadon ceramics, burnt orange accents, contemporary Chinese refinement, rich natural grain, soft side daylight and subtle concealed warm lighting. Reference is style only, NOT the same room. PRIMARY SUBJECT: small dining area and entry, cleverly fitted 4-seat rectangular dark elm dining table with gracefully curved contemporary Chinese wooden chairs, dark stone-topped shallow sideboard, one celadon bowl, burnt-orange upholstered entry seat and integrated full-height walnut shoe cabinet. A simple passage and entry door suggest realistic compact apartment circulation. Restrained artwork without text. Eye-level 28mm lens, straight vertical walls, realistic modest scale, warm intimate editorial photography. Avoid palace, mansion, excessive empty space, bright white overall, traditional cliches, dragons, lanterns, text, watermarks, people, collage. Generate native 1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-a3ee5bd4-3794-4315-9c33-7904295bc2a1.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2581010,
+          "sha256": "b88efa36f5ca49250762a8764e89ceedf2045d913119b2eea83666fad72475db"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 312450,
+          "sha256": "95bf3e6dfa853352188489473157427b07fea8bf12071e3297d0754d59c51bf2"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 30900,
+          "sha256": "f72c06c633306d2f7d37733479b32ef0e886c5867e34bc58cd26a3fc9f21b155"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: photorealistic-natural. Create exactly ONE landscape native 1536x1024 architectural interior photograph for a full-home designer gallery. Reference image is palette/material style ONLY: a coherent modest Shanghai two-bedroom contemporary Oriental apartment, not grand luxury. PRIMARY SUBJECT: compact master bedroom, a beautifully crafted dark red-brown elm/walnut bed with LOW broad wooden headboard and subtle rounded joinery, taupe linen duvet and burnt-orange throw, small floating bedside ledges, one celadon ceramic lamp, warm grey-brown textured plaster above headboard, flat red-brown walnut wardrobe, glimpse of floor-length linen curtains and daylight window. Distinct quiet bedroom composition with bed dominating, plausible 13sqm room and sensible walking space. Rich wood grain, warm stone flooring, deep brown palette, natural sidelight, discreet hidden warm lighting. Restrained classical+modern sophistication, eye level 28mm lens and straight walls. NO living room furniture, palace, mansion, oversized room, white bright overall, decorative Chinese cliches, text, logos, people, collage. Native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-72612b69-e330-45d4-8e94-c4e3736e7998.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2732730,
+          "sha256": "74fd0c92ff79efcc45e8cc3719bb262c9004b0d1c4d6a3a109fe3e0739cd71e3"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 324990,
+          "sha256": "e871da5405e7857e4538a38f8e0c7dbd4d9cfa69329bb3a01ad007d424eaf71a"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27024,
+          "sha256": "541fb8614d1b8fb355c85731220f87d2f2ac0086b3bde05a923ae80b25f11011"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: photorealistic-natural. ONE standalone landscape native1536x1024 interior photograph for designer full-home gallery, coherent modest Shanghai two-bedroom apartment. Reference image sets palette/material style only. PRIMARY SUBJECT: inventive small second bedroom study, compact 8sqm square room. A built-in reddish dark elm raised platform SINGLE bed directly along a daylight window with drawers under it and taupe mattress, burnt-orange lumbar cushion. Adjoining integrated slim desk at right-angle to bed with a single contemporary wood chair, closed walnut cupboards over desk and small illuminated books niche, celadon pencil vessel. Show clear working surface and clever compact joinery; this is fundamentally different from a central double-bed master. Contemporary Chinese refined design, red-brown timber grain, warm grey-brown plaster and stone, calm natural daylight, understated hidden lighting. Camera from doorway at eye level, straight verticals, architectural editorial realism, cozy but practical. Avoid huge room, central double bed, white bright decor, palace, thematic Chinese cliches, people, text, watermarks, collages. Generate native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-89604279-57af-493a-8edd-f0ea59072815.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2469794,
+          "sha256": "27e1bf3bdfcbf14c6691635c80123bd1d72526aac7db8ce186c4bda532c91393"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 292944,
+          "sha256": "a91873d485c03321b988931d3c9c49d3de86c20194d03f71bf66696e7ceb0fb8"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27390,
+          "sha256": "e33e467a5b1ea80a07147f0925bbbaf67e25510bce1f15dc99910502824b6513"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: photorealistic-natural. Generate ONE standalone native1536x1024 landscape architectural photograph: the KITCHEN of a modest compact Shanghai two-bedroom apartment, coherent full-home designer gallery. Reference image defines material/palette style only. Small practical enclosed L-shaped kitchen, about 6sqm, deep red-brown walnut flat-front cabinets, dark warm grey-brown honed stone worktops and backsplash, slim bronze handles, integrated black induction hob and concealed hood, undermount sink near a modest daylight window, integrated refrigerator wall, one celadon storage jar and a restrained wood chopping board. Show realistic functional layout, generous enough countertop, no island. Beautiful dark wood grain and rich stone texture. Contemporary Oriental refined design combining classical material warmth with modern clean joinery and discreet undercabinet lighting. Natural daylight, warm deep palette without bright white overall. Eye-level architectural editorial photography 26mm lens, straight verticals and walls. NO giant kitchen, palace, grandiose decor, lanterns, cliches, people, text, watermarks, collage. Native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-941c480d-ac9f-4e3a-9d5d-835f38042f6e.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2394469,
+          "sha256": "9409bd9b61f3247614fe0e5f9f23be1c7cabeb62ca2475bed67dd56599480d21"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 271138,
+          "sha256": "1ee99bb146f72cdfe3d02e709e4133eaa61351621a62f5905932d1649ddb6a75"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24640,
+          "sha256": "1dcf42887eb61bd19f260b28d5ed274d8cf694a929d024857a770f32c4d4cca7"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: photorealistic-natural. Exactly ONE standalone landscape native1536x1024 architectural interior photo for designer full-home gallery. A coherent modest Shanghai two-bedroom apartment; provided reference defines palette and sophisticated material style only. PRIMARY SUBJECT: compact BATHROOM, about4sqm, warm grey-brown large honed stone slabs on walls and floor, restrained reddish walnut floating vanity with integrated stone basin and broad rectangular mirror, celadon ceramic soap cup as subtle green detail, frameless glass-enclosed practical shower, bronze shower hardware and recessed niche, partial view of sleek toilet. Soft natural light from a small frosted window, concealed mirror/task lighting, rich texture and calm warm deep palette. Contemporary Chinese refinement through material restraint, NOT thematic ornament. Intimate functional apartment dimensions, straight walls, eye level architectural lens, photoreal editorial detail, realistic glass reflections. No bathtub, spa mansion, palace, bright white overall, excessive ornament, people, text, logo, watermark, mosaic. Native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2cfbea62-9717-4a3a-9229-9fc79ec8095f.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2860325,
+          "sha256": "b6b6df9f26405579d3498b62541cf1865c2afecf404af891b6cb28c92cf1718d"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 351480,
+          "sha256": "3d632aee89ba029a2b721996239575bd28a90b0c7150b1e16ba965255441b66a"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28624,
+          "sha256": "c5b14479580e55e1b875b10c2a60c33d40ab9e20218066a58ac1c3bca7c47c3b"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: photorealistic-natural. Exactly ONE standalone landscape native1536x1024 architectural photograph for designer full-home gallery. Reference is the living room palette and identity of a modest Shanghai two-bedroom apartment; create its signature small ENCLOSED BALCONY, not another living room. Warm orange-red real wood ceiling and side walls create a cocoon, full-height floor-to-ceiling glass across balcony outside edge with fine dark bronze frames, hazy ordinary Shanghai apartment skyline and treetops. Compact built-in dark redbrown elm tea bench with taupe cushion and single burnt orange pillow, a narrow small stone-topped tea ledge with celadon cup and teapot, tiny potted maple at one end. Approx1.5m deep by3m wide practical enclosed balcony. Rich cedarlike orange timber grain overhead must be prominently visible, warm stone floor, natural morning daylight, subtle concealed lighting. Contemporary Chinese refined calm design, restrained classical and modern, real apartment proportions, straight walls, eye-level 26mm architecture photography. No oversized terrace, palace, traditional ornaments, bright white room, people, text, logos, watermarks, collage. Native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-055b92f0-651e-4f66-bb2f-0e6668649f05.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2580040,
+          "sha256": "4274d44135bab3efa38d9d2048b33e94c4cb33ede4b7cdcbae0f1b9e102b2272"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 326124,
+          "sha256": "f5ae0905cb7593800d636fa6c7e325d5aee3405d78a228234c50871f3bbdcea2"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 33388,
+          "sha256": "d4add40080798cf6f737138600477e7a7dc9ac62f65808394b09e39798f9d7d9"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: photorealistic-natural. Exactly ONE standalone landscape native1536x1024 architecture photograph for designer full-home gallery. Reference defines palette/material style only. PRIMARY SUBJECT: compact GLAZED LAUNDRY UTILITY NOOK of same modest Shanghai two-bedroom apartment, small2sqm enclosed service balcony. Front-loading washer and dryer neatly stacked in a fitted dark reddish walnut cabinet, open appliance fronts with charcoal circular doors but no branding; adjacent narrow stone folding counter and tiny utility basin, closed overhead walnut storage, pullout woven laundry basket, a single folded burnt orange towel. Glazed windows on one side admit natural daylight, slim dark frames, Shanghai apartment exterior hint beyond. Warm grey-brown stone floor and backsplash, rich red-brown wood grain, compact clever functional storage, subtle concealed task light. Understated contemporary Chinese refinement consistent with living room, no decorative tea setup. View from doorway with straight vertical walls and realistic small apartment proportions, 26mm editorial photograph. NO huge room, white bright overall, palace, excessive ornaments, people, text, logos, watermark, collage. Native1536x1024.",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-788dd70f-e20e-4ee3-902e-bb33005d5afe.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2217535,
+          "sha256": "0a0ce6334a33add71bcbaee52e8fa87d50a366de28a4a957f83f05e7e405afd8"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 246196,
+          "sha256": "272eb2e1cbd48a0588b50f7c542b05197607ac7a62cd5c7825a015491c78f597"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v34-assets/oriental/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27294,
+          "sha256": "40283e07066940f2dcef15f2593ee9ad63db7e6aa27bb8d5cdf7698fd3e4e283"
+        }
+      ],
+      "visual_inspection": "Passed: room-specific layout, palette cohesion, natural lighting, straight walls, no text or collage."
+    }
+  ]
+}

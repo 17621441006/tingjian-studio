@@ -20,7 +20,8 @@ window.addEventListener('message',event=>{
   for(const b of root.querySelectorAll('[data-studio-step]')){const step=event.data.steps.find(s=>s.id===b.dataset.studioStep);b.disabled=!step||step.disabled;b.setAttribute('aria-current',step?.current?'step':'false');}
   tellStudio({type:'tingjian:nav-host'});
  }
- if(event.data?.type==='tingjian:studio-height'){const h=Number(event.data.height);if(Number.isFinite(h))frame.style.height=Math.max(800,Math.min(9000,h))+'px';}
+ if(event.data?.type==='tingjian:studio-height'){const h=Number(event.data.height);if(Number.isFinite(h))frame.style.height=Math.max(800,Math.ceil(h))+'px';}
+ if(event.data?.type==='tingjian:studio-top')frame.scrollIntoView({block:'start',behavior:'auto'});
  if(event.data?.type==='tingjian:music-gesture')player.retryAutoplay();
  if(event.data?.type==='tingjian:music-theme')player.setTheme(event.data.design);
 });

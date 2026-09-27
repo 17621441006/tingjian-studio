@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "decodedAssets": 86,
+  "newDesignerRooms": 21,
+  "reworkedPurpleRooms": 18,
+  "smartReferences": 8,
+  "nativeResolution": [
+    1536,
+    1024
+  ],
+  "checks": [
+    "All 86 new/replaced files decoded and SHA verified",
+    "Three complete eight-room designer galleries plus all 14 original styles resolve real files",
+    "Official device references have before/after and placement details",
+    "Hosted gallery uses immutable commit and three delivery routes; local dist is complete"
+  ],
+  "browserUITested": false
+}
