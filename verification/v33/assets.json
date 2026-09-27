@@ -1,0 +1,44 @@
+[
+  {
+    "path": "verification/v33/originals/collector.png",
+    "sha256": "4627f8a4ea3dbcc54ef41d049b27bb2fbaf18386de39f99c7266f0c2354dfe71",
+    "bytes": 2681236,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "path": "dist/lifestyle-v33/collector.webp",
+    "sha256": "3af64b041d107895b4428bf60abd86128c4612e5021aa31f8d5fafe65e0cce49",
+    "bytes": 304288,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "path": "verification/v33/originals/oriental.png",
+    "sha256": "80a7e917773b7a3032718fc96641b1b55a5182c00fb80232874ced2f07db8744",
+    "bytes": 2652781,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "path": "dist/lifestyle-v33/oriental.webp",
+    "sha256": "a4ca9c343e0e2be4e9ff54ce2fdd347784631a36f781618ba6cef86e96f9e516",
+    "bytes": 319536,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "path": "verification/v33/originals/nocturne.png",
+    "sha256": "be54b6069306ab8191b1765f1393fa9e9a2edd3b10788464469b515a324da078",
+    "bytes": 2422941,
+    "width": 1536,
+    "height": 1024
+  },
+  {
+    "path": "dist/lifestyle-v33/nocturne.webp",
+    "sha256": "b33900eaac18f895cf20159754e0f959dc3cde054b9aafdd2fbcf6b57dc425b6",
+    "bytes": 289416,
+    "width": 1536,
+    "height": 1024
+  }
+]

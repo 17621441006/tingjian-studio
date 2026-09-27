@@ -28,7 +28,7 @@
 </section>
 <section class="journey-details" data-journey-details hidden aria-label="单品与清单">
   <div class="journey-section-heading"><div><span class="home-eyebrow">03 / 从空间想法，走向具体选择</span><h2>八个空间，一间间选好</h2></div><button type="button" class="journey-text-button" data-details-back>返回布局调整</button></div>
-  <div class="room-progress-bar"><div><strong data-room-progress>已确认 0 / 8 个空间</strong><p>逐间查看、选配并确认。切换房间会保留各自的选择。</p></div><div class="room-progress-actions"><button type="button" data-confirm-all>一键确认全部空间</button><button type="button" class="journey-primary" data-details-next disabled>全部确认后，看全屋效果 →</button></div></div>
+  <div class="room-progress-bar"><div><strong data-room-progress>已确认 0 / 8 个空间</strong><p>逐间查看、选配并确认。切换房间会保留各自的选择。</p></div><div class="room-progress-actions"><button type="button" data-confirm-all>一键确认全部空间</button><button type="button" class="journey-primary" data-details-next disabled>全部确认后，搭配软装 →</button></div></div>
   <p class="layout-status" data-details-status role="status" aria-live="polite"></p>
   <div data-details-summary>
     <div class="room-editor">
@@ -59,26 +59,36 @@
     <p class="home-purchase-note">保留此前查证的品牌官网与材料参考。效果图不是精确商品展示；价格、库存、饰面和交付条件需向品牌确认。定制收纳与外窗不在这些成品家具中替代估价。</p></details>
   </div>
 </section>
+<section class="life-workspace" data-life-panel hidden aria-label="软装与智慧生活">
+ <div class="journey-section-heading"><div><span class="home-eyebrow">04 / 器物有温度，科技有分寸</span><h2>给家添上生活的层次</h2></div><button type="button" class="journey-text-button" data-life-back>返回家具与选材</button></div>
+ <div class="life-collections" data-life-collections role="group" aria-label="选择搭配方向"></div>
+ <div class="life-workbench"><div class="life-visual"><figure><img data-life-hero width="1536" height="1024" alt=""><figcaption>软装搭配意向图 · 不替换当前户型与选材</figcaption></figure><p data-life-image-error hidden>意向图暂未载入，仍可继续搭配。</p><div class="life-concept"><h3 data-life-title></h3><p data-life-copy></p></div><div class="life-reference"><img data-life-room-image width="1536" height="1024" alt=""><div><strong data-life-room-title></strong><p>当前选材基准图<br>新增软装请在最后一步查看三维摆位。</p></div></div></div>
+ <div class="life-selection"><div class="life-selection-head"><strong data-life-count></strong><button type="button" data-life-recommend>应用全屋推荐搭配</button></div><p class="life-help">切换方向保留已选品类，统一改变配色与器物风格。推荐搭配会重置本步骤的全屋选项。</p><div class="life-rooms" data-life-rooms role="group" aria-label="软装房间"></div><div class="life-categories" data-life-categories role="group" aria-label="软装类别"></div><div class="life-items" data-life-items></div><button type="button" class="journey-text-button" data-life-clear>清空这一间的新增搭配</button><p role="status" aria-live="polite" data-life-feedback></p></div></div>
+ <section class="life-automation" aria-label="智慧生活场景模拟"><div class="life-automation-heading"><div><span class="home-eyebrow">不必每次打开手机</span><h3>试着过一天</h3></div><span class="life-simulation-label">场景模拟 · 未连接设备</span></div><div class="life-scenes" data-life-scenes role="group" aria-label="生活场景"></div><p data-life-scene-copy></p><div class="life-actions" data-life-actions aria-live="polite"></div></section>
+ <details class="life-install"><summary>把科技藏起来，装修前要留什么？</summary><div><p><strong>先做回路与底盒。</strong>照明分区、窗帘电源、柜内插座和检修空间在硬装时确定，后期换饰面与器物更灵活。</p><p><strong>优先本地联动，保留实体按键。</strong>断网时仍能操作基本照明；是否可用需核对控制器和具体设备。</p><p><strong>按设备核对兼容性。</strong>Matter 提供跨品牌互联基础，但不是所有功能都会互通；区域版本、网关与设备支持要逐项确认。<a href="https://csa-iot.org/all-solutions/matter/" target="_blank" rel="noopener noreferrer">了解 Matter ↗</a></p></div></details>
+ <div class="life-forward"><div><strong>软装、设备与生活场景一起带走</strong><p data-life-model-count></p></div><button type="button" class="journey-primary" data-life-next>保留搭配，查看全屋 →</button></div>
+</section>
 <section class="whole-workspace" data-whole-panel hidden aria-label="全屋效果">
-  <div class="journey-section-heading"><div><span class="home-eyebrow">04 / 让所有选择，成为同一个家</span><h2>把家放在一起看</h2></div><button type="button" class="journey-text-button" data-whole-back>返回单品与清单</button></div>
+  <div class="journey-section-heading"><div><span class="home-eyebrow">05 / 让所有选择，成为同一个家</span><h2>把家放在一起看</h2></div><button type="button" class="journey-text-button" data-whole-back>返回软装与智能</button></div>
   <div class="whole-intro"><p>三维整屋查看空间关系，写实图查看材质与细节。<br><span>两种视图读取同一份已确认方案；新增织物褶皱、家具细部与材质纹理；设计模型仍需实测校准。</span></p><button type="button" class="journey-primary" data-whole-generate>查看已确认的全屋</button></div>
   <div class="whole-progress" data-whole-progress-wrap hidden><span data-whole-progress-text role="status" aria-live="polite"></span><progress max="8" value="0" data-whole-progress aria-label="原尺寸效果图读取进度"></progress></div>
   <p class="layout-status" data-whole-status role="status" aria-live="polite"></p>
-  <p class="whole-stale" data-whole-stale hidden>你刚才调整了搭配或购买候选。这里保留上一份完整效果，点击“更新全屋方案”同步新选择。</p>
+  <p class="whole-stale" data-whole-stale hidden>你刚才调整了选材、软装、智能场景或购买候选。这里保留上一份完整效果，点击“更新全屋方案”同步新选择。</p>
   <div class="whole-empty" data-whole-empty><span>你的选择，值得一起看。</span><p>八间确认后，生成可旋转的整屋视图，点击房间对照写实效果。图片图册与候选清单也会保留。</p></div>
   <div data-whole-result hidden>
     <div class="whole-result-head"><div><h3 data-whole-title></h3><p data-whole-count></p></div><button type="button" data-whole-export>下载全屋效果册</button></div>
+    <details class="whole-life-record" open><summary>软装与智慧生活搭配</summary><div data-whole-lifestyle></div></details>
     <div class="whole-view-tabs" role="group" aria-label="全屋查看方式"><button type="button" data-whole-view="model" aria-pressed="true">三维整屋 + 写实对照</button><button type="button" data-whole-view="vr" aria-pressed="false" hidden>暮色写实 VR</button><button type="button" data-whole-view="overview" aria-pressed="false">图片总览</button><button type="button" data-whole-view="room" aria-pressed="false">逐室大图</button></div>
     <section class="dusk-vr-panel" data-dusk-vr-panel hidden aria-label="暮色写实全景 VR"><div class="dusk-vr-heading"><div><h3>暮色私邸 · 写实全景漫游</h3><p data-dusk-vr-selection></p></div><a href="/vr/dusk/" target="_blank" rel="noopener">独立窗口 / 头显打开 ↗</a></div><div class="dusk-vr-host" data-dusk-vr-host></div></section>
     <div class="whole-model-pair" data-current-model-panel>
-      <div class="whole-model-column"><div class="whole-model-toolbar"><strong>三维整屋</strong><div><button type="button" data-current-model-home>整屋</button><button type="button" data-current-model-top>俯视</button><button type="button" data-current-model-focus>靠近所选房间</button></div></div>
+      <div class="whole-model-column"><div class="whole-model-toolbar"><strong>三维整屋 · 软装概念摆位</strong><div><button type="button" data-current-model-home>整屋</button><button type="button" data-current-model-top>俯视</button><button type="button" data-current-model-focus>靠近所选房间</button></div></div>
         <div class="model-quality-tabs" role="group" aria-label="三维细节级别"><button type="button" data-model-quality="detailed" aria-pressed="true">细节模型</button><button type="button" data-model-quality="light" aria-pressed="false">轻量模型</button><button type="button" data-model-quality="photo" aria-pressed="false" hidden>暮色实景贴图</button><span>拖动旋转 · 松手后保持显示</span></div>
         <div class="whole-model-stage" data-current-model-stage><canvas data-current-model-canvas aria-label="按当前方案选材的三维房屋，拖动旋转，滚轮缩放，点击房间查看写实图"></canvas><div class="whole-model-labels" data-current-model-labels></div><span class="whole-model-loading" data-current-model-loading>正在准备三维整屋…</span></div>
         <p class="whole-model-status" data-current-model-status role="status">拖动旋转 · 滚轮缩放 · 点房间查看写实图</p><button type="button" data-current-model-retry hidden>重新载入三维整屋</button>
       </div>
       <aside class="whole-model-reference"><div class="living-camera" data-model-camera hidden></div><span class="home-eyebrow">对应空间 · 已选写实效果</span><h3 data-current-model-room-title></h3><button type="button" data-current-model-room-large><img data-current-model-photo width="1536" height="1024" alt=""></button><p data-current-model-room-items></p><div class="whole-model-room-nav" data-current-model-rooms></div><button type="button" data-current-model-edit>回去调整这一间 →</button></aside>
     </div>
-    <p class="whole-model-accuracy" data-current-model-accuracy>细节模型增加软包缝线、床品褶皱、窗帘、柜体收口与表面纹理，轻量模型随时可切换。两者沿用现有户型关系，同步所选的客厅沙发材质、茶几、地面，主卧床架、床品、窗景及已开放的排布。造型与尺度为近似设计模型，不是房屋扫描；右侧是对应方案的写实图，旋转模型不会改变写实图的视角。</p>
+    <p class="whole-model-accuracy" data-current-model-accuracy>细节模型增加软包缝线、床品褶皱、窗帘、柜体收口与表面纹理，轻量模型随时可切换。两者沿用现有户型关系，同步所选的客厅沙发材质、茶几、地面，主卧床架、床品、窗景及已开放的排布。新增软装与智能设备以独立概念对象摆位，场景预演体现窗帘开合与新增灯带发光，不控制真实设备。照片与原 VR 尚未重绘新增陈设。造型与尺度为近似设计模型，不是房屋扫描；右侧是对应方案的写实图，旋转模型不会改变写实图的视角。</p>
     <div class="whole-mosaic" data-whole-mosaic></div>
     <div class="whole-room-view" data-whole-room-view hidden><div class="whole-room-tabs" data-whole-rooms></div><div class="whole-room-heading"><h3 data-whole-room-title></h3><a data-whole-room-save download>保存这一张</a></div><div class="living-camera" data-whole-camera hidden></div><button type="button" class="whole-room-large" data-whole-room-large aria-label="查看此空间原尺寸大图"><img data-whole-room-image width="1536" height="1024" alt=""></button><p data-whole-room-info></p></div>
     <p class="whole-image-note">客餐厅共用所选视角，避免另一角度出现旧家具。其余为独立房间概念效果，跨房间材质收口、照明与精确尺寸尚未统一校核。</p>

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "collector",
+    "tool": "built-in image_gen.imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: original collection styling concept preview for home design website. Generate one 1536x1024 landscape interior editorial photograph, not a collage. Modest Shanghai apartment living corner with realistic straight walls, rich walnut wood panel, smoky brown herringbone wood floor, saddle brown low sofa, antique patinated bronze mushroom lamp, pleated taupe linen curtains, contemporary small bronze abstract sculpture, vintage framed monochrome art integrated into an art TV, discreet flush bronze wall keypad, concealed linear warm lighting. Elegant classical plus Edition contemporary fusion, natural daylight with detailed tactile texture, carefully composed 35mm architecture photo. Intimate realistic domestic scale, no palace, no people, no text, no logo or watermark. This is an independent styling concept, not a specific floorplan replacement.",
+    "native_dimensions": [
+      1536,
+      1024
+    ],
+    "original": "collection-collector.png",
+    "web": "collection-collector.webp",
+    "purpose": "Independent collection styling concept; not a current floorplan/photo replacement"
+  },
+  {
+    "name": "oriental",
+    "tool": "built-in image_gen.imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: original collection styling concept preview for home design website. Generate one 1536x1024 landscape editorial interior photograph, no collage. Intimate contemporary Chinese apartment reading and tea corner by full-height window, deep reddish brown timber paneling, burnt orange sheltered balcony backdrop outside the window, sculptural elm chair, small stone tea table, celadon vessel with a sparse branch, dark ink brush art. Concealed curtain track and warm wall wash, advanced discreet home technology integrated as a small flush dark bronze wall control. Natural daylight reveals wood grain and stone texture, quiet elegant domestic mood, realistic 35mm architectural photography with straight vertical walls. No palace, no neon, no people, no text, logo or watermark. Independent styling concept, not a specific current floorplan or photo replacement.",
+    "native_dimensions": [
+      1536,
+      1024
+    ],
+    "original": "collection-oriental.png",
+    "web": "collection-oriental.webp",
+    "purpose": "Independent collection styling concept; not a current floorplan/photo replacement"
+  },
+  {
+    "name": "nocturne",
+    "tool": "built-in image_gen.imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: original collection styling concept preview for home design website. Generate one 1536x1024 landscape architectural editorial photograph of an intimate sophisticated apartment living corner. Almost-black aubergine painted walls and a rich dark walnut alcove, chocolate leather sofa, dark aubergine textile cushion and throw, dark stone side plinth, sculptural milky alabaster lamp, black-framed quiet digital art display showing subtle monochrome abstract art, discreet smoked-metal smart control panel flush to wall. Natural daylight from one side provides enough illumination to show exquisite tactile texture while keeping deep moody dark tones; a little concealed warm alcove lighting. Straight walls, realistic domestic scale, 35mm architectural camera composition. No light white overall room, no palace, no neon, no people, no collage, no text, logo or watermark. Independent styling concept, not a specific current floorplan or photo replacement.",
+    "native_dimensions": [
+      1536,
+      1024
+    ],
+    "original": "collection-nocturne.png",
+    "web": "collection-nocturne.webp",
+    "purpose": "Independent collection styling concept; not a current floorplan/photo replacement"
+  }
+]

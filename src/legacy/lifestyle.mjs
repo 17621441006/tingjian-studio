@@ -1,0 +1,24 @@
+import {COLLECTIONS,LIFE_CATEGORIES,LIFE_ITEMS,LIFE_SCENES,LIFE_ROOM_NAMES,normalizeLifestyle,toggleLifestyleItem,recommendLifestyle,lifestyleRows,sceneActions,lifestyleSummaryHTML} from './lifestyle-data.mjs';
+import {setFloorPhoto} from './photo-floor.mjs';
+export function initLifestyle(root,{getValue,onChange,getFrames,onNext,onBack}){
+ const $=s=>root.querySelector(s);let design=null,room='living',category='all';
+ const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text)e.textContent=text;if(cls)e.className=cls;return e;};
+ const button=(text,key,value,fn,pressed)=>{const b=node('button',text);b.type='button';b.dataset[key]=value;if(pressed!==undefined)b.setAttribute('aria-pressed',String(pressed));b.addEventListener('click',fn);return b;};
+ function update(next){onChange(next);render(design);}
+ function render(nextDesign){if(!nextDesign)return;design=nextDesign;const value=normalizeLifestyle(getValue(),design),collection=COLLECTIONS.find(c=>c.id===value.collection),index=COLLECTIONS.indexOf(collection),count=lifestyleRows(value).reduce((n,r)=>n+r.items.length,0);
+  const collections=$('[data-life-collections]');collections.replaceChildren();for(const c of COLLECTIONS){const b=button('','lifeCollection',c.id,()=>update({...value,collection:c.id}),c.id===value.collection);b.append(node('strong',c.name),node('span',c.subtitle));const swatches=node('span',null,'life-swatches');for(const color of c.colors){const dot=node('i');dot.style.background=color;swatches.append(dot);}b.append(swatches);collections.append(b);}
+  const hero=$('[data-life-hero]');if(hero.getAttribute('src')!==collection.image)hero.src=collection.image;hero.alt=collection.name+' · 软装搭配意向图';hero.onerror=()=>{$('[data-life-image-error]').hidden=false;};hero.onload=()=>{$('[data-life-image-error]').hidden=true;};$('[data-life-title]').textContent=collection.name;$('[data-life-copy]').textContent=collection.text;
+  $('[data-life-count]').textContent='已选 '+count+' 项 · 各房间独立保留';
+  const rooms=$('[data-life-rooms]');rooms.replaceChildren();for(const [id,name] of Object.entries(LIFE_ROOM_NAMES)){const n=value.rooms[id].length;rooms.append(button(name+(n?' · '+n:''),'lifeRoom',id,()=>{room=id;render(design);},id===room));}
+  const frame=getFrames().find(f=>f.id===room);if(frame)setFloorPhoto($('[data-life-room-image]'),frame.path,frame.scene);$('[data-life-room-image]').alt=LIFE_ROOM_NAMES[room]+' · 当前选材基准图';$('[data-life-room-title]').textContent=LIFE_ROOM_NAMES[room];
+  const cats=$('[data-life-categories]');cats.replaceChildren();for(const c of LIFE_CATEGORIES)cats.append(button(c.name,'lifeCategory',c.id,()=>{category=c.id;render(design);},category===c.id));
+  const items=$('[data-life-items]');items.replaceChildren();const options=LIFE_ITEMS.filter(i=>i.rooms.includes(room)&&(category==='all'||category===i.category));for(const item of options){const selected=value.rooms[room].includes(item.id),card=node('article',null,'life-item');card.dataset.selected=String(selected);const title=node('h4',item.name),variant=node('p',item.variants?.[index]||item.position,'life-item-detail'),copy=node('p',item.copy),note=node('small',item.prepare),action=button(selected?'已加入 · 移除':'加入这一间','lifeItem',item.id,()=>update(toggleLifestyleItem(value,room,item.id)),selected);card.append(title,variant,copy,note,action);if(item.source){const a=node('a','了解原理 ↗');a.href=item.source;a.target='_blank';a.rel='noopener noreferrer';card.append(a);}items.append(card);}if(!options.length)items.append(node('p','这一间没有此类别的搭配，可切换上方分类。','life-empty'));
+  const scene=value.scene,sceneInfo=LIFE_SCENES.find(s=>s.id===scene),scenes=$('[data-life-scenes]');scenes.replaceChildren();for(const s of LIFE_SCENES)scenes.append(button(s.name,'lifeScene',s.id,()=>update({...value,scene:s.id}),scene===s.id));$('[data-life-scene-copy]').textContent=sceneInfo.description;
+  const actions=$('[data-life-actions]');actions.replaceChildren();const planned=sceneActions(value);for(const a of planned){const line=node('div');line.append(node('span',a.room+' · '+a.device),node('strong',a.value));actions.append(line);}if(!planned.length)actions.append(node('p','加入调光、窗帘或智能设备后，在这里预演联动。'));
+  $('[data-life-model-count]').textContent='选中的可见陈设会加入全屋三维概念模型；空气联动等隐蔽系统保留在清单。';
+ }
+ $('[data-life-recommend]').addEventListener('click',()=>{update(recommendLifestyle(getValue()));$('[data-life-feedback]').textContent='已按当前方向重新搭配八个空间，可逐间增减。';});
+ $('[data-life-clear]').addEventListener('click',()=>{const v=normalizeLifestyle(getValue(),design);v.rooms[room]=[];update(v);$('[data-life-feedback]').textContent=LIFE_ROOM_NAMES[room]+'的新增搭配已清空，原家具保留。';});
+ $('[data-life-next]').addEventListener('click',onNext);$('[data-life-back]').addEventListener('click',onBack);
+ return {render,renderSummary:(host,value)=>{host.innerHTML=lifestyleSummaryHTML(value);},getRoom:()=>room};
+}

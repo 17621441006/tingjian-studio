@@ -1,3 +1,5 @@
+import {initLifestyle} from './lifestyle.mjs';
+import {emptyLifestyle,normalizeLifestyle} from './lifestyle-data.mjs';
 import {loadMediaImage,setMediaImage} from './media-loader.mjs';
 import {renderLivingViews,livingViewPath} from './living-views.mjs';
 import {setFloorPhoto,prepareFloorPhoto,currentFloorPhoto} from './photo-floor.mjs';
@@ -20,7 +22,9 @@ export function initDesignJourney(root,gallery){
  let editCategory='sofa',modelApi=null,modelPromise=null,modelSignature=null,historyOpen=false;
  let bulkBusy=false,bulkJob=0,modelQuality='detailed';
  const detailsFloorHost=$('[data-details-floor-catalog]');
- const confirmations=new Map();
+ const confirmations=new Map(),lifestyles=new Map();
+ const lifestyleValue=()=>normalizeLifestyle(lifestyles.get(confirmed)||emptyLifestyle(confirmed),confirmed);
+ const lifestyle=initLifestyle(root,{getValue:lifestyleValue,onChange:value=>{lifestyles.set(confirmed,normalizeLifestyle(value,confirmed));renderWhole();},getFrames:()=>frames(),onNext:()=>{goStep('whole');if(step==='whole')buildWhole();},onBack:()=>goStep('details')});
  const saved=new Map(),seeds=new Map(),shortlists=new Map(),snapshots=new Map(),loaded=new Set(),pending=new Map();
  const clone=value=>JSON.parse(JSON.stringify(value));
  const roomName=id=>ROOMS.find(r=>r.id===id)?.name||id;
@@ -28,7 +32,7 @@ export function initDesignJourney(root,gallery){
  const currentShortlist=()=>{if(!shortlists.has(confirmed))shortlists.set(confirmed,new Set());return shortlists.get(confirmed);};
  const makeButton=(text,key,value,fn)=>{const b=document.createElement('button');b.type='button';b.textContent=text;b.dataset[key]=value;b.addEventListener('click',fn);return b;};
  const frames=()=>assembleHome(confirmed,saved,seeds.get(confirmed));
- const signature=()=>JSON.stringify({frames:frames().map(f=>({id:f.id,scene:f.scene,path:f.path})),shortlist:[...currentShortlist()].sort()});
+ const signature=()=>JSON.stringify({frames:frames().map(f=>({id:f.id,scene:f.scene,path:f.path})),shortlist:[...currentShortlist()].sort(),lifestyle:lifestyleValue()});
  const snapshot=()=>snapshots.get(confirmed);
  function imageReady(path){
   if(!path)return Promise.reject(new Error('这组搭配尚未成图，已保留刚才的选择。'));
@@ -50,7 +54,7 @@ export function initDesignJourney(root,gallery){
  });
  function syncNavigation(){
   root.dataset.journeyStep=step;root.dataset.detailsView=detailsView;
-  for(const b of $$('[data-journey-step]')){b.setAttribute('aria-current',b.dataset.journeyStep===step?'step':'false');b.disabled=bulkBusy||b.dataset.journeyStep!=='style'&&(!confirmed||busy||galleryBusy||b.dataset.journeyStep==='whole'&&!allConfirmed());}
+  for(const b of $$('[data-journey-step]')){b.setAttribute('aria-current',b.dataset.journeyStep===step?'step':'false');b.disabled=bulkBusy||b.dataset.journeyStep!=='style'&&(!confirmed||busy||galleryBusy||['lifestyle','whole'].includes(b.dataset.journeyStep)&&!allConfirmed());}
   $('[data-journey-summary]').hidden=!confirmed||inEditor;$('[data-journey-chosen]').textContent=confirmed?'已选风格 · '+HOMES[confirmed].name:'';
   publishNavigation();
   $('[data-confirm-style]').disabled=busy||galleryBusy;$('[data-confirm-style]').textContent=busy?'正在保留你的选择…':'确定'+HOMES[gallery.getState().design].name+'，试布局 →';$('[data-confirm-style]').setAttribute('aria-busy',String(busy||galleryBusy));
@@ -60,9 +64,9 @@ export function initDesignJourney(root,gallery){
   $('[data-layout-stage]').setAttribute('aria-busy',String(busy));$('[data-layout-loading]').hidden=!busy;
   for(const b of $$('[data-details-object-controls] button'))b.disabled=bulkBusy||!supportsOriginalEdits(current)||b.dataset.sceneRestore!==undefined&&!current.removed.length;
   for(const b of $$('[data-home-design]'))b.disabled=busy&&step==='style';
-  $('[data-home-panel]').hidden=inEditor||!galleryVisible();$('[data-layout-panel]').hidden=inEditor||step!=='layout';$('[data-journey-details]').hidden=inEditor||step!=='details';$('[data-whole-panel]').hidden=inEditor||step!=='whole';
+  $('[data-home-panel]').hidden=inEditor||!galleryVisible();$('[data-layout-panel]').hidden=inEditor||step!=='layout';$('[data-journey-details]').hidden=inEditor||step!=='details';$('[data-whole-panel]').hidden=inEditor||step!=='whole';$('[data-life-panel]').hidden=inEditor||step!=='lifestyle';
   $('[data-journey-confirmbar]').hidden=step!=='style';$('[data-details-summary]').hidden=false;
-  if(historyOpen){$('[data-home-panel]').hidden=true;$('[data-layout-panel]').hidden=true;$('[data-journey-details]').hidden=true;$('[data-whole-panel]').hidden=true;}
+  if(historyOpen){$('[data-life-panel]').hidden=true;$('[data-home-panel]').hidden=true;$('[data-layout-panel]').hidden=true;$('[data-journey-details]').hidden=true;$('[data-whole-panel]').hidden=true;}
   modelApi?.setVisible(!historyOpen&&step==='whole'&&wholeView==='model');
   if(historyOpen||step!=='whole')$('[data-dusk-vr-host]')?.replaceChildren();
  }
@@ -114,7 +118,7 @@ export function initDesignJourney(root,gallery){
   const home=HOMES[current.design],info=layoutInfo(current),frame=frames().find(f=>f.id===current.room);const details_cameraReady=setFloorPhoto($('[data-details-image]'),frame.path,current);renderLivingViews($('[data-details-camera]'),$('[data-details-image]'),current,details_cameraReady,()=>{setFloorPhoto($('[data-details-image]'),frame.path,current);},[]);$('[data-details-image]').alt=home.name+' · '+roomName(current.room)+' · '+sceneLabel(current);
   $('[data-details-design]').textContent=home.name+' · '+roomName(current.room);$('[data-details-title]').textContent=roomName(current.room);$('[data-details-copy]').textContent=(frame.shared?'客餐厅共用选材 · 显示已选客厅视角':sceneLabel(current))+' / '+lightName(current.light);
   renderMaterialList($('[data-details-items]'),sceneItems(current),{path:frame.path,room:current.room});
-  const count=confirmationCount();$('[data-room-progress]').textContent='已确认 '+count+' / '+ROOMS.length+' 个空间';$('[data-details-next]').textContent=allConfirmed()?'查看我的三维全屋效果 →':'全部确认后，看全屋效果 →';
+  const count=confirmationCount();$('[data-room-progress]').textContent='已确认 '+count+' / '+ROOMS.length+' 个空间';$('[data-details-next]').textContent=allConfirmed()?'下一步，软装与智能 →':'全部确认后，搭配软装 →';
   $('[data-room-confirm-state]').textContent=roomConfirmed(current.room)?'本空间已确认 ✓':'本空间待确认';$('[data-confirm-room]').textContent=roomConfirmed(current.room)?'已确认 · 再次确认':'确认这一间';$('[data-next-unconfirmed]').hidden=allConfirmed();
   const nav=$('[data-details-room-picks]');nav.replaceChildren();for(const r of ROOMS){const f=frames().find(f=>f.id===r.id),b=makeButton('','detailsRoom',r.id,()=>chooseRoom(r.id)),im=document.createElement('img'),text=document.createElement('span'),small=document.createElement('small');setMediaImage(im,f.thumb);im.alt='';im.loading='lazy';im.width=90;im.height=60;text.textContent=r.name;small.textContent=roomConfirmed(r.id)?'已确认 ✓':'待确认';b.setAttribute('aria-pressed',String(r.id===current.room));b.dataset.confirmed=String(roomConfirmed(r.id));b.append(im,text,small);nav.append(b);}
   const cats=$('[data-room-edit-categories]'),list=$('[data-room-edit-choices]');cats.replaceChildren();list.replaceChildren();
@@ -154,6 +158,7 @@ export function initDesignJourney(root,gallery){
   $('[data-whole-progress-wrap]').hidden=!wholeBusy;$('[data-whole-result]').hidden=!result;$('[data-whole-empty]').hidden=!!result;
   $('[data-whole-stale]').hidden=!stale;$('[data-whole-export]').disabled=!result||stale||wholeBusy||exportBusy;
   if(!result)return;
+  lifestyle.renderSummary($('[data-whole-lifestyle]'),result.lifestyle);
   const photoButton=$('[data-model-quality="photo"]');photoButton.hidden=result.design!=='dusk';if(result.design!=='dusk'&&modelQuality==='photo')modelQuality='detailed';for(const b of $$('[data-model-quality]'))b.setAttribute('aria-pressed',String(b.dataset.modelQuality===modelQuality));
   const vr=duskVrMatch(result),vrHost=$('[data-dusk-vr-host]');
   $('[data-whole-view="vr"]').hidden=!vr.available;
@@ -161,9 +166,10 @@ export function initDesignJourney(root,gallery){
   const vrVisible=vr.available&&wholeView==='vr'&&step==='whole'&&!historyOpen;
   $('[data-dusk-vr-panel]').hidden=!vrVisible;
   $('[data-dusk-vr-selection]').textContent=vr.changed.length?'你已修改 '+vr.changed.join('、')+'。下方仍是暮色基准全景，尚未重绘这些修改；请用“三维整屋 + 写实对照”查看已确认搭配。':'全景依据暮色基准搭配制作。可见细节以原设计图为参照，未展示区域为 AI 补全。';
+  if(result.lifestyle&&Object.values(result.lifestyle.rooms).some(ids=>ids.length))$('[data-dusk-vr-selection]').textContent+=' 新增软装与智能设备尚未重绘到此全景。';
   if(vrVisible&&!vrHost.children.length){const iframe=document.createElement('iframe');iframe.title='暮色私邸 · 写实全景 VR';iframe.src='/vr/dusk/#'+wholeRoom;iframe.setAttribute('allow','fullscreen; xr-spatial-tracking');iframe.setAttribute('allowfullscreen','');vrHost.append(iframe);}
   if(!vrVisible)vrHost.replaceChildren();
-  $('[data-whole-title]').textContent=HOMES[result.design].name+' · '+result.frames.length+' 个空间';$('[data-whole-count]').textContent='8 / 8 个空间已确认 · 选材与三维同步';
+  $('[data-whole-title]').textContent=HOMES[result.design].name+' · '+result.frames.length+' 个空间';$('[data-whole-count]').textContent='8 / 8 个空间已确认 · 选材与软装概念模型同步';
   const mosaic=$('[data-whole-mosaic]');mosaic.replaceChildren();const nav=$('[data-whole-rooms]');nav.replaceChildren();
   for(const f of result.frames){
    const b=makeButton('','wholeRoom',f.id,()=>{wholeRoom=f.id;wholeView='room';renderWhole();});b.className='whole-room-card';const im=document.createElement('img');setFloorPhoto(im,f.path,f.scene);im.alt=HOMES[result.design].name+' · '+f.name;im.width=1536;im.height=1024;im.loading='lazy';im.decoding='async';const labels=document.createElement('span'),name=document.createElement('strong'),small=document.createElement('small');name.textContent=f.name;small.textContent=f.id==='dining'&&f.shared?'与客厅共用已选视角':f.changed?'已应用 · '+f.label:'沿用风格原方案';labels.append(name,small);b.append(im,labels);mosaic.append(b);
@@ -184,11 +190,11 @@ export function initDesignJourney(root,gallery){
   if(!confirmed||wholeBusy||!allConfirmed())return;const design=confirmed,sig=signature(),id=++wholeJob,list=clone(frames()),products=[...PURCHASES.filter(p=>currentShortlist().has(p.id)),...FLOOR_CATALOG.filter(p=>list.some(f=>f.scene.floorProduct===p.id))];wholeBusy=true;let count=0;renderWhole();$('[data-whole-progress]').value=0;$('[data-whole-progress]').max=list.length;$('[data-whole-progress-text]').textContent='正在读取原尺寸效果图 0 / '+list.length;$('[data-whole-status]').textContent='';
   try{await Promise.all(list.map(async f=>{await imageReady(f.path);await prepareFloorPhoto(f.path,f.scene);if(id!==wholeJob)return;count++;$('[data-whole-progress]').value=count;$('[data-whole-progress-text]').textContent='已读取 '+count+' / '+list.length+' 个空间';}));
    if(id!==wholeJob||design!==confirmed||sig!==signature())return;
-   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面已叠合到房间效果图，官网样板和产品链接已加入清单。';
+   snapshots.set(design,{design,signature:sig,frames:list,products:clone(products),lifestyle:clone(lifestyleValue()),createdAt:new Date().toISOString()});wholeView='model';$('[data-whole-status]').textContent='已同步八个空间。品牌地面已叠合到房间效果图，官网样板和产品链接已加入清单。';
   }catch(error){if(id===wholeJob)$('[data-whole-status]').textContent='有图片未载入，上一份完整效果已保留。请重试。';}
   finally{if(id===wholeJob){wholeBusy=false;renderWhole();}}
  }
- function render(){syncNavigation();if(confirmed){renderLayoutControls();renderDetails();renderWhole();}}
+ function render(){syncNavigation();if(confirmed){renderLayoutControls();renderDetails();if(step==='lifestyle')lifestyle.render(confirmed);renderWhole();}}
  function commit(next){current=resolveScene(next);intended=clone(current);saved.set(current.design+':'+current.room,clone(current));gallery.syncFloor?.(current.design,current.room,current.floorProduct);if(['living','dining'].includes(current.room)){const pair=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+pair)||{design:current.design,room:pair};saved.set(current.design+':'+pair,resolveScene({...prior,floorProduct:current.floorProduct}));gallery.syncFloor?.(current.design,pair,current.floorProduct);}if(['living','dining'].includes(current.room)&&supportsSceneObjects(current)){const other=current.room==='living'?'dining':'living',prior=saved.get(current.design+':'+other)||{design:current.design,room:other};saved.set(current.design+':'+other,resolveScene({...prior,removed:current.removed,partitionStyle:current.partitionStyle}));}gallery.syncRemovals?.(current.design,current.removed,current.room,current.partitionStyle);}
  async function choose(value,{confirm=false,nextStep=null}={}){
   if(bulkBusy)return false;
@@ -202,13 +208,13 @@ export function initDesignJourney(root,gallery){
  gallery.setRoomHandler?.(()=>false);
  function goStep(next){
   if(bulkBusy)return;
-  if(next!=='style'&&(!confirmed||busy||galleryBusy||next==='whole'&&!allConfirmed()))return;if(next==='style'&&busy){job++;busy=false;intended=clone(current);}pieceJob++;step=next;detailsView='summary';inEditor=false;root.dataset.surface='home';$('[data-editor-panel]').hidden=true;$('[data-details-status]').textContent='';
+  if(next!=='style'&&(!confirmed||busy||galleryBusy||['lifestyle','whole'].includes(next)&&!allConfirmed()))return;if(next==='style'&&busy){job++;busy=false;intended=clone(current);}pieceJob++;step=next;detailsView='summary';inEditor=false;root.dataset.surface='home';$('[data-editor-panel]').hidden=true;$('[data-details-status]').textContent='';
   if(next!=='whole'){wholeJob++;wholeBusy=false;modelApi?.setVisible(false);}
   render();
  }
  for(const b of $$('[data-journey-step]'))b.addEventListener('click',()=>{goStep(b.dataset.journeyStep);if(step==='whole'&&(!snapshot()||snapshot().signature!==signature()))buildWhole();});$('[data-journey-change]').addEventListener('click',()=>goStep('style'));
  $('[data-confirm-style]').addEventListener('click',()=>{if(busy||galleryBusy)return;const view=gallery.getState();for(const edit of gallery.getRoomEdits?.(view.design)||[]){const key=edit.design+':'+edit.room;saved.set(key,resolveScene({...saved.get(key),...edit}));}$('[data-journey-confirm-status]').textContent='';choose(sceneFromGallery(view),{confirm:true,nextStep:'layout'});});
- $('[data-layout-next]').addEventListener('click',()=>goStep('details'));$('[data-details-next]').addEventListener('click',()=>{goStep('whole');if(step==='whole')buildWhole();});$('[data-whole-back]').addEventListener('click',()=>goStep('details'));$('[data-details-back]').addEventListener('click',()=>goStep('layout'));$('[data-layout-go-lights]').addEventListener('click',()=>chooseRoom('living'));
+ $('[data-layout-next]').addEventListener('click',()=>goStep('details'));$('[data-details-next]').addEventListener('click',()=>goStep('lifestyle'));$('[data-whole-back]').addEventListener('click',()=>goStep('lifestyle'));$('[data-details-back]').addEventListener('click',()=>goStep('layout'));$('[data-layout-go-lights]').addEventListener('click',()=>chooseRoom('living'));
  $('[data-confirm-room]').addEventListener('click',()=>{if(busy||bulkBusy||!confirmed)return;confirmations.set(confirmed+':'+current.room,roomSignature(current.room));$('[data-details-status]').textContent=roomName(current.room)+'已确认。'+(allConfirmed()?'所有空间已选好，可以查看全屋效果。':'可以继续查看其他房间。');render();});
  $('[data-confirm-all]').addEventListener('click',async()=>{
   if(busy||bulkBusy||!confirmed)return;const design=confirmed,sig=signature(),list=clone(frames()),id=++bulkJob;bulkBusy=true;let count=0;syncNavigation();
@@ -237,5 +243,5 @@ export function initDesignJourney(root,gallery){
  for(const b of $$('[data-model-quality]'))b.addEventListener('click',()=>{modelQuality=b.dataset.modelQuality;for(const button of $$('[data-model-quality]'))button.setAttribute('aria-pressed',String(button.dataset.modelQuality===modelQuality));modelApi?.setQuality?.(modelQuality);});
  $('[data-current-model-edit]').addEventListener('click',()=>{goStep('details');chooseRoom(wholeRoom);});
  document.addEventListener('tingjian:history',e=>{historyOpen=!!e.detail;if(historyOpen){job++;busy=false;wholeJob++;wholeBusy=false;bulkJob++;bulkBusy=false;pieceJob++;inEditor=false;}else{inEditor=false;root.dataset.surface='home';$('[data-editor-panel]').hidden=true;}render();});
- render();return {getState:()=>({step,confirmed,current:clone(current),busy,bulkBusy,modelQuality,detailsView,wholeBusy,whole:snapshot()?clone(snapshot()):null,confirmedRooms:ROOMS.filter(r=>confirmed&&roomConfirmed(r.id)).map(r=>r.id),historyOpen,stale:!!snapshot()&&snapshot().signature!==signature()})};
+ render();return {getState:()=>({step,confirmed,current:clone(current),busy,bulkBusy,modelQuality,detailsView,wholeBusy,lifestyle:clone(lifestyleValue()),whole:snapshot()?clone(snapshot()):null,confirmedRooms:ROOMS.filter(r=>confirmed&&roomConfirmed(r.id)).map(r=>r.id),historyOpen,stale:!!snapshot()&&snapshot().signature!==signature()})};
 }
