@@ -24,6 +24,10 @@ for(const [n,design] of ['dusk','chinese','plum-gallery'].entries()){
  const html=lifestyleSummaryHTML({...life,scene:'night'});assert(html.includes('夜起')&&html.includes('厨房')&&html.includes('未连接真实设备'));
 }
 const original=buildDetailedHome({design:'dusk',frames:assembleHome('dusk',new Map())});assert.equal([...original.userData.objects.keys()].filter(k=>k.startsWith('life-')).length,0);assert(original.userData.objects.get('living-tv').visible);disposeWholeGeometry(original);
-execFileSync('python',['-c',`from PIL import Image\nimport os\nfor n in ['collector','oriental','nocturne']:\n p='dist/lifestyle-v33/'+n+'.webp'\n im=Image.open(p); im.load(); assert im.size==(1536,1024); assert os.path.getsize(p)>10000\n`]);
+for(const name of ['collector','oriental','nocturne']){
+ const path='dist/lifestyle-v33/'+name+'.webp';
+ const info=JSON.parse(execFileSync('ffprobe',['-v','error','-show_entries','stream=width,height','-of','json',path])).streams[0];assert.deepEqual([info.width,info.height],[1536,1024]);
+ execFileSync('ffmpeg',['-v','error','-i',path,'-f','null','-'],{stdio:'pipe'});assert((await fs.stat(path)).size>10000);
+}
 const source=await fs.readFile('src/legacy/whole-export.mjs','utf8');assert(source.includes('lifestyleSummaryHTML(snapshot.lifestyle,escape)'));
 console.log(JSON.stringify({passed:true,modelCases,checks:['Maximal selections produce finite independent objects in detailed and light models','Removing art TV restores baseline on rebuild; room choices are immutable and scoped','Scene values propagate to curtain and lighting geometry','Export includes styling, installation notes and simulated actions','Three concept images decode at native 1536 x 1024']}));
