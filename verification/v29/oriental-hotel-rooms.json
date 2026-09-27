@@ -1,0 +1,51 @@
+{
+  "schemeId": "oriental-hotel",
+  "schemeName": "烟木绮境",
+  "rooms": [
+    {
+      "id": "living",
+      "file": "living.png",
+      "description": "客厅朝餐厅：酒红曲线沙发在右，电视在左，后方为四人餐区；烟熏胡桃木、米白墙面与浅石铜座茶几。"
+    },
+    {
+      "id": "living2",
+      "file": "living2.png",
+      "description": "客厅反向：沙发在左、电视在右，正前方完整玻璃阳台，侧向通道保留。"
+    },
+    {
+      "id": "dining",
+      "file": "dining.png",
+      "description": "紧凑四人餐厅：烟熏胡桃木椭圆餐桌、奶油软包椅、乳白吊灯和古铜灯具。"
+    },
+    {
+      "id": "balcony",
+      "file": "balcony.png",
+      "description": "紧凑封闭阳台：烟木长凳、奶油坐垫、古铜小茶桌与整面窗景。"
+    },
+    {
+      "id": "master",
+      "file": "master.png",
+      "description": "主卧：奶油软包床、克制的树瘤木床头饰面、古铜灯具和灰褐人字木地板。"
+    },
+    {
+      "id": "second",
+      "file": "second.png",
+      "description": "客卧兼书房：靠窗书桌、烟木储物柜及奶油色单人日床。"
+    },
+    {
+      "id": "kitchen",
+      "file": "kitchen.png",
+      "description": "狭长L形厨房：烟木平板柜门、炭灰竖砖与石材台面，窗下水槽与右侧灶台。"
+    },
+    {
+      "id": "bath",
+      "file": "bath.png",
+      "description": "紧凑卫浴：炭灰石材、烟木单盆柜、古铜五金和玻璃淋浴间。"
+    },
+    {
+      "id": "utility",
+      "file": "utility.png",
+      "description": "窄幅家政阳台：一体烟木柜中的叠放洗烘机、薄台面及清洁收纳。"
+    }
+  ]
+}

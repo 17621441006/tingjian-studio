@@ -1,0 +1,326 @@
+[
+  {
+    "path": "dist/designs-v26/orange-court/balcony.webp",
+    "bytes": 396052,
+    "sha256": "5daf473bd1d5e39fd172ec8675271480456a56ed99a0b3a3e1d620cdc500a362",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "3d6a85ffd20bf0365d55b053ec87f43e7962e3e0"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/balcony-thumb.webp",
+    "bytes": 39500,
+    "sha256": "f8373386f399a5a7846b91efc0247737bad6db000f76af4aff3a5af57a6db8d7",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "a2c2b9bb47ee25dc31793cfd61c9475ba0db0f1a"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/bath.webp",
+    "bytes": 378218,
+    "sha256": "1fa8117bd450d1921dd83bfe1d5ce840632b7891bb2fb236558d16be7e17e2dd",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "984b3f21df62111b0d895c87193146b21ac19d94"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/bath-thumb.webp",
+    "bytes": 23550,
+    "sha256": "dae8a0635eba1401e0d3df26a58b4d547e7f31e6becff8eeb34ebb36bd53653d",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "f9f15fe1c3b1a7498b2e365e8bbaeb5c89357886"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/dining.webp",
+    "bytes": 286600,
+    "sha256": "caffa0bafa66b8fc463f90e4bb32dc3b683b294f0edf7ba38373d5a7d615e12c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "f5e5af4d51d3ddae48bf049039cf8db3200510f0"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/dining-thumb.webp",
+    "bytes": 24490,
+    "sha256": "f38514e7496343ae5da07034f1d824acb824c42954ca3e3feef91be6628ae00e",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "58870a1f83d9a285f856585e61271ed274c474c7"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/kitchen.webp",
+    "bytes": 282186,
+    "sha256": "a1f870ccd693958f082abf917eb7a2f9fb35d76b499da2f53259b3904b7d4c4c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "320c45018c022f272d705e961a310b809e88d6ef"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/kitchen-thumb.webp",
+    "bytes": 22532,
+    "sha256": "ead5fa21c3c323149c99e43d5e865902a32dd770667bf7c330ced62c36c6a269",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "d12c058c80fdd60250080c5d16bcf38ee32cae0c"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/living.webp",
+    "bytes": 426326,
+    "sha256": "fc396b1eb3a08d2f2f48219995e1ae0a16732068fa2c1aeeb181c0449c4343d0",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "d387cb30354a636f22197fefc631c5317fe42a22"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/living-thumb.webp",
+    "bytes": 34516,
+    "sha256": "83f16c3f2e86acc79a69086f72f7589be42e49f8dc64b47882c79089cfd144c3",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "45e3ebdb5ce68cb78c126964932c7b598898d104"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/living2.webp",
+    "bytes": 439700,
+    "sha256": "032d43b406d0a50658ea9cc171a370ded17ac4cc654c9f180465cec89c131f8f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "5bd842d0194dd21505d27267f16177df788d7d32"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/living2-thumb.webp",
+    "bytes": 35316,
+    "sha256": "c2e39d2477b885eabe5693ae4658a9488798e35dbb5ef9dd133dc11a66300cdd",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "44c8a8d19729a8b3bf2aa4c2a8728749df2524e8"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/master.webp",
+    "bytes": 358806,
+    "sha256": "620653c82792242488d3d78f75e26dceef835f2d13fa7e1e96520790436cc328",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "e82cb23b8c85f8e37beade19f4984135c770f6d9"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/master-thumb.webp",
+    "bytes": 27394,
+    "sha256": "cb8233d21f6b0f23b0e0ff26c09df5c50d70360190229c759c997ac694227dcb",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "cb9575dc0a8c94dd358c8f64426f34e74b3fd624"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/second.webp",
+    "bytes": 343710,
+    "sha256": "c8b7d1fe0e980bb20912a8811d3434c377166f6e7e87f19cbb6e12e4c2a95c27",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "2768e4652b3251bb2da59b0517445b657602aa4c"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/second-thumb.webp",
+    "bytes": 29484,
+    "sha256": "7d4bdd8beac2b106749dbb4b9300a15240887da48b5842d183baa3b106aac344",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "faaa7dee0924b711e4cc7a244c60c1a93b98feb5"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/balcony.webp",
+    "bytes": 418026,
+    "sha256": "24dc31a70cad469220d30cee4a26ae10bbd2ce9d6f8b7a3d36868b3549dc5c16",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "e016e04df84dede99c3f2e09023ac99b34fc149b"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/balcony-thumb.webp",
+    "bytes": 34820,
+    "sha256": "061bf32fb76eea9f8579e8f405b6ed6f9429f9591744288533d443d6b70130a4",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "f60a98ee0311aceee40a3746bb68996e8cf184f3"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/bath.webp",
+    "bytes": 465694,
+    "sha256": "11006543ad6355a00e371d8e1335ce5cc0739a947534591d063cce45ebc357ce",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "6fc546b4c3650a817d0bb8771c6a187acb811eb5"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/bath-thumb.webp",
+    "bytes": 29294,
+    "sha256": "4ce4f6de3b3b0e929d46ff9314e7e5eeec8bd917d10333bc9013ef362cc505a4",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "ae339ef6434facc22457ef7b31b6dccbcfbafc88"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/dining.webp",
+    "bytes": 243608,
+    "sha256": "f8d7428a7565adbf0dd5a8b18912ac8645c5ff71f8e8094c142020e46770e90a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "6cf3575114811775f9bc3f5c47372c25978dc299"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/dining-thumb.webp",
+    "bytes": 20744,
+    "sha256": "af5059ad17ce2e3b4fe5534fa16f3add078c548299c1e4b4c8cf521562679895",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "69439a6368c992d7afe09f9e9a3120f9967e2cbf"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/kitchen.webp",
+    "bytes": 327364,
+    "sha256": "5b72e0b22a2e5bc70a0b08400401e8fc282920606375939372eed4acede78329",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "c8fde37c1491d080205a6296bbfb2a43146855ff"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/kitchen-thumb.webp",
+    "bytes": 24090,
+    "sha256": "1e44db77f520d3eaba585f6cc67deb4bb5a3092d351e4895ff0e811ad5bd784d",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "db47718b04f37e8cb6500ebd058e695523f29b69"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/living.webp",
+    "bytes": 369916,
+    "sha256": "7c1f692ce7cdd89447393507b7a5e63878d69a33f79416fbf9c4085ca2277072",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "9d2a3e828549aed84f7b19c48fc60242ebe3215f"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/living-thumb.webp",
+    "bytes": 26238,
+    "sha256": "a333a6ea2f8cce77b573bbd17741a1d1e2e3ce13e696fd23be02cb77a84e2a69",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "787b742e5869a268280985493c4cf58f88c938bf"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/living2.webp",
+    "bytes": 336928,
+    "sha256": "eed4079e103f1c4a6954fefe256dc620688081124353684c02aa2473430bc9e5",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "dda75928a636835634240a751db31f41309a8436"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/living2-thumb.webp",
+    "bytes": 28278,
+    "sha256": "e8ac232118d6f569e9c4b1bff83408cab4217567d270e78be67ca725eb19b3dc",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "c5adf1dda9e2e4ba020ff4b79e6c2a5fd58d39ec"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/master.webp",
+    "bytes": 367934,
+    "sha256": "690cd0c408be3878ea705d3890dd3cc38f2301ff5dd96c0be3279690d9a25b4e",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "15d8f31078e05b688d8b5a3085e35c51bff7ebd2"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/master-thumb.webp",
+    "bytes": 27052,
+    "sha256": "72e7662ec4edc98724865349b55bb4e48e62fab0a76629626728faed1c99e6bd",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "8fd50ae037396f021b365ac1ec894db84ac35118"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/second.webp",
+    "bytes": 340262,
+    "sha256": "7a3427b31736aabcdfb3d8c42fd9924d1cdd505ae7f670ade75e56a8634a17e3",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "24e34ce5e9093a9e77935580fb024361aa49210f"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/second-thumb.webp",
+    "bytes": 27752,
+    "sha256": "f8fa952736b2c32e435e31c48f03ec1e2b4e017789246f84fb70dfa21d3f4219",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "11a4f118c6b856a311216ab2d67030c675941397"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/utility.webp",
+    "bytes": 342634,
+    "sha256": "ddc83e6c81817b3b13ba8a429a1c5cc692ce775ae12e266a8d96ef2824b7d348",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "f6e4de078de9010ce5575bff18309c69537cda07"
+  },
+  {
+    "path": "dist/designs-v26/oriental-hotel/utility-thumb.webp",
+    "bytes": 35806,
+    "sha256": "251cb3a5a3766a3127f25bff9b6c5585657c434a9238b20294207735995c3948",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "d10e75d6678417220255d448261565f3f033eb15"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/utility.webp",
+    "bytes": 317962,
+    "sha256": "7776dd2ef418d8072af4d95441cb6ed10c257f21ab6a25ab4c73314732f4773a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false,
+    "blobSha": "264be3dbcdd4cc8836fbbaa41ee0af0759528409"
+  },
+  {
+    "path": "dist/designs-v26/orange-court/utility-thumb.webp",
+    "bytes": 34716,
+    "sha256": "17ca5b99ab9939464770b16bc5f62fc928f5844d5eb18b2d5f42d280b3038a19",
+    "width": 480,
+    "height": 320,
+    "thumb": true,
+    "blobSha": "87dba4bbf665a20a3b94ba2c6a73c3e812cd0881"
+  }
+]

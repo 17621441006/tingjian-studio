@@ -1,3 +1,4 @@
+import {ADDITIONAL_HOMES} from './additional-homes.mjs';
 export const WOOD_HOMES={
   "edition-oak": {
     "name": "橡影 EDITION",
@@ -582,6 +583,7 @@ export const WOOD_HOMES={
     }
   }
 };
+Object.assign(WOOD_HOMES,ADDITIONAL_HOMES);
 export const NEW_HOME_IDS=["edition-oak", "edition-smoke", "milan"];
 export function designMedia(path){return (globalThis.__TINGJIAN_V26_ORIGIN__||'')+'/designs-v26/'+path;}
 export function livingReverseAsset(design,thumb=false){return designMedia(design+'/living2'+(thumb?'-thumb':'')+'.webp');}

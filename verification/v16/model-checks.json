@@ -52,6 +52,16 @@
       "design": "milan",
       "meshes": 170,
       "triangles": 121028
+    },
+    {
+      "design": "orange-court",
+      "meshes": 171,
+      "triangles": 121136
+    },
+    {
+      "design": "oriental-hotel",
+      "meshes": 174,
+      "triangles": 125032
     }
   ]
 }

@@ -116,7 +116,7 @@ await click('[data-confirm-all]',30);assert.equal(context.__journey().confirmedR
 checks.push('Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.');
 checks.push('Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.');
 await click('[data-journey-step="style"]',5);await click('[data-home-design="graphite"]',20);assert(!$('[data-home-object-controls]').hidden);assert.equal($('[data-home-rooms]').children.length,8);
-assert.equal(root.querySelectorAll('[data-home-design]').length,10);
+assert.equal(root.querySelectorAll('[data-home-design]').length,12);
 const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-lab-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('Historical VR removed; furniture lab retained; current editor unchanged.');
 
 // The new catalog is orthogonal to photographs and furniture choices.
@@ -169,7 +169,8 @@ await click('[data-confirm-style]',25);await click('[data-layout-next]',15);awai
 checks.push('v25 all-room controls, new table deletion, independent bedroom removal, original/new decor switching, and style-to-confirmation persistence passed.');
 
 await fs.mkdir('verification/v17',{recursive:true});// v26: ten styles, camera presentation never creates a ninth room or loses selection.
-for(const design of ['edition-oak','edition-smoke','milan']){
+assert($('[data-extra-schemes]').hidden);await click('[data-schemes-toggle]',3);assert(!$('[data-extra-schemes]').hidden);
+for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel']){
  await click('[data-journey-step="style"]',8);await click('[data-home-design="'+design+'"]',20);await click('[data-home-room="living"]',15);
  assert.equal(context.__homeGallery.getState().design,design);assert.equal($('[data-home-rooms]').children.length,8);
  const base=$('[data-home-image]').src;await click('[data-home-camera] [data-living-camera="reverse"]',10);assert.equal($('[data-home-image]').src,livingReverseAsset(design));
@@ -199,4 +200,15 @@ const floorSnapshot=context.__journey().whole;assert.equal(floorSnapshot.frames.
 await click('[data-whole-back]',10);await click('[data-details-room="living"]',15);
 await click('[data-details-floor-catalog] [data-authored-floor="original"]',20);assert.equal(context.__journey().current.variant,'original');assert(context.__journey().stale);
 checks.push('v28: four authored floor comparisons, brand override cleared, room scoping, selection persistence, confirmed/export snapshot and original restoration passed.');
+// Expanded schemes remain selected when the additional list is collapsed.
+await click('[data-journey-step="style"]',8);await click('[data-home-design="orange-court"]',20);await click('[data-schemes-toggle]',3);
+assert($('[data-extra-schemes]').hidden);assert.equal(context.__homeGallery.getState().design,'orange-court');assert($('[data-schemes-toggle]').textContent.includes('橘庭雅居'));
+await click('[data-schemes-toggle]',3);assert.equal($('[data-home-design="orange-court"]').getAttribute('aria-pressed'),'true');
+// Same-origin parent bridge shares the real navigation's state and gating.
+const navMessages=[],parentMock={postMessage:data=>navMessages.push(data)};context.window.parent=parentMock;context.location={origin:'https://studio.test'};document.documentElement={dataset:{}};
+context.window.dispatchEvent({type:'message',origin:'https://evil.test',source:parentMock,data:{type:'tingjian:nav-host'}});assert.equal(navMessages.length,0);
+context.window.dispatchEvent({type:'message',origin:'https://studio.test',source:parentMock,data:{type:'tingjian:nav-host'}});assert.equal(document.documentElement.dataset.embeddedStudio,'true');assert.equal(navMessages.at(-1).steps.length,4);
+context.window.dispatchEvent({type:'message',origin:'https://studio.test',source:parentMock,data:{type:'tingjian:nav-select',step:'layout'}});await wait(10);assert.equal(context.__journey().step,'layout');
+context.window.dispatchEvent({type:'message',origin:'https://studio.test',source:parentMock,data:{type:'tingjian:nav-select',step:'style'}});await wait(10);assert.equal(context.__journey().step,'style');
+checks.push('v29 twelve schemes, expandable final two, current selection retained, eight-room flow; parent navigation handshake, origin validation and real step dispatch passed.');
 await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));console.log(JSON.stringify({passed:true,checks},null,2));

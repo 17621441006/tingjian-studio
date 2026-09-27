@@ -18,6 +18,10 @@ export function initHomeGallery(root){
  const choices=Object.fromEntries(Object.keys(HOMES).map(id=>[id,id==='milan'?'walnut':'original'])),modes={dusk:'pieces'};
  const removedByDesign={},partitionBySpace={},floorBySpace={};
  const homeFloorHost=$('[data-home-floor-catalog]');
+ const extraSchemes=$('[data-extra-schemes]'),schemesToggle=$('[data-schemes-toggle]');let schemesExpanded=false;
+ function renderSchemeExpansion(){if(!extraSchemes||!schemesToggle)return;extraSchemes.hidden=!schemesExpanded;schemesToggle.setAttribute('aria-expanded',String(schemesExpanded));const selected=Object.keys(HOMES).indexOf(displayed.design)>=10?' · 当前 '+HOMES[displayed.design].name:'';schemesToggle.textContent=schemesExpanded?'收起更多方案 −':'更多方案 · 另 2 套 ＋'+selected;}
+ schemesToggle?.addEventListener('click',()=>{schemesExpanded=!schemesExpanded;renderSchemeExpansion();});
+
  const floorSelection=()=>floorBySpace[displayed.design+':'+displayed.room]||null;
  const loaded=new Set(),pending=new Map();
  const assetFor=(view,selection=pieces,thumb=false)=>objectSceneAsset(view,thumb)||(isPieceView(view)?pieceAsset(view.room,selection,thumb):variantAsset(view.design,view.room,view.variant,thumb));
@@ -123,7 +127,7 @@ export function initHomeGallery(root){
   for(const b of $$('[data-home-design]'))b.setAttribute('aria-pressed',String(b.dataset.homeDesign===displayed.design));
   for(const b of $$('[data-design]'))b.setAttribute('aria-pressed','false');
   $('[data-home-large]').href=path;$('[data-home-save]').href=currentFloorPhoto(path,floorScene);$('[data-home-save]').download=home.name+'-'+room.name.replace(' / ','-')+'-'+label+'.jpg';
-  renderRooms();renderVariants();renderPieces();renderInspiration();renderProducts();
+  renderSchemeExpansion();renderRooms();renderVariants();renderPieces();renderInspiration();renderProducts();
   renderLivingViews($('[data-home-camera]'),picture,displayed,photoReady,()=>{setFloorPhoto(picture,path,floorScene,$('[data-home-save]'));$('[data-home-large]').href=path;},[$('[data-home-save]'),$('[data-home-large]')]);
   renderFloorCatalog(homeFloorHost,{...displayed,floorProduct:floorSelection()},id=>{floorBySpace[displayed.design+':'+displayed.room]=normalizeFloorProduct(id);if(['living','dining'].includes(displayed.room))floorBySpace[displayed.design+':'+(displayed.room==='living'?'dining':'living')]=normalizeFloorProduct(id);paint();},{inline:true,onVariant:id=>select(displayed.design,displayed.room,id,'palette',intended.pieces,displayed.removed,displayed.partitionStyle,true)});
   document.dispatchEvent(new CustomEvent('tingjian:home-view',{detail:{...displayed,floorProduct:floorSelection(),pieces:{...pieces},path,thumb:assetFor(displayed,pieces,true)}}));

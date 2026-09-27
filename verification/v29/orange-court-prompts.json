@@ -1,0 +1,106 @@
+{
+  "tool": "built-in imagegen",
+  "schemeId": "orange-court",
+  "images": [
+    {
+      "room": "living",
+      "prompt": "Use case: photorealistic-natural. Create ONE standalone architectural interior photograph, native 1536x1024 landscape, no text/UI/borders. New whole-home scheme 橘庭雅居 for a modest Shanghai apartment. Input 1 STYLE reference only: ignore screenshot UI; its orange honey elm, warm wood and relaxed modern Chinese feeling. Input 2 SPATIAL reference: preserve exact camera, compact rectangular living room proportions, straight flush walls, TV LEFT, sofa RIGHT, dining table behind sofa at center background, circulation opening back left, entry door back right. Refinish this living room in vivid warm orange/honey elm joinery with natural grain, substantial cream linen sofa replacing brown leather, pale warm limestone tiled floor and ivory woven rug, honey elm low TV console and rounded rectangular coffee table with limestone inset. Behind sofa: lower wall orange elm with upper off-white plaster and one restrained ink landscape painting. Rear dining includes rectangular honey elm table and four cream linen/elm chairs, honey wood low sideboard at back right and slim flush book shelf back left. Ceiling simple pale cream with restrained edge detail, small round silk ceiling lamp. Natural bright daylight from balcony behind camera, soft subtle warm lamps; neutral whites balanced against orange wood, never orange monochrome. Refined contemporary Chinese apartment, lived-in but uncluttered, honest realistic materials, vertical architectural lines. No extra wall projections, columns, arches, partitions, palace, oversized room, ornate lattice, dark walnut, glossy orange lacquer, people.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/upload/IMG_7070.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-569471b0-ffc9-47fe-8f84-690a066421ef.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png"
+    },
+    {
+      "room": "living2",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nCreate reverse view of EXACT same living room in reference 1, camera at rear dining area looking toward balcony. Sofa now LEFT: same cream linen cushions and orange elm slatted arms, same ink landscape above, same pale plaster upper and honey elm lower wall. TV now RIGHT on pale wall, same long honey elm console. Same rounded-square elm coffee table with limestone top centered on cream rug. Balcony FRONT: continuous wide panoramic floor-to-ceiling glazing beyond the narrow enclosed honeywood loggia; slim charcoal window frames, Shanghai residential buildings and treetops beyond. Wide flush sliding opening to balcony with side opening visible, cream linen drapes gathered edges, no wall pier or projecting columns added. Narrow orange wood ceiling/floor loggia visible through glass, small tea nook at side. Keep all furniture matching reference. 26mm lens, natural perspective.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-da838c01-85bd-42f2-8e41-4f2fc0e9c076.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living2.png"
+    },
+    {
+      "room": "dining",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact dining spatial framing. Recreate that dining nook with the SAME table, chairs, backdrop and decor visible at rear of reference 1. Orange elm wall and rectangular table; four cream linen upholstered orange elm chairs; left slim bookcase; right honey elm low sideboard and small bronze lamp; single silk pendant; framed ink landscape behind left side of table; ceramic dark vase with restrained branch. Pale warm limestone tile floor. Preserve compact dimensions, entry at right, corridor opening left.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d7696719-b039-4968-9fa8-d35d4455c39f.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/dining.png"
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact narrow loggia layout AND desired wood material mood. Recreate narrow glass loggia with uninterrupted panoramic glazing LEFT and end glazing, Shanghai buildings beyond, vivid warm orange/honey timber floor, timber ceiling and inner wall RIGHT, taupe linen cushioned bench across far end, tiny square elm tea table and ceramic tea set in front, one leafy potted plant by bench. Side opening RIGHT opens to matching reference 1 cream linen/elm sofa living room, limestone floor and ink art. Preserve slim elongated modest balcony, flush walls and side opening; no added columns or masonry. Clear daylight and soft warm lamp.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/balcony.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-08db14ef-231f-493c-8933-888790b5b27c.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/balcony.png"
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives master bedroom exact spatial framing and size. Separate modest master bedroom; honey orange elm bed frame and low headboard with cream linen padded inset; ivory rumpled linen bed covers and one muted taupe throw. Orange honey wood plank floor, cream rug, warm white plaster walls with one ink landscape; matching honey elm bedside drawers with small bronze lamps. Preserve reference corner window and right window locations with ivory sheers/taupe curtains and Shanghai buildings. Flush elm wardrobe left. Calm natural morning light, do not expand room.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-89b17a14-c4b5-4797-91aa-6efc2596818e.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/master.png"
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact compact second bedroom / study layout. Preserve narrow room, window at end, desk beneath window, SINGLE bed along RIGHT, upper integrated bookwall / closed cabinets above bed. Refinish in honey-orange elm with cream linen bed cushion and bedding, muted taupe throw; pale plaster on wall, light orange wood floor, small natural woven rug. Window desk in elm, ivory linen chair, bronze reading lamp, books and ceramic plant. Single actual bedroom used as quiet study, modest believable scale, not a large home office.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-4c07f7d5-e672-4bb6-99c7-5f87ec320b47.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/second.png"
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact small narrow U-shaped kitchen layout, sink beneath rear window, hob RIGHT, built-in oven LEFT. Refinish lower flat cabinet fronts in vivid honey orange elm, uppers in warm ivory matte, backsplash and worktops pale warm limestone-look sintered stone with subtle texture, matching pale tiled floor. Keep cabinetry flush, sensible appliance placement and clear narrow aisle, black window frame and Shanghai residential view. Small dark ceramic vase and two everyday items only. Bright daylight, faint warm undercabinet illumination. No island.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-931f7d59-eec8-4f02-b486-6d1578da6005.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/kitchen.png"
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact compact bathroom layout. Preserve shower LEFT behind clear glass, vanity centered at rear, toilet RIGHT foreground, small frosted window right of mirror. Orange honey elm floating vanity, ivory limestone-look pale warm porcelain wall/floor tiles, cream stone countertop, bronze taps, softly lit rounded-corner rectangular mirror, simple white ceramic toilet, clear shower glass and bronze shower hardware. Small taupe towel and restrained plant. Realistic compact wet room, bright soft daylight plus subtle lamps; not hotel luxury scale.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5de6cf0e-8665-4330-8aab-c7a937b660bd.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/bath.png"
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: photorealistic-natural. ONE standalone architectural interior photograph, native 1536x1024 landscape. Whole-home scheme 橘庭雅居 in a compact Shanghai apartment. Reference 1 is the approved living room STYLE and furniture reference: vivid warm orange/honey elm natural grain joinery, cream linen, pale warm limestone, off-white plaster, small restrained ink accents, modern warm Chinese refinement. Bright believable natural daylight with subtle warm practical lamps. Realistic modest apartment scale, straight architectural verticals, honest textures, elegant uncluttered living. No people, text, UI, collage, borders, logos, palace, extra columns, projecting new walls, arches, ornate lattice, dark walnut or orange lacquer.\nReference 2 gives exact narrow laundry loggia layout. Glazing LEFT along whole length with Shanghai buildings; stacked washing machine and dryer at FAR END in flush orange honey elm fitted joinery; narrow integrated tall broom cabinet alongside; slim worktop RIGHT and upper cabinets, woven hamper below. Warm ivory compact appliances with black circular doors, pale warm limestone tiled floor, honey orange wood cabinetry; a small plant and folded linen towels. Preserve narrow usable walkway, straight walls. Bright daylight, subtle cabinet lighting, no island or widened room.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/utility.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-df44a432-462d-41bc-9d74-c7d991e1c8c4.png",
+      "output": null,
+      "status": "discarded-wrong-room"
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Edit ONLY this narrow enclosed laundry balcony photograph. Native 1536x1024 landscape standalone photo. Preserve exact camera, room dimensions, composition, tall windows LEFT, stacked dryer and washer at FAR END, tall flush broom storage next to appliances, narrow counter and upper cabinet RIGHT, wicker basket below, narrow aisle. Change walnut cabinet wood to vivid warm orange/honey elm natural grain; lighten floor to pale warm limestone tile; brighten to natural soft daylight. A modest Shanghai apartment utility room in warm modern Chinese whole-home scheme 橘庭雅居, restrained bronze details. Retain all appliance placements and realistic proportions. The laundry room must fill the entire photograph: NO living room, NO sofa, NO TV, NO dining table, NO distant view through a living room. No added columns, projections or partitions. No text, logo, people, collage or borders.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/utility.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f6e8a613-8f29-449c-abee-ef078cd45752.png",
+      "output": "/workspace/scratch/d2f63f3a5692/v29-assets/orange-court/utility.png",
+      "status": "final"
+    }
+  ]
+}

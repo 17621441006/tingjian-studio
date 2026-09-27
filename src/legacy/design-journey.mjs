@@ -39,10 +39,19 @@ export function initDesignJourney(root,gallery){
  const roomConfirmed=id=>confirmations.get(confirmed+':'+id)===roomSignature(id);
  const confirmationCount=()=>confirmed?ROOMS.filter(r=>roomConfirmed(r.id)).length:0;
  const allConfirmed=()=>confirmationCount()===ROOMS.length;
+ function publishNavigation(){
+  if(window.parent&&window.parent!==window)window.parent.postMessage({type:'tingjian:nav-state',steps:$$('[data-journey-step]').map(b=>({id:b.dataset.journeyStep,disabled:b.disabled,current:b.getAttribute('aria-current')==='step'}))},location.origin);
+ }
+ window.addEventListener('message',event=>{
+  if(!window.parent||window.parent===window||event.source!==window.parent||event.origin!==location.origin)return;
+  if(event.data?.type==='tingjian:nav-host'){if(document.documentElement.dataset.embeddedStudio!=='true'){document.documentElement.dataset.embeddedStudio='true';publishNavigation();}}
+  if(event.data?.type==='tingjian:nav-select'){const b=$$('[data-journey-step]').find(x=>x.dataset.journeyStep===event.data.step);if(b&&!b.disabled)b.click();}
+ });
  function syncNavigation(){
   root.dataset.journeyStep=step;root.dataset.detailsView=detailsView;
   for(const b of $$('[data-journey-step]')){b.setAttribute('aria-current',b.dataset.journeyStep===step?'step':'false');b.disabled=bulkBusy||b.dataset.journeyStep!=='style'&&(!confirmed||busy||galleryBusy||b.dataset.journeyStep==='whole'&&!allConfirmed());}
   $('[data-journey-summary]').hidden=!confirmed||inEditor;$('[data-journey-chosen]').textContent=confirmed?'已选风格 · '+HOMES[confirmed].name:'';
+  publishNavigation();
   $('[data-confirm-style]').disabled=busy||galleryBusy;$('[data-confirm-style]').textContent=busy?'正在保留你的选择…':'确定'+HOMES[gallery.getState().design].name+'，试布局 →';$('[data-confirm-style]').setAttribute('aria-busy',String(busy||galleryBusy));
   $('[data-layout-next]').disabled=busy||!confirmed;$('[data-details-next]').disabled=busy||bulkBusy||galleryBusy||!allConfirmed();
   $('[data-confirm-all]').disabled=busy||bulkBusy||!confirmed; $('[data-confirm-all]').textContent=bulkBusy?'正在检查全屋图片…':allConfirmed()?'全部已确认 ✓':'一键确认全部空间';

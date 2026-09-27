@@ -212,3 +212,13 @@ body>main{max-width:1800px;margin-inline:auto;padding-inline:clamp(18px,3vw,48px
 
 /* Paired views share one living room, not an extra confirmation slot. */
 .living-camera{padding:10px 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}.living-camera[hidden]{display:none}.living-camera-buttons{display:flex;gap:6px}.living-camera button{font:inherit;font-size:14px;border:1px solid #c2b7a7;background:#f6f3ec;color:#40382f;padding:9px 15px;border-radius:5px;cursor:pointer}.living-camera button[aria-pressed="true"]{background:#42392f;border-color:#42392f;color:#fff}.living-camera button:disabled{opacity:.6;cursor:wait}.living-camera-note{font-size:13px;line-height:1.5;color:#766753}.whole-model-reference .living-camera-buttons{flex-wrap:wrap}.studio-style-rail{overflow-y:auto;max-height:calc(100vh - 34px)}@media(max-width:1000px){.studio-style-rail{max-height:none}}
+
+/* v29: compact standalone navigation; embedded navigation lives in the site bar. */
+html[data-embedded-studio=true] .design-journey{display:none}
+.design-journey{display:flex;gap:5px;margin:0 0 12px;padding:0 0 10px;overflow-x:auto}
+.design-journey button{display:flex;align-items:center;gap:8px;white-space:nowrap;padding:8px 12px;flex:1}
+.design-journey button>span{font-size:16px}.design-journey strong{font-size:14px}.design-journey small{display:none}
+body main{padding-top:12px}.atelier .scheme-more{width:100%;margin:8px 0 14px;padding:11px 12px;border:1px solid #bdae98;border-radius:6px;background:#eee5d8;color:#544433;font-size:14px;text-align:left}
+.scheme-extra{display:contents}.scheme-extra[hidden]{display:none!important}
+html[data-embedded-studio=true] .atelier{margin-top:0}
+html[data-embedded-studio=true] .home-toolbar{margin-top:8px}
