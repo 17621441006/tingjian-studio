@@ -1,0 +1,1586 @@
+[
+  {
+    "path": "dist/final-v35/collections/collector/balcony-thumb.webp",
+    "bytes": 36612,
+    "sha": "01a9f839ef6c9e0d15ab2e192226b13e109d32b8",
+    "sha256": "93a1bc875a77c924ab593496839ab92a76a272146c603bd5cddd5f2718cbceb2",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/balcony.webp",
+    "bytes": 349518,
+    "sha": "ba82c39f3e8cebca8d27b762550468e9a92d2b74",
+    "sha256": "c173336169efb545306796410d74a6ef6649c673d73dfcc128bbf01fefaf9683",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/bath-thumb.webp",
+    "bytes": 25370,
+    "sha": "03cd0e2126393b8df854a44fe17504e44ad6f7c8",
+    "sha256": "3c4d87ebc8c245d37562ce2ab678398102485056c87eb222d0532c1b609b4db8",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/bath.webp",
+    "bytes": 331758,
+    "sha": "d3f51f57c185b09e25f98bf6604bc841024cb3f6",
+    "sha256": "a06d38b93c758e42f76f6a6c8b5902d88cc91620e471d2b9e4ac67f91ac1c4a5",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/dining-thumb.webp",
+    "bytes": 21642,
+    "sha": "7220e733e9439f877a712542558b5ccdf151cb31",
+    "sha256": "a4d2aafc9e7e741af8d9ad576dfb93526f4eeb7469a1fa13b87a0641766013ff",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/dining.webp",
+    "bytes": 206352,
+    "sha": "b32c42725c6533363e7ad1de50f15255ad28852b",
+    "sha256": "e1bf0f324ce3bedddca3e2c354ff68d0ddc3c98df762612c9589879326bbefbb",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/kitchen-thumb.webp",
+    "bytes": 21146,
+    "sha": "35680c98a956c182e9ac1f0fed0efa0255a96d45",
+    "sha256": "dc4c2ceed420fc67ef2fb93cb918a6d75b6bba939ae1e46dd8b67ea016cdb48a",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/kitchen.webp",
+    "bytes": 212288,
+    "sha": "7e517a3db76c37df7e55bf949e5634dad56fa4ea",
+    "sha256": "c90f4e3e4ef358f9979d5eec51081b33a81ba1010fb637a2dd9c4bd8288e1f23",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/living-thumb.webp",
+    "bytes": 27152,
+    "sha": "6e69fac3efc0e12295ae99bcda685c294b069d81",
+    "sha256": "eacae5f7df6a19502acc64f6c8ce9f6d8456264319b951041e0fd38d7eee5535",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/living.webp",
+    "bytes": 294788,
+    "sha": "0e577ae8044cb3f71b03d35c56aa752aa9b732ff",
+    "sha256": "2d0b92f0e2de792ecb75d576c16e7f89f6b283fcd4a9af58951f08dc07a121c0",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/master-thumb.webp",
+    "bytes": 25608,
+    "sha": "4d09069dd942eeabd2a523c16fc191d042610f65",
+    "sha256": "52d95b3cb19715efb486452d648f6384528b4d32c9b668f109aaecc80a1a09f1",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/master.webp",
+    "bytes": 266932,
+    "sha": "5b25d1f3f6827ad7332a506f4e88d78ae864db84",
+    "sha256": "086e538f998c2e235595dc5d4c8b6248ec4a0d74fb74a2d3201d5c8bf16733b7",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/second-thumb.webp",
+    "bytes": 27728,
+    "sha": "564139d028c3f80a11e94219f2bb3a4dc338b402",
+    "sha256": "2701a97a8ddca23794fa73defcd77fcda8432779a4bd008ee22814d86c5ba5db",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/second.webp",
+    "bytes": 292296,
+    "sha": "a91b36afa2c11e0f69e14a4336803df923d9bbac",
+    "sha256": "05faf73aab69c27ec51093d8783c0c1b9882fc24c0505dc381a0ed7269403255",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/collector/utility-thumb.webp",
+    "bytes": 32902,
+    "sha": "2ca51b73dd774dc9881ace434e86c6a1a8b1f72c",
+    "sha256": "85ee208ed4a3bcce3800d0781e54caacb87ecf71fd4e4452f228b187b7e573dd",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/collector/utility.webp",
+    "bytes": 256744,
+    "sha": "0b9bc0b6a9c51b98f198f0c9946eace017892b0d",
+    "sha256": "174f9d723d53ff6779673bd04ac768d6f592f05ec6f1f48132b22be6535516d0",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/balcony-thumb.webp",
+    "bytes": 36562,
+    "sha": "9ed9d9078d101af111e152ae57d8239360871fb8",
+    "sha256": "4383309b5a79dc55716feae680fc8bbf7442bbd4f0ec9d2610521fbf60dafc0b",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/balcony.webp",
+    "bytes": 349268,
+    "sha": "9b0137f0694e6354f7437e368d8bc8ddcbe26266",
+    "sha256": "0b937a38230c4dc8d77b56d1aac126187c3cad05b668fb1768e7494326878033",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/bath-thumb.webp",
+    "bytes": 19766,
+    "sha": "3bbc98c0185431952b7bc04d95e61fe4541887f5",
+    "sha256": "1bd60282824cac462ab610610dac94374de37f681b301e3ceee5d1ddbc9c2531",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/bath.webp",
+    "bytes": 270190,
+    "sha": "0687754b5f592611d0e675d8a8e38b77af97e1b4",
+    "sha256": "92eb5ec84def8e1b5f12626d8274fe1451c64fd1ccc11109ad5bdb84d71b63ed",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/dining-thumb.webp",
+    "bytes": 18954,
+    "sha": "270b3f3c9734871e8a7f97d9d54f8a2704d84ecd",
+    "sha256": "cc607cc8e31803e2fa99254bf913f2d465b3080824d98e26802e9d720639b45a",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/dining.webp",
+    "bytes": 175698,
+    "sha": "bcc5a5b6b7dfc4578f444749f1ebd42d46bde215",
+    "sha256": "a03abdf312387a55c162114a7474feb09f48c6a8e1dc3be01b075c7a66aa6719",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/kitchen-thumb.webp",
+    "bytes": 18904,
+    "sha": "63fed38d938d4a36484de6f231779d8a3c6f396b",
+    "sha256": "1c18c667fb4d11e57b1c6922b16866eee42dcb20b7811fd1303e5d5872b328e8",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/kitchen.webp",
+    "bytes": 199302,
+    "sha": "e924c4bec476d1026cf3fadb4445e4d6480f0f0e",
+    "sha256": "3941e93513ca945d35671f29f096a3df50a5a272b3030151d53cf5acecb111a5",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/living-thumb.webp",
+    "bytes": 24022,
+    "sha": "65b7fa1b9a3812de59888d10f29c146f5323aafb",
+    "sha256": "5151b4668c98cc5a14c076c8326456141845dfc5e4d81336cb6d11d352260369",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/living.webp",
+    "bytes": 261166,
+    "sha": "fa8fb49de17ce32aa389b1dc1816b063bd146851",
+    "sha256": "6e0fdbb9559990d4c161852d55c2fe31b283703f0629cf3b5825ff8c11ccf0ba",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/master-thumb.webp",
+    "bytes": 23796,
+    "sha": "7253259a1b963b8c33310ba5af64cf2eae3ca318",
+    "sha256": "737987107688d0187040c84291bd6e8039a192a8526dea4859e3e39a1a072524",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/master.webp",
+    "bytes": 271436,
+    "sha": "4f5e7f844eac8f99f288646774a16148aaf37853",
+    "sha256": "bfddbf23c68404c1f234af75a39f60b30f744e9cd4037d5356274a92cca45dec",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/second-thumb.webp",
+    "bytes": 24590,
+    "sha": "463d5b2b5aea27a97e062de5353aac6a75653cb2",
+    "sha256": "1703f3518e8c945352fa17829a6d1562e6b1495528dcffc45c86fe40372c5655",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/second.webp",
+    "bytes": 262360,
+    "sha": "8106eaea075eeb00f9a5913a88e7bca364dcf5b3",
+    "sha256": "1832fc3cc651bce8ea4d15cd6df6aaf2a12537d0415862fffd3e68cd2af20dae",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/utility-thumb.webp",
+    "bytes": 31858,
+    "sha": "750c1f5b9a597449980815310299c17b78c55ed2",
+    "sha256": "806c6c8e8161d2c4965d4bb092465bacbb00e780528adb67dae469e6f2e46afa",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/nocturne/utility.webp",
+    "bytes": 238964,
+    "sha": "e9c6d54d179a0ea62bc4393e74d2aa96106640db",
+    "sha256": "3b8afd49836890ec9c635d32c0741d076136a429cdd906b2bd9490f23578f8d8",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/balcony-thumb.webp",
+    "bytes": 35182,
+    "sha": "04f4636b769a3c478263c89eae8699fbfe7350db",
+    "sha256": "f8a8ef1767ffe8078ce126216b60210d7cf5d07e38412536a3602ee2b9963961",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/balcony.webp",
+    "bytes": 325408,
+    "sha": "33923cda499cc65776fbc91a6f069eaf75642653",
+    "sha256": "144c5b9b5bb15707c3f3271e8ef8d3867a911a432756d92c621b929840e4849b",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/bath-thumb.webp",
+    "bytes": 21400,
+    "sha": "286175c24427c600e1fe458fe44fa5cc3ad6f17c",
+    "sha256": "145c5922219a4ccce303daa7af6dd07b11fa41bd424564a559f5fd2b1d5942b5",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/bath.webp",
+    "bytes": 295042,
+    "sha": "586fd1a10601a9389c539e15339f0245a34d2fa3",
+    "sha256": "e9183dd282daae7d2491ec2055dcd39c85545ba3916aadbad4de9a6f82a83fa3",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/dining-thumb.webp",
+    "bytes": 19978,
+    "sha": "40208dc7049f21ec99ea6e5955457d08cf5d7c20",
+    "sha256": "43d29c947f3315e33104dafd62d95c24aa93d985a22047391b93b522f40fe6a1",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/dining.webp",
+    "bytes": 204898,
+    "sha": "4ace5a4b41461344f06dc4bb42d2920fe6d58ebd",
+    "sha256": "2f2f3e246a628264802f5aea45e22180cb2188667a68d358c2bcf8e3d9124aba",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/kitchen-thumb.webp",
+    "bytes": 20914,
+    "sha": "090ebee25cc9c3273387dbced71633f513eb03c0",
+    "sha256": "47ea28ac4b92abbe7236168825f117bc7cdbc4c70ca5cd552b1419638fcd7ef5",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/kitchen.webp",
+    "bytes": 220120,
+    "sha": "59f8f76f183c08168ec3496a490092c20f351a07",
+    "sha256": "b0ae32336afd464b04d6ab7a84516af8d9ae4e4062e341ed4b11490714fae088",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/living-thumb.webp",
+    "bytes": 29376,
+    "sha": "9eb141b2d53ea67f638de40a7138a31c7179c184",
+    "sha256": "7684cd47b1333d3b5d1290a77dd6564181ed01ad1efe689ee0af17b5ff7fce7d",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/living.webp",
+    "bytes": 324434,
+    "sha": "43f29397b6a1e2056df2496c4503ac530595f54d",
+    "sha256": "1344e4c2204ae2e3cd6df2905be5ff28d438d453fc05e1f637d51cfd51530862",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/master-thumb.webp",
+    "bytes": 25388,
+    "sha": "db0d5468a71b444283d204a0144ab2728673bf42",
+    "sha256": "69aa588566429d8c2510780cf0353dc3724ae436a062c3398f0a709029949966",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/master.webp",
+    "bytes": 297262,
+    "sha": "884a04e49dcf4d1714e5e3ff616330dc5c836a73",
+    "sha256": "586f913c53563a45ee25e0ffcb4a794495c9e242ec5de039a6ce088f9ad98c77",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/second-thumb.webp",
+    "bytes": 26602,
+    "sha": "6bb0e484ab1daa476b0f07fa24a2e5a760328410",
+    "sha256": "1cb5905a7087efdda13da31a5475254d07cbcef22611b670f369107982cf4e9f",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/second.webp",
+    "bytes": 276292,
+    "sha": "db7240c2c49c4ad6f70f0b2fb55acd5163aa2e9b",
+    "sha256": "02e24e0392fc67a4f5e74c61d60593f662d6b36a20e0cef57c5029aeee27cab4",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/utility-thumb.webp",
+    "bytes": 32216,
+    "sha": "700d54f017ce8f5e96f8d8754770e2b937bb582d",
+    "sha256": "4830c3af37d96c77d937070d812b1a2822f98b1f79ee95530b8af811fa073b4a",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/collections/oriental/utility.webp",
+    "bytes": 247874,
+    "sha": "0ab567d07d6911fabfdfdd4c50d5a0d9f4e1a766",
+    "sha256": "812e5b5ac8c633a31da4b4174ba53639d5746d8dd501c7e681e9a9619e6cebc8",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/balcony-thumb.webp",
+    "bytes": 40456,
+    "sha": "c15c7efa9c07986cab2492f3ca23b15ac0144968",
+    "sha256": "d864792ef1c27f410edd2257b6ce267c40b55843dee500772ab48939fe8c0a45",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/balcony.webp",
+    "bytes": 327904,
+    "sha": "dad75e99c0bdf4532fda103dcb8b47adbf3d97b4",
+    "sha256": "d65ab8c79dba2e0a0f73063406a2b07d2e664c8254c82791c9096b6545e3fd4b",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/bath-thumb.webp",
+    "bytes": 27140,
+    "sha": "463d3aea2fddd4d3de71e5ebdf2c2298b197af4c",
+    "sha256": "055b0fff6d94d5ebad5ac7d56e907861003652bf04b1935e8b3afa999e9c9230",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/bath.webp",
+    "bytes": 243318,
+    "sha": "11632f9bf1e5c40b2a78ec79103c8a9e63ffa3c7",
+    "sha256": "29c46c78d10fd7c7479ad19cb6f282c266001da0f7f6f0bb78f107be2cea2021",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/dining-thumb.webp",
+    "bytes": 31436,
+    "sha": "a305760ce4e8701d3c8c093e646bcb87ed1c2283",
+    "sha256": "b770a2b629c6e5c077412f4025bf0a7d86f30169bc615c7396c7344e4d66535b",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/dining.webp",
+    "bytes": 258090,
+    "sha": "7700a26a459388d43e418a79c03e69e163fcce23",
+    "sha256": "2cecb7da5b8d8e7be091254cd14aed0c8ec45df84f48d25fd678d4aa5ea4e07d",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/kitchen-thumb.webp",
+    "bytes": 27984,
+    "sha": "be1d5357d5657f4c20fc3c396012c12154804f10",
+    "sha256": "d43d48f20fe15d8d428b9201cad50d1cf8ebbcb376024f3578991a1ae86597b9",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/kitchen.webp",
+    "bytes": 211662,
+    "sha": "03168b3f3846f37d6039d180b1aaee9b20c8b180",
+    "sha256": "fc8081194a8872443b6d4d62d518b21be7788cb33698ee80f3fa00ba969c2cdc",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/living-thumb.webp",
+    "bytes": 39830,
+    "sha": "2060d07bd0fe9d16921533a305f80534649fd42a",
+    "sha256": "6e1379afbb6286f48f97139904fcac4f31def2953c49265eed162a21ec7b88c3",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/living.webp",
+    "bytes": 316262,
+    "sha": "45be23638704388f49503cfddfab778b3b6ce7e2",
+    "sha256": "1a8714c4cc426794f4d4dfcf20b263f3f75b3f1bc003cb19fc9c55da8e3b6d18",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/master-thumb.webp",
+    "bytes": 34036,
+    "sha": "d9003e5fe3bfcb10e5a28139777d353783aac15d",
+    "sha256": "8b2e5607a4c4afe7c23374918c49ce0676a90e7d6b7a43ef7faced92e94fba7c",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/master.webp",
+    "bytes": 313582,
+    "sha": "9a0775522b6785fccb1071ddc0f1565164c0e979",
+    "sha256": "a3d1c8b9ccf57ec52af660bdeb0038e31d11552226272a637b8b064ac6cdec17",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/second-thumb.webp",
+    "bytes": 31618,
+    "sha": "aed5bd81f638a25a425282e8a41eae19039ac618",
+    "sha256": "52c32f7033527a3b173c3b67712fea6041c116d9a58be287fa08cedbe4c73d6e",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/second.webp",
+    "bytes": 232392,
+    "sha": "307b4ed3a6f4edc7af802e69ee51cbd03eee68e7",
+    "sha256": "43985e938ee215514161b107c9ea10409d3604f292c42192443fbd3ebee3b5f4",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/utility-thumb.webp",
+    "bytes": 40642,
+    "sha": "57239a70413b5c21a4f048ad6b7b27da86d1e530",
+    "sha256": "dfa76df3c2ccf91e1fd13248094cae77c4401255020e5d4c3baf8d4d153798b5",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/amber/utility.webp",
+    "bytes": 255920,
+    "sha": "a3696d5ace703d51b9d206e4560433b53e6a7f0b",
+    "sha256": "e44c71b1301c17ce9312898261e704c25310d9366548e68afa3a633227e57031",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/balcony-thumb.webp",
+    "bytes": 46476,
+    "sha": "23ab7b471c091babdd3a14c2765db476067a3741",
+    "sha256": "7224ea0ec9364cab6fd4d1665db59e8b72eda8a0a149a812c527ba51f3befa49",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/balcony.webp",
+    "bytes": 309292,
+    "sha": "9fb59896271b8a540bcd033bdc9f07ae5212fac7",
+    "sha256": "744df97d12e332bcd5b380d29281262873f816515e2189848ec59637e9b9131e",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/bath-thumb.webp",
+    "bytes": 28534,
+    "sha": "300b4a43aeb549c83a5b9735d53204e9df105dac",
+    "sha256": "ef057ab675a01ca233745187b87b3789b5cfb2c4899b576fae11d46ea0a72443",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/bath.webp",
+    "bytes": 226576,
+    "sha": "20b8d82754463d2fd66c2f13c4140f946d251743",
+    "sha256": "357e65eb0333e9d49c329852b0c03b03f9f0f8912ec1cffb52f9dfdec0d3a47d",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/dining-thumb.webp",
+    "bytes": 31276,
+    "sha": "a118140c9fa1a5c56751894aeeb4bdb723a2e232",
+    "sha256": "6fa88414a3d94024d073e904fde7ed833cf5055a8f730d3c777c2d7a54085d0e",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/dining.webp",
+    "bytes": 200158,
+    "sha": "e784652853c8e2c3f54795389693d113692f7cdd",
+    "sha256": "a55aac35a906f148475bffef034cf144754a9464134535a6093ada867efcba70",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/kitchen-thumb.webp",
+    "bytes": 23750,
+    "sha": "42c091d2912c9274c6a5fb59b89d2365e96db73e",
+    "sha256": "86828f740d7e585c842b2bf0da8a68677fe877ece6d5a180a20475799fe44327",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/kitchen.webp",
+    "bytes": 157794,
+    "sha": "6fb9a3705932006d5f1f4b70abc4019f026afb06",
+    "sha256": "aac86a0219feb74c3d8521dd76e49693a118777e1c51e9fede8043e2cc9be733",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/living-thumb.webp",
+    "bytes": 40566,
+    "sha": "d5a074131aae8f9767e52a50464b53f3537028c6",
+    "sha256": "9fda803d6cd69a56f10377030c527eca3bc99b857a616e4caa31af4ff4202855",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/living.webp",
+    "bytes": 336230,
+    "sha": "902ee061b8c1e1fb057f2c89ff0e322fc74187bb",
+    "sha256": "e0c584271e3367d8e7d95790e842ef10da453d50495d4532b63a8453485bb97b",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/master-thumb.webp",
+    "bytes": 34490,
+    "sha": "81c4ddbf8d9894d756f98db34d117da918eb75a3",
+    "sha256": "d3dde018ed8910f0f9fae42bbec2c920d1d10d86058162b630383954f4338232",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/master.webp",
+    "bytes": 311046,
+    "sha": "b65ac5f3a1d89831a98e6f24af51986fda87f025",
+    "sha256": "60d09f6efd52b5f6808935c8fefc727661125b05ee76eff9f6be4c60a50377f1",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/second-thumb.webp",
+    "bytes": 32176,
+    "sha": "b851850a0a0d99673587a261aa74e110b6949129",
+    "sha256": "c521ade7cfeb6faf00565e531c59284f596e810f4085c5fcbda85779be6d98bc",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/second.webp",
+    "bytes": 225052,
+    "sha": "2b357430e71386d354c088ace4af51475231856c",
+    "sha256": "4ece7698cc1a6e70fde9f963dd770ead106414c06944c2547ea5717d281a3b5a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/utility-thumb.webp",
+    "bytes": 34986,
+    "sha": "8b832033bf9fa9f04f8aed25976010f4b2a9c0fe",
+    "sha256": "2f2414ca78742773930c2e3ecd9d2c7f4c78c9ff2911dde30a21db5b4de60a3f",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/chinese/utility.webp",
+    "bytes": 197202,
+    "sha": "f23a3595cf0750fe50769f8d07af8d6397b6cb65",
+    "sha256": "d6d8b3a32ed3befd3bf67f72e879ece369b83863700d482d36d80f1086d43038",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/balcony-thumb.webp",
+    "bytes": 42814,
+    "sha": "4cb42a5327135841a0ca9edeb19127bae17c7d24",
+    "sha256": "818e394cbb3fa1e86cc9ef6beba9aaaf901963fcdd9efe6e487ccdfb070efaa9",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/balcony.webp",
+    "bytes": 360508,
+    "sha": "a04116981eb7660dc99563b2499aeefd591cd766",
+    "sha256": "0b12096df64f9fcff107c1df8a8b4daae00a20f453faedf74ebbee97fb3e3c54",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/bath-thumb.webp",
+    "bytes": 29104,
+    "sha": "cdde36764562f16a85c8ff6a0a74b9cb500df1ab",
+    "sha256": "15335b16566ab2f536be27af47a8a872a07ca5c35e34aac08d4eef9e74267a45",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/bath.webp",
+    "bytes": 309680,
+    "sha": "beb3313f7e580743444def808390588ab57fb969",
+    "sha256": "1842a4fdcea28c945c6c5966e38738bfd9c3498f901379ce987ae73575741a06",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/dining-thumb.webp",
+    "bytes": 26200,
+    "sha": "5674c9918d3066c6ebd11684c065af44e4ce8bfb",
+    "sha256": "afba8aba2e94e165785b55fab5a766218a5caf2fc9029e0ef695c6f4f667f0f4",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/dining.webp",
+    "bytes": 257576,
+    "sha": "e74eeae5e6b5f8011ef31a76720c98a6be537011",
+    "sha256": "a253f0cb5c52ba08375340df08c0626e6fa2270373387ef9da2f274647dbec2c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/kitchen-thumb.webp",
+    "bytes": 24684,
+    "sha": "d0d02304bdb3286f0691649ac46d7d65ffc5c8af",
+    "sha256": "abcd070d5e3e733b52157fc4b784edce48d843e08b781f2af47c869627336f89",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/kitchen.webp",
+    "bytes": 219568,
+    "sha": "30b3d720e0db03c813f60790478f5712d3be8b30",
+    "sha256": "2292aa04531b638017ca3b4d20a1c1b9a6c84c1826eb56022e15707e832a7d00",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/living-thumb.webp",
+    "bytes": 35114,
+    "sha": "6a3e58a1df8ffb92170cb09fc70bf3e79993232c",
+    "sha256": "c500be23dcf753947571b3fc129ad8d0d097d5a6e0e9d6de884b207a9beb183d",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/living.webp",
+    "bytes": 353102,
+    "sha": "783649c8979370f25bc0e46fd885b6e16046b2b5",
+    "sha256": "98a5d73f05ceec3ef6a2f4385cf07c8866e9e90f6f1370f58337a3bd32101b39",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/master-thumb.webp",
+    "bytes": 30740,
+    "sha": "2dddaeca4deee19ebfeae03617e3726082d4f032",
+    "sha256": "1fd39bb6d21de6740e3075f7eae299d3aa10b7a699e08f7ac4fcd2f81f880e18",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/master.webp",
+    "bytes": 311412,
+    "sha": "5481806e486c16e193733292f63f599939d5e343",
+    "sha256": "9e9e597e18d538ce7d4c5e237ae053473601f721540a86ff48f798e0e81c9fcc",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/second-thumb.webp",
+    "bytes": 32896,
+    "sha": "e045cb09f7db89d5337fdee3ab33d0db6621933b",
+    "sha256": "611b1e8eeaeaedc1b9869c6e37f0a1220bc505a844618951a34ab8c6b7f23e5d",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/second.webp",
+    "bytes": 287464,
+    "sha": "7697f677904dae0866aae5f1ced576c540341bdc",
+    "sha256": "14649036740dfcb13bf71a8b94db8b63a0b1ba564d8d4c6d6a27540ae7969060",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/utility-thumb.webp",
+    "bytes": 35848,
+    "sha": "7f75e2be0e30e84228c331f9a44d61a7788f5bd3",
+    "sha256": "999cdad07e6ecd3d4c06c9a97948894481d864ae2492ac75ad3cf9c9a80a7efd",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/collector/utility.webp",
+    "bytes": 242422,
+    "sha": "0958b0ca40f6690d3b714be88f69da55bebeff3b",
+    "sha256": "530c94cab1b28ce26d13a1e0b0570fd933460490bc4610799084b20b8b72c288",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/balcony-thumb.webp",
+    "bytes": 48050,
+    "sha": "b586806c0087c8ca9641eee3f0505f3cc04de120",
+    "sha256": "7199bdd2f90ec499d2227f940c9753906ad04b3fcf53fcf1aa11aa0c64d579f9",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/balcony.webp",
+    "bytes": 357132,
+    "sha": "b98004110d468ecc3254849eed7dfa83b02b2bfb",
+    "sha256": "df7f66fba2d52988304cba7fbf2ed501cc754d04316af259950035ec8427e99c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/bath-thumb.webp",
+    "bytes": 28140,
+    "sha": "ef6cf2e91a591e02a6d65aca494403748f3fb05d",
+    "sha256": "430e55a62f06e66b4d49dcc652e4fab8ed6b4bcb1b6048b6ae144ffd40c5dadc",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/bath.webp",
+    "bytes": 270836,
+    "sha": "419db6fb729892740b780708efb76ef7279ffbe2",
+    "sha256": "b1428a83461f3cc8cb150031035df83f20af5927a1ca22c6085d513b7678a8ea",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/dining-thumb.webp",
+    "bytes": 35876,
+    "sha": "475d517fc8fce8d66859efa3e7b23a9faa028732",
+    "sha256": "170f55fd341b9eb4d166b5e04ed52d6b482ec0a94a06f62af1488edb00477be4",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/dining.webp",
+    "bytes": 271674,
+    "sha": "c919e9488631484db9bc44596e789f821669a364",
+    "sha256": "7ba1a39f427911af86e79d8cdc856a21de72fb283a57c7551fc2b5a383f5ad5a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/kitchen-thumb.webp",
+    "bytes": 26254,
+    "sha": "aad86b5731a68cd613c4eea0a045363a4ceb6ae6",
+    "sha256": "3528a3f60349f0cf865760aef75a473a1f751a99cd118d2889500e1d11f819f0",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/kitchen.webp",
+    "bytes": 233114,
+    "sha": "3f25f72a64bdb16311d7d4dbf76dc3e3a003729d",
+    "sha256": "3f8857e380a704c13e409802395b10077abf6f05ef62fdc1d79f4480719e20e7",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/living-thumb.webp",
+    "bytes": 34316,
+    "sha": "5718ae0bfb14223838d9b8ca79efc77ba52e23ca",
+    "sha256": "adb017f56755e8b4dd02a641ce5ff46e9dfc738491238f39c85cb54a0ee7a889",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/living.webp",
+    "bytes": 316454,
+    "sha": "adb7beb6d8c2635ad32c1871f054f989737a2b40",
+    "sha256": "4c4e6e95d06fcd20879f8c7e429076e6e070a6a8c61da9aff80ca745d76e2a41",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/master-thumb.webp",
+    "bytes": 32114,
+    "sha": "f7ce68ed43f6d61bb90eb5850523c5b92a0c8ab0",
+    "sha256": "6567d61dd99662db43340efca18bf76e76e82c67316c9bcd91e6258c2d08f754",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/master.webp",
+    "bytes": 298448,
+    "sha": "6bb26dd368cd4e5e629edb85f9041fa78bd9bb1f",
+    "sha256": "e183f871c0c3a014e88a7894ffec151a0dfd12b669507ef605745bac27b0b206",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/second-thumb.webp",
+    "bytes": 33818,
+    "sha": "a8276295bddebe486b017d73ec1eec4889011054",
+    "sha256": "1474a1590a23be93e0200d88a765a28cdf5a90cf7abbc2de60808fd35475ea5d",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/second.webp",
+    "bytes": 262906,
+    "sha": "490b8bbfae40da66f36829379255f8b5aca42bb1",
+    "sha256": "14cdb828c662ebef6238e13dffdcbd6e19d465eac4ca40154b870c5536e0c007",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/utility-thumb.webp",
+    "bytes": 28974,
+    "sha": "778e870796e7aedcd94bfee750b49a228b8ab245",
+    "sha256": "cbaaca39e203ba271b0275b06c7b84a519755242801e9add4732bcc859e60959",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/copper/utility.webp",
+    "bytes": 207766,
+    "sha": "2eaf7d4088a13a8174d754fb8c9671f56c088a49",
+    "sha256": "febde91545f1d4b492a6a6ed2e40af5309ba1792e8349b1a00f6197188669bbb",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/balcony-thumb.webp",
+    "bytes": 44802,
+    "sha": "c9b8879a47e8882efff059385651c11b367d7c13",
+    "sha256": "7f17117390b4fb171291287399a3ed10fa617f808e335520dcc442c866705e97",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/balcony.webp",
+    "bytes": 323004,
+    "sha": "dfb9e69ab5cbe5d72765ecaf36f45da563a1e890",
+    "sha256": "e162347cd797e3a4d5f3eb7bdb24222ab72c1b04ed0e0a30ed9746a46503859c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/bath-thumb.webp",
+    "bytes": 30124,
+    "sha": "2185ab18f12369729865167905c10922ff49c2a6",
+    "sha256": "661cc3207c1fc2e1b3a0e3a1c86d375f9bb41eda29f5f5f6ace27ead1bea50b2",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/bath.webp",
+    "bytes": 277712,
+    "sha": "599ad22b2b1d178b83a4bdb7ff2b2a46d2acb355",
+    "sha256": "c43e858367caab38d35cf48828d7ba4169c700446fb7c7e051313d3c335ada62",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/dining-thumb.webp",
+    "bytes": 27828,
+    "sha": "9f3bf77fabe0f3cbed167cde2b93d7664b97e787",
+    "sha256": "3d95bbb1f81efec4888e3aaa2b2f34982ab7c8a1447de4aca0c87be204090448",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/dining.webp",
+    "bytes": 176464,
+    "sha": "a4d190417408cddc907586eb5afc8b60f2575cc1",
+    "sha256": "7fc16e7455517e1459da03e036187163f99bfae0954fef6211216d14b8e0fb92",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/kitchen-thumb.webp",
+    "bytes": 27064,
+    "sha": "b9d01d5bdf7457552a0ce882f6f793a03bd1b66b",
+    "sha256": "f029eb26a1122fb8c8374402d022c8116892724671159e6d4e951777eaf2a105",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/kitchen.webp",
+    "bytes": 197152,
+    "sha": "58b6b541e5443e37fe8166c70ea6926c72509c63",
+    "sha256": "fb02de6b5f037aaa326e84cb523b9286ccb097e7c38509e87cd6d4be8f1a52f1",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/living-thumb.webp",
+    "bytes": 39730,
+    "sha": "ae9b5945150ad7953206b4dd248d8f020eab280a",
+    "sha256": "e075803247ee496333341a4a54377e52aed6afcb7a6bef9500e4eb3b44d87b77",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/living.webp",
+    "bytes": 323196,
+    "sha": "4acbcb6f8f74d0a2c1d4e904b1873a099d036471",
+    "sha256": "d6b3014d2208cee6abb40650144eb7f915c64590a38aa8c2d369f69810a57303",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/master-thumb.webp",
+    "bytes": 30662,
+    "sha": "5d88dc5596762f70404997a8f600708ea5377876",
+    "sha256": "e4d1f73e7e8fd460c13f9cb785b81b007df4cb9041ffb72a144219725d7e8e7c",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/master.webp",
+    "bytes": 253174,
+    "sha": "c929326d925ff76203c4823c3006c3229afe134d",
+    "sha256": "eda9a4b636e99571e314870b609364fe4b91b35b3926d1d95e6890ba9d2d8822",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/second-thumb.webp",
+    "bytes": 34394,
+    "sha": "1f708a85b154d8d8cf3299614ac90615269f7615",
+    "sha256": "6d32b04decf810db139871ac65ae7c3eede726882a227cb274e3bda1c7976c10",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/second.webp",
+    "bytes": 257152,
+    "sha": "52b59c80df8b781bc27d3860a3a7691998d74898",
+    "sha256": "489b70c2895040db602c846052f5f8fc79b5f9c047d51b9a6d64e3d92b9d1a9a",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/utility-thumb.webp",
+    "bytes": 42576,
+    "sha": "6da76ab5eca98e9eac1f339482e5598af7d0f8ae",
+    "sha256": "8b0a6371f99e19c045708d2f9de0a6359294a8051775199e0ee6384a8747d7f6",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/dusk/utility.webp",
+    "bytes": 251320,
+    "sha": "816e773c2bc057b20208cbf3ea01b43d614d3356",
+    "sha256": "fbdfd9672fd6c21dd2e5b80ffc5034bf37187cc7f43027296a8b9fa91c55393f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/balcony-thumb.webp",
+    "bytes": 35184,
+    "sha": "0c088b2655ad8a1763f3081aa4d8effc1b2b3321",
+    "sha256": "a8aa99d787476a9711c38c06d8470cab44be8a123dfc1d57d217de261931c940",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/balcony.webp",
+    "bytes": 300870,
+    "sha": "10c12671c7127080706467c0ede4d256bd9a544b",
+    "sha256": "558ac716242c970548de7f407909545576dd8bb3e2a01d57fcdefa7ed079e797",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/bath-thumb.webp",
+    "bytes": 27298,
+    "sha": "33a2974ba719b54bb4712987ac565a6945d23d84",
+    "sha256": "23ef5a3e27d8a706cba9ce7b284e76d8be50d1cf8e331201f6f66ea1fe8f2293",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/bath.webp",
+    "bytes": 303716,
+    "sha": "a5dc34d510b7fc313863f379067adc9b768ee6d4",
+    "sha256": "edcdd85952613b4f362ab42e31ebb1d7af866ec3363290017391fdffc9e1848f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/dining-thumb.webp",
+    "bytes": 22402,
+    "sha": "2c45743108c4aa968b676b5cc9871e608e9b35fc",
+    "sha256": "1569ad48bdf0d29b9d7b61a67555f132769b508f50aa72ed97496f1d60c884f4",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/dining.webp",
+    "bytes": 166936,
+    "sha": "cf011f1900b5396cd4dd6d7de4fb1611eb6e1781",
+    "sha256": "22aea359aacaa946e0db0fc1911a7ae4e304b4d418fead226442ed681bffa265",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/kitchen-thumb.webp",
+    "bytes": 21380,
+    "sha": "69948b1d7a42f54d8c23df59f5bb69fe795e76bb",
+    "sha256": "63cb6466054ef278e6dec87b5775be3d53b7df037450b8ebc200ddb38f1ec0cb",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/kitchen.webp",
+    "bytes": 183346,
+    "sha": "dff2613e3a462e32205d640c39db276601bfbd23",
+    "sha256": "4853613092ce8fccf4c33bd3d650fb7544b73ca8636deeeea1b3c888ebe64900",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/living-thumb.webp",
+    "bytes": 28560,
+    "sha": "90a95d57503414428bbb7edd0f8ddf5211308187",
+    "sha256": "ab85385ae06758ee5f493bb8608f1bfdfaf47513463e7d8ed4d6612ac9e81024",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/living.webp",
+    "bytes": 282106,
+    "sha": "e27f54fee8479ce237926e77a23b66dd7d47b890",
+    "sha256": "dbd3d70ffde3326164ac0f6012a64b07b779fd125bf3da25c259db53a5d41274",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/master-thumb.webp",
+    "bytes": 27086,
+    "sha": "e4144e464aec1307d66e82462853fe2a758d0f0a",
+    "sha256": "567fb7615494e3e427e1ee34cd00e079ddea449c9f69b8f1dd24cdfd7f27703d",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/master.webp",
+    "bytes": 259394,
+    "sha": "5e614e72b20081aac74350afea4ba01431a4a84b",
+    "sha256": "d994f9808670e588317bd8f06ff8473a6675c0f248fc2afeac16e4d9ac7924f7",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/second-thumb.webp",
+    "bytes": 32000,
+    "sha": "227ce4659a1cc3a8b8e5674ac8a0c33b6c49c5d9",
+    "sha256": "121bd3884b42f51daacf886e3870ef498d6dddafc3dcd99ebf9bdf47f0f3ab8a",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/second.webp",
+    "bytes": 255724,
+    "sha": "ae921a71e6a4990b416556fc8ca1d87f1caa9548",
+    "sha256": "22e79f50c3c65ab75a1288b11ac2820b083584788f10c76e5a0728fd36c9bffe",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/utility-thumb.webp",
+    "bytes": 38356,
+    "sha": "5f6cb75bd2c9623af304770e0884b2c98701cb64",
+    "sha256": "b3cf8f68041607f708af9cec66b2679ee03ed605a128c7d0a7e3c81219ac3e4e",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/edition-oak/utility.webp",
+    "bytes": 264542,
+    "sha": "ff69ec8df3b3973de54770b4e53b008a725ac624",
+    "sha256": "96ad46bc859e9af5bddc2b397f87bf51ae0a7f276380a18680d40b82d4da118f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/balcony-thumb.webp",
+    "bytes": 32360,
+    "sha": "bccce60e59cc6fa0649460e9d6ff7cb7f6daf15c",
+    "sha256": "9be2e6972ad399c74e42612f4585b81cd2abd3b4f3e095dd25dfa42dd22079d7",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/balcony.webp",
+    "bytes": 303284,
+    "sha": "1342fefb07dd9af07f5dee4574d944664d794f01",
+    "sha256": "2bdcb2fbb2115723c5fb589230ce605f491c2eac838bd95a05d481b9cc3beb76",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/bath-thumb.webp",
+    "bytes": 22404,
+    "sha": "9ecdfee7d74b94a9fc3c2818cd027f89dc97ce5e",
+    "sha256": "01acc14f94aeb3ab2ce8991c264c373ec38f485058ad2753a9ec5f9dc71618c5",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/bath.webp",
+    "bytes": 258626,
+    "sha": "4986396fcb2d6b14ab55860c870b3eb4b47b00d9",
+    "sha256": "3cbd27a896b7d15f2e5656488a490ba48c27f144bc97114bc3c8c7359f2dbbe9",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/dining-thumb.webp",
+    "bytes": 28444,
+    "sha": "57fa83be4c46e853a99ce10aa1e1cb1f326f5bb9",
+    "sha256": "2fa1782e26a345c5081ffd88c2a9acee9a0206af67868e7332b95104ce771b7f",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/dining.webp",
+    "bytes": 285058,
+    "sha": "b5b94a39598f58e5fa492a6ad6254b57a407b953",
+    "sha256": "425198792a5ec4cb37c1b55b0050b533a293d1477ed5dbf50e60fd0f5c52b45f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/kitchen-thumb.webp",
+    "bytes": 22532,
+    "sha": "bfafc4b14183e7f9e2a4a0b08e83f1b7da1ecc70",
+    "sha256": "c8f11dcd88a59bd59dd3814d8ee979c06136f62a1e59e6a10ac7c738cb992c10",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/kitchen.webp",
+    "bytes": 207978,
+    "sha": "98d929d56dd86b661f12d391edfcaa1c2bf4f73d",
+    "sha256": "acb3e3db619a32cfb26a5de5a69ff35aa2610716a3651ddea2d3b81c65ed4040",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/living-thumb.webp",
+    "bytes": 28068,
+    "sha": "3494803ea4d9db124b47ea4d986696d4e3890e38",
+    "sha256": "636c33972f0923486a8ae868b12f9232524b5eedea2fdc8e7d819f83a5cc8b30",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/living.webp",
+    "bytes": 272006,
+    "sha": "31dcba976b5204a56757229cdd341cf19512ca63",
+    "sha256": "1a5cfb7efd0c4070fdf9a1f057541e6d292530fb5f999a27962910b7079ab87f",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/master-thumb.webp",
+    "bytes": 28328,
+    "sha": "d7997d9062a26b74a29a6afd04e1abde3e7b4279",
+    "sha256": "d00dd23460b104f9229b4aa48a54575fe7afadf09c3f88302a8b00198b48e9d3",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/master.webp",
+    "bytes": 276594,
+    "sha": "26ca1620d5aa3dccdc6e715e2cc046f8ea610746",
+    "sha256": "169d1b5ee1d695f4f8ea5702b7600fc4d19805d351da46beebc52726a50d1480",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/second-thumb.webp",
+    "bytes": 32042,
+    "sha": "6a87b6db4d7dbac11a473d36056c9f70a2a693f9",
+    "sha256": "45e93486370e06ff8061baa346d46a7d5c2c9029ee2275f35c46767172816352",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/second.webp",
+    "bytes": 277074,
+    "sha": "bb407f548e8e8fccf5bbee1ac2e6b6a405461db1",
+    "sha256": "2b54befc1a6acb634246d3d5983d98d56264e04a2d52dcbe6c32b459d2e9f7f8",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/utility-thumb.webp",
+    "bytes": 26414,
+    "sha": "ea8bf402136fbbead5748192ff3c49cb42a76269",
+    "sha256": "6270e4a2f3c244177ed62163deb5a6bcb958f2eecb2e0e8e63d562c1f033544f",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/graphite/utility.webp",
+    "bytes": 214042,
+    "sha": "1013f367d8d7f3b3c119051ece386b38117972be",
+    "sha256": "083214f9f0769ec0ffc0f17dedd991612dce137dde8731f2ba432100a123db83",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/balcony-thumb.webp",
+    "bytes": 39654,
+    "sha": "9e5624ab08d9362fe99c24155876e481d5f40e20",
+    "sha256": "17c55c27975b04d23c1469ca56ccbdcac8b6c675ca64bb8bee0bc4301a39e0a5",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/balcony.webp",
+    "bytes": 330734,
+    "sha": "5fb23019e3e041bd635666bc55c73372ecfca70f",
+    "sha256": "436e3ed202c6d00af5cca7221dc3d1f223b7d2861aeb658bef8d70112018b85c",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/bath-thumb.webp",
+    "bytes": 29032,
+    "sha": "01b443f069285c4a36a66d8c4c2dd95b470043e4",
+    "sha256": "1e86ba58e5c26ecab3f91c145c6f868eb76b9c915c8ee13c521989db6341cf74",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/bath.webp",
+    "bytes": 321210,
+    "sha": "977d1bd11000d2a2ed28951ceefb49f198b9ec63",
+    "sha256": "4bf679b495c6ba718dfa3312f0968347892c1c46664f629856aa6ce3ee0c44df",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/dining-thumb.webp",
+    "bytes": 24924,
+    "sha": "95fad2ba24b9c0d13ed15544b44a795027ec2089",
+    "sha256": "cdbcfdba25d573b899001db478b7166e55f5786b00c7bcf125c1a52b2d4b597e",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/dining.webp",
+    "bytes": 216370,
+    "sha": "2c0676aed375b2e47da319a11d256f000a3e6206",
+    "sha256": "c479e434dd338029e53b55058811432fa095291efc6d009027de5181a47f3afd",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/kitchen-thumb.webp",
+    "bytes": 24194,
+    "sha": "8483ab8d7521433427a07b33a857823bb4f945f2",
+    "sha256": "96c21f81acbd876407a9071389997330aadad379a7690d52564ee3c4661a0ac0",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/kitchen.webp",
+    "bytes": 218342,
+    "sha": "b1c33ea21222a89644822e47f30f981efae539d5",
+    "sha256": "b2a11678a8a04abb52ec798ab29f73d0c8e81084e81712619b6fee400e5db4fc",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/living-thumb.webp",
+    "bytes": 31848,
+    "sha": "d59404e543a1b5e404c45b66d62eefc71929d88b",
+    "sha256": "784da0485887c5bf71adfa3ef5c303ec2b5cb8eb34eda3ea702ea25f14b1dd6e",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/living.webp",
+    "bytes": 355658,
+    "sha": "b54f5c03a8cf87822a71d8334022f0f4a0ba3245",
+    "sha256": "1e8d38a5a625cd03d25db7e8881d504eb791a5179ef2af4a3e22acb14f9b9e51",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/master-thumb.webp",
+    "bytes": 27448,
+    "sha": "f227a13a54f90aa22b5118a30a69924aa472fa16",
+    "sha256": "b44291d19c652e8cb8a068ba52522b1b97d4d98c20b1d4bf017563319cc3cf25",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/master.webp",
+    "bytes": 266438,
+    "sha": "c952050a42a71cd5f9b8d1d45b2a0b0e5424fc85",
+    "sha256": "aa125e47f642105e37c6ecc229c6131e39d82ab94300d8ae66302d28a86a2531",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/second-thumb.webp",
+    "bytes": 29064,
+    "sha": "2aaa2d15cccafdad06c8b0f7d8e654e1be6b6539",
+    "sha256": "53b950886d0844020f2a0b017caf8abc64fe308268834a3798fd4b8e142cda11",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/second.webp",
+    "bytes": 253990,
+    "sha": "f7fc88b3ed21f7ffb2652e2a6e86bec1523224a7",
+    "sha256": "01ab020b289823619cce2bb84cd1034e94e45f5ca4da597c38ad33a4d8db2159",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/utility-thumb.webp",
+    "bytes": 37536,
+    "sha": "fa773b4d004116524ba40f7da16bd8053c75cce7",
+    "sha256": "93899517817735b4495b4c392dc92d883e67d5586fc1f51bbc1642c69d73ef6f",
+    "width": 480,
+    "height": 320,
+    "thumb": true
+  },
+  {
+    "path": "dist/final-v35/schemes/stone/utility.webp",
+    "bytes": 286154,
+    "sha": "1c0eabcb49dda8f256ec651a3ca1b4dd999a4c9f",
+    "sha256": "6a194c2780991184b9da652c964172420e21e2ea98308d40a62dd8e8f4107982",
+    "width": 1536,
+    "height": 1024,
+    "thumb": false
+  }
+]

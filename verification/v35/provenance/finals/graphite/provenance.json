@@ -1,0 +1,418 @@
+{
+  "scheme": "graphite",
+  "tool": "built-in image_gen",
+  "rooms": [
+    {
+      "scheme": "graphite",
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room living. Retain graphite original tobacco brown leather, graphite stone, taupe walls, pale stone table and dark walnut, do not recolor the room aubergine. Refine fabric layering and crafted art, subtly deepen material finish, retain original lights, existing furniture placement and TV.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/living.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-cd39852b-565e-4f96-8d62-b41b0c2ea66c.png",
+      "tool": "built-in image_gen",
+      "qa": "Original camera, compact living/dining relationship, openings and primary furniture retained; palette and tactile styling coherent.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2529535,
+          "sha256": "6896dffcf9e2abace17bb3128868d73a04a7b416bbeaf30bfb2f4facdc79c381"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 272006,
+          "sha256": "1a5cfb7efd0c4070fdf9a1f057541e6d292530fb5f999a27962910b7079ab87f"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28068,
+          "sha256": "636c33972f0923486a8ae868b12f9232524b5eedea2fdc8e7d819f83a5cc8b30"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room dining looking toward living and balcony: preserve exact view, tobacco brown and taupe palette, pale stone table. Fine linen placemats and refined pottery, soft woven upholstery. No whole perimeter gold strip lighting. Balcony glazing remains fully transparent down to floor, slim framing only.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/dining.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-08910db0-3d59-4566-a027-f71f459add6c.png",
+      "tool": "built-in image_gen",
+      "qa": "Original dining camera and layout retained; crafted ceramics and linen styling.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2492552,
+          "sha256": "da3d8be7ff3d8c3da830ea1968419c1579bfbc9311a236b89b8c19252d397fab"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 285058,
+          "sha256": "425198792a5ec4cb37c1b55b0050b533a293d1477ed5dbf50e60fd0f5c52b45f"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28444,
+          "sha256": "2fa1782e26a345c5081ffd88c2a9acee9a0206af67868e7332b95104ce771b7f"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room master13.5sqm. Retain exact corner windows, bed wall and wardrobe. Original warm neutral brown palette, dark walnut, taupe upholstered bed, ivory fine linen bedding with tactile charcoal-brown wool throw. Enhance tailored seams and restrained crafted artwork with smoky fine textures. No new space or larger bed.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/master.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2f96658c-8dae-456d-8f54-4b4cb6311f43.png",
+      "tool": "built-in image_gen",
+      "qa": "13.5sqm concept scale and original window/bed/wardrobe relationship retained.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2557532,
+          "sha256": "f13235e0665c58f307bc211cd85d20451971b988a713a9f6a40ee9719ea606aa"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 276594,
+          "sha256": "169d1b5ee1d695f4f8ea5702b7600fc4d19805d351da46beebc52726a50d1480"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28328,
+          "sha256": "d00dd23460b104f9229b4aa48a54575fe7afadf09c3f88302a8b00198b48e9d3"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. CRITICAL second bedroom correction. Image4 original dusk second is authoritative tiny7.2sqm room dimensions and lengthwise bed layout. Retain Image1 palette dark walnut, tobacco brown/taupe and charcoal. Replace folded wall bed by fixed narrow SINGLE BED1.0m wide x2m long on RIGHT SIDE WALL; length runs from doorway foreground INTO DEPTH toward far window, foot near camera and head near window. NEVER bed across room width. Move desk from left wall to directly under far window, max45cm deep, chair tucked in, narrow central aisle. Compact overhead right storage. Do NOT widen room. Preserve window and doorway. Fine linen bedding, brown wool throw, restrained warm task light. Room must look genuinely tiny.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/second.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+          "role": "tiny room geometry authority"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b9b7daf5-6a1e-45cb-8603-576f7937d1b9.png",
+      "tool": "built-in image_gen",
+      "qa": "Tiny7.2sqm: narrow single bed runs lengthwise along right wall toward window, desk beneath far window, narrow central aisle; dusk geometry included.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2407504,
+          "sha256": "c436f1f28d8d93c6a85077abad63fbd8366fe8ea992d376105598d7c53da9dfd"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 277074,
+          "sha256": "2b54befc1a6acb634246d3d5983d98d56264e04a2d52dcbe6c32b459d2e9f7f8"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 32042,
+          "sha256": "45e93486370e06ff8061baa346d46a7d5c2c9029ee2275f35c46767172816352"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room enclosed6.6sqm kitchen, EXACT same L counters, far window/sink, right hob and left oven cabinet. Retain graphite gray cabinets, dark walnut tall joinery, pale stone. Refine tactile low-gloss materials and warm undercabinet light, one small stoneware utensil cup and neatly folded linen tea towel. No island, no enlarged circulation, no living furniture.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/kitchen.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-082e9260-cda2-443d-9abc-68eed1631b04.png",
+      "tool": "built-in image_gen",
+      "qa": "Enclosed6.6sqm compact counters, window/sink/hob/oven relationship retained.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2167028,
+          "sha256": "7e6b3af6617705663b3d3b930e132947ef3b9447058d541293c833e76f03f217"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 207978,
+          "sha256": "acb3e3db619a32cfb26a5de5a69ff35aa2610716a3651ddea2d3b81c65ed4040"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 22532,
+          "sha256": "c8f11dcd88a59bd59dd3814d8ee979c06136f62a1e59e6a10ac7c738cb992c10"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "bath",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room compact4.3sqm bathroom. EXACT left shower, central single vanity, right toilet and far narrow window. Preserve camera and boundary. Refine graphite stone veining, dark brown walnut vanity, aged bronze fittings, ivory textured towel, one tiny stone soap tray. Integrated warm mirror task light. No bathtub or double vanity, no enlargement.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/bath.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f4784cbc-1786-4f4d-996b-07416235323e.png",
+      "tool": "built-in image_gen",
+      "qa": "Compact4.3sqm left shower, single vanity, right toilet and narrow window retained; no tub or double vanity.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2466159,
+          "sha256": "4dbb1559cab320f8485d72e5e6ae77ec625b1d02ae75d80232387d023fe34beb"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 258626,
+          "sha256": "3cbd27a896b7d15f2e5656488a490ba48c27f144bc97114bc3c8c7359f2dbbe9"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 22404,
+          "sha256": "01acc14f94aeb3ab2ce8991c264c373ec38f485058ad2753a9ec5f9dc71618c5"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "balcony",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. CRITICAL scenic balcony5sqm shallow footprint, preserve original exact dimensions and sidewalls. FULL HEIGHT MAIN GLASS CEILING TO FINISHED FLOOR, absolutely NO opaque parapet, half-wall, high sill, window seat, platform or central opaque horizontal beam. Slim vertical frames and narrow side ventilation panel only. Original single lightweight tobacco-brown reading chair and tiny round table at right, off glazing. Refine chair fabric and brown linen cushion with small folded wool throw, subtle smoked bronze table finish. Leave central floor clear. No sofa or furniture enlargement.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/balcony.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-992ec8bc-9740-42c5-a7c9-5f6a6aaa5608.png",
+      "tool": "built-in image_gen",
+      "qa": "Shallow5sqm footprint; fullheight main glazing to floor without opaque parapet or central beam, lightweight chair and tiny table off glazing.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2480962,
+          "sha256": "39010db2575dab6d4b2391033bada7f981d5b411e2c1ea9d48fcc50f8635e61a"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 303284,
+          "sha256": "2bdcb2fbb2115723c5fb589230ce605f491c2eac838bd95a05d481b9cc3beb76"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 32360,
+          "sha256": "9be2e6972ad399c74e42612f4585b81cd2abd3b4f3e095dd25dfa42dd22079d7"
+        }
+      ]
+    },
+    {
+      "scheme": "graphite",
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior concept photograph, native 1536x1024 landscape. Image 1 is ORIGINAL ROOM TARGET, the geometry authority: preserve its exact camera, perspective, walls, openings, room widths, ceiling height, original key furniture and layout. Image 2 is STYLE ONLY for refined material detail and finish, never its architecture or room layout. Image 3 is actual apartment floorplan controlling compact footprint. Entire apartment gross75.1sqm, living+dining combined21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, scenic balcony5sqm, utility2.5sqm. Add restrained wool/linen layers, crafted artwork, at most1–2 sculptural objects, refined reading lights, integrated curtain track, tiny wall scene key, discreet hidden charging and warm task lighting where appropriate. Strong coherent natural light and realistic fine material texture. No enlarged rooms, relocated openings, invented columns, open-plan kitchen, people, text, logos, UI or collage. If balcony glass visible, it must extend to finished floor without any opaque parapet. Room narrow2.5sqm utility. Retain exact stacked washer/dryer straight ahead, cabinets and shallow counter at right, left glazing down to floor and upper opening pane, narrow walking aisle. Refine graphite gray and dark walnut, pale stone countertop, woven hamper and neatly folded fine towels. Warm undercabinet task light and organized concealed storage. No additional appliances or enlarged room.",
+      "input_roles": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/graphite/utility.jpg",
+          "role": "original target geometry"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+          "role": "style only"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "role": "actual floorplan"
+        }
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-db6d4299-6d3d-4093-9b79-707eb718519b.png",
+      "tool": "built-in image_gen",
+      "qa": "Narrow2.5sqm laundry, stacked appliances, side counter, lower fixed glass to floor and upper ventilation; no enlargement.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2239231,
+          "sha256": "3872f49ae7b40bf736ebe68327cfbd2eac5cbe2090933a3c99a64cc1233cb24f"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 214042,
+          "sha256": "083214f9f0769ec0ffc0f17dedd991612dce137dde8731f2ba432100a123db83"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/graphite/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 26414,
+          "sha256": "6270e4a2f3c244177ed62163deb5a6bcb958f2eecb2e0e8e63d562c1f033544f"
+        }
+      ]
+    }
+  ]
+}

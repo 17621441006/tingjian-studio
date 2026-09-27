@@ -1,0 +1,452 @@
+{
+  "living": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber living: retain bright natural lightoak and ivory palette, cinnamon curved leather sofa2.05m, amber sculptural glass pendant, smoky glass thin coffee table. Secondary style image must NOT darken oak or turn walls walnut. Enhance handwoven ivory wool rug, finely layered linen cushion and cocoa/terracotta small lumbar pillow, framed abstract artwork texture, one artisan stone object and amber vase. Original camera/layout/door positions exact. Fresh luminous softdaylight andwarm practical glow.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/living.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Original geometry and furniture retained; material/textile/lighting styling refined.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2fd2440c-29f7-4fa2-9fc2-b9f3cd093f04.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/living.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2590572,
+        "sha256": "e7269d63ee0c6d76eae4de81e979705138a5cbeaca8bd22b791bb3432b78bfa1"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/living.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 316262,
+        "sha256": "1a8714c4cc426794f4d4dfcf20b263f3f75b3f1bc003cb19fc9c55da8e3b6d18"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/living-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 39830,
+        "sha256": "6e1379afbb6286f48f97139904fcac4f31def2953c49265eed162a21ec7b88c3"
+      }
+    ]
+  },
+  "dining": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber dining view. Keep bright lightoak table/cabinetry and ivory walls, cinnamon curved sofa, amberglass lamp, smoke glass coffee table; secondary style image ONLY craft refinement no darkwood palette transfer. Finished linen napkin and artisan bowl on table, fine wool rug, updated warm abstract canvas texture. Slim tucked reading lamp, tiny discrete scene key. Preserve original narrow center aisle and perspective. Far scenic balcony clear floor-to-ceiling glass down to floor, lightwoven chair and tiny amber stool unchanged; no opaque sill.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/dining.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Original geometry retained; visible scenic balcony glass reaches floor.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-afe02583-a554-4c75-bfc8-6547a3b6a0ae.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/dining.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2392469,
+        "sha256": "d2897a324c80c884e69d445e114b7b1d2a164810ae50f90c597d21e82eac9113"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/dining.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 258090,
+        "sha256": "2cecb7da5b8d8e7be091254cd14aed0c8ec45df84f48d25fd678d4aa5ea4e07d"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/dining-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 31436,
+        "sha256": "b770a2b629c6e5c077412f4025bf0a7d86f30169bc615c7396c7344e4d66535b"
+      }
+    ]
+  },
+  "master": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber master13.5sqm. Preserve exact bay window sill, ledge and window architecture: this bedroom is NOT a balcony so keep original sill entirely. Retain lightoak bed and trim, cream limestone headboard, ivorywalls, amber bedside glass. Restyle bedding with luminous ivory linen, fine pale terracotta wool throw and small cinnamon velvet lumbar; understated stone bedside dish and refined reading lamps. Same camera, bed dimensions, sideclearances. Do NOT adopt darkwood from reference2.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/master.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Compact13.5sqm composition retained, original main walls and window locations; layered linen/wool.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-893d1cff-70c5-4be3-a472-b7054597448b.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/master.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2635591,
+        "sha256": "ed75347ee07b20e377af6612c45f90446439fb740bd10c88df432f34c4468de1"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/master.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 313582,
+        "sha256": "a3d1c8b9ccf57ec52af660bdeb0038e31d11552226272a637b8b064ac6cdec17"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/master-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 34036,
+        "sha256": "8b2e5607a4c4afe7c23374918c49ce0676a90e7d6b7a43ef7faced92e94fba7c"
+      }
+    ]
+  },
+  "second": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber SECOND bedroom hard geometry correction. Image4 dusk second is extra authoritative narrow room geometry and bed orientation. Keep genuinely tiny7.2sqm, doorway camera and far window, do not widen room. Change Image1 LEFT bed to narrow1.0m x2m single bed along RIGHT SIDE WALL, length points into depth doorway-to-far-window, foot near camera lower-right. NOT transverse across width, no underwindow bed. Move shallow desk max45cm deep beneath far window, slim chair tucked underneath, compact closed storage LEFT wall or upper right above bed. Remove bulky right mirror vanity and wardrobe as needed to fit actual footprint. Copy Image4 compact bed/desk proportions but NOT its dark palette. All lightoak, warm ivory, small amber glass reading lamp and pale terracotta wool throw, fine white linen. No room expansion.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/second.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg"
+    ],
+    "input_roles": [
+      "original geometry/palette target",
+      "style only",
+      "floorplan",
+      "tiny second geometry and bed orientation"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Tiny7.2sqm, narrow bed lengthwise along RIGHT wall with foot foreground, head far; shallow far-window desk and clear narrow aisle.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-32221cf3-c7ff-4aa2-b9c7-aeee04b44a37.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/second.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2313919,
+        "sha256": "78ef3a51f5fca3fff07dac48cb47a5dbabb1e1e8cfe816e95898ce50ef09b134"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/second.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 232392,
+        "sha256": "43985e938ee215514161b107c9ea10409d3604f292c42192443fbd3ebee3b5f4"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/second-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 31618,
+        "sha256": "52c32f7033527a3b173c3b67712fea6041c116d9a58be287fa08cedbe4c73d6e"
+      }
+    ]
+  },
+  "kitchen": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber enclosed kitchen6.6sqm. Preserve light naturaloak cabinetry, ivory uppers, pale stone, limited grayblue mineral backsplash. Same exact small U/L counter configuration, far window and sink, stove right, appliance tower left. Refine woodgrain, stone veining, discreet bronze handles, warm task strip and daylight; one folded linen towel, ceramic utensils crock and simple oil tray, keep generous clear countertop. Style2 only craftsmanship, do not use its darkwood palette. No island/openplan changes.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/kitchen.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Enclosed6.6sqm, original counters/window/sink/hob relationships preserved.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e8a310ed-df1b-4d90-8204-68916b51a4c8.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/kitchen.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2138778,
+        "sha256": "f5d392e9b91ab1fe3b7cb51777e9818f82b21bf3c0d5c8af9d628a123d87b2da"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/kitchen.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 211662,
+        "sha256": "fc8081194a8872443b6d4d62d518b21be7788cb33698ee80f3fa00ba969c2cdc"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/kitchen-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 27984,
+        "sha256": "d43d48f20fe15d8d428b9201cad50d1cf8ebbcb376024f3578991a1ae86597b9"
+      }
+    ]
+  },
+  "bath": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber bathroom4.3sqm. Exact left shower/single grayblue stone basin centered/toilet right, side window and doorway positions. Keep pale limestone walls, lightoak floating vanity, amberglass sconce, restrained bronze fixtures. Elevate plush ivory towel texture, one little stone soap dish and amber pump bottle, tiny stem. Warm flattering mirror lighting, realistic subtle stone and wood textures. Compact clean practical space. No tub/doublevanity, no enlargement, no darkwood transfer from Image2.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/bath.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Compact4.3sqm sanitary layout, single basin, shower and toilet retained.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9119b46c-e8b1-4bb8-8c89-ce9ec0d41792.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/bath.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2385937,
+        "sha256": "303faf79ae0ff737850dc10e84356bcb304688fb025554522c8271d2dfc73775"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/bath.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 243318,
+        "sha256": "29c46c78d10fd7c7479ad19cb6f282c266001da0f7f6f0bb78f107be2cea2021"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/bath-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 27140,
+        "sha256": "055b0fff6d94d5ebad5ac7d56e907861003652bf04b1935e8b3afa999e9c9230"
+      }
+    ]
+  },
+  "balcony": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber shallow5sqm scenic balcony. Keep exact architecture, shallow floor depth and side walls, FULLHEIGHT clear GLASS DOWN TO FINISHED FLOOR slimframes, no sill/parapet/opaque beam. Preserve single lightwoven chair at right and tiny transparent amber glass side table, plant left. Add fine offwhite linen cushion, draped pale terracotta wool throw, tiny handmade teacup with saucer on ambertable. Quiet luminous styling, naturaloak/ivory palette stays bright. No new furniture, sofa, bench or enlargement. Clear open glazing and floor remain.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/balcony.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Shallow5sqm, fullheight glass clear down to floor; no opaque parapet or bench; light freestanding chair(s) and tiny table.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f9f69895-0887-463e-9f4e-34cb8a6592e0.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/balcony.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2551770,
+        "sha256": "e5864b7fa4feb5c9e2f66f96f8bec4a2cdd9cc18a17b7b3e91ee68498759d5a9"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/balcony.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 327904,
+        "sha256": "d65ab8c79dba2e0a0f73063406a2b07d2e664c8254c82791c9096b6545e3fd4b"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/balcony-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 40456,
+        "sha256": "d864792ef1c27f410edd2257b6ce267c40b55843dee500772ab48939fe8c0a45"
+      }
+    ]
+  },
+  "utility": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Amber utility2.5sqm narrow laundry. Same exact narrow dimensions, far stacked washer dryer, slender cleaning storage, right counter and woven hamper, left lower floorlevel fixed glazing/upper vents. Keep light naturaloak cabinets and ivory stone, amber small ceiling light. Refine realistic woodgrains, neatly folded ivory towels on counter and one refillable amber bottle, soft warm undercabinet lighting. Floor clear. No new large furnishings, no room expansion or darkwood transfer.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/amber/v16/utility.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Narrow2.5sqm, original stacked machines and compact storage retained.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-51ceb4c2-edbc-48f5-883a-51a0d0837326.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/utility.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2262757,
+        "sha256": "bc4dd27f8b48ce1e4b9b49020d42fc8b4a4ddc922301d2dd608a10cccfb2ee46"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/utility.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 255920,
+        "sha256": "e44c71b1301c17ce9312898261e704c25310d9366548e68afa3a633227e57031"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/amber/utility-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 40642,
+        "sha256": "dfa76df3c2ccf91e1fd13248094cae77c4401255020e5d4c3baf8d4d153798b5"
+      }
+    ]
+  }
+}

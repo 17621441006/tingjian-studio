@@ -1,0 +1,194 @@
+[
+  {
+    "collection": "collector",
+    "room": "kitchen",
+    "prompt": "Use case: style-transfer interior architecture edit. Create ONE final photorealistic 1536x1024 landscape image. Image1 is the ORIGINAL compact 6.6sqm ENCLOSED kitchen edit target and absolute camera/geometry authority. Image2 is collector collection STYLE ONLY: rich dark walnut, aged brass, restrained taupe and saddle tones, fine crafted texture. Image3 actual apartment floorplan confirms footprint. Keep Image1 camera, wall boundaries, same U counters, left oven/tall cabinets, rear window and sink, right stove/hood, ceiling height and floor area EXACT. Change only finishes and subtle final styling into collector collection: dark walnut lower cabinets, sophisticated taupe upper cabinets, warm pale stone working surface, tiny aged brass details, warm undercabinet task lighting, two restrained useful crafted vessels and linen hand towel. Real comfortable small household kitchen, no expansion, island, living room, architecture inventions, artwork clutter, people/text/logos. Produce native 1536x1024.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-96d9da74-9e23-4905-b99e-6dd1b91a8b1a.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/kitchen.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2133496,
+        "sha256": "c1627d0bb7a37065155eac39538eb36231e756d9c1fdbbe6c7ff8be01269dbd9"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/kitchen.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 212288,
+        "sha256": "c90f4e3e4ef358f9979d5eec51081b33a81ba1010fb637a2dd9c4bd8288e1f23"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/kitchen-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 21146,
+        "sha256": "dc4c2ceed420fc67ef2fb93cb918a6d75b6bba939ae1e46dd8b67ea016cdb48a"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: enclosed compact U-counter kitchen, left oven, rear sink/window, right cooking line; original boundaries and camera maintained.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "collector",
+    "room": "bath",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual 75.1sqm floorplan controls footprint. ROOM: 4.3sqm tiny bathroom. EXACT left glass shower, central single sink/vanity, narrow rear frosted window right of mirror, toilet foreground right. Preserve all fixtures and camera. No tub/double vanity. COLLECTION STYLE: warm dark walnut, aged brass, textured taupe linen, saddle leather, pale and chocolate stone. Restrained fine craft and warm material detail. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Apply genuinely crafted final furnishings/materials, subtle useful linen and 1-2 ceramic items only, warm task lighting, discreet modern scene key. No oversized styling, expanded suite, new architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d56b704a-46f0-44ce-9f82-eec337eae0c7.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/bath.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2699799,
+        "sha256": "b8c6085ba7dd2b02c6cb0a2cf3007098ceff85ce223c4ff026f9484e344e278f"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/bath.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 331758,
+        "sha256": "a06d38b93c758e42f76f6a6c8b5902d88cc91620e471d2b9e4ac67f91ac1c4a5"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/bath-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 25370,
+        "sha256": "3c4d87ebc8c245d37562ce2ab678398102485056c87eb222d0532c1b609b4db8"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: left shower, central single sink, right toilet and narrow rear window; compact layout, no tub or double vanity.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "collector",
+    "room": "balcony",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual 75.1sqm floorplan controls footprint. ROOM: 5sqm SHALLOW scenic balcony. EXACT side walls, opening, skyline, compact depth and camera. REMOVE bench entirely and replace with ONE light freestanding chair and tiny side table off glazing. FLOOR-TO-CEILING GLASS reaches finished floor, absolutely NO opaque sill, parapet, half-wall, horizontal opaque beam, platform or window bench. Main glass uninterrupted floor to ceiling, slim vertical frames, tiny side opening panel allowed. Keep plenty visible clear floor. COLLECTION STYLE: warm dark walnut, aged brass, textured taupe linen, saddle leather, pale and chocolate stone. Restrained fine craft and warm material detail. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Apply final high quality materials, small saddle leather reading chair on delicate walnut frame, fine taupe cushion, tiny aged brass side table, warm reading sconce and concealed curtain track. Remove original long bench, do not replace with sofa. No oversized styling, enlarged architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/balcony.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-95772455-02c3-493d-b4dd-8bf42913e043.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/balcony.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2618136,
+        "sha256": "5c91c969e70ff6b272e06c1729f084ebace1863dfec67f554547fd8dc7c7c68a"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/balcony.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 349518,
+        "sha256": "c173336169efb545306796410d74a6ef6649c673d73dfcc128bbf01fefaf9683"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/balcony-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 36612,
+        "sha256": "93a1bc875a77c924ab593496839ab92a76a272146c603bd5cddd5f2718cbceb2"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: shallow original scenic balcony, floor-to-ceiling main glass visibly meets finished floor with slim framing; no opaque sill/parapet/bench; one freestanding light chair and tiny table.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "collector",
+    "room": "utility",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual75.1sqm floorplan controls footprint. ROOM: 2.5sqm VERY NARROW utility balcony. EXACT stacked washer dryer on far wall, thin cleaning storage to right, shallow folding counter right, glazing left with lower fixed glass all way to floor and upper opening vent. Preserve narrow passage, real device proportions and ceiling; no enlargement. COLLECTION STYLE: warm dark walnut, aged brass, textured taupe linen, saddle leather, pale and chocolate stone. Restrained fine craft and warm material detail. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Final sophisticated walnut cabinetry, pale stone folding surface, 1 small ceramic jar and neatly folded textured taupe linen, integrated task lighting. Fine craftsmanship meets discreet modern useful fittings. No oversized styling, expanded architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/utility.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-8abeac0f-dbd0-4e43-a860-d78a5eb9b6d6.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/utility.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2229209,
+        "sha256": "d07a043b7e2171f6d7ea1cb8ed51ee3ca11f295dec435fd845804777bac002db"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/utility.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 256744,
+        "sha256": "174f9d723d53ff6779673bd04ac768d6f592f05ec6f1f48132b22be6535516d0"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/utility-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 32902,
+        "sha256": "85ee208ed4a3bcce3800d0781e54caacb87ecf71fd4e4452f228b187b7e573dd"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: very narrow original laundry balcony, far stacked machines, right shallow worktop/storage; left lower fixed glazing to floor and upper vent; original camera/footprint retained.",
+    "visually_inspected": true
+  }
+]

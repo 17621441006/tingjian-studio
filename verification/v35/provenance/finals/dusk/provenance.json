@@ -1,0 +1,409 @@
+{
+  "scheme": "dusk",
+  "native_outputs": 8,
+  "room_order": [
+    "living",
+    "dining",
+    "master",
+    "second",
+    "kitchen",
+    "bath",
+    "balcony",
+    "utility"
+  ],
+  "records": [
+    {
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior, native 1536x1024 landscape. Image1 is dusk living edit target and absolute geometry/camera authority: keep exact walls, room width, ceiling, openings, camera, sofa/table/TV and dining positions. Image2 is ONLY material/styling reference, never copy its room layout. Image3 actual apartment floorplan: living+dining together21.4sqm. Keep original smoky walnut, taupe, brown leather, warm stone. Upgrade to restrained collected craftsmanship: richer real walnut grain, fine wool/linen cushions and throw, finely textured rug, one small bronze sculptural object, artwork with subtle tonal depth, tasteful reading light, discreet tiny wall scene key. Coherent warm lighting and soft daylight, natural material microtexture. No architectural enlargement, no extra room, no columns, no people, text, logos, UI or collage. Any visible balcony glass must extend to finished floor. Final polished attainable compact home.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-efd393d6-df36-41d9-a675-f43097d196d4.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original camera, walls, ceiling and sofa/TV/dining positions preserved; fine textile and ceramic styling.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2629827,
+          "sha256": "0d571e3dc4513b06de006e11a9406a9946ec02b523dbb5ec800bb4338286f077",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 323196,
+          "sha256": "d6b3014d2208cee6abb40650144eb7f915c64590a38aa8c2d369f69810a57303",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 39730,
+          "sha256": "e075803247ee496333341a4a54377e52aed6afcb7a6bef9500e4eb3b44d87b77",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Dining portion of shared21.4sqm living+dining. Keep table, chairs, cabinet, door and art positions. Add linen placemats and refined handmade ceramics, restrained bronze sculptural object on cabinet and subtle shelf lighting. Preserve empty circulation. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-01ec0ae4-f3a3-460d-a053-f1795c777ddc.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original compact dining, doorway and cabinet positions preserved; refined ceramics and lighting.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2058308,
+          "sha256": "9ac0448aba04af5195e0dd764a0d1c62d1915532a6faa802a4eb0757d556de56",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 176464,
+          "sha256": "7fc16e7455517e1459da03e036187163f99bfae0954fef6211216d14b8e0fb92",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27828,
+          "sha256": "3d95bbb1f81efec4888e3aaa2b2f34982ab7c8a1447de4aca0c87be204090448",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. 13.5sqm master bedroom. Preserve bed, windows, cabinetry, ceiling, camera exactly. Refine linen bedding, wool throw, soft curtains on integrated tracks, collected tonal artwork, subtle reading lamps and hidden charging. No extra furniture, no suite enlargement. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-45b6c8c4-e7c3-4670-b069-071ee05e2a62.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original compact master view and bed/window relationships retained; upgraded fine textiles.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2503444,
+          "sha256": "6922a4c4950ef293ef9c92e3420f785914da5d05de5f9d149a12399be6c1d484",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 253174,
+          "sha256": "eda9a4b636e99571e314870b609364fe4b91b35b3926d1d95e6890ba9d2d8822",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 30662,
+          "sha256": "e4d1f73e7e8fd460c13f9cb785b81b007df4cb9041ffb72a144219725d7e8e7c",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Tiny7.2sqm second bedroom. STRICT narrow1.0–1.2m x2m SINGLE bed along RIGHT SIDE WALL, its length runs from doorway foreground toward far window, INTO DEPTH. Exactly preserve narrow room, far window and doorway; do not widen. Desk under far window max45–50cm depth. Narrow clear central aisle. Compact storage. Refine linen bedding, fine wool throw, small reading light, warm shelf light. No transverse bed or under-window platform. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-29e96d44-d2c0-4b79-932b-8c534d98caff.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Visual pass: narrow single bed along right wall runs doorway-to-window into depth; shallow far-window desk and clear narrow aisle; compact overhead storage. Chinese corrected from original oversized left bed using dusk geometry.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2407186,
+          "sha256": "e16804863beb0d44175cdcabbb273d1dccfd923d7e7eaaeb535ed57b265fac66",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 257152,
+          "sha256": "489b70c2895040db602c846052f5f8fc79b5f9c047d51b9a6d64e3d92b9d1a9a",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 34394,
+          "sha256": "6d32b04decf810db139871ac65ae7c3eede726882a227cb274e3bda1c7976c10",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed6.6sqm kitchen. Preserve U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale upper cabinets and dark walnut lower cabinets. Fine stone, warm undercabinet light, one ceramic utensil jar, neatly folded linen towel. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5ecddbc4-7c47-4392-866a-c32448d8ce03.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original enclosed U counter, sink/hob/window/appliance layout retained; no island or enlargement.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2117435,
+          "sha256": "955d2b99807312d3b7537427ce0954a7dc52ef85886bac5651a18ed253fe2268",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 197152,
+          "sha256": "fb02de6b5f037aaa326e84cb523b9286ccb097e7c38509e87cd6d4be8f1a52f1",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27064,
+          "sha256": "f029eb26a1122fb8c8374402d022c8116892724671159e6d4e951777eaf2a105",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact4.3sqm bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast stone, fine walnut, beautifully lit mirror, folded woven towels, one ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5ae603ac-9261-48f3-a4d8-17ba8d0c9de7.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original shower-left, single-vanity-center, toilet-right layout retained; no tub or double vanity.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2649933,
+          "sha256": "95246c4d6c63981f30ae48d9865954a45f715e7c3695f1f3e2f37d70a7ecc908",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 277712,
+          "sha256": "c43e858367caab38d35cf48828d7ba4169c700446fb7c7e051313d3c335ada62",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 30124,
+          "sha256": "661cc3207c1fc2e1b3a0e3a1c86d375f9bb41eda29f5f5f6ace27ead1bea50b2",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow5sqm scenic balcony. Preserve same compact depth, sidewalls, camera and openings. HARD glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove long bench; replace with ONE lightweight freestanding walnut reading chair with taupe cushion and tiny round side table, positioned off glazing to keep view and narrow circulation free. Keep right plant small. No sofa or platform. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-239397a8-fc7a-4862-b87e-f56d18f89401.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Visual pass: fullheight external glass to finished floor, no parapet/windowseat; lightweight freestanding chair and tiny side table; original shallow footprint retained.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2514464,
+          "sha256": "7b9136dd2f20df9ada2f8490d29ad1448a1bb9f8e076c3e71d7b2b53fe9e8b96",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 323004,
+          "sha256": "e162347cd797e3a4d5f3eb7bdb24222ab72c1b04ed0e0a30ed9746a46503859c",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 44802,
+          "sha256": "7f17117390b4fb171291287399a3ed10fa617f808e335520dcc442c866705e97",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow2.5sqm utility balcony. Preserve stacked laundry at end and right compact counter, slim fullheight glazing on left, no enlargement. Fine dark walnut cabinetry, warm task lighting, folded linen, small functional hamper, minimal objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/utility.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-777cdf73-13f0-42ad-9cf2-f855aefd1136.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Narrow stack laundry and original cabinet/window geometry retained; lower glazing to floor.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2251214,
+          "sha256": "db544c7d631e7a9094a25999c6b616d39b98a839de6db04402b48e26f039ec59",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 251320,
+          "sha256": "fbdfd9672fd6c21dd2e5b80ffc5034bf37187cc7f43027296a8b9fa91c55393f",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 42576,
+          "sha256": "8b0a6371f99e19c045708d2f9de0a6359294a8051775199e0ee6384a8747d7f6",
+          "pil_load": "pass"
+        }
+      ]
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/dusk/contact-sheet.jpg"
+}

@@ -1,0 +1,452 @@
+{
+  "living": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Room: copper living, dark green mineral feature surfaces, beige-gray fabrics, aged copper accents and curved wood retained. Refine woven cushions and fine wool rug, restrained art and small ceramic vessel; maintain compact low sofa about2.1m and thin coffee table. Stronger realistic material styling, not color grade.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/living.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Original geometry and furniture retained; material/textile/lighting styling refined.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-7b03037b-6c23-4903-b403-8249def47dff.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/living.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2699195,
+        "sha256": "356d520c109202ef78cebf7e543b3f686fc7d167628caae3b17c74b527b177b0"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/living.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 316454,
+        "sha256": "4c4e6e95d06fcd20879f8c7e429076e6e070a6a8c61da9aff80ca745d76e2a41"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/living-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 34316,
+        "sha256": "adb017f56755e8b4dd02a641ce5ff46e9dfc738491238f39c85cb54a0ee7a889"
+      }
+    ]
+  },
+  "dining": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper dining view: retain darkgreen upholstery and mineral wall, bronze clouds, warm wood, pale stone rounded table. Restyle tabletop with artisan ceramic bowl, folded linen placemats and small stems; richer wool rug and fine linen sofa cushions. CRITICAL change far scenic balcony window sill to clear glass continuing DOWN TO FLOOR, remove opaque strip under far window. Keep balcony compact and two light chairs. Preserve everything else.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/dining.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Original geometry retained; visible scenic balcony glass reaches floor.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-27005b81-6967-4df9-bd67-0e75a479b524.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/dining.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2416368,
+        "sha256": "621b7bc1e187954daf7861372f2c6b286bcd3228117ab7487bc9bd6c09f1d803"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/dining.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 271674,
+        "sha256": "7ba1a39f427911af86e79d8cdc856a21de72fb283a57c7551fc2b5a383f5ad5a"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/dining-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 35876,
+        "sha256": "170f55fd341b9eb4d166b5e04ed52d6b482ec0a94a06f62af1488edb00477be4"
+      }
+    ]
+  },
+  "master": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper master13.5sqm: retain green mineral headwall, low upholstered bed, bronze curved inlay, warm darkwood and current window surrounds. Dress bed with layered ivory linen, muted olive fine wool throw and chocolate lumbar cushion, one tiny crafted object at bedside, discreet integrated reading lights. Restrained refined texture, same compact proportions and furniture.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/master.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Compact13.5sqm composition retained, original main walls and window locations; layered linen/wool. Minor generation variation: bay-window ledge lowered; parent visual review accepted copper8.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-c59018fb-5e95-46a0-9dd8-66815daa0961.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/master.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2646823,
+        "sha256": "08e57047636091543358eb418c75dd1d2a9536b0162f62ccdfba54d91c641bc5"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/master.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 298448,
+        "sha256": "e183f871c0c3a014e88a7894ffec151a0dfd12b669507ef605745bac27b0b206"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/master-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 32114,
+        "sha256": "6567d61dd99662db43340efca18bf76e76e82c67316c9bcd91e6258c2d08f754"
+      }
+    ]
+  },
+  "second": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper SECOND bedroom, hard correction. Image4 original dusk second is additional geometry reference and sleeping furniture orientation authority. Genuinely tiny7.2sqm narrow room, NEVER widen walls. Replace rightwall tall closed Murphy cupboard with a visible narrow1.0m wide x2m long single bed ALONG RIGHT SIDE WALL, length extends doorway-to-far-window into depth exactly as Image4. Bed foot near camera lower right, head at far right beneath compact upper storage. NOT transverse across width, NOT under-window platform. Remove left L return desk and deep floor cabinets if needed; desk only beneath far window max45cm deep with narrow chair tucked under. Keep narrow clear center aisle, far window/doorway/ceiling identical. Retain olive green cabinetry, warm walnut and agedcopper pulls; white linen, olive wool throw, compact reading lamp. Image4 controls tiny room proportions, Image1 controls copper colors. Bedroom window sill unchanged.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/second.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg"
+    ],
+    "input_roles": [
+      "original geometry/palette target",
+      "style only",
+      "floorplan",
+      "tiny second geometry and bed orientation"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Tiny7.2sqm, narrow bed lengthwise along RIGHT wall with foot foreground, head far; shallow far-window desk and clear narrow aisle.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ba04e017-8280-4e78-8309-e651cd399941.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/second.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2388317,
+        "sha256": "7a6e366b2a2592954e7c71488a0fe4a7a659f29527d969c3ae85358d6f591d8e"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/second.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 262906,
+        "sha256": "14cdb828c662ebef6238e13dffdcbd6e19d465eac4ca40154b870c5536e0c007"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/second-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 33818,
+        "sha256": "1474a1590a23be93e0200d88a765a28cdf5a90cf7abbc2de60808fd35475ea5d"
+      }
+    ]
+  },
+  "kitchen": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper enclosed kitchen6.6sqm. Retain exact window, sink under it, right stove, left appliance tower, greengray mineral cabinetry and pale stone counters. Enhance stone and brushed agedcopper material realism; warm continuous undercabinet task lighting, one folded linen teatowel and small earthenware crock, board and oil tray. No new architecture, no island, no pendant or rug. Refine full finished interior.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/kitchen.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Enclosed6.6sqm, original counters/window/sink/hob relationships preserved.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-14666fe4-06ee-4ad4-9a00-2048147ff4e7.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/kitchen.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2285449,
+        "sha256": "3f7c57f3863dc1f229b44be1c7c370758651f3071d67f07149b7113a88870bad"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/kitchen.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 233114,
+        "sha256": "3f8857e380a704c13e409802395b10077abf6f05ef62fdc1d79f4480719e20e7"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/kitchen-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 26254,
+        "sha256": "3528a3f60349f0cf865760aef75a473a1f751a99cd118d2889500e1d11f819f0"
+      }
+    ]
+  },
+  "bath": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper bathroom4.3sqm, exact same sanitary plan, left glass shower, single basin centered and toilet right, far narrow window. Keep greengray mineral tiles, walnut vanity, agedcopper fittings. Refine plush ivory towels, amber soap, small stone tray, restrained single branch; beautiful crafted woodgrain and brushed metal, practical flattering warm mirror/task glow. No bath tub, no double vanity, no enlargement. Keep window and door reflection.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/bath.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Compact4.3sqm sanitary layout, single basin, shower and toilet retained.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-1b69fd5e-0c4c-42bd-83d9-cd50fa2f9d91.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/bath.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2522613,
+        "sha256": "458f45031e2394fb90a17ef8ee51fadd66b5c9bc1217be21042bdcc9b775fc5c"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/bath.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 270836,
+        "sha256": "b1428a83461f3cc8cb150031035df83f20af5927a1ca22c6085d513b7678a8ea"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/bath-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 28140,
+        "sha256": "430e55a62f06e66b4d49dcc652e4fab8ed6b4bcb1b6048b6ae144ffd40c5dadc"
+      }
+    ]
+  },
+  "balcony": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper shallow scenic balcony5sqm ONLY. Preserve exact original camera, shallow depth, walls and fullheight glass clear down to finished floor. Keep two small freestanding olive upholstered light chairs and tiny bronze round tea table well off glazing. Maintain green mineral sidewall. Refine upholstery to fine olive weave, one ivory linen cushion and small wool folded throw on a chair, crafted tea set and one small plant. No benches/platform/sofa/solid parapet/opaque horizontal beam. Delicate slim window frames. Architectural dimensions absolutely unchanged.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/balcony.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Shallow5sqm, fullheight glass clear down to floor; no opaque parapet or bench; light freestanding chair(s) and tiny table.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e20ec23d-9560-425f-834b-ded39b527faf.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/balcony.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2620779,
+        "sha256": "8f4c6a70af77116c78a199bb2111e8e16bae2316942c9283f6a81272334ee48d"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/balcony.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 357132,
+        "sha256": "df7f66fba2d52988304cba7fbf2ed501cc754d04316af259950035ec8427e99c"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/balcony-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 48050,
+        "sha256": "7199bdd2f90ec499d2227f940c9753906ad04b3fcf53fcf1aa11aa0c64d579f9"
+      }
+    ]
+  },
+  "utility": {
+    "prompt": "Use case: precise-object-edit. Create final furnished photorealistic interior concept image, native1536x1024 landscape. Image1 is original target: STRICT geometry/camera/architecture authority. Image2 is style reference ONLY for craftsmanship and layered styling, never its layout or palette. Image3 actual floorplan: entire home75.1sqm, living+dining together21.4sqm, master13.5sqm, second7.2sqm, enclosed kitchen6.6sqm, bath4.3sqm, shallow scenic balcony5sqm and utility2.5sqm. Preserve Image1 camera, straight walls, ceiling, windows, openings, furniture scale and positions. Keep target scheme original colors/materials unmistakable. Enhance finish detail and coherent natural +warm lighting; restrained linen/wool, crafted artwork, 1–2 small sculptural objects, tasteful reading lights, hidden charging, tiny wall scene key, integrated curtain track where appropriate. Do not enlarge, invent columns, change layout, create luxury suite or open kitchen. All visible scenic balcony glazing must reach finished floor with slim frames, NO solid halfwall/parapet/bench blocking glass. No people, text, logos, UI or collage. Copper utility2.5sqm narrow stack laundry. Exact same stacked washer/dryer and slim equipment storage, pale counter right, left floorlevel fixed lower glass and upper ventilation. Keep olivegreen mineral cabinet doors, warm wood inset, agedcopper accents. Upgrade fine cabinetry detail, folded ivory towels, single woven laundry basket, refillable amber bottle and undercabinet illumination. Reduce oversized branch decoration to a small stem; functional compact space. Do not add seats or widen room.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/copper/v16/utility.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "input_roles": [
+      "original geometry target",
+      "style only",
+      "floorplan"
+    ],
+    "qa": {
+      "visual_inspected": true,
+      "result": "pass",
+      "notes": "Narrow2.5sqm, original stacked machines and compact storage retained.",
+      "palette": "original scheme retained",
+      "native_resolution": [
+        1536,
+        1024
+      ],
+      "full_webp_quality": 90,
+      "decoded_all_files": true,
+      "tool": "built-in image_gen__imagegen"
+    },
+    "source_generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-728105d0-5781-4ea0-84a9-dfb768691184.png",
+    "files": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/utility.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2134038,
+        "sha256": "64626d2a647522ac504cdbf00e5fee7f049d01091cd1a52c4952af81ebbb9263"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/utility.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 207766,
+        "sha256": "febde91545f1d4b492a6a6ed2e40af5309ba1792e8349b1a00f6197188669bbb"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/copper/utility-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 28974,
+        "sha256": "cbaaca39e203ba271b0275b06c7b84a519755242801e9add4732bcc859e60959"
+      }
+    ]
+  }
+}

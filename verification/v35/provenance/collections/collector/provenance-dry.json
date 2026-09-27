@@ -1,0 +1,232 @@
+{
+  "collection": "collector",
+  "scope": [
+    "living",
+    "dining",
+    "master",
+    "second"
+  ],
+  "native_size": [
+    1536,
+    1024
+  ],
+  "thumbnail_size": [
+    480,
+    320
+  ],
+  "assets": [
+    {
+      "collection": "collector",
+      "room": "living",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Living view: keep exactly image1 camera and architecture, sofa on right, television on left, dining at back. Living and dining combined only21.4sqm. Compact2.1m sofa, small thin stone coffee table, restrained finely textured rug. Do not enlarge. If any balcony glazing is visible extend it all the way down to finished floor. Apply warm dark walnut, brushed brass, collected landscape art, textured taupe wool and saddle leather, fine veined brown marble, restrained finish-rich styling. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-4ab8b61d-ea75-4a87-8447-d59650ccc18b.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk camera, TV left, sofa right, rear dining and openings retained; compact scale, no visible balcony glazing requiring correction."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2537978,
+          "sha256": "9e2a95396182fb0579e6c913045eb70640ca71742d5a673b447bf5ab12b5705a",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 294788,
+          "sha256": "2d0b92f0e2de792ecb75d576c16e7f89f6b283fcd4a9af58951f08dc07a121c0",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27152,
+          "sha256": "eacae5f7df6a19502acc64f6c8ce9f6d8456264319b951041e0fd38d7eee5535",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "collector",
+      "room": "dining",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Dining view: match exactly image1 camera, wall, doorway at right and opening at left. Compact dining within combined21.4sqm living+dining. Small four person table, narrow sideboard, crafted pendant, one small sculpture. Apply warm dark walnut, brushed brass, collected landscape art, textured taupe wool and saddle leather, fine veined brown marble, restrained finish-rich styling. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2592b24c-76cf-4e73-9d74-78d5caa0e615.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk straight wall, left opening, right doorway, small table and sideboard footprint retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2108667,
+          "sha256": "0d3ff7078db21024f0d0953ec796ce63dbe9e5c505841e3063919316a5b8c7a7",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 206352,
+          "sha256": "e1bf0f324ce3bedddca3e2c354ff68d0ddc3c98df762612c9589879326bbefbb",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 21642,
+          "sha256": "a4d2aafc9e7e741af8d9ad576dfb93526f4eeb7469a1fa13b87a0641766013ff",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "collector",
+      "room": "master",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Master bedroom only13.5sqm. Exactly image1 camera/window placements/bed position/wardrobe and walls. Preserve corner window and right window, realistic compact aisles. Refine bedhead, fine linen, small bedside lamps, one artwork. Apply warm dark walnut, brushed brass, collected landscape art, textured taupe wool and saddle leather, fine veined brown marble, restrained finish-rich styling. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-1f559a4a-a494-4015-ac21-f612322f1560.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original corner and right windows, door viewpoint, bed and wardrobe relation retained; compact13.5sqm impression."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2513724,
+          "sha256": "f07c802fbf4d96bb495fffb7792b5eef858aafdcf024742e632bb8b675570c78",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 266932,
+          "sha256": "086e538f998c2e235595dc5d4c8b6248ec4a0d74fb74a2d3201d5c8bf16733b7",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 25608,
+          "sha256": "52d95b3cb19715efb486452d648f6384528b4d32c9b668f109aaecc80a1a09f1",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "collector",
+      "room": "second",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Tiny narrow7.2sqm second bedroom. Preserve EXACT image1 doorway viewpoint, narrow width and far window. A SINGLE narrow1.0m wide x2m long bed is LENGTHWISE ALONG RIGHT SIDE WALL, running from foreground/door toward far window, just as image1. Never rotate bed across width; NEVER horizontal bed beneath window. Desk under far window only45cm deep. Narrow central aisle. Compact upper cabinet right. No widening or large furniture. Apply warm dark walnut, brushed brass, collected landscape art, textured taupe wool and saddle leather, fine veined brown marble, restrained finish-rich styling. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-30e3b83f-e983-4cb3-ac85-2e6f5b4439ef.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Tiny narrow room retained; single bed length runs foreground-to-window along right wall, not horizontally beneath window; slim far-window desk and central aisle retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2482267,
+          "sha256": "4a62a987f75c8931251cecb8f03db6e5d677fed6e72ccf7b9438bc97682da895",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 292296,
+          "sha256": "05faf73aab69c27ec51093d8783c0c1b9882fc24c0505dc381a0ed7269403255",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27728,
+          "sha256": "2701a97a8ddca23794fa73defcd77fcda8432779a4bd008ee22814d86c5ba5db",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/collector/contact-dry.jpg"
+}

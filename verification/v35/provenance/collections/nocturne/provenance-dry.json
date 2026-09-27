@@ -1,0 +1,232 @@
+{
+  "collection": "nocturne",
+  "scope": [
+    "living",
+    "dining",
+    "master",
+    "second"
+  ],
+  "native_size": [
+    1536,
+    1024
+  ],
+  "thumbnail_size": [
+    480,
+    320
+  ],
+  "assets": [
+    {
+      "collection": "nocturne",
+      "room": "living",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Living view: keep exactly image1 camera and architecture, sofa on right, television on left, dining at back. Living and dining combined only21.4sqm. Compact2.1m sofa, small thin stone coffee table, restrained finely textured rug. Do not enlarge. If any balcony glazing is visible extend it all the way down to finished floor. Apply nearblack aubergine, chocolate leather, smokedgold, subtle fine wool, black veined marble and abstract art, softly glowing alabaster. Change materials visibly: aubergine plaster sections, chocolate leather, smoked walnut, plum wool, black veined marble, alabaster lamp, restrained abstract art. Keep daylight legible. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6d8b070b-98ef-4ec8-8700-285a719d2e52.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk camera, TV left, sofa right, rear dining and openings retained; compact scale, no visible balcony glazing requiring correction."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2394142,
+          "sha256": "2fa5a929dfebb22624c8ad7de78f7e7cc6c0f576d06c46ae66e0c9cf31bb5cac",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 261166,
+          "sha256": "6e0fdbb9559990d4c161852d55c2fe31b283703f0629cf3b5825ff8c11ccf0ba",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24022,
+          "sha256": "5151b4668c98cc5a14c076c8326456141845dfc5e4d81336cb6d11d352260369",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "nocturne",
+      "room": "dining",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Dining view: match exactly image1 camera, wall, doorway at right and opening at left. Compact dining within combined21.4sqm living+dining. Small four person table, narrow sideboard, crafted pendant, one small sculpture. Apply nearblack aubergine, chocolate leather, smokedgold, subtle fine wool, black veined marble and abstract art, softly glowing alabaster. Change materials visibly: aubergine plaster sections, chocolate leather, smoked walnut, plum wool, black veined marble, alabaster lamp, restrained abstract art. Keep daylight legible. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f22d3fce-0222-4a7c-8b31-1258fa5776cd.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk straight wall, left opening, right doorway, small table and sideboard footprint retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2051061,
+          "sha256": "fdb5c094820d89a0c1a2ec3ad56f5b9cad7501222a5a9a9dd6c1273dc7c6036d",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 175698,
+          "sha256": "a03abdf312387a55c162114a7474feb09f48c6a8e1dc3be01b075c7a66aa6719",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 18954,
+          "sha256": "cc607cc8e31803e2fa99254bf913f2d465b3080824d98e26802e9d720639b45a",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "nocturne",
+      "room": "master",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Master bedroom only13.5sqm. Exactly image1 camera/window placements/bed position/wardrobe and walls. Preserve corner window and right window, realistic compact aisles. Refine bedhead, fine linen, small bedside lamps, one artwork. Apply nearblack aubergine, chocolate leather, smokedgold, subtle fine wool, black veined marble and abstract art, softly glowing alabaster. Change materials visibly: aubergine plaster sections, chocolate leather, smoked walnut, plum wool, black veined marble, alabaster lamp, restrained abstract art. Keep daylight legible. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ab0f8842-aca3-4b40-8c2c-fd2c20d7126d.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original corner and right windows, door viewpoint, bed and wardrobe relation retained; compact13.5sqm impression."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2485312,
+          "sha256": "70cbe798a8dcb1bdb98c5faf82dae0ccd68b114f500de8824572ab6846e5c081",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 271436,
+          "sha256": "bfddbf23c68404c1f234af75a39f60b30f744e9cd4037d5356274a92cca45dec",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 23796,
+          "sha256": "737987107688d0187040c84291bd6e8039a192a8526dea4859e3e39a1a072524",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "nocturne",
+      "room": "second",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Tiny narrow7.2sqm second bedroom. Preserve EXACT image1 doorway viewpoint, narrow width and far window. A SINGLE narrow1.0m wide x2m long bed is LENGTHWISE ALONG RIGHT SIDE WALL, running from foreground/door toward far window, just as image1. Never rotate bed across width; NEVER horizontal bed beneath window. Desk under far window only45cm deep. Narrow central aisle. Compact upper cabinet right. No widening or large furniture. Apply nearblack aubergine, chocolate leather, smokedgold, subtle fine wool, black veined marble and abstract art, softly glowing alabaster. Change materials visibly: aubergine plaster sections, chocolate leather, smoked walnut, plum wool, black veined marble, alabaster lamp, restrained abstract art. Keep daylight legible. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-715ef424-1436-4a21-aa1d-dacf1b31a2e2.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Tiny narrow room retained; single bed length runs foreground-to-window along right wall, not horizontally beneath window; slim far-window desk and central aisle retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2360819,
+          "sha256": "afcc1952baf90aff4e7b7a549fbf182b0d77c7675c6379866352026406dbd10f",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 262360,
+          "sha256": "1832fc3cc651bce8ea4d15cd6df6aaf2a12537d0415862fffd3e68cd2af20dae",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24590,
+          "sha256": "1703f3518e8c945352fa17829a6d1562e6b1495528dcffc45c86fe40372c5655",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/contact-dry.jpg"
+}

@@ -1,0 +1,232 @@
+{
+  "collection": "oriental",
+  "scope": [
+    "living",
+    "dining",
+    "master",
+    "second"
+  ],
+  "native_size": [
+    1536,
+    1024
+  ],
+  "thumbnail_size": [
+    480,
+    320
+  ],
+  "assets": [
+    {
+      "collection": "oriental",
+      "room": "living",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Living view: keep exactly image1 camera and architecture, sofa on right, television on left, dining at back. Living and dining combined only21.4sqm. Compact2.1m sofa, small thin stone coffee table, restrained finely textured rug. Do not enlarge. If any balcony glazing is visible extend it all the way down to finished floor. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-a4c18c3c-1cd0-458f-9d61-7616d9bb18e9.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk camera, TV left, sofa right, rear dining and openings retained; compact scale, no visible balcony glazing requiring correction."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2638042,
+          "sha256": "582a167609f3cd423e357ac9b5b7aee748fc218b1d801ce0219811ac481b1ba7",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 324434,
+          "sha256": "1344e4c2204ae2e3cd6df2905be5ff28d438d453fc05e1f637d51cfd51530862",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29376,
+          "sha256": "7684cd47b1333d3b5d1290a77dd6564181ed01ad1efe689ee0af17b5ff7fce7d",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "oriental",
+      "room": "dining",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Dining view: match exactly image1 camera, wall, doorway at right and opening at left. Compact dining within combined21.4sqm living+dining. Small four person table, narrow sideboard, crafted pendant, one small sculpture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d6e7fac6-7a13-4be1-8a0a-e67a26136793.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original dusk straight wall, left opening, right doorway, small table and sideboard footprint retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2121381,
+          "sha256": "65b068530d57116198fd4cf67414a54ccc7b122116a87b64320314dc0238e521",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 204898,
+          "sha256": "2f2f3e246a628264802f5aea45e22180cb2188667a68d358c2bcf8e3d9124aba",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 19978,
+          "sha256": "43d29c947f3315e33104dafd62d95c24aa93d985a22047391b93b522f40fe6a1",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "oriental",
+      "room": "master",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Master bedroom only13.5sqm. Exactly image1 camera/window placements/bed position/wardrobe and walls. Preserve corner window and right window, realistic compact aisles. Refine bedhead, fine linen, small bedside lamps, one artwork. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-3bf420a2-9a0c-4a3c-b582-8621b6379bef.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Original corner and right windows, door viewpoint, bed and wardrobe relation retained; compact13.5sqm impression."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2566632,
+          "sha256": "104488edff45fa65586eacd36f327916136324a2fa0de5ac8e6d350cada746c5",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 297262,
+          "sha256": "586f913c53563a45ee25e0ffcb4a794495c9e242ec5de039a6ce088f9ad98c77",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 25388,
+          "sha256": "69aa588566429d8c2510780cf0353dc3724ae436a062c3398f0a709029949966",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    },
+    {
+      "collection": "oriental",
+      "room": "second",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Tiny narrow7.2sqm second bedroom. Preserve EXACT image1 doorway viewpoint, narrow width and far window. A SINGLE narrow1.0m wide x2m long bed is LENGTHWISE ALONG RIGHT SIDE WALL, running from foreground/door toward far window, just as image1. Never rotate bed across width; NEVER horizontal bed beneath window. Desk under far window only45cm deep. Narrow central aisle. Compact upper cabinet right. No widening or large furniture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "inputs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-a8a170da-401f-4c24-a35b-88fb4fd1c636.png",
+      "tool": "builtin image_gen",
+      "input_roles": [
+        "original dusk room / camera and geometry authority",
+        "lifestyle-v33 collection / style only",
+        "actual75.1sqm floorplan / footprint authority"
+      ],
+      "qa": {
+        "visual_inspection": "pass",
+        "notes": "Tiny narrow room retained; single bed length runs foreground-to-window along right wall, not horizontally beneath window; slim far-window desk and central aisle retained."
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2452702,
+          "sha256": "eaf6030dd298f9d2c523a46d09ccb3e36b25947197bae249836bef51daccd842",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 276292,
+          "sha256": "02e24e0392fc67a4f5e74c61d60593f662d6b36a20e0cef57c5029aeee27cab4",
+          "decode": "PIL.Image.load pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 26602,
+          "sha256": "1cb5905a7087efdda13da31a5475254d07cbcef22611b670f369107982cf4e9f",
+          "decode": "PIL.Image.load pass"
+        }
+      ]
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/oriental/contact-dry.jpg"
+}

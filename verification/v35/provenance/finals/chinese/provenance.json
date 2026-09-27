@@ -1,0 +1,411 @@
+{
+  "scheme": "chinese",
+  "native_outputs": 8,
+  "room_order": [
+    "living",
+    "dining",
+    "master",
+    "second",
+    "kitchen",
+    "bath",
+    "balcony",
+    "utility"
+  ],
+  "records": [
+    {
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Shared21.4sqm living+dining. Preserve woodframed sofa, TV, table, dining positions, geometric lattice and redbrown wood frames. Fine celadon and burnt orange accent cushions, linen/wool textiles, crafted ink art and tiny ceramic objects, discreet wall scene key. Keep white walls; no dark wall replacement. Any visible balcony glazing must reach floor. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-4d5372ae-0343-4bc1-9643-f5deaee9eb63.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original camera, walls, ceiling and sofa/TV/dining positions preserved; fine textile and ceramic styling.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2648446,
+          "sha256": "3cfcb863a3d84226b88abc85d24e897e33e9f8ce26e14851e0defe5a6ed090fc",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 336230,
+          "sha256": "e0c584271e3367d8e7d95790e842ef10da453d50495d4532b63a8453485bb97b",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 40566,
+          "sha256": "9fda803d6cd69a56f10377030c527eca3bc99b857a616e4caa31af4ff4202855",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Dining within shared21.4sqm. Preserve table/chairs, exact geometric lattice, cabinet/door, pale walls, ceiling black lines. Restrained celadon ceramic tableware, linen placemats, a small sculptural object and subtle shelf lighting. Keep circulation clear. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d27f19c1-63e5-4ff6-9cb3-8ed813654d0f.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original compact dining, doorway and cabinet positions preserved; refined ceramics and lighting.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2052628,
+          "sha256": "a0291c6978ec47c41c306fadfdc341f5656f76eaef4c0e3ea1230e0802141333",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 200158,
+          "sha256": "a55aac35a906f148475bffef034cf144754a9464134535a6093ada867efcba70",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 31276,
+          "sha256": "6fa88414a3d94024d073e904fde7ed833cf5055a8f730d3c777c2d7a54085d0e",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. 13.5sqm master bedroom. Preserve exact bed, windows, cabinet positions, upholstered beige headboard and redbrown trim, pale walls. Enhance linen bedding, wool throw, warm reading light, integrated curtain track, hidden charging and small celadon ceramic. No suite enlargement. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-bf584f5f-92f0-4305-a10a-48f65d79b869.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original compact master view and bed/window relationships retained; upgraded fine textiles.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2671315,
+          "sha256": "1b12d97df91dab9998d60862d0ee7dc737d4af5bc4cd1c463c20bfdb9fccfeff",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 311046,
+          "sha256": "60d09f6efd52b5f6808935c8fefc727661125b05ee76eff9f6be4c60a50377f1",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 34490,
+          "sha256": "d3dde018ed8910f0f9fae42bbec2c920d1d10d86058162b630383954f4338232",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. HARD correction overrides furniture arrangement in Image1: room is genuine tiny7.2sqm. Image4 ORIGINAL DUSK SECOND is additional geometry authority for required narrow layout. Replace oversized bed and right wardrobe with narrow1.0–1.2m x2m SINGLE BED ALONG RIGHT SIDE WALL, length from doorway foreground toward far window INTO DEPTH. Desk under far window max45–50cm deep. Narrow clear central aisle. Compact storage above bed or left. Preserve far window/doorway and tight width. No bed across room, no horizontal underwindow platform. Keep Chinese redbrown wood, white walls, linen bedding, subtle celadon detail, fine reading lamp. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-129821ef-9035-4fcc-bd57-8f85fb976601.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan",
+        "Original dusk second extra narrow-room geometry authority"
+      ],
+      "room_qa": "Visual pass: narrow single bed along right wall runs doorway-to-window into depth; shallow far-window desk and clear narrow aisle; compact overhead storage. Chinese corrected from original oversized left bed using dusk geometry.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2288766,
+          "sha256": "c31f91bfa9e02162b7b777366fcb33175030ffb4612d6f8d11e84c1d600c2132",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 225052,
+          "sha256": "4ece7698cc1a6e70fde9f963dd770ead106414c06944c2547ea5717d281a3b5a",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 32176,
+          "sha256": "c521ade7cfeb6faf00565e531c59284f596e810f4085c5fcbda85779be6d98bc",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed6.6sqm kitchen. Preserve tight U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale cabinetry, redbrown doorway and beige stone. Fine stone texture, warm undercabinet light, handmade celadon utensil jar, neatly folded linen towel. Minimal objects. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/kitchen.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d6d79f7d-b0b2-46a8-b5e2-2b3a35e3f0ea.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original enclosed U counter, sink/hob/window/appliance layout retained; no island or enlargement.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2082076,
+          "sha256": "e5c3d0779cf8a1d1865f6a33c29b6ba1eca8a4df9c441243c8a2fef8c5b3ce20",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 157794,
+          "sha256": "aac86a0219feb74c3d8521dd76e49693a118777e1c51e9fede8043e2cc9be733",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 23750,
+          "sha256": "86828f740d7e585c842b2bf0da8a68677fe877ece6d5a180a20475799fe44327",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact4.3sqm bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast beige stone, fine redbrown vanity wood, beautifully lit mirror, folded woven towels, one celadon ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/bath.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-3aee1335-4a7e-47c5-b5d5-f688e25b236e.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Original shower-left, single-vanity-center, toilet-right layout retained; no tub or double vanity.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2423945,
+          "sha256": "c000cd2411d995f28ddccc92935041b9bfe0cfb2bc42973af47c580fccb3ddbf",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 226576,
+          "sha256": "357e65eb0333e9d49c329852b0c03b03f9f0f8912ec1cffb52f9dfdec0d3a47d",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 28534,
+          "sha256": "ef057ab675a01ca233745187b87b3789b5cfb2c4899b576fae11d46ea0a72443",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow narrow5sqm scenic balcony. Preserve exact narrow depth, sidewalls, redbrown wood ceiling, camera and openings. HARD all external glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove far windowseat block, replace with ONE lightweight freestanding redbrown wood reading chair with beige cushion and tiny side table, off glazing to keep view and narrow circulation free. Far-end glass also reaches floor behind chair. Keep small plant. No sofa or platform, no widening. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-1e0c7908-2477-43c2-a57c-e7a57efba424.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Visual pass: fullheight external glass to finished floor, no parapet/windowseat; lightweight freestanding chair and tiny side table; original shallow footprint retained.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2495769,
+          "sha256": "34be43f6ee97a89a673c8186a2f5c134a7139f2ca6d5c7329b4f505b70d024d5",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 309292,
+          "sha256": "744df97d12e332bcd5b380d29281262873f816515e2189848ec59637e9b9131e",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 46476,
+          "sha256": "7224ea0ec9364cab6fd4d1665db59e8b72eda8a0a149a812c527ba51f3befa49",
+          "pil_load": "pass"
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow2.5sqm utility balcony. Preserve stacked laundry at end, narrow cabinet beside it, slim fullheight glazing on left, kitchen glimpse right. No enlargement. Keep original pale cabinet fronts and redbrown frames, beige stone; warm task/shelf lighting, folded linen, minimal functional objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/utility.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-69823a29-b072-4446-842a-b1334a211833.png",
+      "tool": "built-in image_gen.imagegen",
+      "input_roles": [
+        "Original room edit target and geometry/camera authority",
+        "Style/material only; not layout",
+        "Actual75.1sqm floorplan"
+      ],
+      "room_qa": "Narrow stack laundry and original cabinet/window geometry retained; lower glazing to floor.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2038585,
+          "sha256": "a5b40a0562f6e6d5d198a5e6470a61b2f838804dcc1e33b6bd8151042372916f",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 197202,
+          "sha256": "d6d8b3a32ed3befd3bf67f72e879ece369b83863700d482d36d80f1086d43038",
+          "pil_load": "pass"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 34986,
+          "sha256": "2f2414ca78742773930c2e3ecd9d2c7f4c78c9ff2911dde30a21db5b4de60a3f",
+          "pil_load": "pass"
+        }
+      ]
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/chinese/contact-sheet.jpg"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "collection": "nocturne",
+    "room": "kitchen",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual75.1sqm floorplan controls footprint. ROOM: 6.6sqm enclosed kitchen. EXACT U counters, left oven/tall cabinet, rear window and sink, right stove/hood. Same ceiling and narrow floor area, no island. COLLECTION STYLE: nearblack aubergine, chocolate walnut, smoked gold details, fine tactile plum linen, restrained pale stone contrast. Rich sophisticated and still naturally readable. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Restyle to dark chocolate walnut lower cabinets and nearblack aubergine satin upper cabinets, pale warm gray stone counters and backsplash keep it readable, smoked gold slim hardware, fine plum linen towel and single dark ceramic vessel. Natural daylight + warm task lights. No oversized styling, expanded architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6c1c7e86-e744-4430-af26-299be862314f.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/kitchen.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2122651,
+        "sha256": "4a56a93c9c2e21790242d9bc3979fa4558c96ef939cacad8bbfab2200f1de8ed"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/kitchen.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 199302,
+        "sha256": "3941e93513ca945d35671f29f096a3df50a5a272b3030151d53cf5acecb111a5"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/kitchen-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 18904,
+        "sha256": "1c18c667fb4d11e57b1c6922b16866eee42dcb20b7811fd1303e5d5872b328e8"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: enclosed compact U-counter kitchen, left oven, rear sink/window, right cooking line; original boundaries and camera maintained.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "nocturne",
+    "room": "bath",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual75.1sqm floorplan controls footprint. ROOM: 4.3sqm tiny bathroom. EXACT left glass shower, central single sink/vanity, narrow rear frosted window right of mirror, toilet foreground right. Preserve all fixtures and camera. No tub/double vanity. COLLECTION STYLE: nearblack aubergine, chocolate walnut, smoked gold details, fine tactile plum linen, restrained pale stone contrast. Rich sophisticated and still naturally readable. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Restyle vanity in chocolate walnut with nearblack aubergine drawer accent, honed pale warm gray stone walls, dark gray restrained marble countertop, smoked gold taps, fine plum towel and dark ceramic soap vessel. Quiet warm mirror and undercabinet lighting, bright natural frosted window. No oversized styling, expanded architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9d5dc96e-974a-4871-9855-14f0024d0b3a.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/bath.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2519244,
+        "sha256": "c3833f17d1630da00abb717635ff3aa9d972a2cee2309793e9f4cbaef74f1b39"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/bath.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 270190,
+        "sha256": "92eb5ec84def8e1b5f12626d8274fe1451c64fd1ccc11109ad5bdb84d71b63ed"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/bath-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 19766,
+        "sha256": "1bd60282824cac462ab610610dac94374de37f681b301e3ceee5d1ddbc9c2531"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: left shower, central single sink, right toilet and narrow rear window; compact layout, no tub or double vanity.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "nocturne",
+    "room": "balcony",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual75.1sqm floorplan controls footprint. ROOM: 5sqm SHALLOW scenic balcony. EXACT side walls, opening, skyline, compact depth and camera. REMOVE bench entirely and replace with ONE light freestanding chair and tiny side table off glazing. FLOOR-TO-CEILING GLASS reaches finished floor, absolutely NO opaque sill, parapet, half-wall, horizontal opaque beam, platform or window bench. Main glass uninterrupted floor to ceiling, slim vertical frames, tiny side opening panel allowed. Keep plenty visible clear floor. COLLECTION STYLE: nearblack aubergine, chocolate walnut, smoked gold details, fine tactile plum linen, restrained pale stone contrast. Rich sophisticated and still naturally readable. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Replace bench with ONE small chocolate leather reading chair on delicate dark walnut frame with small plum linen cushion/throw, ONE tiny smoked-gold side table; nearblack aubergine end wall and pale gray stone floor. Daylight must remain luminous. Small warm wall reading lamp. No bench, platform, sofa, opaque sill, enlarged room, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/balcony.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-698b8119-968f-4148-add3-1c158c08b307.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/balcony.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2627807,
+        "sha256": "26afaafa9090b30780905065c0d2a6cf780afaaca957bf0752d496329bed0d54"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/balcony.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 349268,
+        "sha256": "0b937a38230c4dc8d77b56d1aac126187c3cad05b668fb1768e7494326878033"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/balcony-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 36562,
+        "sha256": "4383309b5a79dc55716feae680fc8bbf7442bbd4f0ec9d2610521fbf60dafc0b"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: shallow original scenic balcony, floor-to-ceiling main glass visibly meets finished floor with slim framing; no opaque sill/parapet/bench; one freestanding light chair and tiny table.",
+    "visually_inspected": true
+  },
+  {
+    "collection": "nocturne",
+    "room": "utility",
+    "prompt": "Use case: style-transfer architectural interior EDIT. ONE native1536x1024 landscape photorealistic final concept. Image1 original room target is absolute geometry/camera authority. Image2 collection lifestyle is STYLE ONLY, never copy room layout. Image3 actual75.1sqm floorplan controls footprint. ROOM: 2.5sqm VERY NARROW utility balcony. EXACT stacked washer dryer on far wall, thin cleaning storage to right, shallow folding counter right, glazing left with lower fixed glass all way to floor and upper opening vent. Preserve narrow passage, real device proportions and ceiling; no enlargement. COLLECTION STYLE: nearblack aubergine, chocolate walnut, smoked gold details, fine tactile plum linen, restrained pale stone contrast. Rich sophisticated and still naturally readable. Preserve Image1 walls/openings/ceiling/proportions/camera exactly. Restyle to dark chocolate walnut cabinets, nearblack aubergine niche back and small right cabinet doors, pale gray stone worktop and floor, neatly folded plum and taupe linen with tiny dark ceramic vessel. Warm restrained task lighting and bright natural daylight keep real narrow passage readable. No oversized styling, expanded architecture, people, text, logos, collage.",
+    "inputs": [
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/utility.jpg",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/nocturne.webp",
+      "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+    ],
+    "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-0c76fcff-02a7-48bc-8e2f-7dfb9c9d9d3d.png",
+    "outputs": [
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/utility.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2166439,
+        "sha256": "bb8d66ba32d1d8f8aa3011932ef64375904435083e62cfc6f2ba39dbeda99b09"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/utility.webp",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 238964,
+        "sha256": "3b8afd49836890ec9c635d32c0741d076136a429cdd906b2bd9490f23578f8d8"
+      },
+      {
+        "path": "/workspace/scratch/d2f63f3a5692/v35-assets/collections/nocturne/utility-thumb.webp",
+        "dimensions": [
+          480,
+          320
+        ],
+        "bytes": 31858,
+        "sha256": "806c6c8e8161d2c4965d4bb092465bacbb00e780528adb67dae469e6f2e46afa"
+      }
+    ],
+    "mode": "builtin image_gen",
+    "input_roles": [
+      "Image1 original dusk room target; geometry/camera authority",
+      "Image2 lifestyle-v33 collection; style only",
+      "Image3 actual apartment floorplan; footprint authority"
+    ],
+    "room_qa": "PASS: very narrow original laundry balcony, far stacked machines, right shallow worktop/storage; left lower fixed glazing to floor and upper vent; original camera/footprint retained.",
+    "visually_inspected": true
+  }
+]

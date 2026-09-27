@@ -27,7 +27,7 @@ export function initDesignJourney(root,gallery){
  const detailsFloorHost=$('[data-details-floor-catalog]');
  const confirmations=new Map(),lifestyles=new Map();
  const lifestyleValue=()=>normalizeLifestyle(lifestyles.get(confirmed)||emptyLifestyle(confirmed),confirmed);
- const lifestyle=initLifestyle(root,{getValue:lifestyleValue,onChange:value=>{lifestyles.set(confirmed,normalizeLifestyle(value,confirmed));renderWhole();},getFrames:()=>frames(),onNext:()=>{wholeMode='gallery';goStep('whole');},onBack:()=>goStep('details')});
+ const lifestyle=initLifestyle(root,{getValue:lifestyleValue,onChange:value=>{lifestyles.set(confirmed,normalizeLifestyle(value,confirmed));renderWhole();},getFrames:()=>frames(),onNext:()=>{wholeMode='gallery';designerGallery.resetSelection();goStep('whole');},onBack:()=>goStep('details')});
  const saved=new Map(),seeds=new Map(),shortlists=new Map(),snapshots=new Map(),loaded=new Set(),pending=new Map();
  const clone=value=>JSON.parse(JSON.stringify(value));
  const roomName=id=>ROOMS.find(r=>r.id===id)?.name||id;

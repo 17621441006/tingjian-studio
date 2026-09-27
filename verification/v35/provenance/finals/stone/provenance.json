@@ -1,0 +1,446 @@
+{
+  "scheme": "stone",
+  "native_size": [
+    1536,
+    1024
+  ],
+  "room_count": 8,
+  "rooms": [
+    {
+      "scheme": "stone",
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 photorealistic FINAL furnished interior render. Image1 is original living room EDIT TARGET and absolute camera/layout/architecture authority. Image2 is only a craft/material STYLE reference; never copy its layout. Image3 is actual floorplan, 75.1sqm apartment; living plus dining together only21.4sqm. Keep exact walls, openings, ceiling height, perspective, furniture scale and locations of Image1. Stone scheme: retain quiet Aman mineral beige/grey, warm wood, light woven sofa, low wood table. Elevate finish with exquisite linen and fine wool textures, thoughtful small ceramic sculpture, crafted subtle artwork, integrated curtain track, tiny discreet wall scene key and hidden charging, coherent soft natural light. Recognizable original colors and furniture. Any visible balcony glazing must reach finished floor with no opaque parapet. Do not widen space, add columns, relocate openings or create luxury suite. No people, text, logos, UI, collage.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b0e64b5e-d3b1-4431-aff4-63dfa99a0d7a.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2791904,
+          "sha256": "a0d4bc319babe0ce30b523e90158f4ddd7ccf3f9d6c183bc5338194b977ba720"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 355658,
+          "sha256": "1e8d38a5a625cd03d25db7e8881d504eb791a5179ef2af4a3e22acb14f9b9e51"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 31848,
+          "sha256": "784da0485887c5bf71adfa3ef5c303ec2b5cb8eb34eda3ea702ea25f14b1dd6e"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Original camera, sofa/TV/dining relationship, ceiling and compact circulation retained. Fine texture/artwork/light styling.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      },
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ]
+    },
+    {
+      "scheme": "stone",
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 photorealistic FINAL furnished interior render. Image1 is original dining room EDIT TARGET and absolute camera/layout/architecture authority. Image2 is only a craft/material STYLE reference; never copy its layout. Image3 is actual floorplan, 75.1sqm apartment; living plus dining together only21.4sqm. Keep exact walls, openings, ceiling height, perspective, furniture scale and locations of Image1. Stone scheme: retain quiet Aman mineral beige/grey, warm wood, light woven sofa, low wood table. Elevate finish with exquisite linen and fine wool textures, thoughtful small ceramic sculpture, crafted subtle artwork, integrated curtain track, tiny discreet wall scene key and hidden charging, coherent soft natural light. Recognizable original colors and furniture. Any visible balcony glazing must reach finished floor with no opaque parapet. Do not widen space, add columns, relocate openings or create luxury suite. No people, text, logos, UI, collage. Room-specific styling: 餐桌、柜面与简洁灯具保持低调。木色一深一浅，台面只留枝叶与常用器皿，让玄关和餐区自然连接。",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-2b2bf393-a8a0-4e26-b6b6-85869ba60ade.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2236009,
+          "sha256": "851136666c0bc39c6d681e5b0c124a0ca26acdb73c7cd0087d56593ca72306d2"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 216370,
+          "sha256": "c479e434dd338029e53b55058811432fa095291efc6d009027de5181a47f3afd"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24924,
+          "sha256": "cdbcfdba25d573b899001db478b7166e55f5786b00c7bcf125c1a52b2d4b597e"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Original front view, table, shelving, entrance door and sideboard retained. Restrained art and ceramics.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 photorealistic FINAL furnished interior render. Image1 is original master room EDIT TARGET and absolute camera/layout/architecture authority. Image2 is only a craft/material STYLE reference; never copy its layout. Image3 is actual floorplan, 75.1sqm apartment; living plus dining together only21.4sqm. Keep exact walls, openings, ceiling height, perspective, furniture scale and locations of Image1. Stone scheme: retain quiet Aman mineral beige/grey, warm wood, light woven sofa, low wood table. Elevate finish with exquisite linen and fine wool textures, thoughtful small ceramic sculpture, crafted subtle artwork, integrated curtain track, tiny discreet wall scene key and hidden charging, coherent soft natural light. Recognizable original colors and furniture. Any visible balcony glazing must reach finished floor with no opaque parapet. Do not widen space, add columns, relocate openings or create luxury suite. No people, text, logos, UI, collage. Room-specific styling: 低重心床具、白色床品和木色背景构成安静层次。少量灰褐织物让光线变柔，窗边仍保持通透。 MASTER remains13.5sqm. Keep original bed and all window locations, no enlargement.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-287c512f-3692-40d2-9f9e-3971108d9542.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2533942,
+          "sha256": "4d5e5ab233bdc7469bc19656c24aed6b75b5e51aaeb87cf0cca9d102014f1395"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 266438,
+          "sha256": "aa125e47f642105e37c6ecc229c6131e39d82ab94300d8ae66302d28a86a2531"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 27448,
+          "sha256": "b44291d19c652e8cb8a068ba52522b1b97d4d98c20b1d4bf017563319cc3cf25"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Original13.5sqm composition, bed and windows retained; integrated drapery, fine bedding and warm lights.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 photorealistic FINAL furnished interior render. Image1 is original second room EDIT TARGET and absolute camera/layout/architecture authority. Image2 is only a craft/material STYLE reference; never copy its layout. Image3 is actual floorplan, 75.1sqm apartment; living plus dining together only21.4sqm. Keep exact walls, openings, ceiling height, perspective, furniture scale and locations of Image1. Stone scheme: retain quiet Aman mineral beige/grey, warm wood, light woven sofa, low wood table. Elevate finish with exquisite linen and fine wool textures, thoughtful small ceramic sculpture, crafted subtle artwork, integrated curtain track, tiny discreet wall scene key and hidden charging, coherent soft natural light. Recognizable original colors and furniture. Any visible balcony glazing must reach finished floor with no opaque parapet. Do not widen space, add columns, relocate openings or create luxury suite. No people, text, logos, UI, collage. Room-specific styling: 一张低矮窄床和可收起的侧墙工作台，把休息与偶尔办公分开。储物集中在闭合柜中，避免小房间到处是柜和台面。 OVERRIDING HARD SECOND BEDROOM REQUIREMENT: genuinely tiny7.2sqm narrow room. Image4 is extra original geometry authority. Bed1.0–1.2m wide x2m long ALONG RIGHT SIDE WALL, length runs doorway-to-far-window INTO DEPTH, never across room width or horizontal under-window platform. Keep narrow central aisle, far window and doorway. Move desk to under far window, maximum45cm deep. Compact closed storage. Do not widen room to fit furniture. Preserve stone colors.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/v16/second.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan",
+        "original dusk second geometry"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-4157e43c-c1f3-461e-9b76-e87925bbe4d6.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2361215,
+          "sha256": "5faa5d430e1929b1e2df824a43b5ae0d0502d5c25e969f15a4dfba0196024a5d"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 253990,
+          "sha256": "01ab020b289823619cce2bb84cd1034e94e45f5ca4da597c38ad33a4d8db2159"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29064,
+          "sha256": "53b950886d0844020f2a0b017caf8abc64fe308268834a3798fd4b8e142cda11"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Visually tiny7.2sqm, narrow single bed along right wall into room depth, shallow desk under original far window, narrow aisle and original doorway retained.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic kitchen render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Stone quiet Aman mineral cream/grey palette and warm wood retained. Enhance tactile natural stone, wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 6.6sqm ENCLOSED kitchen preserve original counter/window/appliance layout. Warm undercabinet light and restrained useful ceramics. 独立厨房延续木与石的逻辑，用清晰分缝收住电器和储物。操作台面提亮，保留紧凑围合关系。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/kitchen.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-052ded94-147d-4b23-8c06-8f32c66c85d3.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2187549,
+          "sha256": "cefdb0ada874afdaa4ee9d62d97665635f7876cd69e1baf584995875b06a5612"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 218342,
+          "sha256": "b2a11678a8a04abb52ec798ab29f73d0c8e81084e81712619b6fee400e5db4fc"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 24194,
+          "sha256": "96c21f81acbd876407a9071389997330aadad379a7690d52564ee3c4661a0ac0"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Enclosed6.6sqm composition, original U counters, window, sink/hob and oven preserved.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "bath",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic bath render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Stone quiet Aman mineral cream/grey palette and warm wood retained. Enhance tactile natural stone, wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 4.3sqm bathroom preserve single vanity, shower, toilet, window locations. No bathtub or double vanity. Fine towels and understated bronze fixtures. 自然石色、深木柜与柔和镜光形成对比。减少复杂花纹，让水、光和材料本身成为重点。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/bath.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6b34a1b8-cb3b-4392-9276-0c18279dab1a.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2668848,
+          "sha256": "ba83edcd8a676a54674d7d023c36d23b4b7c7aa58597aebcad160da159e3cb22"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 321210,
+          "sha256": "4bf679b495c6ba718dfa3312f0968347892c1c46664f629856aa6ce3ee0c44df"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 29032,
+          "sha256": "1e86ba58e5c26ecab3f91c145c6f868eb76b9c915c8ee13c521989db6341cf74"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Compact4.3sqm composition, original left shower, central single vanity, right toilet and window preserved. No bath or double vanity.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "balcony",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic balcony render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Stone quiet Aman mineral cream/grey palette and warm wood retained. Enhance tactile natural stone, wood grain and restrained fine craft, coherent daylight plus warm practical lighting. HARD5sqm SHALLOW balcony preserve original depth and sidewalls. Main glass MUST be uninterrupted FLOOR TO CEILING DOWN TO FINISHED FLOOR. NO opaque half-wall, sill, parapet, opaque central beam or bench across glazing. Lightweight existing woven chair and tiny side table off glass; no sofa or platform. Keep clear floor. 低矮编织休闲椅斜向窗景，石边几只占一个角。窗前不再排长榻，中央地面留空，保留安静的日光和植物。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/v16/balcony.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5bfdce69-5928-4544-9aee-7613b20ca58e.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2541046,
+          "sha256": "8ac3166f4b18002f5608355a7edbfe7d0d1c102ad8fe0cf99440494ff513c138"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 330734,
+          "sha256": "436e3ed202c6d00af5cca7221dc3d1f223b7d2861aeb658bef8d70112018b85c"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 39654,
+          "sha256": "17c55c27975b04d23c1469ca56ccbdcac8b6c675ca64bb8bee0bc4301a39e0a5"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Shallow5sqm scenic balcony, fullheight transparent main glass to floor/base framing, no opaque parapet or central opaque beam. One freestanding chair/tiny table; clear floor retained.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    },
+    {
+      "scheme": "stone",
+      "room": "utility",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic utility render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Stone quiet Aman mineral cream/grey palette and warm wood retained. Enhance tactile natural stone, wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 2.5sqm NARROW laundry preserve stacked machines and narrow circulation. Keep lower fixed glass down to finished floor and upper small opening window. Restrained linen basket and towels. 洗烘与清洁用品进入同一组木色柜体，视觉延续全屋。柜内外仍按设备的散热、排水和检修需求留空。 下部固定玻璃落地，上部可开启小窗通风。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "refs": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/stone/v16/utility.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "input_roles": [
+        "original room geometry target",
+        "style only",
+        "actual floorplan"
+      ],
+      "generated_path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e4b238e9-8f0a-48c4-986b-134d118fbf1d.png",
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2285424,
+          "sha256": "2e57e941988934d2681291909d4a35b778a5a14af9da69d486b06f3a2a732cff"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 286154,
+          "sha256": "6a194c2780991184b9da652c964172420e21e2ea98308d40a62dd8e8f4107982"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 37536,
+          "sha256": "93899517817735b4495b4c392dc92d883e67d5586fc1f51bbc1642c69d73ef6f"
+        }
+      ],
+      "tool": "built-in image_gen.imagegen",
+      "use_case": "precise-object-edit",
+      "qa": {
+        "status": "pass",
+        "visual_inspected": true,
+        "notes": "Narrow2.5sqm stacked laundry, original counter/cabinet/window layout retained; lower glass reaches floor.",
+        "dimensions_verified": true,
+        "all_formats_decoded_with_PIL_load": true
+      }
+    }
+  ],
+  "contact_sheet": "/workspace/scratch/d2f63f3a5692/v35-assets/finals/stone/contact-sheet.jpg",
+  "qa_note": "Concept render visual geometry check against supplied images and floorplan; not a measured construction document."
+}

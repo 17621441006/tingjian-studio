@@ -1,8 +1,9 @@
+import {collectionAsset} from './final-assets.mjs';
 // Styling intentions and local scene simulation. No device connection or product endorsement.
 export const COLLECTIONS=[
- {id:'collector',name:'木影藏家',subtitle:'胡桃木 · 古铜 · 烟褐织物',image:'/lifestyle-v33/collector.webp',colors:['#39291f','#8b6b43','#7e6b5c'],text:'用一盏有年代感的灯、一件雕塑和留白的画面建立重心。屏幕收进画框，开关与古铜五金统一。',accent:'#806744'},
- {id:'oriental',name:'东方新序',subtitle:'红棕木 · 青瓷 · 暖橘余韵',image:'/lifestyle-v33/oriental.webp',colors:['#4e3025','#7f8b79','#b87535'],text:'借器物与疏密表达东方气质：一枝、一器、一处茶席。窗帘轨道与光源藏起来，让窗景继续做主角。',accent:'#75806b'},
- {id:'nocturne',name:'紫夜艺廊',subtitle:'近黑茄紫 · 深棕 · 烟金',image:'/lifestyle-v33/nocturne.webp',colors:['#251e2b','#48352b','#8d795e'],text:'深紫延伸到织物、艺术背景和小体量陈设，配深棕与半透石灯。亮度留给局部光与材质反光。',accent:'#352638'}
+ {id:'collector',name:'木影藏家',subtitle:'胡桃木 · 古铜 · 烟褐织物',get image(){return collectionAsset('collector','living');},colors:['#39291f','#8b6b43','#7e6b5c'],text:'用一盏有年代感的灯、一件雕塑和留白的画面建立重心。屏幕收进画框，开关与古铜五金统一。',accent:'#806744'},
+ {id:'oriental',name:'东方新序',subtitle:'红棕木 · 青瓷 · 暖橘余韵',get image(){return collectionAsset('oriental','living');},colors:['#4e3025','#7f8b79','#b87535'],text:'借器物与疏密表达东方气质：一枝、一器、一处茶席。窗帘轨道与光源藏起来，让窗景继续做主角。',accent:'#75806b'},
+ {id:'nocturne',name:'紫夜艺廊',subtitle:'近黑茄紫 · 深棕 · 烟金',get image(){return collectionAsset('nocturne','living');},colors:['#251e2b','#48352b','#8d795e'],text:'深紫延伸到织物、艺术背景和小体量陈设，配深棕与半透石灯。亮度留给局部光与材质反光。',accent:'#352638'}
 ];
 const dry=['living','dining','master','second','balcony'];
 export const LIFE_CATEGORIES=[{id:'all',name:'全部搭配'},{id:'textile',name:'织物与窗饰'},{id:'art',name:'艺术与器物'},{id:'light',name:'灯具与光'},{id:'smart',name:'隐形智能'},{id:'appliance',name:'生活电器'}];

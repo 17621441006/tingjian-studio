@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "finalSchemes": 8,
+  "finalRooms": 64,
+  "correctedCollectionRooms": 24,
+  "decodedFiles": 176,
+  "mainResolution": [
+    1536,
+    1024
+  ],
+  "originalPlanRetained": true,
+  "browserUITested": false,
+  "scope": "Authored photo concepts constrained by original geometry and provided areas; no claim of measured CAD accuracy."
+}

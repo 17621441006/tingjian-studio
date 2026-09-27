@@ -1,0 +1,17 @@
+{
+  "planPath": "dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+  "planSha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605",
+  "areasSqm": {
+    "livingDining": 21.4,
+    "master": 13.5,
+    "second": 7.2,
+    "kitchen": 6.6,
+    "bath": 4.3,
+    "balcony": 5,
+    "utility": 2.5
+  },
+  "second": "1.0–1.2m single bed lengthwise along side wall; desk under original far window; narrow aisle",
+  "balcony": "Full-height glass to finished floor; no opaque sill/parapet or fixed bench blocking glazing",
+  "source": "Original user floorplan retained in project; dimensions are diagram annotations, not new measurements",
+  "delivery": "Eight original schemes each with eight authored final views, plus corrected three retained collections"
+}
