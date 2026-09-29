@@ -1,3 +1,4 @@
+import {MINERAL_IDS} from '../src/legacy/mineral-homes.mjs';
 import * as finalAssets from '../src/legacy/final-assets.mjs';
 import {SMART_REFERENCES} from '../src/legacy/smart-references.mjs';
 import * as lifeData from '../src/legacy/lifestyle-data.mjs';
@@ -41,7 +42,7 @@ class Element{
 function make(t){const el=new Element(t.tag,t.attrs);el.textContent=t.text;for(const c of t.children)el.append(make(c));return el;}
 document=make(JSON.parse(execFileSync('python',['scripts/legacy-dom-tree.py','dist/tour/legacy.html'],{encoding:'utf8'})));document.getElementById=id=>document.querySelector('#'+id);document.createElement=t=>new Element(t);
 const root=document.getElementById('furniture-trial'),$=s=>root.querySelector(s),image=document.getElementById('render-image');let serial=0,renderCalls=[],fail=false,delay=1;const revoked=[];let walkCreates=0,walkDisposes=0,walkUpdates=[],walkTargets=[];
-const context={...finalAssets,SMART_REFERENCES,...lifeData,livingReverseAsset,SCENE_EDIT_ASSETS,setSceneEditImage:(im,path)=>{im.src=path;},duskVrMatch,...stateModule,document,window:Object.assign(new Element('window'),{innerWidth:1400,innerHeight:900}),CustomEvent:class{constructor(type,args={}){this.type=type;Object.assign(this,args);}},matchMedia:()=>({matches:false}),performance,Blob,console,structuredClone,setTimeout,clearTimeout,URL:{createObjectURL:()=>`blob:test-${++serial}`,revokeObjectURL:u=>revoked.push(u)},__loadRenderer:async()=>({renderRoom:async(snapshot,progress)=>{renderCalls.push(structuredClone(snapshot));progress({label:'Reading',loaded:2,total:4});await new Promise(r=>setTimeout(r,delay));if(fail)throw new Error('WebGL unavailable');return {blob:new Blob(['test']),duration:delay};}})};
+const context={MINERAL_IDS,...finalAssets,SMART_REFERENCES,...lifeData,livingReverseAsset,SCENE_EDIT_ASSETS,setSceneEditImage:(im,path)=>{im.src=path;},duskVrMatch,...stateModule,document,window:Object.assign(new Element('window'),{innerWidth:1400,innerHeight:900}),CustomEvent:class{constructor(type,args={}){this.type=type;Object.assign(this,args);}},matchMedia:()=>({matches:false}),performance,Blob,console,structuredClone,setTimeout,clearTimeout,URL:{createObjectURL:()=>`blob:test-${++serial}`,revokeObjectURL:u=>revoked.push(u)},__loadRenderer:async()=>({renderRoom:async(snapshot,progress)=>{renderCalls.push(structuredClone(snapshot));progress({label:'Reading',loaded:2,total:4});await new Promise(r=>setTimeout(r,delay));if(fail)throw new Error('WebGL unavailable');return {blob:new Blob(['test']),duration:delay};}})};
 let imageFail='',imageDelays={},imageHungHosts=[],imageFailHosts=[];const imageRequests=[];context.Image=class {set src(v){imageRequests.push(v);if(!v||imageHungHosts.some(h=>v.includes(h)))return;setTimeout(()=>{if(v===imageFail||imageFailHosts.some(h=>v.includes(h)))this.onerror?.();else this.onload?.();},imageDelays[v]||1);}};Object.assign(context,{loadMediaImage:path=>mediaModule.loadMediaImage(path,{ImageClass:context.Image,hedgeMs:5,timeoutMs:12000}),resolvedMediaURL:mediaModule.resolvedMediaURL,setMediaImage:(img,path)=>{img.src=mediaModule.resolvedMediaURL(path);}},photoFloorModule,{createFloorLive},homeModule,variantModule,pieceModule,layoutModule,sceneModule,objectModule,dialogModule,materialModule,floorModule,{CATALOG:floorModule.FLOOR_CATALOG,PURCHASES,exportEffectBook:async()=>{}});
 context.__loadWalk=async()=>({createWalkViewer:async args=>{walkCreates++;await new Promise(r=>setTimeout(r,5));return {dispose(){walkDisposes++;},select(){},pick(){return 'rug';},walkTo(id){walkTargets.push(id);},reset(){},getPose(){return {yaw:.7,pitch:-.13,at:'aisle'};},update:async(snapshot,isCurrent)=>{await new Promise(r=>setTimeout(r,5));if(isCurrent())walkUpdates.push(structuredClone(snapshot));}};}});
 const modelUpdates=[],modelVisible=[],modelRooms=[],modelViews=[],modelQualities=[];let modelLoads=0;context.__loadWholeModel=async()=>{modelLoads++;return {createWholeModel:async()=>({update:s=>modelUpdates.push(structuredClone(s)),select:r=>modelRooms.push(r),view:r=>modelViews.push(r),setQuality:q=>modelQualities.push(q),setVisible:v=>modelVisible.push(v)})};};
@@ -137,7 +138,7 @@ await click('[data-confirm-all]',30);assert.equal(context.__journey().confirmedR
 checks.push('Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.');
 checks.push('Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.');
 await click('[data-journey-step="style"]',5);await click('[data-home-design="graphite"]',20);assert(!$('[data-home-object-controls]').hidden);assert.equal($('[data-home-rooms]').children.length,8);
-assert.equal(root.querySelectorAll('[data-home-design]').length,14);
+assert.equal(root.querySelectorAll('[data-home-design]').length,15);
 assert.equal(root.querySelector('[data-home-room="living"] strong').textContent,'客厅');
 const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-lab-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('Historical VR removed; furniture lab retained; current editor unchanged.');
 
@@ -192,7 +193,7 @@ checks.push('v25 all-room controls, new table deletion, independent bedroom remo
 
 await fs.mkdir('verification/v17',{recursive:true});// v26: ten styles, camera presentation never creates a ninth room or loses selection.
 assert($('[data-extra-schemes]').hidden);await click('[data-schemes-toggle]',3);assert(!$('[data-extra-schemes]').hidden);
-for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery']){
+for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery','amber-stone']){
  await click('[data-journey-step="style"]',8);await click('[data-home-design="'+design+'"]',20);await click('[data-home-room="living"]',15);
  assert.equal(context.__homeGallery.getState().design,design);assert.equal($('[data-home-rooms]').children.length,8);
  const base=$('[data-home-image]').src;await click('[data-home-camera] [data-living-camera="reverse"]',10);assert.equal($('[data-home-image]').src,livingReverseAsset(design));
@@ -224,7 +225,7 @@ await click('[data-details-floor-catalog] [data-authored-floor="original"]',20);
 checks.push('v28: four authored floor comparisons, brand override cleared, room scoping, selection persistence, confirmed/export snapshot and original restoration passed.');
 // v35: the selected scheme, not the soft-furnishing collection, owns the final image.
 for(const design of finalAssets.FINAL_DESIGNS){await click('[data-journey-step="style"]',5);await click('[data-home-design="'+design+'"]',20);await click('[data-confirm-style]',20);await click('[data-journey-step="lifestyle"]',10);await click('[data-life-collection="nocturne"]',5);await click('[data-life-next]',15);assert.equal(context.__journey().designer.collection,'final');assert.equal(context.__journey().designer.design,design);assert($('[data-designer-image]').src.endsWith('/schemes/'+design+'/living.webp'));await click('[data-designer-room="second"]',10);assert($('[data-designer-image]').src.endsWith('/schemes/'+design+'/second.webp'));assert($('[data-designer-room-note]').textContent.includes('7.2'));await click('[data-designer-room="balcony"]',10);assert($('[data-designer-room-note]').textContent.includes('落地玻璃'));await click('[data-designer-collection="oriental"]',10);assert($('[data-designer-image]').src.endsWith('/collections/oriental/living.webp'));await click('[data-journey-step="lifestyle"]',5);await click('[data-life-next-top]',10);assert.equal(context.__journey().designer.collection,'final');}
-checks.push('v35: each first-eight selection opens its own final gallery despite nocturne styling choice; secondary bedroom/balcony map to same scheme; optional collections remain accessible; re-entering returns to selected scheme.');
+checks.push('v35: each first-eight and both mineral-scheme selections open their own final gallery despite nocturne styling choice; secondary bedroom/balcony map to same scheme; optional collections remain accessible; re-entering returns to selected scheme.');
 // Expanded schemes remain selected when the additional list is collapsed.
 await click('[data-journey-step="style"]',8);await click('[data-home-design="orange-court"]',20);await click('[data-schemes-toggle]',3);
 assert($('[data-extra-schemes]').hidden);assert.equal(context.__homeGallery.getState().design,'orange-court');assert($('[data-schemes-toggle]').textContent.includes('橘庭雅居'));
@@ -239,9 +240,10 @@ checks.push('v29 twelve schemes, expandable final two, current selection retaine
 // Simulate the deployed external media routes, including a primary that never responds.
 await click('[data-journey-step="style"]',8);
 globalThis.__TINGJIAN_V26_ORIGIN__='https://raw.githubusercontent.com/17621441006/tingjian-studio/'+'b'.repeat(40)+'/dist';
+globalThis.__TINGJIAN_V36_ORIGIN__=globalThis.__TINGJIAN_V26_ORIGIN__;
 imageHungHosts=['cdn.jsdelivr.net'];
 await context.__homeGallery.openView('dusk','living');
-for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery']){
+for(const design of ['edition-oak','edition-smoke','milan','orange-court','oriental-hotel','mauve-walnut','plum-gallery','amber-stone']){
  await click('[data-home-design="'+design+'"]',35);
  assert.equal(context.__homeGallery.getState().design,design);
  assert($('[data-home-image]').src.includes('fastly.jsdelivr.net'));
@@ -258,7 +260,7 @@ assert.equal($('[data-home-stage]').getAttribute('aria-busy'),'false');
 assert($('[data-home-load-status]').textContent.includes('重试'));
 imageFailHosts=[];await click('[data-home-load-status] button',35);
 assert.equal(context.__homeGallery.getState().design,'mauve-walnut');
-delete globalThis.__TINGJIAN_V26_ORIGIN__;
+delete globalThis.__TINGJIAN_V26_ORIGIN__;delete globalThis.__TINGJIAN_V36_ORIGIN__;
 checks.push('v32: seven later scheme buttons and reverse view switch through a mirror when the primary hangs; all-route failure releases loading state, keeps the previous scheme, and retry succeeds.');
 // Lifestyle edits invalidate the old exported snapshot without erasing material confirmations.
 await click('[data-journey-step="style"]',5);await click('[data-home-design="dusk"]',20);await click('[data-confirm-style]',20);await click('[data-layout-next]',5);await click('[data-confirm-all]',35);await click('[data-details-next]',10);

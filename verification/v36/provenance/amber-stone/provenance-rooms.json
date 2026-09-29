@@ -1,0 +1,340 @@
+{
+  "scheme": "amber-stone",
+  "group": "rooms",
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "room": "second",
+      "prompt": "Use case: style-transfer. Produce one photorealistic residential interior photograph, native landscape 1536x1024. Image 1 is the exact geometry and camera reference; image 2 supplies ONLY material taste: flowing charcoal gray-brown stone, dark chocolate walnut and finely aged bronze with restrained amber glow. Restyle the 7.2sqm narrow second bedroom, preserving original doorway edges, straight walls, far window position, compact width and view. A narrow single bed runs lengthwise along the RIGHT wall into depth, foot nearest camera, head near far window. Small independent walnut writing desk below the far window, slim upholstered chair and narrow center aisle. Dark walnut bed base and discreet upper storage with bronze reveals; muted ivory linen mattress/bedding and cocoa throw. Warm taupe linen bed-side wall inset, small amber glass task lamp; charcoal-gray soft stone floor with small textile rug. Rich tonal contrast and tactile residential craftsmanship, good daylight and gently warm lamps, no orange filter, no black clipping. Do not widen room, no hotel suite, no bed transverse to room, no curved walls, no fisheye, no text, watermark or UI.",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-02eb736c-12ee-4784-807a-f857a9255943.png",
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+          "role": "geometry and camera only; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 603901,
+          "sha256": "f7259497b89cfb62e4b7828c590858dc88e38410d83e66820150030fa3ac1987",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png",
+          "role": "material and lighting style only; inspected",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 2718142,
+          "sha256": "838fc6796674d3cc62172cb788d32e8442baf2e5d955ea5125c7026613fa5a01",
+          "full_decode_verified": true
+        }
+      ],
+      "visual_qa": "Passed inspection: compact room footprint, original camera/openings, straight walls, rich walnut/gray-brown stone/bronze material continuity; no UI/text/watermark. PASS: narrow right-wall lengthwise bed, desk at far window, narrow aisle; 7.2sqm apparent scale.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/second.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2563197,
+          "sha256": "2e06d8252ffef6e41b69084e56b4a3e4f3c3c60b6445c43c8cd2b6f68996158f",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/second.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 299016,
+          "sha256": "0b8b7ed45faced1abc7a9142ca4733176711ad0f25e7981c49b71fdddbcf9389",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/second-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 36578,
+          "sha256": "4556d716ec088a9b8343a1d93491e07a9cbc4d7d0fbf239087d59ce3d262c560",
+          "full_decode_verified": true
+        }
+      ]
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: style-transfer. Generate one native landscape 1536x1024 photorealistic premium residential kitchen photograph. Reference image 1 is GEOMETRY/CAMERA ONLY: preserve exact compact 6.6sqm U-shaped kitchen, original doorway viewpoint, sink below far centered window, cooktop along right counter and integrated oven/tall storage on left. Straight walls and original window locations. Reference image 2 is MATERIAL taste ONLY: dramatic flowing charcoal-gray and gray-brown stone, chocolate walnut, slim aged bronze details and intimate amber glow. Redesign all joinery with deeply grained dark chocolate walnut lower doors and tall left cupboards, quieter warm mushroom-gray upper cabinets, thin aged bronze handles/reveals. Expressive swirling gray-brown stone countertop and right backsplash, stone continuity detailed realistically; charcoal-gray honed stone flooring. Discreet undercabinet warm task light balanced with natural daylight, bronze faucet, small muted ivory ceramic vessel. Rich tonal contrast with breathable highlights. Residential scale, no island, no expanded room, no curved walls, no hotel overscale, no excessive gold or orange filter, no black clipping, no fisheye, no text/UI/watermark.",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-8602f043-5e3d-4b52-bcff-56bf6385565c.png",
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+          "role": "geometry and camera only; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 547686,
+          "sha256": "086531ff3de4a79a65b4729bca6cc82eb6cd7091b8649b24545efc9f011a6671",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png",
+          "role": "material and lighting style only; inspected",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 2718142,
+          "sha256": "838fc6796674d3cc62172cb788d32e8442baf2e5d955ea5125c7026613fa5a01",
+          "full_decode_verified": true
+        }
+      ],
+      "visual_qa": "Passed inspection: compact room footprint, original camera/openings, straight walls, rich walnut/gray-brown stone/bronze material continuity; no UI/text/watermark. PASS: compact U-shaped 6.6sqm layout, far sink/window, right cooktop and left tall appliances.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/kitchen.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2330463,
+          "sha256": "0158e3d3b54d9b1b317181508c048308b39a34b55b1b060577bad0310c134b84",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/kitchen.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 252860,
+          "sha256": "dd72ad86022caf58549fd5baf4a97106e581b4384f3091f0d971ae31429bca20",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/kitchen-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 31116,
+          "sha256": "c989abe339e4e57afbde21efd4b4cc38c2096f5d33bd67a6c452f1214a845653",
+          "full_decode_verified": true
+        }
+      ]
+    },
+    {
+      "room": "bath",
+      "prompt": "Use case: style-transfer. Generate one native landscape 1536x1024 photorealistic architectural photograph of a compact 4.3sqm residential bathroom. Image 1 is exact GEOMETRY/CAMERA reference: keep glass shower along LEFT wall, single floating vanity on far wall, narrow high frosted window right of mirror and compact toilet at right foreground, same straight walls, same modest dimensions and original door viewpoint. Image 2 is MATERIAL STYLE reference only, never copy its large hotel layout. Author the amber-stone design using richly flowing gray-brown/charcoal stone on the ONE floating basin, visually expressive looping mineral grain resembling image 2; a thin dark chocolate walnut lower drawer and modest open lower shelf. Small aged bronze framed mirror with two slender alabaster sconces, bronze taps and shower fittings. Quieter warm greige stone walls, charcoal stone floor, subtle warm concealed vanity lighting balanced by cool daylight through window. Rich precise joins, breathable luminous highlights, realistic texture. One basin only; shower and toilet remain; absolutely no bathtub, no second sink, no expansive hotel bath, no curved walls, no fisheye, no orange filter or excessive gold, no text/UI/watermark.",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-028474dc-e404-459b-a0bb-bf9ef351db93.png",
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+          "role": "geometry and camera only; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 640611,
+          "sha256": "51b4c65273cb25b3469dfc19808a13667c4ca9271367fe32b6bc2d0656b25063",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png",
+          "role": "material and lighting style only; inspected",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 2718142,
+          "sha256": "838fc6796674d3cc62172cb788d32e8442baf2e5d955ea5125c7026613fa5a01",
+          "full_decode_verified": true
+        }
+      ],
+      "visual_qa": "Passed inspection: compact room footprint, original camera/openings, straight walls, rich walnut/gray-brown stone/bronze material continuity; no UI/text/watermark. PASS: compact 4.3sqm bath, one swirling stone basin, left shower, right toilet, no tub.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/bath.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2789936,
+          "sha256": "d7fb1be68d2ed13522ed61b74d124e1b04117a63627bea9b311e8d6e5246d2c7",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/bath.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 341056,
+          "sha256": "c5d963dfa2ed54ad43d5bcdb1143784c620b1abe3c25b351bc00d0b4faf385ae",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/bath-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 34618,
+          "sha256": "bd3a36bec6e2be69bdc32c056312ffafdd7ab1d6d471877caf05f947ad84012f",
+          "full_decode_verified": true
+        }
+      ]
+    },
+    {
+      "room": "balcony",
+      "prompt": "Use case: style-transfer. Create one native landscape 1536x1024 photorealistic architectural photograph of 5sqm scenic balcony. Image 1 defines exact modest balcony footprint, straight sidewalls and original viewpoint from living room through sliding doorway; KEEP those proportions and distant residential towers/trees. Critically CORRECT its exterior glazing: completely remove its low opaque sill/parapet and horizontal railing; exterior glass must run floor-to-ceiling all the way down flush to floor with only minimal slim vertical mullions, no horizontal rail anywhere, no solid lower wall. Remove existing bench completely. Image 2 provides ONLY luxury material detail, flowing charcoal-gray stone, dark walnut and aged bronze, never oversized hotel layout. Image 3 supplies continuity with the adjacent authored living room. Furnish with ONE compact movable saddle cognac leather loungechair with crafted dark walnut arms and thin legs, plus one small aged bronze and flowing gray-brown stone side table, a modest plant at side. Dark walnut flat sidewall panels and discreet bronze sconce, charcoal-gray stone floor, neutral sheer curtains by room entry. No bench, built-in seating, window seat, sill, parapet or transverse railing. Keep panoramic lower glass visibly clear down to floor; calm daylight balanced with amber lamps, realistic tactile materials, breathable highlights, no orange filter, no fish-eye, no text/UI/watermark.",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e08eb23b-25f8-4a56-85a4-2b2de3e5c903.png",
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/balcony.jpg",
+          "role": "geometry and camera only; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 713507,
+          "sha256": "682bbd30ccffefbbb74601fc07ae40595821f33848aed6e87fa05d639c502a56",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png",
+          "role": "material and lighting style only; inspected",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 2718142,
+          "sha256": "838fc6796674d3cc62172cb788d32e8442baf2e5d955ea5125c7026613fa5a01",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+          "role": "authored scheme palette continuity; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2700961,
+          "sha256": "2a1f266564b1573fe31c4d27f66c90d9eae87813d42a27ac8e1a3d3caf3c04d2",
+          "full_decode_verified": true
+        }
+      ],
+      "visual_qa": "Passed visual inspection: compact scale, straight walls, realistic materials; no UI/text/watermark. PASS: glass flush to floor, no sill/parapet/rail/bench, one movable compact loungechair and table.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/balcony.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2553075,
+          "sha256": "5b9071a342fbac398c03cdb527a573cb1a879584f591d8924e4019c96733b77d",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/balcony.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 318494,
+          "sha256": "885856a0a0eeedc258b923989adaf51e0a03072fc2f3117112708ac903024f1a",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/balcony-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 43376,
+          "sha256": "4baca145724114da33ef018c7e5b6247ae432a7224d04bc71e1e1cdb334e8883",
+          "full_decode_verified": true
+        }
+      ]
+    },
+    {
+      "room": "utility",
+      "prompt": "Use case: style-transfer. Generate a native landscape 1536x1024 photorealistic interior photograph of a compact 2.5sqm residential utility balcony. Reference image 1 controls exact narrow footprint and camera: left window wall, stacked washer and dryer at far end, slim tall cleaning storage beside them, small right-side folding counter and overhead cupboards. Preserve all original straight walls and window/door positions, compact center aisle. Reference image 2 supplies ONLY flowing charcoal gray-brown stone, dark walnut and bronze material details; image 3 supplies palette continuity from the living room. Restyle with dark chocolate walnut cabinet fronts, precise bronze reveals, right counter of swirling charcoal gray-brown stone, discreet amber undercabinet task lighting. Matte warm gray high quality front-loading stacked laundry machines, functional ventilation gaps and believable access. Charcoal-gray honed stone floor, cocoa woven laundry basket, folded ivory linen towels. Residential practical scale, natural daylight balanced with warm localized lighting; rich tonal contrast without murky shadows. No expanded room, no giant laundry, no extra appliances, no curved walls, no orange filter, no fisheye, no text, logos, watermark or UI.",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-f4194cd4-0d4f-43c3-9261-cade86502f2e.png",
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/utility.jpg",
+          "role": "geometry and camera only; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 630956,
+          "sha256": "935d7030285dc1ad201f341725808e87f0084e4db20c67d9c4b46708e3c9a8fa",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png",
+          "role": "material and lighting style only; inspected",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 2718142,
+          "sha256": "838fc6796674d3cc62172cb788d32e8442baf2e5d955ea5125c7026613fa5a01",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+          "role": "authored scheme palette continuity; inspected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2700961,
+          "sha256": "2a1f266564b1573fe31c4d27f66c90d9eae87813d42a27ac8e1a3d3caf3c04d2",
+          "full_decode_verified": true
+        }
+      ],
+      "visual_qa": "Passed visual inspection: compact scale, straight walls, realistic materials; no UI/text/watermark. PASS: narrow 2.5sqm utility, stacked machines, left glazing, right counter and storage.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/utility.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2315469,
+          "sha256": "f35bb74e34d228b2e716a555c09f5c5330002f8751dd3b38caa789c9d30abda8",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/utility.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 265708,
+          "sha256": "134213a9a02d29f687a0b68c3761193eb4e16ae8c68f7a6795e60cc9027c7369",
+          "full_decode_verified": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/utility-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 41978,
+          "sha256": "f2fb33047ddc09fe502942ad5c35f99437dd1cae1950a4fa832876401aed7562",
+          "full_decode_verified": true
+        }
+      ]
+    }
+  ],
+  "derivative_policy": "Native 1536x1024 main PNG retained; quality90 WebP at original dimensions; 480x320 Lanczos thumbnail quality90. Temporary WebP fully decoded then atomic os.replace; final files reopened and fully decoded."
+}

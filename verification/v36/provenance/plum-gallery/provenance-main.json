@@ -1,0 +1,216 @@
+{
+  "scheme": "jade-teak",
+  "group": "main",
+  "tool": "builtin image_gen__imagegen",
+  "created": "2026-09-29",
+  "images": {
+    "living": {
+      "prompt": "Use case: photorealistic-natural. Create one native 1536x1024 landscape architectural interior photograph of jade-teak scheme, a genuinely compact 21.4sqm combined living+dining room. First reference is strict geometry and camera: preserve straight structural walls, doorway on back right, left passage and TV left, sofa right, dining at back. Replace finishes/furniture only. References 2 and 3 are MATERIAL ONLY: deep moss green swirling mineral stone, medium smoked teak/honey walnut framing, horizontally layered travertine subdivided by thin teak strips. Reference4 texture only. Authored understated premium residential room: low compact greige linen sofa right with real textile seams and soft wrinkles; short independent wood feet. Low monolithic but finely chamfered dense dark moss green veined stone coffee table on tactile flax wool rug. Smoky straight laid wood floor. TV left sits on flat travertine wall with fine teak frame and a recessed low fitted teak cabinet with authentic shadow gaps. Sofa rear wall has calm horizontally banded travertine in thin teak frames, natural shade variations. Back dining compact ROUND teak table about90cm, four refined wood chairs with greige upholstered seats, delicate opal pendant. Keep left passage open and rear right door position. Balanced clear daylight from behind camera and gentle warm task lights, real light falloff, not orange cast. Elevated joinery craftsmanship, no plastic CG look, no huge open space. Small discreet scene switch. No curved walls, no structural protrusions, no arches, no new rooms, no hotel scale, no emerald paint, no purple, no text watermark UI. Eye-level rectilinear camera same as first reference.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+        "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+        "/workspace/scratch/d2f63f3a5692/upload/03-IMG_7136.png"
+      ],
+      "source_output_hint": "Generated images are saved to /workspace/scratch/d2f63f3a5692/generated_images as /workspace/scratch/d2f63f3a5692/generated_images/exec-b4682df7-ff1d-4071-97af-9524d967c704.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "visually_inspected": true,
+        "native_requested": [
+          1536,
+          1024
+        ],
+        "materials": "smoked teak, layered travertine, moss green stone, greige linen",
+        "geometry": "Original camera, straight walls and openings visually retained",
+        "quality": "Photorealistic detailed joinery, cloth and mineral grain; no visible text/watermark/UI"
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living.png",
+          "bytes": 2880197,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "97bc75699ce8b27f7fb70a63149b10204c06e1cf9d35b912233f1e9559f37237",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living.webp",
+          "bytes": 359156,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "cd7bbf9eaf109b9fd98d21651774d86e0888d7f7fb01ec5c24236cd2bbe691c1",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living-thumb.webp",
+          "bytes": 39454,
+          "dimensions": [
+            480,
+            320
+          ],
+          "sha256": "15b55de340afb37a7bebf7720dc29c004b36b015dc368d3f691c858ccf777114",
+          "fully_decoded": true
+        }
+      ]
+    },
+    "dining": {
+      "prompt": "Use case photorealistic-natural. Create one native1536x1024 landscape interior photograph. First image GEOMETRY/camera only: match this compact dining recess of a total21.4sqm living+dining apartment, straight flat structural walls, open passage at left, door at far right and cabinetry positions unchanged. Second image is APPROVED same-home jade-teak living design: reproduce precisely its dining furniture and backwall for coherent adjoining room, a compact round teak pedestal table90cm with four finely joined medium teak chairs and greige linen seats and backs, delicate flattened opal pendant. Smoked medium teak/honey walnut wall and separate cupboard to right, narrow crafted shelves left. Smoky straight laid woodfloor continuing same direction. Discreet bronze hardware, small dark moss green stone serving bowl, one branch vase. Third/fourth references MATERIAL ONLY deep moss green mineral vein and layered travertine thin wood frame; do not copy their scale, bath, UI, text. Keep residential scale and real circulation, balanced soft daylight plus local warm lighting without orange cast. Exquisite visible wood grain and furniture joinery, nuanced linen texture, realistic contact shadows and optical photographic character, independent furniture. No curved walls, arches, new rooms, invented openings, allwhite, green paint, giant hotel layout, excessive clutter, text, watermark or UI.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living.png",
+        "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+        "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png"
+      ],
+      "source_output_hint": "Generated images are saved to /workspace/scratch/d2f63f3a5692/generated_images as /workspace/scratch/d2f63f3a5692/generated_images/exec-1368a6e5-f644-4d85-bbc0-5291c618bd6a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "visually_inspected": true,
+        "native_requested": [
+          1536,
+          1024
+        ],
+        "materials": "smoked teak, layered travertine, moss green stone, greige linen",
+        "geometry": "Original camera, straight walls and openings visually retained",
+        "quality": "Photorealistic detailed joinery, cloth and mineral grain; no visible text/watermark/UI"
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/dining.png",
+          "bytes": 2045399,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "a8303a5757f2f88d09efbcccd22d29ce855037ee979040d1f7b13b9e7ba3c7d9",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/dining.webp",
+          "bytes": 176672,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "32b1349c80b3690044541cf3c02c469e803cba492a68092851487bddb8c63ee8",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/dining-thumb.webp",
+          "bytes": 27832,
+          "dimensions": [
+            480,
+            320
+          ],
+          "sha256": "d5b5df873d932aeae6e38f7175b8a23ff37c44529863fade41e86cd31f41cc40",
+          "fully_decoded": true
+        }
+      ]
+    },
+    "master": {
+      "prompt": "Use case photorealistic-natural. Create one native1536x1024 landscape architectural photograph of compact13.5sqm master bedroom jade-teak design. First image is strict GEOMETRY CAMERA reference: preserve all straight structural walls, entry viewpoint, bed and window positions including existing corner bay left back and narrow tall window right edge, left wardrobe/cabinet position, true modest room size. Second image APPROVED same-home living sets exact material/lighting/quality continuity, medium smoked teak/honey walnut, horizontally layered warm travertine, deep mossgreen mineral stone accents, greige linen, blackened bronze. Third image MATERIAL style only: adapt its thin teak framed travertine bedhead to THIS small original geometry, never copy hotel layout. Bed head wall: calm framed horizontally veined travertine inset with fine vertical teak divisions, low padded flax linen headboard on honest thin teak bed frame. Restrained oatmeal bedding with deep moss green woven throw folded foot and muted olive cushion. Small independent teak bedside tables with dark moss stone tops, fine bronze lamps. Flat integrated wardrobe left with finely recessed pulls, same smoky straight wood floors and tactile flatwoven wool rug as living. Preserve window openings exactly; use greige curtains on concealed tracks, keep natural highrise city view. Bright balanced daylight and subdued warm reading lights, soft natural color no orange filter. Premium artisanal realism, plausible wood joins and cloth wrinkles, no plastic CGI. No arches curved walls, giant room, new openings, structural projections, oversized cabinetry, visible text watermarks UI.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living.png",
+        "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+        "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png"
+      ],
+      "source_output_hint": "Generated images are saved to /workspace/scratch/d2f63f3a5692/generated_images as /workspace/scratch/d2f63f3a5692/generated_images/exec-8552b4f9-f368-48a7-8000-f65abe606ca7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "visually_inspected": true,
+        "native_requested": [
+          1536,
+          1024
+        ],
+        "materials": "smoked teak, layered travertine, moss green stone, greige linen",
+        "geometry": "Original camera, straight walls and openings visually retained",
+        "quality": "Photorealistic detailed joinery, cloth and mineral grain; no visible text/watermark/UI"
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/master.png",
+          "bytes": 2670331,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "d0858e29c0393ea73e6484c3b83231283e896c0df364503dac750f1582b3090f",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/master.webp",
+          "bytes": 302686,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "0331a8a2f04ce43b9e1557d57b39ae32f7a9927bc2a8f12c8d1310efb151acfd",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/master-thumb.webp",
+          "bytes": 33346,
+          "dimensions": [
+            480,
+            320
+          ],
+          "sha256": "21abcf9ef2949ca480648eb1ab28f5761c283e8d9d97457f741dcbfc9f5630a5",
+          "fully_decoded": true
+        }
+      ]
+    },
+    "living2": {
+      "prompt": "Use case photorealistic-natural. Create one native1536x1024 landscape architectural photograph showing the REVERSE VIEW of exact same compact living room in image1, looking from dining end toward scenic balcony. Image1 is APPROVED furniture, finishes, proportions and appearance reference. Image2 original living and image3 original dining show strict room geometry from opposite direction; image4 balcony shows opening and city outside, but MUST CHANGE balcony glazing as below. Same21.4sqm combined living+dining actual home, living area compact, no hotel scale. Reverse camera naturally places the exact low greige linen sofa along LEFT wall, TV with long low teak cabinetry along RIGHT wall, same dense deep moss green mineral-veined short rounded-square stone coffee table on tactile flax rug center. Keep same teak framed horizontally layered travertine walls, same smoked straight laid medium wood floor, same flat ceiling perimeter tray and bronze alabaster flush lamp. In foreground very subtle edge of round dining table permissible, no extra seating. At far end show rectangular opening into5sqm scenic balcony, slim bronze sliding threshold; beyond it entire external glazing is transparent FLOOR TO CEILING right down to floor with minimal vertical mullions and discreet slim side opening. NO opaque sill, NO parapet, NO windowbench, NO horizontal/transverse rails anywhere crossing glass. Balcony has straight timber sidewalls, one compact movable teak lounge chair and small moss green stone side table; clear city/trees visible all the way down to floor glazing. Feasible contained ordinary apartment, balcony depth about1.4m, not terrace. Restrained soft daylight entering from glass with warm task lighting, no orange filter, believable detailed wood joinery linen and stone, photographic realistic shadows. Preserve furniture identity from image1 and use coherent reversed positions. No arches, curved walls, new openings, giant penthouse, structural projections, plastic CGI, text watermark UI.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/balcony.jpg"
+      ],
+      "source_output_hint": "Generated images are saved to /workspace/scratch/d2f63f3a5692/generated_images as /workspace/scratch/d2f63f3a5692/generated_images/exec-ff3817f7-009d-4f7b-9b04-59e81b0300fa.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "qa": {
+        "visually_inspected": true,
+        "native_requested": [
+          1536,
+          1024
+        ],
+        "materials": "smoked teak, layered travertine, moss green stone, greige linen",
+        "geometry": "Authored reverse camera; sofa left TV right, compact balcony full glass to floor, no transverse rail or sill",
+        "quality": "Photorealistic detailed joinery, cloth and mineral grain; no visible text/watermark/UI"
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living2.png",
+          "bytes": 2825878,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "3643c856014d8df0cfc0924ac2b634dc74575c79938b8317da9d8b3fe210f105",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living2.webp",
+          "bytes": 357558,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "f44ee802e6cf840899ba3105808ffb034c6e9d07577450b93219be913baa8386",
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/living2-thumb.webp",
+          "bytes": 41668,
+          "dimensions": [
+            480,
+            320
+          ],
+          "sha256": "71b013ffbc459afefeaea097d06629358f2934f73ceb25bd023e2437a55f870d",
+          "fully_decoded": true
+        }
+      ]
+    }
+  }
+}

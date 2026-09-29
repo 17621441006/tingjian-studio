@@ -1,3 +1,4 @@
+import {MINERAL_HOMES,MINERAL_IDS,mineralAsset} from './mineral-homes.mjs';
 import {ADDITIONAL_HOMES} from './additional-homes.mjs';
 export const WOOD_HOMES={
   "edition-oak": {
@@ -583,7 +584,7 @@ export const WOOD_HOMES={
     }
   }
 };
-Object.assign(WOOD_HOMES,ADDITIONAL_HOMES);
+Object.assign(WOOD_HOMES,ADDITIONAL_HOMES,MINERAL_HOMES);
 export const NEW_HOME_IDS=["edition-oak", "edition-smoke", "milan"];
 export function designMedia(path){return (globalThis.__TINGJIAN_V26_ORIGIN__||'')+'/designs-v26/'+path;}
-export function livingReverseAsset(design,thumb=false){return designMedia(design+'/living2'+(thumb?'-thumb':'')+'.webp');}
+export function livingReverseAsset(design,thumb=false){if(MINERAL_IDS.includes(design))return mineralAsset(design,'living2',thumb);return designMedia(design+'/living2'+(thumb?'-thumb':'')+'.webp');}

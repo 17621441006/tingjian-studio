@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "schemes": 15,
+  "replaced": "plum-gallery",
+  "newScheme": "amber-stone",
+  "nativeImages": 18,
+  "thumbnails": 18,
+  "mainResolution": [
+    1536,
+    1024
+  ],
+  "newFinalRoomViews": 16,
+  "newReverseViews": 2,
+  "smallBedroomLongitudinal": true,
+  "fullHeightBalconyGlass": true,
+  "originalAssetsPreserved": true,
+  "browserVisualTested": false,
+  "scope": "Authored concepts based on existing room views and original areas; no measured CAD claim."
+}

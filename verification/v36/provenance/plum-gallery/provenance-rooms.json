@@ -1,0 +1,447 @@
+{
+  "scheme": "jade-teak",
+  "group": "rooms",
+  "generator": "built-in image_gen.imagegen",
+  "native_main_dimensions": [
+    1536,
+    1024
+  ],
+  "derivative_workflow": "Quality90 WebP; temp output fully decoded then atomic os.replace; final files reopened and fully decoded; thumbnail only resized to480x320.",
+  "assets": [
+    {
+      "room": "second",
+      "full_prompt": "Use case: photorealistic-natural. Create a native 1536x1024 landscape architectural interior photograph of the jade-teak scheme compact SECOND BEDROOM. Image 1 is strict geometry/camera reference: retain its tiny narrow 7.2sqm rectangular room, entry at foreground left, far window, SINGLE narrow bed running LENGTHWISE along RIGHT wall into depth, desk at far window and narrow central aisle. Do not enlarge. Images 2-3 are MATERIAL references only, never copy their hotel scale or layout or text. Authored refined palette: smoked medium teak finely joined drawer bed with greige linen cover and soft oatmeal pillow, narrow understated moss textured throw, honey teak desk with a small DEEP MOSS GREEN naturally veined stone inset desktop, upholstered timber deskchair; subtle wood-framed travertine panels behind bed and slim overhead teak storage. Dark bronze tasklamp, quiet integrated storage, concealed curtain track, natural daylight balanced with gentle task lighting. Real grained timber, stone pores and complex dark green mineral veining, woven fabric, believable independent furniture construction. Flat straight walls, keep original door/window placement. NO enlarged room, central double bed, purple, cheap green paint, plastic CGI, fisheye, text, UI, watermarks. Output exactly1536x1024.",
+      "reference_roles": [
+        "strict camera/footprint geometry; balcony glazing explicitly changed",
+        "natural green/brown veined stone and teak material ONLY",
+        "travertine and thin teak framing material ONLY"
+      ],
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+          "sha256": "f7259497b89cfb62e4b7828c590858dc88e38410d83e66820150030fa3ac1987",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 603901,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+          "sha256": "e155d7ea34023ab21bc56b6e69049672b93608e75c595afef0442c6825a94673",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1643448,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+          "sha256": "874700652824778288a07c835d64dafc89c5b5f555492b714a6588b1e531aaef",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1706773,
+          "fully_decoded": true
+        }
+      ],
+      "source_generated_file": {
+        "path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d2832ca0-65c2-43ed-8a5c-d193117469c1.png",
+        "sha256": "6aeacbf7552473c40ff3166d2b4575b8251a6ac230bfa81f8e98d06325a53753",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2438396,
+        "fully_decoded": true
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/second.png",
+          "sha256": "6aeacbf7552473c40ff3166d2b4575b8251a6ac230bfa81f8e98d06325a53753",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2438396,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/second.webp",
+          "sha256": "fd0f555598c3f87150ac9c3aac2e35e53dff984ab2b854fea3f0dbcdd24e9486",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 265844,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/second-thumb.webp",
+          "sha256": "d453b2f4fe56e67be2a8bacc5caa66e18735fdb22f9c7765b63c16eb043c666b",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 33656,
+          "fully_decoded": true
+        }
+      ],
+      "visual_qa": "PASS: narrow single bed along RIGHT wall into depth, far window desk, narrow central aisle, straight original geometry; travertine and teak with moss stone desk inset.",
+      "no_text_watermark_UI": true
+    },
+    {
+      "room": "kitchen",
+      "full_prompt": "Use case: photorealistic-natural. Native1536x1024 landscape architectural photograph. Redesign ONLY finishes and joinery of reference image1 compact 6.6sqm U-shaped kitchen, preserve original geometry, straight walls, camera, far window, sink centered under window, left oven and refrigerator tower, right cooktop and cabinetry. References2-3 MATERIAL language only, not hotel layout: rich smoked medium teak with fine bronze reveals, natural DEEP MOSS GREEN stone with complex brown/olive/pale mineral veins for countertop and backsplash, calm pale warm gray upper cabinets, contrasting honed warm limestone floor. Beautiful genuine wood grain, precise cabinet joints, finely detailed faucet and understated appliances. Warm undercabinet light balanced with clean daylight, avoid orange filter. Small earthen ceramic canister, discreet plant, clean practical countertop, no lavish oversized kitchen. No islands, relocated openings, curved walls, purple, green painted cabinetry, fake plastic material, fisheye, text, labels, watermarks or UI. Output exactly1536x1024.",
+      "reference_roles": [
+        "strict camera/footprint geometry; balcony glazing explicitly changed",
+        "natural green/brown veined stone and teak material ONLY",
+        "travertine and thin teak framing material ONLY"
+      ],
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+          "sha256": "086531ff3de4a79a65b4729bca6cc82eb6cd7091b8649b24545efc9f011a6671",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 547686,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+          "sha256": "e155d7ea34023ab21bc56b6e69049672b93608e75c595afef0442c6825a94673",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1643448,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+          "sha256": "874700652824778288a07c835d64dafc89c5b5f555492b714a6588b1e531aaef",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1706773,
+          "fully_decoded": true
+        }
+      ],
+      "source_generated_file": {
+        "path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e57a8931-613b-4b72-b302-ddb996c81d9b.png",
+        "sha256": "4363772b8a9d4c9e643da5600c00393a05890f4fd056bb0cb904cdc4e6963b13",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2377515,
+        "fully_decoded": true
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/kitchen.png",
+          "sha256": "4363772b8a9d4c9e643da5600c00393a05890f4fd056bb0cb904cdc4e6963b13",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2377515,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/kitchen.webp",
+          "sha256": "85a78ea7ed8c4be3768fef5619001f236c735f5ef3e7f01894c32aa25bdfe308",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 259074,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/kitchen-thumb.webp",
+          "sha256": "3de4f5cce37a12327f50609240de5450b2692c82490df74fa5e2b505d1882fe5",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 31310,
+          "fully_decoded": true
+        }
+      ],
+      "visual_qa": "PASS: compact U kitchen, original window/sink/left oven/right cooktop placement, complex deep moss mineral stone and teak joinery.",
+      "no_text_watermark_UI": true
+    },
+    {
+      "room": "bath",
+      "full_prompt": "Use case: photorealistic-natural. Native1536x1024 landscape architectural photograph. Redesign the compact4.3sqm bathroom shown in image1 retaining its exact camera and spatial geometry: shower enclosure LEFT with bronze shower fittings, SINGLE basin vanity CENTER, narrow frosted window to right of mirror, toilet foreground RIGHT. Image2 is strictly material inspiration for deep moss green/brown swirling veined natural stone and teak craft, image3 for stone and thin wood panel framing; never use their oversize hotel scale. One floating sculptural deep moss-green stone basin counter with rich layered brown and pale mineral veins, finely joined medium teak floating drawers underneath. Small bronze-framed rectangular mirror, subtle concealed warm lighting. Restrained teak-look wet-rated panels around mirror outside wet zone, taupe natural stone in shower, charcoal stone floor with a few small pale understated inlays. Realistic natural material texture, warm but breathable residential room, clear daylight balanced with soft light. Keep straight flat structure. NO bathtub, double sink, extra room, arches, green paint, purple, allwhite room, orange filter, text, watermark or UI. Output exactly1536x1024.",
+      "reference_roles": [
+        "strict camera/footprint geometry; balcony glazing explicitly changed",
+        "natural green/brown veined stone and teak material ONLY",
+        "travertine and thin teak framing material ONLY"
+      ],
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+          "sha256": "51b4c65273cb25b3469dfc19808a13667c4ca9271367fe32b6bc2d0656b25063",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 640611,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+          "sha256": "e155d7ea34023ab21bc56b6e69049672b93608e75c595afef0442c6825a94673",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1643448,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+          "sha256": "874700652824778288a07c835d64dafc89c5b5f555492b714a6588b1e531aaef",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1706773,
+          "fully_decoded": true
+        }
+      ],
+      "source_generated_file": {
+        "path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5c3788ad-0e74-49e7-a7db-dafc8fd93db3.png",
+        "sha256": "9618e1bc44e19644dab631d6e254b5260e6cfb9b68e9d27707a02c30275763a2",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2723738,
+        "fully_decoded": true
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/bath.png",
+          "sha256": "9618e1bc44e19644dab631d6e254b5260e6cfb9b68e9d27707a02c30275763a2",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2723738,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/bath.webp",
+          "sha256": "a5b92f1bd4cb4045f0e9b244b8dfb5c364d55c9f30ae7081c3db8d2bbbba36fd",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 317558,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/bath-thumb.webp",
+          "sha256": "ef426b2421cc3d1fd4c699d3039f6d0ce495ad40d7af92bc641a0d4ce3464593",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 33204,
+          "fully_decoded": true
+        }
+      ],
+      "visual_qa": "PASS: compact original arrangement, one integrated stone basin, shower left, toilet right, no tub, deep moss/brown veined stone and wet-rated teak-look surfaces.",
+      "no_text_watermark_UI": true
+    },
+    {
+      "room": "balcony",
+      "full_prompt": "Use case: photorealistic-natural. Native1536x1024 landscape architectural photograph of jade-teak scenic balcony5sqm. Image1 is reference for compact footprint, straight sidewalls, city view and camera through living room sliding doorway ONLY. Explicit requested change: replace old sill/parapet/railing and bench entirely with crystal-clear floor-to-ceiling architectural safety glass extending ALL THE WAY DOWN TO THE FINISHED FLOOR. No opaque sill, parapet, window bench, waist-height crossbar, transverse railing or opaque band anywhere across glazing. Minimal slim vertical mullions, discreet narrow side opening. Use images2-3 solely for authentic medium-teak and green mineral stone palette. Teak timber sidewalls, a single movable slim beautifully crafted teak loungechair with greige linen upholstery near right, compact DEEP MOSS GREEN richly veined stone side table near it, one restrained potted olive, calm honed limestone floor. Compact residential scale5sqm with open walking area, no enlarged sunroom. Natural green park/city view visible right to floor between furniture legs. Refined understated bronze wall lamp, soft daylight, authentic tactile materials. No orange filter, curved architecture, purple, cheap green paint, text, watermarks or UI. Output exactly1536x1024.",
+      "reference_roles": [
+        "strict camera/footprint geometry; balcony glazing explicitly changed",
+        "natural green/brown veined stone and teak material ONLY",
+        "travertine and thin teak framing material ONLY"
+      ],
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/balcony.jpg",
+          "sha256": "682bbd30ccffefbbb74601fc07ae40595821f33848aed6e87fa05d639c502a56",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 713507,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+          "sha256": "e155d7ea34023ab21bc56b6e69049672b93608e75c595afef0442c6825a94673",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1643448,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+          "sha256": "874700652824778288a07c835d64dafc89c5b5f555492b714a6588b1e531aaef",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1706773,
+          "fully_decoded": true
+        }
+      ],
+      "source_generated_file": {
+        "path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-28fee408-5957-4c2c-a154-9552e57228ce.png",
+        "sha256": "9454fce97c76f3e079104720bc30054c45ad277849f719204ca6904429c09526",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2608777,
+        "fully_decoded": true
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/balcony.png",
+          "sha256": "9454fce97c76f3e079104720bc30054c45ad277849f719204ca6904429c09526",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2608777,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/balcony.webp",
+          "sha256": "f382b3c268bea3e2001539ca537540234c31dba606a081402b1b4b2bfd1f9c83",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 327756,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/balcony-thumb.webp",
+          "sha256": "ef938915467d5d524e9058682fcfe054c1cd40f42f87857dab03c484bd925cd7",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 43798,
+          "fully_decoded": true
+        }
+      ],
+      "visual_qa": "PASS: full-height glass visibly meets floor; no opaque sill, parapet, windowbench or horizontal railing; movable single loungechair, green stone side table, compact original footprint.",
+      "no_text_watermark_UI": true
+    },
+    {
+      "room": "utility",
+      "full_prompt": "Use case: photorealistic-natural. Native1536x1024 landscape architectural photograph of jade-teak compact utility balcony2.5sqm. Image1 strict footprint/camera and openings reference: narrow galley with glazing along LEFT, stacked washer and dryer recessed at FAR end, narrow broom niche beside them, shallow folding counter and overhead storage on RIGHT. Preserve this small space and straight walls, do not enlarge. Images2-3 MATERIAL inspiration only: beautifully grained smoked medium teak fitted storage with precise joins and slim bronze pulls, folding worktop and narrow splashback in deep moss green naturally veined mineral stone with rich brown/pale veins, calm honed warmgray stone floor. Two realistically sized premium unbranded stacked machines, linen basket and neat folded towels, quiet task lighting balanced with soft natural daylight. Sophisticated practical residential joinery, independent believable material layers, open central walkway, small scene switch. No arches, purple, cheap green paint, oversize laundry, text, labels, watermark, UI or plastic game render. Output exactly1536x1024.",
+      "reference_roles": [
+        "strict camera/footprint geometry; balcony glazing explicitly changed",
+        "natural green/brown veined stone and teak material ONLY",
+        "travertine and thin teak framing material ONLY"
+      ],
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/utility.jpg",
+          "sha256": "935d7030285dc1ad201f341725808e87f0084e4db20c67d9c4b46708e3c9a8fa",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 630956,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/01-IMG_7135.png",
+          "sha256": "e155d7ea34023ab21bc56b6e69049672b93608e75c595afef0442c6825a94673",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1643448,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/upload/02-IMG_7134.png",
+          "sha256": "874700652824778288a07c835d64dafc89c5b5f555492b714a6588b1e531aaef",
+          "dimensions": [
+            946,
+            2048
+          ],
+          "bytes": 1706773,
+          "fully_decoded": true
+        }
+      ],
+      "source_generated_file": {
+        "path": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b288280b-08c4-4910-b18c-ebb08d6c41d9.png",
+        "sha256": "0f7998d34c30ed236261cc6db617c3c5f4d17541ed06571dcce968d52efa822d",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 2298155,
+        "fully_decoded": true
+      },
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/utility.png",
+          "sha256": "0f7998d34c30ed236261cc6db617c3c5f4d17541ed06571dcce968d52efa822d",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2298155,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/utility.webp",
+          "sha256": "ea5886442ee562115a31b2b6d1307beb72caef5271eacc50d64a71907b4b8034",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 257102,
+          "fully_decoded": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/utility-thumb.webp",
+          "sha256": "a71ba616dcd28374236724a3eeddee4fe8ffff9c6b1c67a17df043edae09f098",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 40334,
+          "fully_decoded": true
+        }
+      ],
+      "visual_qa": "PASS: original narrow galley, stacked washer/dryer far end, windows left, storage and shallow stone folding counter right; clear walkway.",
+      "no_text_watermark_UI": true
+    }
+  ],
+  "contact_sheet": {
+    "path": "/workspace/scratch/d2f63f3a5692/v36-assets/jade-teak/contact-rooms.jpg",
+    "sha256": "5aee6e2d7296fb0f9c5e617c274e1e8af308a4ef1b9657184626bb30d7902928",
+    "dimensions": [
+      1440,
+      700
+    ],
+    "bytes": 318405,
+    "fully_decoded": true
+  }
+}

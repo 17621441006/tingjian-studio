@@ -1,3 +1,4 @@
+import {MINERAL_IDS} from './mineral-homes.mjs';
 import {FINAL_DESIGNS,finalAsset,collectionAsset,FINAL_ROOM_NOTES} from './final-assets.mjs';
 import {COLLECTIONS,LIFE_ROOM_NAMES} from './lifestyle-data.mjs';
 import {HOMES,homeAsset} from './home-designs.mjs';
@@ -18,7 +19,7 @@ export function initDesignerGallery(root){
   catch(e){if(id===job){$('[data-designer-error]').hidden=false;$('[data-designer-error-copy]').textContent='这张图暂未载入，可以重试或切换其他房间。';}}
   finally{if(id===job)$('[data-designer-loading]').hidden=true;}
  }
- function render(nextDesign,nextCollection){if(!nextDesign)return;if(design!==nextDesign){design=nextDesign;collection=FINAL_DESIGNS.includes(design)?'final':'base';room='living';}lastInput=nextCollection;const tabs=$('[data-designer-collections]');tabs.replaceChildren();for(const c of [...(FINAL_DESIGNS.includes(design)?[{id:'final',name:HOMES[design].name+' · 最终效果'}]:[]),{id:'base',name:'原方案对照'},...COLLECTIONS])tabs.append(btn(c.name,'designerCollection',c.id,()=>{collection=c.id;room='living';render(design,lastInput);},collection===c.id));
+ function render(nextDesign,nextCollection){if(!nextDesign)return;if(design!==nextDesign){design=nextDesign;collection=FINAL_DESIGNS.includes(design)?'final':'base';room='living';}lastInput=nextCollection;const tabs=$('[data-designer-collections]');tabs.replaceChildren();for(const c of [...(FINAL_DESIGNS.includes(design)?[{id:'final',name:HOMES[design].name+' · 最终效果'}]:[]),...(MINERAL_IDS.includes(design)?[]:[{id:'base',name:'原方案对照'}]),...COLLECTIONS])tabs.append(btn(c.name,'designerCollection',c.id,()=>{collection=c.id;room='living';render(design,lastInput);},collection===c.id));
   $('[data-designer-title]').textContent=title()+' · 八个空间';const rooms=$('[data-designer-rooms]');rooms.replaceChildren();for(const f of designerFrames(collection,design)){const b=btn('','designerRoom',f.id,()=>{room=f.id;render(design,lastInput);},room===f.id),im=make('img');setMediaImage(im,f.thumb);im.alt='';im.width=240;im.height=160;im.loading='lazy';b.append(im,make('span',f.name));rooms.append(b);}load();
  }
  $('[data-designer-retry]').addEventListener('click',load);

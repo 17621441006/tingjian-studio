@@ -1,0 +1,206 @@
+{
+  "scheme": "amber-stone",
+  "tool": "builtin image_gen.imagegen",
+  "records": [
+    {
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 landscape photorealistic premium residential interior, amber-stone scheme. Image1 is GEOMETRY AND CAMERA reference; retain its compact 21.4 sqm combined living+dining footprint, flat straight walls, doorway left, rear dining, entrance rear right, TV left and sofa right. Image2 is MATERIAL inspiration only: dark chocolate walnut, bronze details, swirling charcoal gray-brown mineral stone and gentle local amber lighting; never copy hotel scale or bathroom. Authored living: refined flat walnut panels with pencil-thin aged bronze reveals, compact tobacco cognac leather sofa with realistic seams and tailored cushions, low sculptural rectangular charcoal deeply-veined stone table, charcoal-gray honed soft stone floor tiles, small oatmeal woven rug, restrained abstract art instead of landscapes. Fine walnut cabinet under TV, intimate walnut dining table and four crafted walnut/ivory chairs in background, amber glass dining pendant and small amber lamp. Independent believable joinery, tactile leather and linen, detailed softly honed stone, matte bronze. Keep residential size and exact architectural openings; not expansive or stretched. Balanced soft daylight from camera-side scenic balcony plus amber practical lamps; neutral ivory ceiling, breathable shadow detail, no orange wash or murky clipping. Real interior photography with straight verticals, natural lens, no fish-eye. No people, text, logos, watermarks or UI.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-664bdd7a-fd45-4231-9cc1-0253c4594562.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "native_requested_dimensions": [
+          1536,
+          1024
+        ],
+        "notes": "Compact original geometry and openings retained; consistent walnut, amber, charcoal palette and crafted furnishings."
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2700961,
+          "sha256": "2a1f266564b1573fe31c4d27f66c90d9eae87813d42a27ac8e1a3d3caf3c04d2",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 336344,
+          "sha256": "27f901afbdad96c44eef0736eb2ab97e749166702d48e14affd1a5a1f16cf732",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 38754,
+          "sha256": "557b02610b176168ebd6ac79682d6dbabdbc86b876092dd3ca2de90f1427b6c0",
+          "full_decode": true
+        }
+      ]
+    },
+    {
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. One native 1536x1024 landscape photorealistic interior photograph, amber-stone residential dining. Image1 camera/compact architecture must be retained precisely: front-facing dining wall, left open doorway, entrance door extreme right, bookshelf left, sideboard right. Image2 is the SAME home's finished living room: match its dark chocolate walnut panels and fine bronze reveals, swirling charcoal-gray honed stone flooring, crafted ivory linen dining chairs, walnut rectangular table, single small flattened oval amber glass pendant, abstract ivory charcoal artwork, bronze tabletop lamp, overall rich but breathable finish. This shot is closer to dining zone visible at rear of image2, fully consistent furniture and materials. Image3 material/glow only, never copy hotel scale or bath. 21.4 square metre living+dining combined; intimate table for four, believable chair joins, slight walnut grain variation, true linen weave, refined bronze edge cabinet handles. Small discreet wall scene controls. Daylight from left balances gentle local amber lighting; ivory neutral ceiling, no orange color filter, no crushed shadows. Do not enlarge architecture or room, no curved structural walls, no arches, no structural changes, no fish-eye. No people, text, watermark, UI or logos.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+        "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-a07263fa-2e4d-4a6e-bb05-fb7991c6808b.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "native_requested_dimensions": [
+          1536,
+          1024
+        ],
+        "notes": "Compact original geometry and openings retained; consistent walnut, amber, charcoal palette and crafted furnishings."
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/dining.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2236372,
+          "sha256": "0232bf9878ddd34ef27b453052272443f36ceef3a119401eff63553dbccc703b",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/dining.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 234214,
+          "sha256": "03fe5307595e9b340466ae239ae651ca31101dae65fa94ac4d1e56e1c7d7ce0d",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/dining-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 31288,
+          "sha256": "5c56606d133bfaafd247df14e40f9417dc7c0bbb0e2e62d830eb9f2936567a91",
+          "full_decode": true
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Create one native 1536x1024 landscape photorealistic master bedroom interior photograph in amber-stone whole-home design. Image1 is strict CAMERA and architectural geometry reference, keep compact 13.5 sqm bedroom dimensions, same bed placement and size, left wardrobe, corner bay window rear left and separate window right, identical windows and straight flat wall openings. Change decoration/materials into image2 same-home palette. Image3 only inspiration for stone and local warm bronze glow, never hotel scale. Rich chocolate walnut continuous flat bed headwall with very thin aged bronze seams, bronze-edged warm oatmeal fabric inset behind low tailored headboard. Layered cocoa brown bedcover, ivory linen sheets and two lighter pillows, tactile woven walnut-brown throw; slim walnut bedside drawers and small amber glass lamps with bronze base. Dark walnut cabinetry and fine bronze handles left. A subtle charcoal-gray honed stone floor with quiet vein pattern ties to living image2, mostly covered by soft light mushroom rug. Keep walls around windows warm neutral plaster to make this breathable. Believable furniture separate construction with premium joinery and tactile woven fabric, soft natural creases. Discreet small switch controls, concealed curtain tracks, warm bedside task lights. Neutral daylight and soft ivory ceiling balanced with localized amber glow, no orange wash, no crushed black shadows. Preserve room size no expansion, no arches, no curved structural walls, no fisheye, no extra furniture crowding. No people, text, logos, watermark or UI.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+        "/workspace/scratch/d2f63f3a5692/upload/04-IMG_7069.png"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-1fddf819-20db-4099-ac02-69d90c4983c0.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "native_requested_dimensions": [
+          1536,
+          1024
+        ],
+        "notes": "Compact original geometry and openings retained; consistent walnut, amber, charcoal palette and crafted furnishings."
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/master.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2545753,
+          "sha256": "7096eab237af346920f08811cb1c5573b4218f764664d5128a111f13deb3ca58",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/master.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 277896,
+          "sha256": "2e04da66bc71cea6089d66c3f05005e0e387c82674e639618dac127ab4020e80",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/master-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 32568,
+          "sha256": "b5a80858f66be735ebe137e32b82feaddd06ef6335f36aec2bcef01387ba713d",
+          "full_decode": true
+        }
+      ]
+    },
+    {
+      "room": "living2",
+      "prompt": "Use case: photorealistic-natural. One native 1536x1024 landscape interior photograph. New reverse living-room viewpoint for exactly the SAME compact apartment in Image1. Camera now near dining end (dining seen rear of image1), facing the scenic balcony at opposite end. Image1 is strict authored furniture and finish identity: dark walnut flat panels with thin aged bronze reveals, tobacco leather compact sofa, sculptural rectangular low deeply swirling charcoal stone coffee table, ivory coarse rug and charcoal-gray honed stone floor. Because camera reverses, sofa now LEFT, TV and walnut low TV cabinet RIGHT; retain same relative furnishing layout, wall geometry and human scale; do not enlarge. Image2 and image3 show original room camera geometry and compact 21.4 sqm living+dining together. Image4 shows balcony location/view and width ONLY: redesign glazing per instruction below, do NOT retain its sill, bench or crossrails. View across living toward 5sqm shallow scenic balcony through simple rectilinear opening, thin dark timber side frames and pulled-back ivory sheer curtains. At balcony outer edge floor-to-ceiling uninterrupted glass down to floor, no opaque sill or parapet, no horizontal transverse railing, few very slim vertical mullions; a narrow operable side glass panel. Show ONE movable compact saddle leather and walnut lounge chair plus small bronze/charcoal stone side table in balcony. No window bench. Dense urban residential skyline and green trees in neutral soft daylight outside. Indoor warm amber glass lamp and restrained abstract art; small scene switch discreet. Rich but breathable balanced daylight, no orange filter, no black clipping. Premium fine joins, leather pores, real fabric, natural photography with straight verticals, no fish-eye. Straight walls and modest normal ceiling, no arches, no curved architecture, no penthouse or extra rooms. No people, no text, no UI, no watermark, no logos.",
+      "references": [
+        "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living.png",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/balcony.jpg"
+      ],
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-b16af9b2-9bdd-49a0-81de-1a284ac863a1.png",
+      "qa": {
+        "visual_inspection": "passed",
+        "native_requested_dimensions": [
+          1536,
+          1024
+        ],
+        "notes": "Reverse sofa-left/TV-right viewpoint; fullheight balcony glass has no sill, bench or transverse railing. Shallow balcony and compact movable chair."
+      },
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living2.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 2695091,
+          "sha256": "a2526458bb57e61f7e7fb69e4a1de4428e274972fed5abd6da00a0b6a72a8c00",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living2.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 336430,
+          "sha256": "368731176f58037eb52fa7ad3c9c63b7176f9bd3006e125e11cc0e33cf8b0e88",
+          "full_decode": true
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v36-assets/amber-stone/living2-thumb.webp",
+          "dimensions": [
+            480,
+            320
+          ],
+          "bytes": 39354,
+          "sha256": "51e338b4febcc8d3f1af6943bf521318329cb8f54dce10788818f0740a337865",
+          "full_decode": true
+        }
+      ]
+    }
+  ]
+}

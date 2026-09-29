@@ -1,3 +1,4 @@
+import {MINERAL_FLOOR_REGIONS} from './mineral-floor-regions.mjs';
 import {loadMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {WOOD_FLOOR_REGIONS} from './wood-floor-regions.mjs';
 import {prepareObjectPhoto,currentObjectPhoto,sceneEditKey} from './photo-objects.mjs';
@@ -32,7 +33,7 @@ const duskPieces={areas:[px([0,1024],[0,955],[275,792],[279,765],[319,742],[319,
 ]};
 export function floorRegions(scene,path=''){
  if(scene.design==='dusk'&&/\/(pieces|selections)\/living\//.test(path))return duskPieces;
- return WOOD_FLOOR_REGIONS[scene.design]?.[scene.room]||sets[scene.design]?.[scene.room]||common[scene.room]||common.living;
+ return MINERAL_FLOOR_REGIONS[scene.design]?.[scene.room]||WOOD_FLOOR_REGIONS[scene.design]?.[scene.room]||sets[scene.design]?.[scene.room]||common[scene.room]||common.living;
 }
 export function floorMask(width,height,{areas,holes=[]}){
  const mask=new Uint8Array(width*height);

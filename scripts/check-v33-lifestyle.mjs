@@ -7,7 +7,7 @@ import {buildDetailedHome} from '../src/legacy/whole-model-detailed.mjs';
 import {assembleHome} from '../src/legacy/scene-options.mjs';
 let modelCases=0;
 for(const [n,design] of ['dusk','chinese','plum-gallery'].entries()){
- let life=recommendLifestyle(emptyLifestyle(design));assert.equal(life.collection,COLLECTIONS[n].id);
+ let life=recommendLifestyle(emptyLifestyle(design));assert.equal(life.collection,['collector','oriental','oriental'][n]);
  // Maximal valid per-room sets stress the new geometry; conflicts sanitize deterministically.
  for(const room of Object.keys(life.rooms))life.rooms[room]=LIFE_ITEMS.filter(i=>i.rooms.includes(room)).map(i=>i.id);
  life=normalizeLifestyle(life,design);assert(!life.rooms.living.includes('artwork'));assert(life.rooms.living.includes('art-tv'));

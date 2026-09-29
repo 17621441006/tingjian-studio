@@ -1,3 +1,4 @@
+import {MINERAL_IDS,mineralAsset} from './mineral-homes.mjs';
 import {WOOD_HOMES,designMedia} from './wood-homes.mjs';
 import {REFERENCE_HOMES} from './reference-homes.mjs';
 import {GRAPHITE_HOME,REFRESHED_ROOMS,applyRoomRefresh} from './room-refresh.mjs';
@@ -38,5 +39,5 @@ export const HOMES={
  ...HOTEL_HOMES, ...REFERENCE_HOMES,graphite:GRAPHITE_HOME,...WOOD_HOMES
 };
 applyRoomRefresh(HOMES);
-export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');if(WOOD_HOMES[design])return designMedia(design+'/'+room+(thumb?'-thumb':'')+'.webp');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
+export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');if(MINERAL_IDS.includes(design))return mineralAsset(design,room,thumb);if(WOOD_HOMES[design])return designMedia(design+'/'+room+(thumb?'-thumb':'')+'.webp');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
 export function resolveHomeState(design='dusk',room='living'){return {design:HOMES[design]?design:'dusk',room:ROOMS.some(x=>x.id===room)?room:'living'};}
