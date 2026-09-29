@@ -9,7 +9,7 @@ export const SCENE_OBJECTS=[
 ];
 export const OBJECT_NAMES={decor:'墙面装饰',sofa:'沙发',rug:'地毯',cabinet:'柜体',table:'茶几 / 边几',diningSet:'餐桌与餐椅',displayShelf:'展示架',tv:'电视',plant:'绿植与花器',lamp:'灯具',bed:'床与床品',wardrobe:'衣柜',desk:'书桌 / 梳妆台',chair:'座椅',curtain:'窗帘',vanity:'浴室台盆柜',toilet:'坐便器',shower:'淋浴屏风',laundry:'洗烘设备',mirror:'镜面',partition:'装饰隔断'};
 export const roomScope=room=>['living','dining'].includes(room)?'social':room;
-export const supportsSceneObjects=s=>Boolean(SCENE_EDIT_ASSETS[s?.design]?.[s?.room])||(s?.design==='copper'&&['living','dining'].includes(s.room));
+export const supportsSceneObjects=s=>s.layout!=='replan'&&(Boolean(SCENE_EDIT_ASSETS[s?.design]?.[s?.room])||(s?.design==='copper'&&['living','dining'].includes(s.room)));
 export function sceneObjectIds(s){const ids=Object.keys(SCENE_EDIT_ASSETS[s.design]?.[s.room]?.objects||{});return s.design==='copper'&&['living','dining'].includes(s.room)?[...new Set([...SCENE_OBJECTS.map(o=>o.id),...ids])]:ids;}
 export const supportsOriginalEdits=s=>(!s.layout||s.layout==='original')&&(!s.variant||s.variant==='original');
 export function normalizeRemoved(value){const ids=new Set(Array.isArray(value)?value:[]);return Object.keys(OBJECT_NAMES).filter(id=>ids.has(id));}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "schemes": 16,
+  "changedSchemes": 8,
+  "replannedRooms": 24,
+  "newHomeViews": 9,
+  "nativeResolution": [
+    1536,
+    1024
+  ],
+  "historyArchive": "archive/history-v36",
+  "browserVisualTested": false,
+  "scope": "Authored concept photographs; structural boundaries and clearances require site measurement."
+}

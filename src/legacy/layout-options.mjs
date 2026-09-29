@@ -1,6 +1,7 @@
+import {hasReplan,replanInfo,replanAsset} from './layout-v37.mjs';
 import {HOMES,homeAsset} from './home-designs.mjs';
 
-export const LAYOUT_ROOMS=[{id:'living',name:'客餐厅'},{id:'master',name:'主卧'},{id:'balcony',name:'景观阳台'}];
+export const LAYOUT_ROOMS=[{id:'living',name:'客餐厅'},{id:'master',name:'主卧'},{id:'second',name:'次卧'},{id:'kitchen',name:'厨房'},{id:'balcony',name:'景观阳台'}];
 export const LIGHT_SCENES=[
  {id:'daylight',name:'日光 · 不开灯',hint:'只看自然采光'},
  {id:'daywarm',name:'日光 · 暖灯',hint:'白天补一点温暖'},
@@ -24,11 +25,12 @@ export const DUSK_LAYOUTS={
   {id:'glazing',name:'整面窗景',short:'无横档主玻璃 · 侧边通风扇',title:'先比较通透感，再判断能不能实施',copy:'主观景面用没有中间横档的大面固定玻璃，窄开启扇留在侧边。保留窗侧与上方梁，轻量茶台把中央地面留出来。生活阳台继续采用可开启窗通风。',benefit:'看景和地面活动空间更开阔，茶台不用时可以收起。',tradeoff:'仅用于视觉比较。窗下部是否可改、外立面与防护要求均未核实，不能据图拆改。',checks:['查原始结构图并由专业人员核验窗下构造','确认物业及相关改造条件','专项核对玻璃、防护、排水、防水与热工性能'],items:[['外窗','方案待核验，不直接列采购型号'],['茶台','可收起墙面桌板，承托需深化'],['坐席','轻便活动椅，保留中间地面']]}
  ]
 };
-export function layoutsFor(design,room){
+function originalLayoutsFor(design,room){
  if(!DUSK_LAYOUTS[room])return [{...DUSK_LAYOUTS.living[0],name:'本空间原方案',short:'保留这套风格',title:HOMES[design].rooms[room].title,copy:HOMES[design].rooms[room].copy,items:HOMES[design].rooms[room].materials}];
  const found=DUSK_LAYOUTS[room];
  return design==='dusk'?found:[{...found[0],name:'现有布局',short:'保留本套风格原排布',title:'先保留这套风格的空间关系',copy:'这一套先保留现有排布；新增的布局与五种光线对照目前在暮色私邸中。可以继续查看本套清单，也可以返回风格页选择暮色私邸试布局。',benefit:'所选风格、原有房间效果与选购参考继续保留。',tradeoff:'本套的新排布与灯光组合尚未开放，可先整理喜欢的单品与材料。',items:HOMES[design].rooms[room].materials,checks:['复尺家具外轮廓和通道','核对门扇、窗扇和柜门开启','结合实际采光进行材料看样']}];
 }
+export function layoutsFor(design,room){const original=originalLayoutsFor(design,room);return hasReplan(design,room)?[...original,replanInfo(design,room)]:original;}
 export function resolveLayoutState(s={}){
  const design=HOMES[s.design]?s.design:'dusk',room=LAYOUT_ROOMS.some(r=>r.id===s.room)?s.room:'living';
  const layout=layoutsFor(design,room).some(l=>l.id===s.layout)?s.layout:'original';
@@ -38,7 +40,7 @@ export function resolveLayoutState(s={}){
 export function layoutInfo(s){return layoutsFor(s.design,s.room).find(l=>l.id===s.layout)||layoutsFor(s.design,s.room)[0];}
 export function layoutAsset(value,thumb=false){
  const s=resolveLayoutState(value),suffix=thumb?'-thumb':'';
- if(s.design!=='dusk')return homeAsset(s.design,s.room,thumb);
+ if(s.layout==='replan')return replanAsset(s.design,s.room,thumb);if(s.design!=='dusk')return homeAsset(s.design,s.room,thumb);
  if(s.room==='balcony'&&s.layout==='glazing')return `/tour/home-assets/dusk/windows/balcony-clear${suffix}.jpg`;
  if(s.room==='living'){
   const sofa=value.sofa==='wine'?'wine':'cognac';

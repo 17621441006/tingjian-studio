@@ -1,3 +1,4 @@
+import {V37_FLOORS} from './floor-v37.mjs';
 import {MINERAL_FLOOR_REGIONS} from './mineral-floor-regions.mjs';
 import {loadMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {WOOD_FLOOR_REGIONS} from './wood-floor-regions.mjs';
@@ -32,6 +33,7 @@ const duskPieces={areas:[px([0,1024],[0,955],[275,792],[279,765],[319,742],[319,
  px([983,508],[1536,508],[1536,941],[1250,941],[991,696])
 ]};
 export function floorRegions(scene,path=''){
+ if(scene.layout==='replan'||scene.design==='pine-library')return V37_FLOORS[scene.design]?.[scene.room]||{areas:[]};
  if(scene.design==='dusk'&&/\/(pieces|selections)\/living\//.test(path))return duskPieces;
  return MINERAL_FLOOR_REGIONS[scene.design]?.[scene.room]||WOOD_FLOOR_REGIONS[scene.design]?.[scene.room]||sets[scene.design]?.[scene.room]||common[scene.room]||common.living;
 }

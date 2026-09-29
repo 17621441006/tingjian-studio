@@ -30,7 +30,7 @@
     "Off remains off on theme change",
     "Volume clamp",
     "Autoplay rejection and media error handled",
-    "Retired assets absent; lab and current VR retained"
+    "Retired assets and historical lab absent; current VR retained"
   ],
   "browserAudioAudition": false
 }

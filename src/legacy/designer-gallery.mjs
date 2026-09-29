@@ -1,5 +1,5 @@
 import {MINERAL_IDS} from './mineral-homes.mjs';
-import {FINAL_DESIGNS,finalAsset,collectionAsset,FINAL_ROOM_NOTES} from './final-assets.mjs';
+import {FINAL_DESIGNS,finalAsset,collectionAsset,FINAL_ROOM_NOTES,finalRoomNote} from './final-assets.mjs';
 import {COLLECTIONS,LIFE_ROOM_NAMES} from './lifestyle-data.mjs';
 import {HOMES,homeAsset} from './home-designs.mjs';
 import {loadMediaImage,resolvedMediaURL,setMediaImage} from './media-loader.mjs';
@@ -14,12 +14,12 @@ export function initDesignerGallery(root){
  const btn=(text,key,value,fn,active)=>{const b=make('button',text);b.type='button';b.dataset[key]=value;b.setAttribute('aria-pressed',String(active));b.addEventListener('click',fn);return b;};
  const title=()=>collection==='base'?HOMES[design].name+' · 原方案':collection==='final'?HOMES[design].name+' · 完整搭配':COLLECTIONS.find(c=>c.id===collection).name;
  async function load(){const id=++job,f=designerFrames(collection,design).find(f=>f.id===room),label=title()+' · '+f.name;const image=$('[data-designer-image]');image.hidden=true;$('[data-designer-loading]').hidden=false;$('[data-designer-loading]').textContent='正在载入'+f.name+'…';$('[data-designer-error]').hidden=true;$('[data-designer-large]').disabled=true;$('[data-designer-save]').hidden=true;
-  $('[data-designer-room-title]').textContent=label;$('[data-designer-room-note]').textContent=collection==='base'?'原方案留存对照；修正后的布置请查看最终效果或延伸搭配。':FINAL_ROOM_NOTES[room];
+  $('[data-designer-room-title]').textContent=label;$('[data-designer-room-note]').textContent=collection==='base'?'原方案留存对照；修正后的布置请查看最终效果或延伸搭配。':collection==='final'?finalRoomNote(design,room):FINAL_ROOM_NOTES[room];
   try{const im=await loadMediaImage(f.path);if(id!==job)return;image.src=im.loadedURL||resolvedMediaURL(f.path);image.alt=label;image.hidden=false;$('[data-designer-large]').disabled=false;$('[data-designer-save]').href=image.src;$('[data-designer-save]').download=label+'.webp';$('[data-designer-save]').hidden=false;}
   catch(e){if(id===job){$('[data-designer-error]').hidden=false;$('[data-designer-error-copy]').textContent='这张图暂未载入，可以重试或切换其他房间。';}}
   finally{if(id===job)$('[data-designer-loading]').hidden=true;}
  }
- function render(nextDesign,nextCollection){if(!nextDesign)return;if(design!==nextDesign){design=nextDesign;collection=FINAL_DESIGNS.includes(design)?'final':'base';room='living';}lastInput=nextCollection;const tabs=$('[data-designer-collections]');tabs.replaceChildren();for(const c of [...(FINAL_DESIGNS.includes(design)?[{id:'final',name:HOMES[design].name+' · 最终效果'}]:[]),...(MINERAL_IDS.includes(design)?[]:[{id:'base',name:'原方案对照'}]),...COLLECTIONS])tabs.append(btn(c.name,'designerCollection',c.id,()=>{collection=c.id;room='living';render(design,lastInput);},collection===c.id));
+ function render(nextDesign,nextCollection){if(!nextDesign)return;if(design!==nextDesign){design=nextDesign;collection=FINAL_DESIGNS.includes(design)?'final':'base';room='living';}lastInput=nextCollection;const tabs=$('[data-designer-collections]');tabs.replaceChildren();for(const c of [...(FINAL_DESIGNS.includes(design)?[{id:'final',name:HOMES[design].name+' · 最终效果'}]:[]),...((MINERAL_IDS.includes(design)||design==='pine-library')?[]:[{id:'base',name:'原方案对照'}]),...COLLECTIONS])tabs.append(btn(c.name,'designerCollection',c.id,()=>{collection=c.id;room='living';render(design,lastInput);},collection===c.id));
   $('[data-designer-title]').textContent=title()+' · 八个空间';const rooms=$('[data-designer-rooms]');rooms.replaceChildren();for(const f of designerFrames(collection,design)){const b=btn('','designerRoom',f.id,()=>{room=f.id;render(design,lastInput);},room===f.id),im=make('img');setMediaImage(im,f.thumb);im.alt='';im.width=240;im.height=160;im.loading='lazy';b.append(im,make('span',f.name));rooms.append(b);}load();
  }
  $('[data-designer-retry]').addEventListener('click',load);

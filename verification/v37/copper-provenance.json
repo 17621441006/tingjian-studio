@@ -1,0 +1,81 @@
+{
+  "scheme": "copper",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "precise-object-edit",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "assets": [
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Edit target/reference: supplied copper master bedroom photograph. Create native 1536x1024 landscape photorealistic alternative furniture organization, same 13.5sqm room, EXACT unchanged walls, ceiling, windows, camera, outdoor view and muted green textured stone / bronze / walnut palette. This is a real furniture redesign not recoloring. Reduce bed to 1.5m width low storage bed on same headwall, shift bed further toward far corner window away from entry so entry aisle is visibly wider. Keep textiles tucked enough to reveal green/walnut storage base. Show ONE foot storage drawer pulled slightly open with neatly folded linen. Replace the near-left entry-side shallow cabinet with full-height wardrobe joinery along entry wall, integrated recessed dressing niche at seated height with small stool tucked within it. No giant dressing island, no blocked doors, no enlargement of room/windows, no new walls, no text or watermark. Preserve original photographic craftsmanship, natural light and localized bronze glow.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/copper/master.webp",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-7d46f4e6-7e32-4bdd-8103-7f050bd3bd5b.png",
+      "qa": "PASS: reduced visible bed footprint; one base drawer open; full-height entry wardrobe with seated dressing recess replaces shallow cabinet. Windows and headwall retained.",
+      "reference_sha256": "e183f871c0c3a014e88a7894ffec151a0dfd12b669507ef605745bac27b0b206",
+      "generated_source_sha256": "129e34ba632d14b941357fe9d59c8593444b57b55bf8e03754330710d18eea2c",
+      "outputs": {
+        ".png": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/master.png",
+          "sha256": "53d250c5360fb6b8ede6882b5c1941f8348eb1906d74496ad01f759618b0ad7b"
+        },
+        ".webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/master.webp",
+          "sha256": "5596ed82661ef3656bad995f840298b2e7fdbd4cb820fe5048df0f958bcd2065"
+        },
+        "-thumb.webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/master-thumb.webp",
+          "sha256": "2176579a2a86bce424a775250995bd7190a4b3101699d1488bc64733941f1c87"
+        }
+      }
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Supplied image is copper second bedroom edit target and camera/geometry/palette reference. Output native 1536x1024 landscape interior photo. Redesign ACTUAL furniture organization of same tiny 7.2sqm rectangular room. Keep exact doorway, far window size/location, straight walls, ceiling height, outdoor view, muted green cabinetry, bronze accents, warm walnut floor. Remove current right bed and full-size window desk. LEFTwall gets a CLOSED single Murphy folding bed, walnut/olive folded front with visible lower pivot hinges, retaining hardware and inset pull handle; buildable 1m single bed unit folded upright against left wall. RIGHTwall gets deep reading BENCH, distinctly seat height and only about 55cm deep, cushions and books in underseat cubbies plus closed drawers. Thin worktable under far window with stool tucked. Clear unobstructed central bed deployment aisle. Only one small bench drawer slightly open. Avoid any unfolded bed, double bed, giant furniture, new walls, blocked doorway, bigger window, unreal furniture intersections. Faithful photographic craftsmanship and warm daylight; no text, UI, watermark.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/copper/second.webp",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e9c45b12-b20c-40f5-b114-e87a154e8577.png",
+      "qa": "PASS: baseline open right bed replaced with right reading bench and left closed Murphy bed; lower pivot hardware visible, clear central floor and slim window desk. One bench drawer open.",
+      "reference_sha256": "14cdb828c662ebef6238e13dffdcbd6e19d465eac4ca40154b870c5536e0c007",
+      "generated_source_sha256": "82c4830c87982a518f51d79eac53a93e11b80f74b170c0a51a2ea62e6755af24",
+      "outputs": {
+        ".png": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/second.png",
+          "sha256": "f65f9cde22254795625d8dbf46d741440fa28eb627cb12531192747df1a1b037"
+        },
+        ".webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/second.webp",
+          "sha256": "32dc34ab8d695a164d4702f54192aa4b6f25b761f824b316c3ea3df2fde6b148"
+        },
+        "-thumb.webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/second-thumb.webp",
+          "sha256": "51908978cd4cf02d400106247b067d89bfc70fa606fb43f54bdd5e045e937da6"
+        }
+      }
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Edit supplied copper kitchen reference. Native 1536x1024 landscape photorealistic photo, same camera doorway view, exact fixed far window/walls/ceiling and 6.6sqm independent kitchen. Preserve muted green stone fronts and textured backsplash, bronze details, walnut and warm pale countertop palette. Physically reorganize cabinetry into ASYMMETRICAL U: existing RIGHT normal-depth stove and preparation counter remains beside existing right duct; far-window sink remains. LEFT side beyond near-entry tall pantry becomes a clearly SHALLOW 30cm deep breakfast/appliance shelf at counter height, open beneath with slender support, NO deep lower cabinets. Short near-entry full-height pantry/fridge zone, with ONE slim vertical pantry pullout slightly extended showing organized bottles. Left shallow shelf must be visibly shallower than right run and clear more center floor than baseline; remove baseline long tall bank extending almost to window. Show simple small appliance on left shelf. Keep all other cabinets closed. No island, no dining room, no enlarged space/window, no invented wall, no furniture intersections, no text/UI/watermark. Impeccable crafted real residential proportions.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/copper/kitchen.webp",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-09a8ae78-ee7f-4e60-8be7-f6b8e43cdedf.png",
+      "qa": "PASS: former long left tall bank now shallow open-under shelf beyond entry pantry; one vertical pantry pullout shown; right stove/far sink retained; genuine asymmetrical U.",
+      "reference_sha256": "3f8857e380a704c13e409802395b10077abf6f05ef62fdc1d79f4480719e20e7",
+      "generated_source_sha256": "b3e4cadc1ddbbdd3e024267c840a3e312befaffebec5137ebd8f826b71e59667",
+      "outputs": {
+        ".png": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/kitchen.png",
+          "sha256": "344113d6ea817ec54e5fee4cb8be37954f7ae75fb4c14637cd27331a2c1151ee"
+        },
+        ".webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/kitchen.webp",
+          "sha256": "8a5af5c30ff0f2a7558c3f09d0f56bb5291877d099669a50e2d7f807b8dcf2f4"
+        },
+        "-thumb.webp": {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/copper/kitchen-thumb.webp",
+          "sha256": "3269837111d8ec0c6fa2ef62deb7d63bdbacd68169eea8aa4fc9f0aaba8547f7"
+        }
+      }
+    }
+  ],
+  "qa_method": "Each baseline and generated full-size image visually inspected; native size and all derivative full decodes checked. Visual dimensions are concept approximations, not construction measurements."
+}

@@ -1,0 +1,123 @@
+{
+  "version": "v37",
+  "tool": "built-in image_gen",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "derivatives": "Full decode then atomic PNG copy, quality90 WEBP, 480x320 thumbnail",
+  "qa_method": "Visual comparison of each baseline and generated full-size image; cabinet/furniture organization reviewed",
+  "assets": [
+    {
+      "scheme": "edition-oak",
+      "room": "master",
+      "detail": "13.5sqm master. Make bed strictly 1.5m wide and offset to WINDOW-side portion of existing right-hand head wall. Remove both bulky bedside tables. Create continuous slim oak bedside shelf with lower shallow drawers along head wall, extending on NEAR/CAMERA side into a compact dressing DESK with clear knee space and small stool tucked in. Show one shallow drawer slightly open. Entry-side fullheight sliding oak wardrobe, no mirrors. Visibly alter bed/storage organization; retain exact room and windows.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/edition-oak/master.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference oak/linen/light warm stone palette and natural oak floor, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 13.5sqm master. Make bed strictly 1.5m wide and offset to WINDOW-side portion of existing right-hand head wall. Remove both bulky bedside tables. Create continuous slim oak bedside shelf with lower shallow drawers along head wall, extending on NEAR/CAMERA side into a compact dressing DESK with clear knee space and small stool tucked in. Show one shallow drawer slightly open. Entry-side fullheight sliding oak wardrobe, no mirrors. Visibly alter bed/storage organization; retain exact room and windows. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-809b3009-7bc3-46bc-a2b3-3588f41c7e26.png",
+      "qa": "Pass: narrower bed offset windowward; continuous oak shelf/drawers extends to near-side dressing desk with knee space and stool; one shallow drawer open; original architecture. Entry wardrobe retained oak; sliding construction not conclusively distinguishable in image.",
+      "reference_sha256": "d994f9808670e588317bd8f06ff8473a6675c0f248fc2afeac16e4d9ac7924f7",
+      "source_sha256": "3b2384d0c5dbe15e8377b4317bc5ca1d95b7043abbab381e33d40a44447214b6",
+      "outputs": {
+        "master.png": {
+          "sha256": "3b2384d0c5dbe15e8377b4317bc5ca1d95b7043abbab381e33d40a44447214b6",
+          "bytes": 2327906,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master.webp": {
+          "sha256": "ce1f362846201967e04c610b603432bb5eae6f81c6a640315c9915a18eaf57dd",
+          "bytes": 227510,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master-thumb.webp": {
+          "sha256": "7fb8aa302b5b5e5153755ff1fdfaf9050ad6243c0015d130ec5f6b9c64356503",
+          "bytes": 29402,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "scheme": "edition-oak",
+      "room": "second",
+      "detail": "7.2sqm second room becomes TWO-PERSON DAY STUDY. REMOVE visible bed entirely. Install a CLOSED VERTICAL SINGLE WALLBED on LEFT side wall, a constructible 1m-wide folded single-bed cabinet with clearly visible folding support foot/handle, pivot hinges and small tension straps beside panel. Bed deployment zone in room CENTER remains absolutely clear. RIGHT wall has only a LOW SHALLOW storage bench with linen cushion, 35cm depth, one underbench drawer slightly open, no tall cabinetry. Long THIN two-person desk runs under fixed far window, two small stools tucked fully under it. Make functional small room with empty center floor; no visible mattress.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/edition-oak/second.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference oak/linen/light warm stone palette and natural oak floor, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 7.2sqm second room becomes TWO-PERSON DAY STUDY. REMOVE visible bed entirely. Install a CLOSED VERTICAL SINGLE WALLBED on LEFT side wall, a constructible 1m-wide folded single-bed cabinet with clearly visible folding support foot/handle, pivot hinges and small tension straps beside panel. Bed deployment zone in room CENTER remains absolutely clear. RIGHT wall has only a LOW SHALLOW storage bench with linen cushion, 35cm depth, one underbench drawer slightly open, no tall cabinetry. Long THIN two-person desk runs under fixed far window, two small stools tucked fully under it. Make functional small room with empty center floor; no visible mattress. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-05b1fadd-64a4-40db-9fe3-7ce0b8cd5f05.png",
+      "qa": "Pass: closed single wallbed left with visible handle/foot and hardware; two stools at thin far-window desk; shallow right bench; central floor clear. One bench drawer open. Conceptual mechanism requires detailed joinery design.",
+      "reference_sha256": "22e79f50c3c65ab75a1288b11ac2820b083584788f10c76e5a0728fd36c9bffe",
+      "source_sha256": "31676cae8e03f0892b199af83f6f63e9499730753b9a94845a4637dad9da9d80",
+      "outputs": {
+        "second.png": {
+          "sha256": "31676cae8e03f0892b199af83f6f63e9499730753b9a94845a4637dad9da9d80",
+          "bytes": 2223196,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second.webp": {
+          "sha256": "f45a64d70ea3818e994fab673a91d67be801278e63e49bdbf6120d24eaf821dd",
+          "bytes": 201138,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second-thumb.webp": {
+          "sha256": "2dc77c15897accc70838fb93d236792c22d8edde7f8b5e3af31ea4b52209710c",
+          "bytes": 29006,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "scheme": "edition-oak",
+      "room": "kitchen",
+      "detail": "6.6sqm independent kitchen. Change U to L with far-window sink counter + RIGHT cooking run. REMOVE continuous LEFT base counter and appliance tower except compact entry-side tall fridge. LEFT wall now has a removable slim oak serving CART with visible casters, and shallow wall-mounted pantry above/behind it, visibly open floor below. At near END of right counter show one slim RETRACTABLE PULLOUT WORKTOP extended about 25cm into aisle, with visible telescopic support/rails, useful temporary preparation board; all other drawers closed. Keep clear passage, no island.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/edition-oak/kitchen.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference oak/linen/light warm stone palette and natural oak floor, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 6.6sqm independent kitchen. Change U to L with far-window sink counter + RIGHT cooking run. REMOVE continuous LEFT base counter and appliance tower except compact entry-side tall fridge. LEFT wall now has a removable slim oak serving CART with visible casters, and shallow wall-mounted pantry above/behind it, visibly open floor below. At near END of right counter show one slim RETRACTABLE PULLOUT WORKTOP extended about 25cm into aisle, with visible telescopic support/rails, useful temporary preparation board; all other drawers closed. Keep clear passage, no island. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-52b55d94-ffc6-4233-afbe-010d590d98a0.png",
+      "qa": "Pass: L counter with sink at far window and right cooking; left cart has casters, wall storage shelves and fridge near entry; extended pullout worktop has telescopic rails and support; no other drawer open.",
+      "reference_sha256": "4853613092ce8fccf4c33bd3d650fb7544b73ca8636deeeea1b3c888ebe64900",
+      "source_sha256": "a16c2d5ad39b98fa6a58e23360fd04fc5b3fafd8a965bbd17909cde38e48453a",
+      "outputs": {
+        "kitchen.png": {
+          "sha256": "a16c2d5ad39b98fa6a58e23360fd04fc5b3fafd8a965bbd17909cde38e48453a",
+          "bytes": 2132614,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen.webp": {
+          "sha256": "50ac8530033643995f0764cc78af462a1693718f0530af2747f072c799dfc55a",
+          "bytes": 190468,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen-thumb.webp": {
+          "sha256": "88cf668970646e8893030c976503bdae23ba87ae0b0e97b99713d0e22fd20a1d",
+          "bytes": 28284,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    }
+  ]
+}

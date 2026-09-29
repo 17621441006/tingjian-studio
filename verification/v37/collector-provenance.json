@@ -1,0 +1,122 @@
+{
+  "scheme": "collector",
+  "tool": "built-in image_gen.imagegen",
+  "native_size": [
+    1536,
+    1024
+  ],
+  "images": [
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Native 1536x1024 architectural photograph. Edit target fixes exact 13.5sqm bedroom camera/architecture/windows/door/AC/ceiling and rich art-collector palette: dark walnut, burgundy brown leather, warm stone plaster, bronze and cream. Preserve every opening and room dimensions. Visibly REORGANIZE bedroom joinery: a compact 1.5m wide low walnut bed on same bedhead wall with burgundy leather head panel INSET into shallow LIBRARY JOINERY. Replace broad plain bedhead and central painting with shallow book-filled walnut shelves and recessed reading niches framing bed, books and small art ceramics, built to stop short of existing right window and not obstruct it. Recessed reading niches at pillow height with small warm lamps. Replace near-right nightstand with small WRITING LEDGE extending along bedhead wall, slim stool tucked beneath without blocking circulation. Concentrate tall sliding-front wardrobe on LEFT ENTRY wall, replacing short dresser there; do not move or hide existing AC. Keep all bay/far/right windows and their sills unchanged, preserve restrained daylight and warm local lamps. One small writing-ledge drawer slightly open, all other storage closed. Library bedhead, entry wardrobe, writing ledge must be distinct real furniture organization, not merely recoloring. No enormous bed, no wall demolition, new opening, text, UI, watermark.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/collector/master.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-1ebde15f-1589-4c5d-97ce-05dca40413da.png",
+      "qa": "Visually inspected. Shallow library bedhead with reading niches, right writing ledge, left entry wardrobe. Original windows retained. One writing drawer open.",
+      "source_sha256": "5d8eb671dc5129dad0f7b218ac96150ea42bee13eb999b0f92694e83e6b20985",
+      "reference_sha256": "9e9e597e18d538ce7d4c5e237ae053473601f721540a86ff48f798e0e81c9fcc",
+      "outputs": {
+        "master.png": {
+          "sha256": "5d8eb671dc5129dad0f7b218ac96150ea42bee13eb999b0f92694e83e6b20985",
+          "bytes": 2552297,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master.webp": {
+          "sha256": "746d8c64d5b146fe6168c9618997babb8ef26e53cde4d55d4bf7271f24ee3f09",
+          "bytes": 280598,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master-thumb.webp": {
+          "sha256": "50a61d8a6f0a62612caac4ec6fc61599fb874b37e13a2559836a81849abc51a4",
+          "bytes": 34836,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 photoreal interior edit of provided reference. Preserve EXACT 7.2sqm small room architecture, camera at doorway, walls and far black-framed window and its opening dimensions. Preserve dark walnut, brown-burgundy leather accents, warm neutral walls and rich art-collector style. Entire furniture layout MUST CHANGE: remove current RIGHT bed completely, remove far-window desk completely. Place compact longitudinal SOFABED against LEFT wall, in DAY SEAT MODE with back cushions along left wall, narrow 75cm seat depth and about1.95m length along wall, folded single mattress mechanism concealed; foot/near end toward doorway and longaxis pointing toward window. Beautiful textured taupe seat and two burgundy cushions, woodbase UNDERSEAT DRAWERS visible, ONE drawer pulled slightly open 10cm. On RIGHT wall, install a slim FOLD-DOWN WRITING DESK shown lowered horizontally at working height, obvious hinges and paired folding brackets, surrounded by shallow narrow walnut bookshelves filled with books. Small slim stool tucked below desk. Remove old large upper cabinets so the room is a compact library guestroom. Keep far window wall completely clear below sill and keep a clear center aisle. Sofa must unmistakably be a left-wall daytime sofa, not a right bed or crosswise bed; do not enlarge room or window. Exact reference woodfloor, door and residential scale. No text, watermark, UI or new walls.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/collector/second.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-07bf66d2-131f-4c1a-8dd6-8edeed688e6e.png",
+      "qa": "Visually inspected. Left longitudinal sofa in day seating mode, underseat drawers, right bracketed fold-down writing desk surrounded by bookshelves; far window wall cleared. One drawer open.",
+      "source_sha256": "0fe800367904c414e2d75dd5aa88518d6d1267d34d67e8505c8e5d18aabf94ba",
+      "reference_sha256": "14649036740dfcb13bf71a8b94db8b63a0b1ba564d8d4c6d6a27540ae7969060",
+      "outputs": {
+        "second.png": {
+          "sha256": "0fe800367904c414e2d75dd5aa88518d6d1267d34d67e8505c8e5d18aabf94ba",
+          "bytes": 2534790,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second.webp": {
+          "sha256": "38a5468eb7054c8641900f33c134bdda3db39ef02c12b57aea4efb127c28e1d4",
+          "bytes": 301126,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second-thumb.webp": {
+          "sha256": "9247a111c44e511f58e77ff6b35e6a2af6c3225714433aadb5beef576be2f842",
+          "bytes": 38732,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 photorealistic kitchen interior edit. Input target fixes architecture, camera, exact 6.6sqm independent compact kitchen, walls, door, ceiling, far window and material palette. Preserve rich dark walnut cabinetry, warm dramatic gray-beige stone with veins, bronze hardware and natural daylight. Visibly revise organization from U to L kitchen: far-window sink run plus RIGHT cooking/worktop run connected L. Hob/hood stay right near existing duct; sink remains below existing far window. REMOVE LEFT base/worktop run: instead make LEFT entry a fullheight dark walnut PANTRY/FRIDGE BANK with closed flat doors, ending before far window, no low left counter or U bridge. On RIGHT rear portion of worktop between sink and hob add a realistic RECESSED APPLIANCE GARAGE about70cm wide with lifted tambour/shutter door visibly OPEN, expose coffee machine and kettle inside, warm interior light. Show deep pot-storage drawer FRONT divisions below right hob, all drawers CLOSED because appliance garage is the one open storage door. Do not add countertop appliances outside garage, keep cooking safe, room cramped residential scale and clear usable center aisle. Preserve exact fixed window dimensions, no island, no new wall, no expansion, no new openings, no text/UI/watermark. Architectural craftsmanship detail, credible cabinetry construction.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/collector/kitchen.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e213601f-5f87-4adf-ade8-bbb3eeb3065a.png",
+      "qa": "Visually inspected. Left full-height pantry bank replaces base run, L window/right counter, right open tambour appliance garage, deep closed pot drawer fronts. Window/sink/hob preserved.",
+      "source_sha256": "a2576606f5e72801786c53c320135caf497f09f962c4de532ce2b0ea48d377e5",
+      "reference_sha256": "2292aa04531b638017ca3b4d20a1c1b9a6c84c1826eb56022e15707e832a7d00",
+      "outputs": {
+        "kitchen.png": {
+          "sha256": "a2576606f5e72801786c53c320135caf497f09f962c4de532ce2b0ea48d377e5",
+          "bytes": 2058032,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen.webp": {
+          "sha256": "9e9d434a82a1b0de4f7131c363624daf30defe86208820805a1d2766d9cf2aec",
+          "bytes": 181918,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen-thumb.webp": {
+          "sha256": "9903132d5a5fca7ee39c191185fcfdd77e63f77d1a1812dcb8c9171576e306fe",
+          "bytes": 27202,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    }
+  ],
+  "contactsheet": {
+    "file": "contactsheet.jpg",
+    "sha256": "2195c686fe388b2ea05ff4b6663dcd2b870d8f137772e126ef75b4fa405ab3c9"
+  }
+}

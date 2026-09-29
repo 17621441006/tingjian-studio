@@ -79,13 +79,13 @@ export function initDesignJourney(root,gallery){
   const list=$('[data-layout-options]');list.replaceChildren();
   for(const l of layoutsFor(current.design,current.room)){
    const candidate=resolveScene({...current,layout:l.id}),available=sceneAvailable(candidate),b=makeButton('','layoutChoice',l.id,()=>choose({...intended,layout:l.id}));b.disabled=!available;b.title=available?l.title:sceneNote(candidate);b.setAttribute('aria-pressed',String(current.layout===l.id));
-   const im=document.createElement('img');im.src=sceneAsset(available?candidate:resolveScene({...candidate,pieces:defaultPieces(),mode:'pieces',variant:'original',window:'original'}),true);im.alt='';im.width=480;im.height=320;im.loading='lazy';im.decoding='async';
+   const im=document.createElement('img');setMediaImage(im,sceneAsset(available?candidate:resolveScene({...candidate,pieces:defaultPieces(),mode:'pieces',variant:'original',window:'original'}),true));im.alt='';im.width=480;im.height=320;im.loading='lazy';im.decoding='async';
    const labels=document.createElement('span'),strong=document.createElement('strong'),small=document.createElement('small');strong.textContent=l.name;small.textContent=available?l.short:'当前单品组合尚未成图';labels.append(strong,small);b.append(im,labels);list.append(b);
   }
   const lights=$('[data-layout-lights]');lights.replaceChildren();const full=current.design==='dusk'&&current.room==='living';
   for(const l of LIGHT_SCENES.filter(x=>full||x.id==='daywarm')){const candidate={...current,light:l.id},b=makeButton('','layoutLight',l.id,()=>choose({...intended,light:l.id}));b.disabled=!sceneAvailable(candidate);b.title=b.disabled?sceneNote(candidate):l.hint;b.setAttribute('aria-pressed',String(current.light===l.id));const strong=document.createElement('strong'),small=document.createElement('small');strong.textContent=l.name;small.textContent=b.disabled?'本组合待补充':l.hint;b.append(strong,small);lights.append(b);}
   $('[data-layout-light-hint]').textContent=full?'按当前搭配显示可用光线':'本区先比较排布';$('[data-layout-go-lights]').hidden=full||current.design!=='dusk';
-  $('[data-layout-scope]').textContent=current.design==='dusk'?'风格和单品已保留。布局、光线和窗景只显示已有对应效果的组合。':'已保留'+HOMES[current.design].name+'的当前搭配；本套先沿用原排布，新排布试验位于暮色私邸。';
+  $('[data-layout-scope]').textContent='前 8 套的主卧、次卧和厨房新增收纳布局；切换房间后选择「新布局」与原方案对照。最终效果页默认展示新布局。';
   $('[data-layout-availability]').textContent=sceneNote(current);
   const info=layoutInfo(current),path=sceneAsset(current);
   const layout_cameraReady=setFloorPhoto($('[data-layout-image]'),path,current,$('[data-layout-save]'));renderLivingViews($('[data-layout-camera]'),$('[data-layout-image]'),current,layout_cameraReady,()=>{setFloorPhoto($('[data-layout-image]'),path,current,$('[data-layout-save]'));},[$('[data-layout-save]')]);$('[data-layout-image]').alt=HOMES[current.design].name+' · '+roomName(current.room)+' · '+sceneLabel(current)+' · '+lightName(current.light)+'概念效果图';
@@ -94,7 +94,7 @@ export function initDesignJourney(root,gallery){
   $('[data-layout-save]').href=currentFloorPhoto(path,current);$('[data-layout-save]').download=HOMES[current.design].name+'-'+roomName(current.room)+'-'+info.name+'-'+lightName(current.light)+'.jpg';
   $('[data-layout-story-title]').textContent=info.title;$('[data-layout-story-copy]').textContent=info.copy;$('[data-layout-benefit]').textContent=info.benefit;$('[data-layout-tradeoff]').textContent=info.tradeoff;
   const checks=$('[data-layout-checks]');checks.replaceChildren();for(const check of info.checks){const li=document.createElement('li');li.textContent=check;checks.append(li);}
-  const windows=$('[data-window-options]');windows.replaceChildren();$('[data-window-section]').hidden=current.design!=='dusk'||current.room!=='master';
+  const windows=$('[data-window-options]');windows.replaceChildren();$('[data-window-section]').hidden=current.design!=='dusk'||current.room!=='master'||current.layout==='replan';
   for(const [id,name] of [['original','保留现有窗'],['clear','整面玻璃 · 侧边通风']]){const candidate={...current,window:id},b=makeButton(name,'windowChoice',id,()=>choose({...intended,window:id}));b.disabled=!sceneAvailable(candidate);b.title=b.disabled?sceneNote(candidate):name;b.setAttribute('aria-pressed',String(current.window===id));windows.append(b);}
   // A small, same-frame selector keeps the chosen colour in view while trying a layout.
   const tones=$('[data-layout-sofas]');tones.replaceChildren();$('[data-layout-sofa-section]').hidden=current.design!=='dusk'||current.room!=='living'||current.mode!=='pieces';

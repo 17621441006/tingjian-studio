@@ -1,0 +1,122 @@
+{
+  "scheme": "stone",
+  "tool": "built-in image_gen.imagegen",
+  "native_size": [
+    1536,
+    1024
+  ],
+  "images": [
+    {
+      "room": "master",
+      "prompt": "Use case: precise-object-edit. Create a photorealistic revised interior photo, native 1536x1024. Input is edit target and exact camera, architecture and palette reference for a 13.5 sqm compact master bedroom. Preserve existing walls, all windows and their exact sizes/positions, door, ceiling, AC, perspective and warm mineral plaster/taupe linen/medium weathered wood calm Zen material palette. Make a REAL furniture-layout alternative: replace bed with a low 1.5m-wide wood platform bed, bedding tucked to expose its low wood base, two storage drawers in the FOOT end facing camera, only ONE drawer pulled 20cm to show neatly divided bedding storage. Replace bulky nightstands with very slim wallhung bedside ledges. Group tall closed sliding-front wood wardrobe near left entry, replacing the small entry dresser; keep passage clear. Remove bench-like window decor and put ONE compact movable wood-frame linen reading chair beside existing far window, visibly independent on legs and with walking access. Preserve dimensions and exact windows; do not enlarge room. Clear usable foot and side aisles. Editorial architectural photography, realistic joins, drawers and materials. No text, UI, watermark, exaggerated wide angle, new walls or openings.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/stone/master.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-cdf4d454-aac8-4d12-9285-b32dcdfab1eb.png",
+      "qa": "Visually inspected. Foot drawer storage platform, slim wall ledges, freestanding reading chair at original bay, and entry wardrobe replace prior organization. Original openings/palette retained. One broad divided foot drawer open.",
+      "source_sha256": "f40d51223c713dc6e5f07a04ebf96bca4b4787bedfb092e06f28cacc1ea1f9d0",
+      "reference_sha256": "aa125e47f642105e37c6ecc229c6131e39d82ab94300d8ae66302d28a86a2531",
+      "outputs": {
+        "master.png": {
+          "sha256": "f40d51223c713dc6e5f07a04ebf96bca4b4787bedfb092e06f28cacc1ea1f9d0",
+          "bytes": 2522006,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master.webp": {
+          "sha256": "ed4a09cf5a09a33719179df2c1c32200e96209c6d71e3b26fe7d726f6e65a86d",
+          "bytes": 252102,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master-thumb.webp": {
+          "sha256": "4c49ed3223d650f7fe1343e2af32f06713388ad7209d489d54f72d4f7b89053f",
+          "bytes": 31120,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "room": "second",
+      "prompt": "Use case: precise-object-edit. Native 1536x1024 photographic interior edit. Input target is exact structure/camera/palette reference: tiny 7.2sqm single bedroom, same walls, door, unchanged far black-framed window, floor and warm weathered wood/taupe/stone Zen palette. REAL furniture reorganization required: remove the desk and chair from below the far window entirely, leaving its lower wall clear. On RIGHT wall install a LOW RAISED platform with a narrow 1m single mattress lengthwise along right wall, head at window end and foot toward doorway. Keep bedding tucked above the base to show storage drawer fronts facing center aisle, ONE drawer partly open with folded bedding. Remove the tall right foreground wardrobe so low platform furniture reads clearly. On LEFT side wall install a compact drop-leaf worktable perpendicular to left wall, clearly visible hinge and folding support brackets beneath, shown raised, with a small armless stool tucked underneath. Minimal shallow book ledge above. Narrow but usable center aisle to window. Preserve EXACT room size, architectural geometry and opening positions; no enlarging, no crosswise bed, no double mattress, no new wall, no big desk below window. Photographic craftsmanship and believable furniture dimensions. Warm natural daylight. No text, UI or watermark.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/stone/second.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-7405f9c4-8599-4783-9143-cea63ba77571.png",
+      "qa": "Visually inspected. Far window desk removed; left bracketed drop-leaf desk, low right longitudinal storage bed, tall right foreground wardrobe removed. Narrow center aisle and fixed window retained. One base drawer open.",
+      "source_sha256": "79cf53ee932ea024011d1aa39e60c21b18dd5d4fa28e1a4a965c8b94fb9533ba",
+      "reference_sha256": "01ab020b289823619cce2bb84cd1034e94e45f5ca4da597c38ad33a4d8db2159",
+      "outputs": {
+        "second.png": {
+          "sha256": "79cf53ee932ea024011d1aa39e60c21b18dd5d4fa28e1a4a965c8b94fb9533ba",
+          "bytes": 2349288,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second.webp": {
+          "sha256": "fc4f14d52a2dc963f336d80e0b034611730f127cc8af5e700217fb93be3e0aaa",
+          "bytes": 243894,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second-thumb.webp": {
+          "sha256": "9841f4f1cbd9bce6f8aac4cdfcd2a2cafdf1841744188b655e34a9d7b3cf22e0",
+          "bytes": 34796,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "room": "kitchen",
+      "prompt": "Use case: precise-object-edit. Native 1536x1024 architectural interior photograph. Input target fixes EXACT compact independent 6.6sqm kitchen architecture, doorway camera, walls, ceiling and far black framed window. Preserve mineral warm gray stone and weathered warm wood lower cabinets with matte light uppers, natural light and refined Zen character. CHANGE furniture layout materially from U into L: keep sink BELOW FAR WINDOW and cooking/hob/hood on RIGHT same duct zone; keep far and right full-depth worktops connected in L. DELETE the entire left-hand low cabinet/counter run and its oven tower; instead a single tall closed wood pantry at left NEAR ENTRY (fridge integrated) with a shorter bare stretch of left wall toward window. Put a simple black wallrail with two hanging pans on that bare left wall and a REMOVABLE narrow wood/metal cart below, on clearly visible wheels, only 30cm deep and separate from far counter. No continuous left counter, no U shape. On RIGHT lower cabinet show ONE deep drawer partly pulled open with clear kitchen utensil dividers. All other doors/drawers closed. Sink and stove accessible, center aisle clear. No island, no dining room, do not enlarge room or windows. Realistic materials and buildable storage, no furniture intersections, no text/UI/watermark.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/stone/kitchen.webp",
+      "reference_role": "edit target; fixed geometry/camera and palette",
+      "generated_source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6c520006-3b88-463d-a1aa-b0fe795ecea3.png",
+      "qa": "Visually inspected. Left base run removed to form L. Left pantry, hanging pan rail and independent wheeled cart; right divided drawer open. Fixed window, far sink and right hob retained.",
+      "source_sha256": "c595df0a77cd222cdc794898dca68141d75c4451bc04d54eef233b82cf02c153",
+      "reference_sha256": "b2a11678a8a04abb52ec798ab29f73d0c8e81084e81712619b6fee400e5db4fc",
+      "outputs": {
+        "kitchen.png": {
+          "sha256": "c595df0a77cd222cdc794898dca68141d75c4451bc04d54eef233b82cf02c153",
+          "bytes": 2172325,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen.webp": {
+          "sha256": "3418bddce607cad9ea0acd8747b047afc0422c5bd0ef7bf3d086b9b1b24b0f9c",
+          "bytes": 201774,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen-thumb.webp": {
+          "sha256": "a3a0c290abcfb9d422d2d2cca9d17df79b14f4d74a43bbc68cad25a3b076c65c",
+          "bytes": 30366,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    }
+  ],
+  "contactsheet": {
+    "file": "contactsheet.jpg",
+    "sha256": "2efea602513ec8df277d1ed9678fcc6ceb664bed4ff10be43f2da4e01659cfc2"
+  }
+}

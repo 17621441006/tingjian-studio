@@ -1,10 +1,10 @@
 import fs from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
-await fs.mkdir('dist/lab',{recursive:true});
-await build({entryPoints:['src/app.mjs'],bundle:true,minify:true,format:'esm',target:'es2022',outfile:'dist/app.js',legalComments:'linked'});
-await fs.copyFile('src/app.css','dist/app.css');
-await fs.copyFile('src/index.html','dist/lab/index.html');
+// History category is archived on GitHub; never recreate its deployed files.
+const retired=JSON.parse(await fs.readFile('verification/v37/retired-history.json','utf8'));
+for(const {path} of retired.files)await fs.rm(path,{force:true});
+await fs.rm('dist/lab',{recursive:true,force:true});
 
 await fs.rm('dist/tour/legacy-runtime',{recursive:true,force:true});
 await build({entryPoints:{loader:'src/legacy/loader.mjs',trial:'src/legacy/trial.mjs'},bundle:true,minify:true,format:'esm',splitting:true,target:'es2022',outdir:'dist/tour/legacy-runtime'});
@@ -25,12 +25,11 @@ const template=await fs.readFile('src/tour/tour.template.html','utf8');
 const content=template
   .replace('<script type="application/octet-stream" data-legacy-source>__LEGACY__</script>','<script type="application/octet-stream" data-legacy-source data-url="/tour/legacy.html"></script>')
   .replace('<script>__BUNDLE__</script>',`<script src="/tour/tour.js?v=${digest}" defer></script>`);
-const lab=await fs.readFile('src/index.html','utf8');
-const icon=lab.match(/<link rel="icon"[^>]+>/)[0];
+const icon="<link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23394b3c'/%3E%3Cpath d='M17 46V18h30v28M25 46V30h14v16M17 25h30' fill='none' stroke='%23f7f3e9' stroke-width='3'/%3E%3C/svg%3E\">";
 const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef"><meta name="description" content="庭间空间设计：先选风格，再比较布局、收纳与五种光线，再选家具材料，最后查看和下载全屋效果册。"><title>庭间 · 空间设计</title>${icon}<style>html{background:#edf0e9}body{margin:0;padding:14px 14px 40px;font-family:system-ui,-apple-system,'PingFang SC',sans-serif}.site-note{max-width:2156px;margin:18px auto 0;color:#69736a;font-size:12px;line-height:1.8}@media(max-width:700px){body{padding:0 0 24px}.site-note{padding:0 16px}}</style></head><body><main>${content}</main><footer class="site-note">庭间 · 一寸一物，慢慢成家。<br>设计效果参考；房屋尺寸、结构与家具摆放以现场复核为准。</footer></body></html>`;
 await fs.writeFile('dist/index.html',page);
 await fs.writeFile('dist/tour/index.html',page);
-console.log('Built HD home + tour alias; furniture laboratory isolated at /lab/');
+console.log('Built current design site; historical category and exclusive assets retired');
 
 const {DUSK_VR}=await import('../src/vr/dusk-manifest.mjs');
 const vrData=structuredClone(DUSK_VR);

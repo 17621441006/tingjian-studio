@@ -138,9 +138,9 @@ await click('[data-confirm-all]',30);assert.equal(context.__journey().confirmedR
 checks.push('Copper decor/sofa/rug/cabinets can be independently removed and added back in both editing stages. Fast clicks compose; both cameras and material lists share the choices. Failed image retains prior state with retry.');
 checks.push('Changing a shared removal invalidates only living/dining confirmations (8 → 6), marks the whole-home snapshot stale, and refreshes both photo and model snapshots after reconfirmation. Restore-all is reversible.');
 await click('[data-journey-step="style"]',5);await click('[data-home-design="graphite"]',20);assert(!$('[data-home-object-controls]').hidden);assert.equal($('[data-home-rooms]').children.length,8);
-assert.equal(root.querySelectorAll('[data-home-design]').length,15);
+assert.equal(root.querySelectorAll('[data-home-design]').length,16);
 assert.equal(root.querySelector('[data-home-room="living"] strong').textContent,'客厅');
-const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(html.includes('data-history-pane'));assert(html.includes('data-lab-frame'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('Historical VR removed; furniture lab retained; current editor unchanged.');
+const html=await fs.readFile('dist/index.html','utf8'),main=await fs.readFile('dist/tour/legacy.html','utf8'),css=await fs.readFile('dist/tour/furniture-trial.css','utf8');assert(!html.includes('data-history-pane'));assert(!html.includes('data-lab-frame'));assert(!html.includes('历史案例'));assert(main.includes('data-room-edit-choices'));assert(css.includes('#archive-study'));await assert.rejects(fs.access('dist/tour/history.html'));checks.push('History category and furniture-lab route removed; active design editor retained.');
 
 // The new catalog is orthogonal to photographs and furniture choices.
 const floorHome='[data-home-floor-catalog] ',floorDetails='[data-details-floor-catalog] ';
@@ -270,3 +270,7 @@ await click('[data-life-next]',40);await click('[data-whole-mode="custom"]',40);
 checks.push('Returning to a style retains its lifestyle; changing scene marks export stale and refresh copies the latest choices.');
 await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));
 console.log(JSON.stringify({passed:true,checks},null,2));
+
+// v37 new layout controls use matching photos, persist into details, and restore originals.
+for(const design of finalAssets.FINAL_DESIGNS.slice(0,8)){await click('[data-journey-step="style"]',5);await click('[data-home-design="'+design+'"]',20);await click('[data-confirm-style]',20);for(const room of ['master','second','kitchen']){await click('[data-layout-room="'+room+'"]',10);await click('[data-layout-choice="replan"]',15);assert.equal(context.__journey().current.layout,'replan');assert($('[data-layout-image]').src.includes('/layouts-v37/schemes/'+design+'/'+room+'.webp'));await click('[data-layout-choice="original"]',10);assert.equal(context.__journey().current.layout,'original');}}
+console.log('v37: 24 new layout controls load matching images and restore original layouts.');

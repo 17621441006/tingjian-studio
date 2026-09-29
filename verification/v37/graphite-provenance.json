@@ -1,0 +1,128 @@
+{
+  "version": "v37",
+  "tool": "built-in image_gen",
+  "native_dimensions": [
+    1536,
+    1024
+  ],
+  "derivatives": "Full decode then atomic PNG copy, quality90 WEBP, 480x320 thumbnail",
+  "qa_method": "Visual comparison of each baseline and generated full-size image; cabinet/furniture organization reviewed",
+  "assets": [
+    {
+      "scheme": "graphite",
+      "room": "master",
+      "detail": "13.5sqm master. Move bed toward CENTER on the existing right-hand head wall and make it strictly 1.5m wide to gain usable clearance. Replace bulky freestanding nightstands with recessed small bedside shelves within walnut head joinery. Add a long LOW walnut dresser on opposite LEFT wall beyond the entry-side wardrobe, with one small dresser drawer partly open. Change entry-side wardrobe fronts to sliding graphite/walnut panels. This is visibly a new storage layout: low dresser is clearly visible along left wall and compact bed allows the aisle. No windowseat needed.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/graphite/master.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference graphite/walnut sober warm gray palette, dark walnut floor, bronze accents, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 13.5sqm master. Move bed toward CENTER on the existing right-hand head wall and make it strictly 1.5m wide to gain usable clearance. Replace bulky freestanding nightstands with recessed small bedside shelves within walnut head joinery. Add a long LOW walnut dresser on opposite LEFT wall beyond the entry-side wardrobe, with one small dresser drawer partly open. Change entry-side wardrobe fronts to sliding graphite/walnut panels. This is visibly a new storage layout: low dresser is clearly visible along left wall and compact bed allows the aisle. No windowseat needed. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-33f9f52f-984c-4785-86a0-a55b4b565a10.png",
+      "qa": "Pass: low dresser added opposite reduced bed; one dresser drawer open; near entry sliding wardrobe; nightstands replaced with fitted niches; same window architecture and graphite walnut palette.",
+      "reference_sha256": "169d1b5ee1d695f4f8ea5702b7600fc4d19805d351da46beebc52726a50d1480",
+      "source_sha256": "1babf286c5ff78d17c3eefd4f9fa64aa430b7783e51763131d493a2b4bbb0745",
+      "outputs": {
+        "master.png": {
+          "sha256": "1babf286c5ff78d17c3eefd4f9fa64aa430b7783e51763131d493a2b4bbb0745",
+          "bytes": 2528432,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master.webp": {
+          "sha256": "fa83d157b32964c1d09e2d715862ba0f29a2ecefdefe981469e3561f7b4b371c",
+          "bytes": 270376,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "master-thumb.webp": {
+          "sha256": "b48e599f84bae4c351a73286e435ddf23e0a09254c6040b0d5093572751d69fc",
+          "bytes": 33300,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "scheme": "graphite",
+      "room": "second",
+      "detail": "7.2sqm narrow second bedroom. REVERSE bed head and foot: 1m-wide single bed stays lengthwise RIGHT wall, but its HEADBOARD AND PILLOWS MUST BE AT NEAR CAMERA/DOORWAY END, its plain FOOT end points to far window. No pillows near window. Preserve slim reading desk under far window, fit small chair. Replace bulky continuous high wall cabinetry with a short compact wardrobe on LEFT near entry plus a small wall folding table on LEFT farther along, shown FOLDED flat with visible hinge. Keep right wall above bed plain except tiny reading lamp near camera head. Clear narrow center access. A single underbed drawer slightly open.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/graphite/second.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference graphite/walnut sober warm gray palette, dark walnut floor, bronze accents, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 7.2sqm narrow second bedroom. REVERSE bed head and foot: 1m-wide single bed stays lengthwise RIGHT wall, but its HEADBOARD AND PILLOWS MUST BE AT NEAR CAMERA/DOORWAY END, its plain FOOT end points to far window. No pillows near window. Preserve slim reading desk under far window, fit small chair. Replace bulky continuous high wall cabinetry with a short compact wardrobe on LEFT near entry plus a small wall folding table on LEFT farther along, shown FOLDED flat with visible hinge. Keep right wall above bed plain except tiny reading lamp near camera head. Clear narrow center access. A single underbed drawer slightly open. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-0037e6d7-afc3-4c50-9b15-38ae8a94e129.png",
+      "qa": "Pass after targeted correction: pillows now at near doorway head and foot at window end; narrow longitudinal right bed, left compact wardrobe and folded wall table, under-window desk, one underbed drawer open; no continuous high cabinets.",
+      "repair": {
+        "prompt": "Use case: precise-object-edit. Output native 1536x1024. Exact edit of this photograph. Keep ALL room geometry, furniture position, bed head at near doorway end on right, pillows, desk, materials, camera and lighting identical. Only CLOSE the protruding drawer at BOTTOM LEFT in the narrow wardrobe, making its front flush with wardrobe. Also close that wardrobe upper sliding door so no hanging clothes exposed. KEEP the single underbed drawer at bottom RIGHT slightly open. Exactly one drawer open total. No other changes, no text.",
+        "reference": "/workspace/scratch/d2f63f3a5692/generated_images/exec-c895c930-8364-4d0b-bdaa-641a5fffc22f.png",
+        "reference_sha256": "2969d8fa2f024954db7947c84fb8d652a1c888dd001c9b4dd7acf4524e273f44"
+      },
+      "reference_sha256": "2b54befc1a6acb634246d3d5983d98d56264e04a2d52dcbe6c32b459d2e9f7f8",
+      "source_sha256": "da2948878af7d73005a0eeb2967a93d55e76c8f2398a11fcac9ff1b428d120b9",
+      "outputs": {
+        "second.png": {
+          "sha256": "da2948878af7d73005a0eeb2967a93d55e76c8f2398a11fcac9ff1b428d120b9",
+          "bytes": 2206888,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second.webp": {
+          "sha256": "44fc6f77a381529c1a0fca4bbdc012c3f6ffcb8c506ce1860cbc0675a376405c",
+          "bytes": 221822,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "second-thumb.webp": {
+          "sha256": "a6485f552a07dabfcd35fa9f394659365b85d815bd1d702e60d17a39c47e02ae",
+          "bytes": 31206,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    },
+    {
+      "scheme": "graphite",
+      "room": "kitchen",
+      "detail": "6.6sqm separate kitchen. Change U to TWO PARALLEL GALLEY RUNS: RIGHT cooking counter/cooktop/hood stays near original duct. LEFT run has compact sink at far end near window and prep/storage farther forward. REMOVE ALL cabinets and counter bridging under far window: bare tiled wall below window clearly visible and aisle runs all the way to far wall. Replace LEFT upper cabinetry with open black steel/walnut storage rails, shelves and exposed neat storage bins. Compact tall fridge can stay at left near entry. One narrow drawer partly open. No island.",
+      "reference": "/workspace/scratch/d2f63f3a5692/site-source/dist/final-v35/schemes/graphite/kitchen.webp",
+      "prompt": "Use case: precise-object-edit. Asset: architectural residential interior photograph. Edit reference image, not merely recolor. Output native 1536x1024 landscape. Keep exact camera viewpoint, room envelope, wall positions, ceiling height, window sizes/positions/mullions and exterior unchanged. Preserve reference graphite/walnut sober warm gray palette, dark walnut floor, bronze accents, lighting, photographic craft. REQUIRED REAL FURNITURE/CABINET REORGANIZATION: 6.6sqm separate kitchen. Change U to TWO PARALLEL GALLEY RUNS: RIGHT cooking counter/cooktop/hood stays near original duct. LEFT run has compact sink at far end near window and prep/storage farther forward. REMOVE ALL cabinets and counter bridging under far window: bare tiled wall below window clearly visible and aisle runs all the way to far wall. Replace LEFT upper cabinetry with open black steel/walnut storage rails, shelves and exposed neat storage bins. Compact tall fridge can stay at left near entry. One narrow drawer partly open. No island. Keep modest apartment residential scale, believable construction, clear paths, furniture not intersecting, no enlarged room or window, no invented walls or wall demolition, no curved walls. Open only ONE useful drawer/door. No text, labels, UI, people or watermarks. High fidelity realistic material texture.",
+      "source_generated": "/workspace/scratch/d2f63f3a5692/generated_images/exec-01953e00-8658-455c-8853-a54977dd16c2.png",
+      "qa": "Pass: separate galley runs; left sink near window; far window base bridge removed with exposed tiled wall; left open steel/walnut shelves; right cooking zone preserved; one drawer open.",
+      "reference_sha256": "acb3e3db619a32cfb26a5de5a69ff35aa2610716a3651ddea2d3b81c65ed4040",
+      "source_sha256": "b0fc1c9fe93bb52927d049095ba5e1a9db962f363d3ff81eb5172c25dcb6240b",
+      "outputs": {
+        "kitchen.png": {
+          "sha256": "b0fc1c9fe93bb52927d049095ba5e1a9db962f363d3ff81eb5172c25dcb6240b",
+          "bytes": 2232661,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen.webp": {
+          "sha256": "4d3cc74b6ff3a38c573388ff17f541c4378f21f620a7a3ffc4faa36f0b9847da",
+          "bytes": 232426,
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "kitchen-thumb.webp": {
+          "sha256": "2b92f15967447b2d0133b77f2f65cc6ae387949c936fcc061b93b5da2b1e54c5",
+          "bytes": 29122,
+          "dimensions": [
+            480,
+            320
+          ]
+        }
+      }
+    }
+  ]
+}

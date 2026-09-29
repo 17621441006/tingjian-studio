@@ -1,0 +1,67 @@
+{
+  "archiveBranch": "archive/history-v36",
+  "archiveCommit": "e9c03c274555b7e53787225e604e7a22d9deac1e",
+  "files": [
+    {
+      "path": "dist/lab/index.html",
+      "bytes": 7376,
+      "sha256": "211806d046edfcd6de545ee8ac1e04f42c2de24b35cbb87c7f2b0775713a1544"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 651847,
+      "sha256": "5e7f19ec4f5073b9a55e38453f8164f720d3cd6b84eac0c498aaccbd511672e6"
+    },
+    {
+      "path": "dist/app.js.LEGAL.txt",
+      "bytes": 188,
+      "sha256": "373b12aaa205aa5bc749aef71f9d69280e4b405d39570ffcd66a385349d76587"
+    },
+    {
+      "path": "dist/app.css",
+      "bytes": 17234,
+      "sha256": "707b3675445fa45629bde06bfada528f9a6e9396ea277bb62dc1ea79fc3edb8b"
+    },
+    {
+      "path": "dist/assets/models/catalog.json",
+      "bytes": 1772,
+      "sha256": "493150b3bd16788d1f5bd0e7cd662c398d87965c985ba8228cce8125edf02f83"
+    },
+    {
+      "path": "dist/assets/models/chair.glb",
+      "bytes": 491552,
+      "sha256": "fef352136f0d58e643eb1d7f0a160134b27378aa07e2236893664d7409c88b68"
+    },
+    {
+      "path": "dist/assets/models/chair.jpg",
+      "bytes": 16362,
+      "sha256": "812e75df09be736ffd10b7ce51d0c2dd62b74bc53f11548dcec9a40c8052ad01"
+    },
+    {
+      "path": "dist/assets/models/lounge.glb",
+      "bytes": 9698576,
+      "sha256": "f9d9ba95b18fd0566a1dbeb50726d894d731a692585f82a118b708d258f333e6"
+    },
+    {
+      "path": "dist/assets/models/lounge.jpg",
+      "bytes": 16414,
+      "sha256": "c4731e9f68ccdeaae1557d6f358abb958e15cfc172c8283341dfbbc7d68c8286"
+    },
+    {
+      "path": "dist/assets/textures/darkstone.jpg",
+      "bytes": 117436,
+      "sha256": "4fa5ae86db89855d375b4aee967c5d85d0ef1adb37fa853fb55f10b8eb6bd91d"
+    },
+    {
+      "path": "dist/assets/textures/rug.jpg",
+      "bytes": 160492,
+      "sha256": "fe17c0b803feb3e62b7c611278ceb9b5a2c89bfb6695a2556240f136b7fe056e"
+    }
+  ],
+  "bytes": 11179249,
+  "sharedModelsRetained": [
+    "sofa.glb",
+    "table.glb"
+  ],
+  "reason": "User removed complete History category; shared active design assets stay."
+}

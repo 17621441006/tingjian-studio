@@ -7,10 +7,10 @@ import {supportsSceneObjects,normalizeRemoved,objectSceneAsset,objectSceneLabel,
 export function resolveScene(s={}){
  const design=HOMES[s.design]?s.design:'dusk',room=ROOMS.some(r=>r.id===s.room)?s.room:'living',base=resolveLayoutState({...s,design,room});
  const pieces=normalizePieces(s.pieces),window=design==='dusk'&&s.mode!=='palette'&&room==='master'&&(s.window??pieces.window)==='clear'?'clear':'original';pieces.window=window;
- return {...base,room,partitionStyle:s.partitionStyle==='custom'?'custom':'original',floorProduct:floorAllowed(room,floorProduct(s.floorProduct))?normalizeFloorProduct(s.floorProduct):null,mode:design==='dusk'&&s.mode!=='palette'?'pieces':'palette',variant:resolveVariantState(design,room,s.variant).variant,pieces,window,removed:supportsSceneObjects({design,room})?normalizeRemoved(s.removed):[]};
+ return {...base,room,partitionStyle:s.partitionStyle==='custom'?'custom':'original',floorProduct:floorAllowed(room,floorProduct(s.floorProduct))?normalizeFloorProduct(s.floorProduct):null,mode:design==='dusk'&&s.mode!=='palette'?'pieces':'palette',variant:resolveVariantState(design,room,s.variant).variant,pieces,window,removed:base.layout!=='replan'&&supportsSceneObjects({design,room})?normalizeRemoved(s.removed):[]};
 }
 export function sceneAvailable(value){
- const s=resolveScene(value);if(s.design!=='dusk'||!['living','master','balcony'].includes(s.room))return true;
+ const s=resolveScene(value);if(s.layout==='replan')return true;if(s.design!=='dusk'||!['living','master','balcony'].includes(s.room))return true;
  if(s.mode==='palette')return s.layout==='original'&&s.light==='daywarm'&&s.window==='original';
  if(s.room==='balcony')return true;
  if(s.room==='living')return s.layout==='original'&&s.light==='daywarm'?pieceAvailable('living',s.pieces):['cognac','wine'].includes(s.pieces.sofa)&&s.pieces.table==='glass'&&s.pieces.floor==='stone';
@@ -19,6 +19,7 @@ export function sceneAvailable(value){
 }
 export function sceneAsset(value,thumb=false){
  const s=resolveScene(value);if(!sceneAvailable(s))return null;
+ if(s.layout==='replan')return layoutAsset(s,thumb);
  const objectPath=objectSceneAsset(s,thumb);if(objectPath)return objectPath;
  if(s.design!=='dusk'||s.mode==='palette'||!['living','master','balcony'].includes(s.room))return variantAsset(s.design,s.room,s.variant,thumb);
  if(s.room==='master'&&s.window==='clear'&&s.layout==='original')return pieceAsset('master',s.pieces,thumb);
@@ -27,7 +28,7 @@ export function sceneAsset(value,thumb=false){
  return layoutAsset({...s,sofa:s.pieces.sofa},thumb);
 }
 export function sceneNote(value){
- const s=resolveScene(value);if(supportsSceneObjects(s))return '可按当前房间移除、加回单品，或切换新装饰；原款随时可恢复。';if(s.mode==='palette')return '正在保留这组整体搭配。若想独立换单品，请在第三步选择原布局的单品搭配。';
+ const s=resolveScene(value);if(s.layout==='replan')return '同一风格的新收纳布局。可切回原方案比较；此图为整套概念布置，单品移除请切回原方案。';if(supportsSceneObjects(s))return '可按当前房间移除、加回单品，或切换新装饰；原款随时可恢复。';if(s.mode==='palette')return '正在保留这组整体搭配。若想独立换单品，请在第三步选择原布局的单品搭配。';
  if(s.room==='living')return '换排布和五种光线目前支持干邑／酒红＋烟玻璃＋石地面。其他单品组合保留原布局、日光暖灯；未完成的组合不会替换你的选择。';
  if(s.room==='master')return '床柜换位和窗边双用目前配亚麻低床＋原床品。原床位可独立搭配三种床架、三组床品与整面窗景。';
  return '未完成的组合暂不可选，已选效果会保留。';
@@ -35,13 +36,14 @@ export function sceneNote(value){
 function originalSceneItems(value){
  const s=resolveScene(value);
  
+ if(s.layout==='replan')return layoutInfo(s).items;
  if(s.mode==='palette')return homePresentation(s).content.materials;
  if(s.design==='dusk'&&s.mode==='pieces'&&s.layout==='original'&&['living','master'].includes(s.room))return [...pieceGroups(s.room).map(k=>[k==='bedding'?'床品':k==='floor'?'地面':k==='sofa'?'沙发':k==='table'?'茶几':k==='window'?'窗景':'床架',pieceItem(k,s.pieces[k]).name])];
  if(['living','master','balcony'].includes(s.room)){const entries=layoutInfo(s).items.map(x=>[...x]);if(s.design==='dusk'&&s.room==='living'&&s.mode==='pieces')entries[0]=[s.layout==='storage'?'坐榻软垫':'沙发',pieceItem('sofa',s.pieces.sofa).name+(s.layout==='storage'?' · 木作抽屉底座':'')];return entries;}
  return HOMES[s.design].rooms[s.room].materials;
 }
 export function sceneItems(value){const s=resolveScene(value);return floorMaterialItems(s,objectSceneMaterials(s,originalSceneItems(s)));}
-function baseSceneLabel(value){const s=resolveScene(value);if(supportsSceneObjects(s))return objectSceneLabel(s);if(s.mode==='palette'){const p=homePresentation(s);return p.applied?p.variant.name:'原搭配';}if(s.design==='dusk'&&s.mode==='pieces'&&s.layout==='original'&&['living','master'].includes(s.room))return piecePresentation(s.room,s.pieces).label;return ['living','master','balcony'].includes(s.room)?layoutInfo(s).name:'沿用风格原方案';}
+function baseSceneLabel(value){const s=resolveScene(value);if(s.layout==='replan')return layoutInfo(s).name;if(supportsSceneObjects(s))return objectSceneLabel(s);if(s.mode==='palette'){const p=homePresentation(s);return p.applied?p.variant.name:'原搭配';}if(s.design==='dusk'&&s.mode==='pieces'&&s.layout==='original'&&['living','master'].includes(s.room))return piecePresentation(s.room,s.pieces).label;return ['living','master','balcony'].includes(s.room)?layoutInfo(s).name:'沿用风格原方案';}
 export function sceneFromGallery(view){return resolveScene({...view,layout:'original',light:'daywarm',window:view.pieces?.window||'original'});}
 export function assembleHome(design,saved,seed={}){
  const list=ROOMS.map(r=>{const scene=resolveScene(saved.get(design+':'+r.id)||{...seed,design,room:r.id,removed:[],partitionStyle:'original',floorProduct:null,layout:'original',light:'daywarm',window:'original'});return {id:r.id,name:r.name,area:r.area,scene,path:sceneAsset(scene),thumb:sceneAsset(scene,true),label:sceneLabel(scene),items:sceneItems(scene),changed:saved.has(design+':'+r.id)};});

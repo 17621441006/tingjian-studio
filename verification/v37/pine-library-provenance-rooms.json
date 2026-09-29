@@ -1,0 +1,223 @@
+{
+  "scheme": "pine-library",
+  "method": "built-in image_gen; one call per asset",
+  "outputs": {
+    "second": "/workspace/scratch/d2f63f3a5692/generated_images/exec-ee425ee5-14ea-4189-92ac-38e95d418ad7.png",
+    "kitchen": "/workspace/scratch/d2f63f3a5692/generated_images/exec-6646fd90-6dca-45cc-9a3f-8d07a014ce97.png",
+    "bath": "/workspace/scratch/d2f63f3a5692/generated_images/exec-02d48a91-6e4a-4795-931e-3b0431978155.png",
+    "balcony": "/workspace/scratch/d2f63f3a5692/generated_images/exec-84d167a3-9f39-4c99-918b-bf27320dda63.png",
+    "utility": "/workspace/scratch/d2f63f3a5692/generated_images/exec-08b1ebe3-6958-4055-8c23-bb9e79544bfd.png"
+  },
+  "prompts": {
+    "second": "Use case: photorealistic-natural. New authored interior scheme 松烟书邸 / pine-library, an intimate contemporary private library home. Native 1536x1024 landscape architectural photograph. Smoky dark walnut, very deep olive fitted joinery, iron-gray textured stone, occasional oxblood leather, warm brushed bronze. Rich moderate colors, soft moderate natural daylight plus localized 2700K lamps; NOT white/pale/beige dominant, NOT black/murky, no orange filter. Impeccable photorealistic craftsmanship, realistic residential scale. No text, UI, labels, logos or watermark. Original reference image is camera/immutable room geometry only, not furnishings or palette. Floorplan reference is immutable architectural footprint only; do not render a plan or collage. Preserve exact walls, openings, window position and size, room scale. No new walls, arches, extra windows, giant spaces, impossible intersections. Room: SECOND, 7.2 sqm compact day-study viewed from doorway toward original far window. Replace the right-wall bed with a CLOSED vertical fold-down SINGLE bed, stored fully upright in smoky walnut cabinet on RIGHT wall. Show recognisable hinge brackets at its lower sides, slim fold-away feet and discreet leather pull straps on one broad flush bed panel, realistic construction. Clear central deployment aisle sufficient for 1m single bed to unfold, no bed mattress currently exposed. A long slim walnut writing desk runs along LEFT wall only, with open deep-olive bookshelves above, real books and one ceramic vessel. One oxblood leather desk chair tucked at left desk. Far window remains completely free of furniture, same sill and glazing geometry as reference. Smoked walnut floor, olive joinery, restrained bronze desk light. Do not make a bedroom with bed still out, do not put desk under far window. No open drawer needed; closed folding bed mechanism is the storage demonstration.",
+    "kitchen": "Use case: photorealistic-natural. New authored interior scheme 松烟书邸 / pine-library, an intimate contemporary private library home. Native 1536x1024 landscape architectural photograph. Smoky dark walnut, very deep olive fitted joinery, iron-gray textured stone, occasional oxblood leather, warm brushed bronze. Rich moderate colors, soft moderate natural daylight plus localized 2700K lamps; NOT white/pale/beige dominant, NOT black/murky, no orange filter. Impeccable photorealistic craftsmanship, realistic residential scale. No text, UI, labels, logos or watermark. Original reference image is camera/immutable room geometry only, not furnishings or palette. Floorplan reference is immutable architectural footprint only; do not render a plan or collage. Preserve exact walls, openings, window position and size, room scale. No new walls, arches, extra windows, giant spaces, impossible intersections. Room: KITCHEN, independent compact 6.6 sqm, doorway camera looking to same far window as geometry reference. New L-shaped countertop: sink under far window, cooking hob near existing RIGHT-hand duct zone on right run. Dark very deep olive lower drawer cabinets, smoky walnut uppers, iron-gray honed textured stone countertop and backsplash, small brushed bronze pulls. LEFT entrance tall walnut fridge/pantry bank with ONE slim vertical pantry pullout partly extended showing neatly organized everyday jars; no left deep base run, a small area of bare ironstone wall beyond pantry emphasizes L layout. Right-hand recessed small appliance bay with pocket fronts retracted in plane and kettle, no swinging second open cabinet. Useful deep drawer fronts and discreet toe-kick storage. Single pullout is the storage demonstration. No island, dining table, U-shaped bridge onto left, white cabinets, giant room, relocated/enlarged window. Human scale warm neutral daylight, distinct olive/walnut library home's kitchen.",
+    "bath": "Use case: photorealistic-natural. New authored interior scheme 松烟书邸 / pine-library, an intimate contemporary private library home. Native 1536x1024 landscape architectural photograph. Smoky dark walnut, very deep olive fitted joinery, iron-gray textured stone, occasional oxblood leather, warm brushed bronze. Rich moderate colors, soft moderate natural daylight plus localized 2700K lamps; NOT white/pale/beige dominant, NOT black/murky, no orange filter. Impeccable photorealistic craftsmanship, realistic residential scale. No text, UI, labels, logos or watermark. Original reference image is camera/immutable room geometry only, not furnishings or palette. Floorplan reference is immutable architectural footprint only; do not render a plan or collage. Preserve exact walls, openings, window position and size, room scale. No new walls, arches, extra windows, giant spaces, impossible intersections. Input 1 geometry reference bath. Input 2 floorplan. Input 3 living is material/style continuity ONLY, do not copy its furniture/room. Room: BATH 4.3 sqm compact bathroom, same camera, left glass shower, right foreground toilet, narrow frosted far/right window as geometry reference. Retain those positions and exact footprint. New iron-gray textured stone shower walls, warm mid-gray surrounding stone, compact single floating warmstone integrated washbasin about 85cm wide on walnut drawers. Crucially reduce vanity from wall-wide to compact single basin, with visible OPEN UNDERSHELF beneath drawers holding two woven storage baskets and rolled towels; show floor below shelf, no second basin. Recessed mirror cabinet above small vanity with refined thin bronze frame and warm bronze sconce beside it. Olive towel small accent, walnut craftsmanship. Clean plumbing, breathable vanity sides; not a luxury giant double vanity or bathtub room. Cabinet fronts all closed, open undershelf is the storage demonstration. Natural daylight and localized gentle 2700K bronze lamp; rich calm stone/walnut palette coherent with living anchor.",
+    "balcony": "Use case: photorealistic-natural. New authored interior scheme 松烟书邸 / pine-library, an intimate contemporary private library home. Native 1536x1024 landscape architectural photograph. Smoky dark walnut, very deep olive fitted joinery, iron-gray textured stone, occasional oxblood leather, warm brushed bronze. Rich moderate colors, soft moderate natural daylight plus localized 2700K lamps; NOT white/pale/beige dominant, NOT black/murky, no orange filter. Impeccable photorealistic craftsmanship, realistic residential scale. No text, UI, labels, logos or watermark. Original reference image is camera/immutable room geometry only, not furnishings or palette. Floorplan reference is immutable architectural footprint only; do not render a plan or collage. Preserve exact walls, openings, window position and size, room scale. No new walls, arches, extra windows, giant spaces, impossible intersections. Input 1 balcony geometry/camera only EXCEPT explicitly remove its old bench, horizontal rail and opaque lower sill/parapet. Input 2 floorplan. Input 3 living material/style continuity only. Room: scenic BALCONY 5 sqm, camera from living through original doorway to enclosed exterior-facing glazing, same room width/depth and ceiling. Glazing MUST run ALL THE WAY from finished floor to ceiling: transparent structurally glazed tall panels with thin vertical framing only. View of urban skyline and treetops visible clearly through glass at floor level. Absolutely NO opaque sill, low solid wall, parapet, railing, horizontal guard rail or bench. One compact sculptural OXBLOOD leather reading chair on left, small iron-gray stone round side table with a book beside chair; one restrained potted plant toward right edge, clear center and most floor left open. Slim smoky walnut vertical side frames, bronze sconce at right, iron-gray floor. Warm quiet private reading balcony coherent with rich library living reference, no giant sunroom or additional furniture. This is the balcony architectural glazing update requested; do not preserve forbidden old low sill/rail from reference.",
+    "utility": "Use case: photorealistic-natural. New authored interior scheme 松烟书邸 / pine-library, an intimate contemporary private library home. Native 1536x1024 landscape architectural photograph. Smoky dark walnut, very deep olive fitted joinery, iron-gray textured stone, occasional oxblood leather, warm brushed bronze. Rich moderate colors, soft moderate natural daylight plus localized 2700K lamps; NOT white/pale/beige dominant, NOT black/murky, no orange filter. Impeccable photorealistic craftsmanship, realistic residential scale. No text, UI, labels, logos or watermark. Original reference image is camera/immutable room geometry only, not furnishings or palette. Floorplan reference is immutable architectural footprint only; do not render a plan or collage. Preserve exact walls, openings, window position and size, room scale. No new walls, arches, extra windows, giant spaces, impossible intersections. Input 1 utility geometry/camera only. Input 2 floorplan. Input 3 living material/style continuity only. Room: UTILITY 2.5sqm narrow service balcony, actual long LEFT glazing and far wall positions unchanged. At far end, stacked washer and dryer neatly recessed into floor-to-ceiling deep olive cabinet with smoky walnut interior; tall bi-fold pocket concealment doors fully parked flush at sides to demonstrate appliances unobstructed, not swinging into maintenance aisle. Right side a small WALNUT fold-down sorting counter on visible folding bronze brackets, deployed about 35cm deep, with towel stack. Far-right beside washer column ONE narrow cleaning-storage pullout 15cm partly extended, storing brush and slender mop safely secured. Closed walnut upper storage above right counter. Iron-gray stone flooring; olive and walnut are contrasted not all-green. Clear central maintenance access and realistic 60cm appliances in modest room, actual left window retained; no second room, enlarged balcony, opaque replacement window wall, giant laundry room. Warm natural light plus subtle 2700K undercabinet lighting, no text/logos."
+  },
+  "references": {
+    "geometryRoot": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk",
+    "floorplan": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+    "styleAnchor": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.png"
+  },
+  "qa": {
+    "second": "PASS: 7.2sqm visual scale; right bed fully closed with visible straps and hinges; left desk/books; clear window/center; oxblood chair.",
+    "kitchen": "PASS: compact L right+far sink layout; olive lower/walnut upper; original window and right hob; narrow left pullout; recessed right kettle bay.",
+    "bath": "PASS: compact single basin, walnut drawers and open basket undershelf, left glass shower/right toilet, preserved frosted window, bronze sconce.",
+    "balcony": "PASS: full floor-to-ceiling clear glass, no opaque sill/parapet/rail/bench; one oxblood chair, small stone table, plant, clear floor.",
+    "utility": "PASS: preserved long left glazing; compact stacked laundry in olive/walnut cabinet; parked concealment fronts; narrow cleaning pullout and folding bracket counter; clear maintenance aisle."
+  },
+  "validation": {
+    "second": {
+      "native_size": [
+        1536,
+        1024
+      ],
+      "derivative_quality": 90,
+      "full_decode": true,
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
+          "sha256": "f7259497b89cfb62e4b7828c590858dc88e38410d83e66820150030fa3ac1987"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ],
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/second.png",
+          "sha256": "c3ddad0fd90af2a3d6faf1925ddff7390e98c139540a52c715c795903ee4ce14",
+          "bytes": 2496154
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/second.webp",
+          "sha256": "40911579d0e2b45300edf36ea45814608dbdda49ae2b70616bcd8a7e5a8c113d",
+          "bytes": 278398
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/second-thumb.webp",
+          "sha256": "6e69272faad70bf3d57d44889e89fbe903389476677d77afa710386bf19e7995",
+          "bytes": 32142
+        }
+      ]
+    },
+    "kitchen": {
+      "native_size": [
+        1536,
+        1024
+      ],
+      "derivative_quality": 90,
+      "full_decode": true,
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
+          "sha256": "086531ff3de4a79a65b4729bca6cc82eb6cd7091b8649b24545efc9f011a6671"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ],
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/kitchen.png",
+          "sha256": "2cec0f69b5432683eedbc1a55bee0d04891aa57a46c46628c62948a370a7f7f9",
+          "bytes": 2224721
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/kitchen.webp",
+          "sha256": "da6870dd73d167e1ba172e3cb2e40800c23e6633cba7a248fc9c5e75ab504586",
+          "bytes": 233306
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/kitchen-thumb.webp",
+          "sha256": "4353cbeb0eeb03d3fc6816806324b7aec874d8bfd3a649fe6c1754b37b453c1b",
+          "bytes": 29128
+        }
+      ]
+    },
+    "bath": {
+      "native_size": [
+        1536,
+        1024
+      ],
+      "derivative_quality": 90,
+      "full_decode": true,
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
+          "sha256": "51b4c65273cb25b3469dfc19808a13667c4ca9271367fe32b6bc2d0656b25063"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        }
+      ],
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/bath.png",
+          "sha256": "8931024885250c608fd0b38a99fabf916a39a6135e072c29ee0243d2e892e10f",
+          "bytes": 2784258
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/bath.webp",
+          "sha256": "311bce84cad1c9bd05fd00a0e9e40db56f4304454a7d529eedb28c886c8415c4",
+          "bytes": 325528
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/bath-thumb.webp",
+          "sha256": "b75426030e73d3d5d862a7ded586940760acfaa89acb10d22a7c884056dc6e2b",
+          "bytes": 31950
+        }
+      ]
+    },
+    "balcony": {
+      "native_size": [
+        1536,
+        1024
+      ],
+      "derivative_quality": 90,
+      "full_decode": true,
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/balcony.jpg",
+          "sha256": "682bbd30ccffefbbb74601fc07ae40595821f33848aed6e87fa05d639c502a56"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        }
+      ],
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/balcony.png",
+          "sha256": "027a1f45b6d029513854eed0ec167d5a34640aabe1c278dcf61767f59c9ab7b3",
+          "bytes": 2566163
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/balcony.webp",
+          "sha256": "2705e1f9e3265f8cf32e7f496bb71e5feff8ce1b1ad374580781430f855b35fb",
+          "bytes": 319524
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/balcony-thumb.webp",
+          "sha256": "a24cea5ad00613d7850ca4f9967fd0545a2456797b3206a56197194f17000fcc",
+          "bytes": 43104
+        }
+      ]
+    },
+    "utility": {
+      "native_size": [
+        1536,
+        1024
+      ],
+      "derivative_quality": 90,
+      "full_decode": true,
+      "references": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/utility.jpg",
+          "sha256": "935d7030285dc1ad201f341725808e87f0084e4db20c67d9c4b46708e3c9a8fa"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        }
+      ],
+      "files": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/utility.png",
+          "sha256": "16444a31d22edd2c3ce2cddc5ef4c69c17f316504f68e253899932a632988ade",
+          "bytes": 2217272
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/utility.webp",
+          "sha256": "e6c63892d2764db172871d806504b48c384bf718e20cffa12ced68d3059d4098",
+          "bytes": 243744
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/utility-thumb.webp",
+          "sha256": "3252651fb2fea9c8a8c6a43be5130300e700c43b42594ce90c550f94b838abab",
+          "bytes": 39242
+        }
+      ]
+    }
+  },
+  "contact_sheet": {
+    "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/contact-rooms.jpg",
+    "sha256": "11124ae0336667b895edae48c518659f13148a83c433274211f8dc924af1e527"
+  }
+}

@@ -1,7 +1,7 @@
 // Original, full-resolution files on independent delivery routes; no image substitution.
 const mediaResolved=new Map(),mediaPending=new Map(),mediaTokens=new WeakMap();
 export function mediaCandidates(path){
- const m=path.match(/^https:\/\/(?:raw\.githubusercontent\.com\/17621441006\/tingjian-studio\/([a-f0-9]{40})\/dist|(?:cdn|fastly)\.jsdelivr\.net\/gh\/17621441006\/tingjian-studio@([a-f0-9]{40})\/dist)(\/(?:designs-v26|designer-v34|smart-v34|final-v35|designs-v36)\/[^?#]+)$/);
+ const m=path.match(/^https:\/\/(?:raw\.githubusercontent\.com\/17621441006\/tingjian-studio\/([a-f0-9]{40})\/dist|(?:cdn|fastly)\.jsdelivr\.net\/gh\/17621441006\/tingjian-studio@([a-f0-9]{40})\/dist)(\/(?:designs-v26|designer-v34|smart-v34|final-v35|designs-v36|layouts-v37|designs-v37)\/[^?#]+)$/);
  if(!m)return [path];
  const sha=m[1]||m[2],tail=m[3];
  return [...new Set([mediaResolved.get(path),`https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@${sha}/dist${tail}`,`https://fastly.jsdelivr.net/gh/17621441006/tingjian-studio@${sha}/dist${tail}`,`https://raw.githubusercontent.com/17621441006/tingjian-studio/${sha}/dist${tail}`].filter(Boolean))];

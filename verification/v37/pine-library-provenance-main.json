@@ -1,0 +1,196 @@
+{
+  "tool": "builtin image_gen",
+  "scheme": "pine-library",
+  "images": [
+    {
+      "room": "living",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-d9c7fd67-243b-4369-a50f-75c6f56ebb8a.png",
+      "prompt": "Use case: photorealistic-natural. Produce one native 1536x1024 landscape architectural interior photograph for new original Chinese apartment scheme 松烟书邸, no text. Input1 original dusk living is CAMERA AND EXACT STRUCTURAL GEOMETRY reference only; input2 floorplan defines room sizes. Preserve same existing rectangular living/dining room, beams, walls, entry door and opening left, TV LEFT and sofa RIGHT from camera at scenic balcony facing dining. New authored cozy private-library design: smoky walnut, very deep olive green built-in library BOOKCASE all along back dining wall with closed lower storage, visible books and ceramic vessels, occasional oxblood leather, iron-gray textured stone, brushed bronze. A compact elegant oxblood leather 3-seat sofa on right, low sculpted smoky walnut coffee table with ironstone top, deep oatmeal-brown woven rug, dark smoky wood plank floor. Petite oval walnut dining table with four olive leather/walnut chairs at back, subtle small bronze pendant. Preserve entry door at far right and unobstructed passage. Partial slim walnut wall panels, warm gray plaster TV wall with slim walnut console. Sculptural bronze reading lamp. Moderate natural daylight from behind camera, small local 2700K warm lamps, soft realistic shadows; rich colors clearly readable, not murky dark, not monochromatic brown, not pale/all-white. Residential scale, impeccable realistic craftsmanship, no extra walls/arches, no enlargement, no watermarks/UI.",
+      "references": [
+        "site-source/dist/tour/home-assets/dusk/living.jpg",
+        "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": "Visual: olive bookcase back wall, oxblood sofa right, TV left, walnut floor, clear access, original geometry retained.",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "validation": "All PNG and WEBP files fully decoded; derivatives saved atomically; WEBP quality90; thumbnail480x320.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186",
+          "bytes": 2506715
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living.webp",
+          "sha256": "d8c6d27fc8933c9198447e31158dc445a788e249a8d75b0f98417f320faff832",
+          "bytes": 316884
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living-thumb.webp",
+          "sha256": "716989b8e6ca3529c5f7e7783e60e8e98699df820abc9e376ca938f20829af74",
+          "bytes": 42320
+        }
+      ],
+      "reference_hashes": [
+        {
+          "path": "site-source/dist/tour/home-assets/dusk/living.jpg",
+          "sha256": "18d25b3206aa9e1a726fa68a250ee12e0b70c9fcf7aeb44b6c9fbc1d38d16de7"
+        },
+        {
+          "path": "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ]
+    },
+    {
+      "room": "dining",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-5988a62c-a65b-4ace-a427-b5f726a9d889.png",
+      "prompt": "Use case: photorealistic-natural. One native1536x1024 photograph. New scheme 松烟书邸 dining room. Input1 original dusk dining is exact architecture and camera reference, input2 NEW living is REQUIRED authoritative style, furnishings and same back bookcase reference, input3 plan. Photograph the dining area visible at the back of input2 closer, at eye height as input1. Same deep olive built-in BOOKCASE with four bays of books and ceramics above closed storage across back wall, same petite oval walnut table and FOUR olive leather/walnut chairs, same bronze pendant at intimate scale. Retain left existing opening, right entry door and all walls/beam/ceiling geometry. Smoky walnut floor and limited walnut panels, olive cabinetry, ironstone accents, no monochromatic brown or pale interiors. Show exactly one small charging drawer slightly open in right-end lower cabinet, neat built-in outlets inside. Moderate natural daylight from behind camera and warm localized2700K shelf lamps, photographic joinery details, books with no legible text, realistic small home. No people, UI, watermark, invented architecture.",
+      "references": [
+        "site-source/dist/tour/home-assets/dusk/dining.jpg",
+        "v37-assets/pine-library/living.png",
+        "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Native1536x1024. Change ONLY the dining table shape in this otherwise finished interior photograph. The current rectangular walnut table must become a petite true OVAL walnut dining table: continuously curved oval perimeter and smoothly rounded ends, NO square corners, same footprint approx1.35x0.8m, same walnut finish and four chairs in same positions. Keep all cabinetry books decorative objects lighting door walls floor camera and the one open charging drawer absolutely unchanged. Photorealistic. No text/UI/watermark.",
+          "reference": "/workspace/scratch/d2f63f3a5692/generated_images/exec-eac4e1bf-7c29-4723-9050-26e16fa94f94.png",
+          "reason": "First generation had rectangular table; targeted oval-table correction."
+        }
+      ],
+      "qa": "Visual: matching olive library, four chairs, single charging drawer, existing entry/opening.",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "validation": "All PNG and WEBP files fully decoded; derivatives saved atomically; WEBP quality90; thumbnail480x320.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/dining.png",
+          "sha256": "03768c1fb05a0cb6dc8ae76b3ecfe070dccc54a6611c2b38ce85f040a058180e",
+          "bytes": 1890452
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/dining.webp",
+          "sha256": "1a03a10b41ff1f6c17b9c480f504a32215776e2b95633bdcc99b63462f6aab47",
+          "bytes": 181892
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/dining-thumb.webp",
+          "sha256": "b430c169982f2051780919fc5786fc847e6ac5debca0259ce0a558e40c16bbe3",
+          "bytes": 31476
+        }
+      ],
+      "reference_hashes": [
+        {
+          "path": "site-source/dist/tour/home-assets/dusk/dining.jpg",
+          "sha256": "fa1af334f6c07aca401692f947e9cbfa0420fb4ceb33285fcc13b3d51c237387"
+        },
+        {
+          "path": "v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        },
+        {
+          "path": "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ]
+    },
+    {
+      "room": "master",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-e0db698d-4d01-4e2e-b00f-3ad3ba859d9f.png",
+      "prompt": "Use case: photorealistic-natural. New original authored 松烟书邸 bedroom interior photo, native1536x1024 landscape. Input1 original dusk master defines EXACT immutable small13.5sqm room geometry, corner windows and other right window, ceiling, doorway, AC and camera from entry. Input2 new living is palette continuity only. Input3 plan confirms13.5sqm. Preserve windows at their exact existing sizes/locations. Design practical 1.5m wide LOW smoky walnut bed with storage base, deep forest-olive upholstered headpanel inset into fitted walnut shallow joinery on original head wall. Cocoa bedding with a small warm oatmeal pillow, no white duvet. Slim bedside ledges with under-storage instead of bulky tables, a narrow integrated shelf for books, brushed bronze tiny sconces. Entry-side fullheight smoky walnut/olive wardrobe. One compact vanity near left window with thin iron-gray stone top and small tucked olive stool; keep clear access aisle. Exactly one bed-base drawer slightly open showing organized linen. Dark smoked walnut floor, warm medium gray plaster, restrained bronze and ironstone, stylish cozy private-library home at ordinary apartment scale. Moderate daylight,2700K localized reading lights, material fidelity, realistic details. No new walls/arches, no bigger room/windows, no giant bed, no all-white/beige, no text/UI/watermarks, no people.",
+      "references": [
+        "site-source/dist/tour/home-assets/dusk/master.jpg",
+        "v37-assets/pine-library/living.png",
+        "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": "Visual: corner/right windows preserved, olive headpanel, cocoa bedding, walnut storage bed one open drawer, slim ledges, compact vanity with tucked stool.",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "validation": "All PNG and WEBP files fully decoded; derivatives saved atomically; WEBP quality90; thumbnail480x320.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/master.png",
+          "sha256": "6a0ebaa5b11e3faa7d20da30a0d516f622b0beb7c322ab21e154eec974ef5540",
+          "bytes": 2480481
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/master.webp",
+          "sha256": "a3b0005d34d0e107d46c94473667186430f6f975651ca2a49f3409fc179fd959",
+          "bytes": 276724
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/master-thumb.webp",
+          "sha256": "bd75a09ef87a53a2d378dbde8e96bb9c5a30986fd8ff0686886cab8f9ec8fbfc",
+          "bytes": 31508
+        }
+      ],
+      "reference_hashes": [
+        {
+          "path": "site-source/dist/tour/home-assets/dusk/master.jpg",
+          "sha256": "d5a85bfedbe297c0572ee35985303a12868053ba49db50fcdc7f596333d6c2a1"
+        },
+        {
+          "path": "v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        },
+        {
+          "path": "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ]
+    },
+    {
+      "room": "living2",
+      "source": "/workspace/scratch/d2f63f3a5692/generated_images/exec-9ce29f03-4199-4c7f-93c1-766b36c364b1.png",
+      "prompt": "Use case: photorealistic-natural. One native1536x1024 landscape reverse architectural photograph of SAME new 松烟书邸 living room. Input1 NEW living is authoritative exact sofa/coffee table/material/lighting identity. Input2 dusk reverse is camera and architecture geometry only. Input3 apartment plan. Rotate view 180degrees from input1: camera now at dining looking toward scenic 5sqm balcony, so compact OXBLOOD leather sofa is LEFT, gray plaster TV wall and TV/walnut console RIGHT. Reproduce input1 dark smoked walnut floor, walnut partial panels, low walnut rounded rectangular iron-gray stone coffee table, woven warm taupe rug, bronze light, olive accent cushions and same artwork. Far opening to narrow scenic balcony same dimensions as reference2; balcony glazing MUST reach floor to ceiling, no horizontal sill/parapet, no rail, no bench. Slim walnut sideframes, uninterrupted city-and-trees view through clear floor-to-ceiling glass. On balcony ONE small oxblood reading chair tucked to side, little stone side table and plant, ample clear floor, no loungebench. Keep same structural opening and beam, no widening room or invented walls, no floorplan change. Moderate natural daylight, warm2700K localized fixtures, rich private-library home palette, no white/beige-wash, no murky darkness. Show slim edge of oval walnut dining table and olive chairs at bottom foreground only. No text/UI/watermarks or people.",
+      "references": [
+        "v37-assets/pine-library/living.png",
+        "site-source/dist/designs-v26/dusk/living2.webp",
+        "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": "Visual: consistent reverse sofa LEFT TV RIGHT, fullheight scenic clear glazing without sill/rail/parapet/bench, compact oxblood chair, original room scale.",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "validation": "All PNG and WEBP files fully decoded; derivatives saved atomically; WEBP quality90; thumbnail480x320.",
+      "outputs": [
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living2.png",
+          "sha256": "260208ec63bf88ab14fbd38ef352c8be757a1ded812b00563db724c932db888a",
+          "bytes": 2421006
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living2.webp",
+          "sha256": "457dfed7cb19ae6c35e30f812123ed0ac51b7c2b5b64d678b0e10441ed509218",
+          "bytes": 285824
+        },
+        {
+          "path": "/workspace/scratch/d2f63f3a5692/v37-assets/pine-library/living2-thumb.webp",
+          "sha256": "d2e742dc312e4c80accf723e0fe82b014176156b4be75dacd0e7e811a9f30949",
+          "bytes": 37910
+        }
+      ],
+      "reference_hashes": [
+        {
+          "path": "v37-assets/pine-library/living.png",
+          "sha256": "140d4e848967188b356d3a5692a809cf7194ba4c7e30c8a6908df73bf0aa7186"
+        },
+        {
+          "path": "site-source/dist/designs-v26/dusk/living2.webp",
+          "sha256": "21a170c1e9681e3d8f430c3a369ab263bf7ae7ba7191d9270242badd64bd75bc"
+        },
+        {
+          "path": "site-source/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+          "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+        }
+      ]
+    }
+  ]
+}
