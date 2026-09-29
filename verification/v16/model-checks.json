@@ -70,8 +70,18 @@
     },
     {
       "design": "plum-gallery",
-      "meshes": 182,
-      "triangles": 129868
+      "meshes": 185,
+      "triangles": 135428
+    },
+    {
+      "design": "amber-stone",
+      "meshes": 186,
+      "triangles": 135536
+    },
+    {
+      "design": "pine-library",
+      "meshes": 175,
+      "triangles": 126056
     }
   ]
 }
