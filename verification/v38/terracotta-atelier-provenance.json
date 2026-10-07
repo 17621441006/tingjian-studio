@@ -1,0 +1,217 @@
+{
+  "scheme_number": 17,
+  "scheme_name": "赤陶构所",
+  "scheme_id": "terracotta-atelier",
+  "method": "built-in image_gen",
+  "requested_dimensions": [
+    1536,
+    1024
+  ],
+  "generation_count": 9,
+  "retries": 0,
+  "all_inputs_inspected": true,
+  "all_outputs_inspected": true,
+  "assets": [
+    {
+      "room": "living",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-9c1b3974-1116-46b9-9791-deaf921e3a85.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/living.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Living/dining total 面积未公开, render living from original matching camera facing dining. Compact 2.1m modular two-seater tobacco sofa along original sofa wall at RIGHT of image, no chaise. Warm russet panels behind sofa, thin art rail with small leaning abstract art, espresso TV/media joinery opposite at LEFT. Split nesting side tables in smoked oak and brushed stainless placed near sofa end leave central floor open; no large central coffee table. One thin mobile reading chair with metal frame near corner, out of circulation. Dining area visible in background includes modest wall-adjacent drop-leaf four-seat table with lightweight stowable chairs. Keep entire compact flat walls and original doorway positions. Natural light from balcony behind camera.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "usable_with_limitations",
+        "remarks": [
+          "Compact two-seat sofa at original wall, art rail, split oak/stainless side tables and clear central floor rendered.",
+          "Retained original stone tile living floor instead of requested smoked mid oak.",
+          "Dining background retains dark wood wall and more conventional table/chairs, differing from separate dining asset.",
+          "Thin reading chair is present near dining end; requested mobile function cannot be verified visually."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/living.jpg"
+      ]
+    },
+    {
+      "room": "dining",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-1e72aa2b-f8b8-4272-80c3-ac57080352b8.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/dining.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Dining zone of same compact total面积未公开 living/dining. Match original camera and back wall; preserve left opening, right entrance door. Wall-adjacent drop-leaf table unfolded to a modest four-seat meal, practical clearances, four light stowable chairs. Show actual hinged folding table leaf edges and slim folding supports. Smoked oak tabletop, restrained sand seats and brushed stainless tubular chair frames. Warm russet architectural panels, slim espresso entry cabinet to RIGHT of table, small art on art rail, textured objects restrained. Do not reproduce heavy formal rectangular dining furniture or enlarge the room.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "usable_with_limitations",
+        "remarks": [
+          "Wall-mounted folding/drop-leaf table with visible brackets, four lightweight tubular chairs, slim entry cabinet and terracotta panels rendered.",
+          "Retained original stone tile floor instead of requested smoked oak.",
+          "Table is shown as wall-mounted folding slab; leaf divisions are not obvious.",
+          "Dining wall/chairs differ from dining background seen in living asset."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/dining.jpg"
+      ]
+    },
+    {
+      "room": "master",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-482cf6a8-3453-4e77-abee-6be07aff4276.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/master.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Compact 面积未公开 main bedroom, match original camera/enclosure. Preserve BOTH original bay window at back LEFT with wraparound side glazing AND separate side window to RIGHT of bed. 1.5-1.6m storage bed, sand bedding with tobacco blanket and terracotta headboard wall panels. Slim asymmetric bedside ledge, compact dressing/worktop at the bay RETURN, NOT full-width window bench. Espresso wardrobe. Bed remains along original headboard wall. Show believable tight bedroom clearances and storage base. Keep flat straight walls and complete room enclosure; no open bedroom into lounge.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "usable_with_limitations",
+        "remarks": [
+          "Original bay glazing and separate side window both retained; enclosed compact bedroom, terracotta headboard zone, storage bed and wood floor present.",
+          "Bay worktop extends across window and return rather than only at bay return.",
+          "Bed appears near requested size but cannot validate exact 1.5-1.6m from image; no room enlargement apparent."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/master.jpg"
+      ]
+    },
+    {
+      "room": "second",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-0d305f87-5458-4eff-b9a5-c6e54e296c45.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/second.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: This 面积未公开 room is intentionally a WORKROOM, not bedroom. Preserve original narrow enclosure, centered rear window and doorway view. Remove all existing bed/daybed/fixed sofa. Work surface runs along RIGHT wall with short return UNDER WINDOW to form small L desk; espresso wall storage directly OVER RIGHT WALL WORKTOP. One compact SINGLE upholstered fold-out CHAIR-BED on LEFT wall, about 0.8m wide, shown CLOSED as one lounge chair with folded mattress seams; not full sofa and not fixed bed. One slim desk task chair tucked in at right desk. Central floor clear. Smoked oak floor, terracotta right wall panels, tobacco chair-bed fabric and brushed stainless details. The room must read as genuinely small 面积未公开, not stretched.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "pass_visual_qa",
+        "remarks": [
+          "Narrow workroom reads as small enclosure, right-wall worktop with short window return and overhead storage.",
+          "Compact single chair-bed on left shown folded with clear central floor, no fixed bed or full sofa.",
+          "Espresso joinery, terracotta panel and wood floor present."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/second.jpg"
+      ]
+    },
+    {
+      "room": "kitchen",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-e9ac60b4-f1dd-4364-b574-8bfc764e3984.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/kitchen.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Compact 面积未公开 kitchen, preserve original rear window and entrance view. New TRUE L shaped counters along RIGHT wall and under WINDOW only. Sink below original window, hob on RIGHT run. LEFT wall must have only shallow 25cm pantry/rail, visibly much shallower than normal counter, NOT second deep counter and NOT U kitchen. Espresso lower cabinetry, terracotta upper fronts, brushed stainless backsplash/counter accents, warm grey stone floor. Preserve compact width and usable aisle. No island.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "pass_visual_qa",
+        "remarks": [
+          "True right/window L counter, sink below original window, hob at right.",
+          "Left side shallow shelving/rail rather than deep counter; clear compact aisle, no island.",
+          "Terracotta upper fronts and brushed metal counter/backsplash rendered."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/kitchen.jpg"
+      ]
+    },
+    {
+      "room": "bath",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-9d26676c-d44f-445f-aa0e-3974407493c9.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/bath.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Compact 面积未公开 bath, shower remains LEFT behind clear glass and toilet remains RIGHT in same positions as matching photo. Original narrow frosted window retained. Replace wide vanity with NARROWER single basin cabinet, offset drawers and a pull-out laundry hamper in base, hamper partly pulled forward enough to show function. Useful open space beneath basin visibly readable, small open lower shelf and plumbing clearance. Espresso joinery, warm terracotta ceramic wall zones mixed warm grey stone, brushed stainless fixtures. No bathtub, no second basin, no expanded room.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "pass_visual_qa",
+        "remarks": [
+          "Shower left and toilet right preserved, frosted window retained.",
+          "Narrow single vanity with offset drawer/pull-out hamper and visible useful open lower basin shelf.",
+          "No bathtub or double basin."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/bath.jpg"
+      ]
+    },
+    {
+      "room": "balcony",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-694e9232-13c9-4982-a66d-9f60cc632b59.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/balcony.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Main balcony 面积未公开, preserve width, original inner sliding opening and highrise urban view. ESSENTIAL DESIGN CORRECTION: external glazing is FULL HEIGHT transparent GLASS DOWN TO THE FLOOR, no solid under-window wall, no opaque knee wall, NO bench and NO bar across glazing. Slim operable opening panel at one SIDE. Keep center and entire full-height view unobstructed. Only a slim folding wall desk on the SHORT SOLID SIDE WALL at RIGHT plus ONE folding chair tucked at right side desk, desk projects only a little from short wall; no furniture spanning front glazing. Russet side wall and espresso desk with brushed steel folding hardware, warm grey stone floor, restrained natural daylight. Exterior slim safety rail allowed through transparent glass, but no broad solid opaque band.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "pass_visual_qa",
+        "remarks": [
+          "Full-height transparent external glass reaches floor with no solid knee wall or bench.",
+          "Center unobstructed; side desk and folding chair confined to right short solid wall.",
+          "Highrise view preserved; slim side opening panel indicated by glazing frames."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/balcony.jpg"
+      ]
+    },
+    {
+      "room": "utility",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-ae1139ca-1c4f-41c6-af2b-8e4cd668c350.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/utility.png",
+      "prompt": "Use case: precise-object-edit. Asset type: standalone photorealistic interior design render for scheme 17 赤陶构所 (terracotta-atelier). Requested output: landscape 1536x1024. Input image 1 is floor plan, spatial reference only, do NOT include plan or its text in output. Input image 2 is existing matching room, enclosure/camera/window/door reference, NOT style or furniture reference. Preserve compact enclosure, original flat straight walls, opening positions and urban highrise view. Ceiling about 2.65m. Redesign furniture as specified without enlarging the room. Warm modern creative atelier, sophisticated yet attainable real apartment. Palette throughout: warm terracotta/russet architectural panels, smoked mid oak flooring (stone suitable in wet rooms), espresso joinery, brushed stainless accents, restrained tobacco and sand upholstery. Real textured surfaces, natural daylight with restrained warm practical lighting. No all-white/pale home, no blue sofa, no invented protruding walls, no island, no bathtub, no double basin. One room view only, no collage, no text, no watermark, no people.\nRoom-specific required redesign: Utility balcony 面积未公开, preserve narrow depth, left glazing and city highrise view. Stack washer/dryer on END WALL. Espresso joinery surrounds stack, adjacent SLIM ventilated cleaning cupboard with visible slotted/louver door. RIGHT side wall holds a flip-up ironing board shown FOLDED vertically flat against wall, recognizable board outline and fold hardware, no projecting tabletop. Clear central standing floor. Warm terracotta side wall panel, brushed stainless handles and warm grey stone floor. No enlargement.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "pass_visual_qa",
+        "remarks": [
+          "Stacked washer/dryer at end wall, narrow louvered cleaning cupboard and vertically folded side-wall ironing board rendered.",
+          "Left glazing and narrow clear floor preserved."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/utility.jpg"
+      ]
+    },
+    {
+      "room": "living2",
+      "source": "/workspace/scratch/52340dceb96f/generated_images/exec-dfe9f153-978a-4b3e-af03-0cad5d9d0f24.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/living2.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: standalone photoreal interior design render, scheme 17 赤陶构所 terracotta-atelier, requested landscape1536x1024. Create one reverse view from dining toward living and glazed main balcony. Input image1 floor plan is spatial reference only (never reproduce plan or text); image2 is the completed LIVING design and exact furniture/material reference; image3 is the completed BALCONY design and exact glazing/folding side desk reference. Preserve the same compact 面积未公开 living/dining and 面积未公开 balcony, 2.65m ceiling, flat straight walls and opening positions shown by references. REVERSE CAMERA from dining toward balcony means the compact tobacco 2.1m modular two-seat sofa and russet art-rail wall now appear LEFT, TV and low espresso media cabinet RIGHT. Same split smoked oak and brushed stainless nesting side tables beside sofa, NO central coffee table, same small mobile metal-frame reading chair kept out of walkway, same rug and furnishings as image2. Preserve apparent room width and 2.65m ceiling without widening; this is a small apartment not luxury mansion. Match existing image2 floor material and furniture tones exactly for visual continuity. Glazed balcony straight ahead has FULL HEIGHT TRANSPARENT GLASS down to floor, unobstructed center, no under-window solid wall, no bench. Same little espresso folding wall desk mounted only to short russet right side wall and one folding chair as image3, slim opening panel at side, urban high-rise city view. Natural daylight from balcony, warm practical illumination with true textures, sophisticated creative atelier atmosphere. Restrained tobacco/sand upholstery, espresso joinery, russet panels and stainless accents. No blue sofa, no islands, no extra protruding walls, no text, no watermark, no collage, no people.",
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "qa": {
+        "status": "usable_with_limitations",
+        "remarks": [
+          "Reverse view from dining toward living and balcony rendered with corresponding tobacco sofa, russet art rail, nesting side tables, rug, TV joinery and full-height balcony glazing.",
+          "Matches the living image's retained stone floor for visual continuity, rather than requested smoked oak.",
+          "Reading chair changes position to balcony end, whereas living image places it near dining end; otherwise major furniture/materials visually match."
+        ]
+      },
+      "inputs": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+        "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/living.png",
+        "/workspace/scratch/52340dceb96f/assets-v38/terracotta-atelier/balcony.png"
+      ]
+    }
+  ]
+}
+

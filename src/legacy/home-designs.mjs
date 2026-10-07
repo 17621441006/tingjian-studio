@@ -1,3 +1,4 @@
+import {EXPANSION_IDS,expansionAsset} from './expansion-homes.mjs';
 import {pineAsset} from './pine-home.mjs';
 import {MINERAL_IDS,mineralAsset} from './mineral-homes.mjs';
 import {WOOD_HOMES,designMedia} from './wood-homes.mjs';
@@ -5,14 +6,14 @@ import {REFERENCE_HOMES} from './reference-homes.mjs';
 import {GRAPHITE_HOME,REFRESHED_ROOMS,applyRoomRefresh} from './room-refresh.mjs';
 import {HOTEL_HOMES} from './hotel-homes.mjs';
 export const ROOMS=[
- {id:'living',name:'客厅',area:'客餐厅合计约 21.4㎡'},
- {id:'dining',name:'餐厅 / 玄关',area:'与客厅共用约 21.4㎡'},
- {id:'balcony',name:'景观阳台',area:'原图标注约 5㎡'},
- {id:'master',name:'主卧',area:'原图标注约 13.5㎡'},
- {id:'second',name:'次卧 / 书房',area:'原图标注约 7.2㎡'},
- {id:'kitchen',name:'厨房',area:'原图标注约 6.6㎡'},
- {id:'bath',name:'卫生间',area:'原图标注约 4.3㎡'},
- {id:'utility',name:'生活阳台',area:'原图标注约 2.5㎡'}
+ {id:'living',name:'客厅',area:''},
+ {id:'dining',name:'餐厅 / 玄关',area:''},
+ {id:'balcony',name:'景观阳台',area:''},
+ {id:'master',name:'主卧',area:''},
+ {id:'second',name:'次卧 / 书房',area:''},
+ {id:'kitchen',name:'厨房',area:''},
+ {id:'bath',name:'卫生间',area:''},
+ {id:'utility',name:'生活阳台',area:''}
 ];
 export const HOMES={
  dusk:{name:'暮色私邸',subtitle:'EDITION 灵感 · 温暖的私人居所',description:'烟熏胡桃木包裹空间，柔光落在皮革与石面上。家具、织物与建筑一起设计，八个空间延续同一种温度。',
@@ -40,5 +41,5 @@ export const HOMES={
  ...HOTEL_HOMES, ...REFERENCE_HOMES,graphite:GRAPHITE_HOME,...WOOD_HOMES
 };
 applyRoomRefresh(HOMES);
-export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');if(design==='pine-library')return pineAsset(room,thumb);if(MINERAL_IDS.includes(design))return mineralAsset(design,room,thumb);if(WOOD_HOMES[design])return designMedia(design+'/'+room+(thumb?'-thumb':'')+'.webp');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
+export function homeAsset(design,room,thumb=false){if(!HOMES[design]||!ROOMS.some(x=>x.id===room))throw Error('未知空间');if(EXPANSION_IDS.includes(design))return expansionAsset(design,room,thumb);if(design==='pine-library')return pineAsset(room,thumb);if(MINERAL_IDS.includes(design))return mineralAsset(design,room,thumb);if(WOOD_HOMES[design])return designMedia(design+'/'+room+(thumb?'-thumb':'')+'.webp');return `/tour/home-assets/${design}/${REFRESHED_ROOMS[design]?.includes(room)?'v16/':''}${room}${thumb?'-thumb':''}.jpg`;}
 export function resolveHomeState(design='dusk',room='living'){return {design:HOMES[design]?design:'dusk',room:ROOMS.some(x=>x.id===room)?room:'living'};}

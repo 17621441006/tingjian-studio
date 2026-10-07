@@ -4,6 +4,8 @@ import {build} from 'esbuild';
 // History category is archived on GitHub; never recreate its deployed files.
 const retired=JSON.parse(await fs.readFile('verification/v37/retired-history.json','utf8'));
 for(const {path} of retired.files)await fs.rm(path,{force:true});
+const privateAssets=JSON.parse(await fs.readFile('verification/v39/retired-private-assets.json','utf8'));
+for(const {path} of privateAssets.files)await fs.rm(path,{force:true});
 await fs.rm('dist/lab',{recursive:true,force:true});
 
 await fs.rm('dist/tour/legacy-runtime',{recursive:true,force:true});

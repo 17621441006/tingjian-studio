@@ -1,3 +1,4 @@
+import {EXPANSION_HOMES} from './expansion-homes.mjs';
 import {initDesignerGallery} from './designer-gallery.mjs';
 import {initLifestyle} from './lifestyle.mjs';
 import {emptyLifestyle,normalizeLifestyle} from './lifestyle-data.mjs';
@@ -85,7 +86,7 @@ export function initDesignJourney(root,gallery){
   const lights=$('[data-layout-lights]');lights.replaceChildren();const full=current.design==='dusk'&&current.room==='living';
   for(const l of LIGHT_SCENES.filter(x=>full||x.id==='daywarm')){const candidate={...current,light:l.id},b=makeButton('','layoutLight',l.id,()=>choose({...intended,light:l.id}));b.disabled=!sceneAvailable(candidate);b.title=b.disabled?sceneNote(candidate):l.hint;b.setAttribute('aria-pressed',String(current.light===l.id));const strong=document.createElement('strong'),small=document.createElement('small');strong.textContent=l.name;small.textContent=b.disabled?'本组合待补充':l.hint;b.append(strong,small);lights.append(b);}
   $('[data-layout-light-hint]').textContent=full?'按当前搭配显示可用光线':'本区先比较排布';$('[data-layout-go-lights]').hidden=full||current.design!=='dusk';
-  $('[data-layout-scope]').textContent='前 8 套的主卧、次卧和厨房新增收纳布局；切换房间后选择「新布局」与原方案对照。最终效果页默认展示新布局。';
+  $('[data-layout-scope]').textContent=EXPANSION_HOMES[current.design]?HOMES[current.design].description+' 可分别查看餐厅、次卧、厨房、卫生间与双阳台的具体排布。':'前 8 套的主卧、次卧和厨房新增收纳布局；切换房间后选择「新布局」与原方案对照。最终效果页默认展示新布局。';
   $('[data-layout-availability]').textContent=sceneNote(current);
   const info=layoutInfo(current),path=sceneAsset(current);
   const layout_cameraReady=setFloorPhoto($('[data-layout-image]'),path,current,$('[data-layout-save]'));renderLivingViews($('[data-layout-camera]'),$('[data-layout-image]'),current,layout_cameraReady,()=>{setFloorPhoto($('[data-layout-image]'),path,current,$('[data-layout-save]'));},[$('[data-layout-save]')]);$('[data-layout-image]').alt=HOMES[current.design].name+' · '+roomName(current.room)+' · '+sceneLabel(current)+' · '+lightName(current.light)+'概念效果图';
@@ -172,7 +173,7 @@ export function initDesignJourney(root,gallery){
   if(wholeView==='vr'&&!vr.available)wholeView='model';
   const vrVisible=vr.available&&wholeView==='vr'&&step==='whole'&&wholeMode==='custom'&&!historyOpen;
   $('[data-dusk-vr-panel]').hidden=!vrVisible;
-  $('[data-dusk-vr-selection]').textContent=vr.changed.length?'你已修改 '+vr.changed.join('、')+'。下方仍是暮色基准全景，尚未重绘这些修改；请用“三维整屋 + 写实对照”查看已确认搭配。':'全景依据暮色基准搭配制作。可见细节以原设计图为参照，未展示区域为 AI 补全。';
+  $('[data-dusk-vr-selection]').textContent=vr.changed.length?'你已修改 '+vr.changed.join('、')+'。下方仍是暮色基准全景，尚未重绘这些修改；请用“逐室三维 + 写实对照”查看已确认搭配。':'全景依据暮色基准搭配制作。可见细节以原设计图为参照，未展示区域为 AI 补全。';
   if(result.lifestyle&&Object.values(result.lifestyle.rooms).some(ids=>ids.length))$('[data-dusk-vr-selection]').textContent+=' 新增软装与智能设备尚未重绘到此全景。';
   if(vrVisible&&!vrHost.children.length){const iframe=document.createElement('iframe');iframe.title='暮色私邸 · 写实全景 VR';iframe.src='/vr/dusk/#'+wholeRoom;iframe.setAttribute('allow','fullscreen; xr-spatial-tracking');iframe.setAttribute('allowfullscreen','');vrHost.append(iframe);}
   if(!vrVisible)vrHost.replaceChildren();

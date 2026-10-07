@@ -1,3 +1,5 @@
+import {EXPANSION_IDS} from './expansion-homes.mjs';
+import {furnishExpansionWet,furnishExpansionDining} from './expansion-furnishings.mjs';
 import {applyLifestyle} from './lifestyle-model.mjs';
 import {applySceneDecor} from './scene-decor.mjs';
 import * as THREE from 'three';
@@ -8,7 +10,7 @@ import {applyObjectVisibility} from './scene-objects.mjs';
 import {furnishSecondary,furnishBalcony} from './room-furnishings.mjs';
 
 export function buildWholeGeometry(snapshot,textures={},options={}){
- const spec=wholeModelSpec(snapshot),root=new THREE.Group(),rooms=new Map(),objects=new Map(),customPalette=['mauve-walnut','plum-gallery','amber-stone'].includes(spec.design);root.name='confirmed-home';root.userData.spec=spec;
+ const spec=wholeModelSpec(snapshot),root=new THREE.Group(),rooms=new Map(),objects=new Map(),customPalette=[...EXPANSION_IDS,'mauve-walnut','plum-gallery','amber-stone'].includes(spec.design);root.name='confirmed-home';root.userData.spec=spec;
  const mat=(color,roughness=.7,extra={})=>new THREE.MeshStandardMaterial({color,roughness,...extra});
  const surface=(color,map,roughness=.7,extra={})=>mat(color,roughness,{map:textures[map]||null,...extra});
  const m={wall:mat(spec.palette.wall,.9),wood:surface(spec.palette.wood,'wood',.48),stone:surface(customPalette?spec.palette.stone:'#a99f90','stone',.52),metal:mat('#66513c',.3,{metalness:.82}),dark:mat('#242521',.34),linen:surface(customPalette?spec.palette.textile:'#f0e7d8','linen',.9),rug:surface(customPalette?spec.palette.accent:'#b9a98e','linen',.98),white:mat('#f0efea',.22),leaf:mat('#4e6144',.85),glow:mat('#edcc9c',.5,{emissive:'#edbe81',emissiveIntensity:.55}),glass:mat('#807969',.15,{transparent:true,opacity:.34,depthWrite:false,metalness:.2,side:THREE.DoubleSide})};
@@ -65,10 +67,13 @@ export function buildWholeGeometry(snapshot,textures={},options={}){
  if(spec.masterLayout==='storage'){cabinet('master-window-storage','master',9.45,.30,1.9,.5,.43);box(.95,.055,.48,8.07,.74,.99,m.wood,rooms.get('master'));}else if(!spec.clearMaster)box(2.08,.48,.43,9.45,.24,.24,m.stone,rooms.get('master'));
  round(2.10,.014,2.5,9.25,.012,2.7,m.rug,rooms.get('master'),.02);
  const furnish={spec,rooms,group,box,seat:round,cylinder,cabinet,chair,bed,m};if(!furnishSecondary(furnish)){bed('second-daybed','second',8.65,6.35,1.18,-Math.PI/2);cabinet('second-storage','second',7.97,4.77,1.23,.53,1.5);box(.48,.055,.98,9.60,.75,5.15,m.wood,rooms.get('second'));chair('second-chair','second',9.0,5.12,Math.PI/2);}
+ furnishExpansionDining({...furnish,objects});
+ if(!furnishExpansionWet(furnish)){
  const kitchen=cabinet('kitchen-cabinet','kitchen',3.12,3.83,2.19,.56,.83,-Math.PI/2);box(2.24,.04,.61,0,.86,0,m.stone,kitchen);box(.55,.022,.41,.56,.897,0,m.dark,kitchen);box(.51,.03,.38,-.46,.89,0,m.metal,kitchen);cabinet('kitchen-return','kitchen',2.3,2.48,1.62,.57,.82);box(.63,1.58,.64,1.64,.79,2.64,m.metal,rooms.get('kitchen'));
  const bath=cabinet('bath-vanity','bath',1.07,4.87,.99,.48,.68);box(1.03,.035,.51,0,.705,0,m.stone,bath);round(.41,.085,.3,0,.76,0,m.white,bath);box(.73,.70,.025,1.08,1.24,4.63,m.metal,rooms.get('bath'));
  round(.38,.42,.56,1.31,.23,6.55,m.white,rooms.get('bath'),.13);box(.34,.71,.16,1.31,.36,6.90,m.white,rooms.get('bath'));box(.012,1.6,1.03,.96,.81,6.46,m.glass,rooms.get('bath'));box(.92,1.6,.012,.48,.81,5.94,m.glass,rooms.get('bath'));
  const utility=cabinet('utility-laundry','utility',.63,4.07,.78,.74,1.92);for(const y of [.46,1.34]){box(.61,.79,.62,0,y,-.07,m.white,utility);const ring=cylinder(.218,.03,0,y,-.397,m.metal,utility);ring.rotation.x=Math.PI/2;const glass=cylinder(.179,.036,0,y,-.42,m.dark,utility);glass.rotation.x=Math.PI/2;}
+ }
  if(!furnishBalcony(furnish)){if(spec.balconyPlan==='tea'){box(.97,.035,.35,4.94,.75,.85,m.wood,rooms.get('balcony'));chair('balcony-chair','balcony',5.04,1.52);}else{cabinet('balcony-bench','balcony',5.0,.99,1.60,.4,.44);round(1.52,.065,.38,5.0,.50,.99,m.linen,rooms.get('balcony'));cylinder(.25,.045,6.38,.53,1.55,m.wood,rooms.get('balcony'));cylinder(.035,.50,6.38,.25,1.55,m.metal,rooms.get('balcony'));}
  }
  if(spec.design==='copper'){for(const [id,room,x,z,yaw]of [['entry-art','dining',5.1,7.03,0],['living-wall-art','living',7.04,3.55,Math.PI/2]]){const art=group(id,room,x,z,yaw);for(let i=0;i<7;i++)round(.18,.035,.025,-.54+i*.18,1.5+Math.sin(i)*.09,0,m.metal,art,.01);}}

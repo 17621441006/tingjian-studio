@@ -1,0 +1,311 @@
+{
+  "scheme_id": "silver-retreat",
+  "scheme_name": "银灰栖居",
+  "scheme_number": 19,
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "room": "living",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-d67bc5ae-0168-4be2-b0ed-27a4f8e98156.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/living.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: combined living+dining only 面积未公开 total. Keep this exact view from balcony side toward dining/entry: sofa along existing RIGHT wall, wall-mounted television on LEFT, existing opening at left rear, same entrance door at rear right. Replace bulky leather sofa with shallow comfortable charcoal woven sofa, about 2.1m long, slim arms and saddle leather small pillow; no giant blue sofa. Replace heavy central coffee table with exactly two small nesting pewter/oak SIDE tables beside sofa, leaving center and crossing route visibly open. Replace big floor-standing media storage with a very slim wall-mounted fumed-oak media ledge. Quiet textured mineral grey walls with a few medium-brown oak panels, restrained abstract charcoal art, small plum accent. Back dining zone has modest rectangular extendable fumed-oak table and four lightweight charcoal upholstered chairs, simple brushed nickel compact pendant, slim shallow entrance cabinet. Grey mineral floor and compact charcoal woven rug. Preserve compact depth, modest ceiling and all original wall/door structure; no new partitions or enormous vacant floors.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2719111,
+      "sha256": "60b1c67dff118db8f5f9e72ec88f44bd17a27ea50a5cabc46bffb2ea0885d958",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Original sofa-right, TV-left, dining-back arrangement and structural openings retained.",
+          "Charcoal woven sofa, slim media ledge and two small nesting tables; center route open.",
+          "Distinct mineral-grey, medium oak and charcoal palette."
+        ],
+        "issues": [
+          "Tables sit in front of the sofa near its edge rather than fully at a sofa end.",
+          "Dining background chair framing and artwork differ slightly from the separate dining close-up."
+        ]
+      }
+    },
+    {
+      "room": "dining",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-db17d373-2a21-4109-8162-e4c2b3c01cd1.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/dining.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: dining portion of combined living+dining 面积未公开 total. Keep original close view and wall geometry with entry door on RIGHT, existing opening at LEFT and the same rear wall; do not invent openings or windows. A modest rectangular extendable fumed medium-brown oak table around 120x75cm with subtle leaf seam, exactly four lightweight chairs with slim pewter legs and charcoal upholstery. No banquette. Slim SHALLOW medium-oak entrance cabinet by existing right entrance, small pewter lamp. Quiet silver-grey mineral rear wall; remove full dark wood wall feel, retain selective oak detail; restrained small abstract art. Compact brushed nickel pendant. Realistic clear walk-by route and compact dining scale. No large central decoration blocking table or chairs. Keep warm neutral natural daylight, not amber night scene.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2364281,
+      "sha256": "421cf0b25063d7714a7f730cf37e8fd1de3a98fbcfff567bdef9b2d2e873ecaf",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Rectangular modest table with four chairs and no banquette.",
+          "Existing entrance right and opening left retained.",
+          "Shallow entrance cabinet, mineral-grey wall and oak furniture."
+        ],
+        "issues": [
+          "Table extension is suggested by center seam rather than demonstrated.",
+          "Artwork and chair framing differ slightly from dining background in living.png."
+        ]
+      }
+    },
+    {
+      "room": "master",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-9ccc13d3-005d-4f32-89b4-d7bb76e4eb1c.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/master.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: 面积未公开 master bedroom. Preserve BOTH existing windows exactly: the large corner BAY window left-back with its sill and city view, PLUS separate SIDE window at far right beside headboard. Same compact bedroom, entrance/wardrobe at left foreground, air conditioner position, flat ceiling 2.65m. Standard-height 1.5m wide upholstered bed, charcoal-silver textile headboard, comfortable medium-grey linen, a tiny muted plum cushion, slim floating fumed-oak bedside ledges with small nickel reading lights. NO raised floor or platform. Simple shallow fumed-oak wardrobe near entry, no furniture across route. Continuous visibly unobstructed floor route beside and around bed to the bay window, small bed width makes route credible. Silver-grey mineral walls, medium-brown oak floor, modest neutral grey curtains. Do not enlarge the bedroom or remove/merge either window.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2595802,
+      "sha256": "695949f5e244fdd31e59a85973ef9d23f72c8f84aeab7defc081dbbe7e9611ae",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Corner bay and separate side window both retained.",
+          "Standard-height upholstered double bed, floor route to bay and floating bedside storage.",
+          "Entry-side wardrobe retained; no raised platform."
+        ],
+        "issues": [
+          "Exact 1.5m bed width and route clearance are visual approximations; no scale verification from a raster image.",
+          "Bedside elements remain small drawer ledges rather than bare thin shelves."
+        ]
+      }
+    },
+    {
+      "room": "second",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-4dce8278-c6d8-4c44-ba0d-2ee79ab0d957.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/second.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: actual compact 面积未公开 permanent single guest bedroom, not an office and not a convertible room. Preserve the exact doorway/front walls, rear rectangular window and urban view, narrow width, 2.65m height. Completely change furniture layout: permanent standard-height 1.0m wide single bed LONGITUDINALLY along LEFT wall, head toward far window, foot near doorway; charcoal upholstered headboard, medium-grey bedding, small saddle leather cushion, tiny bedside pocket shelf fixed to left wall. Full-height SHALLOW fumed medium-brown oak wardrobe on RIGHT near doorway only; do not extend wardrobe across far window. A very small writing shelf in far RIGHT corner at just one side of window, tiny lightweight tucked stool, not a full-width desk. CENTRAL AISLE visibly clear all the way from door toward window. Silver-grey mineral wall, medium oak floor, charcoal textile, brushed pewter. No bed on right, no pull-down bed, no sofa-bed, no platform, no queen bed, no large desk, no expanded room.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2598884,
+      "sha256": "a9a771868176a91c261781af8062250ab1ad0b653603a3bb761c1a4ccbef5d78",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Permanent single bed longitudinally left.",
+          "Shallow full-height wardrobe near doorway right, small writing shelf far right.",
+          "Central aisle remains clear; rear window and narrow envelope preserved."
+        ],
+        "issues": [
+          "Exact 1.0m mattress width is a visual approximation."
+        ]
+      }
+    },
+    {
+      "room": "kitchen",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-cebdbd11-744c-472e-b540-ced2ebd584ee.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/kitchen.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: compact 面积未公开 kitchen. Preserve exact entry framing, room width/length, back wall and same centered rectangular double window with original city view. CHANGE THE CABINETS TO TRUE GALLEY: exactly TWO STRAIGHT OPPOSED parallel runs along LEFT and RIGHT walls; remove the entire bridge counter and cabinet under the rear window. Empty visible floor must continue between runs right up to bare rear wall below window. No counter touching across end, no U-shaped layout. Sink moves to LEFT counter toward window, faucet located on left run; induction hob on RIGHT run with compact integrated hood. Fumed medium-brown oak base doors and silver-grey upper cabinets, grey mineral stone countertop/backsplash, brushed nickel faucet and pulls. Built-in appliance near entry left. Counters modest depth, realistic compact corridor. No island, no peninsula, no bridge shelf under window, no sink at end, no extra window, no enlarged space.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/kitchen.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2231205,
+      "sha256": "d49f278569340d561649694456c687ede8dfaf76286f3c290cec1b4826b8a374",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Two straight opposed galley counters; no rear bridge counter.",
+          "Sink on left, hob on right, empty end floor below original window.",
+          "Compact width, existing entry and city-view window preserved."
+        ],
+        "issues": [
+          "Generated hob is gas despite the prompt requesting induction; assigned brief only required hob on right, so layout requirement is met."
+        ]
+      }
+    },
+    {
+      "room": "bath",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-d11ab3bb-8fbf-427c-aa46-78c6dd7d8c66.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/bath.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: compact 面积未公开 bathroom, same entry view, shower on LEFT, toilet on RIGHT foreground, narrow frosted window on back RIGHT, single basin at back. Silver-grey mineral tile, graphite and brushed nickel fittings, medium-brown oak accents. Replace full vanity cabinet with a compact single wall-hung basin/counter with INTENTIONAL CLEAR OPEN KNEE SPACE directly beneath the basin, with neatly arranged visible plumbing; separate slim rolling storage cart beside it, not underneath knee space. Glass-enclosed shower stays LEFT; within shower add a tasteful compact fold-down wall seat and discreet horizontal brushed nickel grab rail integrated with elegant fittings. Retain toilet on RIGHT, compact footprint, simple mirror, daylight from same frosted window, warm subtle lighting. Comfort-oriented residential elegance, no hospital styling, no medical symbols or certification labels. No bathtub, no double basin, no expanded bathroom.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/bath.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2586746,
+      "sha256": "0a19c19001bbfb94102bd5dde14531193d574ce92fabd6a454a84ddd96801094",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Single wall-hung basin with visible open knee space.",
+          "Separate rolling cart right of basin.",
+          "Shower left with fold-down seat and subtle rail; toilet right; original frosted window.",
+          "No tub, double basin, medical signage or accessibility certification claim."
+        ],
+        "issues": [
+          "Metals render warm pewter/bronze under ambient lighting rather than uniformly cool nickel.",
+          "Knee space is depicted conceptually and is not a measured accessibility specification."
+        ]
+      }
+    },
+    {
+      "room": "balcony",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-d72f7cee-0345-43ab-b1d6-96670cb1d04c.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/balcony.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: main balcony only 面积未公开. Keep same view from living room through the existing sliding-glass opening, same slim black frames, beam, short-end walls and city skyline. CRITICAL CORRECTION: the exterior balcony glazing continues FULL HEIGHT ALL THE WAY TO FLOOR; absolutely NO solid sill, NO opaque lower wall, NO parapet, NO under-window bench. Full transparent glazing below horizontal safety rail, bottom slim track meets floor. Slim side opening/casement remains. Remove bench, giant plant and tea arrangement. Exactly ONE comfortable upright charcoal chair with medium-oak arms in the far RIGHT short-end corner, plus one narrow pewter side table immediately beside it; chair clear of central route. Entire CENTRAL FLOOR remains open, grey mineral tile floor, selective fumed oak panel at short end. No desk, no bistro dining, no gym gear, no extra chairs, no sofa, no giant pot. Warm-neutral daylight, city visible down through low glass.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/balcony.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2435869,
+      "sha256": "1d6adc7a16d8d6957365b6bcb3fc7a8bbf79f7f881a4d779e3d71229c299c7fd",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Floor-to-ceiling clear outer glazing with no opaque sill or bench.",
+          "Single upright charcoal chair and narrow table in right short-end corner.",
+          "Central floor open; same city-view character and sliding doorway."
+        ],
+        "issues": [
+          "Slim opening frame is visible; operability of the outer side panel cannot be verified in still rendering."
+        ]
+      }
+    },
+    {
+      "room": "utility",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-66aafb95-2149-43c4-aff7-d460e5e16b68.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/utility.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: photorealistic apartment interior visualization, one individual room image. Output requested exactly 1536x1024 landscape, no collage, no text, no watermark, no people. Scheme 'Silver Retreat': quiet silver-grey mineral surfaces, fumed medium brown oak, charcoal textiles, restrained saddle leather details, pewter/brushed metal; dark plum accent only very small. Warm-neutral natural daylight with subtle dramatic shading, comfortable permanent home, never a black cave, never clinical or hospital-like, never all-white or pale monochrome. Real compact Chinese city apartment, ceiling approximately 2.65m. Preserve exact structural room envelope, flat walls, doors, windows, beams and city-view character from input image 1 except expressly specified furniture/window correction below. Input image 1 is the room edit target and structural/camera reference; image 2 is the apartment floor plan solely for realistic scale and topology. Furniture may change but architecture must not expand. Keep camera position and believable lens/perspective from image 1, no ultra-wide artificial enlargement. Delicate material realism, professional interior photograph.\n\nRoom: compact narrow 面积未公开 utility balcony. Preserve original long LEFT window wall and city view, end-wall position, right wall and width, 2.65m ceiling. Washing/drying tower remains at far END, realistic stacked silver-grey front-load appliances in compact fumed-oak housing. Add a visible pull-down clothes hanging rail neatly mounted near upper right with articulated supports, and accessible upper shallow shelves with restrained laundry supplies. RIGHT side worktop deliberately shallow, with movable sorting baskets on small casters tucked beneath; keep narrow center path open. Mineral grey floor and wall panels, medium-brown oak cabinetry, brushed nickel details. No decorative big plants, no bed, no huge folding table, no room expansion; natural neutral daylight. Keep appliances realistic and no readable branding.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/utility.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2258558,
+      "sha256": "978b9e813d78bed341d6cbce3aa4a50ef6b407a4d456bfd9341a1134770f1c38",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Washer/dryer tower at end, original left window wall.",
+          "Visible articulated pull-down hanging rail and upper shelves.",
+          "Shallow right worktop and rolling sorting baskets; compact aisle clear."
+        ],
+        "issues": [
+          "Appliance controls contain indistinct generated markings, not readable branding.",
+          "Upper shelf accessibility is conceptual, not dimension-verified."
+        ]
+      }
+    },
+    {
+      "room": "living2",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-373b95bf-6241-4888-ae01-d1721435e68d.png",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/living2.png",
+      "requested_dimensions": [
+        1536,
+        1024
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: single reverse-angle apartment room visualization. Generate exactly one 1536x1024 landscape photograph, no collage, no text, no watermark, no people. Scheme Silver Retreat / 银灰栖居.\nInput image 1: completed living room; authoritative reference for all living-room finishes, furniture, ceiling, room width and real compact 面积未公开 combined living+dining size. Input image 2: completed main balcony; authoritative reference for exact balcony glazing, city view, upright chair and narrow side table. Input image 3: floor plan for topology and scale only.\nPrimary request: create the REVERSE VIEW of this same living room, camera positioned at dining/entry side looking toward main balcony, eye height 1.4m, natural approximately 32mm architectural interior photo, modest 2.65m ceiling. This is a 180-degree reverse from image 1. Therefore the SAME shallow charcoal woven sofa now appears along the LEFT wall, with same saddle leather cushion and small plum cushion, same tall restrained abstract artwork above it, same two little nesting pewter/oak side tables close beside sofa and an open center crossing. The SAME wall-mounted TV and very slim fumed-oak floating media ledge now appear on RIGHT wall. Same compact charcoal rug and grey mineral floor, quiet mineral silver-grey walls, selective medium-brown fumed-oak panels, same shallow ceiling detail and simple round ceiling light. Do not inflate width or length; visible floor has compact domestic scale.\nAt the far end show the SAME sliding-glass opening into the 面积未公开 balcony from image 2. Preserve its full transparent FLOOR-TO-CEILING outer glass, thin black frames and slim side opening. Absolutely no opaque lower wall, no solid sill or under-window bench. City and trees remain visible right down to bottom track. The same one upright charcoal chair with oak arms and narrow pewter side table stay at the balcony's RIGHT short-end corner as viewed from this camera, central balcony floor entirely open. Show enough balcony and furniture for cross-view identity. Warm-neutral daytime sun with gently dramatic shadows, comfortable permanent home, legible mid-grey material surfaces.\nConstraints: no new doors or windows, no invented walls, no double-height ceiling, no expanded living room, no huge blue sofa, no central heavy coffee table, no all-white pale styling, no black-cave underexposure, no bistro table, gym, desk or balcony bench. Keep this one compact apartment, matching images 1 and 2.",
+      "referenced_image_paths": [
+        "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/living.png",
+        "/workspace/scratch/52340dceb96f/assets-v38/silver-retreat/balcony.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2765741,
+      "sha256": "287ac74202790b4a8f3d64ebe00c1619261bb8d9948d433a03c0db2e78d66a4e",
+      "qa": {
+        "status": "accepted",
+        "observed": [
+          "Reverse orientation consistent: same sofa left, TV/media right.",
+          "Matching charcoal sofa, artwork, nesting tables, rug, mineral floor and ceiling.",
+          "Balcony shows clear glazing to floor and same one chair at right corner."
+        ],
+        "issues": [
+          "A tall branch arrangement appears behind the sofa although absent in the first living view.",
+          "Reverse view is a synthesized visual continuation, not a survey-accurate panorama."
+        ]
+      }
+    }
+  ],
+  "qa_summary": {
+    "inspected_all_outputs": true,
+    "all_actual_dimensions": [
+      1536,
+      1024
+    ],
+    "all_individual_landscape_images": true,
+    "no_collage_text_or_watermark": true,
+    "iterations": 0,
+    "limitations": [
+      "Raster concept images preserve reference geometry visually but are not measured construction drawings.",
+      "Palette skews warm silver/taupe under daylight and warm fixtures.",
+      "Minor dining decor and chair-detail differences exist between living and dining close-up.",
+      "Reverse view has one extra tall branch arrangement."
+    ]
+  }
+}

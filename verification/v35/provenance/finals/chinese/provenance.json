@@ -14,7 +14,7 @@
   "records": [
     {
       "room": "living",
-      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Shared21.4sqm living+dining. Preserve woodframed sofa, TV, table, dining positions, geometric lattice and redbrown wood frames. Fine celadon and burnt orange accent cushions, linen/wool textiles, crafted ink art and tiny ceramic objects, discreet wall scene key. Keep white walls; no dark wall replacement. Any visible balcony glazing must reach floor. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Shared面积未公开 living+dining. Preserve woodframed sofa, TV, table, dining positions, geometric lattice and redbrown wood frames. Fine celadon and burnt orange accent cushions, linen/wool textiles, crafted ink art and tiny ceramic objects, discreet wall scene key. Keep white walls; no dark wall replacement. Any visible balcony glazing must reach floor. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/living.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -25,7 +25,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original camera, walls, ceiling and sofa/TV/dining positions preserved; fine textile and ceramic styling.",
       "outputs": [
@@ -63,7 +63,7 @@
     },
     {
       "room": "dining",
-      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Dining within shared21.4sqm. Preserve table/chairs, exact geometric lattice, cabinet/door, pale walls, ceiling black lines. Restrained celadon ceramic tableware, linen placemats, a small sculptural object and subtle shelf lighting. Keep circulation clear. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. Dining within shared面积未公开. Preserve table/chairs, exact geometric lattice, cabinet/door, pale walls, ceiling black lines. Restrained celadon ceramic tableware, linen placemats, a small sculptural object and subtle shelf lighting. Keep circulation clear. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/dining.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -74,7 +74,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original compact dining, doorway and cabinet positions preserved; refined ceramics and lighting.",
       "outputs": [
@@ -112,7 +112,7 @@
     },
     {
       "room": "master",
-      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. 13.5sqm master bedroom. Preserve exact bed, windows, cabinet positions, upholstered beige headboard and redbrown trim, pale walls. Enhance linen bedding, wool throw, warm reading light, integrated curtain track, hidden charging and small celadon ceramic. No suite enlargement. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. 面积未公开 master bedroom. Preserve exact bed, windows, cabinet positions, upholstered beige headboard and redbrown trim, pale walls. Enhance linen bedding, wool throw, warm reading light, integrated curtain track, hidden charging and small celadon ceramic. No suite enlargement. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/master.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -123,7 +123,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original compact master view and bed/window relationships retained; upgraded fine textiles.",
       "outputs": [
@@ -161,7 +161,7 @@
     },
     {
       "room": "second",
-      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. HARD correction overrides furniture arrangement in Image1: room is genuine tiny7.2sqm. Image4 ORIGINAL DUSK SECOND is additional geometry authority for required narrow layout. Replace oversized bed and right wardrobe with narrow1.0–1.2m x2m SINGLE BED ALONG RIGHT SIDE WALL, length from doorway foreground toward far window INTO DEPTH. Desk under far window max45–50cm deep. Narrow clear central aisle. Compact storage above bed or left. Preserve far window/doorway and tight width. No bed across room, no horizontal underwindow platform. Keep Chinese redbrown wood, white walls, linen bedding, subtle celadon detail, fine reading lamp. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final furnished photorealistic interior at native1536x1024. Image1 target is geometry/camera/architecture authority, except explicit tiny bedroom correction. Image2 ONLY modern oriental craft/material styling reference, NEVER copy room layout. Image3 actual floorplan. Retain original Chinese scheme palette: redbrown wood, light beige stone, white walls, fine black ceiling lines. Finished restrained craftsmanship, natural fine texture and warm light/daylight. HARD correction overrides furniture arrangement in Image1: room is genuine tiny面积未公开. Image4 ORIGINAL DUSK SECOND is additional geometry authority for required narrow layout. Replace oversized bed and right wardrobe with narrow1.0–1.2m x2m SINGLE BED ALONG RIGHT SIDE WALL, length from doorway foreground toward far window INTO DEPTH. Desk under far window max45–50cm deep. Narrow clear central aisle. Compact storage above bed or left. Preserve far window/doorway and tight width. No bed across room, no horizontal underwindow platform. Keep Chinese redbrown wood, white walls, linen bedding, subtle celadon detail, fine reading lamp. No people, text, logos, UI, collage, enlarged architecture, invented columns or kitsch/futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/second.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -173,7 +173,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan",
+        "Actual面积未公开sqm floorplan",
         "Original dusk second extra narrow-room geometry authority"
       ],
       "room_qa": "Visual pass: narrow single bed along right wall runs doorway-to-window into depth; shallow far-window desk and clear narrow aisle; compact overhead storage. Chinese corrected from original oversized left bed using dusk geometry.",
@@ -212,7 +212,7 @@
     },
     {
       "room": "kitchen",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed6.6sqm kitchen. Preserve tight U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale cabinetry, redbrown doorway and beige stone. Fine stone texture, warm undercabinet light, handmade celadon utensil jar, neatly folded linen towel. Minimal objects. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed面积未公开 kitchen. Preserve tight U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale cabinetry, redbrown doorway and beige stone. Fine stone texture, warm undercabinet light, handmade celadon utensil jar, neatly folded linen towel. Minimal objects. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/kitchen.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -223,7 +223,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original enclosed U counter, sink/hob/window/appliance layout retained; no island or enlargement.",
       "outputs": [
@@ -261,7 +261,7 @@
     },
     {
       "room": "bath",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact4.3sqm bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast beige stone, fine redbrown vanity wood, beautifully lit mirror, folded woven towels, one celadon ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact面积未公开 bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast beige stone, fine redbrown vanity wood, beautifully lit mirror, folded woven towels, one celadon ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/bath.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -272,7 +272,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original shower-left, single-vanity-center, toilet-right layout retained; no tub or double vanity.",
       "outputs": [
@@ -310,7 +310,7 @@
     },
     {
       "room": "balcony",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow narrow5sqm scenic balcony. Preserve exact narrow depth, sidewalls, redbrown wood ceiling, camera and openings. HARD all external glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove far windowseat block, replace with ONE lightweight freestanding redbrown wood reading chair with beige cushion and tiny side table, off glazing to keep view and narrow circulation free. Far-end glass also reaches floor behind chair. Keep small plant. No sofa or platform, no widening. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow narrow面积未公开 scenic balcony. Preserve exact narrow depth, sidewalls, redbrown wood ceiling, camera and openings. HARD all external glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove far windowseat block, replace with ONE lightweight freestanding redbrown wood reading chair with beige cushion and tiny side table, off glazing to keep view and narrow circulation free. Far-end glass also reaches floor behind chair. Keep small plant. No sofa or platform, no widening. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/balcony.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -321,7 +321,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Visual pass: fullheight external glass to finished floor, no parapet/windowseat; lightweight freestanding chair and tiny side table; original shallow footprint retained.",
       "outputs": [
@@ -359,7 +359,7 @@
     },
     {
       "room": "utility",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow2.5sqm utility balcony. Preserve stacked laundry at end, narrow cabinet beside it, slim fullheight glazing on left, kitchen glimpse right. No enlargement. Keep original pale cabinet fronts and redbrown frames, beige stone; warm task/shelf lighting, folded linen, minimal functional objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained modern oriental craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original Chinese scheme redbrown wood, pale cabinetry where existing, white walls and warm beige stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow面积未公开 utility balcony. Preserve stacked laundry at end, narrow cabinet beside it, slim fullheight glazing on left, kitchen glimpse right. No enlargement. Keep original pale cabinet fronts and redbrown frames, beige stone; warm task/shelf lighting, folded linen, minimal functional objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/chinese/v16/utility.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -370,7 +370,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Narrow stack laundry and original cabinet/window geometry retained; lower glazing to floor.",
       "outputs": [

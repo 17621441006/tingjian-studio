@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "schemes": 20,
+  "added": [
+    "terracotta-atelier",
+    "tea-cuisine",
+    "silver-retreat",
+    "moss-garden"
+  ],
+  "mainImages": 36,
+  "thumbnails": 36,
+  "nativeResolution": [
+    1536,
+    1024
+  ],
+  "allEightRoomsInLayoutStep": true,
+  "geometryVariants": [
+    "second",
+    "kitchen",
+    "bath",
+    "balcony",
+    "utility",
+    "dining"
+  ],
+  "sameOriginNewImages": true,
+  "browserVisualTested": false,
+  "scope": "Authored concept images and approximate furnishing models; not measured construction drawings or image-derived scans."
+}

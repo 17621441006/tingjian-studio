@@ -1,7 +1,8 @@
+import {expansionLayout} from './expansion-homes.mjs';
 import {hasReplan,replanInfo,replanAsset} from './layout-v37.mjs';
 import {HOMES,homeAsset} from './home-designs.mjs';
 
-export const LAYOUT_ROOMS=[{id:'living',name:'客餐厅'},{id:'master',name:'主卧'},{id:'second',name:'次卧'},{id:'kitchen',name:'厨房'},{id:'balcony',name:'景观阳台'}];
+export const LAYOUT_ROOMS=[{id:'living',name:'客厅'},{id:'dining',name:'餐厅 / 玄关'},{id:'master',name:'主卧'},{id:'second',name:'次卧'},{id:'kitchen',name:'厨房'},{id:'bath',name:'卫生间'},{id:'balcony',name:'景观阳台'},{id:'utility',name:'生活阳台'}];
 export const LIGHT_SCENES=[
  {id:'daylight',name:'日光 · 不开灯',hint:'只看自然采光'},
  {id:'daywarm',name:'日光 · 暖灯',hint:'白天补一点温暖'},
@@ -30,7 +31,7 @@ function originalLayoutsFor(design,room){
  const found=DUSK_LAYOUTS[room];
  return design==='dusk'?found:[{...found[0],name:'现有布局',short:'保留本套风格原排布',title:'先保留这套风格的空间关系',copy:'这一套先保留现有排布；新增的布局与五种光线对照目前在暮色私邸中。可以继续查看本套清单，也可以返回风格页选择暮色私邸试布局。',benefit:'所选风格、原有房间效果与选购参考继续保留。',tradeoff:'本套的新排布与灯光组合尚未开放，可先整理喜欢的单品与材料。',items:HOMES[design].rooms[room].materials,checks:['复尺家具外轮廓和通道','核对门扇、窗扇和柜门开启','结合实际采光进行材料看样']}];
 }
-export function layoutsFor(design,room){const original=originalLayoutsFor(design,room);return hasReplan(design,room)?[...original,replanInfo(design,room)]:original;}
+export function layoutsFor(design,room){const expansion=expansionLayout(design,room);if(expansion)return [expansion];const original=originalLayoutsFor(design,room);return hasReplan(design,room)?[...original,replanInfo(design,room)]:original;}
 export function resolveLayoutState(s={}){
  const design=HOMES[s.design]?s.design:'dusk',room=LAYOUT_ROOMS.some(r=>r.id===s.room)?s.room:'living';
  const layout=layoutsFor(design,room).some(l=>l.id===s.layout)?s.layout:'original';

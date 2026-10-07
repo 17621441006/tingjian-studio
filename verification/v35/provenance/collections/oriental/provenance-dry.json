@@ -18,7 +18,7 @@
     {
       "collection": "oriental",
       "room": "living",
-      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Living view: keep exactly image1 camera and architecture, sofa on right, television on left, dining at back. Living and dining combined only21.4sqm. Compact2.1m sofa, small thin stone coffee table, restrained finely textured rug. Do not enlarge. If any balcony glazing is visible extend it all the way down to finished floor. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Living view: keep exactly image1 camera and architecture, sofa on right, television on left, dining at back. Living and dining combined only面积未公开. Compact2.1m sofa, small thin stone coffee table, restrained finely textured rug. Do not enlarge. If any balcony glazing is visible extend it all the way down to finished floor. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
       "inputs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -29,7 +29,7 @@
       "input_roles": [
         "original dusk room / camera and geometry authority",
         "lifestyle-v33 collection / style only",
-        "actual75.1sqm floorplan / footprint authority"
+        "actual面积未公开sqm floorplan / footprint authority"
       ],
       "qa": {
         "visual_inspection": "pass",
@@ -71,7 +71,7 @@
     {
       "collection": "oriental",
       "room": "dining",
-      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Dining view: match exactly image1 camera, wall, doorway at right and opening at left. Compact dining within combined21.4sqm living+dining. Small four person table, narrow sideboard, crafted pendant, one small sculpture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Dining view: match exactly image1 camera, wall, doorway at right and opening at left. Compact dining within combined面积未公开 living+dining. Small four person table, narrow sideboard, crafted pendant, one small sculpture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
       "inputs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -82,7 +82,7 @@
       "input_roles": [
         "original dusk room / camera and geometry authority",
         "lifestyle-v33 collection / style only",
-        "actual75.1sqm floorplan / footprint authority"
+        "actual面积未公开sqm floorplan / footprint authority"
       ],
       "qa": {
         "visual_inspection": "pass",
@@ -124,7 +124,7 @@
     {
       "collection": "oriental",
       "room": "master",
-      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Master bedroom only13.5sqm. Exactly image1 camera/window placements/bed position/wardrobe and walls. Preserve corner window and right window, realistic compact aisles. Refine bedhead, fine linen, small bedside lamps, one artwork. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Master bedroom only面积未公开. Exactly image1 camera/window placements/bed position/wardrobe and walls. Preserve corner window and right window, realistic compact aisles. Refine bedhead, fine linen, small bedside lamps, one artwork. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
       "inputs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -135,11 +135,11 @@
       "input_roles": [
         "original dusk room / camera and geometry authority",
         "lifestyle-v33 collection / style only",
-        "actual75.1sqm floorplan / footprint authority"
+        "actual面积未公开sqm floorplan / footprint authority"
       ],
       "qa": {
         "visual_inspection": "pass",
-        "notes": "Original corner and right windows, door viewpoint, bed and wardrobe relation retained; compact13.5sqm impression."
+        "notes": "Original corner and right windows, door viewpoint, bed and wardrobe relation retained; compact面积未公开 impression."
       },
       "outputs": [
         {
@@ -177,7 +177,7 @@
     {
       "collection": "oriental",
       "room": "second",
-      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Tiny narrow7.2sqm second bedroom. Preserve EXACT image1 doorway viewpoint, narrow width and far window. A SINGLE narrow1.0m wide x2m long bed is LENGTHWISE ALONG RIGHT SIDE WALL, running from foreground/door toward far window, just as image1. Never rotate bed across width; NEVER horizontal bed beneath window. Desk under far window only45cm deep. Narrow central aisle. Compact upper cabinet right. No widening or large furniture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
+      "prompt": "Use case: style-transfer. Native1536x1024 photorealistic finished interior. Image1 original dusk room is CAMERA AND GEOMETRY AUTHORITY; image2 is MATERIAL AND STYLE ONLY, absolutely do not copy its geometry; image3 actual apartment plan fixes footprint. Tiny narrow面积未公开 second bedroom. Preserve EXACT image1 doorway viewpoint, narrow width and far window. A SINGLE narrow1.0m wide x2m long bed is LENGTHWISE ALONG RIGHT SIDE WALL, running from foreground/door toward far window, just as image1. Never rotate bed across width; NEVER horizontal bed beneath window. Desk under far window only45cm deep. Narrow central aisle. Compact upper cabinet right. No widening or large furniture. Apply redbrown crafted wood, celadon porcelain, burnt orange accents, contemporary oriental craft, restrained ink art, sculptural curved timber, no kitsch. Change materials and furnishings visibly to this collection: reddish crafted timber, celadon and rust accents, small restrained ink artwork. Maintain straight walls, original openings, width, ceiling height, furniture scale. Refine crafted art, linen and wool, discreet small scene key and hidden charging, warm local light and natural daylight. No text, logos, people, collage, extravagant enlargement, invented columns.",
       "inputs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/oriental.webp",
@@ -188,7 +188,7 @@
       "input_roles": [
         "original dusk room / camera and geometry authority",
         "lifestyle-v33 collection / style only",
-        "actual75.1sqm floorplan / footprint authority"
+        "actual面积未公开sqm floorplan / footprint authority"
       ],
       "qa": {
         "visual_inspection": "pass",

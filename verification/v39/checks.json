@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "schemes": 20,
+  "scannedPublicTextFiles": 51,
+  "removedDirectAssets": 6,
+  "modelVariants": 40,
+  "allRoomIsolationChecked": true,
+  "browserVisualTested": false,
+  "scope": "Current presentation and published assets only; existing Git history and caches are not rewritten."
+}

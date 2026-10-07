@@ -1,0 +1,35 @@
+{
+  "reason": "Hide original property plan and generation metadata from current distribution; historical commits are retained.",
+  "files": [
+    {
+      "path": "dist/tour/legacy-assets/6fe2ce11b656bd7e.png",
+      "bytes": 150622,
+      "sha256": "6fe2ce11b656bd7ee116560475a66aac2a8bf0aa5a0f0c83cbc827109ab62605"
+    },
+    {
+      "path": "dist/tour/home-assets/amber/generation-prompts.json",
+      "bytes": 34952,
+      "sha256": "0ee12cde82da9b8df124620908a180fc4e26351930a7db88160855ad9759c226"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-kitchen-revision.json",
+      "bytes": 1341,
+      "sha256": "4e75dbe5c58a110065ca1f1eac17a060df9d4ec4a21175514619eda18f8f2042"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-manifest.json",
+      "bytes": 18643,
+      "sha256": "657e6473ce95a0e5f7ed4a4f3304aea8b657e808d370a3dc981a3a2b1ce46582"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-prompts.json",
+      "bytes": 18643,
+      "sha256": "657e6473ce95a0e5f7ed4a4f3304aea8b657e808d370a3dc981a3a2b1ce46582"
+    },
+    {
+      "path": "dist/tour/home-assets/copper/generation-sources.json",
+      "bytes": 884,
+      "sha256": "0b071fe360c1c924da45c34849d972245752ec404dce1243119975d0d696045d"
+    }
+  ]
+}

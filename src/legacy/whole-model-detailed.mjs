@@ -1,3 +1,5 @@
+import {EXPANSION_IDS} from './expansion-homes.mjs';
+import {furnishExpansionWet,furnishExpansionDining} from './expansion-furnishings.mjs';
 import {applyLifestyle} from './lifestyle-model.mjs';
 import {applySceneDecor} from './scene-decor.mjs';
 import * as THREE from 'three';
@@ -12,7 +14,7 @@ import {furnishSecondary,furnishBalcony} from './room-furnishings.mjs';
 // All dimensions are design estimates in metres, using the same room polygons and choices.
 export function buildDetailedHome(snapshot,textures={}){
  const root=buildWholeGeometry(snapshot,textures,{shellOnly:true});root.name='detailed-confirmed-home';root.userData.quality='detailed';
- const {spec,rooms,objects,shellMaterials}=root.userData,amber=spec.design==='amber',copper=spec.design==='copper',customPalette=['mauve-walnut','plum-gallery','amber-stone'].includes(spec.design);
+ const {spec,rooms,objects,shellMaterials}=root.userData,amber=spec.design==='amber',copper=spec.design==='copper',customPalette=[...EXPANSION_IDS,'mauve-walnut','plum-gallery','amber-stone'].includes(spec.design);
  const physical=(color,roughness=.6,extra={})=>new THREE.MeshPhysicalMaterial({color,roughness,...Object.fromEntries(Object.entries(extra).filter(([,v])=>v!==undefined))});
  const surface=(color,key,roughness=.65,extra={})=>physical(color,roughness,{map:textures[key]||null,...extra});
  const m={
@@ -105,6 +107,8 @@ export function buildDetailedHome(snapshot,textures={}){
  if(spec.masterLayout==='storage'){cabinet('master-window-storage','master',9.45,.30,1.9,.5,.43);box(.95,.045,.48,8.07,.74,.99,m.wood,rooms.get('master'));}else if(!spec.clearMaster)box(2.05,.46,.43,9.45,.23,.24,m.stone,rooms.get('master'));
  curtain('master-curtains','master',9.48,.10,2.18);curtain('balcony-curtains','balcony',4.78,.69,2.55);
  const furnish={spec,rooms,group,box,seat:cushion,cylinder:(r,h,x,y,z,mat,p)=>cyl(r,r,h,x,y,z,mat,p),cabinet,chair,bed,m};if(!furnishSecondary(furnish)){bed('second-daybed','second',8.65,6.34,1.17,-Math.PI/2);cabinet('second-storage','second',7.97,4.77,1.23,.53,1.64,0,true);box(.48,.039,.98,9.60,.75,5.13,m.wood,rooms.get('second'));chair('second-chair','second',9.03,5.14,Math.PI/2);books(9.58,.785,4.95,rooms.get('second'));}
+ furnishExpansionDining({...furnish,objects});
+ if(!furnishExpansionWet(furnish)){
  const kitchen=cabinet('kitchen-cabinet','kitchen',3.12,3.83,2.19,.56,.84,-Math.PI/2);box(2.24,.027,.62,0,.87,0,m.marble,kitchen,.007);box(.56,.014,.40,.57,.89,0,m.dark,kitchen,.008);for(const x of [.39,.75])for(const z of [-.11,.11]){const ring=add(new THREE.TorusGeometry(.070,.002,5,28),m.metal,kitchen,x,.901,z);ring.rotation.x=Math.PI/2;}
  box(.5,.011,.37,-.46,.891,0,m.metal,kitchen,.01);box(.425,.005,.295,-.46,.899,0,m.dark,kitchen,.017);tube([[-.46,.90,-.20],[-.46,1.13,-.20],[-.46,1.17,-.13],[-.46,1.13,-.04]],.010,m.metal,kitchen);
  const ret=cabinet('kitchen-return','kitchen',2.28,2.49,1.56,.57,.84);box(1.59,.027,.62,0,.87,0,m.marble,ret,.007);box(.62,1.80,.62,1.62,.90,2.51,m.metal,rooms.get('kitchen'));box(.56,.007,.016,1.62,1.19,2.829,m.dark,rooms.get('kitchen'));
@@ -112,6 +116,7 @@ export function buildDetailedHome(snapshot,textures={}){
  const wc=group('bath-wc','bath',1.3,6.50);const bowl=sphere(.23,0,.29,0,m.white,wc);bowl.scale.set(.8,.8,1.35);cyl(.12,.145,.22,0,.11,.07,m.white,wc);const seat=add(new THREE.TorusGeometry(.155,.025,8,32),m.white,wc,0,.445,-.025);seat.rotation.x=Math.PI/2;seat.scale.y=1.33;box(.33,.73,.16,0,.365,.34,m.white,wc,.025);
  const shower=group('bath-shower','bath');box(.01,1.85,1.05,.96,.935,6.48,m.glass,shower,0);box(.95,1.85,.01,.48,.935,5.95,m.glass,shower,0);tube([[.08,.18,6.47],[.08,1.84,6.47],[.30,1.84,6.47]],.012,m.metal,shower);const rose=cyl(.11,.11,.015,.30,1.82,6.47,m.metal,shower);box(.63,.004,.011,.46,.015,6.98,m.metal,shower,0);
  const laundry=group('utility-laundry','utility',.62,4.09);box(.78,1.95,.74,0,.975,0,m.wood,laundry);for(const y of [.455,1.31]){box(.615,.805,.63,0,y,-.08,m.white,laundry,.016);const ring=cyl(.222,.222,.033,0,y-.03,-.407,m.metal,laundry,40);ring.rotation.x=Math.PI/2;const glass=cyl(.181,.181,.039,0,y-.03,-.431,m.smokedGlass,laundry,40);glass.rotation.x=Math.PI/2;box(.19,.064,.007,.145,y+.306,-.406,m.dark,laundry,.004);const dial=cyl(.029,.029,.019,-.105,y+.306,-.412,m.metal,laundry);dial.rotation.x=Math.PI/2;}for(let i=0;i<5;i++)box(.62,.006,.012,0,1.80+i*.026,-.38,m.dark,laundry,0);
+ }
  if(!furnishBalcony(furnish)){if(spec.balconyPlan==='tea'){box(1.02,.032,.36,4.98,.745,.87,m.wood,rooms.get('balcony'));chair('balcony-chair','balcony',5.03,1.51);}else{const bench=cabinet('balcony-bench','balcony',5.0,1.0,1.59,.40,.42);cushion(1.54,.075,.38,0,.468,0,m.linen,bench,4);}
  }
  if(copper){const art=group('living-wall-art','living',7.04,3.64,Math.PI/2);tube([[-.60,1.48,0],[-.35,1.63,0],[-.1,1.52,0],[.20,1.64,0],[.58,1.58,0]],.022,m.metal,art);}

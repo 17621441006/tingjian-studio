@@ -1,6 +1,8 @@
+import {furnishExpansionSecondary,furnishExpansionBalcony} from './expansion-furnishings.mjs';
 // Shared placement plan for the detailed and light models, in metres.
 // The first two homes keep their original furnishing arrangement.
 export function furnishSecondary({spec,rooms,group,box,seat,cylinder,cabinet,chair,bed,m}){
+ if(furnishExpansionSecondary({spec,rooms,group,box,seat,cylinder,cabinet,chair,bed,m}))return true;
  const room=rooms.get('second'),plan=spec.secondPlan;
  room.userData.plan=plan;
  const desk=(id,x,z,w,d,yaw=0)=>{const g=group(id,'second',x,z,yaw);box(w,.035,d,0,.75,0,m.wood,g);for(const x of [-w/2+.05,w/2-.05])box(.035,.73,d-.06,x,.365,0,m.wood,g);return g;};
@@ -37,6 +39,7 @@ export function furnishSecondary({spec,rooms,group,box,seat,cylinder,cabinet,cha
 }
 
 export function furnishBalcony({spec,rooms,group,box,seat,cylinder,cabinet,chair,m}){
+ if(furnishExpansionBalcony({spec,rooms,group,box,seat,cylinder,cabinet,chair,m}))return true;
  const plan=spec.balconyPlan;rooms.get('balcony').userData.plan=plan;
  if(plan==='bench'||plan==='tea')return false;
  const lounge=(id,x,z,yaw=0)=>{const g=group(id,'balcony',x,z,yaw);for(const xx of [-.25,.25])for(const zz of [-.23,.23])cylinder(.018,.33,xx,.165,zz,m.metal,g);seat(.56,.13,.60,0,.38,0,m.sofa,g);seat(.60,.42,.12,0,.62,-.26,m.sofa,g);for(const xx of [-.29,.29])seat(.09,.20,.58,xx,.50,0,m.sofa,g);return g;};

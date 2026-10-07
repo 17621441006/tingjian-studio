@@ -14,7 +14,7 @@
   "records": [
     {
       "room": "living",
-      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior, native 1536x1024 landscape. Image1 is dusk living edit target and absolute geometry/camera authority: keep exact walls, room width, ceiling, openings, camera, sofa/table/TV and dining positions. Image2 is ONLY material/styling reference, never copy its room layout. Image3 actual apartment floorplan: living+dining together21.4sqm. Keep original smoky walnut, taupe, brown leather, warm stone. Upgrade to restrained collected craftsmanship: richer real walnut grain, fine wool/linen cushions and throw, finely textured rug, one small bronze sculptural object, artwork with subtle tonal depth, tasteful reading light, discreet tiny wall scene key. Coherent warm lighting and soft daylight, natural material microtexture. No architectural enlargement, no extra room, no columns, no people, text, logos, UI or collage. Any visible balcony glass must extend to finished floor. Final polished attainable compact home.",
+      "prompt": "Use case: precise-object-edit. Create a final furnished photorealistic interior, native 1536x1024 landscape. Image1 is dusk living edit target and absolute geometry/camera authority: keep exact walls, room width, ceiling, openings, camera, sofa/table/TV and dining positions. Image2 is ONLY material/styling reference, never copy its room layout. Image3 actual apartment floorplan: living+dining together面积未公开. Keep original smoky walnut, taupe, brown leather, warm stone. Upgrade to restrained collected craftsmanship: richer real walnut grain, fine wool/linen cushions and throw, finely textured rug, one small bronze sculptural object, artwork with subtle tonal depth, tasteful reading light, discreet tiny wall scene key. Coherent warm lighting and soft daylight, natural material microtexture. No architectural enlargement, no extra room, no columns, no people, text, logos, UI or collage. Any visible balcony glass must extend to finished floor. Final polished attainable compact home.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/living.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -25,7 +25,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original camera, walls, ceiling and sofa/TV/dining positions preserved; fine textile and ceramic styling.",
       "outputs": [
@@ -63,7 +63,7 @@
     },
     {
       "room": "dining",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Dining portion of shared21.4sqm living+dining. Keep table, chairs, cabinet, door and art positions. Add linen placemats and refined handmade ceramics, restrained bronze sculptural object on cabinet and subtle shelf lighting. Preserve empty circulation. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Dining portion of shared面积未公开 living+dining. Keep table, chairs, cabinet, door and art positions. Add linen placemats and refined handmade ceramics, restrained bronze sculptural object on cabinet and subtle shelf lighting. Preserve empty circulation. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/dining.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -74,7 +74,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original compact dining, doorway and cabinet positions preserved; refined ceramics and lighting.",
       "outputs": [
@@ -112,7 +112,7 @@
     },
     {
       "room": "master",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. 13.5sqm master bedroom. Preserve bed, windows, cabinetry, ceiling, camera exactly. Refine linen bedding, wool throw, soft curtains on integrated tracks, collected tonal artwork, subtle reading lamps and hidden charging. No extra furniture, no suite enlargement. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. 面积未公开 master bedroom. Preserve bed, windows, cabinetry, ceiling, camera exactly. Refine linen bedding, wool throw, soft curtains on integrated tracks, collected tonal artwork, subtle reading lamps and hidden charging. No extra furniture, no suite enlargement. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/master.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -123,7 +123,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original compact master view and bed/window relationships retained; upgraded fine textiles.",
       "outputs": [
@@ -161,7 +161,7 @@
     },
     {
       "room": "second",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Tiny7.2sqm second bedroom. STRICT narrow1.0–1.2m x2m SINGLE bed along RIGHT SIDE WALL, its length runs from doorway foreground toward far window, INTO DEPTH. Exactly preserve narrow room, far window and doorway; do not widen. Desk under far window max45–50cm depth. Narrow clear central aisle. Compact storage. Refine linen bedding, fine wool throw, small reading light, warm shelf light. No transverse bed or under-window platform. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry, camera and architecture authority; preserve same view, walls, room dimensions, openings and furniture locations. Image2 ONLY styling/material reference; never copy its living layout. Image3 actual floorplan. Retain original dusk smoky walnut, warm brown leather, taupe and warm stone palette; improve craftsmanship and fine natural texture, coherent warm lighting with soft daylight. Tiny面积未公开 second bedroom. STRICT narrow1.0–1.2m x2m SINGLE bed along RIGHT SIDE WALL, its length runs from doorway foreground toward far window, INTO DEPTH. Exactly preserve narrow room, far window and doorway; do not widen. Desk under far window max45–50cm depth. Narrow clear central aisle. Compact storage. Refine linen bedding, fine wool throw, small reading light, warm shelf light. No transverse bed or under-window platform. No people, logos, text, UI, collage, enlarged architecture, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/second.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -172,7 +172,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Visual pass: narrow single bed along right wall runs doorway-to-window into depth; shallow far-window desk and clear narrow aisle; compact overhead storage. Chinese corrected from original oversized left bed using dusk geometry.",
       "outputs": [
@@ -210,7 +210,7 @@
     },
     {
       "room": "kitchen",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed6.6sqm kitchen. Preserve U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale upper cabinets and dark walnut lower cabinets. Fine stone, warm undercabinet light, one ceramic utensil jar, neatly folded linen towel. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Enclosed面积未公开 kitchen. Preserve U counters/window/sink/hob/cabinets/appliances precisely, no island or open-plan substitution. Keep pale upper cabinets and dark walnut lower cabinets. Fine stone, warm undercabinet light, one ceramic utensil jar, neatly folded linen towel. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/kitchen.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -221,7 +221,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original enclosed U counter, sink/hob/window/appliance layout retained; no island or enlargement.",
       "outputs": [
@@ -259,7 +259,7 @@
     },
     {
       "room": "bath",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact4.3sqm bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast stone, fine walnut, beautifully lit mirror, folded woven towels, one ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Compact面积未公开 bath. Same shower left, single vanity middle, toilet right and window. No bathtub, no double vanity. Warm lowcontrast stone, fine walnut, beautifully lit mirror, folded woven towels, one ceramic soap dish. Keep sanitary layout exactly. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/bath.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -270,7 +270,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Original shower-left, single-vanity-center, toilet-right layout retained; no tub or double vanity.",
       "outputs": [
@@ -308,7 +308,7 @@
     },
     {
       "room": "balcony",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow5sqm scenic balcony. Preserve same compact depth, sidewalls, camera and openings. HARD glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove long bench; replace with ONE lightweight freestanding walnut reading chair with taupe cushion and tiny round side table, positioned off glazing to keep view and narrow circulation free. Keep right plant small. No sofa or platform. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Shallow面积未公开 scenic balcony. Preserve same compact depth, sidewalls, camera and openings. HARD glass extends FLOOR TO CEILING DOWN TO FINISHED FLOOR, slim vertical framing, NO opaque halfwall/sill/parapet/central horizontal beam. Remove long bench; replace with ONE lightweight freestanding walnut reading chair with taupe cushion and tiny round side table, positioned off glazing to keep view and narrow circulation free. Keep right plant small. No sofa or platform. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/balcony.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -319,7 +319,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Visual pass: fullheight external glass to finished floor, no parapet/windowseat; lightweight freestanding chair and tiny side table; original shallow footprint retained.",
       "outputs": [
@@ -357,7 +357,7 @@
     },
     {
       "room": "utility",
-      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow2.5sqm utility balcony. Preserve stacked laundry at end and right compact counter, slim fullheight glazing on left, no enlargement. Fine dark walnut cabinetry, warm task lighting, folded linen, small functional hamper, minimal objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
+      "prompt": "Use case: precise-object-edit. Final photorealistic furnished interior at native1536x1024. Image1 edit target: absolute geometry/camera/architecture authority; preserve same walls, room dimensions, openings. Image2 ONLY restrained rich craftsmanship and material styling reference; never copy living layout. Image3 actual floorplan. Retain original dusk smoky walnut, taupe, warm gray stone palette. Upgrade natural fine texture, refined details and coherent warm light/daylight. Narrow面积未公开 utility balcony. Preserve stacked laundry at end and right compact counter, slim fullheight glazing on left, no enlargement. Fine dark walnut cabinetry, warm task lighting, folded linen, small functional hamper, minimal objects. Maintain lower glazing to floor and small upper ventilation panel. No logos/text. No people, logos, text, UI, collage, extra rooms, invented columns or futuristic gadgets.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/dusk/v16/utility.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -368,7 +368,7 @@
       "input_roles": [
         "Original room edit target and geometry/camera authority",
         "Style/material only; not layout",
-        "Actual75.1sqm floorplan"
+        "Actual面积未公开sqm floorplan"
       ],
       "room_qa": "Narrow stack laundry and original cabinet/window geometry retained; lower glazing to floor.",
       "outputs": [

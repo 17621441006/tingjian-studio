@@ -49,7 +49,7 @@ export const nodes=[
     links:[{to:'living',yaw:-164,pitch:-49}],details:[{feature:0,yaw:6,pitch:2},{feature:1,yaw:67,pitch:-1}]},
   {id:'second',name:'次卧 / 书房',number:'07',room:'second',point:[8.41,5.67],north:90,yaw:0,pitch:-8,
     material:'窗边书桌 · 日间床 · 一体木作',
-    summary:'让 7.2㎡ 同时承担办公、客宿与收纳。',
+    summary:'让次卧同时承担办公、客宿与收纳。',
     features:[{title:'一间房，三种日常用途',body:'用窗边工作台、窄床与床下抽屉组织小空间。床的宽度、桌面深度和走道余量要一起校核，避免效果图看起来能放、落地却打不开柜门。'}],
     links:[{to:'dining',yaw:-165,pitch:-58}],details:[{feature:0,yaw:58,pitch:-5}]},
   {id:'bath',name:'卫生间',number:'08',room:'bath',point:[1.02,6.17],north:0,yaw:0,pitch:-6,

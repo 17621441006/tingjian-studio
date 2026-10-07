@@ -1,0 +1,252 @@
+{
+  "scheme_number": 20,
+  "scheme_id": "moss-garden",
+  "scheme_name": "苔庭慢居",
+  "tool": "built-in image_gen__imagegen",
+  "requested_dimensions": [
+    1536,
+    1024
+  ],
+  "outputs_inspected": true,
+  "source_references_inspected": true,
+  "asset_count": 9,
+  "generated_calls": 11,
+  "corrections": "Only two necessary targeted corrections: living table count/dining continuity and utility drying rack height.",
+  "assets": [
+    {
+      "room": "living",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/living.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-74586f52-d1e7-4a47-ad04-76a5127cd350.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: Preserve the exact living-room viewpoint looking toward dining/entry: television wall LEFT, sofa wall RIGHT, dining at far end, existing open portal on left, entry door far right unchanged. Entire combined living+dining area only面积未公开. Replace sofa with compact 2.1m caramel LINEN sofa on right, one light curved-oak lounge chair near far end of seating group angled inward. Replace large coffee table with just TWO SMALL nesting tables, medium oak and russet clay top, offset to keep central walking route free. Olive-green low media cabinet left. A small low plant shelf ONLY against solid wall, never across openings. Warm medium oiled oak floor and subtle russet clay accents. At far dining end show same narrow oval oak table with4 wooden chairs and shallow terracotta sideboard with one small plant. No tall bookcase by the left portal, no bulky rug filling whole floor; olive flat wall finish and authentic natural linen upholstery.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/living.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        },
+        {
+          "prompt": "Use case: precise-object-edit. Image1 is edit target, image2 is exact dining furniture continuity reference. Correct this same compact olive/caramel/oak living room. Preserve camera, original enclosure, straight flat walls, all openings, 2.65m ceiling and面积未公开 combined living-dining scale, sofa, lounge chair, olive media cabinet, finishes and daylight. TWO targeted corrections only: 1. There are currently THREE coffee table tops; REMOVE the rear right small oak table with books entirely, leaving exactly TWO small nesting tables: one oak table with dark vase and ONE russet clay table in front-right. No third tabletop, center floor feels clear. 2. Replace far dining set/pendant/art with the matching narrow oval oak pedestal table,4 curved oak chairs, blackened bronze dome pendant and slim framed botanical artwork from image2, in same far-wall positions; retain shallow terracotta sideboard on right. Do not change architecture or enlarge room. No added furniture, text, collage or watermark. Requested1536x1024 landscape3:2, photorealistic interior editorial photograph.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/generated_images/exec-4bbeae04-dc14-4ada-a31a-123e43289e81.png",
+            "/workspace/scratch/52340dceb96f/generated_images/exec-38d45e05-1209-4939-b7b0-5166965e4820.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected final output: compact caramel linen sofa, one curved wood chair, exactly two small nesting tables, olive media cabinet, same flat enclosure and openings.",
+        "Far dining now matches dedicated dining pendant, oval table, chairs, artwork and sideboard."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2404607
+    },
+    {
+      "room": "dining",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/dining.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-38d45e05-1209-4939-b7b0-5166965e4820.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: Preserve this dining corner viewpoint, solid far wall, left passage and right entry door in same positions; combined dining+living only面积未公开. Replace rectangular dining set by NARROW OVAL medium oiled oak table approx125x75cm with4 compact curved wood chairs (all four chair placements readable). Move seating subtly to leave passage clear. Shallow terracotta sideboard approx30cm deep against far wall to right, one SMALL plant on cabinet, restrained blackened bronze pendant. Remove tall bookcase at left. Olive flat wall finish, oak floor, rich forest-green small lower cabinet detail and russet clay sideboard. No giant foliage, no wall mural, no table island, no enlarging area.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/dining.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: narrow oval oak table, four chairs, shallow terracotta sideboard with small plant; left passage and right entry retained.",
+        "Table and sideboard depth are visual estimates, not measurable construction dimensions."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2122725
+    },
+    {
+      "room": "master",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/master.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-53ecc4ac-200e-40ab-8ec4-6f79254e42d5.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: Preserve面积未公开 master bedroom and exact back LEFT corner bay window PLUS separate side window at RIGHT, their frames, sill heights and city views. Existing bed headboard belongs against the same solid wall BETWEEN bay and side window. Replace current bed by lower medium oiled oak drawer platform bed, caramel linen cover with olive accent; drawers read along base. Integrate shallow forest-green wardrobe at SIDE of bed against existing solid side wall, practical restrained depth, not a giant full bay cabinet. Keep bay ledge CLEAR except ONE cushion, no built-in furniture in bay, no plants or large vases on glazing. Same honest compact room, oak floor, olive wall, blackened bronze lights, restrained clay detail; no new protruding wall or invented alcoves.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/master.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: corner bay plus separate right side window retained; clear bay with one cushion; low oak drawer bed, olive wardrobe at side.",
+        "Exact wardrobe depth and bed height are not independently measurable."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2510082
+    },
+    {
+      "room": "second",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/second.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-9610fc7a-47b4-4f14-bf8a-d262901fe953.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: Convert the same tiny面积未公开 room into deliberate HOBBY/EXERCISE ROOM, not a bedroom. Keep window dimensions/position exactly at far end, compact width and entry viewpoint. REMOVE the entire permanent bed, under-window desk and all bulky overhead cabinetry. LEFT wall: narrow closed olive storage approx30cm deep, small compartment with folded yoga mat and light hand weights. RIGHT wall: compact hinged folding craft desk shown DOWN at work height, medium oak, stool completely tucked underneath. A compact caramel upholstered sleeper OTTOMAN, folded closed in cube form (not bed or chaise), stored by short far wall without blocking window. Show large RELATIVE central area of BARE oak floor for one person to exercise while room still obviously small. Few craft materials neatly on desk, no gym machines, no permanent bed, no rug covering central floor. Olive cabinetry, medium oak, small russet clay accent, natural texture.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/second.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: no permanent bed, left storage with mat/weights, right folding craft desk, tucked stool, compact sleeper ottoman, substantial relative central bare floor.",
+        "Yoga mat appears rolled in storage rather than folded flat. Room remains visually compact."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2355070
+    },
+    {
+      "room": "kitchen",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/kitchen.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-fe0b2a9c-4af2-4184-b7f9-7b9e98ce11f6.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: The same面积未公开 small kitchen. Preserve far window exactly, doorway and flat walls. Radically refurnish to ONE straight long working run ONLY on RIGHT wall: olive/forest-green base and wall cabinets, sink near FAR-WINDOW end of the RIGHT run, then a distinct clear prep countertop section, then hob near FOREGROUND on RIGHT run. The sink and hob must both be visibly on the right-side countertop. Under far window: BARE flat russet clay tiled WALL and VISIBLE floor, absolutely NO connecting counter, base cabinet, sink, or return run. LEFT wall: just ONE slim freestanding wheeled oak prep cart parked close to entry (a small cart, not a kitchen counter) plus a modest peg rail; no continuous cabinets or oven tower on LEFT. No L/U-shaped counter, no island, no second run. Medium oiled oak cart, rich green cabinetry, russet backsplash, natural stone counter, blackened bronze taps/handles. Compact aisle scale.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/kitchen.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: one right working run with far-end sink, prep section and foreground hob; no connecting cabinetry under window; one small left wheeled cart and peg rail.",
+        "No island, second counter or enlargement observed."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2184003
+    },
+    {
+      "room": "bath",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/bath.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-0e66fac3-f8b6-4237-ba56-6b11aac113a2.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: The same面积未公开 bathroom with shower on LEFT, toilet RIGHT foreground, narrow vertical far window unchanged, no enlargement. Replace wide vanity with ONE compact corner-offset small sink vanity near far wall LEFT portion (not spanning entire room), medium oiled oak, open shelf underneath with exactly TWO baskets; one modest mirror above it. Add ONE separate tall narrow forest-green linen cabinet near entry on solid wall without blocking toilet or door. LEFT compact shower must have SLIDING or FOLDING glass screen, no swinging door clearance; visible rail or folding seam. Toilet remains right. Rich olive ceramic tile with russet clay accents and oiled oak, blackened bronze hardware. No double basin, no tub, no wall niches carved into structural wall, no huge continuous vanity. Keep real confined bathroom dimensions.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/bath.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: compact offset single vanity, two baskets, left sliding shower screen, right toilet, narrow separate olive linen cabinet.",
+        "Narrow window is retained but appears slightly shifted left relative to original render; cabinet sits on right wall nearer back than entry. Preserve as concept illustration, not exact measured geometry."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2584620
+    },
+    {
+      "room": "balcony",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/balcony.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-e87cd0e2-f4fb-4135-b70b-4ff4e040e82b.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: The main 面积未公开 balcony. Preserve balcony entrance/sliding frame position, outer panorama width, solid right side wall, full high-rise city view, and compact actual depth. IMPORTANT requested deliberate repair to target: OUTER glazing runs fully TO FLOOR, remove the existing solid under-window wall/sill completely, remove all long bench and round table and large tree. Glass visible continuously down to floor; slim vertical side openable pane at far left, no half wall, under-window sill, fixed bench, table or cabinet across glass. One muted olive yoga mat unrolled lengthwise in the central floor, maximum1.8m long, with usable clearance. ONLY one small plant shelf mounted on the solid RIGHT side wall with small potted greenery, folding wood stool parked aside against solid wall. No tall plants obscuring city view. Russet clay floor tiles, rich olive solid wall with medium oiled oak shelf, blackened bronze slim frames. Keep floor-to-glass junction visible across whole view.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/balcony.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: glazing fully to floor; no half wall, sill, bench or fixed table across glass; clear city view, one mat, right side-wall shelf and folded stool.",
+        "Exact mat length cannot be measured; slim side glazing is visible but openable hardware is not clearly resolved."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2549520
+    },
+    {
+      "room": "utility",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/utility.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-d371610a-eec3-4ec4-8919-afbc0b5d48e8.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: precise-object-edit. Asset: one photorealistic interior photograph for apartment scheme 20 苔庭慢居 (moss-garden), requested 1536x1024 landscape 3:2, no text, logo, collage, watermark, people. Image 1 is the edit target with authoritative room enclosure, perspective, existing window/door positions and high-rise city context. Image 2 is supporting floor-plan scale/layout reference only, never render the plan or its text. Preserve straight flat walls, actual modest room proportions and 2.65m ceiling; no invented protruding walls, enlarged spaces or luxury-villa scale. Refinish and refurnish the existing room. Rich olive/forest-green cabinetry, medium richly oiled oak, russet clay tile accents, caramel linen, blackened bronze, tactile natural texture, sophisticated botanical city apartment. Not tropical resort, no busy mural, no all-white/pale palette, no large blue sofa, no island, bathtub or double basin. Warm clear natural daylight with gentle interior lamps. Real architectural editorial photograph, controlled verticals, believable furniture sizes.\nRoom-specific request: The same面积未公开 narrow utility balcony, left city-view windows and end enclosure positions preserved. Stacked washer and dryer tower at END, ventilation clearances visible, appliance fronts open/accessible. A shallow ONLY25cm-deep olive/oak plant-and-cleaning side shelf on solid RIGHT wall rather than deep countertop, tiny potted plant and neat cleaning supplies. Fold-away drying rack mounted near HIGH openable part of window, rack folded and handles still accessible. Floor stays CLEAR, remove large basket and deep table. Rich forest-green tower surround with slotted ventilation, medium oak shallow shelf, russet clay floor; no bench, no cupboard against windows, no additional washing machines, no enlarged room.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/utility.jpg",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        },
+        {
+          "prompt": "Use case: precise-object-edit. Image1 is edit target. Make ONE correction only: relocate the folded retractable drying rack from the middle horizontal window rail to the HIGH upper area beside the openable window, attached neatly near top of frame (still folded, not blocking handles). Preserve stacked washer-dryer at end, ventilation slits, clear floor, olive cabinetry,25cm shallow plant-cleaning shelves, russet tile, city view, all window/door geometry and compact面积未公开 enclosure unchanged. No extra racks, no architectural changes, no new furniture, text or watermark. Requested1536x1024 landscape3:2, same photorealistic interior editorial quality.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/generated_images/exec-945fb337-6cf4-4145-87a2-7fbb4b9b8f7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: accessible end laundry tower with ventilation slits, clear floor, shallow right shelves, drying rack moved to high window area.",
+        "Actual shelf depth, ventilation clearance and mechanical window/rack compatibility require measured design verification."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2074691
+    },
+    {
+      "room": "living2",
+      "path": "/workspace/scratch/52340dceb96f/assets-v38/moss-garden/living2.png",
+      "source_generated_path": "/workspace/scratch/52340dceb96f/generated_images/exec-a608ae6a-68ed-43df-9dfe-58ed80c29776.png",
+      "prompt_history": [
+        {
+          "prompt": "Use case: photorealistic-natural. Asset: one reverse-angle interior photo,1536x1024 landscape3:2. Image1 is authoritative already-designed living/dining room, image2 is authoritative already-designed balcony at opposite end, image3 is compact apartment floor-plan reference only. Produce the EXACT SAME room and furnishings as image1 from the REVERSE camera angle: camera standing at dining end looking across living toward main balcony. Entire living+dining面积未公开, ceiling2.65m, flat straight walls and actual compact enclosure, do not widen room. Because camera is reversed, the same2.1m caramel linen sofa is on LEFT and the same low olive media cabinet plus TV on RIGHT. Same light curved oak chair, same TWO small nesting coffee tables (one medium oiled oak with dark vase, one russet clay top), same small woven neutral rug, olive walls, medium oak floor, blackened bronze details, framed botanical art. Keep these furniture identities and locations consistent; chair may show back naturally from this angle. Balcony at FAR END must match image2: entrance slim dark sliding frame, OUTER full-height glazing fully TO FLOOR with a slim side openable pane, broad clear city view, russet clay balcony tiles, same olive yoga mat unrolled lengthwise max1.8m, one small RIGHT solid-side-wall plant shelf, one folded small stool parked by that wall. No half wall, under-window sill, bench, fixed cabinet/table across glass, or big plants obscuring view. Same high-rise city buildings and natural warm daylight. No extra sofa/chairs/tables, no invented protruding walls, arches, islands, oversized spaces, blue sofa, busy mural or tropical resort. No text, people, collage, logo or watermark. Single coherent photorealistic architectural photo, controlled verticals and believable scale, not a mirror of image1 because the far wall must be the actual balcony from image2.",
+          "reference_paths": [
+            "/workspace/scratch/52340dceb96f/generated_images/exec-74586f52-d1e7-4a47-ad04-76a5127cd350.png",
+            "/workspace/scratch/52340dceb96f/generated_images/exec-e87cd0e2-f4fb-4135-b70b-4ff4e040e82b.png",
+            "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+          ]
+        }
+      ],
+      "qa": [
+        "Visually inspected: reverse angle matches sofa, curved chair, exactly two nesting tables, media cabinet, palette and balcony floor-to-glass arrangement.",
+        "New reverse angle is generated from two image anchors and plan; exact unseen architectural geometry cannot be certified. A tall plant behind sofa appears only in this view."
+      ],
+      "actual_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2277695
+    }
+  ],
+  "limitations": [
+    "Generative interior illustrations preserve visual anchors but are not exact as-built or dimensioned drawings.",
+    "All output dimensions will be read from delivered files; no resizing/cropping or pixel edits were used.",
+    "No Site source files or checkout were modified."
+  ]
+}

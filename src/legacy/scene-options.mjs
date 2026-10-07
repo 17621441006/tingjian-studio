@@ -1,3 +1,4 @@
+import {EXPANSION_IDS} from './expansion-homes.mjs';
 import {floorMaterialItems,normalizeFloorProduct,floorAllowed,floorProduct} from './floor-catalog.mjs';
 import {HOMES,ROOMS} from './home-designs.mjs';
 import {variantAsset,resolveVariantState,homePresentation} from './home-variants.mjs';
@@ -28,7 +29,7 @@ export function sceneAsset(value,thumb=false){
  return layoutAsset({...s,sofa:s.pieces.sofa},thumb);
 }
 export function sceneNote(value){
- const s=resolveScene(value);if(s.layout==='replan')return '同一风格的新收纳布局。可切回原方案比较；此图为整套概念布置，单品移除请切回原方案。';if(supportsSceneObjects(s))return '可按当前房间移除、加回单品，或切换新装饰；原款随时可恢复。';if(s.mode==='palette')return '正在保留这组整体搭配。若想独立换单品，请在第三步选择原布局的单品搭配。';
+ const s=resolveScene(value);if(EXPANSION_IDS.includes(s.design))return '本套独立布局与完整搭配。效果图为预设概念设计，单品选材不会自动重绘照片。';if(s.layout==='replan')return '同一风格的新收纳布局。可切回原方案比较；此图为整套概念布置，单品移除请切回原方案。';if(supportsSceneObjects(s))return '可按当前房间移除、加回单品，或切换新装饰；原款随时可恢复。';if(s.mode==='palette')return '正在保留这组整体搭配。若想独立换单品，请在第三步选择原布局的单品搭配。';
  if(s.room==='living')return '换排布和五种光线目前支持干邑／酒红＋烟玻璃＋石地面。其他单品组合保留原布局、日光暖灯；未完成的组合不会替换你的选择。';
  if(s.room==='master')return '床柜换位和窗边双用目前配亚麻低床＋原床品。原床位可独立搭配三种床架、三组床品与整面窗景。';
  return '未完成的组合暂不可选，已选效果会保留。';

@@ -1,0 +1,722 @@
+[
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/balcony-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "balcony",
+    "thumb": true,
+    "bytes": 27788,
+    "width": 480,
+    "height": 320,
+    "sha256": "4c1e863d43c0014db1dba81ae9cf11e482bc0e021e1245bd3caf83ac1c5979c0"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/balcony.webp",
+    "scheme": "moss-garden",
+    "room": "balcony",
+    "thumb": false,
+    "bytes": 332414,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d4a7554d6d601745a9e9f863c95bf87ced70faa0838c6c1db2f503bd447a5e1e"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/bath-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "bath",
+    "thumb": true,
+    "bytes": 18396,
+    "width": 480,
+    "height": 320,
+    "sha256": "22fdd3c845d251b2c9adb2a697491aac1f1b379fdfa8b88478cd99de09e68863"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/bath.webp",
+    "scheme": "moss-garden",
+    "room": "bath",
+    "thumb": false,
+    "bytes": 302148,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "f4b95edcca644c13f878aae19ee852ac4e15ca00dbf145e1dadddf81c5b5db57"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/dining-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "dining",
+    "thumb": true,
+    "bytes": 15506,
+    "width": 480,
+    "height": 320,
+    "sha256": "008f60fc8e6780c0d341f03dab3d1d9e71cc86534abe67a34066421ea2b7cdd1"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/dining.webp",
+    "scheme": "moss-garden",
+    "room": "dining",
+    "thumb": false,
+    "bytes": 178338,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "e03918422b2a866784b33b73a18a282523baa206fbbbd9f98c9febc921b62ec4"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/kitchen-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "kitchen",
+    "thumb": true,
+    "bytes": 18778,
+    "width": 480,
+    "height": 320,
+    "sha256": "92765ae3d0140b636fb7c44c980b08a13525bbfab285a0b5d92f5d45921ea445"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/kitchen.webp",
+    "scheme": "moss-garden",
+    "room": "kitchen",
+    "thumb": false,
+    "bytes": 215414,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "4b7a5ad00e62ac8018c040a8df815419db0bf5f013e3ab4f8cc76b3d68a86cfc"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/living-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "living",
+    "thumb": true,
+    "bytes": 23826,
+    "width": 480,
+    "height": 320,
+    "sha256": "cff47dfc210210e85014b544f00138d2b71b3a3dcc8966b6dd22af416e5310b6"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/living.webp",
+    "scheme": "moss-garden",
+    "room": "living",
+    "thumb": false,
+    "bytes": 271610,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "c8bfe748015d4eb5b677188906d0fa2ac58af8e8c98e5f3895134e9af2856b41"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/living2-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "living2",
+    "thumb": true,
+    "bytes": 23886,
+    "width": 480,
+    "height": 320,
+    "sha256": "9d5a1ac0cad3a80806a839c59de04cfefbc96176bf00d1a60c961512942b546f"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/living2.webp",
+    "scheme": "moss-garden",
+    "room": "living2",
+    "thumb": false,
+    "bytes": 249322,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "627b0cd529feba4a70da48f1d6f3b4400ee73c0833b0c25b259f6da2934ed72a"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/master-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "master",
+    "thumb": true,
+    "bytes": 20520,
+    "width": 480,
+    "height": 320,
+    "sha256": "27687dc8b5888b98a5ba55e9e0880953e0ca43c7301698e9fdf4029e3c9922e6"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/master.webp",
+    "scheme": "moss-garden",
+    "room": "master",
+    "thumb": false,
+    "bytes": 271054,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "a873cd54dbfe537d45888b36d40878cb1a42e44ccb9a2e4a578e0435044c1632"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/second-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "second",
+    "thumb": true,
+    "bytes": 19992,
+    "width": 480,
+    "height": 320,
+    "sha256": "8d9b3c7c6c2df818f17ab6e671c5d31420bdf7beef6d4232a8f1df7115400fdf"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/second.webp",
+    "scheme": "moss-garden",
+    "room": "second",
+    "thumb": false,
+    "bytes": 249404,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5efa5b0e460f7bdefb40eface49708a9835f281cabe841f3d015fd283936101e"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/utility-thumb.webp",
+    "scheme": "moss-garden",
+    "room": "utility",
+    "thumb": true,
+    "bytes": 28278,
+    "width": 480,
+    "height": 320,
+    "sha256": "9381e8dee3d621f17fe04d76dfc1dcd725d53861bf18bb9a8aaba3ce4986ad15"
+  },
+  {
+    "path": "dist/designs-v38/schemes/moss-garden/utility.webp",
+    "scheme": "moss-garden",
+    "room": "utility",
+    "thumb": false,
+    "bytes": 230998,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "d50749c2649bbea479c060c7a07bea5b9c98f6a71db781fc9be4e670223a7131"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/balcony-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "balcony",
+    "thumb": true,
+    "bytes": 26890,
+    "width": 480,
+    "height": 320,
+    "sha256": "0ababe552419209143b12025d5f71b17f3845a9e76cb41eec8205943f7de7680"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/balcony.webp",
+    "scheme": "silver-retreat",
+    "room": "balcony",
+    "thumb": false,
+    "bytes": 301874,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "f3904de17c5c96471af6b7196f4ff0da1793feb2f192a8ec91db86aa4f641f80"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/bath-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "bath",
+    "thumb": true,
+    "bytes": 16660,
+    "width": 480,
+    "height": 320,
+    "sha256": "e0a5f3b3cb43be04ecc6ec0111d973500fcf53ca4e4d987a2f357bbed5498eb3"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/bath.webp",
+    "scheme": "silver-retreat",
+    "room": "bath",
+    "thumb": false,
+    "bytes": 277280,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "cd86070ee312ac77e89529ab3afe083a3975effd9486978c3f3144e8f31b2933"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/dining-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "dining",
+    "thumb": true,
+    "bytes": 15558,
+    "width": 480,
+    "height": 320,
+    "sha256": "b8f6f787dd8f9115cc9a58aa4341a6768e15dd1d33a9632c7690d02e7045ab6d"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/dining.webp",
+    "scheme": "silver-retreat",
+    "room": "dining",
+    "thumb": false,
+    "bytes": 225290,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "816dd61ccaa1eb38c5fda7090d5f0549d74c4d5b179a8e818053d87c98616121"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/kitchen-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "kitchen",
+    "thumb": true,
+    "bytes": 17506,
+    "width": 480,
+    "height": 320,
+    "sha256": "0f6a43dab105bf8070d6fb732e1f74103dd2d524438cb79a90877593b7958e9c"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/kitchen.webp",
+    "scheme": "silver-retreat",
+    "room": "kitchen",
+    "thumb": false,
+    "bytes": 224836,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "b9be40f761911ce8423083a6e748708ece2133f3e353ac47b92fd4b21dfbfab0"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/living-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "bytes": 21838,
+    "width": 480,
+    "height": 320,
+    "sha256": "52e15aeb43c1222ccdecaafb58c43bcb053a2fbfb557a485772591a70c6bebca"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/living.webp",
+    "scheme": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "bytes": 317360,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "b2c7e41e11a82040840495acc09f8661273b4ccec58046c4ea037d01d17527c4"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/living2-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "living2",
+    "thumb": true,
+    "bytes": 24140,
+    "width": 480,
+    "height": 320,
+    "sha256": "b99ae5968661be0f0e8a2d5918d46bac6b4a939fc041ae7ebf75955918181679"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/living2.webp",
+    "scheme": "silver-retreat",
+    "room": "living2",
+    "thumb": false,
+    "bytes": 361508,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "4912b351385b0108fabadfc6e688598165a4f52e82a2e9082dca9f11b1f3a75b"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/master-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "master",
+    "thumb": true,
+    "bytes": 19824,
+    "width": 480,
+    "height": 320,
+    "sha256": "ba9ee1434fceade14af49dc893efcd2e5cb56f8993d54ce0a8b6bd87de52a2fc"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/master.webp",
+    "scheme": "silver-retreat",
+    "room": "master",
+    "thumb": false,
+    "bytes": 281016,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ec48e05f2e4d13bd2985efb89152bed733aa46f348b6b880e4f7be8a702153d4"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/second-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "second",
+    "thumb": true,
+    "bytes": 18172,
+    "width": 480,
+    "height": 320,
+    "sha256": "411961604c5ff4cddb1398c678ff94a10651c6d0cea022609a2291217c926c29"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/second.webp",
+    "scheme": "silver-retreat",
+    "room": "second",
+    "thumb": false,
+    "bytes": 279902,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3d82ccaa076b145975e8bc04000f9a41ce33149c601dac0ecb890b64c361d59d"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/utility-thumb.webp",
+    "scheme": "silver-retreat",
+    "room": "utility",
+    "thumb": true,
+    "bytes": 25694,
+    "width": 480,
+    "height": 320,
+    "sha256": "9b5dbef391b8b8ffd35fa1aadff3f147a345328c594ea86523311f843d3e1ee8"
+  },
+  {
+    "path": "dist/designs-v38/schemes/silver-retreat/utility.webp",
+    "scheme": "silver-retreat",
+    "room": "utility",
+    "thumb": false,
+    "bytes": 241600,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3bb71c87b47933970293c97e8de47453844361c226213ef93e69fe071bba6387"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/balcony-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "balcony",
+    "thumb": true,
+    "bytes": 28802,
+    "width": 480,
+    "height": 320,
+    "sha256": "1ad4b331d1518acde0e606594a405062c8c7311f5e207157267ccb103e2aa747"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/balcony.webp",
+    "scheme": "tea-cuisine",
+    "room": "balcony",
+    "thumb": false,
+    "bytes": 325064,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "99be97fcdcdfc81434ecfc32b49686ddb10a7801041073a2d491b3ffe450ccb7"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/bath-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "bath",
+    "thumb": true,
+    "bytes": 17460,
+    "width": 480,
+    "height": 320,
+    "sha256": "e5adb68de9760c24471c1684e4bee03315775fc0ebac636757773e670ba03583"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/bath.webp",
+    "scheme": "tea-cuisine",
+    "room": "bath",
+    "thumb": false,
+    "bytes": 317214,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "95616878f605c8ef5b8ee01fe4dbd1c085a22f88104128ebc07a120844119486"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/dining-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "dining",
+    "thumb": true,
+    "bytes": 16392,
+    "width": 480,
+    "height": 320,
+    "sha256": "47b1fb1d0c7b8071bb26bc547da76ad5188a9c772a5662c6fe95f9e33be6854a"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/dining.webp",
+    "scheme": "tea-cuisine",
+    "room": "dining",
+    "thumb": false,
+    "bytes": 171026,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "019c6e8f0e0aabd4861b7d40ee52b9450d34e841d0be7d0b73397eceaf856791"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/kitchen-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "kitchen",
+    "thumb": true,
+    "bytes": 19214,
+    "width": 480,
+    "height": 320,
+    "sha256": "e2c1c6ec79cfc4d4802d3e3b2e1b9fa40a4bff47a7f25c94de619731dc405e8d"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/kitchen.webp",
+    "scheme": "tea-cuisine",
+    "room": "kitchen",
+    "thumb": false,
+    "bytes": 231976,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ef01eaa381fccdb4fe325cbd3f9e722619f319f83f8345ec2801e34891b733ac"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/living-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "living",
+    "thumb": true,
+    "bytes": 23432,
+    "width": 480,
+    "height": 320,
+    "sha256": "dff34dcef0364cb53e71a7bd778db8e3fbcc4a0c80f88a1698ba737122382afd"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/living.webp",
+    "scheme": "tea-cuisine",
+    "room": "living",
+    "thumb": false,
+    "bytes": 290214,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "779afe61100d03dfb1bc6b0e08ef019a7478e8903ad0786d5d3181efa52a01f2"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/living2-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "living2",
+    "thumb": true,
+    "bytes": 25076,
+    "width": 480,
+    "height": 320,
+    "sha256": "8e74cd502ae7e5c91bd7979965c0121a66e0665983e066dde3d17d619cd0441d"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/living2.webp",
+    "scheme": "tea-cuisine",
+    "room": "living2",
+    "thumb": false,
+    "bytes": 291912,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "cddf830895d945232fe23cfdf3f3040adb0426e6bb3dbaf90c3c0b4bb9de3e6a"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/master-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "master",
+    "thumb": true,
+    "bytes": 18818,
+    "width": 480,
+    "height": 320,
+    "sha256": "bc32e90becacbad78d770fc62c7030699f70bb2448ff320ba76d57e43da8bd9d"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/master.webp",
+    "scheme": "tea-cuisine",
+    "room": "master",
+    "thumb": false,
+    "bytes": 258162,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "64fb29a36942b473e95be660923117592265e4a4ddf20f9d9af43834aaff3686"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/second-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "second",
+    "thumb": true,
+    "bytes": 20472,
+    "width": 480,
+    "height": 320,
+    "sha256": "aa36801f9b4cb2235bd1b7824932d37524ac9ff32aff1308f2c486a2590efbd3"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/second.webp",
+    "scheme": "tea-cuisine",
+    "room": "second",
+    "thumb": false,
+    "bytes": 252350,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "0b0ae65c8d73305f14e96319d0c3026276e6d8e910c1529fddec788ec4012d0f"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/utility-thumb.webp",
+    "scheme": "tea-cuisine",
+    "room": "utility",
+    "thumb": true,
+    "bytes": 25136,
+    "width": 480,
+    "height": 320,
+    "sha256": "5a9fb96c304dcb1e16dd9f116f7aded38ef308d2b074272ab9dd0a07ac1e7f52"
+  },
+  {
+    "path": "dist/designs-v38/schemes/tea-cuisine/utility.webp",
+    "scheme": "tea-cuisine",
+    "room": "utility",
+    "thumb": false,
+    "bytes": 241264,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "b29f10b8647ef80e9fdd85ec975f43c904100c3d4aabe27612f8171f2b32bd03"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/balcony-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "balcony",
+    "thumb": true,
+    "bytes": 28906,
+    "width": 480,
+    "height": 320,
+    "sha256": "0ddc772f75979e6db36387111c4e049a583f6efbca89fd56085aa1710866e0fe"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/balcony.webp",
+    "scheme": "terracotta-atelier",
+    "room": "balcony",
+    "thumb": false,
+    "bytes": 339892,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "fb63c46c61145aae7cd30528506de384e299f665b01d6052d3b339eb39dfcc45"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/bath-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "bath",
+    "thumb": true,
+    "bytes": 17926,
+    "width": 480,
+    "height": 320,
+    "sha256": "69f358da1f6130d65917c21e729fc457376b9d2c55a98b0c42db8e2b4db53786"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/bath.webp",
+    "scheme": "terracotta-atelier",
+    "room": "bath",
+    "thumb": false,
+    "bytes": 328664,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "5d1781945f46b50f16e42ba36995be71b62d8ae880aba7a3fbb7025ecdfe2a0f"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/dining-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "dining",
+    "thumb": true,
+    "bytes": 15440,
+    "width": 480,
+    "height": 320,
+    "sha256": "5b8386c7a2e5a9c25efeec691be9251371db1ef1054701792d0152c5dca7d077"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/dining.webp",
+    "scheme": "terracotta-atelier",
+    "room": "dining",
+    "thumb": false,
+    "bytes": 188644,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "174ea2f372a5a3444ed830881b683f3f368c6356e5120e96c3f367dd8f8c20e0"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/kitchen-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "kitchen",
+    "thumb": true,
+    "bytes": 18774,
+    "width": 480,
+    "height": 320,
+    "sha256": "b43c7106081d11c0136295f605cef40cef2837d2ed8d24356e43f63a863fb027"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/kitchen.webp",
+    "scheme": "terracotta-atelier",
+    "room": "kitchen",
+    "thumb": false,
+    "bytes": 199136,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "47860c25bf5806d0e03759a1e56ee85671cb2b93714e0e49883b1a668b533091"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/living-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "living",
+    "thumb": true,
+    "bytes": 22176,
+    "width": 480,
+    "height": 320,
+    "sha256": "45d6369ba1e72d36dc7edb34738371862564a45823aee2ab86975c8c4e66e122"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/living.webp",
+    "scheme": "terracotta-atelier",
+    "room": "living",
+    "thumb": false,
+    "bytes": 304882,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3c0e02f77cef0a12ca982817d0029091c75525b8b945f958f064283590857b26"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/living2-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "living2",
+    "thumb": true,
+    "bytes": 22600,
+    "width": 480,
+    "height": 320,
+    "sha256": "bde59d7aa1f919b2897239da1c6d51d181da6fb45eb71671b678c713305374f7"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/living2.webp",
+    "scheme": "terracotta-atelier",
+    "room": "living2",
+    "thumb": false,
+    "bytes": 267240,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "3998caf59d910024bcb84711e259f54e25d9a10de7a2bb4e3f20a8b18220c0a7"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/master-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "master",
+    "thumb": true,
+    "bytes": 19202,
+    "width": 480,
+    "height": 320,
+    "sha256": "821a76b9aafb16328ab1b9d5feca7125e2b8b859ffeb4b9f66c05e7fc0d094a4"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/master.webp",
+    "scheme": "terracotta-atelier",
+    "room": "master",
+    "thumb": false,
+    "bytes": 271854,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "211204959a2a74af332b9c269fdd8de6e344399f05e51bd05ee8b9ed77e8fc0a"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/second-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "second",
+    "thumb": true,
+    "bytes": 19730,
+    "width": 480,
+    "height": 320,
+    "sha256": "a1a1f20f02165b590ed4f97358ae51a8c7d860af026af6cc650366ed81c57ea1"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/second.webp",
+    "scheme": "terracotta-atelier",
+    "room": "second",
+    "thumb": false,
+    "bytes": 260114,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "836117d35a2102da1371d2c065cb70de11da763ca1bdc5e2bca31ed75f0adc93"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/utility-thumb.webp",
+    "scheme": "terracotta-atelier",
+    "room": "utility",
+    "thumb": true,
+    "bytes": 24702,
+    "width": 480,
+    "height": 320,
+    "sha256": "66de649fcb7038688538d6331701cb31931b155eba7301b10dd3ac274e82f723"
+  },
+  {
+    "path": "dist/designs-v38/schemes/terracotta-atelier/utility.webp",
+    "scheme": "terracotta-atelier",
+    "room": "utility",
+    "thumb": false,
+    "bytes": 246526,
+    "width": 1536,
+    "height": 1024,
+    "sha256": "b448e3e39a329574b479a8349dee1ade8ad9ee9ebae99896c8e40865d42be9e4"
+  }
+]

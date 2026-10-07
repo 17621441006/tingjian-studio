@@ -1,13 +1,13 @@
 import {HOTEL_HOMES} from './hotel-homes.mjs';
 export const ROOMS=[
- {id:'living',name:'客厅',area:'客餐厅合计约 21.4㎡'},
- {id:'dining',name:'餐厅 / 玄关',area:'与客厅共用约 21.4㎡'},
- {id:'balcony',name:'景观阳台',area:'原图标注约 5㎡'},
- {id:'master',name:'主卧',area:'原图标注约 13.5㎡'},
- {id:'second',name:'次卧 / 书房',area:'原图标注约 7.2㎡'},
- {id:'kitchen',name:'厨房',area:'原图标注约 6.6㎡'},
- {id:'bath',name:'卫生间',area:'原图标注约 4.3㎡'},
- {id:'utility',name:'生活阳台',area:'原图标注约 2.5㎡'}
+ {id:'living',name:'客厅',area:'客餐厅合计约 面积未公开'},
+ {id:'dining',name:'餐厅 / 玄关',area:'与客厅共用约 面积未公开'},
+ {id:'balcony',name:'景观阳台',area:'原图标注约 面积未公开'},
+ {id:'master',name:'主卧',area:'原图标注约 面积未公开'},
+ {id:'second',name:'次卧 / 书房',area:'原图标注约 面积未公开'},
+ {id:'kitchen',name:'厨房',area:'原图标注约 面积未公开'},
+ {id:'bath',name:'卫生间',area:'原图标注约 面积未公开'},
+ {id:'utility',name:'生活阳台',area:'原图标注约 面积未公开'}
 ];
 export const HOMES={
  dusk:{name:'暮色私邸',subtitle:'EDITION 灵感 · 温暖的私人居所',description:'烟熏胡桃木包裹空间，柔光落在皮革与石面上。家具、织物与建筑一起设计，八个空间延续同一种温度。',

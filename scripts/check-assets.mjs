@@ -9,6 +9,7 @@ const manifest=JSON.parse(await fs.readFile('verification/v17/dist-manifest.json
 assert.equal(manifest.fileCount,692);
 const retired=new Set(JSON.parse(await fs.readFile('verification/v19/retired-assets.json','utf8')).files.map(f=>f.path));
 for(const f of JSON.parse(await fs.readFile('verification/v37/retired-history.json','utf8')).files)retired.add(f.path);
+for(const f of JSON.parse(await fs.readFile('verification/v39/retired-private-assets.json','utf8')).files)retired.add(f.path);
 let bytes=0,images=0,models=0,dependencies=0,files=0;
 for(const entry of manifest.files){
   // HTML, JS and CSS are rebuilt in later versions; original media remain byte-identical.

@@ -9,7 +9,7 @@
     {
       "scheme": "collector",
       "room": "living",
-      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished living interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual75.1sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. Living and dining COMBINED only21.4sqm. Keep original furniture locations and size, wine leather sofa and thin stone table. Any balcony glazing seen must reach floor without parapet. ",
+      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished living interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual面积未公开sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. Living and dining COMBINED only面积未公开. Keep original furniture locations and size, wine leather sofa and thin stone table. Any balcony glazing seen must reach floor without parapet. ",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/living.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -63,7 +63,7 @@
     {
       "scheme": "collector",
       "room": "dining",
-      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished dining interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual75.1sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. Living and dining COMBINED only21.4sqm. Keep original furniture locations and size, wine leather sofa and thin stone table. Any balcony glazing seen must reach floor without parapet. ",
+      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished dining interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual面积未公开sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. Living and dining COMBINED only面积未公开. Keep original furniture locations and size, wine leather sofa and thin stone table. Any balcony glazing seen must reach floor without parapet. ",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/dining.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -117,7 +117,7 @@
     {
       "scheme": "collector",
       "room": "master",
-      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished master interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual75.1sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. MASTER13.5sqm, preserve original bed, wardrobe, window locations. No enlargement.",
+      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished master interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual面积未公开sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. MASTER面积未公开, preserve original bed, wardrobe, window locations. No enlargement.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/master.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -163,7 +163,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Original13.5sqm composition, bed and windows retained; integrated drapery, fine bedding and warm lights.",
+        "notes": "Original面积未公开 composition, bed and windows retained; integrated drapery, fine bedding and warm lights.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }
@@ -171,7 +171,7 @@
     {
       "scheme": "collector",
       "room": "second",
-      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished second interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual75.1sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. OVERRIDING HARD SECOND BEDROOM correction: genuine tiny7.2sqm narrow room. Image4 extra original geometry authority. Replace across-window sofa with narrow fixed SINGLE BED1.0–1.2m wide x2m long ALONG RIGHT SIDE WALL length runs doorway-to-far-window INTO DEPTH. Never cross room width or under-window horizontal platform. Move desk under FAR WINDOW max45cm deep, with compact chair. Narrow central aisle; reduce shelves to compact overhead storage. Far window and doorway retained. Walnut, taupe bedding, burgundy pillow and tiny brass reading light.",
+      "prompt": "Use case: precise-object-edit. Create one native1536x1024 photorealistic FINAL furnished second interior render. Image1 EDIT TARGET and absolute camera/layout/architecture authority. Image2 only material/craft STYLE reference, never copy its layout. Image3 actual面积未公开sqm apartment floorplan. Keep exact walls, openings, ceiling height, camera perspective and room scale. Collector original wine red leather, dark walnut, pale stone, fine brass palette retained. Elevate finish with tactile linen/fine wool layers, rich wood grain and leather, crafted restrained artwork,1–2 small sculptural objects, tasteful warm reading lights, integrated curtain track, discreet tiny wall scene key and hidden charging. Classic craftsmanship, coherent natural light, no obvious neon gadgets. No enlarged luxury spaces, invented columns, text, logos, UI, collage or people. OVERRIDING HARD SECOND BEDROOM correction: genuine tiny面积未公开 narrow room. Image4 extra original geometry authority. Replace across-window sofa with narrow fixed SINGLE BED1.0–1.2m wide x2m long ALONG RIGHT SIDE WALL length runs doorway-to-far-window INTO DEPTH. Never cross room width or under-window horizontal platform. Move desk under FAR WINDOW max45cm deep, with compact chair. Narrow central aisle; reduce shelves to compact overhead storage. Far window and doorway retained. Walnut, taupe bedding, burgundy pillow and tiny brass reading light.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/v16/second.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -219,7 +219,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Visually tiny7.2sqm, narrow single bed along right wall into room depth, shallow desk under original far window, narrow aisle and original doorway retained.",
+        "notes": "Visually tiny面积未公开, narrow single bed along right wall into room depth, shallow desk under original far window, narrow aisle and original doorway retained.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }
@@ -227,7 +227,7 @@
     {
       "scheme": "collector",
       "room": "kitchen",
-      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic kitchen render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 6.6sqm ENCLOSED kitchen preserve original counter/window/appliance layout. Warm undercabinet light and restrained useful ceramics. 深色柜门保持利落，浅灰石面与操作灯增加清晰度。厨房保持独立，完整处理油烟、收纳与清洁。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic kitchen render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 面积未公开 ENCLOSED kitchen preserve original counter/window/appliance layout. Warm undercabinet light and restrained useful ceramics. 深色柜门保持利落，浅灰石面与操作灯增加清晰度。厨房保持独立，完整处理油烟、收纳与清洁。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/kitchen.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -273,7 +273,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Enclosed6.6sqm composition, original U counters, window, sink/hob and oven preserved.",
+        "notes": "Enclosed面积未公开 composition, original U counters, window, sink/hob and oven preserved.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }
@@ -281,7 +281,7 @@
     {
       "scheme": "collector",
       "room": "bath",
-      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic bath render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 4.3sqm bathroom preserve single vanity, shower, toilet, window locations. No bathtub or double vanity. Fine towels and understated bronze fixtures. 浅灰石纹保持明亮，深木柜压住视觉重心，细暖金属五金回应客厅。地面和镜光一起考虑日常使用。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic bath render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 面积未公开 bathroom preserve single vanity, shower, toilet, window locations. No bathtub or double vanity. Fine towels and understated bronze fixtures. 浅灰石纹保持明亮，深木柜压住视觉重心，细暖金属五金回应客厅。地面和镜光一起考虑日常使用。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/bath.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -327,7 +327,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Compact4.3sqm composition, original left shower, central single vanity, right toilet and window preserved. No bath or double vanity.",
+        "notes": "Compact面积未公开 composition, original left shower, central single vanity, right toilet and window preserved. No bath or double vanity.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }
@@ -335,7 +335,7 @@
     {
       "scheme": "collector",
       "room": "balcony",
-      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic balcony render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. HARD5sqm SHALLOW balcony preserve original depth and sidewalls. Main glass MUST be uninterrupted FLOOR TO CEILING DOWN TO FINISHED FLOOR. NO opaque half-wall, sill, parapet, opaque central beam or bench across glazing. Lightweight burgundy reading chair and tiny side table off glass; no sofa or platform. Keep clear floor. 酒红皮阅读椅配窄唱片柜与轻边几。柜子放在端墙，整面玻璃前保留站立的位置，窗景和音乐都能成为日常。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic balcony render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. HARD面积未公开 SHALLOW balcony preserve original depth and sidewalls. Main glass MUST be uninterrupted FLOOR TO CEILING DOWN TO FINISHED FLOOR. NO opaque half-wall, sill, parapet, opaque central beam or bench across glazing. Lightweight burgundy reading chair and tiny side table off glass; no sofa or platform. Keep clear floor. 酒红皮阅读椅配窄唱片柜与轻边几。柜子放在端墙，整面玻璃前保留站立的位置，窗景和音乐都能成为日常。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/v16/balcony.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -381,7 +381,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Shallow5sqm scenic balcony, fullheight transparent main glass to floor/base framing, no opaque parapet or central opaque beam. One freestanding chair/tiny table; clear floor retained.",
+        "notes": "Shallow面积未公开 scenic balcony, fullheight transparent main glass to floor/base framing, no opaque parapet or central opaque beam. One freestanding chair/tiny table; clear floor retained.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }
@@ -389,7 +389,7 @@
     {
       "scheme": "collector",
       "room": "utility",
-      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic utility render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 2.5sqm NARROW laundry preserve stacked machines and narrow circulation. Keep lower fixed glass down to finished floor and upper small opening window. Restrained linen basket and towels. 洗烘柜延续深木色，浅台面便于分拣和折叠。清洁工具与耗材各有位置，整齐也要方便维护。 下部固定玻璃落地，上部可开启小窗通风。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
+      "prompt": "Use case: precise-object-edit. Native1536x1024 final photorealistic utility render. Image1 EDIT TARGET and geometry authority. Image2 STYLE ONLY, never copy layout. Image3 floorplan authority. Preserve exact camera, perspective, footprint, straight walls, all existing openings, ceiling height and key furniture. Collector warm dark walnut, wine/burgundy leather, textured taupe, pale stone and fine brass palette retained. Enhance tactile natural stone, rich wood grain and restrained fine craft, coherent daylight plus warm practical lighting. 面积未公开 NARROW laundry preserve stacked machines and narrow circulation. Keep lower fixed glass down to finished floor and upper small opening window. Restrained linen basket and towels. 洗烘柜延续深木色，浅台面便于分拣和折叠。清洁工具与耗材各有位置，整齐也要方便维护。 下部固定玻璃落地，上部可开启小窗通风。 No architecture enlargement, new columns, people, text, logos, UI or collages.",
       "refs": [
         "/workspace/scratch/d2f63f3a5692/site-source/dist/tour/home-assets/collector/v16/utility.jpg",
         "/workspace/scratch/d2f63f3a5692/site-source/dist/lifestyle-v33/collector.webp",
@@ -435,7 +435,7 @@
       "qa": {
         "status": "pass",
         "visual_inspected": true,
-        "notes": "Narrow2.5sqm stacked laundry, original counter/cabinet/window layout retained; lower glass reaches floor.",
+        "notes": "Narrow面积未公开 stacked laundry, original counter/cabinet/window layout retained; lower glass reaches floor.",
         "dimensions_verified": true,
         "all_formats_decoded_with_PIL_load": true
       }

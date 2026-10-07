@@ -120,7 +120,7 @@ export function initHomeGallery(root){
   stage.dataset.sofa=pieces.sofa;stage.dataset.table=pieces.table;stage.dataset.bed=pieces.bed;
   $('[data-home-title]').textContent=home.name+' · '+room.name;$('[data-home-subtitle]').textContent=home.subtitle;
   $('[data-home-variant-label]').textContent=label;
-  $('[data-home-count]').textContent=String(ROOMS.indexOf(room)+1).padStart(2,'0')+' / 08';$('[data-home-area]').textContent=room.area;
+  $('[data-home-count]').textContent=String(ROOMS.indexOf(room)+1).padStart(2,'0')+' / 08';$('[data-home-area]').textContent='';$('[data-home-area]').hidden=true;
   $('[data-home-story-title]').textContent=content.title;$('[data-home-story]').textContent=content.copy;
   $('[data-design-copy]').textContent=home.description;
   renderMaterialList($('[data-home-materials]'),floorMaterialItems({...displayed,floorProduct:floorSelection()},objectSceneMaterials(displayed,content.materials)),{path,room:displayed.room});

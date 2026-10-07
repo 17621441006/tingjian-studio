@@ -1,0 +1,230 @@
+{
+  "scheme_id": "tea-cuisine",
+  "scheme_name": "茶棕食邸",
+  "scheme_number": 18,
+  "mode": "built-in image_gen",
+  "requested_dimensions": [
+    1536,
+    1024
+  ],
+  "notes": [
+    "All nine source references were visually inspected before generation.",
+    "Every output was individually visually inspected. No variants or retries were generated.",
+    "Concept images are not measured construction drawings; room dimensions and functional clearances are visually represented, not certified.",
+    "Generated assets are copied outside site checkout; no website files were modified."
+  ],
+  "assets": [
+    {
+      "room": "living",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-b22c3905-bcdf-41a4-8149-2c5b81e1b443.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/living.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Living area of combined 面积未公开 living+dining room. Keep the input camera direction looking from balcony end toward rear dining/entrance, TV left, seating right, existing left doorway and rear-right entrance preserved. Replace the oversized sofa with a compact camel tobacco leather two-seat loveseat against RIGHT wall, two modest OFFSET ROUND nesting tables (one dark soapstone, one tea-brown oak), and a single lightweight woven chair near balcony end angled toward sofa without blocking passage. Small ivory rug, muted aubergine cushions. At the BACK show a compact WALL-HUGGING L-shaped banquette hugging back wall and short left return, tobacco seat with aubergine lower drawers, a modest round dark pedestal dining table, TWO lightweight light wood chairs only on its free side. Banquette must look like built-in corner seating, not a freestanding sofa. Keep open route to rear-right entry. Shallow aubergine tea/coffee cabinet to dining right. Quiet medium taupe wall portions so it is not fully wood-boxed. Furniture scale appropriate to combined 面积未公开.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/living.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "Compact camel loveseat, offset round nesting tables, one woven lounge chair, rear wall-hugging L banquette, two dining chairs, shallow tea cabinet and clear entrance route.",
+        "issues": [
+          "Most walls remain tea-brown wood rather than incorporating much additional taupe wall area; warm lighting makes metal tones read bronze."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2527531,
+      "sha256": "d4b4e72932350f799399cb72964119de24158aed1bddfd0d086e2f8c2df8c4b7"
+    },
+    {
+      "room": "dining",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-c7928aed-382d-4cb5-93f4-20e90c956aa8.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/dining.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior apartment-tour photograph. Scheme 茶棕食邸 / tea-cuisine. One separate 1536x1024 landscape image, no text/collage/watermark/people.\nInput 1 structural camera reference: exact compact dining corner enclosure, left opening, back-right entrance door and straight walls preserved. Input 2 is FINAL designed living view of this SAME apartment: match the rear dining furniture, palette and materials EXACTLY, showing that existing corner closer. Input 3 supports actual compact apartment scale only, do not render its labels.\nThe room is the rear dining part of a combined living+dining area of面积未公开, ceiling approximately2.65m. WALL-HUGGING compact L banquette against rear wall and short left return. Exactly same tobacco leather seat/back and muted aubergine lower drawer base as input2. Low under-seat drawers visibly usable. Same modest ROUND dark soapstone top cylindrical dark pedestal table, two lightweight light wood woven-seat chairs on free front side, same small low tea setting. Shallow aubergine tea/coffee cabinet to right with dark counter, leaving the entrance passage and door clear. Same tea-brown wood wall, medium smoked oak plank floor, framed understated landscape and quiet opal pendant as input2. Daylight from left mixed with subtle warm practical light, photoreal materials and upright verticals.\nDo not duplicate the dining set, do not move the banquette away from wall, do not enlarge the compact corner. No all-white/pale scheme, island, huge table, wall projections or inflated ceiling.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/dining.jpg",
+        "/workspace/scratch/52340dceb96f/generated_images/exec-b22c3905-bcdf-41a4-8149-2c5b81e1b443.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass",
+        "observed": "Matching wall-hugging L banquette with aubergine drawer bases, round dark pedestal table, two light woven-seat chairs and shallow tea cabinet. Rear-right entrance remains accessible.",
+        "issues": []
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 1969541,
+      "sha256": "36288b61a4b383ddef00faeecb233e2be4adc26a923028ac54361ed05891caf7"
+    },
+    {
+      "room": "master",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-ea769b90-9e59-403b-ac6f-69d6fcb62ab1.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/master.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Master bedroom only面积未公开. Keep EXACT BOTH window groups in reference: left rear corner BAY window with return pane and its existing sill, PLUS separate tall RIGHT SIDE window. Preserve city view and their positions. Bed with modest upholstered dark tobacco/chestnut headboard, ivory linen bedding with aubergine throw, medium smoked oak floor, warm mushroom-taupe walls, deep tea-brown oak wardrobe concentrated at entrance foreground LEFT. Simple brushed nickel reading lights. On left wall a small flat folding dressing shelf, visibly shallow and folded near-flat or only slightly extended, no large dressing table. Keep bed-foot circulation open; NO freestanding bench or stool at foot. Bed same orientation as reference, genuine面积未公开 enclosure, restrained decorative still life.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/master.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass",
+        "observed": "Both rear-left bay with return and separate tall right side window preserved. Upholstered headboard, wardrobe at entry, shallow folding wall shelf, clear bed foot.",
+        "issues": []
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2475866,
+      "sha256": "c92fa19b5ab79606a5d37ffaa727ff58e2addfa0c258d01b714ad6688f80fa15"
+    },
+    {
+      "room": "second",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-eaaf2463-7d39-45d3-bc54-0f183530e771.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/second.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Guest-priority bedroom only面积未公开, visibly narrow and compact. Retain rear window's exact position, shape and city view, door foreground LEFT. A narrow single daybed runs longitudinally along RIGHT wall, with its foot toward camera; dark tea-brown frame, tobacco upholstered back, small ivory mattress, aubergine cushion. A pull-out trundle tucked beneath bed: show only a narrow partially protruding edge and small caster, absolutely NOT two fully open beds. On LEFT a shallow tea-brown wardrobe near entry with a small pull-out writing shelf shown slightly extended and a simple folding chair tucked beneath it. Rear window mostly clear, NO fixed full-width desk under window, no overhead bulk above bed. Smoked wood floor, warm taupe walls. Preserve believable central access aisle and guest sleeping emphasis.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/second.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "Narrow guest single daybed along right; trundle only slightly protrudes with caster. Left shallow storage and small writing shelf; rear window clear.",
+        "issues": [
+          "The pull-out writing mechanism is subtle; the image shows a shallow extended work shelf without a fully exposed rail mechanism."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2419423,
+      "sha256": "7d61bdc71c06312f4a6edfc2c0830a089a841764364a83292c23eb2d693da578"
+    },
+    {
+      "room": "kitchen",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-4949e4ce-5cb0-4a71-98ac-8e60fc629a0b.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/kitchen.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Cook's kitchen only面积未公开, same rectangular enclosure and end window/city as reference. Distinct practical U-shaped layout with sink directly BELOW rear window, gas hob on RIGHT run, LEFT shallow prep counter about40cm deep instead of bulky tall appliance tower. Aubergine/red-brown lower drawer fronts with brushed nickel handles, tea-brown upper cabinets, dark charcoal soapstone counters and backsplash. One integrated wooden pullout chopping board beneath LEFT prep counter shown only slightly extended10-15cm; keep realistic aisle. Useful food drawers and slim utensil rail on right. Modest integrated oven below right hob and refrigerator at near-left edge if barely visible, no large ovens filling left prep wall. Natural clear daytime light, tobacco brown floor tile, small herbs and food prep objects. NO island, no expanded footprint, preserve sensible narrow working aisle.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/kitchen.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "Compact U layout with sink at end window, right hob/oven, left shallow prep run, slightly extended chopping board and utensils rail. Aubergine lower cabinets and dark stone.",
+        "issues": [
+          "Warm light makes brushed metal handles read closer to warm champagne than neutral nickel."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2264280,
+      "sha256": "4a0a62a76835c4696ca1cf3414b7daa9a7251713813227d218985cfd05c8dac5"
+    },
+    {
+      "room": "bath",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-d3ebc129-ff47-41df-bd9f-5083134fe259.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/bath.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Bathroom only面积未公开, exact enclosure and narrow rear-right frosted window. Shower remains LEFT behind clear glass, single toilet remains RIGHT foreground. Replace input huge vanity with a SINGLE small integrated basin in a shallow wall-hung DARK SOAPSTONE counter. Beneath counter: open usable under-basin zone with two INDEPENDENT MOVABLE low drawer/towel basket units on small visible casters, one tea-brown oak drawer module and one compact woven towel basket module; distinct separated bodies with gaps around/between and visible wall/floor, not continuous built-in cabinetry. Clear plumbing concealed in modest rear wall or small trap. Brushed nickel fittings, warm gray-brown large-format tiles, slim mirror above basin, muted aubergine towel. Compact, convincing no oversized wall cabinetry, no bathtub or second basin.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/bath.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "Left shower, right toilet, single wall counter basin; two separate movable under-counter units with visible casters and floor/wall gaps.",
+        "issues": [
+          "Fixture tones read warm bronze under amber light; counter stone reads polished dark marble-like rather than fully matte soapstone."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2707227,
+      "sha256": "ac3f08734420a8c841d9c0a694aee74453b84f9a34cd109f009d652982663b5a"
+    },
+    {
+      "room": "balcony",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-55db3d18-002d-4052-9f16-481c53ed7eda.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/balcony.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Main enclosed balcony is only 面积未公开, narrow, seen from living-room opening as input. Keep opening and exterior city unchanged. MAIN OUTER GLAZING MUST BE FULL-HEIGHT CLEAR GLASS ALL THE WAY TO FLOOR with slim dark vertical frames; remove the input's solid bottom sill/apron completely. Outer frame at floor level; transparent lower glass. A side-opening panel at far left, with plausible small handle. NO bench, no bar, no built-in sill or solid wall across windows. Place one small removable round dark bistro table (diameter 55cm) NEAR RIGHT SHORT SIDE WALL and two slender folding/woven chairs closely around it; central and left window view unobstructed. Tiny breakfast setting with tea cup and plate only. Tea-brown right short wall with small brushed nickel sconce, tobacco woven seats, dark soapstone table, warm brown practical tile floor. Preserve narrow 面积未公开 depth, no expanded terrace or outdoor landscaping.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/balcony.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "Clear glazing extends to floor, side-opening handle visible, no sill or bench. Small table and two slender folding chairs grouped near right short wall, left view clear.",
+        "issues": [
+          "Pedestal bistro table appears visually heavier than a lightweight removable table, though it remains freestanding and compact."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2537420,
+      "sha256": "4410f1e98e289a0057ea73b379eb8776d1184bab063472e55a783d8283ac3ff6"
+    },
+    {
+      "room": "utility",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-72859a1d-c454-4283-8561-b8be74d86d02.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/utility.png",
+      "prompt": "Use case: precise-object-edit. Asset type: photoreal interior design concept for an apartment tour. Scheme: 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no collage.\nInput image 1 is the same-room structural reference: keep its exact compact enclosure, straight walls, original door/window positions, city exterior and approximately 2.65m ceiling. Input image 2 is a supporting apartment plan for compact scale only; do not render the plan or its labels.\nRedesign furniture and finishes into a sophisticated intimate food-lovers home: deep tea-brown oak, muted aubergine/red-brown cabinetry, dark soapstone, tobacco leather, small ivory linen accents, brushed nickel, medium smoked wood plank floors in dry rooms. Visible tactile wood grain and natural materials, balanced real daylight with subtle warm practical lighting, editorial architectural photography, upright verticals, no extreme wide-angle stretching.\nKeep truly small urban apartment proportions. No room enlargement, invented wall projections, large blue sofa, all-white or pale scheme, kitchen island, bathtub, double basin, people, typography, signage, labels, watermark.\nRoom specification: Utility balcony is truly tiny面积未公开 and narrow. Keep full long LEFT window wall and original city view exactly unobstructed. Remove stacked washer/dryer at rear. Install two standard compact front-loading laundry machines SIDE BY SIDE along the RIGHT LONG SOLID WALL, both on floor under ONE continuous shallow dark soapstone countertop. Camera looks down narrow aisle from doorway, machines visible in oblique perspective with their fronts opening toward LEFT glazing; they are NOT at back and NOT stacked. Tea-brown end panels and shallow upper shelf only. A slim brushed nickel wall drying rail ABOVE countertop on right with two hangers, no rail across aisle or window. Rear short wall plain warm taupe, tiny wall hook, no big cabinet. Honest approximately1.3m by面积未公开 enclosure, about65cm laundry depth and narrow remaining aisle; show space honestly rather than enlarging. No central obstructions or floor baskets.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/home-assets/dusk/utility.jpg",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass",
+        "observed": "Two front-loaders are side by side under one counter on right long wall. Left glazing clear, slim rail above counter and central narrow aisle unobstructed.",
+        "issues": []
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2263868,
+      "sha256": "bb03c30741ebc07934a0d889412fc278eb823796088f09d9ed5a65c5efea4dbb"
+    },
+    {
+      "room": "living2",
+      "source_path": "/workspace/scratch/52340dceb96f/generated_images/exec-776d533f-5fa1-4cb8-8ec7-1e2023fb6dc1.png",
+      "saved_path": "/workspace/scratch/52340dceb96f/assets-v38/tea-cuisine/living2.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: apartment-tour reverse living-room photograph. Scheme 茶棕食邸 / tea-cuisine. Output one separate 1536x1024 landscape image, no text, collage, watermark or people.\nInput1 FINAL living-room design, viewed from balcony toward dining. Input2 FINAL balcony design. Input3 actual apartment plan for small scale only. Create physically plausible REVERSE CAMERA viewpoint of this exact room: now stand near dining/entrance end and look toward the balcony; do not flip/mirror the photograph, show opposite camera direction. Same compact面积未公开 combined living/dining volume,2.65m ceiling, straight enclosure and original openings, no enlargement. Dining is now behind camera or only a sliver at extreme foreground; do not add a second dining room.\nContinuity anchors: same compact camel/tobacco leather loveseat now along LEFT wall, same aubergine and ivory cushions, same pair of offset ROUND nesting coffee tables centered on ivory rug (larger dark soapstone and smaller tea-brown oak), same one lightweight woven lounge chair near balcony on RIGHT, angled toward loveseat. Same low tea-brown television console with wall TV now along RIGHT wall. Same medium smoked wood plank floor, tea-brown wall areas and warm taupe, modest opal ceiling light and subtle warm lighting. Match specific furniture forms, upholstery and scale from input1.\nAt BACK show the exact narrow面积未公开 balcony from input2 through its dark framed sliding living opening: FULL-HEIGHT CLEAR OUTER GLAZING ALL THE WAY TO FLOOR with slim vertical mullions and left SIDE-OPENING pane; no solid sill/apron, bench or bar crossing windows. Same city view, SAME small dark round bistro table and TWO slender woven folding chairs near RIGHT short side wall inside balcony, long central/left view left clear. One modest potted tree by right short wall. The balcony is narrow, not a terrace. Daylight naturally lights room from back windows, balanced interior exposure, photoreal editorial architectural photograph, upright verticals, no ultra-wide inflation. No giant blue sofa, all-white/pale scheme, extra furnishings, invented wall projections.",
+      "reference_paths": [
+        "/workspace/scratch/52340dceb96f/generated_images/exec-b22c3905-bcdf-41a4-8149-2c5b81e1b443.png",
+        "/workspace/scratch/52340dceb96f/generated_images/exec-55db3d18-002d-4052-9f16-481c53ed7eda.png",
+        "/workspace/scratch/52340dceb96f/tingjian/dist/tour/legacy-assets/6fe2ce11b656bd7e.png"
+      ],
+      "qa": {
+        "status": "pass_with_minor_notes",
+        "observed": "True reverse orientation with loveseat left, TV right, matching nesting tables and woven chair; matching floor-to-ceiling clear balcony and right breakfast grouping.",
+        "issues": [
+          "Minor accessory/throw positions differ from forward view; furniture and balcony continuity are maintained."
+        ]
+      },
+      "observed_dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 2510857,
+      "sha256": "56b4ffdbeed518f461620dde4e1f908acc2c7354fd9d58c6592f0149b58b7288"
+    }
+  ]
+}

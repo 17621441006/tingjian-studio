@@ -28,13 +28,13 @@ let atlasImage=null;
 let coffeeSlot=null,previewTable=null,tableLoading=null;
 const pickables=[];
 const rooms = [
-  {id:'living',name:'客餐厅',area:'21.4㎡',p:[[3.48,2.16],[7.13,2.16],[7.13,7.10],[1.85,7.10],[1.85,5.23],[3.48,5.23]],label:[5.32,5.17]},
-  {id:'master',name:'主卧',area:'13.5㎡',p:[[7.13,.78],[8.37,.78],[8.37,0],[10.64,0],[10.64,4.40],[7.13,4.40]],label:[8.95,3.82]},
-  {id:'second',name:'次卧',area:'7.2㎡',p:[[7.13,4.40],[9.91,4.40],[9.91,7.10],[7.13,7.10]],label:[8.55,5.48]},
-  {id:'kitchen',name:'厨房',area:'6.6㎡',p:[[1.20,2.16],[3.48,2.16],[3.48,5.23],[1.85,5.23],[1.85,4.56],[1.20,4.56]],label:[2.20,3.65]},
-  {id:'bath',name:'卫生间',area:'4.3㎡',p:[[0,4.56],[1.85,4.56],[1.85,7.10],[0,7.10]],label:[.94,6.02]},
-  {id:'balcony',name:'景观阳台',area:'5.0㎡',p:[[3.48,.57],[6.08,.57],[6.08,1.17],[7.13,1.17],[7.13,2.16],[3.48,2.16]],label:[4.9,1.30]},
-  {id:'utility',name:'生活阳台',area:'2.5㎡',p:[[0,2.16],[1.20,2.16],[1.20,4.56],[0,4.56]],label:[.59,3.1]}
+  {id:'living',name:'客餐厅',area:'面积未公开',p:[[3.48,2.16],[7.13,2.16],[7.13,7.10],[1.85,7.10],[1.85,5.23],[3.48,5.23]],label:[5.32,5.17]},
+  {id:'master',name:'主卧',area:'面积未公开',p:[[7.13,.78],[8.37,.78],[8.37,0],[10.64,0],[10.64,4.40],[7.13,4.40]],label:[8.95,3.82]},
+  {id:'second',name:'次卧',area:'面积未公开',p:[[7.13,4.40],[9.91,4.40],[9.91,7.10],[7.13,7.10]],label:[8.55,5.48]},
+  {id:'kitchen',name:'厨房',area:'面积未公开',p:[[1.20,2.16],[3.48,2.16],[3.48,5.23],[1.85,5.23],[1.85,4.56],[1.20,4.56]],label:[2.20,3.65]},
+  {id:'bath',name:'卫生间',area:'面积未公开',p:[[0,4.56],[1.85,4.56],[1.85,7.10],[0,7.10]],label:[.94,6.02]},
+  {id:'balcony',name:'景观阳台',area:'面积未公开',p:[[3.48,.57],[6.08,.57],[6.08,1.17],[7.13,1.17],[7.13,2.16],[3.48,2.16]],label:[4.9,1.30]},
+  {id:'utility',name:'生活阳台',area:'面积未公开',p:[[0,2.16],[1.20,2.16],[1.20,4.56],[0,4.56]],label:[.59,3.1]}
 ];
 const outline = [[0,2.16],[3.48,2.16],[3.48,.57],[6.08,.57],[6.08,1.17],[7.13,1.17],[7.13,.78],[8.37,.78],[8.37,0],[10.64,0],[10.64,4.40],[9.91,4.40],[9.91,7.10],[0,7.10]];
 const palette = {
@@ -575,11 +575,11 @@ function setView(view,instant=false){
 function updateDetail(){
   if(currentView==='sofa_detail')detail.textContent='皮面软包 · 独立坐垫 · 缝线 · 木底座 · 定制造型';
   else if(currentView==='table_detail')detail.textContent='顺纹木作 · 石材嵌板 · 微倒圆边角 · 定制造型';
-  else if(currentView==='second')detail.textContent=currentStyle==='retro'?'次卧约7.2㎡ · 书房 + 沙发床':currentStyle==='east'?'次卧约7.2㎡ · 榻榻米 + 阅读位':'次卧约7.2㎡ · 1.2m客床 + 窗边书桌';
-  else if(currentView.startsWith('master'))detail.textContent='主卧约13.5㎡ · 转角窗 · 1.8m床 · 衣柜位置为方案';
-  else if(currentView==='kitchen')detail.textContent='厨房约6.6㎡ · 保留独立厨房与生活阳台';
-  else if(currentView==='bath')detail.textContent='卫生间约4.3㎡ · 洁具与排水位置待复尺';
-  else if(currentView.startsWith('living'))detail.textContent='客餐厅原图标注21.4㎡ · 保留原门洞和阳台分隔';
+  else if(currentView==='second')detail.textContent=currentStyle==='retro'?'次卧面积未公开 · 书房 + 沙发床':currentStyle==='east'?'次卧面积未公开 · 榻榻米 + 阅读位':'次卧面积未公开 · 1.2m客床 + 窗边书桌';
+  else if(currentView.startsWith('master'))detail.textContent='主卧面积未公开 · 转角窗 · 1.8m床 · 衣柜位置为方案';
+  else if(currentView==='kitchen')detail.textContent='厨房面积未公开 · 保留独立厨房与生活阳台';
+  else if(currentView==='bath')detail.textContent='卫生间面积未公开 · 洁具与排水位置待复尺';
+  else if(currentView.startsWith('living'))detail.textContent='客餐厅原图标注面积未公开 · 保留原门洞和阳台分隔';
   else detail.textContent='概念比例模型 · 净高暂按2.65m · 入户被原图遮挡，位置待复尺';
 }
 function labels(){
