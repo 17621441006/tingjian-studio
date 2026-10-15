@@ -1,0 +1,4 @@
+Tingjian editorial collection / v40
+Existing concept images reused from the editorial project and Tingjian.
+Full-resolution editorial WebP assets are mirrored in this repository. Responsive previews are used on the Site.
+No new 3D models or generated imagery were created for this integration.
