@@ -7,8 +7,9 @@ await fs.cp('dist','build',{recursive:true,filter:p=>!p.includes('.openai')&&!p.
 // New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
 const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
 const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
+const localPreviews=new Set(['stillwood-living-768.webp','nocturne-living-768.webp','inkcourt-living-768.webp','dusk-living-768.webp','cinnabar-living-768.webp','verdigris-living-768.webp','stillwood-hero-768.webp','nocturne-hero-768.webp','inkcourt-hero-768.webp']);
 const offloaded=[];
-for(const name of await fs.readdir('build/collection/assets'))if(!name.includes('-768.')||name.endsWith('-materials-768.webp')){offloaded.push('/collection/assets/'+name);await fs.rm('build/collection/assets/'+name);}
+for(const name of await fs.readdir('build/collection/assets'))if(!localPreviews.has(name)){offloaded.push('/collection/assets/'+name);await fs.rm('build/collection/assets/'+name);}
 for(const name of ['index.html',...(await fs.readdir('build/collection')).filter(n=>n.endsWith('.html')).map(n=>'collection/'+n)]){
  const file='build/'+name;let html=await fs.readFile(file,'utf8');for(const asset of offloaded)html=html.replaceAll(asset,collectionBase+asset);await fs.writeFile(file,html);
 }
@@ -26,5 +27,6 @@ const {origin:v37Origin}=JSON.parse(await fs.readFile('verification/v37/media-or
 const html=await fs.readFile('build/tour/legacy.html','utf8');
 await fs.writeFile('build/tour/legacy.html',html.replace('</head>', '<script>globalThis.__TINGJIAN_V26_ORIGIN__='+JSON.stringify(origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V34_ORIGIN__='+JSON.stringify(v34Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V35_ORIGIN__='+JSON.stringify(v35Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V36_ORIGIN__='+JSON.stringify(v36Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V37_ORIGIN__='+JSON.stringify(v37Origin).replaceAll('<','\\u003c')+';</script></head>'));
 let bytes=0,count=0;async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else{bytes+=(await fs.stat(p)).size;count++;}}}await walk('build');
-assert(bytes<256*1024*1024-100000,'deployment exceeds platform budget');
+// Reserve 1 MiB for tar headers, padding and the hosting manifest.
+assert(bytes<256*1024*1024-1024*1024,'deployment exceeds platform budget including archive overhead');
 console.log({hostingBytes:bytes,files:count,panoramas:'same-origin'});

@@ -1,5 +1,5 @@
 {
   "commit": "041ba3c75a5716b7cda1139de82a29d3c1c6803a",
   "origin": "https://raw.githubusercontent.com/17621441006/tingjian-studio/041ba3c75a5716b7cda1139de82a29d3c1c6803a/dist",
-  "scope": "Full-size collection WebP files; thumbnails remain same-origin unless a material moodboard. Original Tingjian assets remain unchanged."
+  "scope": "Nine cover/hero previews remain same-origin. Other collection images and responsive previews use this immutable asset commit. Original Tingjian assets remain unchanged."
 }
