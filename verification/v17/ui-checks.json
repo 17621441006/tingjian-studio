@@ -24,6 +24,7 @@
     "v35: each first-eight and both mineral-scheme selections open their own final gallery despite nocturne styling choice; secondary bedroom/balcony map to same scheme; optional collections remain accessible; re-entering returns to selected scheme.",
     "v29 twelve schemes, expandable final two, current selection retained, eight-room flow; parent navigation handshake, origin validation and real step dispatch passed.",
     "v32: seven later scheme buttons and reverse view switch through a mirror when the primary hangs; all-route failure releases loading state, keeps the previous scheme, and retry succeeds.",
-    "Returning to a style retains its lifestyle; changing scene marks export stale and refresh copies the latest choices."
+    "Returning to a style retains its lifestyle; changing scene marks export stale and refresh copies the latest choices.",
+    "v40: three curated deep links select the original scheme; foreign origins, other frames and unknown scheme IDs are ignored; no new model load."
   ]
 }

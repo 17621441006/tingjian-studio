@@ -1,0 +1,478 @@
+{
+  "note": "Existing images reused; native source resolution retained. New WebP files and responsive thumbnails only. No new 3D or generated images. Original private floorplans and photographs are not imported.",
+  "images": [
+    {
+      "scheme": "stillwood",
+      "room": "living",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_living.jpg",
+      "sourceSHA256": "0e807dac6b2321ae2be651a71c52d1bb3d833d771885f15aefc1d746d877d575",
+      "path": "dist/collection/assets/stillwood-living.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 62282,
+      "sha256": "25b3c2d0e58a781393ce93787d76fd16bb31764cffc387b0e39eaaab3fc79400"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "dining",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_dining.webp",
+      "sourceSHA256": "6598a40f35cd3cd4a33ed610494ee38a5edbb34d3c65021cecd8e7a34ad9e0a7",
+      "path": "dist/collection/assets/stillwood-dining.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 122276,
+      "sha256": "bda8c5d0e8e7ca309d550e1045cf89527ed3085a75048658c78060fbb539bdc7"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "bedroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_bedroom.jpg",
+      "sourceSHA256": "66b17b086a060cac1878817286d179b3dc3bce64ae3ccd39f68756622f641181",
+      "path": "dist/collection/assets/stillwood-bedroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 84074,
+      "sha256": "606d2272bf89bbc3365f0fcf862e7062c1dfc160a991f8e99e85b54fe8a4ebda"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "second",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_second.webp",
+      "sourceSHA256": "a6cdf1b0b26ee93da9ed97189641fa1056f71df7ed9d06246708b213f1cc9903",
+      "path": "dist/collection/assets/stillwood-second.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 173116,
+      "sha256": "8a30bc42848fd6fdbb794f3f0a131c66b7a20af723cfdc5da0eb27253eefb842"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "kitchen",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_kitchen.webp",
+      "sourceSHA256": "fe1a0cc95c0e9b9cd908a2b8a2b9f22c5ccae978fefa134b47a520a13fec492c",
+      "path": "dist/collection/assets/stillwood-kitchen.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 107564,
+      "sha256": "62d9703eb11a82f8501fc1a5d5091fed55f49fa7d52491fe0e422cfe4a05e9ea"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "bathroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_bathroom.jpg",
+      "sourceSHA256": "c8df8e80ced22850e22838162b70a22c8acc86a665e5423da712c1cbf1cb7824",
+      "path": "dist/collection/assets/stillwood-bathroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 104518,
+      "sha256": "5c3df05b9ec49e57d90b56eb82eb3d67a0c8015496d8738d6d6da13518434ae6"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "balcony",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_balcony.webp",
+      "sourceSHA256": "abb59ada2f44c5bea222bec66beab9a4c16886231fc9fa13cdd42264fdc7704a",
+      "path": "dist/collection/assets/stillwood-balcony.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 192150,
+      "sha256": "6242be65bfae5de7c25c1b1dfa7594660c634e60105d32b4b4986dd3c34932b0"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "utility",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_utility.webp",
+      "sourceSHA256": "0fd4e0b35e69149ed11dde08dd80fc2ebb74ea54ecd6a6430f4c9bf51e78238f",
+      "path": "dist/collection/assets/stillwood-utility.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 209768,
+      "sha256": "a49773bf8b8881f83b721f0ab18389b45b397a0204fb243d615405ffd09fe7b7"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "hero",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_hero.jpg",
+      "sourceSHA256": "cd66546d31fcef3e1651ef057041e76b3bd1dece9d1f6b19cda5f2066913cd51",
+      "path": "dist/collection/assets/stillwood-hero.webp",
+      "width": 1376,
+      "height": 768,
+      "bytes": 92554,
+      "sha256": "353a8f8c0f19858b9b08b6c47b41a12a0714a16d03adf6789bc400762cbc4e6c"
+    },
+    {
+      "scheme": "stillwood",
+      "room": "materials",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/aman_materials.jpg",
+      "sourceSHA256": "61de3e891c85aac94defa5a9c81ae01c413fd3b77d77556918b03053095586c5",
+      "path": "dist/collection/assets/stillwood-materials.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 309616,
+      "sha256": "3a62cab80c2d78ea582b56474aa2dc3b40aee812478a40b715db81705a515638"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "living",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_living.jpg",
+      "sourceSHA256": "096cb7d986486275cfbf35109fde0c5ea006b333f814eb468f34022064bff1b9",
+      "path": "dist/collection/assets/nocturne-living.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 63586,
+      "sha256": "966432f4b630b48dbe8e9c31aa3d8a7c02efabcee7a9fb972169d5c74adc10b2"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "dining",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_dining.webp",
+      "sourceSHA256": "08ad16fd76c10d87f894c4c947dadc0c664717b6aa87d6a158b93166203d3203",
+      "path": "dist/collection/assets/nocturne-dining.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 167408,
+      "sha256": "c076801dd243f6525022864025b51de2294032aa337244adfa8fb75ead885048"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "bedroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_bedroom.jpg",
+      "sourceSHA256": "a78f752d30ebbd1f63fd7639ae6009cd4f5b3d6cfcf2f70c16acef2b151d9d0d",
+      "path": "dist/collection/assets/nocturne-bedroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 112692,
+      "sha256": "2edd682b57008e7acb06e2f4eaa67634e454c8d7e5024e4dbe546ff047459e54"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "second",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_second.webp",
+      "sourceSHA256": "0098f365703ef889458322e245966ced39f4788c058b7b42bf19521bd892c2e8",
+      "path": "dist/collection/assets/nocturne-second.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 171924,
+      "sha256": "8218cc76bccaa4fbd7d2ce58d5801aa8e5b89b524053bfb8471732f29314fe0d"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "kitchen",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_kitchen.webp",
+      "sourceSHA256": "3b95f26e8aedf7ff2dd8b8903364b5ccee035f53bae9ba12574a3589b2d69d7e",
+      "path": "dist/collection/assets/nocturne-kitchen.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 129762,
+      "sha256": "ebe2e87c8774699f3a6bccd80f7ce2c55525ea2ea613c1ce2b2f016e0c058280"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "bathroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_bathroom.jpg",
+      "sourceSHA256": "1d700e0f20418b8d8844aa4f39129bdec835d788796359385eda25d8089b50f2",
+      "path": "dist/collection/assets/nocturne-bathroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 124648,
+      "sha256": "2e680c494a09d8e0064532fa996552281e61c114d355273f0c7a2d2ff4df327d"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "balcony",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_balcony.webp",
+      "sourceSHA256": "fa232492a78a61909fe0a4c10e0af061111e663f0eb066f48b5ad1c45967bca8",
+      "path": "dist/collection/assets/nocturne-balcony.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 225674,
+      "sha256": "83872d82244e2409f455d75ad81416a0e7fa75a2552612b58abf6f8321f23cc4"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "utility",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_utility.webp",
+      "sourceSHA256": "1fc7d10bbcfaad244ce19bcedffe5ea8840665c2423a9d0bf18003c4848cf57c",
+      "path": "dist/collection/assets/nocturne-utility.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 211410,
+      "sha256": "7c31bb44e26d0c04dc503c25b166bd5cd32a1103b9954f365ce7cfcd801f22d7"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "hero",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_hero.jpg",
+      "sourceSHA256": "23c85fb28dced8adb529191fff963d57a64202134de7f578524c62e9153c271c",
+      "path": "dist/collection/assets/nocturne-hero.webp",
+      "width": 1376,
+      "height": 768,
+      "bytes": 145740,
+      "sha256": "04492fffac30e5b49c9af7a6d3decbff152bf581168a63681e6f0e5a5986e543"
+    },
+    {
+      "scheme": "nocturne",
+      "room": "materials",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/edition_materials.jpg",
+      "sourceSHA256": "074682cc48c806d7d7202c2b36b15f4f994e68a82f30f4502d4dce3715dda8c3",
+      "path": "dist/collection/assets/nocturne-materials.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 172008,
+      "sha256": "1e1ea7486339ec34a8d1329813d278480c36f671e7ee45e1ca2563c0ace284c3"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "living",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_living.jpg",
+      "sourceSHA256": "ef05f25436c1641b4a20bd46abd5313b253f93f83f8cbcc7b5186f98759b668b",
+      "path": "dist/collection/assets/inkcourt-living.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 79192,
+      "sha256": "e67a050b5453fd6abd4d5e34106111966eb8848f845bb01cb49f06181ba54442"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "dining",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_dining.webp",
+      "sourceSHA256": "a82c35d24685b6304709563e560f34f11fd5df9825d108185b2a77cb301d2135",
+      "path": "dist/collection/assets/inkcourt-dining.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 147182,
+      "sha256": "b097acab4eff43bccccda147365d1abb4f48847060e37c7c5867fb8322e84514"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "bedroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_bedroom.jpg",
+      "sourceSHA256": "6c8f795b50e2edd5d202ab627e9df395fb41546df5c4e07a180a275f31d4679e",
+      "path": "dist/collection/assets/inkcourt-bedroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 90644,
+      "sha256": "35980133cece778687dcad0027d0d1b82583c08f7fd6299e064c9ec94340a11a"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "second",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_second.webp",
+      "sourceSHA256": "0ca62f9c6e4451cb95fa95e53650f0a04957e76b5c9ca44644316c35adc86d97",
+      "path": "dist/collection/assets/inkcourt-second.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 191706,
+      "sha256": "39d00c069b38a7fd52015fc3f16ed546e9fa4f47276ad2ab027c6c66adb127aa"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "kitchen",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_kitchen.webp",
+      "sourceSHA256": "e6fb85f96ce2a47ffa0f0ea36699ed5918e67fee406990299ed35bfdba1f2dcc",
+      "path": "dist/collection/assets/inkcourt-kitchen.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 112470,
+      "sha256": "2a297b88f42cbdbf78f7fce9a4a6325d3931f2aa4edc1a2e629dc6551f65ab5c"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "bathroom",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_bathroom.jpg",
+      "sourceSHA256": "8c4c3c0641781c235c35a84ad834dd52dde34e240ad3675a1bdaec84fa5ed253",
+      "path": "dist/collection/assets/inkcourt-bathroom.webp",
+      "width": 1200,
+      "height": 896,
+      "bytes": 119030,
+      "sha256": "e2df427ac7d8dbf9b2525312613c90e1b067e992c7ece616f5751980f6328b90"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "balcony",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_balcony.webp",
+      "sourceSHA256": "32c1a3643b705c05f2866ebfe14b401e467135522da9265c7370435a0fb7ce51",
+      "path": "dist/collection/assets/inkcourt-balcony.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 179208,
+      "sha256": "3b70f7f3fcffad6f2bf7542b2ec8b1aab19ca75499ef3c4b4f541c13fef8f914"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "utility",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_utility.webp",
+      "sourceSHA256": "eeaa731c3f2a24a93fbd851162c865610038024d0ab090d577677d9b1d4aec8f",
+      "path": "dist/collection/assets/inkcourt-utility.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 189932,
+      "sha256": "6f71ffd74f35e12c9f7fc0b3d89fb2328b03f3a0001788ba3d8c468c4d63f609"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "hero",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_hero.jpg",
+      "sourceSHA256": "711d8be1dfffdda432fcfd7d159c2e75ce3b686c8a701cabda5e935f7e01a96c",
+      "path": "dist/collection/assets/inkcourt-hero.webp",
+      "width": 1376,
+      "height": 768,
+      "bytes": 127726,
+      "sha256": "7e68da4d9725cfe1e16001bd97a18f90ee387eabd9574c1a8db6d22b23a62e11"
+    },
+    {
+      "scheme": "inkcourt",
+      "room": "materials",
+      "sourceProject": "editorial-concepts",
+      "sourceImage": "assets/renders/zen_materials.jpg",
+      "sourceSHA256": "a3529ec3aedd37966fed76a5033858e7be1d84876abff7c19ffcd6403dae0027",
+      "path": "dist/collection/assets/inkcourt-materials.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 255388,
+      "sha256": "6cd0b9258db503d021e7ba736f8f9330496c6a4c02a3222fdecd95081a764524"
+    }
+  ],
+  "reusedOriginalSchemes": [
+    {
+      "id": "dusk",
+      "images": [
+        {
+          "path": "/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+          "thumbnail": "/tour/home-assets/dusk/pieces/living/cognac-glass-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/dining.jpg",
+          "thumbnail": "/tour/home-assets/dusk/dining-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/pieces/master/linen.jpg",
+          "thumbnail": "/tour/home-assets/dusk/pieces/master/linen-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/second.jpg",
+          "thumbnail": "/tour/home-assets/dusk/second-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/kitchen.jpg",
+          "thumbnail": "/tour/home-assets/dusk/kitchen-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/bath.jpg",
+          "thumbnail": "/tour/home-assets/dusk/bath-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/v16/balcony.jpg",
+          "thumbnail": "/tour/home-assets/dusk/v16/balcony-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/dusk/v16/utility.jpg",
+          "thumbnail": "/tour/home-assets/dusk/v16/utility-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cinnabar",
+      "images": [
+        {
+          "path": "/tour/home-assets/chinese/living.jpg",
+          "thumbnail": "/tour/home-assets/chinese/living-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/dining.jpg",
+          "thumbnail": "/tour/home-assets/chinese/dining-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/master.jpg",
+          "thumbnail": "/tour/home-assets/chinese/master-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/second.jpg",
+          "thumbnail": "/tour/home-assets/chinese/second-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/kitchen.jpg",
+          "thumbnail": "/tour/home-assets/chinese/kitchen-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/bath.jpg",
+          "thumbnail": "/tour/home-assets/chinese/bath-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/v16/balcony.jpg",
+          "thumbnail": "/tour/home-assets/chinese/v16/balcony-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/chinese/v16/utility.jpg",
+          "thumbnail": "/tour/home-assets/chinese/v16/utility-thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "verdigris",
+      "images": [
+        {
+          "path": "/tour/home-assets/copper/living.jpg",
+          "thumbnail": "/tour/home-assets/copper/living-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/v16/dining.jpg",
+          "thumbnail": "/tour/home-assets/copper/v16/dining-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/master.jpg",
+          "thumbnail": "/tour/home-assets/copper/master-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/v16/second.jpg",
+          "thumbnail": "/tour/home-assets/copper/v16/second-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/kitchen.jpg",
+          "thumbnail": "/tour/home-assets/copper/kitchen-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/bath.jpg",
+          "thumbnail": "/tour/home-assets/copper/bath-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/v16/balcony.jpg",
+          "thumbnail": "/tour/home-assets/copper/v16/balcony-thumb.jpg"
+        },
+        {
+          "path": "/tour/home-assets/copper/v16/utility.jpg",
+          "thumbnail": "/tour/home-assets/copper/v16/utility-thumb.jpg"
+        }
+      ]
+    }
+  ]
+}

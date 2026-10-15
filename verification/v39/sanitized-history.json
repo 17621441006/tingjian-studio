@@ -1,0 +1,37 @@
+{
+  "sourceCommit": "af04e3ef2946b7d1785c5130734baa0d2b7a0ca0",
+  "githubPrivacyCommit": "7535fccb5de47314ab8fc11769a7482e1bae4b1b",
+  "reason": "The v39 privacy commit removed property names, areas and original-plan links from six archived source text files. Original model/media binaries were unchanged. These exact post-redaction hashes are retained separately from the original v16 preservation baseline.",
+  "files": [
+    {
+      "path": "src/history/home-designs.mjs",
+      "originalSHA256": "035a5aadd7eaa63ba5f3639307734de3612eb4826e7bb4e2ea9a0cc16cf17c47",
+      "privacySHA256": "03cc50ae473bce7b367caa17b0e69bfc5aa71f8cc233353ccd7656c0a0d555e2"
+    },
+    {
+      "path": "src/history/home-gallery.template.html",
+      "originalSHA256": "15ce7c0e0f8519c757692d76196d6a0375b7f8080bcffe42adf9a5d41b811159",
+      "privacySHA256": "ffdd0cb0fbe47ce4e3edf8ed1fb8b7770eeb614f5e0a02bedb9c75dae637751e"
+    },
+    {
+      "path": "src/history/home-image-provenance.json",
+      "originalSHA256": "2912217d7a6f16cb8774a3a51f3349ae6864a31d6abdb2b3dee06d96829a4f5c",
+      "privacySHA256": "010e10a00b880bf755b45571a3a761c9f91aa560c48810a2cdeee1c53cbf84fa"
+    },
+    {
+      "path": "src/history/legacy.template.html",
+      "originalSHA256": "539e7768dd765fdd3cc7db311f429ebb17bc61cbbccc6c18b6a41b18512faaf5",
+      "privacySHA256": "ad6530083816d0c42a2cb3153f4434ebfd2c74d88407518bfdb1caa14218e22a"
+    },
+    {
+      "path": "src/history/model.js",
+      "originalSHA256": "45b20a0b870bb4405623d85b6064faa37be68760127ec74c153d4458c059110b",
+      "privacySHA256": "8a9ee68d382facf534c9c88ed6cd06a626df57a3dc66ef464328ac34b9b8d787"
+    },
+    {
+      "path": "src/history/space-model.template.html",
+      "originalSHA256": "f8eee24701ebda60ab23a0efde8fd1677e5958315c436c4df79694c507ff7757",
+      "privacySHA256": "0824e69eb86e5f2f3257d30209bf2cfc9d6c8075fcbba84527cb3ad8b365906e"
+    }
+  ]
+}

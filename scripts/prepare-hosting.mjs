@@ -4,6 +4,14 @@ import assert from 'node:assert/strict';
 // v19 removes old historical VR; all current panoramas now fit on the Site itself.
 await fs.rm('build',{recursive:true,force:true});
 await fs.cp('dist','build',{recursive:true,filter:p=>!p.includes('.openai')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
+// New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
+const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
+const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
+const offloaded=[];
+for(const name of await fs.readdir('build/collection/assets'))if(!name.includes('-768.')||name.endsWith('-materials-768.webp')){offloaded.push('/collection/assets/'+name);await fs.rm('build/collection/assets/'+name);}
+for(const name of ['index.html',...(await fs.readdir('build/collection')).filter(n=>n.endsWith('.html')).map(n=>'collection/'+n)]){
+ const file='build/'+name;let html=await fs.readFile(file,'utf8');for(const asset of offloaded)html=html.replaceAll(asset,collectionBase+asset);await fs.writeFile(file,html);
+}
 const media=JSON.parse(await fs.readFile('verification/v25/media-origin.json','utf8'));
 await fs.writeFile('build/scene-edit-origin.json',JSON.stringify(media));
 const {origin:sourceOrigin}=JSON.parse(await fs.readFile('verification/v26/media-origin.json','utf8'));

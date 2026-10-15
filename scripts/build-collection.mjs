@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {build} from 'esbuild';
+import {COLLECTION} from '../src/collection/catalog.mjs';
+import {homePage,schemePage} from '../src/collection/templates.mjs';
+await fs.mkdir('dist/collection',{recursive:true});
+await build({entryPoints:['src/collection/collection.mjs'],bundle:true,minify:true,target:'es2022',outfile:'dist/collection/collection.js'});
+await fs.copyFile('src/collection/collection.css','dist/collection/collection.css');
+const version=createHash('sha256').update(await fs.readFile('dist/collection/collection.js')).update(await fs.readFile('dist/collection/collection.css')).digest('hex').slice(0,12);
+await fs.writeFile('dist/collection/icon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#293b32"/><path d="M17 47V17h30v30M25 47V31h14v16M17 25h30" fill="none" stroke="#e8e1d0" stroke-width="2"/></svg>');
+await fs.writeFile('dist/index.html',homePage(version));
+for(const s of COLLECTION)await fs.writeFile(`dist/collection/${s.id}.html`,schemePage(s,version));
+console.log('Built Tingjian collection: six independent editorial pages, 48 rooms; original studio stays at /tour/.');

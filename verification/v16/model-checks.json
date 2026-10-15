@@ -82,6 +82,26 @@
       "design": "pine-library",
       "meshes": 175,
       "triangles": 126056
+    },
+    {
+      "design": "terracotta-atelier",
+      "meshes": 182,
+      "triangles": 125264
+    },
+    {
+      "design": "tea-cuisine",
+      "meshes": 185,
+      "triangles": 129788
+    },
+    {
+      "design": "silver-retreat",
+      "meshes": 182,
+      "triangles": 130256
+    },
+    {
+      "design": "moss-garden",
+      "meshes": 180,
+      "triangles": 121524
     }
   ]
 }

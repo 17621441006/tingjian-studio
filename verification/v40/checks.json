@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "proposals": 6,
+  "rooms": 48,
+  "verifiedNewImages": 63,
+  "checkedLocalLinks": 474,
+  "browserVisualTested": false,
+  "mobileGPUTested": false,
+  "checks": [
+    "Six proposals × eight rooms; source and deployed routes, anchor targets, imagery and accessibility controls resolve.",
+    "63 WebP files match verified, decoded image inventory; original room images reused unchanged.",
+    "Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback."
+  ]
+}

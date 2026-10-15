@@ -1,7 +1,8 @@
 {
   "passed": true,
   "nativeImages": 56,
-  "historicalSourceFilesPreserved": 39,
+  "historicalSourceFilesChecked": 39,
+  "privacyRedactedSourceFiles": 6,
   "firstTwoCoreRoomPhotosUnchanged": true,
-  "method": "Byte-level asset identity and original/archive preservation; generated images visually reviewed separately"
+  "method": "Byte-level asset identity and original/archive preservation with documented v39 text redactions; generated images visually reviewed separately"
 }

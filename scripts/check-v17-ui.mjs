@@ -275,3 +275,12 @@ console.log(JSON.stringify({passed:true,checks},null,2));
 // v37 new layout controls use matching photos, persist into details, and restore originals.
 for(const design of finalAssets.FINAL_DESIGNS.slice(0,8)){await click('[data-journey-step="style"]',5);await click('[data-home-design="'+design+'"]',20);await click('[data-confirm-style]',20);for(const room of ['master','second','kitchen']){await click('[data-layout-room="'+room+'"]',10);await click('[data-layout-choice="replan"]',15);assert.equal(context.__journey().current.layout,'replan');assert($('[data-layout-image]').src.includes('/layouts-v37/schemes/'+design+'/'+room+'.webp'));await click('[data-layout-choice="original"]',10);assert.equal(context.__journey().current.layout,'original');}}
 console.log('v37: 24 new layout controls load matching images and restore original layouts.');
+
+// v40 curated entries select only an allowed original scheme through the parent shell.
+await click('[data-journey-step="style"]',5);
+context.location={origin:'https://tingjian.test'};const shellParent={postMessage(){}};context.window.parent=shellParent;const loadedBeforeEntry=modelLoads;
+for(const design of ['dusk','chinese','copper']){context.window.dispatchEvent({type:'message',origin:context.location.origin,source:shellParent,data:{type:'tingjian:open-design',design}});await wait(35);assert.equal(context.__homeGallery.getState().design,design);}
+for(const event of [{origin:'https://foreign.test',source:shellParent,design:'dusk'},{origin:context.location.origin,source:{},design:'dusk'},{origin:context.location.origin,source:shellParent,design:'not-a-design'}]){context.window.dispatchEvent({type:'message',origin:event.origin,source:event.source,data:{type:'tingjian:open-design',design:event.design}});await wait(5);assert.equal(context.__homeGallery.getState().design,'copper');}
+assert.equal(modelLoads,loadedBeforeEntry);checks.push('v40: three curated deep links select the original scheme; foreign origins, other frames and unknown scheme IDs are ignored; no new model load.');
+await fs.writeFile('verification/v17/ui-checks.json',JSON.stringify({passed:true,method:'Production DOM-handler harness with mocked Image, DOM and renderer boundary; not browser/GPU validation',checks},null,2));
+console.log('v40: curated studio entry and origin checks passed.');
