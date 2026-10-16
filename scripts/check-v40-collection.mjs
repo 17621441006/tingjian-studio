@@ -31,7 +31,7 @@ for(const root of ['dist','build']){
    }
    if(node.attrs['aria-controls'])assert(ids.includes(node.attrs['aria-controls']));
   }
-  if(page==='index.html'){assert.equal(nodes.filter(n=>n.attrs.class?.includes('scheme-tile')).length,6);assert(!html.includes('gsap.min'));assert(html.includes('/tour/'));}
+  if(page==='index.html'){assert.equal(nodes.filter(n=>'data-panel'in n.attrs).length,6);assert(html.includes('/collection/vendor/gsap.min.js'));assert(!html.includes('ScrollTrigger'));assert(html.includes('/tour/'));assert(html.includes('NOCTURNE'));assert(html.includes('夜庭'));}
   else{
    assert.equal(nodes.filter(n=>'data-room-index'in n.attrs).length,8);
    assert.equal(nodes.filter(n=>'data-lightbox'in n.attrs).length,8);

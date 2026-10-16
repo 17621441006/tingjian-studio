@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "browserVisualTested": false,
+  "originalSourceCommit": "ff47fb2fc96a18c3e7ba0c0ec6cabe7e56566352",
+  "checks": [
+    "Original entrance sequence, timing and easing retained; no redesigned homepage sections.",
+    "Six direct proposal links; three-panel window, bounded arrows, hover dwell and hover cancellation.",
+    "Keyboard focus stays visible; hidden-tab cancellation; no idle interaction timer.",
+    "Original vertical mobile presentation, reduced-motion click navigation, animation-library fallback.",
+    "Modified-click navigation, click expansion, back-forward cache reset, skip entrance.",
+    "Night-court naming across current homepage; all existing room images preserved."
+  ]
+}
