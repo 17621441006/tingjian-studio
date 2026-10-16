@@ -32,7 +32,7 @@ ${brandHead}
 <a class="skip-link" href="#collection">跳过开场，浏览方案</a>
 <div class="grain" style="--grain:.06" aria-hidden="true"></div>
 <div class="intro" id="intro" aria-hidden="true"><div>${brandMark('intro-mark')}<div class="t"><span>夜廊</span></div><div class="s">NOCTURNE</div></div></div>
-<header class="top"><a class="home-brand" href="/" aria-label="夜廊 NOCTURNE 首页">${brandMark()}<h1>夜廊 · 陈天涌私宅设计<small>NOCTURNE · SEVEN WAYS OF LIVING</small></h1></a><div class="meta"><span class="selection-count">七种气质 · 八个空间</span><br><a class="studio-entry" href="/tour/"><i aria-hidden="true"></i><span>进入全套方案工作台</span><b aria-hidden="true">↗</b></a></div></header>
+<header class="top"><a class="home-brand" href="/" aria-label="夜廊 NOCTURNE 首页">${brandMark()}<h1>夜廊 · 陈天涌私宅设计<small>NOCTURNE · SEVEN WAYS OF LIVING</small></h1></a><div class="meta"><a class="studio-entry" href="/tour/"><i aria-hidden="true"></i><span>进入全套方案工作台</span><b aria-hidden="true">↗</b></a></div></header>
 <main class="panels" id="main" aria-label="七套生活提案">
  <div class="panel-track" id="collection" tabindex="-1">${cards}</div>
  <nav class="edge-nav" aria-label="左右浏览方案"><button class="edge edge-left" type="button" data-shift="-1" aria-label="向左浏览上一套" aria-controls="collection" disabled><span aria-hidden="true">‹</span></button><button class="edge edge-right" type="button" data-shift="1" aria-label="向右浏览下一套" aria-controls="collection"><span aria-hidden="true">›</span></button></nav>

@@ -21,7 +21,7 @@ for(const root of ['dist','build']){
   assert(!/<iframe|three\.min|house3d|GLTFLoader|autoplay/i.test(html),page+' must not launch the studio or 3D');
   assert(!/\b(?:AMAN|EDITION)\b|安缦|达安锦园|\d+(?:\.\d+)?\s*㎡/i.test(html),page+' still exposes retired branding or private property facts');
   assert.equal(nodes.filter(n=>n.tag==='h1').length,1);assert.equal(nodes.filter(n=>n.tag==='img'&&n.attrs.loading==='eager').length,1);
-  for(const img of nodes.filter(n=>n.tag==='img'&&!('data-large-image'in n.attrs))){assert(img.attrs.alt);assert(+img.attrs.width>0&&+img.attrs.height>0);}
+  for(const img of nodes.filter(n=>n.tag==='img'&&!('data-large-image'in n.attrs))){assert('alt' in img.attrs);assert(img.attrs.alt||img.attrs['aria-hidden']==='true');assert(+img.attrs.width>0&&+img.attrs.height>0);}
   for(const node of nodes){
    for(const key of ['href','src']){
     const ref=node.attrs[key];if(!ref||ref.startsWith('data:'))continue;

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "browserVisualTested": false,
+  "checks": [
+    "Seven sticky chapter brands are native NOCTURNE links to the root homepage.",
+    "Homepage microcopy removed and workbench button top margin removed.",
+    "Seven distinct same-origin thumbnail backgrounds in every proposal switcher; each has a correct route and current-page state.",
+    "Decorative images are lazy, low priority and hidden from assistive reading.",
+    "Original homepage panel markup preserved.",
+    "Build, home interaction and proposal checks passed."
+  ],
+  "newImageFiles": 0
+}
