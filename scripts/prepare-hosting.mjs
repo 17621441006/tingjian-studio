@@ -7,11 +7,13 @@ await fs.cp('dist','build',{recursive:true,filter:p=>!p.includes('.openai')&&!p.
 // New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
 const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
 const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
-const localPreviews=new Set(['stillwood-living-768.webp','nocturne-living-768.webp','inkcourt-living-768.webp','dusk-living-768.webp','cinnabar-living-768.webp','verdigris-living-768.webp','stillwood-hero-768.webp','nocturne-hero-768.webp','inkcourt-hero-768.webp']);
+const v42Media=JSON.parse(await fs.readFile('verification/v42/media-origin.json','utf8'));
+const v42CollectionBase=v42Media.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
+const localPreviews=new Set(['v42-amber-hero-768.webp','stillwood-living-768.webp','nocturne-living-768.webp','inkcourt-living-768.webp','dusk-living-768.webp','cinnabar-living-768.webp','verdigris-living-768.webp','stillwood-hero-768.webp','nocturne-hero-768.webp','inkcourt-hero-768.webp']);
 const offloaded=[];
 for(const name of await fs.readdir('build/collection/assets'))if(!localPreviews.has(name)){offloaded.push('/collection/assets/'+name);await fs.rm('build/collection/assets/'+name);}
 for(const name of ['index.html',...(await fs.readdir('build/collection')).filter(n=>n.endsWith('.html')).map(n=>'collection/'+n)]){
- const file='build/'+name;let html=await fs.readFile(file,'utf8');for(const asset of offloaded)html=html.replaceAll(asset,collectionBase+asset);await fs.writeFile(file,html);
+ const file='build/'+name;let html=await fs.readFile(file,'utf8');for(const asset of offloaded)html=html.replaceAll(asset,(asset.startsWith('/collection/assets/v42-')?v42CollectionBase:collectionBase)+asset);await fs.writeFile(file,html);
 }
 const media=JSON.parse(await fs.readFile('verification/v25/media-origin.json','utf8'));
 await fs.writeFile('build/scene-edit-origin.json',JSON.stringify(media));

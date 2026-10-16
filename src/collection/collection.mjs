@@ -56,16 +56,30 @@ function goToRoom(index){
  else room.scrollIntoView({block:'start',behavior:reduced.matches?'auto':'smooth'});
 }
 for(const a of $$('[data-room-jump]'))a.addEventListener('click',e=>{const index=data?.rooms.findIndex(r=>r.key===a.dataset.roomJump);if(index>=0){e.preventDefault();history.replaceState(null,'',a.getAttribute('href'));goToRoom(index);}});
-for(const a of $$('[data-lightbox]'))a.addEventListener('focus',()=>{if(horizontalTrigger)goToRoom(Number(a.dataset.lightbox));});
+for(const a of $$('[data-room-link]'))a.addEventListener('focus',()=>{if(horizontalTrigger)goToRoom(Number(a.dataset.roomLink));});
 if(data&&location.hash.startsWith('#room-'))window.addEventListener('load',()=>{const i=data.rooms.findIndex(r=>'#room-'+r.key===location.hash);if(i>=0)goToRoom(i);},{once:true});
 
 if('IntersectionObserver' in window){
  const chapters=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting){for(const a of $$('.chapter-nav a[href^="#"]'))a.setAttribute('aria-current',String(a.hash==='#'+e.target.id));}},{rootMargin:'-12% 0px -68% 0px',threshold:0});for(const el of $$('[data-chapter]'))chapters.observe(el);
 }
 
+// Alternate views share one room card; images load only when the view is selected.
+for(const button of $$('[data-room-view]')){
+ button.addEventListener('focus',()=>{if(horizontalTrigger)goToRoom(Number(button.dataset.roomView.split(':')[0]));});
+ button.addEventListener('click',()=>{
+  const [roomIndex,viewIndex]=button.dataset.roomView.split(':').map(Number),room=data.rooms[roomIndex],view=room.views[viewIndex];
+  const link=$(`[data-room-link="${roomIndex}"]`),img=link.querySelector('img');
+  imageAttempts.delete(img);img.removeAttribute('srcset');img.setAttribute('data-preview',view.thumb);img.src=view.thumb;
+  img.setAttribute('width',view.width);img.setAttribute('height',view.height);img.setAttribute('srcset',`${view.thumb} ${view.thumbWidth||768}w, ${view.image} ${view.width}w`);
+  img.alt=data.cn+' · '+room.cn+' · '+view.label;link.href=view.image;link.dataset.lightbox=String(room.galleryIndex+viewIndex);link.setAttribute('aria-label','放大'+room.cn+' · '+view.label);
+  for(const b of $$('[data-room-view]'))if(b.dataset.roomView.split(':')[0]===String(roomIndex))b.setAttribute('aria-pressed',String(b===button));
+  $(`[data-view-status="${roomIndex}"]`).textContent=room.cn+' · '+view.label;
+ });
+}
+
 // Accessible native dialog; only the opened original is requested.
 const dialog=$('.lightbox');let currentImage=0,lastFocus=null;
-function showImage(index){if(!data)return;currentImage=(index+data.rooms.length)%data.rooms.length;const r=data.rooms[currentImage],img=$('[data-large-image]');imageAttempts.delete(img);img.setAttribute('data-preview',r.thumb);img.src=r.image;img.alt=data.cn+' · '+r.cn+'设计意向';$('#lightbox-title').textContent=`${String(currentImage+1).padStart(2,'0')} / ${r.cn}`;$('[data-original]').href=r.image;}
+function showImage(index){if(!data)return;currentImage=(index+data.gallery.length)%data.gallery.length;const r=data.gallery[currentImage],img=$('[data-large-image]');imageAttempts.delete(img);img.setAttribute('data-preview',r.thumb);img.src=r.image;img.alt=data.cn+' · '+r.cn+'设计意向';$('#lightbox-title').textContent=`${String(currentImage+1).padStart(2,'0')} / ${r.cn}`;$('[data-original]').href=r.image;}
 for(const a of $$('[data-lightbox]'))a.addEventListener('click',e=>{if(typeof dialog?.showModal!=='function')return;e.preventDefault();lastFocus=a;showImage(Number(a.dataset.lightbox));dialog.showModal();document.body.style.overflow='hidden';});
 $('[data-close]')?.addEventListener('click',()=>dialog.close());
 dialog?.addEventListener('close',()=>{document.body.style.overflow='';$('[data-large-image]').removeAttribute('src');lastFocus?.focus({preventScroll:true});});

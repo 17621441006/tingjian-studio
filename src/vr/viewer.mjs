@@ -91,7 +91,7 @@ async function downloadOffline(){
   for(const room of embedded.rooms){[room.pano,room.source]=await Promise.all([dataUrl(room.pano),dataUrl(room.source)]);status('正在打包原生全景 '+(++done)+' / '+rooms.length);}
   const responses=await Promise.all(['/vr/dusk/index.html','/vr/dusk/vr.css','/vr/dusk/vr.js'].map(async p=>{const r=await fetch(p);if(!r.ok)throw Error('查看器未载入');return r.text();}));
   const html=offlineHtml(...responses,embedded);
-  const blob=new Blob([html],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='夜庭-暮色写实全景VR.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('离线 VR 已下载，包含八个全景、原图对照与查看器。');
+  const blob=new Blob([html],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='夜廊-暮色写实全景VR.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);status('离线 VR 已下载，包含八个全景、原图对照与查看器。');
  }catch{status('离线包未下载成功，请重试。页面内的全景不会受影响。');}finally{exporting=false;button.disabled=false;}
 }
 $('[data-pano-download]').addEventListener('click',async e=>{if(!active||!/^https?:/.test(active.pano))return;e.preventDefault();try{const r=await fetch(active.pano);if(!r.ok)throw Error('download');const url=URL.createObjectURL(await r.blob()),a=document.createElement('a');a.href=url;a.download='暮色-'+active.id+'-360全景.png';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);}catch{status('全景原图下载未完成，请重试。');}});

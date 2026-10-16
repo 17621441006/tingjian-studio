@@ -15,7 +15,25 @@
       "width": 1200,
       "height": 896,
       "thumbWidth": 768,
-      "thumbHeight": 573
+      "thumbHeight": 573,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/collection/assets/stillwood-living.webp",
+          "thumb": "/collection/assets/stillwood-living-768.webp",
+          "width": 1200,
+          "height": 896,
+          "thumbWidth": 768
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-stillwood-living2.webp",
+          "thumb": "/collection/assets/v42-stillwood-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
@@ -153,20 +171,38 @@
       "width": 1200,
       "height": 896,
       "thumbWidth": 768,
-      "thumbHeight": 573
+      "thumbHeight": 573,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/collection/assets/nocturne-living.webp",
+          "thumb": "/collection/assets/nocturne-living-768.webp",
+          "width": 1200,
+          "height": 896,
+          "thumbWidth": 768
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-nocturne-living2.webp",
+          "thumb": "/collection/assets/v42-nocturne-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
       "cn": "玄关 / 餐厅",
       "en": "Dining",
-      "title": "The Supper",
-      "description": "玄关与餐厅用深木柜体连续组织，紧凑四人餐桌配柔和黄铜灯具。浅色石面提亮视线，餐椅与客厅的绿色呼应。",
-      "material": "深木 · 浅色石面 · 拉丝黄铜",
-      "light": "餐桌重点光，餐边柜内柔光",
-      "storage": "浅鞋柜与餐边抽屉分工，钥匙和日用品集中收纳。",
-      "sourceImage": "assets/renders/edition_dining.webp",
-      "image": "/collection/assets/nocturne-dining.webp",
-      "thumb": "/collection/assets/nocturne-dining-768.webp",
+      "title": "白墙、绿椅与归家的光",
+      "description": "保留入户门、餐桌与厨房门洞关系。温白柜墙打开视线，灰白石餐桌、祖母绿座椅与细金属边延续客厅的黑白绿金。",
+      "material": "温白柜面 · 灰白石 · 祖母绿绒面 · 黄铜",
+      "light": "自然光为主，餐桌与换鞋壁龛独立柔光",
+      "storage": "餐边浅柜收杯盘，玄关通顶柜收衣物，换鞋位随手放下钥匙。",
+      "sourceImage": "v42 palette refinement",
+      "image": "/collection/assets/v42-nocturne-dining.webp",
+      "thumb": "/collection/assets/v42-nocturne-dining-768.webp",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 768,
@@ -193,14 +229,14 @@
       "key": "second",
       "cn": "次卧 / 书房",
       "en": "Study",
-      "title": "The Study",
-      "description": "小房间以临窗书桌、纵向窄榻和整齐柜面完成工作与留宿。烟灰玻璃只用于一小段展示柜，中央保持空畅。",
-      "material": "烟熏木 · 灰织物 · 小面积烟灰玻璃",
-      "light": "书桌任务光 + 柜内感应灯",
-      "storage": "衣柜、薄抽屉与榻下收纳沿墙布置，不设中央岛台。",
-      "sourceImage": "assets/renders/edition_second.webp",
-      "image": "/collection/assets/nocturne-second.webp",
-      "thumb": "/collection/assets/nocturne-second-768.webp",
+      "title": "浅色展开，一点绿意",
+      "description": "窄榻沿右侧长墙，衣柜靠左，工作台仍落在尽端窗下。温白与浅灰减轻柜体重量，只让祖母绿与细黑框留下重点。",
+      "material": "温白柜门 · 灰白台面 · 浅灰织物 · 祖母绿靠包",
+      "light": "完整窗光与独立桌灯，床边低位光单独控制",
+      "storage": "衣柜、榻下抽屉与上柜分工，中央走道保持清楚。",
+      "sourceImage": "v42 palette refinement",
+      "image": "/collection/assets/v42-nocturne-second.webp",
+      "thumb": "/collection/assets/v42-nocturne-second-768.webp",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 768,
@@ -210,14 +246,14 @@
       "key": "kitchen",
       "cn": "厨房",
       "en": "Kitchen",
-      "title": "The Kitchen",
-      "description": "保留实拍中左窗水槽与里侧灶台的紧凑布局。深木门板、浅石台面和细黄铜拉手把夜色方案延续到厨房。",
-      "material": "烟熏木纹耐潮板 · 浅石 · 深石背板",
-      "light": "柜下连续工作光，暗部仍清楚",
-      "storage": "锅具用深抽屉，电器位先按机型复核；清洁收纳与烹饪分开。",
-      "sourceImage": "assets/renders/edition_kitchen.webp",
-      "image": "/collection/assets/nocturne-kitchen.webp",
-      "thumb": "/collection/assets/nocturne-kitchen-768.webp",
+      "title": "白与绿之间，顺手做饭",
+      "description": "保留窗下水槽、里侧烹饪区与入口电器位置。温白上柜与祖母绿下柜相接，灰白石面和自然窗光让紧凑厨房清爽明亮。",
+      "material": "温白耐潮柜面 · 祖母绿下柜 · 灰白石台面",
+      "light": "自然窗光与连续柜下任务光，避免橙黄偏色",
+      "storage": "抽屉分类餐具锅具，转角与电器开启位置按实际产品复核。",
+      "sourceImage": "v42 palette refinement",
+      "image": "/collection/assets/v42-nocturne-kitchen.webp",
+      "thumb": "/collection/assets/v42-nocturne-kitchen-768.webp",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 768,
@@ -244,14 +280,14 @@
       "key": "balcony",
       "cn": "景观阳台",
       "en": "Terrace",
-      "title": "The Sky Bar",
-      "description": "大面玻璃把窗景留完整，窄吧台沿阳台短边设置，避免横挡窗面。两把轻巧吧椅和局部暖光构成晚间小坐席。",
-      "material": "深色石面 · 烟熏木 · 暖金属",
-      "light": "台下低位灯 + 小桌灯",
-      "storage": "吧台下收杯具，设备数量按散热与通道条件决定。",
-      "sourceImage": "assets/renders/edition_balcony.webp",
-      "image": "/collection/assets/nocturne-balcony.webp",
-      "thumb": "/collection/assets/nocturne-balcony-768.webp",
+      "title": "让城市，落进一片明亮",
+      "description": "保留整面窗景与短边吧台，温白、浅灰石和局部祖母绿替代厚重深棕。细金属支撑与轻薄坐垫，让视线继续向窗外延伸。",
+      "material": "灰白石 · 温白柜面 · 祖母绿 · 细黄铜",
+      "light": "自然日光为主，吧台与夜间低位光分路调节",
+      "storage": "短边下柜收茶具，窗边只留轻巧座位与随手边几。",
+      "sourceImage": "v42 palette refinement",
+      "image": "/collection/assets/v42-nocturne-balcony.webp",
+      "thumb": "/collection/assets/v42-nocturne-balcony-768.webp",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 768,
@@ -261,14 +297,14 @@
       "key": "utility",
       "cn": "生活阳台",
       "en": "Utility",
-      "title": "Back of House",
-      "description": "洗烘与家务用品收进深木柜体，浅色工作台便于分拣。生活阳台承担设备和清洁功能，让景观阳台保持轻盈。",
-      "material": "耐潮深木纹板 · 浅石工作台",
-      "light": "柜下工作灯，设备状态可清楚辨认",
-      "storage": "叠放洗烘、抽拉洗衣篮与清洁高柜；通风、排水和检修一并预留。",
-      "sourceImage": "assets/renders/edition_utility.webp",
-      "image": "/collection/assets/nocturne-utility.webp",
-      "thumb": "/collection/assets/nocturne-utility-768.webp",
+      "title": "明亮的家务角",
+      "description": "保留左侧外窗、尽端洗烘叠放与右侧操作台。温白上柜、祖母绿下柜和浅灰地面延续全屋配色，让家务空间也干净有序。",
+      "material": "温白耐潮板 · 祖母绿柜门 · 灰白耐水台面",
+      "light": "明亮自然窗光与独立操作灯",
+      "storage": "洗烘、清洁工具与耗材分格安放，设备开启与检修空间保持完整。",
+      "sourceImage": "v42 palette refinement",
+      "image": "/collection/assets/v42-nocturne-utility.webp",
+      "thumb": "/collection/assets/v42-nocturne-utility-768.webp",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 768,
@@ -291,7 +327,25 @@
       "width": 1200,
       "height": 896,
       "thumbWidth": 768,
-      "thumbHeight": 573
+      "thumbHeight": 573,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/collection/assets/inkcourt-living.webp",
+          "thumb": "/collection/assets/inkcourt-living-768.webp",
+          "width": 1200,
+          "height": 896,
+          "thumbWidth": 768
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-inkcourt-living2.webp",
+          "thumb": "/collection/assets/v42-inkcourt-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
@@ -445,7 +499,25 @@
       "width": 1536,
       "height": 1024,
       "thumbWidth": 480,
-      "thumbHeight": 320
+      "thumbHeight": 320,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/tour/home-assets/dusk/pieces/living/cognac-glass.jpg",
+          "thumb": "/tour/home-assets/dusk/pieces/living/cognac-glass-thumb.jpg",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 480
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-dusk-living2.webp",
+          "thumb": "/collection/assets/v42-dusk-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
@@ -712,7 +784,25 @@
       "width": 1536,
       "height": 1024,
       "thumbWidth": 360,
-      "thumbHeight": 240
+      "thumbHeight": 240,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/tour/home-assets/chinese/living.jpg",
+          "thumb": "/tour/home-assets/chinese/living-thumb.jpg",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 360
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-cinnabar-living2.webp",
+          "thumb": "/collection/assets/v42-cinnabar-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
@@ -782,7 +872,7 @@
     {
       "key": "second",
       "cn": "次卧 / 书房",
-      "title": "轻床榻、暖木柜与日常收纳",
+      "title": "沿直墙安放，一床一桌",
       "copy": "以参考次卧的暖木柜体和简洁木床为基础，让睡眠与储物共用这间小房。保留白墙，红棕只在家具和边框出现。",
       "materials": [
         [
@@ -803,12 +893,16 @@
         "floor",
         "light"
       ],
-      "image": "/tour/home-assets/chinese/second.jpg",
-      "thumb": "/tour/home-assets/chinese/second-thumb.jpg",
+      "image": "/collection/assets/v42-cinnabar-second.webp",
+      "thumb": "/collection/assets/v42-cinnabar-second-768.webp",
       "width": 1536,
       "height": 1024,
-      "thumbWidth": 360,
-      "thumbHeight": 240
+      "thumbWidth": 768,
+      "thumbHeight": 512,
+      "description": "恢复紧凑长方形次卧：窄床沿左墙纵向安放，右侧薄书桌与收纳沿墙展开，尽端外窗保持原位。白墙、温润绛木与清楚的中央通路，让小房间有序而明亮。",
+      "material": "温白墙面 · 绛木家具 · 米白床品",
+      "storage": "床下抽屉收床品，桌侧窄柜与上架收常用书，避免厚柜挤占走道。",
+      "light": "尽端窗光、桌面任务光与床头阅读光分别控制。"
     },
     {
       "key": "kitchen",
@@ -976,7 +1070,25 @@
       "width": 1536,
       "height": 1024,
       "thumbWidth": 480,
-      "thumbHeight": 320
+      "thumbHeight": 320,
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/tour/home-assets/copper/living.jpg",
+          "thumb": "/tour/home-assets/copper/living-thumb.jpg",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 480
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-verdigris-living2.webp",
+          "thumb": "/collection/assets/v42-verdigris-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ]
     },
     {
       "key": "dining",
@@ -1199,6 +1311,285 @@
       ],
       "image": "/tour/home-assets/copper/v16/utility.jpg",
       "thumb": "/tour/home-assets/copper/v16/utility-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    }
+  ],
+  "amber": [
+    {
+      "key": "living",
+      "cn": "客厅",
+      "title": "用一张弧形沙发，松开客厅的直角",
+      "copy": "约 2.05 米肉桂色软包用柔圆端部收尾，茶几薄而轻。浅橡木与象牙白墙托住家具，羊毛地毯用一层矿物灰过渡，保持日光清爽。",
+      "materials": [
+        [
+          "沙发",
+          "肉桂或低饱和陶土色细纹皮，约 2.05 米紧凑弧形轮廓，先核对有效坐深。"
+        ],
+        [
+          "茶几与地毯",
+          "烟色薄玻璃、细古铜骨架；象牙白细密羊毛毯配淡灰带纹。"
+        ],
+        [
+          "墙与地面",
+          "浅橡木与暖象牙白矿物墙面；浅橡木地面与细密羊毛织物拉开软硬触感。"
+        ]
+      ],
+      "purchase": [
+        "sofa",
+        "table",
+        "rug",
+        "panel",
+        "tile"
+      ],
+      "image": "/tour/home-assets/amber/living.jpg",
+      "thumb": "/tour/home-assets/amber/living-thumb.jpg",
+      "views": [
+        {
+          "label": "看向玄关",
+          "image": "/tour/home-assets/amber/living.jpg",
+          "thumb": "/tour/home-assets/amber/living-thumb.jpg",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 480
+        },
+        {
+          "label": "看向阳台",
+          "image": "/collection/assets/v42-amber-living2.webp",
+          "thumb": "/collection/assets/v42-amber-living2-768.webp",
+          "width": 1536,
+          "height": 1024,
+          "thumbWidth": 768
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "dining",
+      "cn": "餐厅 / 玄关",
+      "title": "圆角餐桌，沿着光线入座",
+      "copy": "桌端收圆，转身更从容。浅木餐边柜局部留空，琥珀色玻璃灯具像一个轻盈的光点，家具之间留出干净路径。",
+      "materials": [
+        [
+          "桌椅",
+          "小尺度圆角木餐桌、细腿浅软包椅；四人拉椅后检查过道。"
+        ],
+        [
+          "柜体",
+          "浅橡木闭合柜加短段开放台面，门板与抽屉按餐具尺寸分配。"
+        ],
+        [
+          "灯具",
+          "透光琥珀玻璃与细金属吊件，主照明另行补足。"
+        ]
+      ],
+      "purchase": [
+        "table",
+        "storage",
+        "panel",
+        "light"
+      ],
+      "image": "/tour/home-assets/amber/v16/dining.jpg",
+      "thumb": "/tour/home-assets/amber/v16/dining-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "master",
+      "cn": "主卧",
+      "title": "把浓色收进一条搭毯",
+      "copy": "浅木床架、暖白织物与局部石质背景保持安静。淡陶土搭毯回应客厅，薄床边台留出走动余量。",
+      "materials": [
+        [
+          "床与床品",
+          "约 1.8 米浅木低平台、细棉白床品与淡陶土搭毯，保留自然褶皱。"
+        ],
+        [
+          "床头与柜",
+          "浅橡木、细腻灰白肌理板与小面积软包；衣柜分缝连续。"
+        ],
+        [
+          "地面与灯",
+          "浅木地板、浅灰细羊毛床边毯，床头两侧独立柔光。"
+        ]
+      ],
+      "purchase": [
+        "bed",
+        "floor",
+        "panel",
+        "light"
+      ],
+      "image": "/tour/home-assets/amber/master.jpg",
+      "thumb": "/tour/home-assets/amber/master-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "second",
+      "cn": "次卧 / 书房",
+      "title": "一侧睡眠，一侧梳妆，功能各归其位",
+      "copy": "窄床沿左墙摆放，右侧留给轻巧梳妆工作台与镜面收纳。浅木、暖白和少量陶土织物延续曲光的明亮，家具位置与其他方案拉开区别。",
+      "materials": [
+        [
+          "床",
+          "约 1.2 米窄床沿侧墙试排，柔圆端部减少体量。"
+        ],
+        [
+          "梳妆工作台",
+          "对侧薄台与镜柜，照明避开屏幕反光。"
+        ],
+        [
+          "衣物收纳",
+          "浅木闭合柜与局部镜面，开门和床侧通路需同时复尺。"
+        ]
+      ],
+      "purchase": [
+        "storage",
+        "chair",
+        "floor",
+        "light"
+      ],
+      "image": "/tour/home-assets/amber/v16/second.jpg",
+      "thumb": "/tour/home-assets/amber/v16/second-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "kitchen",
+      "cn": "厨房",
+      "title": "干净的浅木里，留一点矿物纹理",
+      "copy": "浅木柜面延续家里的轻盈。石台面用灰白底与稀疏深纹，操作光与窗口共同提亮，不把厨房做成装饰展示台。",
+      "materials": [
+        [
+          "柜门",
+          "浅橡木耐污饰面，靠近水槽的边角做耐水封边。"
+        ],
+        [
+          "台面",
+          "灰白石材观感台面，局部灰蓝纹理点缀，以样板核对颜色。"
+        ],
+        [
+          "操作区",
+          "保留原厨房和烟道边界，台面电器、插座与柜下灯一起安排。"
+        ]
+      ],
+      "purchase": [
+        "panel",
+        "tile",
+        "storage",
+        "light"
+      ],
+      "image": "/tour/home-assets/amber/kitchen.jpg",
+      "thumb": "/tour/home-assets/amber/kitchen-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "bath",
+      "cn": "卫生间",
+      "title": "一块有纹理的台面，成为小浴室的主角",
+      "copy": "灰蓝矿物纹只用于小面积台面，暖白墙与浅木柜为它留白。镜边透出暖光，玻璃淋浴区保持清爽。",
+      "materials": [
+        [
+          "台盆与石面",
+          "灰蓝与白色矿物纹台面，浮起的浅木耐潮柜；避免整间铺满强纹石材。"
+        ],
+        [
+          "墙地",
+          "暖灰白哑光砖、湿区防滑地面；防水与排水统一深化。"
+        ],
+        [
+          "镜与五金",
+          "细古铜镜框、柔和镜前光与简洁五金，不叠加夸张金属装饰。"
+        ]
+      ],
+      "purchase": [
+        "tile",
+        "panel",
+        "light"
+      ],
+      "image": "/tour/home-assets/amber/bath.jpg",
+      "thumb": "/tour/home-assets/amber/bath-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "balcony",
+      "cn": "景观阳台",
+      "title": "一张轻椅，和几件可以挪动的小物",
+      "copy": "浅色编织休闲椅、琥珀色小凳与一盆植物，让窗边更松弛。不用固定长榻，落地窗前的空地随生活改变。",
+      "materials": [
+        [
+          "坐席",
+          "浅色曲线编织椅，轻软垫可拆洗。"
+        ],
+        [
+          "小凳",
+          "可移动琥珀色小凳，兼作临时边几。"
+        ],
+        [
+          "窗景",
+          "落地固定主玻璃、窄侧通风扇与轻纱。"
+        ]
+      ],
+      "purchase": [
+        "chair",
+        "table",
+        "curtain",
+        "tile"
+      ],
+      "image": "/tour/home-assets/amber/v16/balcony.jpg",
+      "thumb": "/tour/home-assets/amber/v16/balcony-thumb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "thumbWidth": 480,
+      "thumbHeight": 320
+    },
+    {
+      "key": "utility",
+      "cn": "生活阳台",
+      "title": "温暖的家务角，也要顺手好用",
+      "copy": "浅木柜把设备与耗材排成整齐的一面，白色耐水台面方便整理。洗烘与窄储物分开， 下部固定玻璃落地，上部可开启小窗通风。",
+      "materials": [
+        [
+          "外窗",
+          "下部落地固定玻璃，上部小窗可开启；沿用结构边框，开启与设备柜互不遮挡。"
+        ],
+        [
+          "洗烘柜",
+          "按最终机型核对散热、检修、门扇开启与叠放连接。"
+        ],
+        [
+          "台面与柜",
+          "浅木耐潮饰面与耐水白台面，边缘易擦拭，清洁工具单独竖收。"
+        ],
+        [
+          "地面与窗",
+          "耐水哑光砖与原排水体系，保留可开启通风窗。"
+        ]
+      ],
+      "purchase": [
+        "storage",
+        "panel",
+        "tile"
+      ],
+      "image": "/tour/home-assets/amber/v16/utility.jpg",
+      "thumb": "/tour/home-assets/amber/v16/utility-thumb.jpg",
       "width": 1536,
       "height": 1024,
       "thumbWidth": 480,

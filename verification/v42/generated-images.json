@@ -1,0 +1,79 @@
+[
+  {
+    "id": "nocturne-dining",
+    "source": "exec-ede040ce-9d63-454d-960a-c4f401adca1c.png",
+    "prompt": "Edit the FIRST reference interior photo, preserving the exact room dimensions, straight wall planes, ceiling height, window/door positions, camera perspective and furniture footprint. This is a compact Shanghai apartment, never enlarge it. The SECOND reference is the same apartment's approved living-room palette: crisp warm-white walls, emerald green, charcoal black, white/grey stone and restrained brushed brass. Make a sophisticated bright contemporary private residence. Eliminate the dominant chocolate/amber-brown cast and large dark-brown cabinet expanses. Keep abundant neutral daylight, accurate white balance and pale surfaces occupying at least 60% of visible wall/cabinet area. Black is a fine outline or limited anchor, emerald a deliberate accent, brass fine details. Photorealistic editorial interior, physically credible, no text, no watermark, landscape composition. Do not change structural geometry. Target is entry/dining. Preserve the entrance door at center-right, full-height storage on right, shoe bench niche, four-place table lower-left, kitchen doorway on left. Convert upper/right cabinet doors to soft ivory with fine charcoal reveals, entrance door charcoal. Dining table polished grey-veined white stone with slender charcoal legs, chairs emerald velvet and fine black/brass frames. Sideboard pale stone top and emerald lacquer lower fronts. Keep restrained charcoal herringbone timber floor, lighter than original; white walls. Ceiling light subtle soft warm, never orange.",
+    "refs": [
+      "dist/collection/assets/nocturne-dining.webp",
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-dining.webp"
+  },
+  {
+    "id": "nocturne-second",
+    "source": "exec-e2dd5d9b-88aa-48d6-919f-95320f9f64bb.png",
+    "prompt": "Edit the FIRST reference interior photo, preserving the exact room dimensions, straight wall planes, ceiling height, window/door positions, camera perspective and furniture footprint. This is a compact Shanghai apartment, never enlarge it. The SECOND reference is the same apartment's approved living-room palette: crisp warm-white walls, emerald green, charcoal black, white/grey stone and restrained brushed brass. Make a sophisticated bright contemporary private residence. Eliminate the dominant chocolate/amber-brown cast and large dark-brown cabinet expanses. Keep abundant neutral daylight, accurate white balance and pale surfaces occupying at least 60% of visible wall/cabinet area. Black is a fine outline or limited anchor, emerald a deliberate accent, brass fine details. Photorealistic editorial interior, physically credible, no text, no watermark, landscape composition. Do not change structural geometry. Target is the narrow secondary bedroom/study. Absolutely preserve window centered at back, long daybed on RIGHT wall, wardrobe on LEFT wall, desk directly under back window, single central aisle. Make wardrobe and upper cabinets ivory/off-white, daybed base pale grey, cushions emerald and crisp white, back panel pale grey fabric. Desk pale grey-veined white stone with slender charcoal legs, small brass lamp. Charcoal frame windows and tiny black/brass shelf details. Keep floor neutral medium-charcoal herringbone without brown cast. Bright daytime, airy and lived-in, no enlargement.",
+    "refs": [
+      "dist/collection/assets/nocturne-second.webp",
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-second.webp"
+  },
+  {
+    "id": "nocturne-kitchen",
+    "source": "exec-6a4220f9-5c3a-40e8-891f-6bf7009776eb.png",
+    "prompt": "Edit the FIRST reference interior photo, preserving the exact room dimensions, straight wall planes, ceiling height, window/door positions, camera perspective and furniture footprint. This is a compact Shanghai apartment, never enlarge it. The SECOND reference is the same apartment's approved living-room palette: crisp warm-white walls, emerald green, charcoal black, white/grey stone and restrained brushed brass. Make a sophisticated bright contemporary private residence. Eliminate the dominant chocolate/amber-brown cast and large dark-brown cabinet expanses. Keep abundant neutral daylight, accurate white balance and pale surfaces occupying at least 60% of visible wall/cabinet area. Black is a fine outline or limited anchor, emerald a deliberate accent, brass fine details. Photorealistic editorial interior, physically credible, no text, no watermark, landscape composition. Do not change structural geometry. Target is compact L-shaped kitchen, maintain ALL appliance, sink, hood, window, fridge and counter positions of first image exactly. Upper cabinets warm-white, lower cabinets muted deep emerald, white stone counters and soft cool-grey/white stone backsplash. Charcoal black appliance faces and thin brass handles. Floor light grey matte stone. Strong neutral natural daylight. Green/white/grey should be dominant, NO walnut wood fronts or brown color cast.",
+    "refs": [
+      "dist/collection/assets/nocturne-kitchen.webp",
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-kitchen.webp"
+  },
+  {
+    "id": "nocturne-balcony",
+    "source": "exec-2fcb6249-b8a2-4184-99c9-e460943f3dde.png",
+    "prompt": "Edit the FIRST reference interior photo, preserving the exact room dimensions, straight wall planes, ceiling height, window/door positions, camera perspective and furniture footprint. This is a compact Shanghai apartment, never enlarge it. The SECOND reference is the same apartment's approved living-room palette: crisp warm-white walls, emerald green, charcoal black, white/grey stone and restrained brushed brass. Make a sophisticated bright contemporary private residence. Eliminate the dominant chocolate/amber-brown cast and large dark-brown cabinet expanses. Keep abundant neutral daylight, accurate white balance and pale surfaces occupying at least 60% of visible wall/cabinet area. Black is a fine outline or limited anchor, emerald a deliberate accent, brass fine details. Photorealistic editorial interior, physically credible, no text, no watermark, landscape composition. Do not change structural geometry. Target is narrow enclosed scenic balcony. Keep continuous full-height glazing along RIGHT side, short-end bar at back-left, living-room sliding glazed door at LEFT and same rectangular footprint. Transform evening into luminous late afternoon with clear city view. Replace dominant brown joinery with ivory walls/upper fronts, green lower bar doors, white/grey marble countertop, slim brass stools with emerald seats. Window frame slender charcoal. Low bench along glass should be visually slim light-grey base and soft pale-grey cushion with one emerald pillow, not bulky wood. Light grey stone floor; brass only small outlines. Daylight is dominant, cozy but emphatically not dark or brown.",
+    "refs": [
+      "dist/collection/assets/nocturne-balcony.webp",
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-balcony.webp"
+  },
+  {
+    "id": "nocturne-utility",
+    "source": "exec-43fd404f-0d7f-46fa-882c-38893a8ed535.png",
+    "prompt": "Edit the FIRST reference interior photo, preserving the exact room dimensions, straight wall planes, ceiling height, window/door positions, camera perspective and furniture footprint. This is a compact Shanghai apartment, never enlarge it. The SECOND reference is the same apartment's approved living-room palette: crisp warm-white walls, emerald green, charcoal black, white/grey stone and restrained brushed brass. Make a sophisticated bright contemporary private residence. Eliminate the dominant chocolate/amber-brown cast and large dark-brown cabinet expanses. Keep abundant neutral daylight, accurate white balance and pale surfaces occupying at least 60% of visible wall/cabinet area. Black is a fine outline or limited anchor, emerald a deliberate accent, brass fine details. Photorealistic editorial interior, physically credible, no text, no watermark, landscape composition. Do not change structural geometry. Target is narrow utility laundry balcony. Keep stacked washer/dryer at FAR end, glazing running along LEFT side, shallow counter/cabinets along RIGHT wall, exact width and ceiling. Ivory upper cabinets, muted emerald lower cabinet doors, white/grey stone counter and pale grey floor. Black appliance/window details, tiny brushed brass handles. Bright clean daylight and simple functional styling. No new walls or moved appliances.",
+    "refs": [
+      "dist/collection/assets/nocturne-utility.webp",
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-utility.webp"
+  },
+  {
+    "id": "nocturne-living2",
+    "source": "exec-ae8b33cc-d6fc-420f-a758-89345796d62c.png",
+    "prompt": "Create ONE photorealistic reverse-angle interior visualization of the exact compact living room in the reference. The reference camera is at the balcony looking inward toward the hall, with the sofa on the right. Move the camera to the entrance/hall at the far back of this same room and turn it 180 degrees to look across the living room TOWARD the balcony. In the new view the SAME sofa is along the LEFT wall, same coffee table center, a slim low console with TV/quiet art on the RIGHT wall, generous full-height glazed balcony doorway straight ahead; beyond it a shallow enclosed balcony with full-height glass. Preserve compact rectangular footprint, modest ceiling height, floor pattern, material palette, seat proportions and circulation. Correct architectural perspective with parallel verticals and believable space, avoid ultrawide distortions. This is an alternate design viewpoint, not a different home. Beautiful bright natural daytime, balanced exposure, no heavy orange cast, no text or watermark. Landscape 3:2. Nocturne signature: white plaster walls, deep emerald velvet L-sofa LEFT, charcoal outlines and limited dark ribbed hall trim, black/white veined marble coffee table with brass base, grey rug, fine brass sconces, charcoal-brown herringbone timber floor. Pale surfaces and daylight dominate. Absolutely no cognac or brown leather sofa.",
+    "refs": [
+      "dist/collection/assets/nocturne-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-nocturne-living2.webp"
+  },
+  {
+    "id": "stillwood-living2",
+    "source": "exec-4f97a79c-136a-4d2d-a77d-357b349f5b49.png",
+    "prompt": "Create ONE photorealistic reverse-angle interior visualization of the exact compact living room in the reference. The reference camera is at the balcony looking inward toward the hall, with the sofa on the right. Move the camera to the entrance/hall at the far back of this same room and turn it 180 degrees to look across the living room TOWARD the balcony. In the new view the SAME sofa is along the LEFT wall, same coffee table center, a slim low console with TV/quiet art on the RIGHT wall, generous full-height glazed balcony doorway straight ahead; beyond it a shallow enclosed balcony with full-height glass. Preserve compact rectangular footprint, modest ceiling height, floor pattern, material palette, seat proportions and circulation. Correct architectural perspective with parallel verticals and believable space, avoid ultrawide distortions. This is an alternate design viewpoint, not a different home. Beautiful bright natural daytime, balanced exposure, no heavy orange cast, no text or watermark. Landscape 3:2. Stillwood: pale beige upholstered low L-sofa LEFT, ivory walls, light oak joinery, subtle vertical oak slats only in small areas, pale travertine low coffee table, light natural oak plank floor, neutral linen and quiet soft daylight. Restrained warm-minimal aesthetic, no dark wood.",
+    "refs": [
+      "dist/collection/assets/stillwood-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-stillwood-living2.webp"
+  },
+  {
+    "id": "inkcourt-living2",
+    "source": "exec-d6b63113-372b-4372-b234-e9ce27cd4d3c.png",
+    "prompt": "Create ONE photorealistic reverse-angle interior visualization of the exact compact living room in the reference. The reference camera is at the balcony looking inward toward the hall, with the sofa on the right. Move the camera to the entrance/hall at the far back of this same room and turn it 180 degrees to look across the living room TOWARD the balcony. In the new view the SAME sofa is along the LEFT wall, same coffee table center, a slim low console with TV/quiet art on the RIGHT wall, generous full-height glazed balcony doorway straight ahead; beyond it a shallow enclosed balcony with full-height glass. Preserve compact rectangular footprint, modest ceiling height, floor pattern, material palette, seat proportions and circulation. Correct architectural perspective with parallel verticals and believable space, avoid ultrawide distortions. This is an alternate design viewpoint, not a different home. Beautiful bright natural daytime, balanced exposure, no heavy orange cast, no text or watermark. Landscape 3:2. Inkcourt contemporary Chinese scheme: dark walnut slender frame seats/sofa with ivory cushions on LEFT, simple low dark wood tea table, off-white plaster walls, restrained black ink painting, slender straight walnut frames on RIGHT, beige stone floor. No ornate carving or palace scale, no arches. Light airy real small apartment.",
+    "refs": [
+      "dist/collection/assets/inkcourt-living.webp"
+    ],
+    "asset": "dist/collection/assets/v42-inkcourt-living2.webp"
+  }
+]

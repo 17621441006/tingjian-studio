@@ -1,0 +1,191 @@
+[
+  {
+    "path": "dist/collection/assets/v42-amber-hero-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 46582,
+    "sha": "9dad78b650b3832278638b4b7d9d9b8eb8cca025"
+  },
+  {
+    "path": "dist/collection/assets/v42-amber-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 54696,
+    "sha": "91c86acda5d1a339f0eca848c65e1bbc453fb3fa"
+  },
+  {
+    "path": "dist/collection/assets/v42-amber-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 370370,
+    "sha": "bf6dcc95b35b85ea48b9869cf1342e32752cabd9"
+  },
+  {
+    "path": "dist/collection/assets/v42-cinnabar-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 59910,
+    "sha": "786f11cd003a3d7aafc4f89d5ccca65b0f3cea64"
+  },
+  {
+    "path": "dist/collection/assets/v42-cinnabar-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 370642,
+    "sha": "5d917fb57eb8975dcdb01e31afc8312216719a2a"
+  },
+  {
+    "path": "dist/collection/assets/v42-cinnabar-second-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 55208,
+    "sha": "ba4dfd3883392ae94746980d84bb6058cba85658"
+  },
+  {
+    "path": "dist/collection/assets/v42-cinnabar-second.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 251312,
+    "sha": "25b83cde2662c4241d6612d992563481eaee0071"
+  },
+  {
+    "path": "dist/collection/assets/v42-dusk-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 53786,
+    "sha": "fd5e59244bc3839e75db5863a281c3448125046b"
+  },
+  {
+    "path": "dist/collection/assets/v42-dusk-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 358260,
+    "sha": "e5fdad2a751ff5d37582353dd3c3ae52cfd988bb"
+  },
+  {
+    "path": "dist/collection/assets/v42-inkcourt-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 37962,
+    "sha": "f0006756f4105a3eca2ff7e8827a3c8811a5df8f"
+  },
+  {
+    "path": "dist/collection/assets/v42-inkcourt-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 202342,
+    "sha": "a2bcc5ca9c64407f20b17f60448899178048b163"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-balcony-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 64492,
+    "sha": "3a4043037f1dd0bb0ea57e27b4fb737af1f7bb14"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-balcony.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 287244,
+    "sha": "3c4ddc24edfabbeae9a6fc41a1de9951c0f0aaab"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-dining-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 35400,
+    "sha": "51b887243f93f297f52a9e9de264e9079db8b327"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-dining.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 187838,
+    "sha": "30056a3ed243aef066518f458a20b7a048029c70"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-kitchen-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 35120,
+    "sha": "129ff87f6896cb718fff08e467686d52a7219acc"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-kitchen.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 159420,
+    "sha": "1541ffcb517b4d3d99eb07903991365eea611332"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 31582,
+    "sha": "f9a4779e05f79b839ad6061f74827244942bbb98"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 187370,
+    "sha": "ac46d024c163fe03bfb11f9d2a0981e4dc93fdc2"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-second-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 41580,
+    "sha": "c8311f5e901e05edfc2afa2134d1dc72367959bb"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-second.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 218868,
+    "sha": "81c782edaea2d83f77c4bc270930f0d35bb8fdf3"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-utility-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 56100,
+    "sha": "5a55680b67abcbfa94f5120164a45d6578364c57"
+  },
+  {
+    "path": "dist/collection/assets/v42-nocturne-utility.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 230446,
+    "sha": "ae707ba14311ae19076bd20174bb1a2235a553b2"
+  },
+  {
+    "path": "dist/collection/assets/v42-stillwood-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 24708,
+    "sha": "c698c411cf0cb481bf443848772a3b0b73dcb5f6"
+  },
+  {
+    "path": "dist/collection/assets/v42-stillwood-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 187650,
+    "sha": "f94349b413d47173bac34626ca9664cad6b8b5e5"
+  },
+  {
+    "path": "dist/collection/assets/v42-verdigris-living2-768.webp",
+    "width": 768,
+    "height": 512,
+    "bytes": 73018,
+    "sha": "af9167d0dda5f11ecb74c8b028718007032e2d3c"
+  },
+  {
+    "path": "dist/collection/assets/v42-verdigris-living2.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 524894,
+    "sha": "e15f68e901e4186639f3efac64288e7c27394da5"
+  }
+]

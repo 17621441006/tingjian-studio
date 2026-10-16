@@ -32,7 +32,7 @@ function render(){
   if(visible)card.removeAttribute('aria-hidden');else card.setAttribute('aria-hidden','true');
  });
  edges[0].disabled=start===0;edges[1].disabled=start===cards.length-3;
- document.querySelector('.range').textContent=compact.matches?'01 — 06 / 06':`${String(start+1).padStart(2,'0')} — ${String(start+3).padStart(2,'0')} / 06`;
+ document.querySelector('.range').textContent=compact.matches?`01 — ${String(cards.length).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`:`${String(start+1).padStart(2,'0')} — ${String(start+3).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;
  hydrateVisible();
 }
 function scheduleHover(delay=650){

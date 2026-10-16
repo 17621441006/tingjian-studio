@@ -1,5 +1,5 @@
 export const styles=[
-  {id:'east',name:'夜庭新中式',tag:'胡桃木 · 皮革 · 藤编',new:false},
+  {id:'east',name:'夜廊新中式',tag:'胡桃木 · 皮革 · 藤编',new:false},
   {id:'wabi',name:'暖侘寂',tag:'浅橡木 · 亚麻 · 洞石',new:true},
   {id:'haipai',name:'海派中古',tag:'酒红 · 胡桃木 · 铬',new:true},
   {id:'future',name:'银绿未来',tag:'苔绿 · 浅木 · 拉丝铝',new:true}
