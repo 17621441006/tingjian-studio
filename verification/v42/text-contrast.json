@@ -1,0 +1,86 @@
+[
+  {
+    "tone": "base",
+    "muted": "665f54",
+    "backgrounds": [
+      "eee9df",
+      "e4ddd0"
+    ],
+    "ratios": [
+      5.21,
+      4.67
+    ]
+  },
+  {
+    "tone": "dusk",
+    "muted": "695746",
+    "backgrounds": [
+      "e7dfd2",
+      "dad0c0"
+    ],
+    "ratios": [
+      5.2,
+      4.51
+    ]
+  },
+  {
+    "tone": "cinnabar",
+    "muted": "685a50",
+    "backgrounds": [
+      "ede8dd",
+      "e1d8c8"
+    ],
+    "ratios": [
+      5.43,
+      4.69
+    ]
+  },
+  {
+    "tone": "verdigris",
+    "muted": "526157",
+    "backgrounds": [
+      "e5e7dc",
+      "d6dccd"
+    ],
+    "ratios": [
+      5.24,
+      4.67
+    ]
+  },
+  {
+    "tone": "amber",
+    "muted": "6c5b4b",
+    "backgrounds": [
+      "f0e9df",
+      "e6dbcb"
+    ],
+    "ratios": [
+      5.39,
+      4.75
+    ]
+  },
+  {
+    "tone": "paper",
+    "muted": "596450",
+    "backgrounds": [
+      "ececdf",
+      "e0e3d5"
+    ],
+    "ratios": [
+      5.24,
+      4.79
+    ]
+  },
+  {
+    "tone": "night",
+    "muted": "b7b5a9",
+    "backgrounds": [
+      "24241f",
+      "1d211c"
+    ],
+    "ratios": [
+      7.57,
+      7.92
+    ]
+  }
+]
