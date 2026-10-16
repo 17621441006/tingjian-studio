@@ -1,4 +1,5 @@
 import {COLLECTION} from './catalog.mjs';
+import {brandHead} from '../brand/meta.mjs';
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // Original presentation: full-height images, three contrasting typographic voices.
 const panels=[
@@ -21,7 +22,7 @@ export function homePage(version){
 <title>夜廊 · 陈天涌私宅设计 — NOCTURNE</title>
 <meta name="description" content="夜廊 · 陈天涌私宅设计。NOCTURNE：夜廊、绛天、暮色、铜绿、栖静、琥珀曲光、山居，七种生活提案。">
 <meta name="theme-color" content="#0d0c0b">
-<link rel="icon" type="image/svg+xml" href="/collection/icon.svg">
+${brandHead}
 <link rel="stylesheet" href="/collection/home.css?v=${version}">
 <script src="/collection/vendor/gsap.min.js" defer></script>
 <script src="/collection/home.js?v=${version}" defer></script>

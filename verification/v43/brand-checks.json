@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "pages": 11,
+  "appIcon": "01 classic black and white",
+  "appName": "夜廊",
+  "masterPngSize": [
+    4096,
+    4096
+  ],
+  "iconSizes": [
+    16,
+    32,
+    48,
+    180,
+    192,
+    512
+  ],
+  "maskableMaxInkRadius": 173.26424905328855,
+  "browserUITested": false,
+  "checks": [
+    "All page heads link the versioned Apple icon and one manifest.",
+    "PNG icon files have the declared dimensions and opaque backgrounds.",
+    "Maskable icon fits the central safe circle.",
+    "Three PNG masters are 4096 × 4096.",
+    "Existing homepage and collection interaction checks passed."
+  ]
+}

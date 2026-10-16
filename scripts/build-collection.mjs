@@ -10,7 +10,7 @@ await fs.copyFile('src/collection/collection.css','dist/collection/collection.cs
 await build({entryPoints:['src/collection/home-motion.mjs'],bundle:true,minify:true,target:'es2022',outfile:'dist/collection/home.js'});
 await fs.copyFile('src/collection/home.css','dist/collection/home.css');
 const version=createHash('sha256').update(await fs.readFile('dist/collection/collection.js')).update(await fs.readFile('dist/collection/collection.css')).update(await fs.readFile('dist/collection/home.js')).update(await fs.readFile('dist/collection/home.css')).digest('hex').slice(0,12);
-await fs.writeFile('dist/collection/icon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#293b32"/><path d="M17 47V17h30v30M25 47V31h14v16M17 25h30" fill="none" stroke="#e8e1d0" stroke-width="2"/></svg>');
+await import('./build-brand.mjs');
 await fs.writeFile('dist/index.html',homePage(version));
 for(const s of COLLECTION)await fs.writeFile(`dist/collection/${s.id}.html`,schemePage(s,version));
 console.log('Built NOCTURNE: restored original triptych and entrance, seven proposals, 56 rooms and seven reverse views; studio stays at /tour/.');

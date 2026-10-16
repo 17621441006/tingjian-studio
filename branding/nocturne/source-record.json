@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-16",
+  "selectedAppIcon": "01-classic",
+  "sources": [
+    {
+      "file": "01-classic.png",
+      "sha256": "c6d0b17a5758de3ecf46d5c3e21a11a307c11250595fe4e5d364654d3e8999c7"
+    },
+    {
+      "file": "02-light.png",
+      "sha256": "ac7ede09e7bc5120de81e3a477d5aa0e03423b3d09d0dc600a75b5a3a143afcd"
+    },
+    {
+      "file": "03-purple-gold.png",
+      "sha256": "235b1d71d0c96f506b166da0e0a8ed93c0c73cfa1adfca3f896e2dd17723c54a"
+    },
+    {
+      "file": "app-icon.png",
+      "sha256": "53e46a3cacc09286456e7f68344d7821833fb25227f1d2a58ee80856d72b91a3"
+    }
+  ],
+  "export": "Vector contours traced from approved source images; PNG masters rendered at 4096 × 4096."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "夜廊 · 陈天涌私宅设计 — NOCTURNE",
+  "short_name": "夜廊",
+  "description": "NOCTURNE 私宅设计：精选风格提案与全套方案工作台。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d0c0b",
+  "icons": [
+    {
+      "src": "/icons/nocturne-v43-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/nocturne-v43-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/nocturne-v43-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

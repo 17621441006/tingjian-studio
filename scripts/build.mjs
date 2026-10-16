@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
+import {brandHead} from '../src/brand/meta.mjs';
 // History category is archived on GitHub; never recreate its deployed files.
 const retired=JSON.parse(await fs.readFile('verification/v37/retired-history.json','utf8'));
 for(const {path} of retired.files)await fs.rm(path,{force:true});
@@ -13,7 +14,7 @@ await build({entryPoints:{loader:'src/legacy/loader.mjs',trial:'src/legacy/trial
 const legacyDigest=createHash('sha256').update(await fs.readFile('dist/tour/legacy-runtime/loader.js')).update(await fs.readFile('dist/tour/legacy-runtime/trial.js')).update(await fs.readFile('src/legacy/trial.css')).update(await fs.readFile('src/legacy/home-gallery.css')).update(await fs.readFile('src/legacy/design-journey.css')).update(await fs.readFile('src/legacy/design-journey.template.html')).update(await fs.readFile('src/legacy/space-model.template.html')).update(await fs.readFile('src/legacy/home-gallery.template.html')).update(await fs.readFile('src/legacy/gallery.js')).update(await fs.readFile('src/legacy/legacy.template.html')).update(await fs.readFile('src/legacy/trial.template.html')).digest('hex').slice(0,12);
 let legacyTemplate=await fs.readFile('src/legacy/legacy.template.html','utf8');
 legacyTemplate=legacyTemplate.replace('__TRIAL__',await fs.readFile('src/legacy/trial.template.html','utf8')).replace('__HOME_GALLERY__',await fs.readFile('src/legacy/home-gallery.template.html','utf8')).replace('__DESIGN_JOURNEY__',await fs.readFile('src/legacy/design-journey.template.html','utf8')).replace('__SPACE_MODEL__',await fs.readFile('src/legacy/space-model.template.html','utf8')).replaceAll('__LEGACY_VERSION__',legacyDigest);
-await fs.writeFile('dist/tour/legacy.html',legacyTemplate);
+await fs.writeFile('dist/tour/legacy.html',legacyTemplate.replace('</head>',brandHead+'</head>'));
 await fs.writeFile('dist/tour/furniture-trial.css',(await fs.readFile('src/legacy/trial.css','utf8'))+'\n'+(await fs.readFile('src/legacy/home-gallery.css','utf8'))+'\n'+(await fs.readFile('src/legacy/design-journey.css','utf8')));
 await fs.copyFile('src/legacy/gallery.js','dist/tour/legacy-gallery.js');
 
@@ -27,7 +28,7 @@ const template=await fs.readFile('src/tour/tour.template.html','utf8');
 const content=template
   .replace('<script type="application/octet-stream" data-legacy-source>__LEGACY__</script>','<script type="application/octet-stream" data-legacy-source data-url="/tour/legacy.html"></script>')
   .replace('<script>__BUNDLE__</script>',`<script src="/tour/tour.js?v=${digest}" defer></script>`);
-const icon="<link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23394b3c'/%3E%3Cpath d='M17 46V18h30v28M25 46V30h14v16M17 25h30' fill='none' stroke='%23f7f3e9' stroke-width='3'/%3E%3C/svg%3E\">";
+const icon=brandHead;
 const page=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef"><meta name="description" content="夜廊空间设计：先选风格，再比较布局、收纳与五种光线，再选家具材料，最后查看和下载全屋效果册。"><title>夜廊 NOCTURNE · 空间设计</title>${icon}<style>html{background:#edf0e9}body{margin:0;padding:14px 14px 40px;font-family:system-ui,-apple-system,'PingFang SC',sans-serif}.site-note{max-width:2156px;margin:18px auto 0;color:#69736a;font-size:12px;line-height:1.8}@media(max-width:700px){body{padding:0 0 24px}.site-note{padding:0 16px}}</style></head><body><main>${content}</main><footer class="site-note">夜廊 · 一寸一物，慢慢成家。<br>设计效果参考；房屋尺寸、结构与家具摆放以现场复核为准。</footer></body></html>`;
 // The root is the lightweight collection; the original workbench is retained below.
 await fs.writeFile('dist/tour/index.html',page);
@@ -39,7 +40,7 @@ const vrAssets=JSON.parse(await fs.readFile('verification/v18/panorama-assets.js
 await fs.mkdir('dist/vr/dusk',{recursive:true});
 await build({entryPoints:['src/vr/viewer.mjs'],bundle:true,minify:true,format:'iife',target:'es2022',outfile:'dist/vr/dusk/vr.js',legalComments:'inline'});
 await fs.copyFile('src/vr/vr.css','dist/vr/dusk/vr.css');
-await fs.writeFile('dist/vr/dusk/index.html',(await fs.readFile('src/vr/dusk.template.html','utf8')).replace('__VR_DATA__',JSON.stringify(vrData).replaceAll('<','\\u003c')));
+await fs.writeFile('dist/vr/dusk/index.html',(await fs.readFile('src/vr/dusk.template.html','utf8')).replace('__VR_DATA__',JSON.stringify(vrData).replaceAll('<','\\u003c')).replace('</head>',brandHead+'</head>'));
 console.log('Built standalone dusk VR viewer; native panorama images retained.');
 
 await import('./build-collection.mjs');
