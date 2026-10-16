@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "browserVisualTested": false,
+  "sourceIcon": "src/brand/icons/nocturne-v43.svg",
+  "placements": [
+    "Entrance above the existing bilingual name",
+    "Homepage top-left identity",
+    "Seven proposal headers and footers",
+    "Workbench home link"
+  ],
+  "checks": [
+    "Main homepage panel markup identical to the previous release.",
+    "Approved emblem paths reused, with currentColor and no app-icon tile.",
+    "Entrance mark joins the existing timeline at zero without extending the sequence.",
+    "Existing home and proposal interaction checks passed.",
+    "Desktop and mobile CSS sizes included."
+  ],
+  "runtimeDependenciesAdded": 0
+}

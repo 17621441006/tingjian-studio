@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
 import {brandHead} from '../src/brand/meta.mjs';
+import {brandMark} from '../src/brand/mark.mjs';
 // History category is archived on GitHub; never recreate its deployed files.
 const retired=JSON.parse(await fs.readFile('verification/v37/retired-history.json','utf8'));
 for(const {path} of retired.files)await fs.rm(path,{force:true});
@@ -26,6 +27,7 @@ await build({entryPoints:['src/tour/tour.js'],bundle:true,minify:true,outfile:'d
 const digest=createHash('sha256').update(await fs.readFile('dist/tour/tour.js')).digest('hex').slice(0,12);
 const template=await fs.readFile('src/tour/tour.template.html','utf8');
 const content=template
+  .replace('__BRAND_MARK__',brandMark())
   .replace('<script type="application/octet-stream" data-legacy-source>__LEGACY__</script>','<script type="application/octet-stream" data-legacy-source data-url="/tour/legacy.html"></script>')
   .replace('<script>__BUNDLE__</script>',`<script src="/tour/tour.js?v=${digest}" defer></script>`);
 const icon=brandHead;

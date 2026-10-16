@@ -94,7 +94,9 @@ if(gsap&&!reduced.matches){
   .from('.intro .s',{opacity:0,y:10,duration:.9},'-=.7')
   .to('.intro',{clipPath:'inset(0 0 100% 0)',duration:1.3,ease:'expo.inOut',delay:.5})
   .from(cards.filter(c=>c.classList.contains('is-visible')),{yPercent:12,opacity:0,duration:1.4,ease:'expo.out',stagger:.12},'-=.8')
-  .from('.top,.foot,.edge-nav',{opacity:0,duration:1},'-=.8');
+  .from('.top,.foot,.edge-nav',{opacity:0,duration:1},'-=.8')
+  // Join the existing entrance at time zero without extending its sequence.
+  .from('.intro-mark',{opacity:0,y:12,duration:1.3,ease:'expo.out'},0);
 }else endOpening();
 function reset(){clearHover();clearTimeout(slideTimer);hoveredEdge=null;sliding=false;leaving=false;collapse();panels.classList.remove('is-sliding','is-leaving');if(gsap)gsap.set(cards,{clearProps:'opacity,flexBasis'});render();}
 compact.addEventListener('change',reset);
