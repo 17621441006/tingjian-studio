@@ -1,0 +1,282 @@
+{
+  "generationMode": "image_gen",
+  "references": "Six user-supplied inspiration photographs; existing scheme geometry; generated living-room palette anchors. Imagery represents design concepts, not surveyed reconstruction.",
+  "schemes": [
+    {
+      "id": "silver-retreat",
+      "room": "living",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+      "request": {
+        "prompt": "Create ONE new photorealistic interior proposal image for this real apartment, landscape 3:2 composition. Reference image 1 is STRUCTURE ONLY: strictly retain its camera, perspective, room footprint, TV on left wall, sofa on right wall, dining at back, visible left opening and right entrance, all openings and ceiling heights. Redesign all finishes and furnishings completely. Other reference images are STYLE AND CRAFT inspiration only, not an extra room to insert. 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Room: living room looking towards dining. Deep ink-navy small soft curved sofa on right with a single burgundy cushion and small subdued gold silk pillow. One original dark landscape lacquer art panel above sofa, ivory walls elsewhere; airy iron oval coffee table with glass top; navy/ivory finely bordered rug. Back dining area small walnut table and cane chairs under delicate cream alabaster pendant, closed antique-style walnut sideboard. TV wall ivory, narrow dark console. Editorial architectural photography, physically believable materials, balanced daylight from camera-side balcony, light cream ceiling, dark surfaces show detail, no strong amber color cast, no dark vignette, no lettering, no logo, no watermark, no people. Do not retain existing gray/orange or generic original hotel furniture. Generate image, not a webpage, moodboard, grid, collage or diagram.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/living.webp",
+          "/workspace/scratch/31025950e38e/upload/04-IMG_7892.jpeg",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg",
+          "/workspace/scratch/31025950e38e/upload/01-IMG_7898.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "living",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+      "request": {
+        "prompt": "Create ONE new photorealistic interior proposal image for this real apartment, landscape 3:2 composition. Reference image 1 is STRUCTURE ONLY: strictly retain its camera, perspective, room footprint, TV on left wall, sofa on right wall, dining at back, visible left opening and right entrance, all openings and ceiling heights. Redesign all finishes and furnishings completely. Other reference images are STYLE AND CRAFT inspiration only, not an extra room to insert. 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Room: living room looking towards dining. Small ivory linen sofa on right, graceful slim walnut-framed antique-inspired chair and tiny burgundy cushion; delicate walnut-and-brass low oval table, pale rug with restrained dark border, muted woven parchment wall panels framed in thin walnut lines. Dining behind has light cane chairs with small walnut table; dark small console and two collected ceramic pieces. Airy, elegant and distinctive, not white minimalism. Editorial architectural photography, physically believable materials, balanced daylight from camera-side balcony, light cream ceiling, dark surfaces show detail, no strong amber color cast, no dark vignette, no lettering, no logo, no watermark, no people. Do not retain existing gray/orange or generic original hotel furniture. Generate image, not a webpage, moodboard, grid, collage or diagram.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/living.webp",
+          "/workspace/scratch/31025950e38e/upload/04-IMG_7892.jpeg",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg",
+          "/workspace/scratch/31025950e38e/upload/01-IMG_7898.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "living2",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-c54c6050-9e58-4310-a7f9-fe705c04e7cd.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Reverse living view, camera from dining towards full-height balcony window. Strictly keep sofa on LEFT and TV on RIGHT. Match the EXACT sofa, coffee table, rug, wall artwork, TV console and materials in reference 2, but viewed from the opposite side. Large glazing to the floor, no opaque parapet. Light curtain and partly rolled-up fine bamboo blind, city greenery outside. Room must remain compact. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "dining",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e9026af5-3abb-4574-a1ab-e7a2259b9ddb.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Closer view of the dining/entry area at the rear of reference 2. Match its actual dining table, cane chairs, wall finishes, sideboard, lamp and original artwork, do not invent a different dining scheme. Keep original entry door on right, passage on left and wall openings. An elegant small table about 125-135cm, four delicate chairs maximum, thin closed sideboard. Open circulation. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "master",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ed22d0f0-daa2-4543-b355-2d7d89626c5a.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Compact primary bedroom with ORIGINAL window locations including the rear-left corner bay window and right-side window. Preserve bed size and orientation and wardrobes near entry. Use reference 3 for craft inspiration, do not copy its room. For LACQUER SALON use an original landscape-painted dark lacquer panel only behind bed, cream remaining walls, ink-navy coverlet with ivory pillows and small muted antique gold brocade cushions, narrow antique walnut bedsides and bronze lamps. For SILKEN SALON use parchment woven-silk bedhead panels in slim walnut frame, ivory linen bed with one burgundy embroidered cushion, delicate vintage reading lamps, medium walnut floor and partial bamboo blind over original window. Daylight must remain bright, dark material only accents. No giant headboard wall cutting windows. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/01-IMG_7898.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "second",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-270ad79a-f77e-468d-8c41-940005e8f883.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Tiny narrow guest room/study, maximum about seven square metres. Strictly preserve narrow room width, door foreground left, single window at far end. For LACQUER SALON keep single bed LENGTHWISE along LEFT wall exactly as reference 1, ivory bedlinen with narrow navy runner, small aged gold cushion, thin dark lacquer bedhead, RIGHT wall thin writing ledge and wardrobe near entrance, middle aisle clear. For SILKEN SALON keep LEFT compact folded ivory sleeper armchair for occasional guests, long thin walnut writing desk along RIGHT wall returning below window, simple cane-back desk chair, ivory built-in cupboards above with small display niche, brass task lamp and one small original framed painting. NO double bed across window, no enlarged room, no curved structural walls, no oversized shelves. Sunny light, refined practical storage. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/06-IMG_7890.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "kitchen",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-0b5973a9-9400-43eb-8aeb-b7a845cdcc65.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Compact separate kitchen with original camera, doorway, rear window, cooking position and narrow circulation unchanged. For LACQUER SALON keep TWO straight side runs with EMPTY floor below rear window; dark walnut lower cupboards, ivory upper cupboards, understated black-brown soapstone worktop, pale warm limestone-like porcelain splashback, narrow antique bronze handles, professional task lighting. For SILKEN SALON keep L-shaped run under rear window and RIGHT wall, very shallow left-side pantry; lower walnut cupboards, upper ivory cupboards, warm pale limestone-look countertop and backsplash, slim bronze handles, one antique ceramic container only. No island, no fake mansion kitchen, no untreated woven wall in wet/cooking zones, no orange light cast. Clean, practical, tactile. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      },
+      "refinement": {
+        "prompt": "Photorealistic interior edit, landscape 3:2, 1536x1024. Change ONLY both kitchen countertops from pale cream to a deep ink-brown subtly veined soapstone / dark quartz finish. Add small slender aged-bronze drawer pulls on the walnut lower cabinets where practical. Keep ALL remaining details unchanged: ivory upper cupboards, cream limestone-look splashback and floor, narrow double galley layout with EMPTY floor under window, same window, left sink, right hob, appliances, real compact proportions, camera perspective and daylight. Do not darken the room or walls. Countertops should make a refined restrained contrast, satin not mirror shiny. No text, logos, people or watermark. Output one single room photograph. No collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/generated_images/exec-619c0ba8-9338-4746-b71e-955284c8d51a.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "bath",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e98a193f-a7fb-4a75-b360-90c8fc01bc3a.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Compact bathroom with original left glass shower, single centre vanity, right toilet and rear-right narrow window. Redesign with ivory warm limestone-look porcelain walls and floor, polished but patinated bronze accents. For LACQUER SALON keep open single stone basin with exposed clearance below, dark walnut narrow side trolley, dark framed vertical/rounded mirror and two small opal wall lights, one navy handtowel. For SILKEN SALON single compact walnut drawer vanity with pull-out laundry basket, ivory stone counter, thin bronze-framed mirror, cream shade-like opal lights, no cloth in shower area. Maintain real plumbing layout and compact room, no bathtub, no double basin, no ornament clutter. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      },
+      "refinement": {
+        "prompt": "Photorealistic interior edit, landscape 3:2, 1536x1024. Edit only the vanity area and bathmat: REMOVE the large dark walnut cabinet UNDER the single light stone basin entirely. Leave generous CLEAR OPEN SPACE beneath the basin with visible tidy plumbing and no drawers, no door panels, no shelf across that space. Keep the basin wall-mounted with visually plausible concealed supports. Keep the slim dark walnut storage trolley to its RIGHT for supplies, maintain shower on left with folding seat, toilet on right and rear narrow window. Replace ornate large navy rug with small plain deep navy washable rectangular bathmat, not a precious carpet. Everything else retains camera, proportions, elegant ivory stone-look surfaces, bronze fittings, mirror, opal sconces, warm natural light. Keep sink countertop size exactly unchanged. No text, logos, people or watermark. Output one single room photograph. No collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/generated_images/exec-0476cf70-15f6-4e27-8f9e-1d62808c00e5.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "balcony",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-3efc9c60-5604-4d72-9bbf-3363d0d26590.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Narrow scenic balcony seen through original opening, entire far glazing reaches floor, slim dark metal frame, city trees and apartments beyond, no opaque parapet or heavy sill, preserve footprint. For LACQUER SALON one comfortable petite walnut cane chair with navy seat on right short side wall, tiny antique brass side table, ivory side wall, short rolled bamboo blind at top that does not block view. For SILKEN SALON foldable slim walnut writing/tea shelf and one cane folding chair on right SHORT SOLID side wall, warm ivory wall, bamboo blind fully rolled except top strip; middle floor empty. Pale warm stone-look porcelain floor matching living, late-afternoon soft daylight. No sofa across window, no enclosed wintergarden or huge terrace. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      },
+      "refinement": {
+        "prompt": "Photorealistic interior edit, landscape 3:2, 1536x1024. Edit ONLY the furnishings on the RIGHT short solid side wall: completely remove the writing desk and folding desk chair. Replace them with one petite comfortable walnut lounge chair with cane back and upholstered deep ink-navy seat, and one tiny round aged-brass pedestal side table holding a single cup. This should match the small walnut cane reading chair visible in reference 2's balcony. Keep centre floor entirely clear. Do not change any walls, openings, full height glazing, balcony depth, curtain, bamboo top blind, warm daylight, city view, existing perspective, resolution or palette. Keep original wall artwork, reduce flowers to a small vase on the side table if needed. Must be a reading corner NOT a workstation. No text, logos, people or watermark. Output one single room photograph. No collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/generated_images/exec-98fea01e-d82d-42c0-b84b-0c37f0d8c424.png",
+          "/workspace/scratch/31025950e38e/generated_images/exec-c54c6050-9e58-4310-a7f9-fe705c04e7cd.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "silver-retreat",
+      "room": "utility",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-85208eb8-ebec-4601-a2bc-8a999d7bbe10.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 漆夜藏珍 / LACQUER SALON. Original refined Chinese-European collector's apartment. Bright warm ivory walls and ceiling take 60 percent of visual field. Ink-navy velvet and dark espresso lacquer 20 percent. One restrained original Chinese landscape lacquer panel as focal artwork, antique walnut furniture, tiny aged brass highlights, just one small oxblood silk cushion and muted antique-gold brocade detail. Layered low warm lamps, soft daylight; tactile collected furnishings with open space. Never charcoal-gray concrete, all-black room, brown hotel monoculture, massive luxury villa or indiscriminate chinoiserie. Realistic compact Shanghai home, lived-in but carefully edited. Specific room instruction: Tiny narrow utility/laundry balcony with original LEFT glazing and stacked washer dryer at FAR END. Preserve machine placement and size and all openings. For LACQUER SALON use ivory and dark walnut moisture-resistant cabinetry, shallow right shelf, brass toned pull-down laundry rod and movable sorting baskets. For SILKEN SALON use ivory moisture-resistant cabinets with slim walnut framing, right-side folded ironing board stored CLOSED against solid wall, a narrow cleaning cupboard next to tower, small matte bronze handles. Original aisle fully clear, realistic vents/access, pale warm porcelain floor. Keep craft subtle and appliances practical. No cloth wallpaper at splash zone, no luxury lounge furniture. For branches above use only LACQUER SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/silver-retreat/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-0a16f9b6-c896-4058-bd14-7c31c4b8a52f.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "living2",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ded851b6-44b1-4906-a92e-a21db97d8766.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Reverse living view, camera from dining towards full-height balcony window. Strictly keep sofa on LEFT and TV on RIGHT. Match the EXACT sofa, coffee table, rug, wall artwork, TV console and materials in reference 2, but viewed from the opposite side. Large glazing to the floor, no opaque parapet. Light curtain and partly rolled-up fine bamboo blind, city greenery outside. Room must remain compact. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "dining",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-4a352364-78f2-428b-97d4-b5b0ffef40da.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Closer view of the dining/entry area at the rear of reference 2. Match its actual dining table, cane chairs, wall finishes, sideboard, lamp and original artwork, do not invent a different dining scheme. Keep original entry door on right, passage on left and wall openings. An elegant small table about 125-135cm, four delicate chairs maximum, thin closed sideboard. Open circulation. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "master",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-677de2d9-2344-4aa9-8ea8-05c77d80fb85.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Compact primary bedroom with ORIGINAL window locations including the rear-left corner bay window and right-side window. Preserve bed size and orientation and wardrobes near entry. Use reference 3 for craft inspiration, do not copy its room. For LACQUER SALON use an original landscape-painted dark lacquer panel only behind bed, cream remaining walls, ink-navy coverlet with ivory pillows and small muted antique gold brocade cushions, narrow antique walnut bedsides and bronze lamps. For SILKEN SALON use parchment woven-silk bedhead panels in slim walnut frame, ivory linen bed with one burgundy embroidered cushion, delicate vintage reading lamps, medium walnut floor and partial bamboo blind over original window. Daylight must remain bright, dark material only accents. No giant headboard wall cutting windows. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/03-IMG_7894.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "second",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-9d61cb92-ecdc-4d16-8bf3-c3a14e2deddf.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Tiny narrow guest room/study, maximum about seven square metres. Strictly preserve narrow room width, door foreground left, single window at far end. For LACQUER SALON keep single bed LENGTHWISE along LEFT wall exactly as reference 1, ivory bedlinen with narrow navy runner, small aged gold cushion, thin dark lacquer bedhead, RIGHT wall thin writing ledge and wardrobe near entrance, middle aisle clear. For SILKEN SALON keep LEFT compact folded ivory sleeper armchair for occasional guests, long thin walnut writing desk along RIGHT wall returning below window, simple cane-back desk chair, ivory built-in cupboards above with small display niche, brass task lamp and one small original framed painting. NO double bed across window, no enlarged room, no curved structural walls, no oversized shelves. Sunny light, refined practical storage. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/06-IMG_7890.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "kitchen",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-2741c1a3-a7ae-4ae4-99ac-56b0ee3f7de4.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Compact separate kitchen with original camera, doorway, rear window, cooking position and narrow circulation unchanged. For LACQUER SALON keep TWO straight side runs with EMPTY floor below rear window; dark walnut lower cupboards, ivory upper cupboards, understated black-brown soapstone worktop, pale warm limestone-like porcelain splashback, narrow antique bronze handles, professional task lighting. For SILKEN SALON keep L-shaped run under rear window and RIGHT wall, very shallow left-side pantry; lower walnut cupboards, upper ivory cupboards, warm pale limestone-look countertop and backsplash, slim bronze handles, one antique ceramic container only. No island, no fake mansion kitchen, no untreated woven wall in wet/cooking zones, no orange light cast. Clean, practical, tactile. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "bath",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e1f5e20a-30d1-4336-a50b-c074394db9ea.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Compact bathroom with original left glass shower, single centre vanity, right toilet and rear-right narrow window. Redesign with ivory warm limestone-look porcelain walls and floor, polished but patinated bronze accents. For LACQUER SALON keep open single stone basin with exposed clearance below, dark walnut narrow side trolley, dark framed vertical/rounded mirror and two small opal wall lights, one navy handtowel. For SILKEN SALON single compact walnut drawer vanity with pull-out laundry basket, ivory stone counter, thin bronze-framed mirror, cream shade-like opal lights, no cloth in shower area. Maintain real plumbing layout and compact room, no bathtub, no double basin, no ornament clutter. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "balcony",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-6a896095-c497-4c0b-bdc2-4e3d243f405e.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Narrow scenic balcony seen through original opening, entire far glazing reaches floor, slim dark metal frame, city trees and apartments beyond, no opaque parapet or heavy sill, preserve footprint. For LACQUER SALON one comfortable petite walnut cane chair with navy seat on right short side wall, tiny antique brass side table, ivory side wall, short rolled bamboo blind at top that does not block view. For SILKEN SALON foldable slim walnut writing/tea shelf and one cane folding chair on right SHORT SOLID side wall, warm ivory wall, bamboo blind fully rolled except top strip; middle floor empty. Pale warm stone-look porcelain floor matching living, late-afternoon soft daylight. No sofa across window, no enclosed wintergarden or huge terrace. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "terracotta-atelier",
+      "room": "utility",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-1a5fb408-c015-4b3c-9511-9eda069182ba.png",
+      "request": {
+        "prompt": "Generate ONE new photorealistic interior design image, landscape 3:2, ideally 1536x1024. Reference 1 is GEOMETRY AND CAMERA only: preserve its footprint, straight walls, all windows/doors, openings, beam heights and perspective, but replace the previous color/furniture styling. Reference 2 is the NEW LIVING ROOM of this SAME HOME: match its design palette, objects and craft consistently throughout. Reference 3 is STYLE inspiration only, NOT a layout. The current scheme is 绢光雅集 / SILKEN SALON. Original airy Chinese-European collector's apartment. Luminous warm ivory and pale parchment woven-silk walls take 65 percent, warm medium walnut and cane furniture 20 percent, dark narrow outlines and aged brass, tiny burgundy accent. Fine bamboo blinds used as window shade rather than room dividers; ivory linen upholstery, one original antique-inspired dark framed artwork, carefully chosen Chinese ceramic vessels and curved antique European task lamp. Delicate texture, real warm daylight, elegant lightness, authentic objects, negative space. No orange/red walls, gray concrete, beige generic hotel, baroque excess, huge room. Specific room instruction: Tiny narrow utility/laundry balcony with original LEFT glazing and stacked washer dryer at FAR END. Preserve machine placement and size and all openings. For LACQUER SALON use ivory and dark walnut moisture-resistant cabinetry, shallow right shelf, brass toned pull-down laundry rod and movable sorting baskets. For SILKEN SALON use ivory moisture-resistant cabinets with slim walnut framing, right-side folded ironing board stored CLOSED against solid wall, a narrow cleaning cupboard next to tower, small matte bronze handles. Original aisle fully clear, realistic vents/access, pale warm porcelain floor. Keep craft subtle and appliances practical. No cloth wallpaper at splash zone, no luxury lounge furniture. For branches above use only SILKEN SALON design. Editorial architecture photography with real daylight, controlled contrast and clearly visible material details, natural slightly imperfect crafted textures, elegant and comfortable. Not a dark brown hotel, not overly baroque. NO text, watermark, logo, people, grid, collage or diagrams. Only the designed room, no webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v38/schemes/terracotta-atelier/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-02fccda8-f026-43fb-8103-9e20503f6ba8.png",
+          "/workspace/scratch/31025950e38e/upload/05-IMG_7891.jpeg"
+        ],
+        "transparent_background": false
+      }
+    }
+  ]
+}

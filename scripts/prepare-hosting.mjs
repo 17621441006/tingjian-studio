@@ -3,7 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 // v19 removes old historical VR; all current panoramas now fit on the Site itself.
 await fs.rm('build',{recursive:true,force:true});
-await fs.cp('dist','build',{recursive:true,filter:p=>!p.includes('.openai')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
+await fs.cp('dist','build',{recursive:true,filter:p=>!p.includes('.openai')&&!p.includes('designs-v38/schemes/terracotta-atelier')&&!p.includes('designs-v38/schemes/silver-retreat')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
 // New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
 const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
 const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');

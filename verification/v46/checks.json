@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "schemes": 20,
+  "replacedSlots": [
+    17,
+    19
+  ],
+  "unchangedSchemes": 18,
+  "roomsPerReplacement": 8,
+  "additionalReverseViews": 2,
+  "newMainImages": 18,
+  "newThumbnails": 18,
+  "homepageAndBrandingUnchanged": true,
+  "sameOriginMedia": true,
+  "browserVisualTested": false
+}
