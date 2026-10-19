@@ -22,7 +22,7 @@ async function scan(dir){
 await scan('dist');await scan('build');
 const retired=JSON.parse(await fs.readFile('verification/v39/retired-private-assets.json','utf8'));
 for(const f of retired.files){await assert.rejects(fs.access(f.path));await assert.rejects(fs.access(f.path.replace(/^dist\//,'build/')));}
-assert.equal(Object.keys(HOMES).length,20);
+assert.equal(Object.keys(HOMES).length,22);
 for(const design of Object.keys(HOMES)){
  const frames=assembleHome(design,new Map());assert.equal(frames.length,8);
  for(const room of ROOMS){assert.equal(room.area,'');assert(!privateText.test(JSON.stringify(HOMES[design].rooms[room.id])));assert(!privateText.test(finalRoomNote(design,room.id)||''));}
@@ -41,5 +41,5 @@ for(const design of Object.keys(HOMES)){
 const html=await fs.readFile('dist/tour/legacy.html','utf8');
 assert(/data-current-model-home hidden disabled/.test(html));assert(/data-current-model-top hidden disabled/.test(html));
 assert(!html.includes('class="designer-plan"'));assert(/data-home-area hidden/.test(html));
-const report={passed:true,schemes:20,scannedPublicTextFiles:scanned,removedDirectAssets:retired.files.length,modelVariants:40,allRoomIsolationChecked:true,browserVisualTested:false,scope:'Current presentation and published assets only; existing Git history and caches are not rewritten.'};
+const report={passed:true,schemes:Object.keys(HOMES).length,scannedPublicTextFiles:scanned,removedDirectAssets:retired.files.length,modelVariants:Object.keys(HOMES).length*2,allRoomIsolationChecked:true,browserVisualTested:false,scope:'Current presentation and published assets only; existing Git history and caches are not rewritten.'};
 await fs.writeFile('verification/v39/checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);

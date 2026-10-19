@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "schemes": 22,
+  "added": [
+    "saddle-weave",
+    "cashmere-hush"
+  ],
+  "existing20Unchanged": true,
+  "mainImages": 18,
+  "thumbnails": 18,
+  "roomsPerScheme": 8,
+  "reverseLivingViews": 2,
+  "homepageAndBrandingUnchanged": true,
+  "newImagesSameOrigin": true,
+  "independentLayoutPlans": true,
+  "browserVisualTested": false
+}

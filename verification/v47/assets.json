@@ -1,0 +1,362 @@
+[
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/living.webp",
+    "design": "saddle-weave",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 219312,
+    "sha256": "82f7a6034d626755668d433c3bc20ffdc793f22d87ab67fd2d0e242f18831ab5"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/living-thumb.webp",
+    "design": "saddle-weave",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 21664,
+    "sha256": "2c17f52c538857afc347869ece93c5a0c87b908ece2a7a141aca44c5c5347c0a"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/living.webp",
+    "design": "cashmere-hush",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 216664,
+    "sha256": "9bab5d45cb98467d7dbe80772496a32a650ec420f676dde1b243f14efe4dd11e"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/living-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19624,
+    "sha256": "b054f44bc7b26121dcea4ed0f907b27e5afca2b534483311b7a3d74f1bb48c39"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/dining.webp",
+    "design": "saddle-weave",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 149850,
+    "sha256": "f85bafeb81b82a151bb77c9680d6f423c0494e3bfc6ad5d6eca53fbe91c19dd1"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/dining-thumb.webp",
+    "design": "saddle-weave",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17638,
+    "sha256": "0d33c1be3a575cde7ed3ad08a6824f72c37239d37346b1459eaa2e2cac082844"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/kitchen.webp",
+    "design": "saddle-weave",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 144850,
+    "sha256": "9cf41f0ce3176d724ef35fa40f2074130517b34a9720ffa8a160396b84d931fc"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/kitchen-thumb.webp",
+    "design": "saddle-weave",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16904,
+    "sha256": "c344db5d14934cce1a4a524eb09b88bd3359d66f25fab8cccbd0c4d7c2553cc6"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/master.webp",
+    "design": "saddle-weave",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 210182,
+    "sha256": "0d0fa1dc5e7fd45d501afcd20918852fdbfd82e3d46212ffbf68999518dfbe0e"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/master-thumb.webp",
+    "design": "saddle-weave",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20586,
+    "sha256": "82a0120341557ed2ca3e41d5adf1a019bd7ec3e0f4214206368a0e8b82f508e5"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/bath.webp",
+    "design": "saddle-weave",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 153558,
+    "sha256": "50466cab9e83faf7022b9b4c92b4c0e6174791ee2bf657834053d53d3ae28d03"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/bath-thumb.webp",
+    "design": "saddle-weave",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15646,
+    "sha256": "dd0e535b814a4675eafa3d23f016b04c09a229df02a3a2c603ca9c76548d1fa5"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/second.webp",
+    "design": "saddle-weave",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 209184,
+    "sha256": "295ae40003f6bc82c5faf9e6ddb6665bf126cbe4a5f6144a49059fff1b6514c5"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/second-thumb.webp",
+    "design": "saddle-weave",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22376,
+    "sha256": "5dd80815af1e59aee9d421be38f6ebac6c73fcd2a3183ac36318cf4cf5d07833"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/balcony.webp",
+    "design": "saddle-weave",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 208448,
+    "sha256": "5538b910b95653fbe3df690663f4f6d57a9941aa365566094ff53f90544a156e"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/balcony-thumb.webp",
+    "design": "saddle-weave",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25592,
+    "sha256": "f175426b1095f5f5018e3a1c0678c37ca6dbb96ff0a9f4488a04cbeac26c2830"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/living2.webp",
+    "design": "saddle-weave",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 184020,
+    "sha256": "1c306539e1238ed34b6ce20410ccbade4f030ad3248ecdb63a5ab1eddf37aaa2"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/living2-thumb.webp",
+    "design": "saddle-weave",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22830,
+    "sha256": "d5824423202c559b9a597c0c732f9eec45b76f261871363ed8f96d7cfd5b079e"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/utility.webp",
+    "design": "saddle-weave",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 191486,
+    "sha256": "48337d700c04a01c9a281d42a0d78c10c84275a59a78b7f8287f3145597ebb83"
+  },
+  {
+    "path": "dist/designs-v47/schemes/saddle-weave/utility-thumb.webp",
+    "design": "saddle-weave",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25030,
+    "sha256": "2c8d3f618ac3ccab3bd26b2129ae9efefaca5357076bae33f03235bd402004cb"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/living2.webp",
+    "design": "cashmere-hush",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175854,
+    "sha256": "ef9a87356332a81fdaf8cddda9d1feb641d05cf520095975d4ff5f70ad2fcae8"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/living2-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20270,
+    "sha256": "ca3b6f8072ae5ec01c11991daf5a0b095483ef2e861182fe77eb59a5ce8c8fad"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/dining.webp",
+    "design": "cashmere-hush",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 146876,
+    "sha256": "3a7416d08bf33643bc3cc849b804fed9fe34f0e12423587f0a945707b5ebb7ba"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/dining-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15940,
+    "sha256": "30fa7d25ae4ff42447cdc8c10c6f29642660db1bdf18d8d7c1c4427767676393"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/kitchen.webp",
+    "design": "cashmere-hush",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 150660,
+    "sha256": "7b57caea9fe2b4bf0740248a3339c0f5f871f81c8705bb5978d65e369b409350"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/kitchen-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16146,
+    "sha256": "207e5ab8d2bed114f9cdc73651d70ed49410be7408a0d509c63fefab132654cf"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/bath.webp",
+    "design": "cashmere-hush",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166926,
+    "sha256": "69003df4733c2266c644d2e8fcf94374b932475ff1a31319a9b553830909b974"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/bath-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16434,
+    "sha256": "ada6a5b4197d92c5f7df073bcc7925309f85f27e908aa11ae90e6536d58152dd"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/master.webp",
+    "design": "cashmere-hush",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 227082,
+    "sha256": "6c95e995cd41c886a8f0ed1069a299bc2e1f509496c9276c2494e1568a762cb8"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/master-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17914,
+    "sha256": "ce532396192055855ceeb01705fc25f55c7a26a3cc337c263a73035569567696"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/utility.webp",
+    "design": "cashmere-hush",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 195956,
+    "sha256": "8f2e3d15eabd3a587dd279c6118a3e97c0b6efd8583433f4361583d1e666c759"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/utility-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24168,
+    "sha256": "d076e821cae30805ed124b8ec2e1e95280e7ab28c51c130ee9f2cddac645880f"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/balcony.webp",
+    "design": "cashmere-hush",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 199534,
+    "sha256": "9f4df9898245db97b529b4bb6a9e40ed5be7287333fbba7496eb9f73c261c400"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/balcony-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23884,
+    "sha256": "c40fd98d159e410bd9f6648892b51288f367cc573e2d18b34ad10213462eb890"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/second.webp",
+    "design": "cashmere-hush",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 218586,
+    "sha256": "24efb4b817ca90d4122cf8fee089e56d03b6ab60d2d53250789e672512efba1c"
+  },
+  {
+    "path": "dist/designs-v47/schemes/cashmere-hush/second-thumb.webp",
+    "design": "cashmere-hush",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22256,
+    "sha256": "1b4966642d1e298ff41493e257aae9aecf2bfd992465f7254cd6bebbb2456804"
+  }
+]

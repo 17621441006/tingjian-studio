@@ -8,13 +8,13 @@ export function furnishExpansionDining({spec,rooms,objects,group,box,seat,cylind
   obj.traverse(o=>o.geometry?.dispose());obj.removeFromParent();objects.delete(id);
  }
  const table=group('dining-table','dining',5.16,plan==='folding'?6.44:6.18);
- if(plan==='banquette'){
-  cylinder(.51,.04,0,.75,0,m.wood,table);cylinder(.17,.70,0,.37,0,m.metal,table);
+ if(plan==='banquette'||plan==='wall-banquette'){
+  const top=cylinder(plan==='wall-banquette'?.64:.51,.04,0,.75,0,m.wood,table);if(plan==='wall-banquette')top.scale.z=.62;cylinder(.17,.70,0,.37,0,m.metal,table);
   const seat1=cabinet('dining-bench','dining',5.05,6.78,1.68,.47,.42);seat(1.60,.09,.45,0,.46,0,m.sofa,seat1);
-  const seat2=cabinet('dining-bench-return','dining',4.20,6.46,.96,.43,.42,Math.PI/2);seat(.93,.09,.41,0,.46,0,m.sofa,seat2);
+  if(plan==='banquette'){const seat2=cabinet('dining-bench-return','dining',4.20,6.46,.96,.43,.42,Math.PI/2);seat(.93,.09,.41,0,.46,0,m.sofa,seat2);}
   chair('dining-chair-1','dining',5.93,6.28,Math.PI/2);chair('dining-chair-2','dining',5.15,5.45,Math.PI);
  }else{
-  if(plan==='oval'){const top=cylinder(.60,.04,0,.75,0,m.wood,table);top.scale.z=.60;cylinder(.16,.70,0,.37,0,m.metal,table);}
+  if(plan==='oval'||plan==='round'){const top=cylinder(plan==='round'?.525:.60,.04,0,.75,0,plan==='round'?(m.marble||m.stone):m.wood,table);top.scale.z=plan==='round'?1:.60;cylinder(.16,.70,0,.37,0,m.metal,table);}
   else{box(1.24,.04,plan==='folding'?.66:.75,0,.75,0,m.wood,table);for(const x of [-.52,.52])for(const z of [-.23,.23])box(.027,.70,.027,x,.37,z,m.metal,table);}
   table.userData.foldable=plan==='folding';
   for(const [i,x,z,yaw]of [[1,4.79,5.52,Math.PI],[2,5.54,5.52,Math.PI],[3,4.79,6.75,0],[4,5.54,6.75,0]])chair('dining-chair-'+i,'dining',x,plan==='folding'&&z===5.52?5.89:z,yaw);

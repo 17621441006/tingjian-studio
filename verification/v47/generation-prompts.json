@@ -1,0 +1,257 @@
+{
+  "generationMode": "built-in image_gen",
+  "schemes": [
+    {
+      "id": "saddle-weave",
+      "room": "living",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE photorealistic interior design concept for the SAME compact Shanghai apartment in image 1. Landscape 3:2, ideally 1536x1024. Image 1 is STRICT ROOM GEOMETRY AND CAMERA REFERENCE ONLY: retain exactly the room footprint, camera perspective, TV wall on left, sofa wall on right, dining at rear, opening on rear left, entry door rear right, all windows/doors and ceiling beam heights. Completely redesign all materials, furniture and lighting; do not copy its Chinese antique style. Image 2 is USER STYLE REFERENCE only: use the facade's craft/texture/color as subtle inspiration, never import the store, sign, people or retail furniture. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Living room: refined small cognac saddle-leather sofa with visible ivory edge stitching on the RIGHT wall, one small petrol blue cushion, slim warm oak sculptural lounge chair. Airy thin oak rectangular coffee table with softly tapered profile and leather lower tray; large ivory flatweave rug with a small asymmetric petrol and muted cinnamon geometric border. A framed original abstract textile-art composition behind sofa echoes crafted geometric relief, pale cream walls otherwise. Left slim oak TV console with one petrol lacquer inset; dining at rear a compact round pale stone table with three to four saddle-leather/oak light chairs and a very thin bronze pendant. Cabinet fronts thin gently fluted oak with fine horizontal leather-pull details, never fully diamond padded walls. Functional concealed storage, light visual weight, space between objects. Editorial architectural photography with credible high quality tactile material detail, bright balanced daylight, white balance natural, subtle warm lamplight, compact domestic scale, no heavy amber filter, no dark vignette. No people, text, logo, watermarks, grid, collage or webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/living.webp",
+          "/workspace/scratch/31025950e38e/upload/02-IMG_7940.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "living",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE photorealistic interior design concept for the SAME compact Shanghai apartment in image 1. Landscape 3:2, ideally 1536x1024. Image 1 is STRICT ROOM GEOMETRY AND CAMERA REFERENCE ONLY: retain exactly the room footprint, camera perspective, TV wall on left, sofa wall on right, dining at rear, opening on rear left, entry door rear right, all windows/doors and ceiling beam heights. Completely redesign all materials, furniture and lighting; do not copy its Chinese antique style. Image 2 is USER STYLE REFERENCE only: use the facade's craft/texture/color as subtle inspiration, never import the store, sign, people or retail furniture. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Living room: small low oatmeal wool-linen softly curved sofa on RIGHT wall, fine ivory cashmere-like throw, one small smoked-berry cushion. An airy pale-oak framed woven armchair, two nesting oval pale travertine and oak coffee tables, thick quiet warm ivory wool rug. Pale oatmeal fabric wall panels separated by very narrow oak lines only behind sofa, refined matte pale walls elsewhere, a quiet original abstract fibre artwork. Slim pale oak TV console left with a short section of rhythmic fine fluting. Dining at back has an oval pale oak table, a cream upholstered straight banquette along rear wall with storage beneath and two lightweight oak chairs free side. Soft linen pendant, delicate natural linen curtains. Warm natural daylight, textural sophistication and negative space; not a showroom or allwhite empty shell. Editorial architectural photography with credible high quality tactile material detail, bright balanced daylight, white balance natural, subtle warm lamplight, compact domestic scale, no heavy amber filter, no dark vignette. No people, text, logo, watermarks, grid, collage or webpage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/living.webp",
+          "/workspace/scratch/31025950e38e/upload/01-IMG_7941.jpeg"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "dining",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-98776010-f8cf-42bd-af3c-a395536f8fdd.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Dining/entry closer view: preserve rear entry door RIGHT and passage LEFT. Reproduce exactly the small ROUND pale travertine pedestal dining table, fine saddle-leather oak chairs, thin bronze disc pendant, fluted warm oak sideboard and cream/petrol geometric artwork visible at rear of image2. Four chairs max, compact round top approximately 105cm conceptual size. No extra island, no oversized table. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "kitchen",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-9f7803b3-b722-43f5-9acf-bf65cbd6f2c3.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Original narrow separate kitchen. L-shaped main cabinet run along rear under window and RIGHT wall; LEFT only25cm-shallow closed pantry, open centre aisle. Cream upper cabinets, warm oiled-oak-look lower cabinetry with fine stitched-look metal pull detail, pale durable limestone-look porcelain countertop and backsplash. A small muted petrol-blue tile inset in backsplash on RIGHT as quiet signature, bronze hardware. No real leather/textile wet-zone surfaces. Sink remains under rear window, cooktop right. No island or extra windows. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "master",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-bb434e7f-31a0-4c4f-90c8-30daa7e4f473.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Primary bedroom. Keep original bed orientation, rear-left CORNER BAY window and separate right-side window exactly as image1. Slim cognac leather upholstered bedhead with exquisite pale double stitching, cream bedlinen and just one petrol-blue small cushion; small warm oak floating bedsides with bronzed slim reading lamps. Pale fabric/fine oak accents, clear white ceiling. Bay window left has a slim oak writing ledge with cognac leather inset and one tuck-in stool, no blockage. Honey oak floor; no bench at bed foot. Remove antique art/Chinese motifs. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "bath",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-b93fbbc7-4266-4d6f-a89b-c1e7f79bc80f.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Original small bathroom with shower LEFT, single basin centre, original narrow window right of mirror and toilet RIGHT. Cream limestone-look anti-slip porcelain, thin bronze-framed mirror and opal sconces. Wall hung warm oak-look two-drawer vanity with one narrow pull-out laundry drawer; drawer subtly ajar enough to read storage. One petrol-blue towel, simple bronze fittings. No leather or woven wallpaper in wet areas, no bathtub, no relocation of toilet/window. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "second",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-a04937da-3d1b-4fe4-b91f-dea93f04f7dc.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Narrow small second bedroom approximately7sqm with one window at far end, door front left. New layout: permanent narrow single daybed LENGTHWISE along LEFT wall, head towards far window; never transverse across room. Light creamy upholstery with thin cognac leather border and one petrol cushion. RIGHT wall slim oak writing desk/ledge and shallow cream upper cabinets nearer entrance, simple oak leather-seat chair. Centre aisle clear, pale walls, honey oak floor. No doublebed, no widening room. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "balcony",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-5bc81430-06ec-4e22-96c8-c88e32812305.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Original slim landscape balcony with floor-to-ceiling glass all the way down, no solid parapet; keep same side walls and glazing. Two SMALL light oak folding chairs with muted tan outdoor cushions and a tiny round cream bistro table grouped at RIGHT short solid wall, one chair each side of table; window length and central aisle clear. Pale limestone-look floor, sheer cream curtain drawn to sides. No desk, no large lounge or sofa. Quiet city greenery outside. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "living2",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e0e4cc52-e086-45fa-b928-5340ef2078c2.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Reverse living room view from dining looking towards full-height balcony glazing. Camera, footprint and openings from image1. Sofa now LEFT, TV RIGHT. Match the exact cognac stitched sofa, petrol cushion, rectangular thin oak table with leather lower shelf, abstract geometric textile artwork, fluted oak/petrol TV console and narrow petrol/cinnamon rug border from image2. Balcony stays clear with glass to floor. Foreground should show the edge of SAME small round pale stone dining table and saddle-leather chair. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "saddle-weave",
+      "room": "utility",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-3881c331-78ac-43a4-be7a-1db56c2fa43d.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 鞍影织序 / SADDLE & SILK. Original contemporary home inspired by Hermès craftsmanship: warm saddle cognac leather with fine pale saddle-stitch edges, creamy chalk walls, oiled honey oak, a small petrol/peacock-blue lacquer accent, burnished champagne bronze, an original abstract silk-like geometric artwork. 60% light cream architecture, 25% warm honey oak and tan leather, 10% quiet petrol blue, tiny muted orange piping only. Crisp tailoring and exquisite joinery; airy, useful, collected but contemporary, not brown luxury hotel or all-orange room. No brand logos or branded prints, no equestrian literal props. Specific room: Original narrow laundry balcony: glazing LEFT and stacked washer+dryer at far end, solidwall RIGHT, never widen room. Cream and light oak-look cabinetry, shallow right wall counter with two removable ivory canvas laundry sorting baskets below, slim vertical closed cleaning cabinet next to machine stack. Bronze-coloured short hanging rail. Doors closed except one modest sorting basket; central aisle clear, light durable porcelain floor. No cloth covering machines, no allbrown cabinets. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-d9283721-02c0-44db-ad98-8230794b10f6.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "living2",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ab186fb1-b592-40bb-b199-620c2365f451.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Reverse living view from dining towards full-height balcony glass. Sofa LEFT, TV RIGHT, preserve all openings in image1. Match SAME oatmeal curved sofa, cream throw and single smoked berry cushion, pale oak lounge chair, nesting pale travertine/wood oval tables, fluffy ivory rug, light textile wall panel and low fluted TV cabinet in image2. Edge of same oval pale oak dining table in foreground with pale chair; full-heightglass at rear, soft linen curtains. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "dining",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-c85961a0-3481-42e6-911e-bd20b47ffd95.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Dining/entry closer view, entrydoor RIGHT and leftpassage kept. Match rear dining in image2: compact pale oak OVAL table, straight upholstered oatmeal banquette against REAR solid wall with discreet underseat drawers, two light oak chairs on free side. Soft linen pendant and pale sand stone top on thin sideboard; short smoked-berry open niche creates one tiny accent. Gentle textilewall and fine oak framing. Do not form a bigL or expand footprint, uncluttered routes. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "kitchen",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-346b6c6a-4212-4bce-8083-7d32466a0fa3.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Original narrow separate kitchen, originalfarwindow and wallwidth. Two parallel GALLEY cabinet runs LEFT and RIGHT, farwindow wall remains CLEAR at floor and NO connectingcabinet underneath. Sink LEFT, cooktop RIGHT, taskzones open. Pale oat cabinetfronts and light oak lowerdrawers, pale sand durable porcelain countertops, subtly ribbed ivory tile short backsplash, brushed nickelhardware. Warm but nearlyneutraldaylight, nowovenwalls, noleather, noisland. Movement of plumbing is concept only. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "bath",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e87a7b20-d4c3-4e6a-9d72-e1a18a6dcd7e.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Originalcompactbathroom: showerLEFT, singlebasin centre, toiletRIGHT and existingnarrowwindow bymirror unchanged. Pale sand textured porcelainfloor/lowcontrastwalls, slim paleoak vanity with open lower shelf for removablelinen-lookwaterresistantbaskets; one slim closedlinenstorage tower at entrance-sidewall clearofglass/window. Rounded rectangle mirror, opal lights brushed nickel. Oat towels, clean gentle spa-like space; no actual textile wetwalls, nowide doublevanity. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "master",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e1afd8c4-85e5-45b2-b619-35d50c39275d.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Original compact primarybedroom with rear-left CORNER BAY window, separate rightsidewindow, samebedposition. Soft oatmeal wool-linen rounded low bedhead, ivory washed linen bedding, one subtle smoked berry throw, pale oak narrow floating bedsides, small opal reading lamps. Pale sand/cream walls. Baywindow as shallow linen-cushioned windowseat with hidden drawers, no bulky additionalarmchair, no writingdesk. Pale natural oak floor; do not enlarge room or coverglass. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "utility",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-c998380e-cc7c-4926-8610-ee3579691848.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Originalnarrow laundry balcony with LEFT windows and endstacked washer/dryer. Pale oat moisture-resistant cupboards, fine lightoak edge, solidrightwall has very slim fold-downironingboard shown CLOSED with hidden hinges and shallowclosedcleaningcabinet. Small pull-out shelf between appliances for loading, ivorymesh laundrybasket. Light anti-slipporcelainfloor, clearaisle and glass, no fabriconwetwalls. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "balcony",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-335ac5eb-0af9-47d6-ab68-cd9626364791.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Originalslim balcony preserving entirefloor-to-ceilingglazing and shortsolidwallRIGHT. One compact pale oak/wicker readingchair with oatmeal linen-look cushion and tiny oval pale stone sidetable groupedRIGHT; a soft smokyberry smallthrow folded onchair. Thin linen curtainandshades up, clearcentralfloor, pale stonefloor, leafycityview. No desk, nobench across glass, no opaque parapet. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "id": "cashmere-hush",
+      "room": "second",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-3972096c-7ca2-434b-9ba5-d395f5d074c1.png",
+      "request": {
+        "prompt": "Use case: style-transfer. Create ONE original photorealistic interior design concept image, landscape 3:2 ideally1536x1024. Image1 is STRICT GEOMETRY/CAMERA reference ONLY. Preserve footprint, narrow proportions, straight walls, openings, window/door locations and beam heights. Completely replace old antique furnishings/styling. Image2 is NEW LIVING ROOM of SAME APARTMENT, use its material palette, furniture craft and overall lighting for coherent whole-home design. 绒光静邸 / CASHMERE HUSH. Original calm residential concept inspired by Loro Piana's fibre craft: luminous oatmeal and undyed warm ivory, pale sand limestone, natural pale oak, tactile wool-linen upholstery with fine cashmere-like throw, delicate fabric panels, a tiny smoked berry/burgundy accent recalling the user's shop facade. 70% luminous pale natural shades, 25% pale timber and sand stone, 5% smoky plum/brown accent. Architectural simplicity with close-up richness of weave, softly rounded edges and quiet tailored detailing, warm light without amber cast. No brand logos, no retail fixtures, no generic grey concrete. Specific room: Tiny narrow secondroom/study, about7sqm, one rear window, doorfrontleft, preserve width. LEFT a compact folded oatmeal linen sleeper armchair, displayed in chair position for occasional guest; RIGHT thin pale oak writing desk returns belowwindow, one small oak/cane chair. Pale flush cabinets above rightdesk nearerentrance. One faded smoky plum textilepinboard strip givesdepth, creamwalls and pale oakfloor. Centralfloor clear, no permanentdoublebed or extra windows. Natural editorial architectural photography, carefully crafted tactile materials, bright real daylight with subtle lamplight, white balance neutral-warm not yellow, realistic compact domestic scale. No brand logos, people, lettering, watermarks, grids, collages or webpage. Keep all original room openings exactly. Do not stretch this small home into a villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v46/schemes/terracotta-atelier/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-43265b6d-5e20-4dbb-802c-794ae327a28b.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "references": [
+    "User photos IMG_7941.jpeg, IMG_7940.jpeg, IMG_7942.jpeg; selected retail materials and facade rhythms",
+    "Existing room geometry and matching generated living-room anchors"
+  ],
+  "sources": [
+    {
+      "name": "Hermès Objects for Interior Life",
+      "url": "https://www.hermes.com/us/en/content/270715-home-universe/"
+    },
+    {
+      "name": "Loro Piana Interiors: Materials",
+      "url": "https://www.loropiana.com/interiors/collection-2025/matter/index_EN.php"
+    },
+    {
+      "name": "Loro Piana Interiors: Forms",
+      "url": "https://www.loropiana.com/interiors/collection-2025/form/index_EN.php"
+    }
+  ]
+}

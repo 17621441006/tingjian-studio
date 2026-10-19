@@ -1,0 +1,95 @@
+{
+  "commit": "8c7f23a709bef483496cf2cfcf6a62f40b8c8123",
+  "assets": [
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/balcony.webp",
+      "sha": "b4fc42bc779b8d17d4b54e2a4a6eaa70e2ee5010",
+      "bytes": 325064
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/bath.webp",
+      "sha": "3a0f3fd9bf28dfcc5e01098eb8694b6c0dba54ab",
+      "bytes": 317214
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/dining.webp",
+      "sha": "4ab6b67b37d045fae73e9a86434d72232c857b92",
+      "bytes": 171026
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/kitchen.webp",
+      "sha": "d58357133017a64819e1f0a6416e0e817a0b1b9a",
+      "bytes": 231976
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/living.webp",
+      "sha": "b04c8319c02bec3ea728be152aa089dab2624699",
+      "bytes": 290214
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/living2.webp",
+      "sha": "91fcbbc195af735e0f591cecbb724b83c18d033f",
+      "bytes": 291912
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/master.webp",
+      "sha": "4bd84b567303b644b053e64794f05668680f9dc0",
+      "bytes": 258162
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/second.webp",
+      "sha": "875093028d094665258aa647492877c6d876bd80",
+      "bytes": 252350
+    },
+    {
+      "path": "dist/designs-v38/schemes/tea-cuisine/utility.webp",
+      "sha": "a0555092fd56cef9e80974f4d90f3af46010b4c6",
+      "bytes": 241264
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/balcony.webp",
+      "sha": "884838c50ce2fa507655dda38f0eb861795b64b0",
+      "bytes": 332414
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/bath.webp",
+      "sha": "f34903fb0e157958f863a848fe0915b16a07361b",
+      "bytes": 302148
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/dining.webp",
+      "sha": "da136cf2ee8ba4c9d439bbdea7eb50068ff7d42d",
+      "bytes": 178338
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/kitchen.webp",
+      "sha": "f52465368c42443ab0f594db7f37ae6b88d7ebbe",
+      "bytes": 215414
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/living.webp",
+      "sha": "183c76f6b3a91cf6de9385679b287848ac5808bc",
+      "bytes": 271610
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/living2.webp",
+      "sha": "b850964eb0e0d71f876114588f026da38c063821",
+      "bytes": 249322
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/master.webp",
+      "sha": "a282f1d561a8860ebd0311fe9555d99723ed46ec",
+      "bytes": 271054
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/second.webp",
+      "sha": "64fd5d915ef27b8fe32734a108a8aea31515f1b4",
+      "bytes": 249404
+    },
+    {
+      "path": "dist/designs-v38/schemes/moss-garden/utility.webp",
+      "sha": "f893cbafbb7287ff99e1499bc4106036818548bb",
+      "bytes": 230998
+    }
+  ]
+}
