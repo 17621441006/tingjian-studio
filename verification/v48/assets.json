@@ -1,0 +1,542 @@
+[
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/living.webp",
+    "design": "mauve-walnut",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 268248,
+    "sha256": "73aee2f135804baf890b9b4a728fd092b2bd36b012ae7f3caba1e99134923b6c"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/living-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24332,
+    "sha256": "35465ce48b8476b2fb3e317f2dd04c9c1fc62b41a5b364590699fa55c8ffe85b"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/living2.webp",
+    "design": "mauve-walnut",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 223570,
+    "sha256": "1035a555398f4d6c2915929573d8c7ca92905a414c4014834fbf998d454bf84a"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/living2-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24986,
+    "sha256": "acb0616c1b810d27988fee15a9f629adcfd57e81aaab29eac39824a90391c2fc"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/dining.webp",
+    "design": "mauve-walnut",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 197322,
+    "sha256": "16e35a86bae879caf37f1278e521744c74ca34874b61f3b0165673a443aa73e6"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/dining-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19156,
+    "sha256": "2d272db33b156def19e274748cea904edee690a4783fe782f4ba7fd4454c188d"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/master.webp",
+    "design": "mauve-walnut",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 207396,
+    "sha256": "5cc72c95870083567ba4f2b1189d18a77bade76c5ec8d2b4ee1a5a244859bca0"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/master-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19312,
+    "sha256": "209020461a404fb98e20b79c60e79627d38924434f11396c6e3bd49ef215abbf"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/second.webp",
+    "design": "mauve-walnut",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 218082,
+    "sha256": "0db428cca95a28990b9a56ae3f81278cec08377c2c4ffb3ef800788a23202f52"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/second-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22656,
+    "sha256": "584ecc082b02a67d8d6b5ad630cde42cec094e6ceef3a3533635e5870e8b15c1"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/kitchen.webp",
+    "design": "mauve-walnut",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 139148,
+    "sha256": "3b0faec3f97c81f46f9af7daf49812986bae6b49d0c7e4568a34d182f59ad746"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/kitchen-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16384,
+    "sha256": "ec85c6997a8f03105c1dac17c77602725a710f890fb02c624d0b1640e13f27a8"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/bath.webp",
+    "design": "mauve-walnut",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 121186,
+    "sha256": "006caf63fc349d462906fd122227caf9e791895acd0a52b434fba406240a97fb"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/bath-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 14762,
+    "sha256": "bcdc463c0034163215c6043daf0a82b28096cefeaf511cf15c4ab3c135a64034"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/balcony.webp",
+    "design": "mauve-walnut",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 199442,
+    "sha256": "c8605cd0e8275a3f2eb45939e812a80a67b526b0db4d4df80f14943c1b5b7f34"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/balcony-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25100,
+    "sha256": "076913f36891832e6b04147c6f6b936f8213e2e5d1aeeaaca8be467a599136d2"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/utility.webp",
+    "design": "mauve-walnut",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175930,
+    "sha256": "6f4c51fddff919d6cc73f81b1b165d30978bd06f4d0d1c224cf213cbe70d0470"
+  },
+  {
+    "path": "dist/designs-v48/schemes/mauve-walnut/utility-thumb.webp",
+    "design": "mauve-walnut",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23658,
+    "sha256": "90023466da52f0809e435777e88424f51a9c62ba305efc58c127b343fdcceaaa"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/living.webp",
+    "design": "pine-library",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 217568,
+    "sha256": "5015c00a5d253abaabb2b99da3272c3a086695c12c5808449e72c886ae8d67df"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/living-thumb.webp",
+    "design": "pine-library",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19616,
+    "sha256": "147c463e4d8d4da139f199aa0943567368086fcd51317f4ffd68589837d7ed41"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/living2.webp",
+    "design": "pine-library",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 171876,
+    "sha256": "1739d36625777ce46b953f3f071255f6bed3cffcdf4e553a5c7fa7f50441de9c"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/living2-thumb.webp",
+    "design": "pine-library",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20414,
+    "sha256": "92757025eae2a07420cda333d188ad9bc5e2b54564e787b6a50dad9d3244acb7"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/dining.webp",
+    "design": "pine-library",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 124164,
+    "sha256": "5f04eae0c110285e290ec01dc344a16386476f452487acdbf28f7db2777aeadf"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/dining-thumb.webp",
+    "design": "pine-library",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 14984,
+    "sha256": "7f00dbd10231176f628893162722f5752e9c5290653219216f7c035959496211"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/master.webp",
+    "design": "pine-library",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 191104,
+    "sha256": "86ef72ead5330f1acb377a03b6750cb8a0b7bed85db56185a28f31b6690469a1"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/master-thumb.webp",
+    "design": "pine-library",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18024,
+    "sha256": "f2114610a79ea4e101755c85c65be3c9dce66520feaf865a3d2a5a59fe44f97e"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/second.webp",
+    "design": "pine-library",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 177606,
+    "sha256": "89c06abe9a5cdef2bc03ab1ffb015b05d3a78ae4c8000c54f1f788217f5dd931"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/second-thumb.webp",
+    "design": "pine-library",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19790,
+    "sha256": "ae02b1c26e881e36ae02b9cce70c780f2668ddb1f42774a5fdb1ac3889e442a6"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/kitchen.webp",
+    "design": "pine-library",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 145826,
+    "sha256": "91695db6bea94d086858adc696a1cd58d17b12000cbca93ea6582a024da22b4c"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/kitchen-thumb.webp",
+    "design": "pine-library",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16492,
+    "sha256": "0f05cd3d777bbcc43014a2a0ee706e38c9589a4910c840d565622a9ce6c58497"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/bath.webp",
+    "design": "pine-library",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 132716,
+    "sha256": "0837cd60232a3b10bda5a9ed2cfd363d4b96c6d9326648389d77a44b1a4e0ff6"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/bath-thumb.webp",
+    "design": "pine-library",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15916,
+    "sha256": "4c7dda0a3330d1cbf5160ecea3fc3a086c73b0a0e7443e5104f8df7250a6162c"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/balcony.webp",
+    "design": "pine-library",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 185910,
+    "sha256": "c317e9062613351bddd3476f0208554cddab7f7e85805472fb1c666f06fc35f1"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/balcony-thumb.webp",
+    "design": "pine-library",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23502,
+    "sha256": "a0214cda6ff5f077b0e36ff70ae5126203df39dced4a0e0e225092d4d4ee7edc"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/utility.webp",
+    "design": "pine-library",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 174284,
+    "sha256": "f804b31ba132a1d4e545b02d254f4a93e14d67382e99c1f90bbc66aa18b6b253"
+  },
+  {
+    "path": "dist/designs-v48/schemes/pine-library/utility-thumb.webp",
+    "design": "pine-library",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23080,
+    "sha256": "a55efce6bb3aecd9e1bfd0afdd852ada749da149aede88222d55c2b226186edf"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/living.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 257764,
+    "sha256": "a9b53fcf46570c47a0ea2aa69005fccdffea367be1af1226ea065bbf2b0a93f2"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/living-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25582,
+    "sha256": "85c78677b67c148783d2d44535bb9b5623ba8dfe735dcb1f296c82b4896f3f26"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/living2.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 195404,
+    "sha256": "46843b9a7cac963221ff76a521a3b9fce168d017cac8af3b8b1fdc10b5b12333"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/living2-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24678,
+    "sha256": "a5d3612aa82a744aa2368ceb035034783397fd162ed42390649ba259edefbe15"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/dining.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166446,
+    "sha256": "9a328412a2617d1315a1e94d3f5ba1551df152daf077141494088add4e18039a"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/dining-thumb.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19794,
+    "sha256": "3389bcf768a0adfbb348dfc53be2ce3b68002c2fb9151174928b37c7a7883cab"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/master.webp",
+    "design": "silver-retreat",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 207036,
+    "sha256": "d56023b0354ff64ad98a3cc4577ab2182c46e1c36c55a01c53d86906a5917439"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/master-thumb.webp",
+    "design": "silver-retreat",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20748,
+    "sha256": "a7c97a1955e9cdd545b4da7f9f5b55f65cfe3aecb870665a5a1da6370ae90303"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/second.webp",
+    "design": "silver-retreat",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 215528,
+    "sha256": "e7f3759ffc3ea45e959a5bec98d31ad993482221d8195fbdd1ee3fb927a78273"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/second-thumb.webp",
+    "design": "silver-retreat",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23164,
+    "sha256": "f8018c1d51995d42162b60f79345bc091391de782ade7c894b8360826f5a69ba"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/kitchen.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 130030,
+    "sha256": "b41de4046b4173832d8c2585b26e48c96e03e957c233cff6ab4e4bbff81f98bc"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/kitchen-thumb.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17244,
+    "sha256": "5eb7e0b4a5b2c199a8c639cf02c0f515968e5aa83a37b7fb03d3bf4331b0541a"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/bath.webp",
+    "design": "silver-retreat",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 143072,
+    "sha256": "03775c97331fa519259cbaec0f976a56e50f15c5e7ed755f9895365bfebef502"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/bath-thumb.webp",
+    "design": "silver-retreat",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16488,
+    "sha256": "66ff8ba44a058faccc1b9ad17f9fe2091ef03432090251712e63ca0f45a42f37"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/balcony.webp",
+    "design": "silver-retreat",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 201546,
+    "sha256": "898a700e6c821e7000d64da48466bb792189c3935f046eb09f5f03b6e813a8cc"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/balcony-thumb.webp",
+    "design": "silver-retreat",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25920,
+    "sha256": "8310c53b471788a9724e7eb48122b74a8162e39872e11e84277974a5c24c080e"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/utility.webp",
+    "design": "silver-retreat",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 197698,
+    "sha256": "cca2b33d91e934c2030315b568e0ea1de1c5e067667449682fb217321b1e2656"
+  },
+  {
+    "path": "dist/designs-v48/schemes/silver-retreat/utility-thumb.webp",
+    "design": "silver-retreat",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 26376,
+    "sha256": "1c401b3a44794cc9d9d23c34c0a4f384eefbbf7b8909e0f4fe370839e6ee1ed5"
+  }
+]

@@ -1,0 +1,361 @@
+{
+  "version": 48,
+  "mode": "Built-in image_gen.imagegen, reference-guided original concept interiors",
+  "notes": "27 generated views; existing v47 saddle-weave and cashmere-hush images reused unchanged for featured pages. Architectural views remain conceptual and are not surveyed construction documentation.",
+  "sources": [
+    "https://www.loewe.com/usa/en/pd/stories-collection/weave-restore-renew.html",
+    "https://www.loewe.com/eur/en/stories-collection/loewe-weaves.html",
+    "https://www.caspermuellerkneer.com/project/celine-cheongdam",
+    "https://www.gucci.com/au/en_au/st/stories/article/gucci-decor-2021-collection"
+  ],
+  "schemes": [
+    {
+      "design": "mauve-walnut",
+      "room": "living",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Asset: complete original interior design scheme 苔织艺邸 / WOVEN MUSE, living room hero photograph for NOCTURNE private home. Generate one landscape 1536x1024 photorealistic editorial interior image. Input image 1 is a GEOMETRY REFERENCE for this specific compact Shanghai apartment: preserve rectangular room proportions, flat normal-height ceiling, existing walls/openings, LEFT television, RIGHT sofa wall, back dining zone and entry door position. Reinterpret finishes and furnishings completely. Creative inspiration: LOEWE's material and craft vocabulary translated into an original unbranded apartment; not a shop or branded furniture catalog. Design: A small moss-green woven linen sofa along the RIGHT wall with a soft asymmetric rounded silhouette, an airy ashwood and handwoven leather-strap lounge chair, a low sculptural rounded ashwood pebble coffee table, an undyed wool rug with subtle irregular edge. LEFT a floating pale ashwood TV cabinet with woven inset door panels; behind the living area a small round warm cream stone dining table with ash/cane chairs, sculptural paper-like woven pendant and original textile wall relief, one cobalt-blue handmade ceramic vessel. Contemporary artistic craft, tactile and warm. NO brown leather sofa, NO dark purple walls. Original textile art, no brand motifs. Palette: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Bright believable late-afternoon natural daylight, soft shadows, restrained warm practical lights, rich close-up textures, beautiful architectural magazine composition, eye-level 26mm lens, straight verticals, realistic small apartment scale. Keep architecture and main circulation intact. No enlarged villa, no extra openings/columns, no people, no text, no watermark, no logos, no collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living.webp"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "living2",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: REVERSE VIEW of the exact living room in style reference 2: camera beside the back dining table looking towards the existing balcony glazing. Sofa now LEFT, television/ash-and-cane low cabinet RIGHT, original open rectangular balcony ahead. Keep the same moss-green rounded sofa, sculptural ashwood pebble coffee table, undyed irregular-edge rug, woven-leather ash chair and cream/green textile artwork. Show a small part of the round cream-stone dining table foreground. Do not mirror the geometry reference. Match style reference furnishings and colors exactly, new camera angle. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ef2b8795-3c63-4b3a-884c-1717ca541a2c.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "dining",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Closer dining and entry view at rear of same apartment. A compact round creamy limestone single-pedestal dining table with four delicate ash and cane chairs; cabinet behind has ashwood frame and woven cane insets, sculptural woven pendant directly over table. Original cream-and-moss textile artwork, one cobalt handmade vase, few ceramics. Keep original LEFT corridor doorway and RIGHT entry door, sufficient chair pull-out room. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-504ae70d-bd35-4d66-a008-50c9bd07cb25.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "master",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact master bedroom: preserve original corner bay window at far-left and separate RIGHT-side window, original bed head against RIGHT wall. Soft moss-green woven linen headboard, ivory washed cotton bedding, a tobacco pillow, light ashwood slim bedside drawers, original small cream/green textile relief, woven bedside lamps. Bay-window removable cream seat cushion; no new desk at bay. Light wood floor, cream curtains, pale walls/ceiling, compact 1.6m bed proportions. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-61431a85-8f90-4879-ab54-bbf88d40d075.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "second",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: NARROW compact study/occasional guest room, one window on far wall, plain rectangular walls. LEFT an oatmeal fold-out sleeper ARMCHAIR in closed daytime state, moss-green pillow, small side basket; RIGHT shallow pale ash desk and cream closed cabinets above, airy leather-strap chair. No permanent double bed or crosswise bed; center aisle clear. One cobalt small task lamp and cream/green textile pinboard. DO NOT enlarge room or move window. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/cashmere-hush/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-aa71340f-c6e9-4a4f-9d94-1b2f88ca82fa.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "kitchen",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact separate kitchen with original far window and doorway, L-shaped counters on far and RIGHT walls, sink under window and cooking on RIGHT; LEFT shallow food pantry only. Pale ash lower cabinetry, warm-ivory upper fronts, cream matte countertops, a SMALL moss-green glazed tile backsplash, minimal nickel pulls. Cleanable hard surfaces, woven baskets only on dry pantry shelf, no island. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-0e5d2f33-6392-4173-89d3-259ab252c872.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "bath",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact bathroom: preserve LEFT glass shower, center single basin, RIGHT toilet and far window. Warm cream matte porcelain walls/floor, pale ash-color water-resistant suspended drawer vanity with slim pullout hamper CLOSED, subtle moss-green towels. Organic rounded mirror, small opal lamps, nickel hardware. One blue ceramic soap dish. No real woven wall coverings in shower, no second basin, no extra window. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-f155bb78-2eb5-43df-b888-308971c2bca2.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "balcony",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Narrow scenic balcony with full-height fixed glazing straight to FLOOR and original side frames, no solid parapet, one light ash and woven-leather lounge chair with moss-green cushion at RIGHT short solid wall, tiny cream ceramic side table. Clear center floor, complete window view, lightweight ivory sheer shade, original apartment scale. No bench, no desk, no full-width storage. Outdoor-suitable faux-leather/woven chair. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-e8f12611-a3dd-469d-bf7e-28c6325e015b.png"
+    },
+    {
+      "design": "mauve-walnut",
+      "room": "utility",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 苔织艺邸 / WOVEN MUSE scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Narrow utility balcony with original full LEFT window wall and washing/drying machines STACKED AT FAR END. Warm ivory/ash-color cabinets, shallow RIGHT folding countertop with two removable sorting baskets underneath, tall narrow cleaning-tool cupboard. Clear walkway, original window and openings, pale porcelain floor; tiny green ceramic tray, no large plant wall. Palette across the house: warm ivory walls and white ceiling 65%, pale honey ash wood 20%, soft moss-green textiles 10%, very small cobalt blue ceramic and tobacco leather accents 5%. Design inspiration LOEWE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-4ca5abc2-2b4e-46dc-b613-80583f50debe.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-fc7199eb-4291-468f-8585-bcc37c24e911.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "living",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Asset: complete original interior design scheme 石序光廊 / PALE ATELIER, living room hero photograph for NOCTURNE private home. Generate one landscape 1536x1024 photorealistic editorial interior image. Input image 1 is a GEOMETRY REFERENCE for this specific compact Shanghai apartment: preserve rectangular room proportions, flat normal-height ceiling, existing walls/openings, LEFT television, RIGHT sofa wall, back dining zone and entry door position. Reinterpret finishes and furnishings completely. Creative inspiration: CELINE's material and craft vocabulary translated into an original unbranded apartment; not a shop or branded furniture catalog. Design: A compact straight tailored camel leather sofa along RIGHT wall, slender dark metal leg frame, squared but comfortable. One low rectangular ivory travertine coffee table with slim slab top and geometric legs, oatmeal plain rug, slim smoked-oak lounge chair with ivory upholstery. LEFT television on light limestone wall above a thin dark smoked oak media console, no full dark wall cladding. Dining behind has a small slim oval pale-stone table, four slender dark wood and camel leather chairs, linear pendant; one sculptural black object and original minimalist monochrome abstract artwork. Clear architectural rhythm and gallery-like daylight; contemporary Parisian minimalism with warm touch, no shop fixtures, no columns, no cold gray warehouse. Palette: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Bright believable late-afternoon natural daylight, soft shadows, restrained warm practical lights, rich close-up textures, beautiful architectural magazine composition, eye-level 26mm lens, straight verticals, realistic small apartment scale. Keep architecture and main circulation intact. No enlarged villa, no extra openings/columns, no people, no text, no watermark, no logos, no collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living.webp"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "living2",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: REVERSE VIEW of the exact living room in style reference 2: camera at dining towards original balcony. Camel tailored leather sofa LEFT, light-stone television wall with thin smoked-oak cabinet RIGHT; slim rectangular ivory travertine coffee table and ivory rug center, same smoked-oak/ivory chair, minimal black/ivory original art. Compact apartment; retain exact frames, doors, window and furniture identity. Small oval pale-stone dining table edge foreground; not the forward view. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-83cffea0-b500-46aa-b280-524cda263ca3.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "dining",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Close view of compact dining/entry zone. Slender oval pale travertine table with geometric slab legs; four slim smoked-oak/camel-leather chairs; low smoked oak cabinet behind, sparse black original sculptural object and monochrome abstract artwork. One thin brushed nickel linear pendant. LEFT existing corridor opening and RIGHT original entry door intact. Airy chalk walls, no heavy floor-to-ceiling dark bookcase. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-fbc1087d-04bb-43c9-b291-2e1363924a3e.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "master",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact master bedroom with original corner bay at far-left and separate RIGHT window unchanged, bed head against RIGHT wall. A thin tailored ivory headboard inside a smoked-oak frame, ivory crisp linen, one camel throw; pale ash wood floor, very thin floating smoked-oak bedside drawers, narrow nickel reading lamps. Bay ledge a small pale-stone writing surface with tuck-under stool, original window remains accessible. Monochrome abstract artwork. No massive stone head wall, no extra windows. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ddc1c3cb-b149-495a-9131-a2d725d494f5.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "second",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Original narrow bedroom, far end window. Single 90cm bed LONGITUDINALLY along LEFT wall, thin smoked-oak frame and ivory fabric headrest, underbed drawers. RIGHT slim wall desk and high shallow cream storage, slim dark chair tucked in. Clear center aisle and far window. Ivory linen with one camel stripe, small monochrome artwork. No transverse bed, no enlarged room. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-882ed964-2fdf-4333-ba91-281972ece581.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "kitchen",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Original compact enclosed kitchen. Two straight parallel galley counters: LEFT sink and RIGHT cooktop; far window and floor beneath it kept FREE, no U connector. Warm ivory upper cabinetry, smoked-oak lower drawers, pale fine-vein white stone/porcelain surfaces, small brushed-nickel pulls. Matte pale floor, functional task lighting, clean geometry. No island, no fake huge kitchen. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-3e538ac9-cb03-4dd6-a22d-c67be79f9771.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "bath",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Small original bathroom, LEFT shower, CENTER single vanity, RIGHT toilet and far window. Light warm limestone-look porcelain, compact smoked-oak water-resistant vanity and shallow linen cabinet on entry-side solid wall, large simple rectangular mirror with very slim nickel frame, vertical opal light. Ivory towel with a narrow charcoal edge. Keep original plumbing arrangement and small scale. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-807e4e76-cc3d-4166-a162-7bbb2da7e034.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "balcony",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Full-height balcony glazing to floor, original narrow depth and side wall dimensions. RIGHT short solid wall has one very shallow fold-down smoked-oak work ledge in open position and a slim ivory/black metal chair tucked toward it; place small book and nickel lamp. Keep the entire glass front clear and center passage open. Pale stone floor, light sheer curtains; no long desk across window, no sofa, no extra door. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-d32bb317-3b5d-4957-877b-468e61fe38ff.png"
+    },
+    {
+      "design": "pine-library",
+      "room": "utility",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 石序光廊 / PALE ATELIER scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Narrow utility balcony, full LEFT windows, white washing/drying machines STACKED AT FAR END, warm-ivory and smoked-oak-color moisture-resistant cabinetry. RIGHT wall fold-away ironing board CLOSED and flat against wall, slim closed cleaning cabinet, minimal clear working ledge. Uncluttered clear aisle, pale warm porcelain tiles, fine nickel pulls. Palette across the house: ivory and chalk walls 60%, pale travertine/limestone 20%, medium smoked oak and caramel leather 15%, thin charcoal and brushed nickel details 5%. Design inspiration CELINE, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-3dfa3237-8a2f-4a07-ab9c-815e59a78772.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-8198fcf7-af41-4a7f-b35f-eec9c34c635d.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Asset: complete original interior design scheme 花影绮居 / FLORA SALON, living room hero photograph for NOCTURNE private home. Generate one landscape 1536x1024 photorealistic editorial interior image. Input image 1 is a GEOMETRY REFERENCE for this specific compact Shanghai apartment: preserve rectangular room proportions, flat normal-height ceiling, existing walls/openings, LEFT television, RIGHT sofa wall, back dining zone and entry door position. Reinterpret finishes and furnishings completely. Creative inspiration: GUCCI's material and craft vocabulary translated into an original unbranded apartment; not a shop or branded furniture catalog. Design: A compact eucalyptus-green velvet sofa along RIGHT wall with elegant rounded back and slim legs; wine-red small pillow, ivory cushion with an original handdrawn botanical embroidery, a small scalloped pale cream stone oval coffee table with thin antique-brass frame, ivory rug with narrow wine-red border. LEFT a honey-walnut TV cabinet with one restrained wine-red lacquer drawer. Dining behind has small round walnut table, two light cane chairs and two cream upholstered chairs, a restrained milk-glass globe/brass pendant; one ivory-ground ORIGINAL botanical art panel with airy leaves and tiny flowers in muted greens and burgundy. Collected Italian romantic room with daylight and open floor; sophisticated and cheerful, not overloaded, NO dark lacquer mural, no dense patterned wallpaper, no brand logos or monograms. Palette: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Bright believable late-afternoon natural daylight, soft shadows, restrained warm practical lights, rich close-up textures, beautiful architectural magazine composition, eye-level 26mm lens, straight verticals, realistic small apartment scale. Keep architecture and main circulation intact. No enlarged villa, no extra openings/columns, no people, no text, no watermark, no logos, no collage.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living.webp"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living2",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: REVERSE VIEW of same living room in style reference 2: camera beside round walnut dining table facing balcony glazing. Green velvet compact rounded sofa LEFT, honey walnut TV unit with single wine-red lacquer accent RIGHT, scalloped oval cream marble coffee table with thin brass legs, ivory rug wine-red thin border. Same airy ORIGINAL botanical art and embroidered cushions, not brand logos. Clear balcony center and existing openings preserved; daylight airy Italian romantic character. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-d0ad6b08-5c74-42d1-877d-9caa3129c2a4.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "dining",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Close dining/entry view: small round honey walnut pedestal table, two cane-back light wood chairs plus two ivory upholstered chairs; slim walnut sideboard with a little wine-red lacquer inset, single ivory-background ORIGINAL hand-drawn botanical artwork, opal globe/brass pendant. Small colorful porcelain bowl and flowers. LEFT corridor and RIGHT entry door unchanged. Light cream walls, no extra wall mural or heavy canopy. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-d9dccdbb-0c8c-4cc5-8d2b-221ad69e5b9f.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "master",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact master bedroom, original corner bay at far-left and RIGHT-side window unchanged, bed head RIGHT. Elegant low softly scalloped muted eucalyptus-green upholstered headboard, ivory cotton sheets, narrow burgundy bedcover and one original floral embroidered pillow. Honey walnut slim bedside cabinets and restrained opal/brass sconces. One framed airy botanical picture, removable bay cushion, ivory walls and ceiling; no dark lacquer screen, no full wallpaper. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/master.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-f6fc9100-6ec0-456a-b6ee-5ae3e1083cf8.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "second",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: NARROW rectangular small guest bedroom with original far window. A compact 90cm green upholstered DAYBED LONGITUDINALLY along RIGHT wall, ivory mattress cover, burgundy small cushion, underbed TRUNDLE CLOSED. LEFT shallow walnut wardrobe near entrance and thin pull-out writing shelf, ivory chair tucked. Middle aisle and far window accessible. One small framed botanical drawing. Swap furniture sides relative to geometry reference but do not alter walls/window/room width. No transverse double bed. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-19afaf60-a3f0-4948-aa2e-f664957f3368.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Original small separate kitchen with far window. Compact U-shaped layout: rear sink under far window, RIGHT cooktop, LEFT shallower prep counter; keep center aisle realistically clear. Ivory upper cabinets, muted sage lower fronts, walnut side trim, cream stone-look porcelain countertop and small cream tile backsplash with a tiny handpainted botanical tile insert. Antique-brass slender handles; hard cleanable finishes. No island, no curtains near cooktop. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-26d07f6d-3ff0-48a4-ad2a-1110b8fb08ee.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "bath",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Compact original bathroom LEFT shower, center single washbasin, RIGHT toilet and far window. Cream matte porcelain, a restrained pale sage glazed tile band behind basin only, thin walnut-color waterproof open vanity with separate movable drawer module and washable basket underneath. Oval antique-brass mirror and opal wall lights, one burgundy towel. No wallpaper in wet areas, no extra sink, no changes to door/window positions. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-f1425a19-6ff7-43b1-bf73-b674e82db804.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "balcony",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Original narrow scenic balcony with full-height glass all the way to floor. At RIGHT short solid wall small round cream-stone bistro table and TWO fine cane/folding chairs with muted green cushions; one burgundy cushion. Clear center floor and entire glazing face, cream sheer curtain, tiny brass portable lamp. Airy daylight, no broad bench or window-blocking cabinet. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-c6ec40c9-db8b-4adf-acf4-44719395063d.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "utility",
+      "args": {
+        "prompt": "Use case: photorealistic-natural. Create one original 1536x1024 landscape editorial interior photograph for the 花影绮居 / FLORA SALON scheme. Input image 1 is GEOMETRY/CAMERA reference of the exact compact Shanghai apartment; preserve its wall, doorway, window positions, room height and small scale, except explicit furniture layout changes below. Input image 2 is the approved LIVING ROOM STYLE ANCHOR: precisely continue its material colors, texture, furniture language and atmosphere in this new space. Room instruction: Original narrow utility balcony, full LEFT window wall and stacked washer/dryer at FAR END. Ivory and pale sage moisture-resistant cabinet doors, small walnut-color trim, RIGHT shallow countertop with washable sorting baskets and closed cleaning-tool cupboard. Cream porcelain floor, tiny opal work lamp, practical uncluttered clear aisle; no fabric wallpaper or antique furniture in laundry zone. Palette across the house: warm ivory walls and ceiling 65%, soft eucalyptus green velvet 15%, honey walnut 12%, wine-red and antique gold details 8%. Design inspiration GUCCI, transformed into original unbranded residential interiors. Beautiful natural daylight, authentic fine material grain, believable joinery, straight verticals, eye-level architectural photography, rich but restrained and realistic. Keep bright pale majority, not artificially orange photography. No people, no text/watermark/logo, no collage. Architectural shell stays unchanged: no invented extra doors/windows, no enlarged villa.",
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v47/schemes/saddle-weave/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-779497cc-ccd2-4ae4-849c-31bc8ea78024.png"
+        ],
+        "transparent_background": false
+      },
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-6ab70101-7515-4133-9abb-170acf182956.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+import {CRAFT_HOMES} from '../legacy/craft-homes.mjs';
+const wood='repeating-linear-gradient(91deg,transparent 0 4px,#1d110c24 5px,transparent 7px 17px),linear-gradient(115deg,#ffffff24,transparent 50%,#0002)';
+const weave='repeating-linear-gradient(0deg,#fff2 0 1px,transparent 1px 4px),repeating-linear-gradient(90deg,#0002 0 1px,transparent 1px 4px)';
+const stone='repeating-linear-gradient(113deg,transparent 0 41px,#f9efd44a 43px,transparent 47px 89px),linear-gradient(34deg,#0002,transparent)';
+const leather='radial-gradient(ellipse at 30% 30%,#ffffff29,transparent 65%),repeating-linear-gradient(27deg,#0001 0 1px,transparent 2px 5px)';
+const mat=(en,cn,note,color,texture)=>({en,cn,note,color,texture});
+const roomNames={living:'客厅',dining:'餐厅 / 玄关',master:'主卧',second:'次卧 / 书房',kitchen:'厨房',bath:'卫生间',balcony:'景观阳台',utility:'生活阳台'};
+const asset=(id,room,thumb=false)=>`/designs-v47/schemes/${id}/${room}${thumb?'-thumb':''}.webp`;
+const entries=[
+ {id:'cashmere-hush',en:'CASHMERE HUSH',cn:'绒光静邸',layout:'stack',tone:'cashmere',tag:'燕麦织物 · 浅橡木 · 柔沙石',poem:'光落在织纹里，\n日子慢慢柔软。',intro:'燕麦、原白与浅沙石层层相接，烟莓色轻轻收住视线。柔软从材料开始，也落在坐下、阅读和收好琐碎的每一个动作里。',copy:'以不同粗细的织纹代替繁复装饰，用浅橡木与柔和轮廓托住日光。客厅套几可分开使用，餐区卡座兼收纳，书房椅床服务偶尔留宿；一把阅读椅，让窗边保持松弛。',quote:'把柔软，留给每天的生活。',principles:[['触感的层次','羊毛、亚麻与浅木，以粗细和光泽区分同色的深浅。'],['轻盈的围坐','椭圆套几与靠墙卡座，给起身和转身留出余地。'],['安静的归位','床边、坐席下和家务柜各自接住日常的小物。']],materials:[mat('Oat Weave','燕麦细织物','耐磨羊毛亚麻感织物用于座具，羊绒作为可取下的小披毯。','#dfd3be',weave),mat('Pale Oak','浅橡木','柜面与薄家具选择细直纹、低光泽，保留木头的温度。','#c4ad8b',wood),mat('Sand Stone','柔沙石面','低对比石纹连接桌几与湿区，湿区用耐水瓷质材料。','#d7cbb7',stone),mat('Smoky Berry','烟莓织色','少量靠枕、披毯与原创织物画，为浅色留下一个记忆点。','#76535b',weave)]},
+ {id:'saddle-weave',en:'SADDLE & SILK',cn:'鞍影织序',layout:'horizontal',tone:'saddle',tag:'马鞍皮革 · 浅橡木 · 孔雀蓝',poem:'一道缝线，\n把日常缝进温度。',intro:'马鞍棕皮革、浅橡木与奶油白相接，孔雀蓝留下清醒的一笔。工艺藏在包边、针距和转角里，远看舒展，近看有细节。',copy:'让皮革落在常触碰的地方，让木作承担清楚的结构。小圆桌组织围坐，次卧用纵向单人床与薄书桌，阳台两把折椅围出早餐角；颜色的浓度收在家具与织物中。',quote:'精致，藏在手会碰到的地方。',principles:[['工艺可触摸','细缝线、皮革包边与薄木框，落在每天使用的物件上。'],['颜色有分寸','奶油白铺开明度，棕与蓝只在必要的地方相遇。'],['家具能让路','圆桌、薄茶几与可折椅，为小空间保留灵活的通路。']],materials:[mat('Saddle Leather','马鞍棕皮革','低光泽细纹皮，重点看包边和触感；阳台换用耐晒坐垫。','#a96e3f',leather),mat('Honey Oak','浅蜜橡木','油蜡感浅木与纤细结构呼应皮革，柜体以易维护饰面落地。','#ae855b',wood),mat('Peacock Weave','孔雀蓝织色','靠枕、地毯细边和小柜面少量呼应，维持全屋明亮底色。','#31555c',weave),mat('Ivory Stone','奶油白石面','餐桌与操作台低对比选纹，厨房优先耐污、易擦拭表面。','#e7dcc8',stone)]}
+];
+export const CRAFT_SELECTION=entries.map(s=>({...s,group:'favorite',legacy:s.id,original:CRAFT_HOMES[s.id].name,hero:asset(s.id,'living'),heroThumb:`/designs-v48/featured/${s.id}-768.webp`,roomSource:Object.entries(roomNames).map(([key,cn])=>{const r=CRAFT_HOMES[s.id].rooms[key];return {key,cn,title:r.title,copy:r.copy,description:r.copy,material:r.materials[1][1],storage:r.materials[0][1],light:r.materials[2][1],materials:r.materials,image:asset(s.id,key),thumb:asset(s.id,key,true),width:1536,height:1024,thumbWidth:480,...(key==='living'?{views:[{label:'看向餐厅',image:asset(s.id,'living'),thumb:asset(s.id,'living',true),width:1536,height:1024,thumbWidth:480},{label:'看向客厅',image:asset(s.id,'living2'),thumb:asset(s.id,'living2',true),width:1536,height:1024,thumbWidth:480}]}:{})};})}));
+export const CRAFT_PANELS=[
+ {id:'cashmere-hush',type:'a',title:'Cashmere',label:'A QUIETER TOUCH',tag:'绒光静邸 · 织光成居',copy:'燕麦织物与浅木接住日光，柔沙石面让轮廓慢下来。卡座、套几与一把阅读椅，让柔软进入每天的生活。',tags:['燕麦织物','浅橡木','柔沙石','烟莓色']},
+ {id:'saddle-weave',type:'e',title:'Saddle',label:'CRAFT IN EVERYDAY LIFE',tag:'鞍影织序 · 工艺入常',copy:'马鞍棕皮革与孔雀蓝相遇，奶油白让空间明亮。一道缝线、一处包边、一张轻圆桌，把细致落在生活里。',tags:['马鞍皮革','孔雀蓝','奶油白','浅橡木']}
+];

@@ -13,4 +13,4 @@ const version=createHash('sha256').update(await fs.readFile('dist/collection/col
 await import('./build-brand.mjs');
 await fs.writeFile('dist/index.html',homePage(version));
 for(const s of COLLECTION)await fs.writeFile(`dist/collection/${s.id}.html`,schemePage(s,version));
-console.log('Built NOCTURNE: restored original triptych and entrance, seven proposals, 56 rooms and seven reverse views; studio stays at /tour/.');
+console.log(`Built NOCTURNE: original triptych and entrance, ${COLLECTION.length} proposals, ${COLLECTION.reduce((n,s)=>n+s.rooms.length,0)} rooms; studio stays at /tour/.`);

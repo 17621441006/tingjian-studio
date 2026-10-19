@@ -1,0 +1,47 @@
+[
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/balcony.webp",
+    "sha": "a2e840774053fac23a0c4f2ce58c2d00a0159db1",
+    "size": 212570
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/bath.webp",
+    "sha": "10fc3c7f2c788b4cfcbe9ab9073cc218c3fc5856",
+    "size": 190174
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/dining.webp",
+    "sha": "41d07186cc896bfa0e938496b75053fd70e4a8f3",
+    "size": 160658
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/kitchen.webp",
+    "sha": "b3ca802b4c78e3828622855e1713d3edf835c2eb",
+    "size": 144760
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/living.webp",
+    "sha": "14846957367cdb1e263eda50ba41f37c85f2dc59",
+    "size": 231210
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/living2.webp",
+    "sha": "83d1dbae4aae4e3b0fb155e179de2e1b6a48b6f5",
+    "size": 197608
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/master.webp",
+    "sha": "d3b783e1960b3d52218a3710b6c5f4e831317a12",
+    "size": 216556
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/second.webp",
+    "sha": "4c99dbac7fc353965c634aadd3885057f4a3524f",
+    "size": 217908
+  },
+  {
+    "path": "dist/designs-v46/schemes/terracotta-atelier/utility.webp",
+    "sha": "6e7fa5362b38465ed108d09f49662d0b1ead8a13",
+    "size": 224882
+  }
+]

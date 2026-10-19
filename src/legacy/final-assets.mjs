@@ -3,7 +3,7 @@ import {hasReplan,replanAsset,replanInfo} from './layout-v37.mjs';
 import {pineAsset} from './pine-home.mjs';
 import {MINERAL_IDS,mineralAsset} from './mineral-homes.mjs';
 // Authored final images: one complete, fixed styling treatment per selected scheme.
-export const FINAL_DESIGNS=['dusk','chinese','stone','collector','copper','amber','graphite','edition-oak',...MINERAL_IDS,'pine-library',...EXPANSION_IDS];
+export const FINAL_DESIGNS=[...new Set(['dusk','chinese','stone','collector','copper','amber','graphite','edition-oak',...MINERAL_IDS,'pine-library',...EXPANSION_IDS])];
 export const v35Asset=path=>(globalThis.__TINGJIAN_V35_ORIGIN__||'')+path;
 export function finalAsset(design,room,thumb=false){if(EXPANSION_IDS.includes(design))return expansionAsset(design,room,thumb);if(design==='pine-library')return pineAsset(room,thumb);if(hasReplan(design,room))return replanAsset(design,room,thumb);if(MINERAL_IDS.includes(design))return mineralAsset(design,room,thumb);return v35Asset('/final-v35/schemes/'+design+'/'+room+(thumb?'-thumb':'')+'.webp');}
 export function collectionAsset(collection,room,thumb=false){return v35Asset('/final-v35/collections/'+collection+'/'+room+(thumb?'-thumb':'')+'.webp');}

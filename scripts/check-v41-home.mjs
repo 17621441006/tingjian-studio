@@ -20,7 +20,7 @@ function fixture({reduced=false,compact=false,withGSAP=false}={}){
   remove(){this.removed=true;}
  }
  const panels=new El(),track=new El(),intro=new El(),range=new El(),skip=new El(),body=new El();
- const cards=Array.from({length:7},(_,i)=>{const c=new El({href:'/collection/'+['nocturne','cinnabar','dusk','verdigris','stillwood','amber','inkcourt'][i]+'.html'});c.tagName='A';c.img=new El({src:`/preview-${i}.webp`});c.img.dataset.full=`/full-${i}.webp`;return c;});
+ const cards=Array.from({length:9},(_,i)=>{const c=new El({href:'/collection/'+['nocturne','cashmere-hush','dusk','saddle-weave','cinnabar','verdigris','stillwood','amber','inkcourt'][i]+'.html'});c.tagName='A';c.img=new El({src:`/preview-${i}.webp`});c.img.dataset.full=`/full-${i}.webp`;return c;});
  const edges=[-1,1].map(d=>{const e=new El();e.tagName='BUTTON';e.dataset.shift=String(d);return e;});
  document=new El();document.body=body;document.activeElement=body;document.hidden=false;
  document.querySelector=s=>({'.panels':panels,'.panel-track':track,'.intro':intro,'.range':range,'.skip-link':skip}[s]);document.querySelectorAll=s=>s==='[data-panel]'?cards:edges;
@@ -44,28 +44,30 @@ f.edges[1].emit('pointerleave');f.advance(1000);assert.deepEqual(visible(f),[0,1
 f.edges[1].emit('pointerenter');f.advance(650);assert.deepEqual(visible(f),[1,2,3]);
 f.edges[1].emit('pointerleave');f.advance(1250);assert.equal(f.timers.size,0);
 f.cards[1].focus();f.document.emit('keydown',{key:'ArrowRight'});assert.deepEqual(visible(f),[2,3,4]);assert.equal(f.document.activeElement,f.cards[2]);
-f.advance(1250);f.edges[1].emit('click');f.advance(1250);assert.deepEqual(visible(f),[3,4,5]);assert(!f.edges[1].disabled);f.edges[1].emit('click');f.advance(1250);assert.deepEqual(visible(f),[4,5,6]);assert(f.edges[1].disabled);assert.equal(f.range.textContent,'05 — 07 / 07');
-f.edges[1].emit('click');assert.deepEqual(visible(f),[4,5,6]);f.edges[0].emit('click');f.advance(1250);assert.deepEqual(visible(f),[3,4,5]);f.edges[0].emit('click');f.advance(1250);assert.deepEqual(visible(f),[2,3,4]);
-f.edges[0].emit('pointerenter');f.document.hidden=true;f.document.emit('visibilitychange');f.advance(3000);assert.deepEqual(visible(f),[2,3,4]);assert.equal(f.timers.size,0);
-f.media.compact.matches=true;f.media.compact.emit('change');assert.deepEqual(visible(f),[0,1,2,3,4,5,6]);
-f.edges[0].emit('click');assert.deepEqual(visible(f),[0,1,2,3,4,5,6]);
+f.advance(1250);f.edges[1].emit('click');f.advance(1250);assert.deepEqual(visible(f),[3,4,5]);assert(!f.edges[1].disabled);
+for(let i=0;i<3;i++){f.edges[1].emit('click');f.advance(1250);}
+assert.deepEqual(visible(f),[6,7,8]);assert(f.edges[1].disabled);assert.equal(f.range.textContent,'07 — 09 / 09');
+f.edges[1].emit('click');assert.deepEqual(visible(f),[6,7,8]);f.edges[0].emit('click');f.advance(1250);assert.deepEqual(visible(f),[5,6,7]);f.edges[0].emit('click');f.advance(1250);assert.deepEqual(visible(f),[4,5,6]);
+f.edges[0].emit('pointerenter');f.document.hidden=true;f.document.emit('visibilitychange');f.advance(3000);assert.deepEqual(visible(f),[4,5,6]);assert.equal(f.timers.size,0);
+f.media.compact.matches=true;f.media.compact.emit('change');assert.deepEqual(visible(f),[0,1,2,3,4,5,6,7,8]);
+f.edges[0].emit('click');assert.deepEqual(visible(f),[0,1,2,3,4,5,6,7,8]);
 const g=fixture({withGSAP:true});assert(!g.intro.removed);assert.equal(g.timelineCalls[0][1],2.5);
 assert.equal(g.timelineCalls.find(x=>x[0]==='to'&&x[1]==='.intro')[2].clipPath,'inset(0 0 100% 0)');
 g.complete();assert(g.intro.removed);
 assert(!g.cards[0].emit('click',{ctrlKey:true}).prevented);assert.equal(g.location.assigned,null);
-g.cards[1].emit('click');assert.equal(g.location.assigned,'/collection/cinnabar.html');
+g.cards[1].emit('click');assert.equal(g.location.assigned,'/collection/cashmere-hush.html');
 g.window.emit('pageshow',{persisted:true});assert(!g.panels.classList.contains('is-leaving'));assert.deepEqual(visible(g),[0,1,2]);assert.equal(g.cards[1].cleared,'opacity,flexBasis');
 const r=fixture({reduced:true,withGSAP:true});assert(r.intro.removed);assert.equal(r.timelineCalls.length,0);r.edges[1].emit('pointerenter');r.advance(5000);assert.deepEqual(visible(r),[0,1,2]);r.edges[1].emit('click');r.advance(0);assert.deepEqual(visible(r),[1,2,3]);
 const interrupted=fixture({withGSAP:true});interrupted.skip.emit('click');assert(interrupted.intro.removed);assert.equal(interrupted.document.activeElement,interrupted.cards[0]);
 
 for(const base of ['dist','build']){
  const home=await fs.readFile(base+'/index.html','utf8');
- assert.equal((home.match(/data-panel=/g)||[]).length,7);
+ assert.equal((home.match(/data-panel=/g)||[]).length,9);
  assert(home.includes('<span>夜廊</span></div><div class="s">NOCTURNE</div>'));
  assert(!/庭见|庭间|达安锦园|hero-home|scheme-grid|workbench-section/.test(home));
  assert(home.includes('夜廊 · 陈天涌私宅设计'));assert(home.includes('进入全套方案工作台'));
- assert.deepEqual([...home.matchAll(/href="\/collection\/([^"]+)\.html"/g)].map(m=>m[1]),['nocturne','cinnabar','dusk','verdigris','stillwood','amber','inkcourt']);
- for(const id of ['nocturne','cinnabar','dusk','verdigris','stillwood','amber','inkcourt'])assert(home.includes(`/collection/${id}.html`));
+ assert.deepEqual([...home.matchAll(/href="\/collection\/([^"]+)\.html"/g)].map(m=>m[1]),['nocturne','cashmere-hush','dusk','saddle-weave','cinnabar','verdigris','stillwood','amber','inkcourt']);
+ for(const id of ['nocturne','cashmere-hush','dusk','saddle-weave','cinnabar','verdigris','stillwood','amber','inkcourt'])assert(home.includes(`/collection/${id}.html`));
 }
-const report={passed:true,browserVisualTested:false,originalSourceCommit:'ff47fb2fc96a18c3e7ba0c0ec6cabe7e56566352',checks:['Original entrance sequence, timing and easing retained; no redesigned homepage sections.','Seven direct proposal links; three-panel window, bounded arrows, hover dwell and hover cancellation.','Keyboard focus stays visible; hidden-tab cancellation; no idle interaction timer.','Original vertical mobile presentation, reduced-motion click navigation, animation-library fallback.','Modified-click navigation, click expansion, back-forward cache reset, skip entrance.','Night-gallery naming and requested seven-proposal order across current homepage.']};
-await fs.mkdir('verification/v42',{recursive:true});await fs.writeFile('verification/v42/home-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
+const report={passed:true,browserVisualTested:false,originalSourceCommit:'ff47fb2fc96a18c3e7ba0c0ec6cabe7e56566352',checks:['Original entrance sequence, timing and easing retained; no redesigned homepage sections.','Nine direct proposal links; three-panel window, bounded arrows, hover dwell and hover cancellation.','Keyboard focus stays visible; hidden-tab cancellation; no idle interaction timer.','Original vertical mobile presentation, reduced-motion click navigation, animation-library fallback.','Modified-click navigation, click expansion, back-forward cache reset, skip entrance.','Night-gallery naming and requested nine-proposal order across current homepage.']};
+await fs.mkdir('verification/v48',{recursive:true});await fs.writeFile('verification/v48/home-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);

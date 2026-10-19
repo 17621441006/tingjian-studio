@@ -106,3 +106,10 @@
  .next-scheme{padding:22px}.next-preview{grid-template-columns:90px minmax(0,1fr) 24px;gap:20px;padding:23px 0}.next-preview img{width:90px;height:112px}.next-scheme strong{font-size:27px}.next-en{font-size:16px}.next-heading .eyebrow{font-size:9px;letter-spacing:.15em}.next-heading>span:last-child{font-size:13px}.next-caption{font-size:12px}
  .scheme-switcher{padding:30px var(--pad) 45px}.switcher-heading{display:block}.switcher-heading h2{font-size:24px}.switcher-heading p{margin-top:12px;font-size:13px}.all-schemes{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.all-schemes a{padding:40px 12px 15px;gap:8px;min-height:122px}.switch-name{font-size:17px;letter-spacing:.03em}.switch-name small{font-size:9px;letter-spacing:.03em}.switch-number{left:12px;font-size:12px}.switch-arrow{width:26px;height:26px;font-size:16px}.switch-state{right:9px;font-size:9px}
 }
+
+/* Two craft selections join the established editorial layouts. */
+.tone-cashmere{--paper:#eee8dd;--ink:#41372f;--muted:#746459;--accent:#76535b;--line:#41372f29;--scene-bg:#e2d8c9}
+.tone-saddle{--paper:#f0e7d8;--ink:#3f332b;--muted:#71604f;--accent:#31555c;--line:#3f332b29;--scene-bg:#e3d5bf}
+.tone-cashmere .hero h1,.tone-saddle .hero h1{font-size:clamp(34px,5.8vw,88px);max-width:13ch;line-height:1.03}
+.all-schemes a[data-switch-scheme=cashmere-hush]{--switch-rgb:66 48 43;--switch-accent:#e6d8cc;--switch-position:50% 60%}
+.all-schemes a[data-switch-scheme=saddle-weave]{--switch-rgb:43 46 37;--switch-accent:#dcc09b;--switch-position:50% 60%}

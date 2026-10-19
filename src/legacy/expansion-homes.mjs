@@ -1,10 +1,11 @@
+import {COUTURE_IDS,COUTURE_HOMES,COUTURE_COLORS,COUTURE_PLANS} from './couture-homes.mjs';
 import {RENEWED_IDS,RENEWED_HOMES} from './collector-homes.mjs';
 import {CRAFT_IDS,CRAFT_HOMES,CRAFT_COLORS,CRAFT_PLANS} from './craft-homes.mjs';
 // Independently authored complete schemes for the same apartment.
-export const EXPANSION_IDS=['terracotta-atelier','tea-cuisine','silver-retreat','moss-garden',...CRAFT_IDS];
+export const EXPANSION_IDS=['terracotta-atelier','tea-cuisine','silver-retreat','moss-garden',...CRAFT_IDS,...COUTURE_IDS.filter(id=>id!=='silver-retreat')];
 export const expansionAsset=(design,room,thumb=false)=>{
- const base=CRAFT_IDS.includes(design)?'/designs-v47/schemes/':RENEWED_IDS.includes(design)?'/designs-v46/schemes/':'/designs-v38/schemes/';
- const origin=!thumb&&['tea-cuisine','moss-garden'].includes(design)?globalThis.__TINGJIAN_V38_ORIGIN__||'':'';
+ const base=COUTURE_IDS.includes(design)?'/designs-v48/schemes/':CRAFT_IDS.includes(design)?'/designs-v47/schemes/':RENEWED_IDS.includes(design)?'/designs-v46/schemes/':'/designs-v38/schemes/';
+ const origin=!thumb&&['tea-cuisine','moss-garden'].includes(design)?globalThis.__TINGJIAN_V38_ORIGIN__||'':!thumb&&design==='terracotta-atelier'?globalThis.__TINGJIAN_V46_ORIGIN__||'':'';
  return origin+base+design+'/'+room+(thumb?'-thumb':'')+'.webp';
 };
 const purchases={living:['sofa','chair','table','floor','light'],dining:['table','chair','storage','light'],master:['bed','storage','floor','light'],second:['bed','storage','chair','light'],kitchen:['storage','panel','tile','light'],bath:['storage','panel','tile','light'],balcony:['chair','table','curtain','tile'],utility:['storage','panel','tile']};
@@ -34,19 +35,19 @@ export const EXPANSION_HOMES={
   utility:['家政与少量绿植，各有一边','洗烘塔在尽端，侧面浅架收清洁品，少量植物放在远离电器的一侧；可折晾架靠可开启上窗。','植物浇水与设备电源隔开，保留散热及检修空间。']
  })
 };
-Object.assign(EXPANSION_HOMES,CRAFT_HOMES);
+Object.assign(EXPANSION_HOMES,CRAFT_HOMES,COUTURE_HOMES);
 export const EXPANSION_COLORS={
  'terracotta-atelier':{wood:'#76543b',wall:'#e8dec9',stone:'#c6b9a2',sofa:'#e2d7c2',textile:'#e5daca',accent:'#74404a',floor:'#967455'},
  'tea-cuisine':{wood:'#50392b',wall:'#806453',stone:'#494b43',sofa:'#a5744c',textile:'#bdad96',accent:'#663c3b',floor:'#73543c'},
  'silver-retreat':{wood:'#4d3527',wall:'#eee4d2',stone:'#c3b59d',sofa:'#202d3c',textile:'#eee3cf',accent:'#6f273a',floor:'#886347'},
  'moss-garden':{wood:'#8a6345',wall:'#687050',stone:'#896754',sofa:'#b68956',textile:'#b6a382',accent:'#3e5036',floor:'#886446'}
 };
-Object.assign(EXPANSION_COLORS,CRAFT_COLORS);
+Object.assign(EXPANSION_COLORS,CRAFT_COLORS,COUTURE_COLORS);
 export const EXPANSION_PLANS={
  'terracotta-atelier':{second:'atelier',balcony:'side-office',kitchen:'l-shallow',bath:'hamper',utility:'ironing',dining:'extendable'},
  'tea-cuisine':{second:'trundle',balcony:'bistro',kitchen:'u-cook',bath:'mobile',utility:'parallel',dining:'banquette'},
  'silver-retreat':{second:'permanent',balcony:'clear-reading',kitchen:'galley',bath:'open-basin',utility:'sorting',dining:'extendable'},
  'moss-garden':{second:'hobby',balcony:'yoga',kitchen:'single-run',bath:'linen',utility:'garden',dining:'oval'}
 };
-Object.assign(EXPANSION_PLANS,CRAFT_PLANS);
+Object.assign(EXPANSION_PLANS,CRAFT_PLANS,COUTURE_PLANS);
 export function expansionLayout(design,room){const h=EXPANSION_HOMES[design],r=h?.rooms[room];return r?{id:'original',name:r.title,short:'独立排布方案',title:r.title,copy:r.copy,benefit:h.description,tradeoff:r.tradeoff,checks:[sharedCheck,...(room==='kitchen'?['给排水、烟道及用电条件先确认，再决定柜体排布。']:room==='balcony'?['落地外窗为效果设想；原结构、外立面和防护条件需核验。']:[])],items:r.materials}:null;}

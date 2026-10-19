@@ -134,7 +134,7 @@ root.dataset.editing='true';root.dataset.experience='photo';sync();const homeGal
 // Curated proposals enter the retained studio through a same-origin, allowlisted message.
 window.addEventListener('message',event=>{
  if(!window.parent||window.parent===window||event.source!==window.parent||event.origin!==location.origin)return;
- if(event.data?.type==='tingjian:open-design'&&['dusk','chinese','copper'].includes(event.data.design))homeGallery.openView(event.data.design,'living');
+ if(event.data?.type==='tingjian:open-design'&&['dusk','chinese','copper','amber','saddle-weave','cashmere-hush'].includes(event.data.design))homeGallery.openView(event.data.design,'living');
 });
 // The editor keeps its state when switching top-level sections, and its frame
 // follows content height without a second scrollbar inside the workspace.

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "workbenchSchemes": 22,
+  "featuredOrder": [
+    "nocturne",
+    "cashmere-hush",
+    "dusk",
+    "saddle-weave",
+    "cinnabar",
+    "verdigris",
+    "stillwood",
+    "amber",
+    "inkcourt"
+  ],
+  "replacements": {
+    "mauve-walnut": "苔织艺邸",
+    "pine-library": "石序光廊",
+    "silver-retreat": "花影绮居"
+  },
+  "other19SchemesUnchanged": true,
+  "approvedV47ImageFilesUnchanged": 36,
+  "newImages": 27,
+  "newThumbnails": 27,
+  "roomsPerScheme": 8,
+  "reverseLivingViews": 3,
+  "originalMotionAndBrandFilesUnchanged": true,
+  "modelPaletteAndLayoutLinked": true,
+  "localResourcesVerified": true,
+  "browserVisualTested": false,
+  "mobileGPUTested": false
+}
