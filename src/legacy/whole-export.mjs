@@ -1,7 +1,7 @@
 import {lifestyleSummaryHTML} from './lifestyle-data.mjs';
 import {loadMediaImage,resolvedMediaURL} from './media-loader.mjs';
 import {livingReverseAsset} from './wood-homes.mjs';
-import {floraAsset} from './flora-home.mjs';
+import {floraAsset,floraPreviousAsset} from './flora-home.mjs';
 import {prepareFloorPhoto} from './photo-floor.mjs';
 // Export a self-contained effect book. Product candidates are never labelled as applied scene objects.
 export async function exportEffectBook(snapshot,name){
@@ -9,6 +9,7 @@ export async function exportEffectBook(snapshot,name){
  for(const f of snapshot.frames)f.path=await prepareFloorPhoto(f.path,f.scene);
  snapshot.frames.push({name:'客厅2 · 看向阳台',path:livingReverseAsset(snapshot.design),changed:true,label:'原方案反向视角 · 单品、地面与装饰修改暂不联动',items:[]});
  if(snapshot.design==='silver-retreat')snapshot.frames.push({name:'餐柜 · 收起留白',path:floraAsset('dining-closed'),changed:true,label:'抽拉餐桌收起状态 · 构造意向，尺寸与五金需复核',items:[]});
+ if(snapshot.design==='silver-retreat')snapshot.frames.push({name:'客厅 · 方案二',path:floraPreviousAsset(),changed:true,label:'上一版圆餐桌、矮餐边柜与雕花屏风',items:[]});
  const assets=new Map();for(const f of snapshot.frames)if(!assets.has(f.path)){await loadMediaImage(f.path);const response=await fetch(resolvedMediaURL(f.path));if(!response.ok)throw new Error('图片未载入');const blob=await response.blob();const data=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);});assets.set(f.path,data);}
  const cards=snapshot.frames.map(f=>`<article><h2>${escape(f.name)}</h2><p>${escape(f.shared?'与客厅共用已选视角':f.changed?f.label:'沿用风格原方案')}</p><img src="${assets.get(f.path)}" alt="${escape(f.name)}"><dl>${f.items.map(([k,v])=>`<div><dt>${escape(k)}</dt><dd>${escape(v)}</dd></div>`).join('')}</dl></article>`).join('');
  const products=snapshot.products.map(p=>`<li><a href="${escape(p.url)}" target="_blank" rel="noopener noreferrer">${escape(p.brand+' · '+p.product)}</a><p>${escape(typeof p.dimensions==='string'?p.dimensions:p.dimensions?.text||'型号、饰面与尺寸需确认')}</p></li>`).join('');

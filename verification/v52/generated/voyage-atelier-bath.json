@@ -1,0 +1,27 @@
+{
+  "design": "voyage-atelier",
+  "room": "bath",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-cd648bc0-7c7e-466f-9d6f-f467d1090a8c.png",
+  "assets": [
+    {
+      "path": "dist/designs-v52/schemes/voyage-atelier/bath.webp",
+      "design": "voyage-atelier",
+      "room": "bath",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 102348,
+      "sha256": "a4dea9fd2d576de42adad00de9e7a197a075252c15fdb81f66f92999c9e33eb7"
+    },
+    {
+      "path": "dist/designs-v52/schemes/voyage-atelier/bath-thumb.webp",
+      "design": "voyage-atelier",
+      "room": "bath",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 18570,
+      "sha256": "35cfbc2eb055bf35cf94a5f9dc80881b8cd24ac3331d97ff881f7e940e1ee30b"
+    }
+  ]
+}

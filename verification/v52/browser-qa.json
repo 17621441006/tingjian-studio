@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "environment": "Managed desktop Chrome preview, out/ publication directory",
+  "checks": [
+    "Flower featured page still shows PERSONAL SELECTION / 05.",
+    "Flower current living route is designs-v52 and includes the revised open doorway.",
+    "Featured living room exposes three buttons; 方案二 changes the image and full-screen link to the exact v50 living.webp.",
+    "Featured previous-version full screen decodes at 1536 × 1024 and caption reads 客厅 · 方案二.",
+    "Selecting 看向餐厅 restores the current v52 image and pressed states.",
+    "Workbench 方案二 loads the v50 living room, updates full-screen href and download name silver-retreat-客厅-方案二.webp.",
+    "Workbench full-screen title reads 花影绮居 · 方案二 · 圆桌与矮餐柜; older round table and low sideboard visually confirmed.",
+    "Returning to 客厅 restores the current v52 download target.",
+    "The preserved azure-silence deep link opens 驿金行邸 with revised 回廊暗纹 copy and eight updated thumbnails.",
+    "Voyage living and reverse living images decode at 1536 × 1024; reverse button updates full-screen and download targets."
+  ],
+  "mobileDeviceTested": false,
+  "gpuFrameRateMeasured": false,
+  "constructionDimensionsVerified": false
+}

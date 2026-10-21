@@ -1,0 +1,212 @@
+[
+  {
+    "path": "dist/designs-v52/schemes/silver-retreat/living.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 155948,
+    "sha256": "92abb79d83225fc59166267e7b494d4b7484910deb985000b812ac1c80d02b48"
+  },
+  {
+    "path": "dist/designs-v52/schemes/silver-retreat/living-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23702,
+    "sha256": "fc2adce7f4003700565e87a03e3d899cd09313a83f74521364749ff1be7d3906"
+  },
+  {
+    "path": "dist/designs-v52/featured/flora-768.webp",
+    "design": "silver-retreat",
+    "room": "hero",
+    "thumb": true,
+    "width": 768,
+    "height": 512,
+    "bytes": 61540,
+    "sha256": "307b51310dc7f3356abe47ce2fc88d0af2e9eb97895904b9be2c8263905283aa"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/balcony.webp",
+    "design": "voyage-atelier",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 186692,
+    "sha256": "38e9284393ddda31bee8c6ca540f3216dcd7893da45852c48da682674adf1053"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/balcony-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 30556,
+    "sha256": "7e0c32f586548608b983697e1bab8307d742daab98c2b87a9e5f699cbef76dfb"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/bath.webp",
+    "design": "voyage-atelier",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 102348,
+    "sha256": "a4dea9fd2d576de42adad00de9e7a197a075252c15fdb81f66f92999c9e33eb7"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/bath-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18570,
+    "sha256": "35cfbc2eb055bf35cf94a5f9dc80881b8cd24ac3331d97ff881f7e940e1ee30b"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/dining.webp",
+    "design": "voyage-atelier",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 96352,
+    "sha256": "aa7efbfdabc104003fc0f0afbdc41e98716fbc406528179e209a5fa60b06e1e1"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/dining-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17734,
+    "sha256": "9d78e862cde5fbf6c88d3e6df44e619077755eab80ac8a6cf1fd6a8a28892ca7"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/kitchen.webp",
+    "design": "voyage-atelier",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 82072,
+    "sha256": "63409b349e809a68d848e6c325c03b38e375bc0a6db3c4182369d8aebe637d1d"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/kitchen-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15990,
+    "sha256": "6e7b689ba1294d4190ba9a4fc1c2f073da1a9d1d7ec74d6935e7772882bbfb4e"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/living.webp",
+    "design": "voyage-atelier",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166032,
+    "sha256": "ef1175cd38c1e1b278ef7bd2bf7c332a2e64177e4b1d026b2290bc909bdec4ff"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/living-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25340,
+    "sha256": "6b664bc8da5ad37a0c1075db74f4f03b88436254b97546e82feb00546773a95d"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/living2.webp",
+    "design": "voyage-atelier",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 125672,
+    "sha256": "c581c1bcfee38fe31f7a807e3d51391b99b3bfe751aa6bc352f66f96ed06efc3"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/living2-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22170,
+    "sha256": "48b559aaa686c3fbb966271b551d0325278d53d1cffe97543e58f6943b8038bc"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/master.webp",
+    "design": "voyage-atelier",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 130986,
+    "sha256": "859b52bb274523bd587d2031ca829be91892bd9d8f19e6e8565de5f12db056a8"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/master-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19246,
+    "sha256": "5cd22358a7292555066e12d68049dfa36f58e938403c5d1e1520f008559e9829"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/second.webp",
+    "design": "voyage-atelier",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 133536,
+    "sha256": "19723992e4ed0f55c34ba3efe26955fd18d61031350e2c9c9251029c525cbeb6"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/second-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22132,
+    "sha256": "24954d5bf72c4e0830b221fcf734668ac4b7fd8179ddd42323f2c188bb1b5422"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/utility.webp",
+    "design": "voyage-atelier",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 123678,
+    "sha256": "bcb60dced05aeb0873740b367b1fc3997b6d0bf2d82f1716aa8b7af6059df12e"
+  },
+  {
+    "path": "dist/designs-v52/schemes/voyage-atelier/utility-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24578,
+    "sha256": "72172aa6a1205254ec3436327cd2087a1751e0584338c37cbedee0f5dcf95a5e"
+  }
+]

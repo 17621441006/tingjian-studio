@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "workbenchSchemes": 25,
+  "refinedScheme": "驿金行邸",
+  "newRoomImages": 9,
+  "floraEditedViews": 1,
+  "floraPreviousVersion": "v50 / round dining table and low sideboard",
+  "floraFeaturedPosition": 5,
+  "unrelatedHomesUnchanged": 23,
+  "otherFeaturedUnchanged": 9,
+  "homepageLayoutMotionBrandUnchanged": true,
+  "priorApprovedAssetsUnchanged": true,
+  "newAssets": 21,
+  "realViewController": [
+    "lazy-load",
+    "open-close",
+    "download-restore",
+    "late-load-cancel",
+    "failure-preservation",
+    "scene-race",
+    "living-regression",
+    "previous-variant",
+    "variant-title",
+    "alternate-view-race"
+  ],
+  "modelGeometryReused": true
+}

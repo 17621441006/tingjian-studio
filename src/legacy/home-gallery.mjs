@@ -158,7 +158,7 @@ export function initHomeGallery(root){
  const dialog=$('[data-home-dialog]');
  $('[data-home-large]').addEventListener('click',event=>{
   if(typeof dialog.showModal!=='function')return;
-  event.preventDefault();const reverse=livingViewPath(picture);if(reverse)$('[data-home-dialog-image]').src=reverse;else setFloorPhoto($('[data-home-dialog-image]'),assetFor(displayed),{...displayed,pieces,floorProduct:floorSelection()});$('[data-home-dialog-image]').alt=picture.alt;$('[data-home-dialog-title]').textContent=reverse?HOMES[displayed.design].name+' · '+alternateViewLabel(displayed):$('[data-home-title]').textContent+' · '+$('[data-home-variant-label]').textContent;
+  event.preventDefault();const reverse=livingViewPath(picture);if(reverse)$('[data-home-dialog-image]').src=reverse;else setFloorPhoto($('[data-home-dialog-image]'),assetFor(displayed),{...displayed,pieces,floorProduct:floorSelection()});$('[data-home-dialog-image]').alt=picture.alt;$('[data-home-dialog-title]').textContent=reverse?HOMES[displayed.design].name+' · '+alternateViewLabel(displayed,picture):$('[data-home-title]').textContent+' · '+$('[data-home-variant-label]').textContent;
   $('[data-home-dialog-view]').classList.remove('is-native');$('[data-home-native]').setAttribute('aria-pressed','false');openImageDialog(dialog,window,{fullscreen:true});
  });
  $('[data-home-close]').addEventListener('click',()=>dialog.close());

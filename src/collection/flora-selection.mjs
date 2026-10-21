@@ -1,4 +1,4 @@
-import {FLORA_HOME,floraAsset} from '../legacy/flora-home.mjs';
+import {FLORA_HOME,floraAsset,floraPreviousAsset} from '../legacy/flora-home.mjs';
 
 const weave='repeating-linear-gradient(0deg,#fff3 0 1px,transparent 1px 4px),repeating-linear-gradient(90deg,#62583c20 0 1px,transparent 1px 5px)';
 const relief='radial-gradient(ellipse at 35% 40%,#fff7,transparent 45%),repeating-linear-gradient(115deg,transparent 0 38px,#a89c7b22 40px,transparent 43px 85px)';
@@ -11,10 +11,10 @@ export const FLORA_SELECTION={
  layout:'stack',tone:'flora',tag:'玉兰浅浮雕 · 编织光影 · 拉花釉陶',
  poem:'让花，走出画框。\n让手作，住进日常。',
  intro:'花影不只在画里。它成为墙上一道浅浅的起伏、灯下交错的织纹，也成为釉色中轻轻散开的一瓣。柔绿、酒红与奶油白相接，亲近自然，也亲近手作。',
- copy:'延续柔绿座具、蜜色木作与明亮底色，把植物从重复的挂画和花束中释放出来。客厅的玉兰浅浮雕、餐厅的编织花瓣灯、卧室的暗纹提花各有表达；电视墙以浅色通顶柜收起日用，餐桌前的花叶餐柜藏入抽拉桌，厨房以整面低对比拉花釉砖收住烟火，湿区用耐水材料转译编织肌理。',
+ copy:'延续柔绿座具、蜜色木作与明亮底色，把植物从重复的挂画和花束中释放出来。客厅的玉兰浅浮雕、餐厅的编织花瓣灯、卧室的暗纹提花各有表达；以弧角木框与素纱代替雕花屏风，电视墙以浅色通顶柜收起日用，餐桌前的花叶餐柜藏入抽拉桌，厨房以整面低对比拉花釉砖收住烟火，湿区用耐水材料转译编织肌理。',
  quote:'一室花影，各有自己的姿态。',
- galleryNote:'花卉、编织与手作融入八个空间；花叶餐柜与抽拉桌可切换展开、收起状态；电视墙收纳与整面灶台花釉继续保留。',
- hero:floraAsset('living'),heroThumb:'/designs-v51/featured/flora-768.webp',
+ galleryNote:'花卉、编织与手作融入八个空间；花叶餐柜与抽拉桌可切换展开、收起状态；电视墙收纳与整面灶台花釉继续保留；客厅「方案二」保留上一版圆桌与矮餐柜。',
+ hero:floraAsset('living'),heroThumb:'/designs-v52/featured/flora-768.webp',
  principles:[['花影成为构造','浅浮雕、釉陶与提花墙布，让图案获得不同的深浅与触感。'],['编织组织光线','灯罩、椅背与小柜门，以疏密不同的织纹连接轻盈与秩序。'],['每一处都不同','织物艺术、水墨、线描和稀疏花艺各有位置，留白让细节被看见。']],
  materials:[
   mat('Magnolia Relief','玉兰浅浮雕','奶油色矿物墙面以同色浅起伏承接侧光，花与墙成为一个完整的面。','#e8dfcb',relief),
@@ -24,7 +24,7 @@ export const FLORA_SELECTION={
  ],
  roomSource:Object.entries(roomNames).map(([key,cn])=>{
   const r=FLORA_HOME.rooms[key];
-  return {key,cn,title:r.title,copy:r.copy,description:r.copy,material:r.materials[1][1],storage:r.materials[0][1],light:r.materials[2][1],materials:r.materials,image:floraAsset(key),thumb:floraAsset(key,true),width:1536,height:1024,thumbWidth:480,...(key==='living'?{views:[{label:'看向餐厅',image:floraAsset('living'),thumb:floraAsset('living',true),width:1536,height:1024,thumbWidth:480},{label:'看向客厅',image:floraAsset('living2'),thumb:floraAsset('living2',true),width:1536,height:1024,thumbWidth:480}]}:key==='dining'?{views:[{label:'展开用餐',image:floraAsset('dining'),thumb:floraAsset('dining',true),width:1536,height:1024,thumbWidth:480},{label:'收起留白',image:floraAsset('dining-closed'),thumb:floraAsset('dining-closed',true),width:1536,height:1024,thumbWidth:480}]}:{})};
+  return {key,cn,title:r.title,copy:r.copy,description:r.copy,material:r.materials[1][1],storage:r.materials[0][1],light:r.materials[2][1],materials:r.materials,image:floraAsset(key),thumb:floraAsset(key,true),width:1536,height:1024,thumbWidth:480,...(key==='living'?{views:[{label:'看向餐厅',image:floraAsset('living'),thumb:floraAsset('living',true),width:1536,height:1024,thumbWidth:480},{label:'看向客厅',image:floraAsset('living2'),thumb:floraAsset('living2',true),width:1536,height:1024,thumbWidth:480},{label:'方案二',image:floraPreviousAsset(),thumb:floraPreviousAsset(true),width:1536,height:1024,thumbWidth:480}]}:key==='dining'?{views:[{label:'展开用餐',image:floraAsset('dining'),thumb:floraAsset('dining',true),width:1536,height:1024,thumbWidth:480},{label:'收起留白',image:floraAsset('dining-closed'),thumb:floraAsset('dining-closed',true),width:1536,height:1024,thumbWidth:480}]}:{})};
  })
 };
 export const FLORA_PANEL={id:'flora',type:'a',title:'Flora',label:'WOVEN INTO LIGHT',tag:'花影绮居 · 织花入室',copy:'玉兰浅浮雕接住日光，花瓣编织投下柔影。柔绿、酒红与奶油白之间，让花走出画框，让手作进入日常。',tags:['花影浅浮雕','编织灯','拉花釉陶','暗纹提花']};

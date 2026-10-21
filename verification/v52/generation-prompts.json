@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "design": "voyage-atelier",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/living.webp"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset: residential concept photo, landscape 1536x1024. Edit the attached living room in exactly the same camera and architecture. This is an understated, attainable home inspired by warm travel craftsmanship, NOT a designer-brand showroom. KEEP the warm cream walls, cognac leather sofa, cream oval stone coffee table, beige rug, lights, window openings, ceiling beams, room dimensions and furniture positions.\nREMOVE every flower/star/diamond monogram, brand-like pattern, luggage trunk, luggage clasp, metal riveted corner and strap-like cabinet handle. Replace the monogram trunk next to the coffee table with a small elegant round-ended walnut side cabinet, seamless curved front, one discreet drawer and recessed plinth, no metal corners. TV cabinetry stays cream with warm walnut plain niche, slim muted bronze reveal, no patterned bands. Rear sideboard becomes quiet walnut with finely reeded sliding fronts and rounded edge, no luggage hardware.\nCreate OUR OWN very subtle 'arcade path' repeat only on ONE cognac cushion: two offset nested open U-shaped arches and an asymmetric short horizontal stitch, tiny low-contrast tan-on-cognac woven pattern. No flower, four-petal, star, diamond or lettering. All other fabrics mostly plain with tactile weave.\nAt left remove the busy cut-out decorative glass screen; preserve the exact opening position and width, use a simple clean walnut reveal with softly rounded inner upper corners and plain transparent glazing if needed, no lattice. Leave view and daylight open.\nEditorial natural daylight, refined real materials, restrained highlights, clear bright home. No text, logo, watermark. Preserve 3:2 full composition.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/silver-retreat/living.webp"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset: residential interior concept, landscape 1536x1024. Perform ONE tightly bounded renovation to the reference image. The decorative fretwork GLASS SCREEN at left, between the TV wall cabinetry and dining wall, is overused. REMOVE this floral cut-out screen and its metal/glass leaf entirely. Reinterpret the same existing doorway as a clean open passage with a slim honey-walnut lining, gently rounded inner upper corners, no lattice, no glass screen. A light ivory linen curtain gathers neatly to one side inside the reveal; most of the opening remains clear and daylight-filled. Do not widen the structural opening or move any wall/beam. Keep the view of the plant beyond. Do not add shelves blocking passage.\nCRITICAL KEEP EVERYTHING ELSE: olive scalloped sofa on right, floral relief wall, cream and cane full-height TV storage, rear full-height floral/cane DINING CABINET with central tea niche, RECTANGULAR pull-out dining table with bronze U-shaped bridge leg and two cane chairs, petal pendant, coffee table, carpet, ceiling, camera and proportions. This is the current cabinet version, do NOT restore a round dining table. Preserve lighting and tasteful bright cream, olive, honey, burgundy palette. No text/logo/watermark. Photorealistic high-end interior, 3:2.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-4b7693a0-990f-4875-8cdd-956afc30d2f7.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Reverse view of the SAME living room: keep sofa left, TV right, broad balcony straight ahead, round dining table foreground. Match image 2's plain cream TV doors and WALNUT unpatterned niche with discreet bronze seams; no riveted gold corners. One cognac cushion uses the original arched-line textile seen in image 2; other textiles cream. Do not add a luggage trunk. Keep original room camera.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-5dca02c1-77a8-4492-b444-b16aa746d94c.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/dining.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Replace the trunk-like rear sideboard entirely with image 2's quiet walnut credenza: subtly rounded corners, closely reeded sliding fronts, recessed small handle and slender wood legs. NO metal corners, straps, studs, lock or flower print. Keep cream circular stone dining table, 4 cognac chairs, lamp, slim bookcase and architecture. A single low-contrast nested-arch ceramic bowl is enough, no pattern on cabinetry.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-f72d88af-f419-4a35-a67b-a6be3c423080.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "master",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/master.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Remove ALL gold flower/diamond/star monograms from bed runner, pillows, bedside cabinets and window-seat drawers. Replace luggage-shaped side cabinets with refined plain rounded walnut drawers with discreet recessed pulls; no corner protectors, rivets or straps. Bed runner becomes plain textured oatmeal with one slender stitched cognac double-line border. ONE small cognac cushion has the original offset nested-open-arch linework from image 2, tone-on-tone. All window-seat drawer faces plain walnut. Keep exact bed/window/corner desk/aircon/camera arrangement and soft cream/cognac palette.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-d4e8772b-c8ff-4b43-bcd2-6930bba6e595.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "second",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/second.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Remove ALL flower/diamond monogram bands, suitcase corners, studs and clasp details from wardrobe, desk, bed and cushion. Keep narrow single daybed lengthwise RIGHT, desk LEFT, original narrow width and window/camera. Wardrobe cream with simple walnut reveal, bed drawers plain walnut, handles recessed. One small cognac cushion with very quiet offset nested-open-arch stitching; remaining fabrics plain cream. Keep two different travel-sketch artworks and real home atmosphere.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-ea54369d-b2eb-4823-90c0-7e9070f242a8.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/kitchen.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Remove ALL floral/diamond branded-look motifs from backsplash and lower cabinets, remove every patterned border. Cabinets become continuous warm walnut below, cream above, discreet aged-bronze handles. Backsplash plain warm ivory glazed tile, with just ONE short band of subtle beige offset rounded arch linework on the central right backsplash, barely darker than tile. No textile or leather in wet/hot zones. Preserve U shape, sink beneath end window, stove right, appliances, worktop, ceiling and perspective.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-949e17dc-2dba-44aa-abe6-3c2e25126c5e.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "bath",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/bath.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Remove ALL flower symbols and monogram pattern on wall borders, bottles, towels and rug. Keep cream stone/tile, ribbed ivory vanity wall, plain rounded brass mirror, walnut vanity. Replace repeating flower borders with simple thin muted bronze vertical reveals. Towels cream with a double cognac stitched edge, rug plain textured oatmeal. No need to place pattern everywhere. Keep exact shower left, vanity middle, toilet/window right and original camera.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-cd648bc0-7c7e-466f-9d6f-f467d1090a8c.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "balcony",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/balcony.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Replace luggage-trunk side table with a small rounded walnut cylinder storage side table, smooth front, shallow discreet drawer, no studs/straps/corners. Keep one comfortable cream chair with cognac wide woven arm straps and slim legs, layout/windows/cityview/light. Cushion becomes cognac with quiet offset nested open arches from image2; no flower/diamond. Keep open walkway and calm daylight.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-d1ac1f34-8e54-43a6-897d-46070d7de52d.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "utility",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v51/schemes/voyage-atelier/utility.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d4efcf55-16b3-448c-8aba-052a74a7ec30.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Landscape 1536x1024 residential concept. Image 1 is the edit target: preserve its camera, architecture, opening locations, room size, lighting and functional layout. Image 2 is the newly approved living-room MATERIAL/STYLE reference, not a layout to copy. Refine the home into quiet cream, cognac, warm walnut, small satin bronze. Express travel craftsmanship through tactile leather, precise joinery, seams and useful everyday storage. Absolutely NO luggage trunks, brand products, logos, lettering, four-petal motifs, stars, diamonds or recognizable fashion monogram. Our optional original 'arcade path' motif consists only of offset nested OPEN U-shaped arches and one asymmetric short stitch: very sparse, low contrast, no flower shapes. Avoid pattern overload; most surfaces plain. Natural high-end editorial photography with realistic soft texture. No text or watermark. Remove the ENTIRE brown/gold monogram panel beside the washer tower; replace it with plain warm walnut tall tool-cabinet door with a recessed vertical pull. Cream upper cabinets and right worktop stay. Replace leather luggage-style laundry bins with two removable natural beige canvas bins with short fabric tabs. One subtle cognac linear stitch at their edge, no printed monograms. Keep tower at far end, windows left, counter right, all proportions and camera.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-70cf88ef-bcb3-4e82-b73d-a634dd9cd2b2.png"
+    }
+  ]
+}

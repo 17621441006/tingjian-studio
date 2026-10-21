@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "proposals": 10,
+  "rooms": 80,
+  "verifiedOriginalImages": 63,
+  "verifiedNewImages": 27,
+  "checkedLocalLinks": 1212,
+  "browserVisualTested": false,
+  "mobileGPUTested": false,
+  "checks": [
+    "Ten proposals × eight rooms, each with two living-room views; source and deployed routes, anchor targets, imagery and accessibility controls resolve.",
+    "63 WebP files match verified, decoded image inventory; original room images reused unchanged.",
+    "27 v42 WebP assets match their decoded-image inventory; five palette refinements, seven reverse views and the corrected secondary bedroom are complete.",
+    "Two-view selection updates image, full-screen original, pressed state and accessible caption; gallery includes all nine views.",
+    "Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback."
+  ]
+}

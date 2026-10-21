@@ -1,8 +1,8 @@
-// Flora Salon v51: floral dining storage with an integrated pull-out table.
+// Flora Salon v52: a quiet open passage; the v50 living room remains selectable.
 // Earlier v49/v50 versions remain in versioned assets and verification rollback records.
 const purchase={living:['sofa','chair','table','floor','light'],dining:['table','chair','storage','light'],master:['bed','storage','floor','light'],second:['bed','storage','chair','light'],kitchen:['storage','panel','tile','light'],bath:['storage','panel','tile','light'],balcony:['chair','table','curtain','tile'],utility:['storage','panel','tile']};
 const roomData={
- living:['把花影，藏进一整面收纳','柔绿沙发与花瓣边浅石茶几延续原有轮廓。沙发后的奶油色矿物墙面以疏朗玉兰浅浮雕替代植物挂画，电视墙改为奶油色浅通顶柜，以蜜色细框、少量编织门片和同色花卉浅刻连接原有花影；电视留在内凹格中，上下与两侧分区收纳，柜体止于原玻璃开口。茶几只留一组低矮马蹄莲，给日常留出完整台面。餐厅端新增同色花叶餐柜，中央抽拉桌按需展开，与电视墙柜共同收起日用。','奶油色矿物浅浮雕、柔绿耐磨绒布、蜜色胡桃细框、奶油平柜门与局部藤编、浅石花瓣边、酒红小釉陶；浮雕采用同色细阴影，不铺满浓重图案。','侧向日光和可调洗墙光显出浅浮雕，座具照明单独控制；设备收进通顶柜下部，上柜存换季物品，日用物放在顺手高度；编织门片的防尘衬层与设备通风一并深化。','浮雕先做实样检查深度、积灰与侧光；柜体深度、通风、柜门开启与主通路按现场条件深化，原玻璃开口完整保留。'],
+ living:['把花影，藏进一整面收纳','柔绿沙发与花瓣边浅石茶几延续原有轮廓。沙发后的奶油色矿物墙面以疏朗玉兰浅浮雕替代植物挂画，电视墙改为奶油色浅通顶柜，以蜜色细框、少量编织门片和同色花卉浅刻连接原有花影；电视留在内凹格中，上下与两侧分区收纳，柜体止于原开口，重复的雕花玻璃屏风改为弧角蜜木门套与可收拢的素纱，留出更干净的透光通路。茶几只留一组低矮马蹄莲，给日常留出完整台面。餐厅端新增同色花叶餐柜，中央抽拉桌按需展开，与电视墙柜共同收起日用。','奶油色矿物浅浮雕、柔绿耐磨绒布、蜜色胡桃细框、奶油平柜门与局部藤编、浅石花瓣边、酒红小釉陶；浮雕采用同色细阴影，不铺满浓重图案。','侧向日光和可调洗墙光显出浅浮雕，座具照明单独控制；设备收进通顶柜下部，上柜存换季物品，日用物放在顺手高度；编织门片的防尘衬层与设备通风一并深化。','浮雕先做实样检查深度、积灰与侧光；柜体深度、通风、柜门开启与主通路按现场条件深化，原开口与梁柱位置保留，门套圆角、帘轨与通行净宽按现场复核。'],
  dining:['把餐桌，轻轻收进花影里','餐桌前的墙面补成奶油色浅通顶餐柜：花叶浅浮雕门片与细藤编嵌面交错，蜜色木框围出中央茶水格。下方抽出一张带落地桥形支撑的木餐桌，两侧安排藤背餐椅；不用餐时桌面与支撑收进柜内，让客餐厅重新连成开敞的通路。','同色花叶浅浮雕门板、少量封闭衬底藤编、蜜色木饰面、耐磨可擦桌面与隐藏抽拉五金；花瓣编织灯延续原来的轻盈。','上柜收低频物品，两侧分餐具、食品与入户杂物；中央茶水格独立照明。抽拉桌平时收好，餐椅靠两侧停放，常用杯碟放在顺手高度。','参考浅柜抽拉桌系统的收放思路，采用落地支撑；柜深、有效开口、桌面展开长度、拉椅净空及固定方式须结合现场和所选五金复核，图中为构造意向。'],
  master:['在暗纹里，安放睡眠','柔绿花瓣缝线床头、原白床品与窄酒红床尾毯保留。床头墙换成同色蕨叶提花肌理，侧墙仅留一幅窄幅水墨抽象；花瓣瓷壁灯与一枚干燥种荚取代成对花束。','低对比丝麻感暗纹墙布、耐磨绒布、棉麻床品、哑光瓷灯与细藤编抽屉；图案主要通过织纹和侧光显现。','两侧床头灯分别控制，纱帘与遮光帘分层；飘窗抽屉收织物，保留窗边薄写字面和可移坐垫。','墙布先核对基层防潮与维护方式，床头灯位置不照眼；原转角窗、空调和床侧通路保持完整。'],
  second:['让叶的线条，成为一间轻书房','窄日间床仍沿右墙纵向摆放，抽拉副床平时收好；左侧书桌与薄柜分工。柜门与床侧的编织细节、两张不同的线描小画形成节奏，一盆小蕨替代重复花束。','温白墙、蜜色木框、细藤编嵌面、柔绿坐垫；靠包用素色与叶脉绗线，纸感小灯照书页。','桌面任务光与床边阅读光分开；桌下集中线缆，工具与床品分别归入浅抽屉和床下。','保持窄房尺度与纵向床位；副床展开需先收好工作椅，净宽不足时不使用，不能视为常设双人卧室。'],
@@ -13,4 +13,7 @@ const roomData={
 };
 export const FLORA_HOME={name:'花影绮居',englishName:'FLORA SALON',subtitle:'玉兰浅浮雕 · 编织光影 · 拉花釉陶',description:'把花卉从挂画里请出来，落在同色浅浮雕、暗纹织物、整面浅釉花墙与可收放的餐柜中。柔绿、酒红与奶油白延续原来的温度，编织成为灯与家具的结构。每个房间有自己的艺术品和植物，花影相连，表达各异。',purchaseKey:'dusk',rooms:Object.fromEntries(Object.entries(roomData).map(([id,[title,copy,material,light,tradeoff]])=>[id,{title,copy,tradeoff,materials:[['布局与收纳',copy],['选材与软装',material],['光线与细节',light],['尺度',tradeoff]],purchase:purchase[id]}]))};
 export const FLORA_REVISED_ROOMS=['living','living2','dining','dining-closed'];
-export const floraAsset=(room,thumb=false)=>'/designs-'+(FLORA_REVISED_ROOMS.includes(room)?'v51':room==='kitchen'?'v50':'v49')+'/schemes/silver-retreat/'+room+(thumb?'-thumb':'')+'.webp';
+export const floraAsset=(room,thumb=false)=>'/designs-'+(room==='living'?'v52':FLORA_REVISED_ROOMS.includes(room)?'v51':room==='kitchen'?'v50':'v49')+'/schemes/silver-retreat/'+room+(thumb?'-thumb':'')+'.webp';
+
+// Approved round-table living room before the v51 dining storage revision.
+export const floraPreviousAsset=(thumb=false)=>'/designs-v50/schemes/silver-retreat/living'+(thumb?'-thumb':'')+'.webp';

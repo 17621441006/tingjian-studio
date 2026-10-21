@@ -39,7 +39,7 @@ for(const root of ['dist','out']){
    assert.equal(nodes.filter(n=>'data-lightbox'in n.attrs).length,8);
    assert.equal(nodes.filter(n=>'data-material'in n.attrs).length,4);
    assert.equal(nodes.filter(n=>'data-storage'in n.attrs).length,8);
-   const payload=JSON.parse(nodes.find(n=>n.attrs.id==='collection-data').text);assert.equal(payload.rooms.length,8);assert.equal(payload.gallery.length,payload.id==='flora'?10:9);assert.equal(payload.rooms[0].views.length,2);assert.equal(nodes.filter(n=>'data-room-view' in n.attrs).length,payload.id==='flora'?4:2);if(root==='dist')roomCount+=payload.rooms.length;
+   const payload=JSON.parse(nodes.find(n=>n.attrs.id==='collection-data').text);assert.equal(payload.rooms.length,8);assert.equal(payload.gallery.length,payload.id==='flora'?11:9);assert.equal(payload.rooms[0].views.length,payload.id==='flora'?3:2);assert.equal(nodes.filter(n=>'data-room-view' in n.attrs).length,payload.id==='flora'?5:2);if(root==='dist')roomCount+=payload.rooms.length;
    for(const r of payload.rooms){for(const ref of [r.image,r.thumb]){const local=ref.startsWith('https://')?ref.slice(ref.indexOf('/dist/')+5):ref;assert((await fs.stat('dist'+local)).size>1000);}}
   }
  }
@@ -90,4 +90,4 @@ checks.push('Two-view selection updates image, full-screen original, pressed sta
 checks.push('Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback.');
 const home=await fs.readFile('out/index.html','utf8'),studio=await fs.readFile('dist/tour/index.html','utf8');assert(!home.includes('data-music'));assert(studio.includes('data-music'));assert(studio.includes('data-legacy-frame'));assert(studio.includes('返回精选提案'));
 const report={passed:true,proposals:COLLECTION.length,rooms:roomCount,verifiedOriginalImages:inventory.length,verifiedNewImages:currentInventory.length,checkedLocalLinks:links,browserVisualTested:false,mobileGPUTested:false,checks};
-await fs.writeFile('verification/v51/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
+await fs.writeFile('verification/v52/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
