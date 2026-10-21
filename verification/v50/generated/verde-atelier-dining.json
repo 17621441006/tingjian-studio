@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "dining",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-4f2c6a0c-3a1b-4e16-9ca3-6c6a18cb40aa.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/dining.webp",
+      "design": "verde-atelier",
+      "room": "dining",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 122728,
+      "sha256": "1211763081b923186c74cccc2931bbca2960f2575e0771edf77812cd3d29a084"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/dining-thumb.webp",
+      "design": "verde-atelier",
+      "room": "dining",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 17578,
+      "sha256": "61ca8d52688900e899e087443ae8c9aaf3865b8ac3bfac44fdd111f1ef6f87c3"
+    }
+  ]
+}

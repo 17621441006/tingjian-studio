@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "surface": "Managed Sites preview, desktop Chrome",
+  "passed": true,
+  "checks": [
+    "Homepage preserves original three-panel design and 10 selections",
+    "Flower detail identifies selection 05; all eight rooms and current material copy render",
+    "Flower living reverse-view keyboard activation updates pressed state and living2-thumb URL",
+    "Flower living main image is decoded and displayed",
+    "Flower workbench CTA opens tour with design=silver-retreat",
+    "Expanded workbench shows original Flower at 23, Verde at 24 and Azure at 25",
+    "Original Flower selection changes title and links to immutable v48 living image",
+    "Verde selection changes title and links to v50 living image",
+    "Azure selection changes title, links to v50 living image, and image is fully decoded"
+  ],
+  "notes": [
+    "Preview server was restarted after atomic build-directory replacement to refresh its working directory",
+    "No application errors observed; browser-extension metadata messages excluded",
+    "Some coordinate-backed clicks during animations were verified using keyboard activation",
+    "Mobile GPU and production network performance were not measured"
+  ]
+}

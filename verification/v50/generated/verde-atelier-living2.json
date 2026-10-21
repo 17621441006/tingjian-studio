@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "living2",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-2e4364f2-1ae4-4916-b7c0-ba61cca2713a.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/living2.webp",
+      "design": "verde-atelier",
+      "room": "living2",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 166148,
+      "sha256": "3871ea2074b61600d2d307b3d597fd0ee5c425898c383c5f0c0f407fb96f21a1"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/living2-thumb.webp",
+      "design": "verde-atelier",
+      "room": "living2",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 22562,
+      "sha256": "0b35f4c274299208f42a0b0dec6ace7cd348323a7ebdb766fa20bc8aa9f28d61"
+    }
+  ]
+}

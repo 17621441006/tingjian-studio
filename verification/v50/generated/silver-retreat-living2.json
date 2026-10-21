@@ -1,0 +1,27 @@
+{
+  "design": "silver-retreat",
+  "room": "living2",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-902a0d62-e8e8-4291-a448-ff7d7bcec6ca.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/silver-retreat/living2.webp",
+      "design": "silver-retreat",
+      "room": "living2",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 174474,
+      "sha256": "ede02bff01c78e5fe1500476a7ad2502237db5af3fd40084e05695be86966455"
+    },
+    {
+      "path": "dist/designs-v50/schemes/silver-retreat/living2-thumb.webp",
+      "design": "silver-retreat",
+      "room": "living2",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 25394,
+      "sha256": "c205882e2e54386d7241e5f530169fcc972032f8a7dbfc16bcca0069bd13cd08"
+    }
+  ]
+}

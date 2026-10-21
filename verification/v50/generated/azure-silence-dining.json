@@ -1,0 +1,27 @@
+{
+  "design": "azure-silence",
+  "room": "dining",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-fdfa8a3e-5e80-4eef-9008-56b859e9c5a2.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/azure-silence/dining.webp",
+      "design": "azure-silence",
+      "room": "dining",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 98238,
+      "sha256": "bfc41fb1184832544c3c7a811af0621bd442437d4a8bd0b68fe829c9e08569bc"
+    },
+    {
+      "path": "dist/designs-v50/schemes/azure-silence/dining-thumb.webp",
+      "design": "azure-silence",
+      "room": "dining",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 15620,
+      "sha256": "012f6d17ddc4d8377b7e0f6c8f85b9695166fec4dc71877e98cf7f86e14601c6"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "mode": "builtin imagegen",
+  "jobs": [
+    {
+      "design": "verde-atelier",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. REVERSE living-room view: sofa on LEFT is the same cream rounded low sofa from image2, pale interlaced wood wall sculpture above; RIGHT same long emerald low TV cabinet with wide tan leather-weave inset, same TV. Same nested stone+oak oval coffee tables and tan wide-strap chair, milk rug. Preserve glazing straight ahead. Near foreground dining table should match image2 blond oak oval table and woven dining chairs. No new cabinetry.",
+      "attempt": 2
+    },
+    {
+      "design": "verde-atelier",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-cd32061d-1fdd-43dd-8c82-c4fd56bd61f8.png"
+      ],
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. ONE photorealistic 3:2 image. Edit target image1. KEEP exact camera, room geometry, windows, U layout, cream upper and pale oak cabinets, appliances, fixtures, all lighting and floor. TWO small corrections only: (1) right lower green drawer fronts currently olive: change to rich clear EMERALD GREEN, the same deep fresh emerald as an elegant glazed ceramic, NOT olive/khaki. (2) replace the small tile panel behind hob which currently looks like leaf veins with a very subtle ivory-on-ivory INTERLACED STRIP geometric ceramic design: thin clean horizontal and vertical bands crossing, low relief and smooth glaze. No branches, no flowers, no raised botanical motifs. No other changes. No text, logo, people or watermark."
+    },
+    {
+      "design": "azure-silence",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-13bb9525-42f2-4c2c-8d0f-9b681d3b5932.png"
+      ],
+      "attempt": 2,
+      "prompt": "Use case: precise-object-edit. ONE photorealistic 3:2 image. Image1 is edit target. Remove ONLY the large blue-white rectangular painting above the right sideboard. Restore that area as continuous plain pale pearl silk-textured wall, perfectly matching surrounding wall plane and lighting. Keep the existing thin wall panel trim, the iris vase on sideboard, lamp, chairs, table, pendant, cabinetry, shelves, doors, floor, perspective and daylight exactly unchanged. The adjoining living room already has the abstract painting, so this dining wall must stay quiet and empty. No added art, no added plants, no other redesign, no text or watermark."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "balcony",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-3b963fc8-5df0-4896-97a5-0c38184cec07.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/balcony.webp",
+      "design": "verde-atelier",
+      "room": "balcony",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 189132,
+      "sha256": "df326a56a9d204a4cb8511d2dedbc74d7f52522c7ac11bff937a4936114aa865"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/balcony-thumb.webp",
+      "design": "verde-atelier",
+      "room": "balcony",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 27388,
+      "sha256": "586598e179077e1fd0245aa30b0be31d8bd7289eecf8df5d184fbddf005308dc"
+    }
+  ]
+}

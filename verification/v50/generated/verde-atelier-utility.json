@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "utility",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-77a45409-b775-452a-8cea-0507358daacf.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/utility.webp",
+      "design": "verde-atelier",
+      "room": "utility",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 175170,
+      "sha256": "4115aab344532cb1f9f9b1e6b0e5f8f9f69773296f78eb2353c5b32ccd0d2200"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/utility-thumb.webp",
+      "design": "verde-atelier",
+      "room": "utility",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 25406,
+      "sha256": "49e582ffbff8ec364b00853bd16eddf6aa074167cff97819a0ee25ce4264fb39"
+    }
+  ]
+}

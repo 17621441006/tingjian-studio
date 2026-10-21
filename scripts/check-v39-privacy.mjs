@@ -22,7 +22,7 @@ async function scan(dir){
 await scan('dist');await scan('build');
 const retired=JSON.parse(await fs.readFile('verification/v39/retired-private-assets.json','utf8'));
 for(const f of retired.files){await assert.rejects(fs.access(f.path));await assert.rejects(fs.access(f.path.replace(/^dist\//,'build/')));}
-assert.equal(Object.keys(HOMES).length,22);
+assert.equal(Object.keys(HOMES).length,25);
 for(const design of Object.keys(HOMES)){
  const frames=assembleHome(design,new Map());assert.equal(frames.length,8);
  for(const room of ROOMS){assert.equal(room.area,'');assert(!privateText.test(JSON.stringify(HOMES[design].rooms[room.id])));assert(!privateText.test(finalRoomNote(design,room.id)||''));}

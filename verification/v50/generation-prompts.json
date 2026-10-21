@@ -1,0 +1,388 @@
+{
+  "mode": "builtin imagegen",
+  "jobs": [
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living.webp"
+      ],
+      "prompt": "Use case: precise-object-edit. Create ONE photorealistic 3:2 interior design photograph, not a collage. Image 1 is the edit target of a compact Shanghai apartment living room looking toward dining. Preserve camera, dimensions, ceiling, every opening, dining furniture and pendant, olive green sofa, cream magnolia relief behind sofa, rug and scalloped coffee table exactly. Change ONLY the television wall at LEFT: replace the low TV console and plain wall above with one integrated shallow floor-to-ceiling cabinet wall, stopping cleanly at the existing glazed doorway without blocking it. Elegant warm ivory flush doors, honey walnut fine frames, two restrained woven cane inset doors, sparse tonal magnolia carving on one door. TV stays centered in an open recessed niche with cabinet storage above, below and beside it. Slim realistic shallow cabinet depth so walkway remains. Pale and spacious, not massive. Most fronts plain ivory, woven detail only about 20 percent. No new partition. Preserve sunlight and sophisticated authentic materials. No people, logo, text, watermark. No other redesign.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-5f4bfa80-8d8f-438c-af2d-074fc667be27.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/kitchen.webp"
+      ],
+      "prompt": "Use case: precise-object-edit. One photorealistic 3:2 interior design photograph. Image 1 is edit target. Preserve this exact compact U-shaped kitchen, camera, walls, back window, olive base cabinets, cream upper cabinets, sink, hob, hood, handles and daylight. Change ONLY the backsplash on the entire RIGHT hob wall: extend the beautiful abstract floral ceramic design from the small hob patch along ALL exposed backsplash from window corner to near right edge, continuous from counter to upper cabinets and behind hob. A single flowing restrained magnolia/petal composition across smooth glazed cream tiles, very low contrast mist sage and ivory, tiny dusty plum notes only, 75 percent quiet cream negative space. Not repetitive floral wallpaper, not brightly colored flowers, not embossed rough grime-trapping panels. Keep other walls and cabinets plain. Delicate handmade glaze and subtle seams, cleanable refined luxurious residential finish, no extra decoration, no people, text, logo or watermark.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-38d35b02-8ff3-4995-b31f-973f19108801.png"
+    },
+    {
+      "design": "verde-atelier",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living.webp"
+      ],
+      "prompt": "Use case: style-transfer. Image 1 is architectural/camera reference for this compact Shanghai apartment. Produce ONE new photorealistic luxury interior photograph, 3:2, same exact room size, ceiling, wall planes, left glass opening, far right entrance door and perspective. New original scheme VERDE ATELIER, inspired by handwoven leather craftsmanship and sculptural form, no brand logos or copied branded products. Replace all decor. Warm buttercream 65 percent, light oat/tan leather and blond oak 25 percent, emerald green saturated accent only 10 percent. Right wall: low cream subtly curved sofa on slim dark feet, behind it a large quiet ivory wall with one sculptural interlaced pale wood relief, absolutely no flowers or botanical art. LEFT low long emerald lacquer TV cabinet with rounded corners and small woven tan leather inset, TV above. Pair of nested oval pale travertine and blond oak coffee tables; a small tan wide-strap woven leather lounge chair by the sofa. Back dining has compact blond oak oval table with cream banquette at back wall, two light woven tan dining chairs, graceful folded ivory ribbon pendant. Cream wool rug with subtle woven relief, original small cobalt ceramic vessel on table, one sculptural branch only at rear. Airy natural daylight, tactile leather and warm true colors, sophisticated editorial photograph, plausible small furniture and clear central circulation. Avoid dark olive, burgundy, petal lights, floral artworks, distressed antiques, ornate trims, enlargement, additional windows, text, labels, people or watermark.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+    },
+    {
+      "design": "azure-silence",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living.webp"
+      ],
+      "prompt": "Use case: style-transfer. Image 1 is architectural and camera reference. ONE photorealistic 3:2 interior design photograph of this exact compact Shanghai apartment living room looking toward dining; preserve ceiling geometry, all windows/openings/doors/walls and perspective, no expansion. Create original AZURE SILENCE inspired by refined Italian proportions and textile craft. Pearl ivory 65 percent, mist blue textiles 25 percent, narrow smoke oak and champagne metal 10 percent. RIGHT low straight-lined mist blue linen-silk sofa, thin arms and slender legs; behind sofa pearl silk-like subtly ribbed wall and a single original blue-gray abstract painting. LEFT pearl ivory full-height shallow television storage, thin smoke oak horizontal niche frame, calm seamless fronts. Oval pearl limestone coffee table and small smoked glass nesting table, pearl wool rug with faint horizontal woven line. Back dining a slender rounded rectangular table, 4 mist blue fabric chairs, thin elliptical opal pendant and floating pale sideboard. One low porcelain bowl and two stacked books; sparse iris stems in small clear glass at back, no repeated flowers. Beautiful fresh soft natural light, light neutral surfaces and soft shadows, elegant inhabited compact apartment not grand hotel. No botanical relief, cane, burgundy, bronze abundance, heavy dark wood, shiny marble, no text/logo/watermarks/people.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-5f4bfa80-8d8f-438c-af2d-074fc667be27.png"
+      ],
+      "prompt": "Use case: precise-object-edit. ONE photorealistic 3:2 photograph. Image 1 is target REVERSE living-room camera looking toward balcony. Image 2 is the approved same-room new television cabinetry viewed from the opposite end: match exactly its material and cabinet composition. Preserve image1 olive sofa on LEFT, ivory magnolia relief, rug, coffee table, dining table foreground, ceiling, balcony glazing and daylight. Change ONLY RIGHT TV wall and console to a full-height shallow ivory cabinet wall with fine honey walnut frames, TV in open central niche, ivory doors above/below/at sides, a few woven cane inset doors, and sparse same-tone magnolia relief on one narrow door. Do not shift camera, enlarge room or cover glazing/openings. Cabinet runs to existing boundary, clear walkway. All other decor stays. No people/text/logo/watermark."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. REVERSE living-room view: sofa on LEFT is the same cream rounded low sofa from image2, pale interlaced wood wall sculpture above; RIGHT same long emerald low TV cabinet with wide tan leather-weave inset, same TV. Same nested stone+oak oval coffee tables and tan wide-strap chair, milk rug. Preserve glazing straight ahead. Near foreground dining table should match image2 blond oak oval table and woven dining chairs. No new cabinetry."
+    },
+    {
+      "design": "azure-silence",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. REVERSE living room: mist blue straight-lined low sofa on LEFT matching image2, same pale blue abstract artwork and pearl textured wall above it. RIGHT pearl ivory shallow full-height TV storage with a slim smoke-oak horizontal recess matching image2. Same oval pearl stone and small smoked-glass nesting tables, cream fine-line rug. Balcony glass straight ahead and dining foreground stay. Slim blue upholstered dining chairs, small opal lamps. Avoid introducing new layouts."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/dining.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Dining/entrance close view. Compact blond oak oval pedestal table, a cream softly upholstered banquette against BACK wall under quiet blank cream wall, two pale wood chairs with wide tan woven leather backs at front. Thin folded ivory ribbon pendant matching image2. Small pale oak sideboard with modest inset green doors, original tan ceramic bowl with citrus fruit, one slim branch in matte cream vase. Remove floral art and petal lamp. Preserve entrance door RIGHT and glass opening LEFT. Seating storage is closed under banquette."
+    },
+    {
+      "design": "azure-silence",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/dining.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Dining/entrance close view: thin pale stone rounded rectangular extendable table with a narrow central wood support, four compact mist blue fabric dining chairs with slim legs. Thin elliptical opal pendant matching image2, pearl floating sideboard with thin smoke oak frame. One sculptural ivory porcelain vase with 3 iris stems only here, spare clear tabletop. Subtle silk-like pearl wall, keep RIGHT entrance door and LEFT glass opening."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "master",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/master.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Primary bedroom: keep same bed footprint, back corner bay window and right side window. Low pale oak bed with finely handwoven broad oat-tan leather headboard rectangle with rounded top corners, cream bedding, narrow emerald green throw at foot. Plain quiet cream wall; ONE small asymmetric folded-paper artwork at left. Pale oak shallow cabinets and drawers under original window seat, petite bedside tables, thin opal disk lamps. Keep wall air-conditioner. No flowers, no repeated living room sculpture."
+    },
+    {
+      "design": "azure-silence",
+      "room": "master",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/master.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Primary bedroom: preserve same bed location, back corner bay window and separate right window. Low pearl-gray upholstered bed, cream bedding with mist blue fine woven blanket, pale vertical pleated silk-like headboard wall. Thin floating bedside drawers with small champagne metal reading lights, pearl/light-oak window bench drawers and small blue reading chair. Single minimal off-white paper artwork left. Keep existing wall AC, no florals, no canopy, no oversized headboard."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "second",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/second.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Very NARROW second bedroom / study, exact reference proportions and back window. A SINGLE narrow daybed runs LENGTHWISE along RIGHT wall, cream cushion on pale oak frame with drawers beneath, tiny emerald pillow. LEFT shallow desk and tall narrow closed cabinet with a few wide tan woven-inset fronts, tucked slim chair. Small geometric paper relief and one linear task lamp. Clear central aisle. Do NOT widen room, rotate bed across window or make double bed."
+    },
+    {
+      "design": "azure-silence",
+      "room": "second",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/second.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Very NARROW study/guest bedroom, exact width and back window. Narrow single daybed runs LENGTHWISE along RIGHT wall, pale mist-blue tailored cushions and pearl base drawers. LEFT shallow pearl-white desk and closed slim storage with fine smoke-oak edge, thin blue fabric chair tucked in. One small line drawing, linear task lamp, concealed cable slot. Keep central aisle; no double bed, no rotated bed across window, no enlargement or mirrored false space."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/kitchen.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Compact U kitchen exactly same sink under rear window and hob RIGHT, shallow counter LEFT. Cream upper cabinets, light oak lower units, one small emerald drawer group on right. Warm white smooth ceramic backsplash with only ONE short panel of subtle flat ivory/tan interlacing geometry away from hob; no flowers. Pale low-vein counter, slim warm metal pulls, recessed task light, clear surfaces, simple cookware."
+    },
+    {
+      "design": "azure-silence",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/kitchen.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Same compact U kitchen, rear window and sink, RIGHT hob, shallow LEFT counter. Pearl-white upper cabinets, pale mist blue-gray base cabinets, tiny smoke oak end panels, continuous pearl stone-like porcelain worktop and low-contrast fine gray-blue veining backsplash across right wall. Thin champagne handles and gentle undercabinet lighting, clean counters with small daily cookware. No flowers, patterned tiles or open decorative shelves."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "bath",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/bath.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Keep shower LEFT, basin CENTER, toilet RIGHT, original narrow rear window. Cream matte wall/floor tiles. ONE panel of rich emerald shallow interlaced-pattern glazed ceramic behind basin, easy-wipe subtle embossing; remainder quiet ivory. Simple horizontal-ish rounded rectangle mirror sized to basin, pale oak-look CLOSED waterproof vanity drawers with one organized basket recess. Slim champagne hardware. No leather or cane in wet zones, no flowers or repetitive plants."
+    },
+    {
+      "design": "azure-silence",
+      "room": "bath",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/bath.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Compact bathroom same shower LEFT, basin CENTER, toilet RIGHT and narrow rear window. Pearl ivory and very pale blue-gray large porcelain tiles, localized fine vertical ceramic texture inside shower. Thin champagne fittings and softly rounded rectangular mirror with even side lighting. Pearl closed vanity drawers plus one folded towel recess, single low porcelain lidded box, no flower vase. Soft light, easy-clean surfaces."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "balcony",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/balcony.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Same narrow glazed balcony, exact railings/glazing. Two light small chairs with broad oat-tan weatherproof woven straps, gathered at RIGHT short wall with a small emerald glazed ceramic drum side table. Cream cushions. One sculptural small potted plant LEFT, central glass view and floor clear. Pale stone tile floor, plain cream wall, diffuse thin linen shade. No floral table or heavy cabinets."
+    },
+    {
+      "design": "azure-silence",
+      "room": "balcony",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/balcony.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Same compact glazed balcony with original windows/railings. One petite mist-blue woven fabric reading armchair at RIGHT short wall, slim smoke-oak side table with a book and small porcelain cup. Low shallow pearl storage bench on far side only if it fits; all central glazing and floor remain unobstructed. Thin sheer vertically pleated curtains, pearl-white textured short wall and pale tiled floor. Airy calm, no bulky furnishings."
+    },
+    {
+      "design": "verde-atelier",
+      "room": "utility",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/utility.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. VERDE ATELIER: bright buttercream, pale oak, oat-tan wide woven leather accents, small rich emerald lacquer accents. Organic rounded forms and restrained graphic interlacing, no flowers, botanical relief, petal lamps, burgundy or olive upholstery. All decor original, varied by room. Same narrow utility balcony, windows LEFT and stacked washer dryer at FAR END, counter RIGHT. Cream closed equipment cabinets with pale oak frame and narrow tall tools cabinet, right shallow folding counter and two removable wide-band woven washable beige baskets, one small emerald storage box on upper shelf. Keep aisle clear and all cabinet/appliance doors operable, light ceramic tile, linear task light. No decorative flowers, no tile florals, no unreadable appliance text."
+    },
+    {
+      "design": "azure-silence",
+      "room": "utility",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/utility.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png"
+      ],
+      "prompt": "Use case: style-transfer. ONE photorealistic 3:2 interior design photograph, no collage. Image 1 locks this exact compact apartment's camera, wall/door/window geometry and room dimensions; preserve all openings and perspective. Image 2 is the approved new living room, used ONLY as the material/color/furniture-family anchor, not its room layout. Design a consistent room in that home. Natural daylight, luxury editorial detail, real material texture, plausible furniture scale and clear walking path. No extra windows, expanded rooms, brand marks, text, labels, watermark or people. AZURE SILENCE: light pearl ivory, mist blue fine linen-silk texture, champagne metal fine edges, tiny smoke-oak trim; calm horizontal proportions. No woven cane, botanical relief, ornate decor, burgundy, emerald or excess brown. All decor original, varied by room. Same narrow utility balcony, long windows LEFT, stacked white washer dryer at FAR END, shallow counter RIGHT. Pearl-white closed equipment cabinetry, thin smoke-oak frame only, pale blue-gray washable sorting baskets under counter, pull-out folded laundry board stored closed. Thin upper cabinets and discreet task light. Clear central floor, pale gray ivory tiles. No decorative flowers or baskets blocking access."
+    }
+  ],
+  "selectedOutputs": [
+    {
+      "design": "azure-silence",
+      "room": "balcony",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-8ffbb5c5-0106-4f25-be2a-b9707475f606.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/balcony.webp",
+        "dist/designs-v50/schemes/azure-silence/balcony-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "bath",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-2e188550-3d42-4fbb-a54a-f98c2bca15c7.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/bath.webp",
+        "dist/designs-v50/schemes/azure-silence/bath-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "dining",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-fdfa8a3e-5e80-4eef-9008-56b859e9c5a2.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/dining.webp",
+        "dist/designs-v50/schemes/azure-silence/dining-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "kitchen",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-f67275e1-c677-4d57-9bee-6833598a5a62.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/kitchen.webp",
+        "dist/designs-v50/schemes/azure-silence/kitchen-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "living",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-d295c586-101b-42fa-ad86-e3c0719aaca9.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/living.webp",
+        "dist/designs-v50/schemes/azure-silence/living-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "living2",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-81c5ea0d-69a8-4aa5-bcd7-fb5130486e4e.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/living2.webp",
+        "dist/designs-v50/schemes/azure-silence/living2-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "master",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-d0f9aa88-b4f2-4ef6-acfc-30407b463ec6.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/master.webp",
+        "dist/designs-v50/schemes/azure-silence/master-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "second",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-0b713e6e-d827-41ac-94b6-96eaee40ba50.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/second.webp",
+        "dist/designs-v50/schemes/azure-silence/second-thumb.webp"
+      ]
+    },
+    {
+      "design": "azure-silence",
+      "room": "utility",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-01464a28-7423-4ecd-9323-fd1f494dfa01.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/azure-silence/utility.webp",
+        "dist/designs-v50/schemes/azure-silence/utility-thumb.webp"
+      ]
+    },
+    {
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-38d35b02-8ff3-4995-b31f-973f19108801.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/silver-retreat/kitchen.webp",
+        "dist/designs-v50/schemes/silver-retreat/kitchen-thumb.webp"
+      ]
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-5f4bfa80-8d8f-438c-af2d-074fc667be27.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/silver-retreat/living.webp",
+        "dist/designs-v50/schemes/silver-retreat/living-thumb.webp",
+        "dist/designs-v50/featured/flora-768.webp"
+      ]
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living2",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-902a0d62-e8e8-4291-a448-ff7d7bcec6ca.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/silver-retreat/living2.webp",
+        "dist/designs-v50/schemes/silver-retreat/living2-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "balcony",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-3b963fc8-5df0-4896-97a5-0c38184cec07.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/balcony.webp",
+        "dist/designs-v50/schemes/verde-atelier/balcony-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "bath",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-89ea12c2-b431-4110-990f-a4bb04ab82a1.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/bath.webp",
+        "dist/designs-v50/schemes/verde-atelier/bath-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "dining",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-4f2c6a0c-3a1b-4e16-9ca3-6c6a18cb40aa.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/dining.webp",
+        "dist/designs-v50/schemes/verde-atelier/dining-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "kitchen",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-d686d7a3-02fa-4684-b275-65748ecf5237.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/kitchen.webp",
+        "dist/designs-v50/schemes/verde-atelier/kitchen-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "living",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-079b3e20-3d9f-4438-93ba-0aa0f8012ce1.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/living.webp",
+        "dist/designs-v50/schemes/verde-atelier/living-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "living2",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-2e4364f2-1ae4-4916-b7c0-ba61cca2713a.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/living2.webp",
+        "dist/designs-v50/schemes/verde-atelier/living2-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "master",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-b719007d-7f20-46b5-9929-495ee349160c.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/master.webp",
+        "dist/designs-v50/schemes/verde-atelier/master-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "second",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-34bcbe44-4661-4f59-9dc0-61971a682c45.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/second.webp",
+        "dist/designs-v50/schemes/verde-atelier/second-thumb.webp"
+      ]
+    },
+    {
+      "design": "verde-atelier",
+      "room": "utility",
+      "generatedPath": "/workspace/scratch/31025950e38e/generated_images/exec-77a45409-b775-452a-8cea-0507358daacf.png",
+      "workspaceAssets": [
+        "dist/designs-v50/schemes/verde-atelier/utility.webp",
+        "dist/designs-v50/schemes/verde-atelier/utility-thumb.webp"
+      ]
+    }
+  ],
+  "refinementPrompts": "generation-refinements.json",
+  "transientRetry": "verde-atelier/living2: initial reference transfer closed, same prompt retried successfully"
+}

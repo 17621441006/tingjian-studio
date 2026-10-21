@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "bath",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-89ea12c2-b431-4110-990f-a4bb04ab82a1.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/bath.webp",
+      "design": "verde-atelier",
+      "room": "bath",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 118100,
+      "sha256": "1cf6003ef1ea58b3f5d4edfdb597acd931f47d7417f6d730f0269e9e9e39eeb0"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/bath-thumb.webp",
+      "design": "verde-atelier",
+      "room": "bath",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 17166,
+      "sha256": "a11c028c38f83f1a40d9e23e1214cccd1637541d2af3e9b767eb68636409f9c3"
+    }
+  ]
+}

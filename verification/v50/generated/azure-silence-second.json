@@ -1,0 +1,27 @@
+{
+  "design": "azure-silence",
+  "room": "second",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-0b713e6e-d827-41ac-94b6-96eaee40ba50.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/azure-silence/second.webp",
+      "design": "azure-silence",
+      "room": "second",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 165294,
+      "sha256": "8e66f25c7c6dffe2ad74020d16b76075eb3645bb363ea5f83e731c40c4d98f67"
+    },
+    {
+      "path": "dist/designs-v50/schemes/azure-silence/second-thumb.webp",
+      "design": "azure-silence",
+      "room": "second",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 19254,
+      "sha256": "29141637171cc05900a84ee60c1351e792e40dc4757dc4b13f5200cfc4fe8dd7"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import {CRAFT_FLOORS} from './craft-floor-regions.mjs';
 import {COUTURE_FLOORS} from './couture-floor-regions.mjs';
+import {ATELIER_FLOORS} from './atelier-floor-regions.mjs';
 // Conservative visible floor samples for the authored v38 photographs.
 // v46 recollection images use new conservative samples. Furniture and rugs are excluded. These are texture previews, not new renders.
 export const EXPANSION_FLOORS={
@@ -29,3 +30,4 @@ export const EXPANSION_FLOORS={
 
 Object.assign(EXPANSION_FLOORS,CRAFT_FLOORS);
 Object.assign(EXPANSION_FLOORS,COUTURE_FLOORS);
+Object.assign(EXPANSION_FLOORS,ATELIER_FLOORS);

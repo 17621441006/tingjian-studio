@@ -1,0 +1,10 @@
+{
+  "origin": "https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@d819e2e0ef913d36aa007fe23d6f72c3b9a26398/dist",
+  "commit": "d819e2e0ef913d36aa007fe23d6f72c3b9a26398",
+  "schemes": [
+    "flora-original",
+    "mauve-walnut",
+    "pine-library"
+  ],
+  "note": "Full-size v48 images use this pre-existing immutable GitHub commit; thumbnails stay on the Site."
+}

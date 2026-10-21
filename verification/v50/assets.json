@@ -1,0 +1,432 @@
+[
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/balcony.webp",
+    "design": "azure-silence",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 217988,
+    "sha256": "8ee021d120eafb899a10ccdf51fbea2355d7072decbc01aceeceeee9be5087c9"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/balcony-thumb.webp",
+    "design": "azure-silence",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 26824,
+    "sha256": "020a965168b21e423aae51c43c2e3baa3c210b076a6450fc09bed81fd3fbff93"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/bath.webp",
+    "design": "azure-silence",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 111254,
+    "sha256": "35e0ccdc8a5f86e77d39156b0653ef5659858929c57d7018e6c7e79e7c31990d"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/bath-thumb.webp",
+    "design": "azure-silence",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15256,
+    "sha256": "49889c6aed45679b01bc158134c34c0078d4c50253c4f9cf7fb99bdefeaa3440"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/dining.webp",
+    "design": "azure-silence",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 98238,
+    "sha256": "bfc41fb1184832544c3c7a811af0621bd442437d4a8bd0b68fe829c9e08569bc"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/dining-thumb.webp",
+    "design": "azure-silence",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15620,
+    "sha256": "012f6d17ddc4d8377b7e0f6c8f85b9695166fec4dc71877e98cf7f86e14601c6"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/kitchen.webp",
+    "design": "azure-silence",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 87586,
+    "sha256": "4d41838c57cf1bb0bf94806c58746e58d964f9c771df1cd41a89e03d64cc7f54"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/kitchen-thumb.webp",
+    "design": "azure-silence",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 14896,
+    "sha256": "713eaec5674b3bc147e45046c35a48598275c7d24504953b5b383e198587d1c3"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/living.webp",
+    "design": "azure-silence",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 184584,
+    "sha256": "750684b6df774796222f7d0c7117a153d647ee1a587cf8af6f89a4c343b55f85"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/living-thumb.webp",
+    "design": "azure-silence",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 21178,
+    "sha256": "7ac883df7b73d4a4226466264ff5ba8618e417aa0987823e017086170454ef10"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/living2.webp",
+    "design": "azure-silence",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 152872,
+    "sha256": "917fd17862dfca9304eb6150aafb7923507fed744420b15ca4a6f4563345e1ff"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/living2-thumb.webp",
+    "design": "azure-silence",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20624,
+    "sha256": "c536081743b64fc985b99c97950e233997c08c251eb1ee16931bfc3e43fffeef"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/master.webp",
+    "design": "azure-silence",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 165136,
+    "sha256": "9a3a3bfa54b90e98098c7c5938fad14ba0da769ae17f97c6042c90f4c843ae41"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/master-thumb.webp",
+    "design": "azure-silence",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16618,
+    "sha256": "fbae1f4e9ac04050663c3620e5f54c6458b65746c4462f166043a143e1104069"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/second.webp",
+    "design": "azure-silence",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 165294,
+    "sha256": "8e66f25c7c6dffe2ad74020d16b76075eb3645bb363ea5f83e731c40c4d98f67"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/second-thumb.webp",
+    "design": "azure-silence",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19254,
+    "sha256": "29141637171cc05900a84ee60c1351e792e40dc4757dc4b13f5200cfc4fe8dd7"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/utility.webp",
+    "design": "azure-silence",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 141158,
+    "sha256": "4335585afa8d38e76f8b7daa4588629c948f6872aafb5fb0c9b9adfe74f2150f"
+  },
+  {
+    "path": "dist/designs-v50/schemes/azure-silence/utility-thumb.webp",
+    "design": "azure-silence",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22284,
+    "sha256": "9a3dade9101a7a2f9e9344403122388f76660dbcc45e028639efca7810bf4fd2"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/kitchen.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 109666,
+    "sha256": "80b845415412eccb05a889e57645b2a24ed6be12a8b983a5bffc2d4ef35bdf5e"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/kitchen-thumb.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19114,
+    "sha256": "08cac6aa4541c0a9c42bf3705521876ec67243cd8eb172ec21e5f09a4674ba43"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/living.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 205618,
+    "sha256": "e53b5779b74071c40ce58317fb33d874a4c03b5a57f284d211d38eb6366d4852"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/living-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24502,
+    "sha256": "e5d4d80981c61903bfc3a409edc298eb365ea9e432694e93e8eed372de9796b4"
+  },
+  {
+    "path": "dist/designs-v50/featured/flora-768.webp",
+    "design": "silver-retreat",
+    "room": "hero",
+    "thumb": true,
+    "width": 768,
+    "height": 512,
+    "bytes": 64816,
+    "sha256": "d701b80dfba93ba6e720afd112742d002d6b51666e4dadb7fb3b7fbc7cd07869"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/living2.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 174474,
+    "sha256": "ede02bff01c78e5fe1500476a7ad2502237db5af3fd40084e05695be86966455"
+  },
+  {
+    "path": "dist/designs-v50/schemes/silver-retreat/living2-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25394,
+    "sha256": "c205882e2e54386d7241e5f530169fcc972032f8a7dbfc16bcca0069bd13cd08"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/balcony.webp",
+    "design": "verde-atelier",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 189132,
+    "sha256": "df326a56a9d204a4cb8511d2dedbc74d7f52522c7ac11bff937a4936114aa865"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/balcony-thumb.webp",
+    "design": "verde-atelier",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 27388,
+    "sha256": "586598e179077e1fd0245aa30b0be31d8bd7289eecf8df5d184fbddf005308dc"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/bath.webp",
+    "design": "verde-atelier",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 118100,
+    "sha256": "1cf6003ef1ea58b3f5d4edfdb597acd931f47d7417f6d730f0269e9e9e39eeb0"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/bath-thumb.webp",
+    "design": "verde-atelier",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17166,
+    "sha256": "a11c028c38f83f1a40d9e23e1214cccd1637541d2af3e9b767eb68636409f9c3"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/dining.webp",
+    "design": "verde-atelier",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 122728,
+    "sha256": "1211763081b923186c74cccc2931bbca2960f2575e0771edf77812cd3d29a084"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/dining-thumb.webp",
+    "design": "verde-atelier",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17578,
+    "sha256": "61ca8d52688900e899e087443ae8c9aaf3865b8ac3bfac44fdd111f1ef6f87c3"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/kitchen.webp",
+    "design": "verde-atelier",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 106052,
+    "sha256": "88601ca01486453065def7d679f1c39bc876c3b05ce82ef33a83c380273b846d"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/kitchen-thumb.webp",
+    "design": "verde-atelier",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18190,
+    "sha256": "bd26db7ffd95845c89feaf6bc55d880f1145a465448afa154bfda9c7500c255d"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/living.webp",
+    "design": "verde-atelier",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 198204,
+    "sha256": "e397bad0d97acd846a003fe8d1e77fc022e6a22ae6c8b458ae2abb891dc310da"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/living-thumb.webp",
+    "design": "verde-atelier",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24080,
+    "sha256": "43d5d76ef84ec277560fcc237877a35b391595604d68648c8f81ed57f33a4183"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/living2.webp",
+    "design": "verde-atelier",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 166148,
+    "sha256": "3871ea2074b61600d2d307b3d597fd0ee5c425898c383c5f0c0f407fb96f21a1"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/living2-thumb.webp",
+    "design": "verde-atelier",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22562,
+    "sha256": "0b35f4c274299208f42a0b0dec6ace7cd348323a7ebdb766fa20bc8aa9f28d61"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/master.webp",
+    "design": "verde-atelier",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 174098,
+    "sha256": "2bdc9bc528169e4e212fb5be7fa305f216b89eead0f325d488151f23e4431f57"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/master-thumb.webp",
+    "design": "verde-atelier",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20390,
+    "sha256": "a6eecd40275be9992a2c37488d52bbd3947b2604ca926e64e22307ceff277914"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/second.webp",
+    "design": "verde-atelier",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 182100,
+    "sha256": "209d41fc6d4ec9c1ebeb0b64ba5049ec164017f26df49cbefcfb4e2af682c865"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/second-thumb.webp",
+    "design": "verde-atelier",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22912,
+    "sha256": "f5aaffde6fe67dab9eef663fee4d331cc2b5c0fef5ecbfc320a14336739ab1e9"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/utility.webp",
+    "design": "verde-atelier",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175170,
+    "sha256": "4115aab344532cb1f9f9b1e6b0e5f8f9f69773296f78eb2353c5b32ccd0d2200"
+  },
+  {
+    "path": "dist/designs-v50/schemes/verde-atelier/utility-thumb.webp",
+    "design": "verde-atelier",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25406,
+    "sha256": "49e582ffbff8ec364b00853bd16eddf6aa074167cff97819a0ee25ce4264fb39"
+  }
+]

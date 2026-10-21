@@ -1,0 +1,27 @@
+{
+  "design": "verde-atelier",
+  "room": "kitchen",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-d686d7a3-02fa-4684-b275-65748ecf5237.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/kitchen.webp",
+      "design": "verde-atelier",
+      "room": "kitchen",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 106052,
+      "sha256": "88601ca01486453065def7d679f1c39bc876c3b05ce82ef33a83c380273b846d"
+    },
+    {
+      "path": "dist/designs-v50/schemes/verde-atelier/kitchen-thumb.webp",
+      "design": "verde-atelier",
+      "room": "kitchen",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 18190,
+      "sha256": "bd26db7ffd95845c89feaf6bc55d880f1145a465448afa154bfda9c7500c255d"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "design": "silver-retreat",
+  "room": "kitchen",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-38d35b02-8ff3-4995-b31f-973f19108801.png",
+  "assets": [
+    {
+      "path": "dist/designs-v50/schemes/silver-retreat/kitchen.webp",
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 109666,
+      "sha256": "80b845415412eccb05a889e57645b2a24ed6be12a8b983a5bffc2d4ef35bdf5e"
+    },
+    {
+      "path": "dist/designs-v50/schemes/silver-retreat/kitchen-thumb.webp",
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 19114,
+      "sha256": "08cac6aa4541c0a9c42bf3705521876ec67243cd8eb172ec21e5f09a4674ba43"
+    }
+  ]
+}

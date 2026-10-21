@@ -90,4 +90,4 @@ checks.push('Two-view selection updates image, full-screen original, pressed sta
 checks.push('Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback.');
 const home=await fs.readFile('build/index.html','utf8'),studio=await fs.readFile('dist/tour/index.html','utf8');assert(!home.includes('data-music'));assert(studio.includes('data-music'));assert(studio.includes('data-legacy-frame'));assert(studio.includes('返回精选提案'));
 const report={passed:true,proposals:COLLECTION.length,rooms:roomCount,verifiedOriginalImages:inventory.length,verifiedNewImages:currentInventory.length,checkedLocalLinks:links,browserVisualTested:false,mobileGPUTested:false,checks};
-await fs.writeFile('verification/v49/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
+await fs.writeFile('verification/v50/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);

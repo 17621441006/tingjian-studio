@@ -4,7 +4,7 @@ const player=mountMusic(root.querySelector('[data-music]'));
 const studioNav=root.querySelector('[data-studio-nav]');
 const tellStudio=message=>frame.contentWindow?.postMessage(message,location.origin);
 const requestedDesign=new URLSearchParams(location.search).get('design');
-frame.addEventListener('load',()=>{tellStudio({type:'tingjian:nav-host'});if(['dusk','chinese','copper','amber','saddle-weave','cashmere-hush','silver-retreat'].includes(requestedDesign))tellStudio({type:'tingjian:open-design',design:requestedDesign});});
+frame.addEventListener('load',()=>{tellStudio({type:'tingjian:nav-host'});if(['dusk','chinese','copper','amber','saddle-weave','cashmere-hush','silver-retreat','flora-original','verde-atelier','azure-silence'].includes(requestedDesign))tellStudio({type:'tingjian:open-design',design:requestedDesign});});
 for(const b of root.querySelectorAll('[data-studio-step]'))b.addEventListener('click',()=>{if(!b.disabled)tellStudio({type:'tingjian:nav-select',step:b.dataset.studioStep});});
 frame.src='/tour/legacy.html';
 window.addEventListener('message',event=>{
