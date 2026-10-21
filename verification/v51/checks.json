@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "workbenchSchemes": 25,
+  "replacedScheme": 25,
+  "newSchemeName": "驿金行邸",
+  "newRoomImages": 9,
+  "floraEditedViews": 4,
+  "floraDiningStates": 2,
+  "floraFeaturedPosition": 5,
+  "unrelatedHomesUnchanged": 23,
+  "otherFeaturedUnchanged": 9,
+  "homepageLayoutMotionBrandUnchanged": true,
+  "priorApprovedAssetsUnchanged": true,
+  "newAssets": 27,
+  "realViewController": [
+    "lazy-load",
+    "open-close",
+    "download-restore",
+    "late-load-cancel",
+    "failure-preservation",
+    "scene-race",
+    "living-regression"
+  ],
+  "modelGeometryReused": true
+}

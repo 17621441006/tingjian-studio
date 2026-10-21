@@ -1,0 +1,27 @@
+{
+  "design": "silver-retreat",
+  "room": "dining",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-ee019946-bb3f-42bf-a5ea-02dbb65b0182.png",
+  "assets": [
+    {
+      "path": "dist/designs-v51/schemes/silver-retreat/dining.webp",
+      "design": "silver-retreat",
+      "room": "dining",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 159770,
+      "sha256": "ce4cdf27405ebe96ddb978e0342cd38e51064babceaa77dd20d65b67d225a061"
+    },
+    {
+      "path": "dist/designs-v51/schemes/silver-retreat/dining-thumb.webp",
+      "design": "silver-retreat",
+      "room": "dining",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 19270,
+      "sha256": "2b11a17dfe72c8f9fe1242d16c8ab35ade574ec697eb9579e0a0e3bfdc4cce76"
+    }
+  ]
+}

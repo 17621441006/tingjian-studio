@@ -1,5 +1,6 @@
 // Original residential concepts: craft/material references, no branded product claims.
 import {FLORA_ORIGINAL} from './flora-original.mjs';
+import {VOYAGE_HOME,VOYAGE_COLORS,VOYAGE_PLANS} from './voyage-home.mjs';
 export const ATELIER_IDS=['flora-original','verde-atelier','azure-silence'];
 const purchases={living:['sofa','chair','table','floor','light'],dining:['table','chair','storage','light'],master:['bed','storage','floor','light'],second:['bed','storage','chair','light'],kitchen:['storage','panel','tile','light'],bath:['storage','panel','tile','light'],balcony:['chair','table','curtain','tile'],utility:['storage','panel','tile']};
 function home(name,englishName,subtitle,description,rooms){return {name,englishName,subtitle,description,purchaseKey:'dusk',rooms:Object.fromEntries(Object.entries(rooms).map(([id,[title,copy,material,light,tradeoff]])=>[id,{title,copy,tradeoff,materials:[['布局与收纳',copy],['选材与软装',material],['光线与细节',light],['尺度',tradeoff]],purchase:purchases[id]}]))};}
@@ -15,24 +16,15 @@ export const ATELIER_HOMES={
   balcony:['一张翡绿小几，两把轻椅','两把浅麦色宽带轻椅与翡翠釉陶小边几靠右侧短墙放置，窗前保持通透。一株形态清楚的植物与一只茶杯即可，家具能按需要挪开。','耐晒耐候宽带编织、可拆洗奶油坐垫、釉陶或耐水复合小几与浅色瓷砖；阳台不直接沿用怕晒的室内皮革。','薄帘调节眩光，低位阅读灯在需要时点亮；浅色短墙反射日光，让翡绿成为一个清晰点位。','轻椅与植物不挡窗扇、清洁与防护通路；家具耐候性及原窗条件按现场核验。'],
   utility:['从洗烘，到折叠和归位','洗烘塔仍在尽端，右侧整理台配可取出分类篮与抽拉板。奶油色设备柜和浅橡木窄工具柜保持连续，日用消耗品收入上柜。','耐潮奶油饰面、浅木纹柜板、可洗宽带几何收纳篮与耐水台面；柜门平整闭合，图案只落在篮筐上。','均匀任务灯照整理区，充电与插座集中在干燥便于维护的位置；家务工具按长短分区。','按洗烘机型核对叠放、散热和检修要求；抽拉板使用后归位，中央通道保持空置。']
  }),
- 'azure-silence':home('雾蓝云邸','AZURE SILENCE','珍珠白 · 雾蓝织物 · 香槟细边','从简洁比例、精细饰面与织物的柔光出发，让珍珠白托住雾蓝。烟木只作窄框，香槟金属只收一道边；低矮家具、整齐柜面与细密织纹，让安静也有可触摸的层次。',{
-  living:['用水平的线，安放一片雾蓝','低靠背雾蓝直线沙发以薄扶手减轻体量，珍珠浅石椭圆茶几配烟玻璃小套几。电视墙为浅色通顶收纳，窄烟木框围出影音与少量开放格。','雾蓝亚麻感细织面料、珍珠白哑光柜面、浅石与少量烟木；沙发墙用丝感细纹，配一幅原创蓝灰抽象画。','均匀日光和低位局部光分层，细香槟边只在近看时反光；设备线缆与路由器各有通风位置。','柜体以浅深度优先，按电视散热与设备要求深化；沙发、茶几和窗边之间保持可走的净距。'],
-  dining:['薄薄的一张桌，留出从容相聚','薄边圆角长桌搭雾蓝织物餐椅，小范围聚餐可选可伸缩桌款。浅色悬浮餐边柜兼入户落物台，抽屉分收餐具与随身物品。','浅石意向桌面、雾蓝耐磨织物、烟木细框与香槟金属收边；椭圆乳白灯罩呼应圆角桌沿。','吊灯聚光桌面，柜底低位光勾出轻盈感；只放一件浅色瓷器与低矮枝叶，让水平线保持清楚。','伸缩前后分别试排椅子与过道，餐边柜悬挂方式与基层按荷载核验；薄边不等于缺少支撑。'],
-  master:['丝感的浅褶，接住柔和晨光','低矮珍珠灰软包床搭温白床品与雾蓝床尾织物。床头墙做纵向浅褶裥丝感面，薄抽屉床头柜与原窗下低柜提供收纳，阅读椅轻巧可移。','耐维护丝感墙布或同感饰面、珍珠灰织物、细木收边与棉麻床品；侧墙浅色纸本画区别于客厅蓝灰画。','床头阅读灯独立控制，纱帘与遮光层分开；浅褶依靠侧光显形，避免大面积金属反射。','床架、衣柜和窗前座位按实测净宽试排；墙布基层防潮与维护先看实样，原窗与设备位置保留。'],
-  second:['细而整齐，留出一间书房的呼吸','窄日间床沿右墙纵向摆放，床下抽屉收备用床品；左侧薄书桌和浅柜形成工作位。雾蓝坐垫、珍珠白柜面与细烟木收边保持清爽。','温白细纹墙面、雾蓝密织布、耐擦浅柜与浅木桌面；仅一张小幅线性纸艺，不复制客厅大画。','线性任务灯照桌面，床边灯可独立开启；桌后线缆槽和柜内充电格保持表面整齐。','保留原窄房尺度，不生成双人大卧室；柜门、工作椅与房门一并校核，不能把走道当固定储物。'],
-  kitchen:['一条浅石纹，连起洗切与烹饪','保留原U形工作关系与窗下水槽。珍珠白上柜、雾蓝灰下柜、少量烟木端板形成干净层次，连续浅石台面与细纹挡水面便于维护。','低对比浅石纹瓷面、耐潮雾蓝门板、珍珠白哑光饰面和薄香槟拉手；不使用浓石纹拼花。','柜下任务光均匀铺开，抽屉、窄拉篮与上柜分工；灶旁只留日用器具，释放备餐面。','先定电器再定开孔，核对原烟道与水电；转角储物、垃圾分类和抽屉开启同时深化。'],
-  bath:['珍珠白里，一点清凉的蓝','保留左淋浴、中台盆、右马桶与原窗。乳白与浅灰蓝大面瓷砖配细香槟五金，薄边圆角矩形镜与封闭台盆抽屉让小空间整齐。','浅灰蓝瓷砖、局部竖纹釉面、耐水柜板与拉丝香槟五金；地面使用适合湿区的防滑面。','镜前补光均匀，柜下夜灯独立；一格毛巾收纳与其余封闭抽屉区分，装饰只留一枚低矮瓷盒。','实际坡度、排水和淋浴门开启按现场复核；竖纹釉面先检查清洁便利性与转角收口。'],
-  balcony:['把窗景，留给一把雾蓝椅','一把雾蓝细织阅读椅与纤细烟木边桌靠侧墙，另一侧浅低柜收几本书。窗前留出完整视野，细褶薄帘柔化日光。','耐晒雾蓝织物、可移动浅坐垫、封闭烟木意向饰面与浅色瓷砖；少量浅色器物组成安静阅读角。','小型阅读灯只照书页，日间依靠自然光；细金属线呼应客厅，不使用厚重吊灯压低空间。','家具不挡开启扇、清洁与防护通路；木色饰面和织物需匹配阳台温湿度与日晒条件。'],
-  utility:['把家务，收进一面清爽柜子','洗烘塔保持尽端原位，珍珠白设备柜与右侧整理台连接。淡蓝灰分类篮、抽拉折衣板和窄工具柜，让洗烘、折叠、归位顺手完成。','耐潮浅色门板、淡蓝灰可洗篮、浅色耐水台面与细金属拉手；平整闭合的柜面延续全屋轻薄感。','线性任务灯照整理区，上柜收耗材，下部收分类篮；线缆与清洁工具各自有位。','设备开启、散热、叠放连接与检修按最终机型核对；抽拉板使用后收起，不压缩中央通道。']
- })
+ 'azure-silence':VOYAGE_HOME
 };
 export const ATELIER_COLORS={
  'flora-original':{wood:'#a47b4b',wall:'#f2e8d7',stone:'#e1d0b2',sofa:'#677251',textile:'#eee3ce',accent:'#7d3243',floor:'#c9b995'},
  'verde-atelier':{wood:'#c7aa7e',wall:'#f3ecd9',stone:'#e0d7c2',sofa:'#eee5cf',textile:'#e8dfcb',accent:'#16885a',floor:'#cdbb9c'},
- 'azure-silence':{wood:'#766f68',wall:'#efeeea',stone:'#d7d9d7',sofa:'#92a9b7',textile:'#d5dfdf',accent:'#b5a58b',floor:'#c8c6bd'}
+ 'azure-silence':VOYAGE_COLORS
 };
 export const ATELIER_PLANS={
  'flora-original':{second:'trundle',balcony:'bistro',kitchen:'u-cook',bath:'hamper',utility:'sorting',dining:'round'},
  'verde-atelier':{second:'permanent',balcony:'bistro',kitchen:'u-cook',bath:'hamper',utility:'sorting',dining:'wall-banquette'},
- 'azure-silence':{second:'permanent',balcony:'clear-reading',kitchen:'u-cook',bath:'linen',utility:'ironing',dining:'extendable'}
+ 'azure-silence':VOYAGE_PLANS
 };

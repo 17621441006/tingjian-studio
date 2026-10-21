@@ -1,0 +1,133 @@
+{
+  "mode": "builtin imagegen",
+  "jobs": [
+    {
+      "design": "voyage-atelier",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/living.webp",
+        "/workspace/scratch/31025950e38e/upload/image(20261021-070803).png"
+      ],
+      "prompt": "Use case: style-transfer. Asset: photoreal architectural interior concept for a compact real Shanghai apartment, landscape 3:2, 1536x1024. Image 1 is the EDIT TARGET and its geometry/camera must remain exact. Image 2 is only the user's Louis Vuitton colour and monogram mood reference, not an object to paste. Redesign the entire living/dining interior in an original luxurious 'VOYAGE ATELIER / 驿金行邸' concept inspired by LV trunk craftsmanship and the classic brown-gold monogram rhythm. Keep straight walls, exact ceiling beams, doors, left glass opening, room proportions, sofa/TV/dining placement, floor height and daylight. Change all pale blue fabric/art to warm cognac saddle leather, chocolate walnut, ecru linen and muted antique brass; NO BLUE ANYWHERE in interior. 60 percent light warm ivory walls/cabinet fronts, 25 percent walnut/cognac, 10 percent espresso accents, 5 percent antique brass. Create tailored cognac leather sofa with thin cream welt stitching and refined rounded edges; one dark chocolate cushion with tiny tonal gold four-petal rosettes alternating diamond outlines, one plain ecru cushion. Put a narrow inset leather panel with the same sparse quiet repeating monogram-inspired floral diamond motif on the built-in TV storage; no letters, no LV lettering, no huge logos. Panelled trunk-inspired walnut cabinet with discreet brass corner protections and leather pulls, tiny regular rivet detail at selected corners, never every edge. Architectural cream coffee table paired with a low chocolate leather trunk-style storage ottoman. Soft original sepia journey-map abstract artwork replaces blue art; dining chairs cognac leather with walnut legs, light-stone rounded rectangle dining table. Lighting diffused ivory with restrained brass. Editorial high-end residential photography, natural material pores and grain, warm bright daylight, sophisticated generous breathing room, never boutique showroom or dark brown cave. Do not move structure, do not enlarge home, no text or watermarks.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v49/schemes/silver-retreat/dining.webp"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset: FLORA SALON apartment dining room, landscape 3:2 1536x1024. The reference is the EDIT TARGET. Preserve exact camera, straight architecture, ceiling beams, floor, left glass door opening and sun direction, and right entrance door. Replace ONLY the loose round table, low sideboard, painting and freestanding bookcase in this dining zone with ONE beautiful shallow full-height integrated storage cabinet covering the existing solid back wall between the left opening and right door, stopping beneath original ceiling beam. Keep original warm cream, honey walnut, muted sage and subtle wine colour scheme; delicate natural floral/weave atmosphere. Cabinet about 40-45cm deep, mostly matte cream closed doors with honey wood thin outlines; two tall side cupboards, a soft lit central open tea niche, and lower drawers. On just two selected tall door panels incorporate same-colour very shallow magnolia/petal relief; a few backed fine cane woven inserts, not every door. The middle lower bay contains an integrated pull-out dining table, shown FULLY EXTENDED toward the camera from a clear horizontal slot below the niche at normal dining height. The top is a slim honey wood round-corner rectangular top about 120x75cm, assembled from straight flush leaves with one fine seam. It is visibly attached at the back to concealed telescopic guides in the cabinet; at its outer end a slim dark bronze U-shaped bridge leg touches the floor and carries load. This is a genuinely connected peninsula pull-out table, NOT a freestanding table placed against a cupboard, not a floating cantilever. Two original-style honey wood cane-backed cream chairs on opposite long sides, space to pull out chairs, clear passage to the right entrance and left glass door. The floral petal woven pendant remains centered over extended tabletop but hangs high enough to avoid head bumps when table is stowed. Remove duplicate round pedestal table entirely. One small low fruit bowl only, cabinet tea niche has one sage ceramic object. High-end architectural photography, precise straight cabinet seams, restrained low contrast floral relief, generous calm light, no printed labels, no text, no people, no implausible hinges. Preserve compact apartment scale, no extra windows/doors.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-ee019946-bb3f-42bf-a5ea-02dbb65b0182.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Reverse view of the approved living room: sofa on LEFT must become same cognac leather, TV cabinetry RIGHT same cream/chocolate with a narrow patterned recessed band and fine brass trunk-corner details. Same cream stone oval coffee table, small dark brown patterned trunk beside it, ivory textured rug. Replace blue artwork with warm cream/brown plaster abstract. Dining chairs foreground cognac leather, cream stone dining tabletop. Preserve entire full-height balcony glazing.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-614b7317-3176-4b69-85fc-6aac372c9380.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "dining",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/dining.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Same dining corner: preserve round cream stone pedestal table, 4 chairs now cognac leather, and luminous disc pendant. Sideboard RIGHT becomes ivory trunk-inspired doors with chocolate patterned end panels, narrow brass trim, modest latch details, not literal branded luggage. Back wall cream plain, warm textured abstract art optional small, left shelves walnut. Carefully restrained craft, keep entry door and opening exactly.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-a625fb3f-7aec-4668-be5b-9146b690b148.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "master",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/master.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Bedroom: ivory linen bed, cognac leather headboard with tailored vertical seams and rounded corners; a single narrow chocolate-and-gold geometric floral patterned runner and one small patterned cushion, not all-over. Headboard wall warm cream, bedside cabinets chocolate wood with brass corner details and leather pulls. Bay-window seat cream, desk chair cognac. Preserve original corner windows and air conditioner. Bright quiet restful.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-e046991f-434f-49f2-a25a-deeebae1d850.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "second",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/second.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Very narrow guest room, do NOT widen: single daybed lengthwise along RIGHT wall, desk and tall wardrobe LEFT, window end. Cognac leather daybed back, cream mattress, one small dark floral/diamond cushion. Wardrobe cream and narrow walnut edges, desk chocolate wood/leather writing insert, cream chair. Slim brass reading light, two small sepia travel sketches instead of blue. Keep clear central narrow aisle.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-0e745a98-da6f-49d9-a710-c51d1d14ad0f.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "kitchen",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/kitchen.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Kitchen: keep existing U shape, sink under end window, gas cooktop RIGHT. Cream upper doors, chocolate walnut lower doors, warm ivory easy-clean stone countertop. Right splashback has restrained cream porcelain with very subtle sand-gold four-petal/diamond geometry on a small central area, otherwise plain cream; all hard smooth washable surfaces, NO actual leather/textiles near stove. Brass narrow handles, warm taupe pot. Keep all original room geometry.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-750b51a4-cf32-42f2-8834-23e30ce299a6.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "bath",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/bath.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Bathroom: shower LEFT, basin CENTER, toilet RIGHT, original narrow window exact. Warm ivory glazed tiles, chocolate wood-look moisture-resistant vanity with fine brass trim. Replace blue ribbed wall with warm ecru ribbed glazed porcelain and very narrow subtle sand diamond motif border. Towels ivory/caramel no blue. Fine brass taps, rectangular round-corner mirror, realistic wet-area hard materials no leather. Keep bright.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-6529c0c2-f2d3-49c4-8e49-f0d47bf9372b.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "balcony",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/balcony.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Balcony: exact original full window wall and city view, chair position RIGHT. Replace blue chair with cream outdoor fabric in a slim warm walnut frame and cognac weatherproof woven straps, one small chocolate-and-gold four-petal patterned outdoor cushion. Small chocolate trunk-style side table with restrained brass edges, cream pot and green tree. Keep open floor and bright cream stone. No interior blue.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-e7336732-4a8e-4d65-84bc-170ec8161d86.png"
+    },
+    {
+      "design": "voyage-atelier",
+      "room": "utility",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/azure-silence/utility.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-49450476-49f2-45df-9f29-44c968608dd1.png"
+      ],
+      "prompt": "Edit reference 1, retaining its EXACT camera, walls, doors, windows, ceiling beams, scale and furniture positions. Reference 2 is the approved living room of this SAME compact Shanghai apartment and controls the new materials. Replace every pale blue interior item with a cohesive Louis Vuitton travel-trunk inspired warm scheme: bright ivory/cream dominant, cognac saddle leather, chocolate walnut, precise restrained warm brass fittings and stitched leather borders. Use an elegant original tonal brown/gold repeating four-petal flower and diamond motif in small selective areas, referencing classic monogram rhythm without lettering or logos. This is a lived-in sophisticated small private home, NOT a store, not a palace. Keep bright natural daylight and realistic physically credible material grain. No blue furnishings, no words, no watermark. Photoreal architectural photograph, landscape 3:2, straight verticals. Narrow laundry balcony: keep washer/dryer stacked at END, windows LEFT and countertop RIGHT. Replace all blue cabinet and hamper surfaces with warm ivory fronts and chocolate-walnut frame, caramel washable sorting hampers with leather-look pulls. One narrow gold-brown geometric diamond accent in protected cabinet inset; practical predominately plain surfaces. Under-counter fold-out ironing panel shown stowed, accessible appliances and same slim aisle. No clutter.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-13bd421e-fd9d-4037-bac1-0091878bb846.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "dining-closed",
+      "refs": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-ee019946-bb3f-42bf-a5ea-02dbb65b0182.png"
+      ],
+      "prompt": "Edit this exact architectural photograph into the STOWED state of the SAME pull-out dining cabinet. Keep camera, cabinet design, all tall floral bas-relief doors, narrow rattan doors, central illuminated tea niche, lighting, ceiling, left opening, right entrance and floor EXACTLY unchanged. Retract the projecting honey-wood rectangular dining tabletop completely into the central lower cabinet: no freestanding table, no projecting worktop, no U-shaped leg visible. Central lower cabinet now has a neat flush slim drawer-front seam beneath tea niche, the table and folding U support are concealed inside. Remove the fruit bowl from the table and place it on the tea niche shelf. Park the same two cane-back cream-seat chairs separately at the LEFT and RIGHT outer edges, clear of the entry door and left passage. Main central floor now visibly clear and open. Highly believable small-apartment transformable storage concept, elegant bright flower-and-weave cabinetry. Do not change framing or invent a different room. Photoreal, no text, 3:2 landscape.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-68cc8480-ac6f-43fa-90cb-6ce41081d13a.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/silver-retreat/living.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-ee019946-bb3f-42bf-a5ea-02dbb65b0182.png"
+      ],
+      "prompt": "Edit reference 1 living room photograph ONLY in the distant dining area on the BACK wall. Reference 2 shows the approved replacement of that SAME dining corner. Integrate reference 2 full-height shallow cream dining cabinet across back wall: two sculpted large-leaf relief door panels, two slim honey-cane inset doors, central warm illuminated tea niche, honey wooden trim; stop at the original entrance door RIGHT and original glass opening LEFT. Remove old framed artwork, short sideboard and old narrow shelves in that back corner. Replace round freestanding dining table with the reference 2 honey-wood RECTANGULAR pull-out tabletop extending perpendicularly from center base of cabinet toward living, discreet visible bronze U bridge leg at its free end, two matching cane cream chairs at sides. Use correct back-wall perspective and scale. Keep reference 1 entire foreground unchanged: green sofa, burgundy cushion, magnolia relief wall RIGHT, existing television storage wall LEFT, petal coffee table, rug and flowers, same camera and light. Preserve all openings. Photoreal 3:2, no text.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-617d0d78-51b0-4044-a3a9-d195b2b7904c.png"
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living2",
+      "refs": [
+        "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v50/schemes/silver-retreat/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-ee019946-bb3f-42bf-a5ea-02dbb65b0182.png"
+      ],
+      "prompt": "Edit reference 1 reverse living-room view minimally to match reference 2 new dining table. Camera is at the dining end looking toward balcony. The dining cabinet in reference 2 is BEHIND camera and must NOT be drawn across the balcony or TV wall. Change only the table visible at bottom foreground: replace curved round-table edge with a honey-wood RECTANGULAR pull-out tabletop, straight edge and subtly rounded corners, small accurate extension seam. Same two cane-back cream chairs positioned at either side, same fruit bowl. Keep entire living space above unchanged: green sofa LEFT, magnolia relief, cream floral/cane TV cabinet RIGHT, petal stone coffee table, burgundy-edged rug, window and city view, lighting. Exact camera and geometry, photoreal 3:2 no text.",
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-da91daba-a369-4e65-ab4c-b349edfec1d9.png"
+    }
+  ]
+}

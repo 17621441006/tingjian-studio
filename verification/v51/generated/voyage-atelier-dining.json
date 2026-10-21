@@ -1,0 +1,27 @@
+{
+  "design": "voyage-atelier",
+  "room": "dining",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-a625fb3f-7aec-4668-be5b-9146b690b148.png",
+  "assets": [
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/dining.webp",
+      "design": "voyage-atelier",
+      "room": "dining",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 113128,
+      "sha256": "dcf37db3f2f17acf3848e367d67f4e92c8b806206f4b76a291ba70f32219a60b"
+    },
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/dining-thumb.webp",
+      "design": "voyage-atelier",
+      "room": "dining",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 17668,
+      "sha256": "e22d8997f91c62b955bf36543ec42ae1b6bcb54e6e1ce620ef59a449450aa217"
+    }
+  ]
+}

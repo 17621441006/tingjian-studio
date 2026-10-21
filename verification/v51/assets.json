@@ -1,0 +1,272 @@
+[
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/dining-closed.webp",
+    "design": "silver-retreat",
+    "room": "dining-closed",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 149518,
+    "sha256": "2562c3aaf0d72221144d173edf5848f2c40ead198da75944193b948d6f79e262"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/dining-closed-thumb.webp",
+    "design": "silver-retreat",
+    "room": "dining-closed",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18562,
+    "sha256": "ec27691c44ab74e0ed836eed224d37a28b24c747cdaea65015360c382ad74c69"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/dining.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 159770,
+    "sha256": "ce4cdf27405ebe96ddb978e0342cd38e51064babceaa77dd20d65b67d225a061"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/dining-thumb.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19270,
+    "sha256": "2b11a17dfe72c8f9fe1242d16c8ab35ade574ec697eb9579e0a0e3bfdc4cce76"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/living.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 203732,
+    "sha256": "458f3457be0a831cd431c5036fd95baa7d8b3d10b7933ded426c987bce55b68e"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/living-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24734,
+    "sha256": "394f6149a01767344fbeb3c15bf2ca24414d00016a2d4e7ca97ff3dff8dd1638"
+  },
+  {
+    "path": "dist/designs-v51/featured/flora-768.webp",
+    "design": "silver-retreat",
+    "room": "hero",
+    "thumb": true,
+    "width": 768,
+    "height": 512,
+    "bytes": 64396,
+    "sha256": "1b0f1c511b315368b3fe90f9466f23cccc144a8cdf5f70e53a6af8960964bdce"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/living2.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 177576,
+    "sha256": "4e87290d66854fb447f1d257c7b07d2e7e05c2dddde866064683aca836695c7a"
+  },
+  {
+    "path": "dist/designs-v51/schemes/silver-retreat/living2-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 26822,
+    "sha256": "6108a1cec0049cfb8b639287d242ecf334f7586d2b5510fc8709c2db59750b20"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/balcony.webp",
+    "design": "voyage-atelier",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 226952,
+    "sha256": "d36b93eb8f9bb101738922e59cb3e2e4a3fc12fdc8decfd9c290222a8f364267"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/balcony-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 30554,
+    "sha256": "7e4b4db9d0255808f4567275a687ca06e5b67ca176bfeb1340daf8b75b7c323b"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/bath.webp",
+    "design": "voyage-atelier",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 129880,
+    "sha256": "5243efee85c1b846af88739d0aba337d066b0bbc7c95f456cb5343f06cc3e739"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/bath-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18828,
+    "sha256": "78bcdead194c4a3290bb7b822c1119c0a58083fabd88351146165dd82b82f416"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/dining.webp",
+    "design": "voyage-atelier",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 113128,
+    "sha256": "dcf37db3f2f17acf3848e367d67f4e92c8b806206f4b76a291ba70f32219a60b"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/dining-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17668,
+    "sha256": "e22d8997f91c62b955bf36543ec42ae1b6bcb54e6e1ce620ef59a449450aa217"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/kitchen.webp",
+    "design": "voyage-atelier",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 105164,
+    "sha256": "7b07b089762ea5ac4c1bdac0cff590afb1853cc3dea5a5918eb47faaf0b61ba1"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/kitchen-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16616,
+    "sha256": "eb59f80cd8e0365d57b672688b7b5ef76b28a4eb0843638fb06cb44790490b38"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/living.webp",
+    "design": "voyage-atelier",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 214380,
+    "sha256": "8756fc8e61522f4828ad8c7f62a43ec12a56556ddd0223838f92907ac84453de"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/living-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 26402,
+    "sha256": "cd208a6df5ed2ad5ac1da1490098729c86757cd8a5aa97a18c6988665c437c13"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/living2.webp",
+    "design": "voyage-atelier",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 160414,
+    "sha256": "2ec44287b8238fc4c0bd585a77ed89374e40d729c3b5d6faf928fe104d564d77"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/living2-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22260,
+    "sha256": "f31b4b9633d0eee5614ee242749417b2015d508310a127399c0b30192863abd9"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/master.webp",
+    "design": "voyage-atelier",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 160818,
+    "sha256": "5b1c16b12aef951c00ac3af33e04c71ae430d241b50aaab4f71528e7e4c16161"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/master-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 19498,
+    "sha256": "cac3feae97f2af62c0214fe585b946569a75ee86e86ce53f38991db36ef389a2"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/second.webp",
+    "design": "voyage-atelier",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 170774,
+    "sha256": "00442a5797690fbde08980b850d6952d89df56cd7f7dc18d29ba977ad6ed7da3"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/second-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22906,
+    "sha256": "153eeedc6e7e23e3efc261eacb0ca85760d90f97ba94ccea8cc73c0c92de0bdb"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/utility.webp",
+    "design": "voyage-atelier",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 156204,
+    "sha256": "33b4d972cf142e6811c65275c52151836bdc93b0319594bafafaba05c1697f1a"
+  },
+  {
+    "path": "dist/designs-v51/schemes/voyage-atelier/utility-thumb.webp",
+    "design": "voyage-atelier",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 25646,
+    "sha256": "8a7382538facf81863192295133dfe311e1942aeb346b053d09a6199e02d92fe"
+  }
+]

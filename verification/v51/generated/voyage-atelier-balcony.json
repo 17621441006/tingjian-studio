@@ -1,0 +1,27 @@
+{
+  "design": "voyage-atelier",
+  "room": "balcony",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-e7336732-4a8e-4d65-84bc-170ec8161d86.png",
+  "assets": [
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/balcony.webp",
+      "design": "voyage-atelier",
+      "room": "balcony",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 226952,
+      "sha256": "d36b93eb8f9bb101738922e59cb3e2e4a3fc12fdc8decfd9c290222a8f364267"
+    },
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/balcony-thumb.webp",
+      "design": "voyage-atelier",
+      "room": "balcony",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 30554,
+      "sha256": "7e4b4db9d0255808f4567275a687ca06e5b67ca176bfeb1340daf8b75b7c323b"
+    }
+  ]
+}

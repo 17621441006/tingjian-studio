@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "surface": "managed desktop Chrome preview",
+  "routes": [
+    "/collection/flora.html#room-dining",
+    "/tour/?design=azure-silence",
+    "/tour/?design=silver-retreat",
+    "/"
+  ],
+  "checks": [
+    "Flower featured position 05 and two dining-state controls present",
+    "Featured dining close/open selection updates ARIA, image, original link and full-screen caption",
+    "Both dining originals decode at 1536 pixels wide",
+    "Replacement #25 is named 驿金行邸 and displays all eight warm-palette thumbnails",
+    "New living reverse view and kitchen load at 1536 pixels wide",
+    "Workbench Flower dining close state updates download/full-screen path and caption",
+    "Homepage original three-panel presentation and opening navigation remain"
+  ],
+  "keyboardActivationVerified": true,
+  "mobileDeviceTested": false,
+  "GPUFrameRateMeasured": false
+}

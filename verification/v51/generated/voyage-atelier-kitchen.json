@@ -1,0 +1,27 @@
+{
+  "design": "voyage-atelier",
+  "room": "kitchen",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-750b51a4-cf32-42f2-8834-23e30ce299a6.png",
+  "assets": [
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/kitchen.webp",
+      "design": "voyage-atelier",
+      "room": "kitchen",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 105164,
+      "sha256": "7b07b089762ea5ac4c1bdac0cff590afb1853cc3dea5a5918eb47faaf0b61ba1"
+    },
+    {
+      "path": "dist/designs-v51/schemes/voyage-atelier/kitchen-thumb.webp",
+      "design": "voyage-atelier",
+      "room": "kitchen",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 16616,
+      "sha256": "eb59f80cd8e0365d57b672688b7b5ef76b28a4eb0843638fb06cb44790490b38"
+    }
+  ]
+}
