@@ -6,3 +6,6 @@ build/
 out/
 # Ignore transient file-sync fragments in generated assets.
 dist/**/.*
+
+# Fresh publication tree; generated and intentionally untracked.
+.output/

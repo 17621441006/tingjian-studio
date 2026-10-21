@@ -25,5 +25,7 @@
   "hostingFiles": 781,
   "visualReview": "All 7 final images reviewed: original geometry retained; woven cushion and runner repeat legible; Ribbon N recolored to forest green/charcoal with ivory/gold; matching reverse views.",
   "browserTested": false,
-  "verificationLimit": "Bounded image/copy changes; interactive source files unchanged, routes and built metadata verified."
+  "verificationLimit": "Bounded image/copy changes; interactive source files unchanged, routes and built metadata verified.",
+  "hostingDirectory": ".output/public",
+  "archiveFix": "Use a fresh publication directory; old out tree was repopulated by synchronized obsolete assets."
 }
