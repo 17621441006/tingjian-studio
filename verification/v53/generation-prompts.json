@@ -1,0 +1,156 @@
+{
+  "tool": "built-in image_gen",
+  "websiteImages": 3,
+  "patternPreviewImages": 10,
+  "jobs": [
+    {
+      "kind": "interior",
+      "room": "living",
+      "prompt": "Use case: precise-object-edit. Edit target: image 1, the currently approved VOYAGE ATELIER living/dining room. Preserve the entire exact 3:2 photograph composition, camera, small-apartment proportions, walls/beams, windows/openings, furniture arrangement, cognac sofa, cream TV wall, stone coffee table, round side cabinet, round dining table, lighting and sunny color grading. Main change: the tall narrow OPEN illuminated display/bookcase tower at the rear-left next to the side doorway (about 30 percent from left edge) must be completely replaced by a full-height SOLID CLOSED walnut storage pier on exactly the same footprint. Beautiful softly rounded vertical front edges, one uninterrupted warm walnut grain door, tiny concealed finger pull at its side, narrow bronze shadow gap, no visible shelves, no glass, no niches, no perforations and no lattice anywhere on this pier. Simplify the adjacent original carved-glass/wood partition to a plain solid cream/plaster jamb and one plain clear glazed door in a thin walnut frame, maintaining actual passage width; no patterned, frosted or latticed glass. Secondary very small change: on the SINGLE cognac square cushion on the sofa, replace the lone large arch with an easily visible all-over repeat of SMALL original paired open-corridor arch line motifs in warm lighter tan stitching, around 5 by 5 units, evenly spaced with generous gaps. Keep every other surface and object unchanged. This is our simple original arch repeat, not a Louis Vuitton print: no letters, logos, stars, diamonds, classic four-petal flowers, luggage trunks or branded bags. Photoreal subtle joinery, preserve airy natural warmth. Output one 1536x1024 landscape interior image, no captions or watermark.",
+      "references": [
+        "dist/designs-v52/schemes/voyage-atelier/living.webp"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-f4879bd0-a371-4df3-bdf1-549947fda364.png"
+    },
+    {
+      "kind": "interior",
+      "room": "living2",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET, existing approved VOYAGE ATELIER living2 interior. Image2 is supporting CONSISTENCY REFERENCE for the updated adjoining interior, use it only for the closed storage pier/doorway detailing and cushion pattern. Preserve image1's EXACT camera/view direction, 3:2 framing, room dimensions, beams, floor, walls, window positions, furniture arrangement, lighting and warm sunny colors. Replace the tall narrow OPEN illuminated display/bookcase tower to the right of the TV near the balcony, about 78 percent from the left edge, by a fully SOLID CLOSED full-height walnut storage pier: softly rounded vertical front edges, uninterrupted warm walnut grain door, concealed finger pull and narrow bronze shadow gap, exactly like the new closed storage pier in image2. No shelves, glass, perforations, lattice or niches on that tower. Preserve the plain cream TV panels. Also replace the large single arch on the cognac sofa cushion with the same modest all-over small paired open-arch tan stitching repeat shown on that cushion in image2, around 5x5 regular units. Keep everything else unchanged. Do not merge camera angles or enlarge the apartment. No branded luggage, logos, classic designer prints or text. Photoreal precise woodwork, airy natural daylight. Output one1536x1024 landscape image.",
+      "references": [
+        "dist/designs-v52/schemes/voyage-atelier/living2.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-f4879bd0-a371-4df3-bdf1-549947fda364.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-2a7d7d0f-f9da-481a-8976-86ad041f7320.png"
+    },
+    {
+      "kind": "interior-intermediate",
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET, existing approved VOYAGE ATELIER dining interior. Image2 is supporting CONSISTENCY REFERENCE for the updated adjoining interior, use it only for the closed storage pier/doorway detailing and cushion pattern. Preserve image1's EXACT camera/view direction, 3:2 framing, room dimensions, beams, floor, walls, window positions, furniture arrangement, lighting and warm sunny colors. Replace the tall narrow OPEN illuminated display/bookcase tower to the LEFT of the dining table alongside the side opening, about 18 percent from left edge, with the fully SOLID CLOSED full-height walnut storage pier shown in image2: softly rounded vertical front edges, uninterrupted warm walnut grain door, concealed side pull and narrow bronze shadow gap. Remove ALL open shelves, ornaments and plants that were on that tower. The adjoining old heavy walnut structural door jamb becomes the same simple plain cream plaster jamb and thin walnut-framed clear glazing shown in image2. Do not add any window or doorway, do not change any opening position. No lattice or niches. Preserve round stone dining table, four cognac chairs and the low reeded walnut credenza exactly. Keep everything else unchanged. Do not merge camera angles or enlarge the apartment. No branded luggage, logos, classic designer prints or text. Photoreal precise woodwork, airy natural daylight. Output one1536x1024 landscape image.",
+      "references": [
+        "dist/designs-v52/schemes/voyage-atelier/dining.webp",
+        "/workspace/scratch/31025950e38e/generated_images/exec-f4879bd0-a371-4df3-bdf1-549947fda364.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-43e410ae-4559-4257-83bb-9de5da2a8b94.png"
+    },
+    {
+      "kind": "interior",
+      "room": "dining",
+      "prompt": "Use case: precise-object-edit. Image1 is the just-approved updated dining room. Make ONE SMALL LOCAL CORRECTION only: at the EXTREME LEFT of the image, behind the clear door frame, the thin vertical strip still contains the old beige floral/lattice decorative surface. Remove ALL of that floral and lattice pattern and replace that visible strip with plain smooth warm ivory plaster washed by daylight, behind the existing small plant. No flowers etched in glass, carved leaves, perforated screens or lattice anywhere in that left strip. Keep the closed walnut full-height cabinet beside the opening COMPLETELY unchanged. Preserve every other pixel and detail as far as possible: same exact camera framing, table, chairs, plant, credenza, lamps, beam geometry, floor reflections, sunlight and colors. Do not change any furniture, wall opening, cabinet size, shelf, texture or color elsewhere. Photoreal 1536x1024. No captions.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-43e410ae-4559-4257-83bb-9de5da2a8b94.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-0d33255b-9f2f-41fe-aa27-181d7a9ef21d.png"
+    },
+    {
+      "kind": "motif",
+      "design": "01-corridor",
+      "name": "回廊印",
+      "prompt": "Use case: logo-brand. Create ONE original refined architectural monogram ornament for the private-residence identity NOCTURNE. A single slender capital N whose two upright strokes are elongated double-line archway portals, joined with one precise diagonal bridge. Two soft rounded arch tops, flat horizontal feet, the diagonal and double arch produce a small open rectangular courtyard-like negative space; concise high-end architectural drafting silhouette, no rotational pinwheel or fourfold structure. Flat cognac-tan #b28b5e on solid very dark espresso #241d19. Delicate but clearly visible medium-fine lines, perfect visual balance. One isolated emblem centered at 45 percent of square width, generous even blank margins. Image1 is reference ONLY for existing identity's slab serif ends and negative-space courtyard, do not copy its composition. Flat two-dimensional print design, no 3D, bevel, metal, shadows, grain, texture, symbols of any other brand, labels, text or watermark. 1024x1024 preview.",
+      "references": [
+        "src/brand/icons/nocturne-v43-512.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-6db4f787-a77d-486e-98d2-8c909ffe4fba.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "repeat",
+      "design": "01-corridor",
+      "name": "回廊印",
+      "prompt": "Use case: logo-brand. Input image1 is the standalone ORIGINAL NOCTURNE CORRIDOR SIGNET motif. Create its matching all-over full-bleed repeat preview. Accurately preserve the exact single N formed from double-line round-top architectural portals and diagonal, cognac tan color on deep espresso brown. Repeat this SAME emblem in 7 staggered columns and 6 rows, alternating upright and 180 degree rotation by row to create a calm interlocking corridor rhythm, with balanced medium-small spacing, never merge shapes or invent extra symbols. Cropped partial motifs at all edges, whole image covered. Flat 2D print artwork, no gradient, metal, shadow, texture, fabric mockup, text, labels, border or watermark. Square 1024x1024 preview, not production resolution.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-6db4f787-a77d-486e-98d2-8c909ffe4fba.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-a53dea7b-ca58-4f5e-b0bb-83023be7aa89.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "motif",
+      "design": "02-woven",
+      "name": "经纬结",
+      "prompt": "Use case: logo-brand. Asset type: flat original textile ornament exploration for NOCTURNE, a private-residence design identity. Input image 1 is the existing approved NOCTURNE emblem for lineage and visual vocabulary only. Create ONE SINGLE isolated motif centered at about 45% of the square canvas width, with generous even margins. Crisp refined two-dimensional ink artwork, flat solid colors, no 3D, no bevel, no metallic rendering, no paper grain, no drop shadow, no fabric mockup, no text, labels, grids, logos of other brands or watermark. Preview scale 1024 x 1024, not high-resolution production artwork. This is one standalone unit, not a repeating pattern. One original singular interlaced textile insignia: two elongated N-shaped ribbons fold over and under each other to create a compact horizontal-vertical basketweave knot, diagonal tension against short rectangular edges, four visible over-under interruptions, an off-centre slender rectangular negative-space core. Use the reference only for angular N geometry, not its exact fourfold symmetry. Airy disciplined design, woven craftsmanship translated into flat lines; not Celtic ornament, not four mirrored script letters. Ground warm ivory #eee7da. Main ink tobacco #78513d, very restrained copper accent #a16c45 at two crossover ends.",
+      "references": [
+        "src/brand/icons/nocturne-v43-512.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-54aed7c6-219f-41ab-aa66-10be0b9691e8.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "repeat",
+      "design": "02-woven",
+      "name": "经纬结",
+      "prompt": "Use case: logo-brand. Asset type: full-bleed repeating print sample, square 1024 x 1024 preview. Image 1 is the approved SINGLE ORIGINAL MOTIF to reproduce accurately. Fill the ENTIRE square edge to edge with a consistent repeat of that SAME motif, preserving its exact silhouette, internal negative spaces, stroke weight, colors, and background. Use a disciplined interlaced textile rhythm of 7 columns by 7 staggered rows; modest gaps, 75% motif coverage, keeping the exact two-tone woven emblem intact. Cropped partial motifs at all four edges convey continuous fabric. This is the all-over print companion to the standalone image. Flat 2D ink, absolutely NO depth, texture, metallic lighting, shadows, scene/mockup, fabric folds, labels, lettering, margins, borders or watermark. Professional understated interior textile designer's repeat study; not a new logo. No unrelated brand marks. Do not make a giant central motif.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-54aed7c6-219f-41ab-aa66-10be0b9691e8.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-4f6ed751-1935-404b-a370-da821eac152f.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "motif",
+      "design": "03-petal",
+      "name": "花影笺",
+      "prompt": "Use case: logo-brand. Asset type: flat original textile ornament exploration for NOCTURNE, a private-residence design identity. Input image 1 is the existing approved NOCTURNE emblem for lineage and visual vocabulary only. Create ONE SINGLE isolated motif centered at about 45% of the square canvas width, with generous even margins. Crisp refined two-dimensional ink artwork, flat solid colors, no 3D, no bevel, no metallic rendering, no paper grain, no drop shadow, no fabric mockup, no text, labels, grids, logos of other brands or watermark. Preview scale 1024 x 1024, not high-resolution production artwork. This is one standalone unit, not a repeating pattern. One original asymmetrical botanical emblem: a spare calligraphic magnolia bud in side profile and two curling long leaves cross to suggest a subtle N gesture; a single squared stem-tip recalls the slab serif of the supplied logo. Closed and open petal negative spaces, about 5 to 7 elegant continuous tapered strokes, no enclosing circle, no four-lobed star, no fleur-de-lis, no designer anagram. Translate the Flower Salon interior's floral bas-relief and olive textile mood into a bold clear stylized ornament. Ground chalk-cream #ece8da, ink deep olive #344a38, one tiny ochre seed accent.",
+      "references": [
+        "src/brand/icons/nocturne-v43-512.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-9cfe93cf-f470-4f24-a241-577d9928c60b.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "repeat",
+      "design": "03-petal",
+      "name": "花影笺",
+      "prompt": "Use case: logo-brand. Asset type: full-bleed repeating print sample, square 1024 x 1024 preview. Image 1 is the approved SINGLE ORIGINAL MOTIF to reproduce accurately. Fill the ENTIRE square edge to edge with a consistent repeat of that SAME motif, preserving its exact silhouette, internal negative spaces, stroke weight, colors, and background. Use graceful half-drop botanical repeat with 6 columns and 6 rows; alternate mirrored orientations by column so the leaves form an elegant flowing garden rhythm, always repeat the SAME supplied leaf-and-bud emblem; no extra floral species or new shapes. Cropped partial motifs at all four edges convey continuous fabric. This is the all-over print companion to the standalone image. Flat 2D ink, absolutely NO depth, texture, metallic lighting, shadows, scene/mockup, fabric folds, labels, lettering, margins, borders or watermark. Professional understated interior textile designer's repeat study; not a new logo. No unrelated brand marks. Do not make a giant central motif.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-9cfe93cf-f470-4f24-a241-577d9928c60b.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-2b2bf4a3-a123-44c1-aad8-9083d6f3bc25.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "motif",
+      "design": "04-verdi",
+      "name": "铜绿窗",
+      "prompt": "Use case: logo-brand. Asset type: flat original textile ornament exploration for NOCTURNE, a private-residence design identity. Input image 1 is the existing approved NOCTURNE emblem for lineage and visual vocabulary only. Create ONE SINGLE isolated motif centered at about 45% of the square canvas width, with generous even margins. Crisp refined two-dimensional ink artwork, flat solid colors, no 3D, no bevel, no metallic rendering, no paper grain, no drop shadow, no fabric mockup, no text, labels, grids, logos of other brands or watermark. Preview scale 1024 x 1024, not high-resolution production artwork. This is one standalone unit, not a repeating pattern. One original Art Deco architectural ornament: two staggered slender rectangular portal frames joined by a rising diagonal at their lower thirds, creating an abstract N and a small central lantern-like negative void. Slight stepped chamfered corners, an asymmetric but balanced silhouette, concise double-line engraving style. Reinterpret the supplied emblem's enclosed courtyard, rectilinear arms and bronze/green NOCTURNE interior mood rather than duplicating it. No arcs, flowers, fourfold star, arrows or letters. Ground deep bottle-green #173b31, ink muted antique-brass #b49b68, slight flat jade inner accent.",
+      "references": [
+        "src/brand/icons/nocturne-v43-512.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-8b01f960-a53b-4de2-8054-2f7a05bf0f8f.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "repeat",
+      "design": "04-verdi",
+      "name": "铜绿窗",
+      "prompt": "Use case: logo-brand. Asset type: full-bleed repeating print sample, square 1024 x 1024 preview. Image 1 is the approved SINGLE ORIGINAL MOTIF to reproduce accurately. Fill the ENTIRE square edge to edge with a consistent repeat of that SAME motif, preserving its exact silhouette, internal negative spaces, stroke weight, colors, and background. Use 7 closely spaced columns of the exact tall angular portal emblem and 5 staggered rows; combine upright and 180-degree rotations into an Art Deco trellis with clear negative-space channels, no new shapes. Cropped partial motifs at all four edges convey continuous fabric. This is the all-over print companion to the standalone image. Flat 2D ink, absolutely NO depth, texture, metallic lighting, shadows, scene/mockup, fabric folds, labels, lettering, margins, borders or watermark. Professional understated interior textile designer's repeat study; not a new logo. No unrelated brand marks. Do not make a giant central motif.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-8b01f960-a53b-4de2-8054-2f7a05bf0f8f.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-14329f39-f3cc-4846-943f-c6620ecdf369.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "motif",
+      "design": "05-nocturne",
+      "name": "绛夜弦",
+      "prompt": "Use case: logo-brand. Asset type: flat original textile ornament exploration for NOCTURNE, a private-residence design identity. Input image 1 is the existing approved NOCTURNE emblem for lineage and visual vocabulary only. Create ONE SINGLE isolated motif centered at about 45% of the square canvas width, with generous even margins. Crisp refined two-dimensional ink artwork, flat solid colors, no 3D, no bevel, no metallic rendering, no paper grain, no drop shadow, no fabric mockup, no text, labels, grids, logos of other brands or watermark. Preview scale 1024 x 1024, not high-resolution production artwork. This is one standalone unit, not a repeating pattern. One original expressive minimal emblem formed from two opposed slender curved ribbons, as if two piano phrasing marks fold into an angular diagonal N with a small narrow window-shaped negative space at the centre. Combine an elegantly oblique thick-to-thin calligraphic diagonal with two straight slab-serif terminal bars echoing the provided NOCTURNE logo. Modern evening-music rhythm, quietly sensual, no heart, no infinity symbol, no flower, no coat-of-arms. Ground dark aubergine #2b1d31. Main ink soft chalk #e9ddc8 and one restrained muted pale-gold ribbon edge #b89a68.",
+      "references": [
+        "src/brand/icons/nocturne-v43-512.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png",
+      "delivery": "inline preview, automatically saved generated image"
+    },
+    {
+      "kind": "repeat",
+      "design": "05-nocturne",
+      "name": "绛夜弦",
+      "prompt": "Use case: logo-brand. Asset type: full-bleed repeating print sample, square 1024 x 1024 preview. Image 1 is the approved SINGLE ORIGINAL MOTIF to reproduce accurately. Fill the ENTIRE square edge to edge with a consistent repeat of that SAME motif, preserving its exact silhouette, internal negative spaces, stroke weight, colors, and background. Use staggered diagonal rows of the exact ribbon-N emblem, 7 motifs across and 6 rows, alternating upright and 180-degree rotation for a flowing nocturnal textile cadence. Keep sufficient negative space. Cropped partial motifs at all four edges convey continuous fabric. This is the all-over print companion to the standalone image. Flat 2D ink, absolutely NO depth, texture, metallic lighting, shadows, scene/mockup, fabric folds, labels, lettering, margins, borders or watermark. Professional understated interior textile designer's repeat study; not a new logo. No unrelated brand marks. Do not make a giant central motif.",
+      "references": [
+        "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png"
+      ],
+      "output": "/workspace/scratch/31025950e38e/generated_images/exec-e896e912-cc0b-40e8-af66-cc020f348dba.png",
+      "delivery": "inline preview, automatically saved generated image"
+    }
+  ]
+}
+

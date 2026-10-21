@@ -4,3 +4,5 @@ node_modules/
 build/
 .sites-runtime/
 out/
+# Ignore transient file-sync fragments in generated assets.
+dist/**/.*

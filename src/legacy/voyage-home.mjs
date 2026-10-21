@@ -1,8 +1,8 @@
-// v52: understated travel craft with an original open-arch stitch repeat.
+// v53: closed walnut storage pier and a legible original corridor repeat.
 const purchases={living:['sofa','chair','table','floor','light'],dining:['table','chair','storage','light'],master:['bed','storage','floor','light'],second:['bed','storage','chair','light'],kitchen:['storage','panel','tile','light'],bath:['storage','panel','tile','light'],balcony:['chair','table','curtain','tile'],utility:['storage','panel','tile']};
 const rooms={
- living:['让旅行的从容，留在材质里','干邑皮沙发与奶油浅石茶几延续温暖底色，圆角木边柜替代旅行箱造型。电视柜用素净奶油门片、胡桃木内凹格与细金属缝收口；餐边柜以细木纹和圆角连接两区，日常用品各有归处。','奶油浅石、温润胡桃木、干邑粒面皮革与少量哑光古铜。原创「回廊纹」只留在一只靠包上，以错位双拱和短针脚形成低对比线条。','原雕花玻璃改为清透玻璃与简洁木框，让侧向采光进入客餐厅；阅读光和柜内光独立控制，设备线缆藏进电视柜。','原开口、梁柱与通路保留，收纳采用日常木柜思路；柜体散热、门扇及家具圆角按实样与复尺深化。'],
- dining:['一张圆桌，收拢相聚的温度','浅石圆桌搭配四把干邑软包餐椅，后方胡桃木餐边柜改为细木条滑门与圆钝边角。茶咖器皿集中收纳，柜上只留枝叶、书与一盏台灯。','暖胡桃木、奶油浅石意向桌面、柔软干邑皮革与小面积古铜；不靠锁扣、铆钉和包角制造主题。','碟形吊灯照桌面，书架照明与茶咖位分路；圆桌周围的视线与走动保持舒展。','餐边柜可按常规木作深化；餐椅拉出、柜门开启与入户路线需同时试排，桌面结构与防污按成品样板核验。'],
+ living:['让旅行的从容，留在材质里','干邑皮沙发与奶油浅石茶几延续温暖底色，圆角木边柜替代旅行箱造型。左侧原开放展示柱改为完整胡桃木封闭柜，柔和圆角与细缝收口，零碎用品藏进门后；电视柜与餐边柜维持轻盈体量。','奶油浅石、温润胡桃木、干邑粒面皮革与少量哑光古铜。原创「回廊纹」在干邑靠包上作连续小尺度满印，以错位双拱和短针脚形成清楚而克制的节奏。','原镂空装饰收敛为素净墙边、简洁木框与清透玻璃；竖向柜不再设置开放格，侧向采光与通路保留。阅读光独立控制，设备线缆藏进电视柜。','保留原开口、梁柱位置与通路；封闭柜按原展示柱范围深化，柜门开启、散热、饰面圆角及净通道需以复尺核对。'],
+ dining:['一张圆桌，收拢相聚的温度','浅石圆桌搭配四把干邑软包餐椅，后方胡桃木餐边柜保留细木条滑门与圆钝边角。左侧竖向开放格同步改为圆角封闭柜，茶咖器皿集中收纳，柜上只留枝叶、书与一盏台灯。','暖胡桃木、奶油浅石意向桌面、柔软干邑皮革与小面积古铜；不靠锁扣、铆钉和包角制造主题。','碟形吊灯照桌面，茶咖位与环境光分路；实心柜面收拢视线，圆桌周围的走动保持舒展。','餐边柜可按常规木作深化；餐椅拉出、柜门开启与入户路线需同时试排，桌面结构与防污按成品样板核验。'],
  master:['把安静，织进奶油与干邑之间','保留皮革床头、原转角窗与薄书桌，床侧改为素净圆角胡桃抽屉柜。床品以原白为主，燕麦床尾织物只留窄干邑缝线，一枚回廊暗纹靠包与客厅轻轻呼应。','原白棉麻、燕麦织物、干邑皮革、胡桃木与微光古铜；纹样通过同色织线显现，床下与窗下柜面保持素净。','两侧阅读灯独立，纱帘和遮光层分开；床品收窗下，常用品归床侧浅抽屉，墙面艺术保持疏朗。','床侧净距、衣柜开启与窗边位置按实测核对；皮革和织物先比较耐磨、触感与维护样板。'],
  second:['窄书房，也有舒展的秩序','单人日间床沿右墙纵向摆放，左侧浅书桌与薄柜接成工作面。床下用普通抽屉收床品，奶油柜门配胡桃细边，两张不同旅行线稿让视线有停留。','奶油柜面、胡桃桌面、干邑耐磨软包与原白织物；一只小靠包点到回廊线纹，其余柜面与床品保持素色。','桌面任务光与床边阅读光分开，线缆收入桌后槽；常用书开放，工具与床品各归抽屉。','维持窄房比例和纵向单人床，工作椅、抽屉与房门同时试排，不把概念图当作实测尺寸。'],
  kitchen:['让木纹与浅釉，照顾烟火日常','保留U形洗切煮和窗下水槽，奶油上柜搭配连续胡桃木色下柜。取消柜门图案与满墙符号，浅釉防溅墙只留一小段低对比弧线砖，其余地方让材质说话。','易擦洗暖白釉砖、耐潮木纹门板、浅色瓷质台面与细古铜拉手；回廊弧线转译为平整釉面，不在湿热区使用织物或皮革。','柜下任务光照备餐区，锅具深抽屉与调味拉篮分工，台面留给洗切煮。','烟道、给排水和电器尺寸按现场核对；釉砖与接缝先做清洁样板，转角柜保持可达。'],
@@ -13,4 +13,4 @@ const rooms={
 export const VOYAGE_HOME={name:'驿金行邸',englishName:'VOYAGE ATELIER',subtitle:'干邑皮革 · 回廊暗纹 · 温润木作',description:'把旅行的从容留在温暖配色、细致缝线与有序收纳中。奶油白、干邑与胡桃木相接，古铜轻轻收边；原创回廊纹以错位双拱与短针脚构成，只在少量织物和釉面出现。日常家具承担生活，材质近看才显露细节。',purchaseKey:'dusk',inspiration:{title:'旅行工艺的温度，回廊纹的秩序',copy:'从 Louis Vuitton 的旅行精神与皮革工艺中取暖棕配色、精细收口和收纳秩序。家具采用日常木作与软包语言，纹样改为夜廊原创的错位双拱、短针脚，不使用品牌标识或经典花形组合。',links:[{label:'Louis Vuitton · 旅行箱工艺',url:'https://en.louisvuitton.com/eng-nl/stories/louis-vuitton-trunks'}]},rooms:Object.fromEntries(Object.entries(rooms).map(([id,[title,copy,material,light,tradeoff]])=>[id,{title,copy,tradeoff,materials:[['布局与收纳',copy],['选材与软装',material],['光线与细节',light],['尺度',tradeoff]],purchase:purchases[id]}]))};
 export const VOYAGE_COLORS={wood:'#694632',wall:'#f0e7d6',stone:'#ddd0b8',sofa:'#a6693d',textile:'#eee3cd',accent:'#a08147',floor:'#c9b798'};
 export const VOYAGE_PLANS={second:'permanent',balcony:'bistro',kitchen:'u-cook',bath:'linen',utility:'ironing',dining:'extendable'};
-export const voyageAsset=(room,thumb=false)=>'/designs-v52/schemes/voyage-atelier/'+room+(thumb?'-thumb':'')+'.webp';
+export const voyageAsset=(room,thumb=false)=>'/designs-'+(['living','living2','dining'].includes(room)?'v53':'v52')+'/schemes/voyage-atelier/'+room+(thumb?'-thumb':'')+'.webp';

@@ -1,0 +1,56 @@
+[
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/dining.webp",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 76174,
+    "sha256": "8bf7f1f5e21fe126c4d6d088f8df1ae6f306e2577871ca66b502d0288d9c214c"
+  },
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/dining-thumb.webp",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15990,
+    "sha256": "f54ee306127b4cafd32a09f58a43b447f5b57cccb01b9cac294d7f500dc6c7e9"
+  },
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/living.webp",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 142268,
+    "sha256": "e8d137c0f06a48042c96befa1b1cd76a5530531d04f2e705af0b2212883a8aa8"
+  },
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/living-thumb.webp",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24072,
+    "sha256": "d6f6038e577b4a9e0c94bc08aa556731713c80d50b1a29ae544cb085525d4d1c"
+  },
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/living2.webp",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 115212,
+    "sha256": "f5d212e27592d8bd89cb4de14f99310ef5a6ca58fac8c88101b3870308b4d447"
+  },
+  {
+    "path": "dist/designs-v53/schemes/voyage-atelier/living2-thumb.webp",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22122,
+    "sha256": "f4cfed562587dc6a0c9af504c001792fc6cd3258817463ee67dd4d4397d9b934"
+  }
+]

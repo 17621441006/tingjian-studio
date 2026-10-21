@@ -1,0 +1,24 @@
+{
+  "room": "living",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-f4879bd0-a371-4df3-bdf1-549947fda364.png",
+  "assets": [
+    {
+      "path": "dist/designs-v53/schemes/voyage-atelier/living.webp",
+      "room": "living",
+      "thumb": false,
+      "width": 1536,
+      "height": 1024,
+      "bytes": 142268,
+      "sha256": "e8d137c0f06a48042c96befa1b1cd76a5530531d04f2e705af0b2212883a8aa8"
+    },
+    {
+      "path": "dist/designs-v53/schemes/voyage-atelier/living-thumb.webp",
+      "room": "living",
+      "thumb": true,
+      "width": 480,
+      "height": 320,
+      "bytes": 24072,
+      "sha256": "d6f6038e577b4a9e0c94bc08aa556731713c80d50b1a29ae544cb085525d4d1c"
+    }
+  ]
+}

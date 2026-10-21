@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "workbenchSchemes": 25,
+  "unchangedHomes": 24,
+  "all10FeaturedUnchanged": true,
+  "homepageBrandMotionAndFloraAlternativeUnchanged": true,
+  "websiteImages": 3,
+  "previewPatternImages": 10,
+  "previousAssetsUnchanged": true,
+  "assetRoutesAndDeployedHashesVerified": true,
+  "runtimeFiles": 12,
+  "hostingBytes": 267204848,
+  "visualReview": "All three generated interior views inspected; closed wood pier, no old carved glass, consistent cushion print. All ten pattern previews inspected.",
+  "browserTested": false,
+  "reason": "Bounded image/copy update; existing interaction code unchanged."
+}
