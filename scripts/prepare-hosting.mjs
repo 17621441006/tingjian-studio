@@ -7,9 +7,10 @@ const offloadedV48Main=p=>/designs-v48\/schemes\/(silver-retreat|mauve-walnut|pi
 const supersededFlora=p=>/designs-v49\/schemes\/silver-retreat\/(living|living2|kitchen|dining)(-thumb)?\.webp$/.test(p)||p.endsWith('designs-v49/featured/flora-768.webp');
 const supersededV50=p=>p.includes('designs-v50/schemes/azure-silence')||/designs-v50\/schemes\/silver-retreat\/(living2|dining)(-thumb)?\.webp$/.test(p)||p.endsWith('designs-v50/featured/flora-768.webp');
 const supersededV51=p=>p.includes('designs-v51/schemes/voyage-atelier')||/designs-v51\/schemes\/silver-retreat\/living(-thumb)?\.webp$/.test(p)||p.endsWith('designs-v51/featured/flora-768.webp');
-const supersededV52=p=>/designs-v52\/schemes\/voyage-atelier\/(living|living2|dining)(-thumb)?\.webp$/.test(p);
+const supersededV52=p=>/designs-v52\/schemes\/voyage-atelier\/(living|living2|dining|master)(-thumb)?\.webp$/.test(p);
+const supersededV53=p=>/designs-v53\/schemes\/voyage-atelier\/(living|living2)(-thumb)?\.webp$/.test(p);
 const offloadedV46Main=p=>/designs-v46\/schemes\/terracotta-atelier\/[^/]+(?<!-thumb)\.webp$/.test(p);
-const localPreviews=new Set(['v42-amber-hero-768.webp','stillwood-living-768.webp','nocturne-living-768.webp','inkcourt-living-768.webp','dusk-living-768.webp','cinnabar-living-768.webp','verdigris-living-768.webp','stillwood-hero-768.webp','nocturne-hero-768.webp','inkcourt-hero-768.webp']);
+const localPreviews=new Set(['v42-amber-hero-768.webp','stillwood-living-768.webp','inkcourt-living-768.webp','dusk-living-768.webp','cinnabar-living-768.webp','verdigris-living-768.webp','stillwood-hero-768.webp','inkcourt-hero-768.webp']);
 const offloaded=(await fs.readdir('dist/collection/assets')).filter(name=>!localPreviews.has(name)).map(name=>'/collection/assets/'+name);
 const offloadedCollection=p=>offloaded.some(asset=>p.endsWith(asset));
 // Use the current entrypoints' import graph; stale synchronized chunks must
@@ -22,7 +23,7 @@ const syncFragment=p=>path.basename(p).startsWith('.');
 // Prepare in a fresh directory so preview/file synchronization cannot repopulate pruned media.
 await fs.mkdir('.sites-runtime',{recursive:true});
 const stage=await fs.mkdtemp('.sites-runtime/hosting-');
-await fs.cp('dist',stage,{recursive:true,filter:p=>!syncFragment(p)&&!obsoleteRuntime(p)&&!offloadedCollection(p)&&!offloadedV48Main(p)&&!supersededFlora(p)&&!supersededV50(p)&&!supersededV51(p)&&!supersededV52(p)&&!p.includes('designs-v46/schemes/silver-retreat')&&!offloadedV46Main(p)&&!offloadedV38Main(p)&&!p.includes('.openai')&&!p.includes('designs-v38/schemes/terracotta-atelier')&&!p.includes('designs-v38/schemes/silver-retreat')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
+await fs.cp('dist',stage,{recursive:true,filter:p=>!syncFragment(p)&&!obsoleteRuntime(p)&&!offloadedCollection(p)&&!offloadedV48Main(p)&&!supersededFlora(p)&&!supersededV50(p)&&!supersededV51(p)&&!supersededV52(p)&&!supersededV53(p)&&!p.includes('designs-v46/schemes/silver-retreat')&&!offloadedV46Main(p)&&!offloadedV38Main(p)&&!p.includes('.openai')&&!p.includes('designs-v38/schemes/terracotta-atelier')&&!p.includes('designs-v38/schemes/silver-retreat')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
 // New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
 const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
 const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
@@ -49,9 +50,10 @@ const {origin:v46Origin}=JSON.parse(await fs.readFile('verification/v48/media-or
 const html=await fs.readFile(stage+'/tour/legacy.html','utf8');
 await fs.writeFile(stage+'/tour/legacy.html',html.replace('</head>', '<script>globalThis.__TINGJIAN_V48_ORIGIN__='+JSON.stringify(v48Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V46_ORIGIN__='+JSON.stringify(v46Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V38_ORIGIN__='+JSON.stringify(v38Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V26_ORIGIN__='+JSON.stringify(origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V34_ORIGIN__='+JSON.stringify(v34Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V35_ORIGIN__='+JSON.stringify(v35Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V36_ORIGIN__='+JSON.stringify(v36Origin).replaceAll('<','\\u003c')+';globalThis.__TINGJIAN_V37_ORIGIN__='+JSON.stringify(v37Origin).replaceAll('<','\\u003c')+';</script></head>'));
 let bytes=0,count=0;const files=[];async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(syncFragment(p)){await fs.rm(p,{recursive:true,force:true});continue;}if(e.isDirectory())await walk(p);else{const b=await fs.readFile(p);bytes+=b.length;count++;files.push({path:'dist/'+path.relative(stage,p),bytes:b.length,sha256:createHash('sha256').update(b).digest('hex')});}}}await walk(stage);
-// Reserve 1 MiB for tar headers, padding and the hosting manifest.
-assert(bytes<256*1024*1024-1024*1024,'deployment exceeds platform budget including archive overhead');
-await fs.writeFile('verification/v53/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
+// Reserve 768 KiB for tar headers, padding and the hosting manifest.
+// The final archive is also checked against the full expanded 256 MiB limit.
+assert(bytes<256*1024*1024-768*1024,'deployment exceeds platform budget including archive overhead');
+await fs.writeFile('verification/v54/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
 const retired='.sites-runtime/retired-'+randomUUID();
 try{await fs.rename('out',retired);}catch(e){if(e.code!=='ENOENT')throw e;}
 await fs.rename(stage,'out');

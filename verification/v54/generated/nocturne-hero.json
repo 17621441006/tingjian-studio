@@ -1,0 +1,27 @@
+{
+  "room": "hero",
+  "scheme": "nocturne",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-3f090fd6-178c-4385-a6e0-a4aaf5c08166.png",
+  "assets": [
+    {
+      "path": "dist/designs-v54/featured/nocturne-hero.webp",
+      "room": "hero",
+      "scheme": "nocturne",
+      "thumb": false,
+      "width": 1376,
+      "height": 768,
+      "bytes": 93618,
+      "sha256": "54102e1778360fe466518b384bc7274a57e28aa67c8b88be164cd476e4486906"
+    },
+    {
+      "path": "dist/designs-v54/featured/nocturne-hero-768.webp",
+      "room": "hero",
+      "scheme": "nocturne",
+      "thumb": true,
+      "width": 768,
+      "height": 429,
+      "bytes": 44438,
+      "sha256": "376ef4530be400273fa4f748a82c7162609742f1187a55374b51e95055c9ab17"
+    }
+  ]
+}

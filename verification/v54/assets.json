@@ -1,0 +1,142 @@
+[
+  {
+    "path": "dist/designs-v54/featured/nocturne-hero.webp",
+    "room": "hero",
+    "scheme": "nocturne",
+    "thumb": false,
+    "width": 1376,
+    "height": 768,
+    "bytes": 93618,
+    "sha256": "54102e1778360fe466518b384bc7274a57e28aa67c8b88be164cd476e4486906"
+  },
+  {
+    "path": "dist/designs-v54/featured/nocturne-hero-768.webp",
+    "room": "hero",
+    "scheme": "nocturne",
+    "thumb": true,
+    "width": 768,
+    "height": 429,
+    "bytes": 44438,
+    "sha256": "376ef4530be400273fa4f748a82c7162609742f1187a55374b51e95055c9ab17"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/bedroom.webp",
+    "room": "bedroom",
+    "scheme": "nocturne",
+    "thumb": false,
+    "width": 1200,
+    "height": 896,
+    "bytes": 71598,
+    "sha256": "f2e211b5c543c3aa36cbc7f32233135a43065e5ab349da35f5ee06d19fe78484"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/bedroom-768.webp",
+    "room": "bedroom",
+    "scheme": "nocturne",
+    "thumb": true,
+    "width": 768,
+    "height": 573,
+    "bytes": 44154,
+    "sha256": "032c1d369ce11f735a47ad59bf9977b03fc8ab246707e6253e518cf2b5b07ab3"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/living.webp",
+    "room": "living",
+    "scheme": "voyage-atelier",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 132716,
+    "sha256": "ffa08207c7c1f2d9424d4422f9b20f6a07bf764ca094c96cd1770bc5661ad9a8"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/living-thumb.webp",
+    "room": "living",
+    "scheme": "voyage-atelier",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24634,
+    "sha256": "ef9b15b7ee04b2f1f2d5180d81f59dfce02cba63b16c747f142868f2a70ec134"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/living2.webp",
+    "room": "living2",
+    "scheme": "nocturne",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 84320,
+    "sha256": "414ab073cf2060d89d6ac686dda84b873692f4615be18b33345b1b6fd90e17f9"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/living2-768.webp",
+    "room": "living2",
+    "scheme": "nocturne",
+    "thumb": true,
+    "width": 768,
+    "height": 512,
+    "bytes": 30094,
+    "sha256": "3807ac1b7826055288b55548845bbcf1b72a7eb78e89f43287e132b2930aba25"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/living.webp",
+    "room": "living",
+    "scheme": "nocturne",
+    "thumb": false,
+    "width": 1200,
+    "height": 896,
+    "bytes": 36690,
+    "sha256": "1afb616a3aaea7e45c3aecfd65be7572840bf7e70932d54a5a82aac3b5376b27"
+  },
+  {
+    "path": "dist/designs-v54/schemes/nocturne/living-768.webp",
+    "room": "living",
+    "scheme": "nocturne",
+    "thumb": true,
+    "width": 768,
+    "height": 573,
+    "bytes": 22858,
+    "sha256": "dfbed1f3e2e83be226845577ea7601e3b185fced30f8ca45dbdabd4cfb7b6baa"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/living2.webp",
+    "room": "living2",
+    "scheme": "voyage-atelier",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 103600,
+    "sha256": "7834475cf331d2c7b117a439d5c6d3464f4a0c0dcf404affa0d0f7a7ac0bff3f"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/living2-thumb.webp",
+    "room": "living2",
+    "scheme": "voyage-atelier",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22378,
+    "sha256": "6b6dce46f13c16b01796f1fcefbcd1b4f699689cb2704a049b5e8cc1b2bc10d6"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/master.webp",
+    "room": "master",
+    "scheme": "voyage-atelier",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 113990,
+    "sha256": "80698452af79eb933c25cafcc2ef63b3fb521b783d5bab82a7529e15550e0c92"
+  },
+  {
+    "path": "dist/designs-v54/schemes/voyage-atelier/master-thumb.webp",
+    "room": "master",
+    "scheme": "voyage-atelier",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20326,
+    "sha256": "11d90629f8d13c927e2c02bef8e8206fed198eda5c52cb5c5028eaf0ac3486f7"
+  }
+]

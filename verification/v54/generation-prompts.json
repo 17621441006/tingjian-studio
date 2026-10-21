@@ -1,0 +1,74 @@
+[
+  {
+    "id": "voyage-living",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v53/schemes/voyage-atelier/living.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-54aed7c6-219f-41ab-aa66-10be0b9691e8.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-4f6ed751-1935-404b-a370-da821eac152f.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the ONLY room/edit target, a finished small Shanghai apartment VOYAGE ATELIER. Images 2 and 3 are the client's approved original NOCTURNE 'Woven Emblem' single motif and all-over repeat, artwork to reproduce on selected accessories. Preserve the composition, exact room proportions, doors, beam, new SOLID rounded walnut cabinet pier at left, clear glass, cognac sofa, every furniture position, light, walls, city, camera and warm cream/walnut palette of image 1. Change ONLY these soft accessories: (1) Replace the sofa's brown arch-print square cushion with an ivory woven cushion with the exact tobacco-brown Woven Emblem from images 2-3 in a neat repeated grid, about four motifs across; keep its size/position. Maintain the distinctive four angular serif N arms, central rectangular void and alternating copper tips, no simplified cross. (2) The blanket draped over the sofa arm becomes plain ivory cashmere with a very narrow tobacco stitched border, no lace pattern. (3) Replace the small brass tray on the coffee table with a slim cognac leather valet tray with turned-up edges and one small blind-embossed Woven Emblem visible in its floor beside the existing cup. All other cushions are plain ivory/cognac. Visible tactile woven jacquard, stitched leather, entirely realistic lighting and folds, subtle but clearly legible at full-room scale. No branded luggage, no LV elements, no text, no added furniture, no patterns on walls, floor or cabinetry. Maintain photoreal architectural photography, output landscape 1536x1024.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-1fd076c9-1c57-4e12-933a-31f4a541ad44.png"
+  },
+  {
+    "id": "voyage-master",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v52/schemes/voyage-atelier/master.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-54aed7c6-219f-41ab-aa66-10be0b9691e8.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-4f6ed751-1935-404b-a370-da821eac152f.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the room to edit. Images 2 and 3 are exact approved original Woven Emblem motif and repeat references. Preserve this completed VOYAGE ATELIER bedroom exactly: architecture, corner windows, desk, cream walls, cognac leather bed, round-corner walnut bedside cabinets, gold lamps, camera and light. Only restyle two soft furnishings. Change the brown central lumbar cushion's arch symbol into ONE precisely matched Woven Emblem from image 2, embroidered warm ivory on cognac linen, well proportioned and no text. Change the existing folded bed runner into a slim ivory/oat jacquard runner with the precise small tobacco-brown Woven Emblem repeating across its entire face, about seven motifs across bed width, clear legible grid with substantial breathing space; thin cognac piping and realistic fabric folds. Preserve plenty of plain white duvet and pillows: print restricted to this runner only. Make the small window seat cushion plain cognac, removing its old arch mark. No additional furniture or decorative objects, no printed walls, no luggage, no external brands, no changing geometry or perspective. Upscale believable textile product integration, landscape1536x1024.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-c722d984-34e6-43c4-8b41-f37d27fb8a1c.png"
+  },
+  {
+    "id": "nocturne-living",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/collection/assets/nocturne-living.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-e896e912-cc0b-40e8-af66-cc020f348dba.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the approved NOCTURNE room and must retain its exact architecture, composition, green sectional, original white walls, black fluted door casings, dark parquet, geometric wall art, marble low table, brightness, lights, camera/framing. Images 2-3 are the client's original Nocturne Ribbon monogram and repeat artwork. Preserve that exact serif N with its flowing S-like diagonal ivory ribbon and fine pale-gold edge. Use the artwork on only two existing sofa cushions and one small tray. Re-cover one visible square front cushion near the sofa's corner junction in deep bottle-green/charcoal ground with small ivory-and-muted-gold Ribbon Ns repeating in the same diagonal stagger as image 3, roughly four motifs across; replace the adjacent square cushion with ivory linen featuring ONE deep forest-green Ribbon N with fine muted gold edge. Leave remaining cushions and sofa solid forest green. Replace one book stack on the table with a small matte forest-green lacquer tray, with one small gold Ribbon N near a corner, retaining at least two book stacks. Shift the references' aubergine ground to dark green to harmonize; do not introduce a large purple field. Very refined limited accents, recognizable pattern at full room scale, realistic embroidered/jacquard texture follows cushion perspective, no flat graphic overlays or room-wide pattern. No new wall decoration, furniture or text. Output1200x896 same field of view.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-504e4e0b-0377-44c7-8f92-be9e157a2397.png"
+  },
+  {
+    "id": "nocturne-bedroom",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/collection/assets/nocturne-bedroom.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-e896e912-cc0b-40e8-af66-cc020f348dba.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Image 1 is the exact existing NOCTURNE bedroom to edit, images2-3 the approved original Ribbon N single motif and full repeat. Preserve the entire room, camera/framing, all windows, view, original warm recessed light, headboard, charcoal curtains, green armchair, bedside elements, white walls and floor. Add a slim folded bed runner at the foot: charcoal-grey/green ground, precise small repeating Ribbon N from the reference in soft warm ivory and desaturated champagne-gold hairline edges, diagonal stagger repeat, about seven motifs across. It must visibly repeat across the cloth, not one big N. Keep at least three quarters of bedding plain white and leave the runner light enough to read. Add one modest forest-green rectangular lumbar cushion centered in front of the white pillows, embroidered with ONE ivory Ribbon N with a thin champagne-gold accent. Keep the armchair throw plain ivory and everything else unchanged. Sophisticated tactile woven and embroidered textile, realistic perspective, folds and light, no purple walls, no giant logo, no brand text, no additional furniture. Output1200x896, exact original field of view.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-ef9acb36-3eea-41b7-b5aa-ebb0aeb99143.png"
+  },
+  {
+    "id": "nocturne-hero",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/collection/assets/nocturne-hero.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-e896e912-cc0b-40e8-af66-cc020f348dba.png"
+    ],
+    "prompt": "Precise soft furnishing edit for the current NOCTURNE homepage hero. Image 1 is the exact target, images 2 and 3 the client's original Ribbon N emblem and staggered repeat. Preserve EVERYTHING about the first image's composition, camera, apartment, city skyline, lighting, white walls, curved forest-green sofa, dark marble table, floor, lamps, dining and bar. On the green sofa add just TWO modest cushions: one square deep charcoal/forest-green jacquard cushion with the exact repeated ivory Ribbon N with fine muted gold outline from image 3 (about four motifs across, diagonal stagger), and a smaller ivory linen lumbar cushion with ONE dark-green Ribbon N with gold hairline. Copy the distinctive curved diagonal ribbon serif N accurately from image2. Do not use purple; replace reference's background with very dark green. On the existing black table add a slim small forest-green lacquer valet tray beside existing books, single discreet gold Ribbon N at a corner. Keep other surfaces pattern-free and maintain all the negative space and sight lines. No new furniture, no words, no brand labels. Photoreal fibers, folds, correct perspective and evening reflections. Pattern accents must be visible but restrained. Same wide framing1376x768.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-3f090fd6-178c-4385-a6e0-a4aaf5c08166.png"
+  },
+  {
+    "id": "voyage-living2",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v53/schemes/voyage-atelier/living2.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-1fd076c9-1c57-4e12-933a-31f4a541ad44.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-54aed7c6-219f-41ab-aa66-10be0b9691e8.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-4f6ed751-1935-404b-a370-da821eac152f.png"
+    ],
+    "prompt": "Precise object edit. Image1 is the REVERSE view to edit, preserve its exact camera, architecture, closed walnut pillar at right, clear glass and beam/window, all furniture positions, light, floor and city. Image2 is the approved UPDATED opposite view: only its cushion/blanket/leather tray styling is the consistency guide. Images3/4 are exact Woven Emblem single and repeated artwork. In image1 replace the sofa's old brown arch cushion with the same IVORY square cushion with tobacco-brown Woven Emblem repeat as image2, 3-4 motifs across; maintain the angular four-N arrangement and central void, retain adjacent ivory pillow. Make the draped blanket same plain ivory with narrow brown edge as image2. On the stone coffee table place the same small cognac leather turned-edge tray and small gold cup as image2 in place of the small existing bowl, with subtle blind-embossed Woven Emblem in tray. All else unchanged. Do not copy camera or room layout from image2. No branded luggage, no open display pier, no carvings, no patterns on hard finishes. Real woven fabric/light/shadow and photoreal photography. Landscape1536x1024.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-03ecba66-7935-41f5-8a07-9755ed126ecf.png"
+  },
+  {
+    "id": "nocturne-living2",
+    "target": "/workspace/scratch/31025950e38e/nocturne-current/dist/collection/assets/v42-nocturne-living2.webp",
+    "refs": [
+      "/workspace/scratch/31025950e38e/generated_images/exec-504e4e0b-0377-44c7-8f92-be9e157a2397.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-00beba25-b6ad-49fc-8b23-6eaa2ce4f15a.png",
+      "/workspace/scratch/31025950e38e/generated_images/exec-e896e912-cc0b-40e8-af66-cc020f348dba.png"
+    ],
+    "prompt": "Precise object edit. Image1 is the exact REVERSE view of NOCTURNE to edit. Preserve its camera, architecture, wall/door/window positions, natural day light, green sectional, white walls, dark parquet, white stone table and all furniture. Image2 is the approved opposite view and supplies only exact soft accessory consistency. Image3 original Ribbon N artwork and image4 original staggered repeat. Replace just two existing sofa cushions near the central junction with the same pair as image2: one bottle-green/charcoal square with ivory Ribbon N all-over repeat, muted pale gold edge, about4 motifs across; one ivory linen square with ONE dark-green curved Ribbon N and a pale gold edge. Keep remaining cushions solid green. Replace one central table book stack with the same small forest-green lacquer tray with discreet gold Ribbon N as image2, keep two other stacks. Exact serif N with S-like curving diagonal ribbon, not simple plain letter. No purple ground; forest green harmonizes with sofa. Retain broad calm unpatterned surfaces. This is the same room seen in the reverse direction, so no camera from image2 or extra architecture. Photo-realistic tactile fabric, perspective, folds and shadows. Landscape1536x1024.",
+    "generated": "/workspace/scratch/31025950e38e/generated_images/exec-ec03dc94-9725-4fc1-90d1-81578597e1c8.png"
+  }
+]

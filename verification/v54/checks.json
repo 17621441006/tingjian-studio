@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "workbenchSchemes": 25,
+  "unchangedOtherWorkbenchSchemes": 24,
+  "featuredOrder": [
+    "nocturne",
+    "cashmere-hush",
+    "dusk",
+    "saddle-weave",
+    "flora",
+    "cinnabar",
+    "verdigris",
+    "stillwood",
+    "amber",
+    "inkcourt"
+  ],
+  "unchangedOtherFeaturedSchemes": 9,
+  "websiteImages": 7,
+  "derivatives": 14,
+  "homeMotionBrandAndFlowerAlternativeUnchanged": true,
+  "selectedMotifs": "02 Woven Emblem / 05 Nocturne Ribbon",
+  "motifMasters": "Lossless source archive; not part of deployment",
+  "assetRoutesAndHostingHashesVerified": true,
+  "hostingBytes": 267524972,
+  "hostingFiles": 781,
+  "visualReview": "All 7 final images reviewed: original geometry retained; woven cushion and runner repeat legible; Ribbon N recolored to forest green/charcoal with ivory/gold; matching reverse views.",
+  "browserTested": false,
+  "verificationLimit": "Bounded image/copy changes; interactive source files unchanged, routes and built metadata verified."
+}

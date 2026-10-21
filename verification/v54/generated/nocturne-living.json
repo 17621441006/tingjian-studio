@@ -1,0 +1,27 @@
+{
+  "room": "living",
+  "scheme": "nocturne",
+  "source": "/workspace/scratch/31025950e38e/generated_images/exec-504e4e0b-0377-44c7-8f92-be9e157a2397.png",
+  "assets": [
+    {
+      "path": "dist/designs-v54/schemes/nocturne/living.webp",
+      "room": "living",
+      "scheme": "nocturne",
+      "thumb": false,
+      "width": 1200,
+      "height": 896,
+      "bytes": 36690,
+      "sha256": "1afb616a3aaea7e45c3aecfd65be7572840bf7e70932d54a5a82aac3b5376b27"
+    },
+    {
+      "path": "dist/designs-v54/schemes/nocturne/living-768.webp",
+      "room": "living",
+      "scheme": "nocturne",
+      "thumb": true,
+      "width": 768,
+      "height": 573,
+      "bytes": 22858,
+      "sha256": "dfbed1f3e2e83be226845577ea7601e3b185fced30f8ca45dbdabd4cfb7b6baa"
+    }
+  ]
+}
