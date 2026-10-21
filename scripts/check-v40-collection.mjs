@@ -14,7 +14,7 @@ assert.match(origin42.commit,/^[a-f0-9]{40}$/);
 const checks=[];let roomCount=0,links=0;
 function parse(file){return JSON.parse(execFileSync('python',['scripts/legacy-dom-tree.py',file],{encoding:'utf8',maxBuffer:8e6}));}
 const flat=node=>[node,...node.children.flatMap(flat)];
-for(const root of ['dist','build']){
+for(const root of ['dist','out']){
  for(const page of ['index.html',...COLLECTION.map(s=>'collection/'+s.id+'.html')]){
   const html=await fs.readFile(path.join(root,page),'utf8'),nodes=flat(parse(path.join(root,page))),ids=nodes.map(n=>n.attrs.id).filter(Boolean);
   assert.equal(new Set(ids).size,ids.length,page+' duplicate IDs');
@@ -71,7 +71,7 @@ class Element{
  showModal(){this.open=true;}close(){this.open=false;this.dispatchEvent({type:'close'});}
 }
 function make(n){const el=new Element(n.tag,n.attrs);el._text=n.text;for(const child of n.children)el.append(make(child));return el;}
-document=make(parse('build/collection/nocturne.html'));document.body=document.querySelector('body');document.createElement=tag=>new Element(tag);document.getElementById=id=>document.querySelector('#'+id);
+document=make(parse('out/collection/nocturne.html'));document.body=document.querySelector('body');document.createElement=tag=>new Element(tag);document.getElementById=id=>document.querySelector('#'+id);
 const window=new Element('window'),frames=new Map(),requests=[];let serial=0;const media={matches:false,addEventListener(){}};
 const ctx={document,window,console,URL,Set,Map,WeakMap,JSON,Image:class{set src(v){this.path=v;requests.push(v);}decode(){return new Promise(resolve=>setTimeout(resolve,this.path.includes('dining')?25:1));}},matchMedia:q=>q.includes('hover')?{...media,matches:true}:media,innerWidth:1400,innerHeight:900,location:{hash:''},history:{replaceState(){}},requestAnimationFrame:fn=>{frames.set(++serial,fn);return serial;},cancelAnimationFrame:id=>frames.delete(id),getComputedStyle:()=>({paddingLeft:'90'})};
 vm.runInNewContext(script,ctx);
@@ -88,6 +88,6 @@ livingLink.click();assert($('#lightbox-title').textContent.includes('看向阳�
 $('[data-room-view="0:0"]').click();livingLink.click();assert($('#lightbox-title').textContent.includes('看向玄关'));$('.lightbox').close();assert.equal(document.activeElement,livingLink);
 checks.push('Two-view selection updates image, full-screen original, pressed state and accessible caption; gallery includes all nine views.');
 checks.push('Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback.');
-const home=await fs.readFile('build/index.html','utf8'),studio=await fs.readFile('dist/tour/index.html','utf8');assert(!home.includes('data-music'));assert(studio.includes('data-music'));assert(studio.includes('data-legacy-frame'));assert(studio.includes('返回精选提案'));
+const home=await fs.readFile('out/index.html','utf8'),studio=await fs.readFile('dist/tour/index.html','utf8');assert(!home.includes('data-music'));assert(studio.includes('data-music'));assert(studio.includes('data-legacy-frame'));assert(studio.includes('返回精选提案'));
 const report={passed:true,proposals:COLLECTION.length,rooms:roomCount,verifiedOriginalImages:inventory.length,verifiedNewImages:currentInventory.length,checkedLocalLinks:links,browserVisualTested:false,mobileGPUTested:false,checks};
 await fs.writeFile('verification/v51/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);

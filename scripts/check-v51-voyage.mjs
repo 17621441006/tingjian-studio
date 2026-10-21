@@ -17,14 +17,14 @@ for(const [p,digest] of Object.entries(baseline.unchangedSources))assert.equal(h
 for(const [id,digest] of Object.entries(baseline.unchangedFeatured))assert.equal(hash(JSON.stringify(COLLECTION.find(s=>s.id===id))),digest,id);
 assert.deepEqual(COLLECTION.map(s=>s.id),baseline.featuredOrder);
 const assets=JSON.parse(await fs.readFile('verification/v51/assets.json','utf8'));assert.equal(assets.length,27);const unique=new Set();
-for(const a of assets){const b=await fs.readFile(a.path);assert.equal(b.length,a.bytes);assert.equal(hash(b),a.sha256);assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');assert.equal(hash(await fs.readFile(a.path.replace(/^dist\//,'build/'))),a.sha256);if(!a.thumb)unique.add(a.sha256);}
+for(const a of assets){const b=await fs.readFile(a.path);assert.equal(b.length,a.bytes);assert.equal(hash(b),a.sha256);assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');assert.equal(hash(await fs.readFile(a.path.replace(/^dist\//,'out/'))),a.sha256);if(!a.thumb)unique.add(a.sha256);}
 assert.equal(unique.size,13);
 for(const v of ['v47','v48','v49','v50'])for(const a of JSON.parse(await fs.readFile(`verification/${v}/assets.json`,'utf8')))assert.equal(hash(await fs.readFile(a.path)),a.sha256,'Prior approved asset changed: '+a.path);
 for(const id of ['silver-retreat','azure-silence']){
  assert.equal(Object.keys(HOMES[id].rooms).length,8);
  const frames=assembleHome(id,new Map());assert.equal(new Set(frames.map(f=>f.path)).size,8);
- for(const {id:room} of ROOMS){const scene=resolveScene({design:id,room});assert.equal(sceneAsset(scene),homeAsset(id,room));for(const thumb of [false,true])await fs.access('build'+homeAsset(id,room,thumb));}
- await fs.access('build'+livingReverseAsset(id));
+ for(const {id:room} of ROOMS){const scene=resolveScene({design:id,room});assert.equal(sceneAsset(scene),homeAsset(id,room));for(const thumb of [false,true])await fs.access('out'+homeAsset(id,room,thumb));}
+ await fs.access('out'+livingReverseAsset(id));
  if(id==='azure-silence'){const spec=wholeModelSpec({design:id,frames});assert.deepEqual(spec.palette,VOYAGE_COLORS);assert.deepEqual(spec.expansionPlans,VOYAGE_PLANS);}
 }
 assert.equal(HOMES['azure-silence'].name,'驿金行邸');
@@ -32,7 +32,7 @@ for(const r of [...ROOMS.map(r=>r.id),'living2'])assert((r==='living2'?livingRev
 const flora=COLLECTION.find(s=>s.id==='flora');assert.equal(flora.index,'05');assert.equal(flora.gallery.length,10);assert.equal(flora.rooms.find(r=>r.key==='dining').views.length,2);
 for(const r of ['living','living2','dining','dining-closed'])assert(floraAsset(r).startsWith('/designs-v51/'));
 assert(floraAsset('kitchen').startsWith('/designs-v50/'));for(const r of ['master','second','bath','balcony','utility'])assert(floraAsset(r).startsWith('/designs-v49/'));
-for(const root of ['dist','build']){const html=await fs.readFile(root+'/tour/legacy.html','utf8');assert.deepEqual([...html.matchAll(/data-home-design="([^"]+)"/g)].map(x=>x[1]),baseline.order);assert(html.includes('驿金行邸'));assert(!html.includes('雾蓝云邸'));assert(html.includes('花影绮居 · 初版'));}
+for(const root of ['dist','out']){const html=await fs.readFile(root+'/tour/legacy.html','utf8');assert.deepEqual([...html.matchAll(/data-home-design="([^"]+)"/g)].map(x=>x[1]),baseline.order);assert(html.includes('驿金行邸'));assert(!html.includes('雾蓝云邸'));assert(html.includes('花影绮居 · 初版'));}
 // Execute the real shared view controller: lazy load, close/open, cancellation,
 // failure preservation, re-render races, download names, and unrelated rooms.
 class E{constructor(){this.children=[];this.attrs={};this.dataset={};this.events={};}replaceChildren(){this.children=[];}append(...x){this.children.push(...x);}setAttribute(k,v){this.attrs[k]=v;}hasAttribute(k){return k in this.attrs;}addEventListener(t,f){this.events[t]=f;}click(){return this.events.click();}}

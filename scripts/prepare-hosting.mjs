@@ -45,7 +45,7 @@ let bytes=0,count=0;const files=[];async function walk(dir){for(const e of await
 assert(bytes<256*1024*1024-1024*1024,'deployment exceeds platform budget including archive overhead');
 await fs.writeFile('verification/v51/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
 const retired='.sites-runtime/retired-'+randomUUID();
-try{await fs.rename('build',retired);}catch(e){if(e.code!=='ENOENT')throw e;}
-await fs.rename(stage,'build');
+try{await fs.rename('out',retired);}catch(e){if(e.code!=='ENOENT')throw e;}
+await fs.rename(stage,'out');
 await fs.rm(retired,{recursive:true,force:true,maxRetries:5,retryDelay:100});
 console.log({hostingBytes:bytes,files:count,panoramas:'same-origin'});

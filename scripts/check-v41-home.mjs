@@ -60,7 +60,7 @@ g.window.emit('pageshow',{persisted:true});assert(!g.panels.classList.contains('
 const r=fixture({reduced:true,withGSAP:true});assert(r.intro.removed);assert.equal(r.timelineCalls.length,0);r.edges[1].emit('pointerenter');r.advance(5000);assert.deepEqual(visible(r),[0,1,2]);r.edges[1].emit('click');r.advance(0);assert.deepEqual(visible(r),[1,2,3]);
 const interrupted=fixture({withGSAP:true});interrupted.skip.emit('click');assert(interrupted.intro.removed);assert.equal(interrupted.document.activeElement,interrupted.cards[0]);
 
-for(const base of ['dist','build']){
+for(const base of ['dist','out']){
  const home=await fs.readFile(base+'/index.html','utf8');
  assert.equal((home.match(/data-panel=/g)||[]).length,10);
  assert(home.includes('<span>夜廊</span></div><div class="s">NOCTURNE</div>'));
