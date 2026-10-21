@@ -1,4 +1,5 @@
 import {CRAFT_SELECTION} from './craft-selection.mjs';
+import {FLORA_SELECTION} from './flora-selection.mjs';
 import fs from 'node:fs';
 const rooms=JSON.parse(fs.readFileSync(new URL('./rooms.json',import.meta.url),'utf8'));
 const material=(en,cn,note,color,texture)=>({en,cn,note,color,texture});
@@ -15,8 +16,8 @@ export const COLLECTION=[
  {id:'verdigris',en:'VERDIGRIS',cn:'铜绿',index:'06',group:'favorite',legacy:'copper',original:'夜廊 · 第 05 套 / 云岚铜影',layout:'horizontal',tone:'verdigris',tag:'矿物绿 · 古铜 · 云纹',poem:'石有山色，\n铜有时间。',intro:'灰绿矿物色建立重心，古铜点亮近处的细节。云与山的线条，化为一面墙、一盏灯的尺度。',copy:'沿用云岚铜影的深石、米灰织物与浅曲木线。用浅墙与自然窗光平衡浓色，把曲线限制在局部，柜体保持利落，日常通路保持完整。',quote:'一点时间的痕迹，让家更从容。',hero:'/tour/home-assets/copper/living.jpg',principles:[['矿物色的重心','深绿与灰只在局部形成重点。'],['近处的光','古铜和石纹在靠近时才显露细节。'],['曲线有边界','曲木只作局部收口，生活仍然利落。']],materials:[material('Green Slate','灰绿板岩意向','深绿矿物色与自然层理，局部使用以保持小空间明度。','#42534a',stone),material('Aged Bronze','做旧古铜','细支撑、镜边与小五金，保留不均匀的暖色层次。','#8b7854',metal),material('Warm Timber','暖色木饰面','木框和柜面将石的冷静连接到日常触感。','#836548',wood),material('Greige Weave','灰米细织物','浅靠包与细密坐垫，为石和铜留出柔软的部分。','#aaa391',textile)]}
 ];
 COLLECTION.push({id:'amber',en:'AMBER ARC',cn:'琥珀曲光',group:'favorite',legacy:'amber',original:'琥珀曲光',layout:'stack',tone:'amber',tag:'浅橡 · 陶土 · 琥珀玻璃',poem:'让曲线松开直角，\n让日光慢慢流动。',intro:'浅墙与浅橡木打开空间，肉桂色曲线落下温度。琥珀玻璃透过光，把一室明亮留给日常。',copy:'沿用你喜欢的琥珀曲光：圆角座具与薄边茶几让动线舒展，柜体保持利落。浓色集中在软装和少量玻璃，灰蓝矿物纹只在浴室台面出现，让八个空间明亮、连贯而不单调。',quote:'曲线有温度，日光有去处。',hero:'/tour/home-assets/amber/living.jpg',principles:[['浅色打开空间','象牙白墙面与浅橡木相接，让日光走得更远。'],['曲线点到为止','圆角落在沙发、桌端与灯具，柜面仍保持整齐。'],['颜色有落点','陶土与琥珀成为重点，灰蓝石纹只留在局部。']],materials:[material('Pale Oak','浅橡木','低光泽浅木柜面与地板，让光线在小空间里连续流动。','#c7ad83',wood),material('Terracotta','陶土色软包','肉桂与陶土集中在曲线座具和少量靠包，不铺满墙面。','#ab6848',textile),material('Amber Glass','琥珀玻璃','透光灯罩与轻薄玻璃器物，让色彩带着透明感。','#bd873c','linear-gradient(115deg,#fff8,transparent 38%,#e6ba5766 70%,#5e3a2866)'),material('Ivory Stone','象牙白石面','暖白与细灰纹衔接浅木，局部灰蓝纹理以实样确认。','#ddd5c6',stone)]});
-COLLECTION.push(...CRAFT_SELECTION);
-const preferredOrder=['nocturne','cashmere-hush','dusk','saddle-weave','cinnabar','verdigris','stillwood','amber','inkcourt'];
+COLLECTION.push(...CRAFT_SELECTION,FLORA_SELECTION);
+const preferredOrder=['nocturne','cashmere-hush','dusk','saddle-weave','flora','cinnabar','verdigris','stillwood','amber','inkcourt'];
 COLLECTION.sort((a,b)=>preferredOrder.indexOf(a.id)-preferredOrder.indexOf(b.id));
 COLLECTION.forEach((s,i)=>s.index=String(i+1).padStart(2,'0'));
 const enRooms={living:'Living',dining:'Dining',master:'Bedroom',second:'Study',kitchen:'Kitchen',bath:'Bathroom',balcony:'Terrace',utility:'Utility'};

@@ -1,0 +1,132 @@
+{
+  "version": 49,
+  "date": "2026-10-21",
+  "mode": "builtin_imagegen",
+  "purpose": "花影绮居第二版：织花入室；八个空间及客厅反向视角",
+  "schemes": [
+    {
+      "design": "silver-retreat",
+      "room": "living",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/living.webp"
+        ],
+        "prompt": "Use case: precise-object-edit. Asset: finished photoreal editorial interior design photograph for NOCTURNE / 花影绮居. Refine this exact existing compact Shanghai apartment, retaining its elegant warm ivory, olive green velvet, honey walnut, muted oxblood accents and fine aged brass. Reference image 1 is the EDIT TARGET and the architectural truth: keep the same room proportions, camera, wall lines, ceiling, doorways and windows, sunlight direction, floor and open circulation. Upgrade craft and architectural detail with original botanical abstractions, weaving and sculptural lighting inspired by LOEWE's experimental craft philosophy. Not a branded store. No logos, no text, no watermark, no repeated botanical illustration, no cloned identical berry bouquets. Airy and sophisticated, mostly warm cream, rich material texture, plausible compact home, no oversized furniture, no ornamental clutter. Output one landscape image at 1536x1024 with the same composition, not a collage.\nSpecific changes:\n1. Remove the large framed botanical print above the right-hand green sofa. In exactly that wall area make one built-in warm-ivory mineral-plaster panel with a very shallow, sculptural magnolia relief: only two large graceful blossoms and a few sweeping stems, monochrome in the wall's own shade, fine raised edges revealed by grazing daylight, architectural and museum-quality, not busy floral wallpaper. Keep the surrounding blank wall.\n2. Replace the framed repeated botanical picture above the distant dining sideboard with ONE original square textile artwork: abstract folded ivory petals and just a thin muted wine thread, in a thin walnut shadow frame. This is a different medium and composition from the plaster.\n3. Keep the small dining round table and mix of light upholstered / cane-backed chairs. Replace its globe pendant with one airy handwoven bamboo petal pendant, three overlapping thin softly curved leaf/petal shells, warm ivory diffusor inside, sculptural but modest and hung only over the dining table. The main living ceiling fitting stays understated.\n4. Keep the olive sofa, pale small scalloped stone coffee table, thin brass legs and slim honey-walnut TV cabinet. Refine two cabinet fronts with fine tightly woven cane inset behind a clear protective surface; retain one small oxblood panel. Change the floral-printed cushion to a plain cream pillow with an original raised stitched organic petal contour. Retain one wine accent cushion.\n5. REMOVE all the repeated round beige vases with berry bouquets, including TV console, table, side table and dining sideboard. ONLY ONE small ikebana of two white calla lilies in a low dark oxblood glazed asymmetric bowl on the coffee table, arranged low so it doesn't block the room. Dining table has only a shallow hand-formed ceramic bowl with three pears; dining sideboard has one empty sculptural blue-green glass vessel and a small lamp. TV console has a closed book and one small bronze object. Preserve generous empty tabletops.\nMake the plaster relief and woven pendant clearly legible while preserving the original photographic realism and intimate scale."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "living2",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-8a5e8dae-59ba-499b-af57-a9e58bc79c55.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/living2.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. This is the EXACT reverse view of image 2's living room, from dining toward the balcony. Preserve left olive scalloped sofa, right TV and thin walnut cabinet, original scalloped pale-stone coffee table, original full balcony glazing and city view. Replace left wall's framed flower print with the SAME warm ivory shallow magnolia plaster relief as image 2, two large sculptural blossoms and sparse stems, no frame. Replace printed sofa cushion with image 2's cream raised-stitched leaf/petal contour pillow beside wine pillow. TV cabinet fronts match image 2: fine woven cane on left and right, one oxblood center panel, protected smooth fine surface. TV top only a book and small bronze object. Coffee table has exactly image 2's low fluted oxblood bowl and TWO white calla lilies, low arrangement, book and small green box. Foreground dining table has only a hand-formed bowl with THREE pears, remove large bouquet completely. Preserve existing ceiling light. Match the new living room faithfully with reversed viewpoint, not a new interior."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "dining",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-37020de9-2219-4a83-8c45-833f9c11856c.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/dining.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Refine this exact dining/entry view to match the dining area visible in image 2. Keep round honey-walnut table, four light upholstered/cane-back chairs, left tall thin bookshelf, doorway at right and all original architecture. Replace globe pendant with SAME airy woven bamboo flower light from image 2: three thin overlapping curved petal shells, warm ivory diffuser, modest scale. Replace framed branch print on back-right wall with SAME original SQUARE textile relief artwork from image 2: folded cream/ivory fabric leaf-petal forms with a single fine dark wine thread, walnut shadow frame. Sideboard keep original size, honey-walnut finely fluted fronts (omit its prior large wine panel to match image 2). On sideboard only one empty low blue-green sculptural glass bowl and existing small brass lamp, no flowers. On dining table only shallow handmade ceramic bowl with THREE pears and existing slender brass candleholder. Remove all flower vases. Retain small trailing green plant on bookshelf, keep shelf art objects sparse. Sensuous weave texture and diffuse daylight."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "master",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-d330c7f2-eb6e-4791-944d-0faa85c98246.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/master.webp"
+        ],
+        "prompt": "Use case: precise-object-edit. Asset: finished photoreal editorial interior design photograph for NOCTURNE / 花影绮居. Refine this exact existing compact Shanghai apartment, retaining its elegant warm ivory, olive green velvet, honey walnut, muted oxblood accents and fine aged brass. Reference image 1 is the EDIT TARGET and the architectural truth: keep the same room proportions, camera, wall lines, ceiling, doorways and windows, sunlight direction, floor and open circulation. Upgrade craft and architectural detail with original botanical abstractions, weaving and sculptural lighting inspired by LOEWE's experimental craft philosophy. Not a branded store. No logos, no text, no watermark, no repeated botanical illustration, no cloned identical berry bouquets. Airy and sophisticated, mostly warm cream, rich material texture, plausible compact home, no oversized furniture, no ornamental clutter. Output one landscape image at 1536x1024 with the same composition, not a collage.\nBedroom-specific design: keep the olive-green low scalloped upholstered bed and exact bed/window layout, honey walnut slim bedside drawers, the corner bay window on back-left and right-side window, original cream bedding and a narrow wine throw. REMOVE both large framed repeated flower pictures, all repeated flowering berry bouquets and floral-printed cushions. Make the headboard wall one pale cream silk-linen wallcovering field with an extremely subtle tone-on-tone abstract fern jacquard: soft shadows visible only close up, no colorful print, no pictorial branch. The wall stays predominantly blank and light. Let petal shapes appear in the headboard's tailoring and one stitched cream cushion, not a picture. Replace the bedside lights with two small sculptural matte ivory ceramic sconces shaped as overlapping folded petals, warm diffused light, no exposed dazzling bulb. On the left-side wall above the slim cabinet show ONE narrow original monochrome ink-and-paper abstract landscape, entirely different from the living and dining wall treatments. The only botanical accent is one dried sculptural seed pod in a tiny amber glass bud vase on the window ledge; bedside tables have a book and small jewelry dish, no flower bouquets. Add a finely woven cane inset to the small window seat drawer, a practical subtle craft detail. Keep the window seat/write ledge and all sightlines. Rich tactile close detail, luminous calm, no busy repeating floral motifs, no expansion of room width."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "second",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-fa4b6a77-c2f5-4c04-82cb-71aba1602f59.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/second.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Keep the narrow room EXACTLY as image 1, single daybed lengthwise along RIGHT wall, thin desk and shallow storage LEFT, original central rear window, existing aisle. No widening, no double bed, no moving walls or windows. Keep olive green scalloped daybed and closed pull-out underbed. Replace repeated botanical picture with TWO small DIFFERENT original monochrome drawings: one fluid abstract contour on ivory paper, one spare dry leaf ink study, asymmetrically spaced thin walnut frames, not matching botanical posters. Desk drawer fronts receive finely woven cane insets behind protective smooth finish. Plain cream bed cushion with leaf-vein quilting, one small plain wine cushion, no colorful floral print. Desk lamp becomes a modest folded-paper sculptural lamp with a slender bronze stem, soft warm task light. Remove ALL flower vases and large tree beside window; ONLY ONE small potted fern on left shelf, no other plants. Bedside brass table only a closed book, desk only pencil cup and notebook. Preserve the compact sunny scale and open window."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "kitchen",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-64efcba9-9c6b-4551-9da7-e69d79da9aba.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/kitchen.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Retain exact U-shaped compact kitchen, window and sink at back, right gas hob, original olive-green lower cabinets and warm ivory upper cabinets, thin brass handles and cream countertop. Replace illustrated plant mural behind right hob with a small curated panel of SIX smooth glazed ceramic tiles, warm ivory with abstract slip-trailed petal swirls and delicate feathered pulled-glaze floral shapes in pale grey-green and faint smoky plum. Handmade controlled glaze, no pictorial flowering branch, no printed poster. Rest of backsplash plain warm ivory, smooth sealed easy-clean surfaces, no deep grooves or raw woven material near hob. Remove EVERY framed floral picture, bouquet and decorative beige vase from left shelves and counters. Left shelves now a few ivory cups, folded linen, one small oxblood ceramic bowl. Only ONE small pot of fresh basil by window far from gas hob; sink, prep counter and cooker remain clear. Existing green pot can remain on hob. Under-cabinet task light, tactile glazed details, airy brightness."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "bath",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-8f999beb-2c2f-4e17-a3c9-5817edb48842.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/bath.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Preserve exact bathroom: glass shower on LEFT, center walnut vanity and sink, original narrow window to its right, toilet on RIGHT, original floor, shower fittings and all geometry. Replace the green stripe-tile field around mirror with pale cream/grey-green glazed ceramic tiles showing a subtle low-relief leaf-vein texture, restrained and light. Mirror becomes a tall soft gently undulating petal-edge outline with thin antique-brass rim, not a floral-shaped gimmick, no sharp points; keep mirror size and position. Keep original slim cylindrical side sconces. Vanity broad left drawer receives sealed warm honey-toned WOVEN-RELIEF textured waterproof front, closed and easy to clean, NOT porous actual rattan. Keep original right pull-out hamper slightly open and lower storage proportions. Remove both huge flower bouquets and trailing window plant. ONLY ONE slender sweet-pea stem in a tiny pale-amethyst glass bud vase at vanity side. Soap dish and small necessities only. Ivory main walls stay bright, original window unobscured, no framed art. Architectural craft suitable to wet area."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "balcony",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-faaab513-6b69-4b81-893e-8b04996b41d2.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/balcony.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Keep this exact full-glazed compact balcony, windows, original daylight and clear central floor. Two small woven-back folding chairs and compact round table still only at RIGHT side, olive removable chair cushions and one wine accent. Remove the botanical framed print from right short wall completely: quiet light textured plaster wall instead. Change small table to a honey-walnut tabletop with ORIGINAL refined abstract leaf/petal marquetry in subtly different pale wood tones, thin rim, satin sealed surface and slender stable base; keep same small footprint. On table ONLY one ivory tea cup and a closed book, NO bouquet, no vase, no table lamp. Existing left tall green plant becomes a single restrained lemon tree with just a few small lemons, same planter footprint, does not block windows. Retain existing bamboo blinds and gauzy curtains. Craft detail, airy real apartment, no oversized furniture or duplicate art."
+      }
+    },
+    {
+      "design": "silver-retreat",
+      "room": "utility",
+      "path": "/workspace/scratch/31025950e38e/generated_images/exec-612f1c5c-baca-4146-9886-cc0715ca0b28.png",
+      "provider": "builtin_imagegen",
+      "args": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/workspace/scratch/31025950e38e/nocturne-current/dist/designs-v48/schemes/silver-retreat/utility.webp",
+          "/workspace/scratch/31025950e38e/generated_images/exec-ae673eff-dea0-410e-a1a3-5a3566584b98.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Produce ONE finished landscape 1536x1024 photoreal editorial interior image, not a collage. Image 1 is the architectural EDIT TARGET: keep its exact compact room size, floor, camera, windows, doorways, furniture positions and daylight. Do NOT widen the apartment. Image 2 is the new approved living-room craft and palette reference only: warm ivory, olive green, honey walnut, muted wine details, restrained brass, delicate original handcraft. Botanical patterns now live in materials and structures, not repeated pictures and bouquets. LOEWE-inspired experimental craft, but original design, no logo, no text, no watermark, not a store. Mostly luminous cream, uncluttered tabletops, buildable proportions. Remove every repeated berry-flower bouquet and framed botanical color print from image 1. Do not repeat the living-room magnolia wall or identical art in other rooms unless explicitly requested. Keep exact NARROW laundry balcony in image 1: windows entire LEFT, original stacked dryer/washing machine at far end, tall slim storage to machine right, right-side worktop with TWO removable fabric sorting baskets below; clear original center walkway. Refine tall cabinet door with a subtle sealed fine WOVEN-RELIEF texture in original light olive, shallow and easy-clean, not open real rattan. Right upper cabinets stay cream. Replace right worktop timber backsplash with a small pale cream glazed tile field and ONE thin understated abstract green leaf frieze, distinct from kitchen tile. Remove all flower vases, framed art, foreground plants and trailing shelf plant. ONLY ONE tiny potted herb at right counter's near end safely away from equipment. Counter keeps folded towels, small soap dispenser and one small basket with clear folding area; replace freestanding globe lamp with integrated warm task light under shelf. Keep machines and ventilation zones clear. Delicate useful craft, no decorative clutter or architectural enlargement."
+      }
+    }
+  ]
+}

@@ -113,3 +113,8 @@
 .tone-cashmere .hero h1,.tone-saddle .hero h1{font-size:clamp(34px,5.8vw,88px);max-width:13ch;line-height:1.03}
 .all-schemes a[data-switch-scheme=cashmere-hush]{--switch-rgb:66 48 43;--switch-accent:#e6d8cc;--switch-position:50% 60%}
 .all-schemes a[data-switch-scheme=saddle-weave]{--switch-rgb:43 46 37;--switch-accent:#dcc09b;--switch-position:50% 60%}
+
+/* Flora shares the established stack layout and motion. */
+.tone-flora{--paper:#f0e8d9;--ink:#3e4534;--muted:#6b6a56;--accent:#7d3243;--line:#3e45342b;--scene-bg:#e4dac5}
+.tone-flora .hero h1{font-size:clamp(34px,5.8vw,88px);max-width:13ch;line-height:1.03}
+.all-schemes a[data-switch-scheme=flora]{--switch-rgb:39 47 31;--switch-accent:#e8d7b0;--switch-position:60% 56%}

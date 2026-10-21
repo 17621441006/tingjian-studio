@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "workbenchSchemes": 22,
+  "featuredOrder": [
+    "nocturne",
+    "cashmere-hush",
+    "dusk",
+    "saddle-weave",
+    "flora",
+    "cinnabar",
+    "verdigris",
+    "stillwood",
+    "amber",
+    "inkcourt"
+  ],
+  "other21HomesUnchanged": true,
+  "original9FeaturedContentUnchanged": true,
+  "originalMotionAndBrandFilesUnchanged": true,
+  "newRoomImages": 9,
+  "newThumbnails": 9,
+  "newHeroPreview": 1,
+  "prior90ApprovedImageFilesUnchanged": true,
+  "rooms": 8,
+  "reverseLivingView": true,
+  "workbenchDeepLink": true,
+  "originalModelPaletteAndPlans": true,
+  "browserVisualTested": false,
+  "mobileGPUTested": false
+}

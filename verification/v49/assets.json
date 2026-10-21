@@ -1,0 +1,192 @@
+[
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/living.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 230620,
+    "sha256": "3d1dc9399fd2d0807f65a92776851eb87c9c271c0b630a7f86545f57480548db"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/living-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 22694,
+    "sha256": "bdf7b531c5a15f0efbdc1ffe6704e3f9a1c417b9c087ada05e4f361574e5de69"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/living2.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175666,
+    "sha256": "b60edf1a29809b81ee41f36d155977fdbc95ceed9b3eca2187213fde76436300"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/living2-thumb.webp",
+    "design": "silver-retreat",
+    "room": "living2",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 21888,
+    "sha256": "f3a5faba1a7f5907b0ca787a17d1a8bef5048f46933beab1cdb5f51a6347f35f"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/dining.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 149116,
+    "sha256": "f01a1ee16a8598d59919008c658be2140d84a3e1df3beb2fd76d5fceaa0fa03d"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/dining-thumb.webp",
+    "design": "silver-retreat",
+    "room": "dining",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 17612,
+    "sha256": "322af6203c965773ce25e08bfb31bd73354e231a312972e485ef93e5d9980765"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/master.webp",
+    "design": "silver-retreat",
+    "room": "master",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 197604,
+    "sha256": "cb1d67ff694619de431a02985ea2f9be2676e6ca8e8c2cf267a708562b2c73a3"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/master-thumb.webp",
+    "design": "silver-retreat",
+    "room": "master",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 18548,
+    "sha256": "250a127f4b02efa8aa4018903b6c1eaf3c876838aad353e9bfc25b3c9eed0b6d"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/second.webp",
+    "design": "silver-retreat",
+    "room": "second",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 187732,
+    "sha256": "bf57c0d1a51e5d318c6dd2f24f3c41d55a4b84ae6eb104be7d1d8d1be0826141"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/second-thumb.webp",
+    "design": "silver-retreat",
+    "room": "second",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 20514,
+    "sha256": "97451d7b768f7bb75fd1dd95d3b4bf4a98aae397585a49abadb38cdccfd8808e"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/kitchen.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 111252,
+    "sha256": "c445f281b3d951cf5cc75b044796784db1c5d1523a794b214c5d1c6ab9f10c75"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/kitchen-thumb.webp",
+    "design": "silver-retreat",
+    "room": "kitchen",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 16180,
+    "sha256": "5a74a3638e15d393f8f4bad26326f1e03039d977cf8f13f989ee6a63f2da498d"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/bath.webp",
+    "design": "silver-retreat",
+    "room": "bath",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 133132,
+    "sha256": "fd809664238946a327d74810e419a378c46cc2b231bf5b6e9bcd1e5dd56e16e6"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/bath-thumb.webp",
+    "design": "silver-retreat",
+    "room": "bath",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 15700,
+    "sha256": "3e4fd3ea6f60e87040cd19ef7cb83a4fb8963217d7804ec1d8ea93658a518291"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/balcony.webp",
+    "design": "silver-retreat",
+    "room": "balcony",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 194818,
+    "sha256": "fc2167fc3ef9488137b228595b789e3ec23fc21ed46431406a76a5845c100819"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/balcony-thumb.webp",
+    "design": "silver-retreat",
+    "room": "balcony",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 24576,
+    "sha256": "39ebc9c3c7815eefadf1b59ba444a0175012ca8208f668919815045b6ab3a2fe"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/utility.webp",
+    "design": "silver-retreat",
+    "room": "utility",
+    "thumb": false,
+    "width": 1536,
+    "height": 1024,
+    "bytes": 175452,
+    "sha256": "ed31727805c8a7a0a6013d34d1a450a4d4f5b01c6c29e97a607ccefab752ed8c"
+  },
+  {
+    "path": "dist/designs-v49/schemes/silver-retreat/utility-thumb.webp",
+    "design": "silver-retreat",
+    "room": "utility",
+    "thumb": true,
+    "width": 480,
+    "height": 320,
+    "bytes": 23334,
+    "sha256": "6ad2d12370346b88b20df0c859ba3d0f0eeefd316c53f5baecde24e08f292f36"
+  },
+  {
+    "path": "dist/designs-v49/featured/flora-768.webp",
+    "design": "silver-retreat",
+    "room": "hero",
+    "thumb": true,
+    "width": 768,
+    "height": 512,
+    "bytes": 58640,
+    "sha256": "070c9fe829595e34ce6a7bb1f5c31ad5e51ba8fd59572a110c8b419a573d391b"
+  }
+]

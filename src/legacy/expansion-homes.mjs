@@ -4,7 +4,7 @@ import {CRAFT_IDS,CRAFT_HOMES,CRAFT_COLORS,CRAFT_PLANS} from './craft-homes.mjs'
 // Independently authored complete schemes for the same apartment.
 export const EXPANSION_IDS=['terracotta-atelier','tea-cuisine','silver-retreat','moss-garden',...CRAFT_IDS,...COUTURE_IDS.filter(id=>id!=='silver-retreat')];
 export const expansionAsset=(design,room,thumb=false)=>{
- const base=COUTURE_IDS.includes(design)?'/designs-v48/schemes/':CRAFT_IDS.includes(design)?'/designs-v47/schemes/':RENEWED_IDS.includes(design)?'/designs-v46/schemes/':'/designs-v38/schemes/';
+ const base=design==='silver-retreat'?'/designs-v49/schemes/':COUTURE_IDS.includes(design)?'/designs-v48/schemes/':CRAFT_IDS.includes(design)?'/designs-v47/schemes/':RENEWED_IDS.includes(design)?'/designs-v46/schemes/':'/designs-v38/schemes/';
  const origin=!thumb&&['tea-cuisine','moss-garden'].includes(design)?globalThis.__TINGJIAN_V38_ORIGIN__||'':!thumb&&design==='terracotta-atelier'?globalThis.__TINGJIAN_V46_ORIGIN__||'':'';
  return origin+base+design+'/'+room+(thumb?'-thumb':'')+'.webp';
 };

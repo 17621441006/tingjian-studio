@@ -44,7 +44,7 @@ for(const root of ['dist','build']){
   }
  }
 }
-assert.equal(roomCount,COLLECTION.length*8);checks.push('Nine proposals × eight rooms, each with two living-room views; source and deployed routes, anchor targets, imagery and accessibility controls resolve.');
+assert.equal(roomCount,COLLECTION.length*8);checks.push('Ten proposals × eight rooms, each with two living-room views; source and deployed routes, anchor targets, imagery and accessibility controls resolve.');
 const inventory=JSON.parse(await fs.readFile('verification/v40/collection-images.json','utf8'));assert.equal(inventory.length,63);
 for(const row of inventory){const b=await fs.readFile(row.path);assert(b.length>1000);assert.equal(b.length,row.bytes);assert.equal(createHash('sha1').update('blob '+b.length+'\0').update(b).digest('hex'),row.sha);assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP');}
 checks.push('63 WebP files match verified, decoded image inventory; original room images reused unchanged.');
@@ -90,4 +90,4 @@ checks.push('Two-view selection updates image, full-screen original, pressed sta
 checks.push('Actual handlers: four lighting states, lightbox wrapping/close/focus, stale storage-image load, material hover cancellation, three media routes with preview fallback.');
 const home=await fs.readFile('build/index.html','utf8'),studio=await fs.readFile('dist/tour/index.html','utf8');assert(!home.includes('data-music'));assert(studio.includes('data-music'));assert(studio.includes('data-legacy-frame'));assert(studio.includes('返回精选提案'));
 const report={passed:true,proposals:COLLECTION.length,rooms:roomCount,verifiedOriginalImages:inventory.length,verifiedNewImages:currentInventory.length,checkedLocalLinks:links,browserVisualTested:false,mobileGPUTested:false,checks};
-await fs.writeFile('verification/v48/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
+await fs.writeFile('verification/v49/collection-checks.json',JSON.stringify(report,null,2)+'\n');console.log(report);
