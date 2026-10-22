@@ -18,12 +18,14 @@ const offloadedCollection=p=>offloaded.some(asset=>p.endsWith(asset));
 const runtimeFiles=new Set(),queue=['loader.js','trial.js'];
 while(queue.length){const name=queue.pop();if(runtimeFiles.has(name))continue;runtimeFiles.add(name);const source=await fs.readFile('dist/tour/legacy-runtime/'+name,'utf8');for(const match of source.matchAll(/["']\.\/([^"'\/]+\.js)["']/g))queue.push(match[1]);}
 const obsoleteRuntime=p=>p.includes('tour/legacy-runtime/')&&p.endsWith('.js')&&!runtimeFiles.has(path.basename(p));
+// Retain rollback and full-resolution artwork in source, not in the runtime package.
+const unusedBrandExport=p=>/icons\/nocturne-v43/.test(p)||/icons\/nocturne-v55-(1024|48)\.png$/.test(p)||/icons\/nocturne-v55\.(svg|ico)$/.test(p);
 const syncFragment=p=>path.basename(p).startsWith('.');
 // v19 removes old historical VR; all current panoramas now fit on the Site itself.
 // Prepare in a fresh directory so preview/file synchronization cannot repopulate pruned media.
 await fs.mkdir('.sites-runtime',{recursive:true});
 const stage=await fs.mkdtemp('.sites-runtime/hosting-');
-await fs.cp('dist',stage,{recursive:true,filter:p=>!syncFragment(p)&&!obsoleteRuntime(p)&&!offloadedCollection(p)&&!offloadedV48Main(p)&&!supersededFlora(p)&&!supersededV50(p)&&!supersededV51(p)&&!supersededV52(p)&&!supersededV53(p)&&!p.includes('designs-v46/schemes/silver-retreat')&&!offloadedV46Main(p)&&!offloadedV38Main(p)&&!p.includes('.openai')&&!p.includes('designs-v38/schemes/terracotta-atelier')&&!p.includes('designs-v38/schemes/silver-retreat')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
+await fs.cp('dist',stage,{recursive:true,filter:p=>!unusedBrandExport(p)&&!syncFragment(p)&&!obsoleteRuntime(p)&&!offloadedCollection(p)&&!offloadedV48Main(p)&&!supersededFlora(p)&&!supersededV50(p)&&!supersededV51(p)&&!supersededV52(p)&&!supersededV53(p)&&!p.includes('designs-v46/schemes/silver-retreat')&&!offloadedV46Main(p)&&!offloadedV38Main(p)&&!p.includes('.openai')&&!p.includes('designs-v38/schemes/terracotta-atelier')&&!p.includes('designs-v38/schemes/silver-retreat')&&!p.includes('scene-edits-v25')&&!p.includes('designs-v26')&&!p.includes('designer-v34')&&!p.includes('final-v35')&&!p.includes('designs-v36')&&!p.includes('layouts-v37')&&!p.includes('designs-v37')});
 // New full-size editorial media uses an immutable GitHub asset commit, like the existing gallery.
 const collectionOrigin=JSON.parse(await fs.readFile('verification/v40/media-origin.json','utf8'));
 const collectionBase=collectionOrigin.origin.replace('https://raw.githubusercontent.com/17621441006/tingjian-studio/','https://cdn.jsdelivr.net/gh/17621441006/tingjian-studio@');
@@ -53,7 +55,7 @@ let bytes=0,count=0;const files=[];async function walk(dir){for(const e of await
 // Reserve 768 KiB for tar headers, padding and the hosting manifest.
 // The final archive is also checked against the full expanded 256 MiB limit.
 assert(bytes<256*1024*1024-768*1024,'deployment exceeds platform budget including archive overhead');
-await fs.writeFile('verification/v54/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
+await fs.writeFile('verification/v55/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
 await fs.mkdir('.output',{recursive:true});
 const retired='.sites-runtime/retired-'+randomUUID();
 try{await fs.rename('.output/public',retired);}catch(e){if(e.code!=='ENOENT')throw e;}

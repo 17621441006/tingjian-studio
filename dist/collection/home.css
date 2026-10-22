@@ -41,10 +41,10 @@ body{background:var(--bg)}
 .p .go i{display:block;width:40px;height:1px;background:currentColor;transition:width .8s cubic-bezier(.2,.8,.2,1)}
 .p:hover .go i{width:90px}
 .foot{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;justify-content:space-between;padding:18px 3.4vw;font:500 9px var(--f-ui);letter-spacing:.34em;color:rgba(255,255,255,.55);pointer-events:none}
-.intro{position:fixed;inset:0;z-index:50;background:var(--bg);display:grid;place-items:center;pointer-events:none}
-.intro .t{font:300 clamp(28px,3vw,46px) var(--f-body);letter-spacing:.6em;color:var(--fg);overflow:hidden}
+.intro{position:fixed;inset:0;z-index:50;background:#fff;display:grid;place-items:center;pointer-events:none}
+.intro .t{font:300 clamp(28px,3vw,46px) var(--f-body);letter-spacing:.6em;color:#291e30;overflow:hidden}
 .intro .t span{display:inline-block}
-.intro .s{font:500 10px var(--f-ui);letter-spacing:.5em;color:var(--muted);text-align:center;margin-top:22px}
+.intro .s{font:500 10px var(--f-ui);letter-spacing:.5em;color:#756b79;text-align:center;margin-top:22px}
 .intro .intro-mark{width:clamp(104px,8vw,142px);height:clamp(104px,8vw,142px);margin:0 auto 32px;color:#cbb184}
 .plan-mini{position:fixed;right:3.4vw;bottom:7vh;z-index:20;width:180px;opacity:.75;pointer-events:none;mix-blend-mode:screen}
 .plan-mini img{filter:invert(1) grayscale(1) contrast(1.4);opacity:.55}
@@ -135,3 +135,6 @@ body{background:var(--bg)}
  .intro,.grain{display:none!important}
  .p,.top,.foot,.edge-nav{opacity:1!important;transform:none!important}
 }
+
+/* The launch surface is pure white; preserve film grain on the gallery itself. */
+body:has(.intro) .grain{visibility:hidden}

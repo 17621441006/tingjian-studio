@@ -1,0 +1,15 @@
+{
+  "selected": "③ 夜紫香槟",
+  "build": "passed",
+  "projectChecks": "passed",
+  "unchanged": [
+    "src/collection/home-motion.mjs",
+    "src/collection/catalog.mjs"
+  ],
+  "browser": "White opening screen and selected purple N verified; original three-panel home appears after entrance; no site errors observed.",
+  "maskableGlyphMaxRadius": 200.32224040280698,
+  "maskableSafeRadius": 204.8,
+  "iOSPhysicalDeviceTested": false,
+  "publishedImages": "Full-bleed, opaque; versioned v55 URLs.",
+  "packaging": "Only current runtime icons; max-coverage palette encoding retains original shape and colours within the existing platform budget."
+}
