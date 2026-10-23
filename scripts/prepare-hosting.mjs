@@ -55,7 +55,7 @@ let bytes=0,count=0;const files=[];async function walk(dir){for(const e of await
 // Reserve 768 KiB for tar headers, padding and the hosting manifest.
 // The final archive is also checked against the full expanded 256 MiB limit.
 assert(bytes<256*1024*1024-768*1024,'deployment exceeds platform budget including archive overhead');
-await fs.writeFile('verification/v55/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
+await fs.writeFile('verification/v56/hosting-inventory.json',JSON.stringify({bytes,count,files},null,2)+'\n');
 await fs.mkdir('.output',{recursive:true});
 const retired='.sites-runtime/retired-'+randomUUID();
 try{await fs.rename('.output/public',retired);}catch(e){if(e.code!=='ENOENT')throw e;}

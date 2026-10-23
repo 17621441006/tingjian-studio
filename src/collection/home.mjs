@@ -26,8 +26,8 @@ export function homePage(version){
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>夜廊 · 陈天涌私宅设计 — NOCTURNE</title>
 <meta name="description" content="夜廊 · 陈天涌私宅设计。NOCTURNE：夜廊、绒光静邸、暮色、鞍影织序、花影绮居、绛天、铜绿、栖静、琥珀曲光、山居，十种生活提案。">
-<meta name="theme-color" content="#ffffff">
-<style>html{background:#fff}.intro{background:#fff}</style>
+<meta name="theme-color" content="#0d0c0b">
+<style>html{background:#0d0c0b}.intro{background:#0d0c0b}</style>
 ${brandHead}
 <link rel="stylesheet" href="/collection/home.css?v=${version}">
 <script src="/collection/vendor/gsap.min.js" defer></script>
